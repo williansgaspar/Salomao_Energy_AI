@@ -1,0 +1,139 @@
+RESOLUÇÃO NORMATIVA ANEEL Nº 1.110, DE 10 DE DEZEMBRO DE 2024
+
+Fonte oficial: https://www2.aneel.gov.br/cedoc/ren20241110.pdf / https://www2.aneel.gov.br/cedoc/ren20241110.html
+
+AGÊNCIA NACIONAL DE ENERGIA ELÉTRICA – ANEEL
+
+Aprova as Regras de Comercialização de Energia Elétrica aplicáveis ao Sistema de Contabilização e Liquidação – SCL, os Procedimentos de Comercialização de Energia Elétrica, bem como altera as Resoluções Normativas nº 957, de 7 de dezembro de 2022, nº 1.000, de 7 de dezembro de 2021, e nº 1.011, de 29 de março de 2022.
+
+O DIRETOR-GERAL DA AGÊNCIA NACIONAL DE ENERGIA ELÉTRICA – ANEEL, no uso de suas atribuições regimentais, de acordo com a deliberação da Diretoria, tendo em vista o disposto na Lei nº 9.074, de 7 de julho de 1995, na Lei nº 9.427, de 26 de dezembro de 1996, na Lei nº 10.848, de 15 de março de 2004, no Decreto nº 5.163, de 30 de julho de 2004, e o que consta do processo nº 48500.005677/2022-43,
+
+RESOLVE:
+
+Art. 1º Aprovar as Regras de Comercialização de Energia Elétrica aplicáveis ao Sistema de Contabilização e Liquidação - SCL e os Procedimentos de Comercialização de Energia Elétrica, na forma dos módulos do Anexo I.
+
+Art. 2º Alterar o § 2º do art. 52 da Resolução Normativa nº 957, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"§ 2º O prazo para oferecimento da manifestação é de cinco dias úteis, contados do 1º dia útil do recebimento do Termo de Notificação de Descumprimento de Obrigação - TN." (NR)
+
+Art. 3º Alterar o § 2º do art. 60 da Resolução Normativa nº 957, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"§ 2º Impossibilitados os agentes de distribuição e transmissão de realizar qualquer suspensão do fornecimento em razão de determinação judicial ou motivo comprovadamente justificável e alheio à vontade do agente, devem o ONS e os agentes de distribuição informar tal fato à CCEE em até quarenta e oito horas da constatação do impedimento, encaminhando todos os documentos e informações atinentes." (NR)
+
+Art. 4º Alterar o § 9º do art. 62 da Resolução Normativa nº 957, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"§ 9º Os débitos de que trata o § 8º serão apurados a partir do primeiro dia subsequente ao prazo máximo estabelecido." (NR)
+
+Art. 5º Incluir o § 10 no art. 62 da Resolução Normativa nº 957, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"§ 10. Para as distribuidoras supridas, que não são agentes da CCEE, a ocorrência de cobrança bilateral pela distribuidora supridora, em caso de inadimplência, configurará inadimplência setorial para a distribuidora suprida, sem prejuízo das penalidades cabíveis." (NR)
+
+Art. 6º Alterar o caput do art. 96 na Resolução Normativa nº 1.000, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"Art. 96. No caso de conexão de outra distribuidora ou de unidade consumidora livre ou especial, que não utilize o processo simplificado da CCEE previsto nos Procedimentos de Comercialização, a distribuidora é responsável por realizar o projeto, a montagem e o comissionamento do sistema de medição, observadas as seguintes disposições:" (NR)
+
+Art. 7º Incluir o parágrafo 8º no art. 96 da Resolução Normativa nº 1.000, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"§ 8º O disposto neste artigo não se aplica no caso da utilização do modelo simplificado da CCEE para migração ao ACL, de que trata o art. 96-A." (NR)
+
+Art. 8º Incluir o art. 96-A da Resolução Normativa nº 1.000, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"Art. 96-A. No caso de migração para o ACL pelo modelo simplificado para comercialização varejista, a distribuidora é responsável por realizar as seguintes ações, no prazo de até 5 dias úteis contados da notificação eletrônica feita pelo sistema da CCEE:
+
+I - validar o cadastro inicial realizado pelo agente varejista;
+
+II - prestar as informações solicitadas;
+
+III - avaliar a solicitação da CCEE, sendo que em caso de reprovação deve informar o respectivo motivo.
+
+§ 1º O prazo disposto no caput se aplica a todas as solicitações realizadas pela CCEE que dependam de validação da distribuidora no procedimento de migração para o ACL no modelo simplificado para comercialização varejista.
+
+§ 2º Em caso de descumprimento do prazo disposto no caput a distribuidora deve creditar ao consumidor a compensação prevista no art. 440." (NR)
+
+Art. 9º Alterar o parágrafo 1º do art. 166 da Resolução Normativa nº 1.000, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"§ 1º Ao comunicar a opção, o consumidor potencialmente livre deve informar à distribuidora, observado o §6º:
+
+I - se a migração é total ou parcial;
+
+II - no caso de consumidor com demanda contratada maior ou igual a 500 kW:
+
+a) se fará adesão à CCEE; ou
+
+b) se será representado por agente varejista, bem como a opção pelo enquadramento no modelo simplificado para comercialização varejista." (NR)
+
+Art. 10. Alterar o parágrafo 3º do art. 166 da Resolução Normativa nº 1.000, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"§ 3º A partir da opção pela migração disposta no caput, nos casos em que o consumidor fará a adesão à CCEE ou não houver o enquadramento no modelo simplificado para comercialização varejista, a distribuidora deve:" (NR)
+
+Art. 11. Incluir o parágrafo 5º no art. 166 da Resolução Normativa nº 1.000, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"§ 5º No caso de enquadramento no modelo simplificado para comercialização varejista, conforme Submódulo 1.8 dos Procedimentos de Comercialização da CCEE, a distribuidora deve realizar as ações previstas no art. 96-A." (NR)
+
+Art. 12. Incluir o parágrafo 6º no art. 166 da Resolução Normativa nº 1.000, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"§ 6º Caso o consumidor potencialmente livre não informe o previsto no § 1º ao formalizar a comunicação prevista no caput, os procedimentos da distribuidora previstos nos arts. 96 e 96-A ficam suspensos até a informação ser prestada pelo consumidor ou a distribuidora receber a informação da CCEE." (NR)
+
+Art. 13. Alterar o parágrafo único do art. 354 da Resolução Normativa nº 1.000, de 7 de dezembro de 2021, que passa a vigorar com a seguinte redação:
+
+"Parágrafo único. A suspensão deve ser realizada nos prazos e condições estabelecidos em regulação específica, contados a partir da notificação enviada à distribuidora, nos termos dos Procedimentos de Comercialização, e independe de notificação prévia da distribuidora aos consumidores." (NR)
+
+Art. 14. Incluir linha na tabela do Anexo IV da Resolução Normativa nº 1.000, de 7 de dezembro de 2021, com a seguinte redação:
+
+"Anexo IV (...) Tipo | Dispositivo | Prazo | Descrição
+3 | art. 96-A | 5 dias úteis | Responder a CCEE no modelo simplificado para comercialização varejista."
+
+Art. 15. Incluir o parágrafo único no art. 13 da Resolução Normativa nº 1.011, de 29 de março de 2022, que passa a vigorar com a seguinte redação:
+
+"Parágrafo único. A CCEE, sempre que requerido pelo consumidor por meio de seus canais de atendimento, deve fornecer informações sobre o andamento e ações acerca do processo de migração, dados de medição de consumo, penalidades aplicadas ao seu representante varejista, dentre outros." (NR)
+
+Art. 16. Alterar o caput e § 3º do art. 13-A da Resolução Normativa nº 1.011, de 29 de março de 2022, que passa a vigorar com a seguinte redação:
+
+"Art. 13-A A CCEE é a gestora dos dados de medição das unidades consumidoras com a representação de que trata o art. 11, ficando a CCEE responsável pela recepção dos dados de medição e atribuí-los aos respectivos agentes representantes.
+...
+§ 3º De posse dos dados de medição e das informações a respeito da comercialização varejista, de que trata o art. 16-A, a CCEE deve realizar a agregação dos dados e a alocação do total de energia aos respectivos agentes representantes."(NR)
+
+Art. 17. Alterar o art. 16 da Resolução Normativa nº 1.011, de 29 de março de 2022, que passa a vigorar com a seguinte redação:
+
+"Art. 16. Nas situações de solicitação de desligamento da CCEE para ingresso no ambiente da comercialização varejista na condição de representado e de mudança de agente representante, a modelagem do ativo de geração ou consumo não envolverá transferência do histórico de comercialização vinculado ao representado, com exceção para fins de apuração do Encargo de Energia de Reserva, mas pode, nos termos de Procedimento de Comercialização - PdC, implicar a manutenção do histórico técnico do ativo de medição."(NR)
+
+Art. 18. Alterar o inciso I do Parágrafo único do art. 16-A na Resolução Normativa nº 1.011, de 29 de março de 2022, que passa a vigorar com a seguinte redação:
+
+"I – aos representantes, referente às informações dos respectivos representados no ACL;"(NR)
+
+Art. 19. Incluir o art. 16-B na Resolução Normativa nº 1.011, de 29 de março de 2022, que passa a vigorar com a seguinte redação:
+
+"Art. 16-B. A CCEE deve publicar relatórios periódicos de acompanhamento da comercialização varejista, respeitados os limites estabelecidos pela legislação geral de proteção de dados." (NR)
+
+Art. 20. Alterar o § 4º do art. 19 da Resolução Normativa nº 1.011, de 29 de março de 2022, que passa a vigorar com a seguinte redação:
+
+"§ 4º A notificação a que alude o § 3º deve ser, nos termos estabelecidos em Procedimento de Comercialização, encaminhada pelos correios ou por meio eletrônico." (NR)
+
+Art. 21. Alterar a Cláusula Oitava do Contrato para Comercialização Varejista, Anexo da Resolução Normativa nº 1.011, de 29 de março de 2022, que passa a vigorar com a seguinte redação:
+
+"Cláusula Oitava... Subcláusula Sexta – No caso de notificação enviada pelo REPRESENTANTE por motivo de resolução contratual ou de resilição contratual, a notificação deve adicionalmente informar o REPRESENTADO que diligencie, se for o caso, pela continuidade de sua operação comercial antes da data de término PRETENDIDA para a contratação, conforme definição estabelecida nos Procedimentos de Comercialização, e que está sujeito à suspensão de fornecimento de energia elétrica após essa data."
+
+Art. 22. A CCEE poderá adotar o Mecanismo Auxiliar de Cálculo – MAC para permitir a participação de consumidores representados por comercializadores varejistas em programa de Resposta da Demanda, de que trata a Resolução Normativa nº 1.030, de 26 de julho de 2022.
+
+Art. 23. Esta Resolução entra em vigor na data de publicação.
+
+SANDOVAL DE ARAÚJO FEITOSA NETO
+
+Este texto não substitui o publicado no D.O. de 18.12.2024, seção 1, p. 101, v. 162, n. 243.
+
+ANEXO I DA RESOLUÇÃO NORMATIVA ANEEL Nº 1.110 – Módulos das Regras e Submódulos de Procedimentos de Comercialização
+
+Módulo de Regras | Vigência | Versão | Anexo
+Medição Contábil | jan/2025 | 2025.5.0 | II
+Encargos | jan/2025 | 2025.5.0 | III
+Consolidação de Resultados | jan/2025 | 2025.5.0 | IV
+Contratação de Energia de Reserva | jan/2025 | 2025.5.0 | V
+Contratação de Energia de Reserva | Mês subsequente à homologação do Estatuto Social da CCEE/2024 | 2025.6.0 | VI
+
+Submódulo dos Procedimentos de Comercialização | Vigência | Versão | Anexo
+1.5 - Desligamento da CCEE | jan/2025 | 6.0 | VII
+1.6 - Comercialização Varejista | jan/2025 | 6.0 | VIII
+1.8 - Comercialização Varejista - modelo simplificado | julho/2025 | 1.0 | IX
+8.1 - MCSD de Energia Existente | jan/2025 | 9.0 | X
+
+(Anexos completos - Módulos e Submódulos de Procedimentos de Comercialização - disponíveis em https://biblioteca.aneel.gov.br)

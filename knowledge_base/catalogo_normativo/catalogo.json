@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-19",
+  "instruments": [
+    {
+      "id": "lei-14300-2022",
+      "type": "lei",
+      "number": "14.300",
+      "date": "2022-01-06",
+      "issuer": "Presidência da República",
+      "title": "Marco legal da microgeração e minigeração distribuída",
+      "subjects": ["mmgd", "scee", "transicao-tarifaria"],
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm",
+      "local_path": "Legislacao/Leis_Federais/Lei_14300_2022_Marco_Legal_MMGD.txt",
+      "source_kind": "primary_text",
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-07-19",
+        "method": "Conferência do texto compilado no portal oficial do Planalto e comparação com o documento local.",
+        "notes": "Texto oficial localizado; a página consolidada registra alterações posteriores. Verificar o dispositivo específico antes de citar."
+      },
+      "relations": []
+    },
+    {
+      "id": "lei-9427-1996",
+      "type": "lei",
+      "number": "9.427",
+      "date": "1996-12-26",
+      "issuer": "Presidência da República",
+      "title": "Institui a ANEEL e disciplina concessões de serviços públicos de energia elétrica",
+      "subjects": ["aneel", "concessoes", "tusd", "tust", "fontes-incentivadas"],
+      "official_url": "https://www.planalto.gov.br/ccivil_03/leis/l9427compilada.htm",
+      "local_path": "Legislacao/Leis_Federais/Lei_9427_1996_ANEEL_Concessoes.html",
+      "source_kind": "primary_text",
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-07-19",
+        "method": "Conferência do texto compilado no portal oficial do Planalto, especialmente do art. 26 e do § 14 incluído pela Lei nº 15.269/2025.",
+        "notes": "Para desconto TUSD/TUST, conferir conjuntamente outorga, atos ANEEL aplicáveis e versão vigente das Regras de Comercialização da CCEE."
+      },
+      "relations": []
+    },
+    {
+      "id": "lei-15269-2025",
+      "type": "lei",
+      "number": "15.269",
+      "date": "2025-11-24",
+      "issuer": "Presidência da República",
+      "title": "Reforma do marco legal do setor elétrico",
+      "subjects": ["abertura-acl", "armazenamento", "sui", "cde"],
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15269.htm",
+      "local_path": "Legislacao/Leis_Federais/Lei_15269_2025_Novo_Marco_Eletrico.html",
+      "source_kind": "primary_text",
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-07-19",
+        "method": "Conferência do texto compilado, mensagem de veto e metadados no portal oficial do Planalto.",
+        "notes": "A data do instrumento é 24/11/2025; a publicação ocorreu em 25/11/2025. A produção de efeitos varia por dispositivo e deve ser conferida no art. 24. O arquivo local está truncado após o art. 17 e não contém os arts. 18 a 24; para vigência e produção de efeitos, usar obrigatoriamente o texto oficial do Planalto."
+      },
+      "relations": [
+        {
+          "kind": "altera",
+          "target_id": "lei-14300-2022",
+          "evidence": "A ementa e o texto oficial incluem alteração da Lei nº 14.300/2022."
+        },
+        {
+          "kind": "altera",
+          "target_id": "lei-9427-1996",
+          "evidence": "O art. 3º da Lei nº 15.269/2025 altera a Lei nº 9.427/1996, inclusive acrescentando o § 14 ao art. 26."
+        }
+      ]
+    },
+    {
+      "id": "ren-aneel-1000-2021",
+      "type": "ren",
+      "number": "1.000",
+      "date": "2021-12-07",
+      "issuer": "ANEEL",
+      "title": "Regras de prestação do serviço público de distribuição de energia elétrica",
+      "subjects": ["distribuicao", "consumidor", "conexao", "faturamento"],
+      "official_url": "https://www2.aneel.gov.br/cedoc/ren20211000.pdf",
+      "local_path": "Legislacao/Resolucoes_ANEEL/REN_Aneel_1000_2021_Direitos_Consumidor.txt",
+      "source_kind": "primary_text",
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-07-19",
+        "method": "Conferência do PDF oficial identificado pela ANEEL como Texto Compilado e comparação com o arquivo local.",
+        "notes": "A REN permanece como consolidação das regras de distribuição, com alterações e decisões posteriores incorporadas. Confirmar o artigo na versão disponível na data do parecer."
+      },
+      "relations": []
+    },
+    {
+      "id": "portaria-mme-50-2022",
+      "type": "portaria",
+      "number": "50",
+      "date": "2022-09-27",
+      "issuer": "MME",
+      "title": "Acesso dos consumidores do Grupo A ao mercado livre",
+      "subjects": ["acl", "migracao", "grupo-a", "comercializacao-varejista"],
+      "official_url": "https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao/portarias/2022/portaria-normativa-n-50-gm-mme-2022.pdf",
+      "local_path": "Legislacao/Portarias_MME/Portaria_Normativa_50_2022_MME_Acesso_ACL_Grupo_A.html",
+      "source_kind": "primary_text",
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-07-19",
+        "method": "Conferência do PDF oficial do MME e da Agenda de Avaliação de Resultado Regulatório 2024-2027.",
+        "notes": "O PDF confirma os arts. 1º e 2º; a agenda do MME ainda lista o ato para ARR em dezembro de 2026. Não foi localizada revogação na verificação."
+      },
+      "relations": []
+    },
+    {
+      "id": "ren-aneel-1059-2023",
+      "type": "ren",
+      "number": "1.059",
+      "date": "2023-02-07",
+      "issuer": "ANEEL",
+      "title": "Aprimora conexão e faturamento de MMGD e as regras do SCEE",
+      "subjects": ["mmgd", "scee", "conexao", "faturamento"],
+      "official_url": "https://www2.aneel.gov.br/cedoc/ren20231059.pdf",
+      "local_path": null,
+      "source_kind": "primary_text",
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-07-19",
+        "method": "Conferência do PDF oficial da ANEEL e da página institucional de MMGD atualizada em 09/06/2026.",
+        "notes": "O ato altera as REN nº 920/2021, 956/2021 e 1.000/2021. Conferir o texto consolidado do dispositivo aplicável."
+      },
+      "relations": [{
+        "kind": "altera",
+        "target_id": "ren-aneel-1000-2021",
+        "evidence": "A ementa oficial da REN nº 1.059/2023 declara a alteração da REN nº 1.000/2021."
+      }]
+    },
+    {
+      "id": "portaria-mme-136-2026",
+      "type": "portaria",
+      "number": "136",
+      "date": "2026-06-01",
+      "issuer": "MME",
+      "title": "Diretrizes dos LRCAP de armazenamento de 2026",
+      "subjects": ["armazenamento", "bess", "reserva-de-capacidade", "leilao"],
+      "official_url": "https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao/portarias/2026/portaria-normativa-mme-n-136-2026.pdf",
+      "local_path": null,
+      "source_kind": "primary_text",
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-07-19",
+        "method": "Conferência do PDF oficial do MME e da orientação oficial de cadastramento da EPE.",
+        "notes": "O escopo é o desenho dos certames e produtos previstos na portaria; não tratar como regulação geral de todos os SAE."
+      },
+      "relations": []
+    },
+    {
+      "id": "resolucao-cnpe-8-2026",
+      "type": "outro",
+      "number": "8",
+      "date": "2026-04-06",
+      "issuer": "CNPE",
+      "title": "Diretrizes para estudo e contratação de serviços de Sistemas de Armazenamento Hidráulico",
+      "subjects": ["armazenamento-hidraulico", "uhr", "planejamento", "contratacao"],
+      "official_url": "https://www.gov.br/mme/pt-br/assuntos/conselhos-e-comites/cnpe/resolucoes-do-cnpe/2026",
+      "local_path": null,
+      "source_kind": "official_metadata",
+      "verification": {
+        "status": "verified",
+        "checked_at": "2026-07-19",
+        "method": "Conferência da listagem oficial de Resoluções CNPE de 2026, com data e ementa.",
+        "notes": "Metadados oficiais confirmados; baixar e catalogar o texto integral antes de citar dispositivo específico."
+      },
+      "relations": []
+    }
+  ]
+}

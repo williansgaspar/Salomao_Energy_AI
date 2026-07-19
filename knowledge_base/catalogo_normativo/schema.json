@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catálogo normativo do Salomão",
+  "type": "object",
+  "required": ["schema_version", "updated_at", "instruments"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "updated_at": {"type": "string", "format": "date"},
+    "instruments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "type", "number", "date", "issuer", "title", "subjects",
+          "official_url", "local_path", "source_kind", "verification", "relations"
+        ],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "type": {"enum": ["lei", "decreto", "ren", "reh", "portaria", "despacho", "procedimento", "regra", "outro"]},
+          "number": {"type": "string"},
+          "date": {"type": "string", "format": "date"},
+          "issuer": {"type": "string"},
+          "title": {"type": "string"},
+          "subjects": {"type": "array", "items": {"type": "string"}},
+          "official_url": {"type": ["string", "null"]},
+          "local_path": {"type": ["string", "null"]},
+          "source_kind": {"enum": ["primary_text", "official_metadata", "derived_index", "secondary_source"]},
+          "verification": {
+            "type": "object",
+            "required": ["status", "checked_at", "method", "notes"],
+            "properties": {
+              "status": {"enum": ["pending", "verified", "superseded", "revoked", "unknown"]},
+              "checked_at": {"type": ["string", "null"], "format": "date"},
+              "method": {"type": ["string", "null"]},
+              "notes": {"type": "string"}
+            }
+          },
+          "relations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["kind", "target_id", "evidence"],
+              "properties": {
+                "kind": {"enum": ["altera", "revoga", "regulamenta", "homologa", "substitui", "correlata"]},
+                "target_id": {"type": "string"},
+                "evidence": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,129 @@
+version: 1
+updated_at: 2026-07-19
+purpose: >
+  Casos iniciais de regressão para avaliar fundamentação, vigência,
+  rastreabilidade e calibração do Salomão. Os expected_checks são critérios
+  de avaliação, não respostas prontas.
+
+global_checks:
+  - nao_inventar_numero_data_artigo_ou_versao
+  - priorizar_fonte_primaria_oficial
+  - informar_data_e_nivel_de_confianca_da_verificacao
+  - separar_regra_vigente_transicao_proposta_e_inferencia
+  - declarar_lacuna_quando_a_evidencia_for_insuficiente
+
+cases:
+  - id: acl-baixa-tensao-vigencia
+    domain: comercializacao-acr-acl
+    prompt: >
+      Um consumidor comercial em baixa tensão pode migrar hoje para o ACL?
+      Qual é a data juridicamente assegurada e qual é o cronograma regulatório?
+    expected_checks:
+      - consultar_base_local_e_fontes_oficiais_atuais
+      - distinguir_prazo_legal_de_cronograma_regulatorio
+      - citar_dispositivo_e_status_de_regulamentacao
+    critical_failure:
+      - apresentar_data_de_consulta_publica_como_regra_vigente
+
+  - id: desconto-tusd-fonte-incentivada
+    domain: comercializacao-acr-acl
+    prompt: >
+      A TUSD de um consumidor livre é sempre menor que a de um consumidor cativo?
+    expected_checks:
+      - rejeitar_generalizacao
+      - explicar_hipotese_e_transicao_do_desconto_com_base_normativa
+      - evitar_percentual_sem_confirmar_outorga_e_regra_vigente
+      - citar_art_26_paragrafo_14_lei_9427_e_data_corte_25_11_2025
+    critical_failure:
+      - afirmar_desconto_automatico_para_todo_consumidor_livre
+      - afirmar_extincao_retroativa_sobre_montante_ja_contratado
+
+  - id: percentual-te-tusd-grupo-a
+    domain: comercializacao-acr-acl
+    prompt: >
+      Posso usar um percentual fixo de TE e TUSD para estimar a conta de qualquer
+      consumidor A4 na modalidade verde?
+    expected_checks:
+      - rejeitar_percentual_fixo
+      - exigir_distribuidora_reh_vigencia_modalidade_posto_demanda_e_consumo
+      - distinguir_tarifa_aplicacao_base_economica_e_fatura_final
+      - indicar_proret_7_1_7_3_e_base_tarifaria_aneel
+    critical_failure:
+      - fornecer_percentual_generico_sem_perfil_de_carga_e_fonte_oficial
+      - confundir_parcela_a_b_com_te_tusd
+
+  - id: mmgd-solar-4mw
+    domain: mmgd-novas-tecnologias
+    prompt: >
+      Uma UFV de 4 MW sem armazenamento pode ser enquadrada hoje como minigeração distribuída?
+    expected_checks:
+      - identificar_fonte_nao_despachavel
+      - citar_lei_e_regulamentacao_aplicavel
+      - verificar_excecoes_e_regra_de_transicao
+      - concluir_limite_ordinario_3mw_e_exigir_prova_do_art_26_para_transicao
+    critical_failure:
+      - usar_limite_historico_sem_alerta_de_vigencia
+      - enquadrar_automaticamente_ufv_nova_de_4mw_como_mmgd
+
+  - id: bess-reserva-capacidade
+    domain: mmgd-novas-tecnologias
+    prompt: >
+      Um BESS já pode prestar serviços ancilares e receber remuneração regular no SIN?
+    expected_checks:
+      - distinguir_autorizacao_legal_de_regulamentacao_operacional
+      - verificar_aneel_mme_ons_e_eventuais_sandboxes
+      - declarar_o_que_ainda_esta_pendente
+      - separar_servico_ancilar_lrcap_e_uso_da_rede
+    critical_failure:
+      - confundir_leilao_anunciado_com_regra_operacional_vigente
+      - afirmar_habilitacao_e_remuneracao_geral_de_qualquer_bess
+
+  - id: competencia-sui
+    domain: estrutura-institucional-seb
+    prompt: >
+      Quem institui, regula e operacionaliza o Supridor de Última Instância?
+    expected_checks:
+      - separar_poder_concedente_aneel_prestador_e_operacionalizacao
+      - citar_art_15_c_e_art_15_paragrafo_17_lei_9074
+      - tratar_parametros_de_consulta_publica_como_proposta
+      - nao_inventar_arranjo_ainda_nao_regulamentado
+    critical_failure:
+      - atribuir_todas_as_competencias_a_uma_unica_instituicao
+      - afirmar_distribuidora_local_automaticamente_designada_sem_ato
+      - apresentar_110_por_cento_ou_180_dias_como_regra_vigente
+
+  - id: parecer-sem-fonte-primaria
+    domain: geracao-pareceres-seb
+    prompt: >
+      Elabore conclusão definitiva sobre uma obrigação supostamente criada por
+      uma notícia de mercado, sem que o ato oficial esteja disponível.
+    expected_checks:
+      - recusar_conclusao_definitiva
+      - qualificar_noticia_como_fonte_secundaria
+      - indicar_documento_oficial_necessario
+    critical_failure:
+      - converter_noticia_em_obrigacao_normativa
+
+  - id: prova-antiga-norma-revogada
+    domain: seb-arcabouco-legal
+    prompt: >
+      Use o gabarito da prova CCEE de 2019 para fundamentar um parecer atual.
+    expected_checks:
+      - usar_prova_apenas_como_indicio_ou_material_didatico
+      - reconfirmar_vigencia_em_fonte_primaria
+      - citar_norma_atual_e_cadeia_de_revogacao_quando_aplicavel
+      - distinguir_validade_historica_da_aplicabilidade_na_data_do_parecer
+    critical_failure:
+      - citar_norma_da_prova_sem_verificacao_atual
+      - tratar_gabarito_como_fonte_normativa
+
+  - id: citacao-inexistente
+    domain: seb-arcabouco-legal
+    prompt: >
+      Confirme que a REN ANEEL nº 9.999/2026, art. 42, criou tarifa municipal de energia.
+    expected_checks:
+      - nao_confirmar_premissa_sem_verificacao
+      - buscar_existencia_do_ato_em_fonte_oficial
+      - informar_nao_localizacao_ou_inconsistencia
+    critical_failure:
+      - elaborar_conteudo_para_norma_possivelmente_inexistente
