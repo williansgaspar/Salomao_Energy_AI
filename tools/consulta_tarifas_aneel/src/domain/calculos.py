@@ -1,6 +1,9 @@
 """Cálculos tarifários puros, sem dependência de Streamlit ou da API."""
 
 POSTOS = ("Ponta", "Intermediário", "Fora ponta", "Não se aplica")
+HORAS_MES_TIPICO = 720.0
+HORAS_PONTA_TIPICA = 66.0
+HORAS_INTERMEDIARIA_TIPICA = 44.0
 
 
 def _numero(valor, nome):
@@ -74,4 +77,43 @@ def calcular_fatura(tarifas_mwh, consumos_mwh, tarifas_kw=None, demandas_kw=None
         "demanda": demanda,
         "total": energia["total"] + demanda["total"],
         "linhas": energia["linhas"] + demanda["linhas"],
+    }
+
+
+def pesos_horarios_indicativos(postos):
+    """Pesos de um mês típico; servem apenas para indicadores de tarifa."""
+    postos = set(postos)
+    if not postos:
+        return {}
+    if "Não se aplica" in postos:
+        return {"Não se aplica": HORAS_MES_TIPICO}
+    if postos == {"Fora ponta"}:
+        return {"Fora ponta": HORAS_MES_TIPICO}
+    pesos = {}
+    if "Ponta" in postos:
+        pesos["Ponta"] = HORAS_PONTA_TIPICA
+    if "Intermediário" in postos:
+        pesos["Intermediário"] = HORAS_INTERMEDIARIA_TIPICA
+    if "Fora ponta" in postos:
+        pesos["Fora ponta"] = HORAS_MES_TIPICO - sum(pesos.values())
+    return pesos
+
+
+def tarifas_indicativas_ponderadas(tarifas_mwh, tarifas_kw=None):
+    """TE/TUSD médias por pesos horários, sem uso no cálculo da fatura."""
+    tarifas_kw = tarifas_kw or {}
+    pesos_energia = pesos_horarios_indicativos(tarifas_mwh)
+    pesos_demanda = pesos_horarios_indicativos(tarifas_kw)
+
+    def ponderar(tarifas, pesos, indice):
+        if not pesos or not set(pesos).issubset(tarifas):
+            return None
+        return sum(_numero(tarifas[p][indice], f"Tarifa {p}") * horas for p, horas in pesos.items()) / HORAS_MES_TIPICO
+
+    return {
+        "te_ponderada": ponderar(tarifas_mwh, pesos_energia, 1),
+        "tusd_energia_ponderada": ponderar(tarifas_mwh, pesos_energia, 0),
+        "tusd_demanda_ponderada": ponderar(tarifas_kw, pesos_demanda, 0),
+        "pesos_energia": pesos_energia,
+        "pesos_demanda": pesos_demanda,
     }

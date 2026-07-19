@@ -1,4 +1,4 @@
-"""Revisão 6 — cálculo rastreável e indicadores ponderados ACL × ACR."""
+"""Revisão 5 — cálculo rastreável e interface institucional claro/escuro."""
 
 from datetime import date, datetime
 from io import BytesIO
@@ -9,7 +9,7 @@ import streamlit as st
 
 from aneel_api import ano_da_vigencia, converter_valor_brl
 from src.aneel import criar_sessao, listar_distribuidoras, obter_tarifas
-from src.domain.calculos import calcular_fatura, calcular_por_consumo_total, tarifas_indicativas_ponderadas
+from src.domain.calculos import calcular_fatura, calcular_por_consumo_total
 from src.domain.composicao import chave_versao, rotulo_versao, valores_por_posto, versoes_disponiveis
 from src.domain.contexto import fingerprint_simulacao
 from src.domain.vigencia import periodo_do_mes, registros_vigentes_no_periodo
@@ -186,18 +186,6 @@ with aba_simulacao:
                     linhas_tarifas.append({"Posto": posto_nome, "TUSD Energia (R$/MWh)": None, "TE (R$/MWh)": None, "TUSD Demanda (R$/kW)": tusd})
             with st.expander("Tarifas da composição selecionada", expanded=True):
                 st.dataframe(pd.DataFrame(linhas_tarifas), hide_index=True, width="stretch")
-            indicadores = tarifas_indicativas_ponderadas(tarifas_mwh, tarifas_kw)
-            st.markdown('<div class="section-kicker">Indicadores para comparação ACL × ACR</div>', unsafe_allow_html=True)
-            i1, i2, i3 = st.columns(3)
-            i1.metric("TE ponderada (R$/MWh)", fmt_brl(indicadores["te_ponderada"]) if indicadores["te_ponderada"] is not None else "—")
-            i2.metric("TUSD Energia ponderada (R$/MWh)", fmt_brl(indicadores["tusd_energia_ponderada"]) if indicadores["tusd_energia_ponderada"] is not None else "—")
-            i3.metric("TUSD Demanda ponderada (R$/kW)", fmt_brl(indicadores["tusd_demanda_ponderada"]) if indicadores["tusd_demanda_ponderada"] is not None else "—")
-            pesos_txt = ", ".join(f"{posto}: {horas:.0f} h" for posto, horas in indicadores["pesos_energia"].items())
-            st.caption(
-                f"Indicadores horários de um mês típico ({pesos_txt or 'sem postos ponderáveis'}; total de 720 h). "
-                "São referências para comparação inicial entre a TE regulada no ACR e ofertas de TE no ACL. "
-                "Não representam curva de carga, não alteram os cálculos abaixo e a ponderação da TUSD Demanda não constitui critério de faturamento."
-            )
             modo = st.radio("Forma de cálculo", ["Consumo por posto", "Consumo total estimado"], horizontal=True)
             arquivo = st.file_uploader("Importar perfil CSV/XLSX (opcional)", type=["csv", "xlsx"], help="Colunas esperadas: posto, consumo_mwh")
             try:

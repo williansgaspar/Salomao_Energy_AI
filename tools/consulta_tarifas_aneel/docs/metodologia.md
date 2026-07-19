@@ -22,6 +22,12 @@ Para cada posto disponível:
 
 `Custo de demanda = TUSD Demanda (R$/kW) × demanda informada (kW)`.
 
+## Indicadores ponderados ACL × ACR
+
+O app apresenta, separadamente da simulação, TE, TUSD Energia e TUSD Demanda ponderadas para um mês típico de 720 horas. São usados 66 h de Ponta, 44 h de Intermediário quando esse posto existir e o saldo como Fora Ponta. Para estruturas sem diferenciação de posto, a tarifa original recebe peso de 720 h.
+
+Esses valores servem como referência inicial de comparação — em especial entre TE regulada no ACR e ofertas de TE no ACL. Eles não utilizam os consumos informados, não representam a curva de carga e não alimentam os totais da simulação. A TUSD Demanda ponderada em R$/kW é um indicador comparativo construído com os mesmos pesos horários, não um critério de faturamento.
+
 ## Vigência
 
 A consulta mensal inclui toda composição cuja vigência alcance pelo menos um dia do mês. Quando houver mais de uma REH no período, ambas permanecem disponíveis e devem ser desambiguadas na simulação. A data exata elimina essa ambiguidade quando aplicável.

@@ -4,7 +4,16 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 5 (19/07/2026) — atual
+## Revisão 6 (19/07/2026) — atual
+
+- Reintroduzidos indicadores de TE ponderada, TUSD Energia ponderada e TUSD Demanda ponderada.
+- Ponderação de referência: 720 h/mês típico, 66 h de Ponta, 44 h de Intermediário quando aplicável e saldo em Fora Ponta.
+- Indicadores posicionados antes dos inputs de simulação para apoiar comparação preliminar TE(ACL) × TE ponderada(ACR).
+- Os indicadores são independentes de consumo/demanda e não influenciam os totais calculados.
+- Incluída observação dimensional específica para TUSD Demanda ponderada em R$/kW.
+- Revisão 5 preservada em `revisions/app_v5.py`.
+
+## Revisão 5 (19/07/2026)
 
 - Corrigida a associação entre parâmetros e resultados: cada simulação recebe uma assinatura SHA-256 do contexto; ao alterar composição, modo, consumo ou demanda, o resultado anterior é ocultado.
 - Resultado passou a decompor explicitamente TE, TUSD Energia, TUSD Demanda, Energia total e Total geral.
