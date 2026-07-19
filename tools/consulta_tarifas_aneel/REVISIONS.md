@@ -4,6 +4,20 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
+## Revisão 4 (19/07/2026) — atual
+
+- Interface reorganizada em três áreas: Consulta, Simulação e comparação, e Histórico.
+- Filtros principais reduzidos; REH, base, classe, detalhe, acessante e posto movidos para Consulta avançada.
+- Seleção automática de Tarifa de Aplicação quando disponível.
+- Comparação de até duas composições com o mesmo perfil de consumo/demanda.
+- Importação de perfil em CSV/XLSX (`posto`, `consumo_mwh`).
+- Exportações CSV, XLSX auditável e PDF executivo com fonte, resource ID, versão e data/hora.
+- Série histórica visual de TE ou TUSD por posto.
+- Código separado em `src/aneel`, `src/domain`, `src/exports` e `src/ui`.
+- Tema Streamlit institucional, responsividade básica e ocultação de controles de desenvolvimento.
+- Artefatos de execução excluídos via `.gitignore`; metodologia documentada em `docs/metodologia.md`.
+- Revisão 3 preservada em `revisions/app_v3.py`.
+
 ## Revisão 3 (19/07/2026)
 
 - Corrigido o cálculo de energia para aplicar TE e TUSD Energia diretamente ao consumo de cada posto tarifário.
