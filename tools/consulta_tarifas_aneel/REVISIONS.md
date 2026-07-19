@@ -4,7 +4,17 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 4 (19/07/2026) — atual
+## Revisão 5 (19/07/2026) — atual
+
+- Corrigida a associação entre parâmetros e resultados: cada simulação recebe uma assinatura SHA-256 do contexto; ao alterar composição, modo, consumo ou demanda, o resultado anterior é ocultado.
+- Resultado passou a decompor explicitamente TE, TUSD Energia, TUSD Demanda, Energia total e Total geral.
+- Tabela das tarifas utilizadas passou a ser exibida antes dos inputs da simulação.
+- Nova identidade visual institucional com marca oficial `RIO PREFEITURA`, logo do Projeto Rio de Energia Verde e hierarquia visual mais sóbria.
+- Adicionado interruptor de tema claro/escuro, com paletas completas para superfícies, campos, tabelas, métricas e navegação.
+- Marca oficial obtida do portal `prefeitura.rio` e armazenada localmente em `assets/logo_prefeitura_rio_oficial.png`.
+- Revisão 4 preservada em `revisions/app_v4.py`.
+
+## Revisão 4 (19/07/2026)
 
 - Interface reorganizada em três áreas: Consulta, Simulação e comparação, e Histórico.
 - Filtros principais reduzidos; REH, base, classe, detalhe, acessante e posto movidos para Consulta avançada.

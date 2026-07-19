@@ -2,7 +2,7 @@
 
 Aplicativo para consulta, simulação, comparação e análise histórica das tarifas de aplicação das distribuidoras publicadas na API de Dados Abertos da ANEEL.
 
-Versão atual: **Revisão 4 (19/07/2026)**. O histórico está em [REVISIONS.md](REVISIONS.md) e a metodologia em [docs/metodologia.md](docs/metodologia.md).
+Versão atual: **Revisão 5 (19/07/2026)**. O histórico está em [REVISIONS.md](REVISIONS.md) e a metodologia em [docs/metodologia.md](docs/metodologia.md).
 
 ## Funcionalidades
 
@@ -14,6 +14,8 @@ Versão atual: **Revisão 4 (19/07/2026)**. O histórico está em [REVISIONS.md]
 - Comparação de duas composições tarifárias com o mesmo perfil.
 - Importação de perfil CSV/XLSX com colunas `posto` e `consumo_mwh`.
 - Memória auditável por componente, posto, tarifa, quantidade e subtotal.
+- Resumo separado de TE, TUSD Energia e TUSD Demanda, protegido contra resultados obsoletos após mudança de parâmetros.
+- Tema institucional claro/escuro com marcas oficiais da Prefeitura do Rio e do Projeto Rio de Energia Verde.
 - Histórico visual de TE/TUSD.
 - Exportações CSV, XLSX e PDF com metadados da fonte.
 

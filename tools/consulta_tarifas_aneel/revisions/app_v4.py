@@ -1,4 +1,4 @@
-"""Revisão 5 — cálculo rastreável e interface institucional claro/escuro."""
+"""Revisão 4 — consulta, simulação/comparação e histórico de tarifas ANEEL."""
 
 from datetime import date, datetime
 from io import BytesIO
@@ -11,7 +11,6 @@ from aneel_api import ano_da_vigencia, converter_valor_brl
 from src.aneel import criar_sessao, listar_distribuidoras, obter_tarifas
 from src.domain.calculos import calcular_fatura, calcular_por_consumo_total
 from src.domain.composicao import chave_versao, rotulo_versao, valores_por_posto, versoes_disponiveis
-from src.domain.contexto import fingerprint_simulacao
 from src.domain.vigencia import periodo_do_mes, registros_vigentes_no_periodo
 from src.exports import gerar_excel, gerar_pdf
 from src.ui import aplicar_tema, cabecalho, fmt_brl
@@ -27,10 +26,7 @@ COLUNAS = {
 }
 
 st.set_page_config(page_title="Tarifas ANEEL", page_icon="⚡", layout="wide")
-tema_col1, tema_col2 = st.columns([7, 1])
-with tema_col2:
-    tema_escuro = st.toggle("Tema escuro", value=False, key="tema_escuro")
-aplicar_tema(tema_escuro)
+aplicar_tema()
 cabecalho(BASE_DIR)
 
 
@@ -135,8 +131,6 @@ with aba_consulta:
         st.session_state["consulta_registros"] = filtrados
         st.session_state["consulta_brutos"] = brutos
         st.session_state["consulta_contexto"] = contexto_consulta(parametros)
-        for chave in ("sim_resultados", "sim_memoria", "sim_fingerprint"):
-            st.session_state.pop(chave, None)
 
     consulta = st.session_state.get("consulta_registros", [])
     if consulta:
@@ -178,14 +172,6 @@ with aba_simulacao:
             tarifas_kw = valores_por_posto(consulta, principal, "kW")
             postos_energia = list(tarifas_mwh)
             postos_demanda = list(tarifas_kw)
-            linhas_tarifas = []
-            for posto_nome, (tusd, te) in tarifas_mwh.items():
-                linhas_tarifas.append({"Posto": posto_nome, "TUSD Energia (R$/MWh)": tusd, "TE (R$/MWh)": te, "TUSD Demanda (R$/kW)": tarifas_kw.get(posto_nome, (None, None))[0]})
-            for posto_nome, (tusd, _) in tarifas_kw.items():
-                if posto_nome not in tarifas_mwh:
-                    linhas_tarifas.append({"Posto": posto_nome, "TUSD Energia (R$/MWh)": None, "TE (R$/MWh)": None, "TUSD Demanda (R$/kW)": tusd})
-            with st.expander("Tarifas da composição selecionada", expanded=True):
-                st.dataframe(pd.DataFrame(linhas_tarifas), hide_index=True, width="stretch")
             modo = st.radio("Forma de cálculo", ["Consumo por posto", "Consumo total estimado"], horizontal=True)
             arquivo = st.file_uploader("Importar perfil CSV/XLSX (opcional)", type=["csv", "xlsx"], help="Colunas esperadas: posto, consumo_mwh")
             try:
@@ -195,7 +181,6 @@ with aba_simulacao:
 
             consumos = {}
             demandas = {}
-            consumo_total = None
             if modo == "Consumo por posto":
                 colunas = st.columns(max(1, len(postos_energia)))
                 for i, posto_nome in enumerate(postos_energia):
@@ -207,12 +192,6 @@ with aba_simulacao:
                 cols_demanda = st.columns(len(postos_demanda))
                 for i, posto_nome in enumerate(postos_demanda):
                     demandas[posto_nome] = cols_demanda[i].number_input(f"Demanda {posto_nome} (kW)", min_value=0.0, step=1.0)
-
-            fingerprint_atual = fingerprint_simulacao({
-                "escolhas": escolhas, "modo": modo, "consumos": consumos,
-                "consumo_total": consumo_total, "demandas": demandas,
-                "consulta": st.session_state.get("consulta_contexto", ""),
-            })
 
             if st.button("Calcular estimativa", type="primary"):
                 resultados = []
@@ -233,36 +212,18 @@ with aba_simulacao:
                             energia = calcular_por_consumo_total(tmwh, consumo_total, pesos)
                             demanda = calcular_fatura(tmwh, {}, tkw, demandas)["demanda"]
                             calculo = {"energia": energia, "demanda": demanda, "linhas": energia["linhas"] + demanda["linhas"], "total": energia["total"] + demanda["total"]}
-                        resultados.append({
-                            "Composição": escolha,
-                            "TE (R$)": calculo["energia"]["te"],
-                            "TUSD Energia (R$)": calculo["energia"]["tusd_energia"],
-                            "TUSD Demanda (R$)": calculo["demanda"]["total"],
-                            "Energia total (R$)": calculo["energia"]["total"],
-                            "Total (R$)": calculo["total"],
-                        })
+                        resultados.append({"Composição": escolha, "Energia (R$)": calculo["energia"]["total"], "Demanda (R$)": calculo["demanda"]["total"], "Total (R$)": calculo["total"]})
                         for linha in calculo["linhas"]:
                             memorias.append({"Composição": escolha, **linha})
                     st.session_state["sim_resultados"] = pd.DataFrame(resultados)
                     st.session_state["sim_memoria"] = pd.DataFrame(memorias)
-                    st.session_state["sim_fingerprint"] = fingerprint_atual
                 except ValueError as erro:
                     st.error(f"Cálculo não realizado: {erro}")
 
             resultados_df = st.session_state.get("sim_resultados", pd.DataFrame())
             memoria_df = st.session_state.get("sim_memoria", pd.DataFrame())
-            resultado_atual = st.session_state.get("sim_fingerprint") == fingerprint_atual
-            if not resultados_df.empty and not resultado_atual:
-                st.markdown('<div class="stale-box"><b>Parâmetros alterados.</b> O resultado anterior foi ocultado. Clique em <b>Calcular estimativa</b> para atualizar.</div>', unsafe_allow_html=True)
-            if not resultados_df.empty and resultado_atual:
-                principal_resultado = resultados_df.iloc[0]
-                st.markdown('<div class="section-kicker">Resultado da composição principal</div>', unsafe_allow_html=True)
-                m1, m2, m3, m4 = st.columns(4)
-                m1.metric("TE", fmt_brl(principal_resultado["TE (R$)"]))
-                m2.metric("TUSD Energia", fmt_brl(principal_resultado["TUSD Energia (R$)"]))
-                m3.metric("TUSD Demanda", fmt_brl(principal_resultado["TUSD Demanda (R$)"]))
-                m4.metric("Energia TE + TUSD", fmt_brl(principal_resultado["Energia total (R$)"]))
-                st.markdown(f'<div class="total-card">Total geral estimado<strong>{fmt_brl(principal_resultado["Total (R$)"])}</strong></div>', unsafe_allow_html=True)
+            if not resultados_df.empty:
+                st.markdown(f'<div class="total-card">Total da composição principal<br><strong>{fmt_brl(resultados_df.iloc[0]["Total (R$)"])}</strong></div>', unsafe_allow_html=True)
                 st.dataframe(resultados_df, hide_index=True, width="stretch")
                 with st.expander("Memória de cálculo auditável", expanded=True):
                     st.dataframe(memoria_df, hide_index=True, width="stretch")
