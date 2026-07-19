@@ -1,6 +1,6 @@
 """
-REVISÃO 3 (19/07/2026) — cálculo por posto tarifário, vigência mensal por
-intervalo e memória de cálculo auditável. Versões anteriores em revisions/.
+REVISÃO 2 (16/07/2026) — ver REVISIONS.md para o histórico de mudanças em
+relação à Revisão 1 (preservada em revisions/app_v1.py).
 
 Interface web para consulta de tarifas de distribuidoras de energia elétrica
 homologadas pela ANEEL (API de Dados Abertos, pública, sem autenticação), com
@@ -27,12 +27,10 @@ from aneel_api import (
     valores_distintos,
     vigente_em,
 )
-from src.domain.calculos import calcular_fatura, calcular_por_consumo_total
-from src.domain.vigencia import periodo_do_mes, registros_vigentes_no_periodo
 
 st.set_page_config(page_title="Tarifas ANEEL", page_icon="⚡", layout="wide")
 
-REVISAO_ATUAL = "Revisão 3"
+REVISAO_ATUAL = "Revisão 2"
 
 COLUNAS_EXIBICAO = {
     "SigAgente": "Distribuidora",
@@ -530,8 +528,8 @@ with st.container(border=True, key="card_inputs"):
 
     if registros_dist and ano != "Todos" and mes_nome != "Todos":
         mes_num = {nome: num for num, nome in MESES}[mes_nome]
-        periodo_inicio, periodo_fim = periodo_do_mes(int(ano), mes_num)
-        registros_anomes = registros_vigentes_no_periodo(registros_dist, periodo_inicio, periodo_fim)
+        data_ref = date(int(ano), mes_num, 1)
+        registros_anomes = [r for r in registros_dist if vigente_em(r, data_ref)]
     elif registros_dist and ano != "Todos":
         registros_anomes = [r for r in registros_dist if ano_da_vigencia(r) == ano]
     else:
@@ -565,22 +563,15 @@ with st.container(border=True, key="card_inputs"):
     registros_filtrados_atual = filtrar_por_campo(registros_classe, "SigAgenteAcessante", acessante, "Todos")
 
     st.markdown("**Demanda e consumo informados**")
-    modo_calculo = st.radio(
-        "Forma de cálculo da energia",
-        ["Consumo por posto", "Consumo total estimado"],
-        horizontal=True,
-        help="Por posto usa diretamente a curva informada. Consumo total distribui o volume pelos pesos horários exibidos na memória.",
-    )
     congel = calcular_congelamento(subgrupo, modalidade)
-    d1, d2, d3, d4, d5 = st.columns(5)
+    d1, d2, d3, d4 = st.columns(4)
     demanda_hpt = d1.number_input("Demanda HPT (kW)", min_value=0.0, step=1.0, value=0.0, disabled=congel["demanda_hpt"], key="in_demanda_hpt")
     demanda_hfp = d2.number_input("Demanda HFP (kW)", min_value=0.0, step=1.0, value=0.0, disabled=congel["demanda_hfp"], key="in_demanda_hfp")
-    consumo_hpt = d3.number_input("Consumo HPT (MWh)", min_value=0.0, step=0.1, value=0.0, disabled=modo_calculo != "Consumo por posto" or congel["consumo_hpt"], key="in_consumo_hpt")
-    consumo_intermediario = d4.number_input("Consumo intermediário (MWh)", min_value=0.0, step=0.1, value=0.0, disabled=modo_calculo != "Consumo por posto" or modalidade != "Branca", key="in_consumo_intermediario")
-    consumo_hfp = d5.number_input("Consumo HFP/total (MWh)", min_value=0.0, step=0.1, value=0.0, disabled=modo_calculo == "Consumo por posto" and congel["consumo_hfp"], key="in_consumo_hfp")
+    consumo_hpt = d3.number_input("Consumo HPT (MWh)", min_value=0.0, step=0.1, value=0.0, disabled=congel["consumo_hpt"], key="in_consumo_hpt")
+    consumo_hfp = d4.number_input("Consumo HFP (MWh)", min_value=0.0, step=0.1, value=0.0, disabled=congel["consumo_hfp"], key="in_consumo_hfp")
     st.caption(
-        "No modo por posto, cada consumo é multiplicado pela tarifa correspondente. No modo estimado, "
-        "o campo HFP/total representa o consumo mensal total, distribuído pelos pesos horários do mês."
+        "Campos ficam travados automaticamente conforme Subgrupo/Modalidade: Grupo B usa só "
+        "Consumo HFP (sem demanda contratada); tarifas sem posto Ponta (ex.: Convencional) usam só os campos HFP."
     )
 
     partes_contexto = [distribuidora or "—", f"Ano/Mês: {ano}" + (f"/{mes_nome}" if mes_nome != "Todos" else ""), f"REH: {reh}"]
@@ -671,32 +662,10 @@ with st.container(border=True, key="card_outputs"):
                 st.info("Não foi possível calcular a tarifa ponderada — faltam valores para algum posto da composição.")
             else:
                 tusd_pond, te_pond = tusd_te
-                posto_hfp = "Fora ponta" if tem_ponta_real else "Não se aplica"
-                consumos = {
-                    "Ponta": consumo_hpt,
-                    "Intermediário": consumo_intermediario,
-                    posto_hfp: consumo_hfp,
-                }
-                demandas = {"Ponta": demanda_hpt, posto_hfp: demanda_hfp}
-                try:
-                    if modo_calculo == "Consumo total estimado":
-                        energia = calcular_por_consumo_total(valores_mwh, consumo_hfp, horas)
-                        demanda = calcular_fatura(valores_mwh, {}, valores_kw, demandas)["demanda"]
-                        calculo = {
-                            "energia": energia,
-                            "demanda": demanda,
-                            "linhas": energia["linhas"] + demanda["linhas"],
-                            "total": energia["total"] + demanda["total"],
-                        }
-                    else:
-                        calculo = calcular_fatura(valores_mwh, consumos, valores_kw, demandas)
-                except ValueError as erro:
-                    st.error(f"Cálculo não realizado: {erro}")
-                    st.stop()
-
-                total_te = calculo["energia"]["te"]
-                total_tusd_energia = calculo["energia"]["tusd_energia"]
-                total_energia = calculo["energia"]["total"]
+                consumo_total = consumo_hpt + consumo_hfp
+                total_te = te_pond * consumo_total
+                total_tusd_energia = tusd_pond * consumo_total
+                total_energia = total_te + total_tusd_energia
 
                 st.markdown("##### Energia (TE + TUSD)")
                 e1, e2, e3 = st.columns(3)
@@ -705,11 +674,13 @@ with st.container(border=True, key="card_outputs"):
                 e3.metric("Total energia (R$)", fmt_brl(total_energia))
 
                 grupo = grupo_tensao(versao_escolhida[2])
-                total_demanda = calculo["demanda"]["total"]
+                total_demanda = 0.0
                 tusd_demanda_ponta = tusd_demanda_hfp = 0.0
                 if valores_kw and grupo != "B":
                     tusd_demanda_ponta = taxa_kw(valores_kw, "Ponta")
                     tusd_demanda_hfp = taxa_kw(valores_kw, "Fora ponta", "Não se aplica")
+                    total_demanda = tusd_demanda_ponta * demanda_hpt + tusd_demanda_hfp * demanda_hfp
+
                     st.markdown("##### Demanda (TUSD)")
                     d_1, d_2, d_3 = st.columns(3)
                     d_1.metric("TUSD Demanda Ponta (R$/kW)", fmt_brl(tusd_demanda_ponta))
@@ -722,32 +693,32 @@ with st.container(border=True, key="card_outputs"):
                     f"""
                     <div class="hero-total">
                         <div class="rotulo">💰 Total geral estimado (R$/mês)</div>
-                        <div class="valor">{fmt_brl(calculo['total'])}</div>
+                        <div class="valor">{fmt_brl(total_energia + total_demanda)}</div>
                     </div>
                     """,
                     unsafe_allow_html=True,
                 )
 
                 with st.expander("Memória de cálculo"):
-                    memoria_df = pd.DataFrame(calculo["linhas"])
-                    if not memoria_df.empty:
-                        memoria_df = memoria_df.rename(columns={
-                            "componente": "Componente", "posto": "Posto", "tarifa": "Tarifa",
-                            "quantidade": "Quantidade", "unidade": "Unidade", "subtotal": "Subtotal (R$)",
-                        })
-                        st.dataframe(memoria_df, hide_index=True, width="stretch")
                     st.caption(
-                        ("O consumo total foi distribuído pelos pesos: " + ", ".join(f"{p} ({h:.0f})" for p, h in horas.items()))
-                        if modo_calculo == "Consumo total estimado" else
-                        "Cálculo direto: tarifa de cada posto × consumo informado no mesmo posto."
+                        "TE e TUSD ponderadas usam pesos fixos por posto: Ponta = 66h/mês, "
+                        "Intermediário = 44h/mês (só modalidade Branca — 1h antes + 1h depois da "
+                        "Ponta), Fora Ponta = resto até 720h/mês. Postos considerados: "
+                        + ", ".join(f"{p} ({h:.0f}h)" for p, h in horas.items())
+                    )
+                    st.caption(
+                        f"Total energia (R$) = (TE ponderada + TUSD ponderada) × (Consumo HPT + Consumo HFP) "
+                        f"= {fmt_brl(te_pond + tusd_pond)}/MWh × {consumo_total:.3f} MWh"
                     )
                     if valores_kw and grupo != "B":
                         st.caption(
                             f"Total demanda (R$) = TUSD Demanda Ponta × Demanda HPT + TUSD Demanda Fora Ponta × Demanda HFP "
                             f"= {fmt_brl(tusd_demanda_ponta)}/kW × {demanda_hpt:.2f} kW + {fmt_brl(tusd_demanda_hfp)}/kW × {demanda_hfp:.2f} kW"
                         )
-                    if modo_calculo == "Consumo total estimado":
-                        st.caption("Estimativa por perfil horário padrão; não substitui a curva de carga da unidade consumidora.")
+                    st.caption(
+                        "Aproximação: pondera só por horas-relógio (peso fixo por posto), não reflete a "
+                        "curva de carga real da unidade consumidora."
+                    )
 
     if not df.empty:
         buffer = io.StringIO()

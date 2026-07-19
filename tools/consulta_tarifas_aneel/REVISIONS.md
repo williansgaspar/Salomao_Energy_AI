@@ -4,7 +4,18 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 2 (16/07/2026) — atual
+## Revisão 3 (19/07/2026)
+
+- Corrigido o cálculo de energia para aplicar TE e TUSD Energia diretamente ao consumo de cada posto tarifário.
+- Criado modo alternativo de consumo total estimado, com distribuição explícita por pesos horários.
+- Incluído consumo intermediário para a modalidade Branca, inclusive Grupo B.
+- Vigência mensal passou a considerar qualquer sobreposição com o mês, incluindo REH iniciada no decorrer do período.
+- Valores tarifários ausentes agora interrompem o cálculo com diagnóstico, em vez de serem tratados como zero.
+- Memória de cálculo estruturada por componente, posto, tarifa, quantidade e subtotal.
+- Núcleo de domínio isolado em `src/domain/`, acompanhado de testes automatizados.
+- Revisão 2 preservada em `revisions/app_v2.py`.
+
+## Revisão 2 (16/07/2026)
 
 Redesign do layout e novos cálculos de energia/demanda, a partir de mockup
 fornecido por Willians Gaspar (ver anotações da imagem em 16/07/2026).
