@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Manifesto do conjunto dourado Salomão",
+  "type": "object",
+  "required": ["schema_version", "updated_at", "items"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "updated_at": {"type": "string", "format": "date"},
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "provenance", "domain", "question", "answer_path", "as_of", "anonymization", "review_status"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "provenance": {"enum": ["real_anonymized", "curated_seed", "synthetic_adversarial"]},
+          "domain": {"type": "string"},
+          "question": {"type": "string"},
+          "answer_path": {"type": "string"},
+          "as_of": {"type": "string", "format": "date"},
+          "anonymization": {"enum": ["not_applicable", "completed", "pending"]},
+          "review_status": {"enum": ["approved", "candidate", "rejected"]}
+        }
+      }
+    }
+  }
+}

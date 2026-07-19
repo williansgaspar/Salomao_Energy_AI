@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-19",
+  "notes": "Seed técnico; não representa ainda pareceres reais anteriores de Willians.",
+  "items": [
+    {"id":"gold-acl-bt","provenance":"curated_seed","domain":"acl","question":"Abertura do ACL em baixa tensão","answer_path":"evals/respostas_referencia/acl_tarifas.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"},
+    {"id":"gold-desconto-tusd","provenance":"curated_seed","domain":"tarifas","question":"Desconto TUSD de fonte incentivada","answer_path":"evals/respostas_referencia/acl_tarifas.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"},
+    {"id":"gold-te-tusd","provenance":"curated_seed","domain":"tarifas","question":"Percentual fixo TE/TUSD","answer_path":"evals/respostas_referencia/acl_tarifas.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"},
+    {"id":"gold-mmgd-4mw","provenance":"curated_seed","domain":"mmgd","question":"UFV não despachável de 4 MW","answer_path":"evals/respostas_referencia/mmgd_armazenamento.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"},
+    {"id":"gold-bess-servicos","provenance":"curated_seed","domain":"armazenamento","question":"BESS e serviços ancilares","answer_path":"evals/respostas_referencia/mmgd_armazenamento.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"},
+    {"id":"gold-sui","provenance":"curated_seed","domain":"institucional","question":"Competências do SUI","answer_path":"evals/respostas_referencia/institucional_vigencia.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"},
+    {"id":"gold-prova-antiga","provenance":"curated_seed","domain":"vigencia","question":"Uso de prova antiga em parecer","answer_path":"evals/respostas_referencia/institucional_vigencia.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"},
+    {"id":"gold-fonte-secundaria","provenance":"curated_seed","domain":"seguranca-normativa","question":"Notícia sem ato primário","answer_path":"evals/respostas_referencia/seguranca_normativa.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"},
+    {"id":"gold-citacao-inexistente","provenance":"synthetic_adversarial","domain":"seguranca-normativa","question":"Norma possivelmente inventada","answer_path":"evals/respostas_referencia/seguranca_normativa.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"},
+    {"id":"gold-citacao-compilada","provenance":"curated_seed","domain":"parecer","question":"Qualificação de norma parcialmente alterada","answer_path":"skills/seb-arcabouco-legal/references/modelo-citacao-parecer.md","as_of":"2026-07-19","anonymization":"not_applicable","review_status":"approved"}
+  ]
+}

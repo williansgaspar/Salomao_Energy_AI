@@ -8,7 +8,9 @@ Sempre que citar um instrumento, inclua: **tipo + número + data + (artigo/incis
 
 - Lei nº 14.300, de 6 de janeiro de 2022 (Marco Legal da MMGD), art. 3º — vigente.
 - Resolução Normativa ANEEL nº 1.000, de 7 de dezembro de 2021, art. [indicar] — texto compilado verificado na fonte oficial em [data]; confirmar alterações aplicáveis ao dispositivo citado.
-- Decreto nº 5.163, de 30 de julho de 2004 — vigente, regulamenta a Lei nº 10.848/2004.
+- Decreto nº 5.163, de 30 de julho de 2004, art. [indicar] — conferir o dispositivo no
+  texto compilado, pois o decreto sofreu alterações e revogações parciais; não qualificar
+  o instrumento inteiro como simplesmente “vigente” para fundamentar regra específica.
 
 Quando o instrumento tiver sido alterado ou revogado, cite a cadeia: *"REN X, alterada pela REN Y (data), que por sua vez..."* — nunca cite uma norma sem checar se há alteração posterior conhecida.
 

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import json
 import re
 import subprocess
@@ -90,6 +91,18 @@ def validate_catalog(report: Report) -> None:
         local_path = item["local_path"]
         if local_path and not (ROOT / local_path).is_file():
             report.error(f"{label}.local_path não existe: {local_path}")
+        expected_hash = item.get("sha256")
+        if local_path and expected_hash and (ROOT / local_path).is_file():
+            actual_hash = hashlib.sha256((ROOT / local_path).read_bytes()).hexdigest()
+            if actual_hash != expected_hash:
+                report.error(f"{label}.sha256 diverge do arquivo local")
+        local_copies = item.get("local_copies", [])
+        if not isinstance(local_copies, list):
+            report.error(f"{label}.local_copies deve ser uma lista")
+        else:
+            for copy_path in local_copies:
+                if not (ROOT / copy_path).is_file():
+                    report.error(f"{label}.local_copies não existe: {copy_path}")
         verification = item["verification"]
         if verification.get("status") not in VALID_VERIFICATION:
             report.error(f"{label}.verification.status inválido")
@@ -201,6 +214,40 @@ def validate_git(report: Report) -> None:
             report.error(f"git: artefato sensível/efêmero rastreado: {tracked}")
 
 
+def validate_instruction_governance(report: Report) -> None:
+    path = ROOT / "CLAUDE.md"
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError as exc:
+        report.error(f"CLAUDE.md: não foi possível ler: {exc}")
+        return
+    if "AGENTS.md" not in text or "fonte canônica" not in text:
+        report.error("CLAUDE.md deve declarar AGENTS.md como fonte canônica")
+
+
+def validate_golden(report: Report) -> None:
+    path = ROOT / "evals/golden/manifest.json"
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        report.error(f"golden: não foi possível ler manifesto: {exc}")
+        return
+    items = data.get("items", [])
+    if len(items) < 10:
+        report.error("golden: conjunto inicial deve conter ao menos 10 controles")
+    ids: set[str] = set()
+    for item in items:
+        item_id = item.get("id")
+        if item_id in ids:
+            report.error(f"golden: id duplicado {item_id}")
+        ids.add(item_id)
+        answer_path = item.get("answer_path")
+        if not answer_path or not (ROOT / answer_path).is_file():
+            report.error(f"golden.{item_id}: answer_path inexistente")
+        if item.get("provenance") == "real_anonymized" and item.get("anonymization") != "completed":
+            report.error(f"golden.{item_id}: caso real exige anonimização concluída")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--skip-git", action="store_true", help="não validar arquivos rastreados")
@@ -209,6 +256,8 @@ def main() -> int:
     validate_catalog(report)
     validate_skills(report)
     validate_evals(report)
+    validate_instruction_governance(report)
+    validate_golden(report)
     if not args.skip_git:
         validate_git(report)
 

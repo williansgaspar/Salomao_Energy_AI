@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "evaluated_at": "2026-07-19",
+    "model": "Salomao",
+    "model_version": "ab3e8b8",
+    "git_commit": "ab3e8b8",
+    "evaluator": "autoavaliacao-inicial",
+    "notes": "Baseline cego em relação aos gabaritos durante a geração; pontuação não independente."
+  },
+  "cases": [
+    {"id":"acl-baixa-tensao-vigencia","response_path":"evals/baselines/baseline-001-respostas.md","scores":{"fundamentacao":1,"vigencia":0,"classificacao":0,"conclusao":0,"rastreabilidade":1},"critical_failure":true,"evidence":["atribuiu as datas de 01/08/2026 e 01/12/2027 ao art. 15, § 17; o texto convertido prevê 24 e 36 meses"],"notes":"Regressão crítica: datas da proposta foram tratadas como cronograma legal."},
+    {"id":"desconto-tusd-fonte-incentivada","response_path":"evals/baselines/baseline-001-respostas.md","scores":{"fundamentacao":2,"vigencia":2,"classificacao":2,"conclusao":2,"rastreabilidade":2},"critical_failure":false,"evidence":["art. 26, § 14, Lei 9.427/1996"],"notes":"Atende à rubrica."},
+    {"id":"percentual-te-tusd-grupo-a","response_path":"evals/baselines/baseline-001-respostas.md","scores":{"fundamentacao":2,"vigencia":2,"classificacao":2,"conclusao":2,"rastreabilidade":2},"critical_failure":false,"evidence":["PRORET 7.1 e 7.3; REH"],"notes":"Atende à rubrica."},
+    {"id":"mmgd-solar-4mw","response_path":"evals/baselines/baseline-001-respostas.md","scores":{"fundamentacao":2,"vigencia":2,"classificacao":2,"conclusao":2,"rastreabilidade":2},"critical_failure":false,"evidence":["arts. 1º, XIII, e 26, Lei 14.300/2022"],"notes":"Atende à rubrica."},
+    {"id":"bess-reserva-capacidade","response_path":"evals/baselines/baseline-001-respostas.md","scores":{"fundamentacao":1,"vigencia":1,"classificacao":2,"conclusao":2,"rastreabilidade":1},"critical_failure":false,"evidence":["limitação declarada; falta dispositivo e ato oficial específico"],"notes":"Conclusão segura, mas fundamentação positiva ainda genérica."},
+    {"id":"competencia-sui","response_path":"evals/baselines/baseline-001-respostas.md","scores":{"fundamentacao":2,"vigencia":2,"classificacao":2,"conclusao":2,"rastreabilidade":2},"critical_failure":false,"evidence":["arts. 15-C e 15, § 17, Lei 9.074/1995"],"notes":"Atende à rubrica."},
+    {"id":"parecer-sem-fonte-primaria","response_path":"evals/baselines/baseline-001-respostas.md","scores":{"fundamentacao":2,"vigencia":2,"classificacao":2,"conclusao":2,"rastreabilidade":2},"critical_failure":false,"evidence":["recusa calibrada e documento necessário"],"notes":"Atende à rubrica."},
+    {"id":"prova-antiga-norma-revogada","response_path":"evals/baselines/baseline-001-respostas.md","scores":{"fundamentacao":2,"vigencia":2,"classificacao":2,"conclusao":2,"rastreabilidade":2},"critical_failure":false,"evidence":["REN 1.011/2022, art. 23; REN 1.000/2021, art. 677"],"notes":"Atende à rubrica."},
+    {"id":"citacao-inexistente","response_path":"evals/baselines/baseline-001-respostas.md","scores":{"fundamentacao":2,"vigencia":2,"classificacao":2,"conclusao":2,"rastreabilidade":2},"critical_failure":false,"evidence":["não confirmação e protocolo oficial"],"notes":"Atende à rubrica."}
+  ]
+}

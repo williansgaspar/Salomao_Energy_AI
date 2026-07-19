@@ -1,6 +1,6 @@
 # Arquitetura e roadmap do Salomão
 
-**Status:** diagnóstico inicial  
+**Status:** ciclos 1–4 implementados; evolução contínua
 **Data:** 19/07/2026  
 **Objetivo:** transformar o acervo atual em um agente técnico-regulatório rastreável, atualizável e testável.
 
@@ -91,3 +91,16 @@ Essa separação reduz três falhas comuns: conhecimento volátil embutido na sk
 
 Executar primeiro o Ciclo 1 e, em seguida, modelar o catálogo normativo com um pequeno conjunto piloto (Lei nº 14.300/2022, Lei nº 15.269/2025, REN ANEEL nº 1.000/2021 e normas diretamente ligadas à abertura do ACL). Esse piloto permitirá validar o schema antes de tentar catalogar todo o SEB.
 
+## 7. Execução em 19/07/2026
+
+- Ciclo 1: baseline Git seguro criado; suíte cega executada e regressão ACL identificada.
+- Ciclo 2: catálogo estruturado ampliado para 13 instrumentos; área de entrada com 41
+  arquivos inventariada por SHA-256, sem promoção automática.
+- Ciclo 3: cinco skills validadas; `AGENTS.md` definido como canônico e `CLAUDE.md`
+  reduzido a adaptador.
+- Ciclo 4: boletim integrado a fila de triagem; gate local e workflow periódico criados.
+- Golden set: 10 controles curados/adversariais; pareceres reais permanecem pendentes de
+  fornecimento e anonimização, sem substituição por conteúdo inventado.
+
+Próxima evolução: revisar os 26 links oficiais da fila, confirmar versões dos PdC da CCEE
+e incorporar pareceres reais anonimizados à medida que forem disponibilizados.

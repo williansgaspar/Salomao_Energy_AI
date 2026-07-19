@@ -168,6 +168,89 @@
         "notes": "Metadados oficiais confirmados; baixar e catalogar o texto integral antes de citar dispositivo específico."
       },
       "relations": []
+    },
+    {
+      "id": "lei-9074-1995",
+      "type": "lei",
+      "number": "9.074",
+      "date": "1995-07-07",
+      "issuer": "Presidência da República",
+      "title": "Normas para outorga e prorrogações das concessões e permissões de serviços públicos",
+      "subjects": ["concessoes", "acl", "consumidor-livre", "sui"],
+      "official_url": "https://www.planalto.gov.br/ccivil_03/leis/l9074cons.htm",
+      "local_path": "Legislacao/Leis_Federais/Lei_9074_1995_Marco_Regulatorio_SEB.html",
+      "sha256": "7adecf5b000258db774a0e9ecb23051ab526730a23a195934f8852e5a4a8f6f1",
+      "local_copies": [],
+      "source_kind": "primary_text",
+      "verification": {"status":"verified","checked_at":"2026-07-19","method":"Conferência do texto compilado oficial e do arquivo local.","notes":"Confirmar a redação e a produção de efeitos do dispositivo específico."},
+      "relations": [{"kind":"correlata","target_id":"lei-15269-2025","evidence":"A Lei nº 15.269/2025 alterou extensamente a Lei nº 9.074/1995."}]
+    },
+    {
+      "id": "ren-aneel-1009-2022",
+      "type": "ren",
+      "number": "1.009",
+      "date": "2022-03-22",
+      "issuer": "ANEEL",
+      "title": "Contratação de energia nos ambientes regulado e livre",
+      "subjects": ["acr", "acl", "contratacao", "leiloes"],
+      "official_url": "https://www2.aneel.gov.br/cedoc/ren20221009.pdf",
+      "local_path": "Legislacao/Resolucoes_ANEEL/REN_Aneel_1009_2022_Contratacao_Energia.txt",
+      "sha256": "b58f40c6b8bd79f0b8a1833fb34dca7a9e859b2d850140fff441794c11c275a1",
+      "local_copies": [],
+      "source_kind": "primary_text",
+      "verification": {"status":"verified","checked_at":"2026-07-19","method":"Conferência do ato oficial ANEEL e do texto local.","notes":"Usar texto compilado para artigos alterados."},
+      "relations": []
+    },
+    {
+      "id": "ren-aneel-1011-2022",
+      "type": "ren",
+      "number": "1.011",
+      "date": "2022-03-29",
+      "issuer": "ANEEL",
+      "title": "Autorização para comercialização de energia elétrica no SIN",
+      "subjects": ["comercializacao", "varejista", "autorizacao", "ccee"],
+      "official_url": "https://www2.aneel.gov.br/cedoc/ren20221011.pdf",
+      "local_path": "Legislacao/Resolucoes_ANEEL/REN_Aneel_1011_2022_Autorizacao_Comercializacao.txt",
+      "sha256": "3e9016f72085b602201b02e9353557e6c7a06a64271ddc760acc48299b054346",
+      "local_copies": [],
+      "source_kind": "primary_text",
+      "verification": {"status":"verified","checked_at":"2026-07-19","method":"Conferência do ato oficial e do texto compilado local.","notes":"O art. 23 revoga expressamente as RENs nº 570/2013, 654/2015 e 678/2015."},
+      "relations": []
+    },
+    {
+      "id": "ren-aneel-1012-2022",
+      "type": "ren",
+      "number": "1.012",
+      "date": "2022-03-29",
+      "issuer": "ANEEL",
+      "title": "Estrutura e Submódulos dos Procedimentos de Comercialização",
+      "subjects": ["ccee", "procedimentos-comercializacao", "scl"],
+      "official_url": "https://www2.aneel.gov.br/cedoc/ren20221012.pdf",
+      "local_path": "Legislacao/Leis_Federais/REN_Aneel_1012_2022_Procedimentos_Comercializacao.txt",
+      "sha256": "ff3f9e66e15b4acda1001c6e2160c3ffc1201475de0e88d1cc5eece21bbb581e",
+      "local_copies": [],
+      "source_kind": "primary_text",
+      "verification": {"status":"verified","checked_at":"2026-07-19","method":"Conferência do PDF oficial e do texto local.","notes":"As versões dos Submódulos exigem controle próprio e data de aprovação."},
+      "relations": []
+    },
+    {
+      "id": "ren-aneel-1110-2024",
+      "type": "ren",
+      "number": "1.110",
+      "date": "2024-12-10",
+      "issuer": "ANEEL",
+      "title": "Regras e Procedimentos de Comercialização aplicáveis ao SCL",
+      "subjects": ["ccee", "regras-comercializacao", "procedimentos-comercializacao", "varejista"],
+      "official_url": "https://www2.aneel.gov.br/cedoc/ren20241110.pdf",
+      "local_path": "Legislacao/Leis_Federais/REN_Aneel_1110_2024_Abertura_Mercado.txt",
+      "sha256": "64e8fae5c6e075208c63f735e423faab2717f9519b361dfcb176e19e8c36e144",
+      "local_copies": [],
+      "source_kind": "primary_text",
+      "verification": {"status":"verified","checked_at":"2026-07-19","method":"Conferência do PDF oficial e do texto local.","notes":"Controlar separadamente as versões dos módulos aprovados."},
+      "relations": [
+        {"kind":"altera","target_id":"ren-aneel-1000-2021","evidence":"A ementa declara alteração da REN nº 1.000/2021."},
+        {"kind":"altera","target_id":"ren-aneel-1011-2022","evidence":"A ementa declara alteração da REN nº 1.011/2022."}
+      ]
     }
   ]
 }

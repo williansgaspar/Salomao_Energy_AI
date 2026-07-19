@@ -23,3 +23,6 @@ tools/**/cache/
 
 # Local evaluation runs (keep curated results only when explicitly selected)
 evals/resultados/
+
+# Generated publication variant; canonical bulletin remains versioned
+Atualizacoes_Mercado/Boletim_Atualizacoes_SEB_web.html

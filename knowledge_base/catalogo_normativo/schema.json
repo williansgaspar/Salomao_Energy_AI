@@ -24,6 +24,8 @@
           "subjects": {"type": "array", "items": {"type": "string"}},
           "official_url": {"type": ["string", "null"]},
           "local_path": {"type": ["string", "null"]},
+          "sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+          "local_copies": {"type": "array", "items": {"type": "string"}},
           "source_kind": {"enum": ["primary_text", "official_metadata", "derived_index", "secondary_source"]},
           "verification": {
             "type": "object",
@@ -52,4 +54,3 @@
     }
   }
 }
-
