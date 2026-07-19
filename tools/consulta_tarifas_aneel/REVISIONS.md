@@ -4,7 +4,17 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 6 (19/07/2026) — atual
+## Revisão 7 (19/07/2026) — atual
+
+- Upload ampliado para PDF, PNG, JPG e WEBP de faturas Light Grupo A, além de CSV/XLSX.
+- Extração textual de PDF com PyMuPDF e fallback de OCR local com RapidOCR.
+- Extração de Energia Ativa HPT/HFP em kWh, convertida automaticamente para MWh, e Demanda HPT/HFP em kW.
+- Retirada auditável de PIS/COFINS e ICMS por item, usando a tarifa líquida da fatura ou reconstrução algébrica.
+- Separação TE/TUSD reconciliada com a composição ANEEL selecionada, com alerta para divergência de competência/enquadramento/tarifa.
+- Tela de conferência editável antes de preencher os inputs; nenhum dado da fatura é enviado a serviço externo.
+- Revisão 6 preservada em `revisions/app_v6.py`.
+
+## Revisão 6 (19/07/2026)
 
 - Reintroduzidos indicadores de TE ponderada, TUSD Energia ponderada e TUSD Demanda ponderada.
 - Ponderação de referência: 720 h/mês típico, 66 h de Ponta, 44 h de Intermediário quando aplicável e saldo em Fora Ponta.

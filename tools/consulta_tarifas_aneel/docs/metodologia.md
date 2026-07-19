@@ -37,3 +37,11 @@ A consulta mensal inclui toda composição cuja vigência alcance pelo menos um 
 - Não contempla tributos, bandeiras, reativos, ultrapassagem, descontos, encargos ou regras particulares da unidade consumidora.
 - O resultado é uma estimativa técnica e não substitui o faturamento da distribuidora.
 - Séries históricas agregam registros repetidos por média apenas para visualização; a tabela de origem deve ser usada em análises formais.
+
+## Importação de fatura Light
+
+PDFs com camada textual são lidos diretamente; PDFs escaneados e imagens usam OCR local. O arquivo não é transmitido a serviços externos. Para cada item de energia ou demanda, o aplicativo lê quantidade, valor com tributos, PIS/COFINS, ICMS e tarifa unitária líquida. Quando necessário, reconstrói:
+
+`Tarifa líquida = (Valor com tributos − PIS/COFINS − ICMS) ÷ Quantidade`.
+
+Energia em kWh é convertida para MWh. A fatura normalmente apresenta uma tarifa líquida agregada; a separação entre TE e TUSD vem da composição ANEEL selecionada no aplicativo. Por isso, o app exibe a diferença entre a tarifa líquida da conta e `TE + TUSD` da base e exige conferência do usuário antes de aplicar os dados à simulação.

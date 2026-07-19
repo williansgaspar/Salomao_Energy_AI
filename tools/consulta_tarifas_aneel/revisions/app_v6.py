@@ -1,4 +1,4 @@
-"""Revisão 7 — indicadores ACL × ACR e importação local de fatura Light."""
+"""Revisão 6 — cálculo rastreável e indicadores ponderados ACL × ACR."""
 
 from datetime import date, datetime
 from io import BytesIO
@@ -14,7 +14,6 @@ from src.domain.composicao import chave_versao, rotulo_versao, valores_por_posto
 from src.domain.contexto import fingerprint_simulacao
 from src.domain.vigencia import periodo_do_mes, registros_vigentes_no_periodo
 from src.exports import gerar_excel, gerar_pdf
-from src.importers import extrair_fatura, reconciliar_com_aneel
 from src.ui import aplicar_tema, cabecalho, fmt_brl
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -73,11 +72,7 @@ def contexto_consulta(parametros):
     return " | ".join(f"{k}: {v}" for k, v in parametros.items() if v not in (None, "Todos", "Todas", ""))
 
 
-def chave_input(prefixo, posto):
-    return prefixo + "_" + posto.lower().replace(" ", "_").replace("ã", "a")
-
-
-def carregar_perfil_tabular(arquivo):
+def carregar_perfil(arquivo):
     if arquivo is None:
         return {}
     df = pd.read_csv(arquivo, sep=None, engine="python") if arquivo.name.lower().endswith(".csv") else pd.read_excel(arquivo)
@@ -88,11 +83,6 @@ def carregar_perfil_tabular(arquivo):
             for _, row in df.iterrows() if pd.notna(row[normalizadas["consumo_mwh"]])
         }
     raise ValueError("O arquivo deve conter as colunas 'posto' e 'consumo_mwh'.")
-
-
-@st.cache_data(show_spinner="Lendo fatura e executando OCR local...")
-def extrair_fatura_cache(conteudo, nome):
-    return extrair_fatura(conteudo, nome)
 
 
 aba_consulta, aba_simulacao, aba_historico = st.tabs(["1. Consulta", "2. Simulação e comparação", "3. Histórico"])
@@ -208,86 +198,12 @@ with aba_simulacao:
                 "São referências para comparação inicial entre a TE regulada no ACR e ofertas de TE no ACL. "
                 "Não representam curva de carga, não alteram os cálculos abaixo e a ponderação da TUSD Demanda não constitui critério de faturamento."
             )
-            st.markdown('<div class="section-kicker">Importar dados de medição ou fatura</div>', unsafe_allow_html=True)
-            arquivo = st.file_uploader(
-                "Upload de perfil ou conta de energia (opcional)",
-                type=["csv", "xlsx", "pdf", "png", "jpg", "jpeg", "webp"],
-                help="CSV/XLSX: colunas posto e consumo_mwh. PDF/imagem: fatura Light Grupo A, processada localmente.",
-                key="arquivo_perfil_fatura",
-            )
-            perfil = {}
-            fatura = None
-            if arquivo is not None:
-                extensao = arquivo.name.lower().rsplit(".", 1)[-1]
-                try:
-                    if extensao in {"csv", "xlsx"}:
-                        perfil = carregar_perfil_tabular(arquivo)
-                    else:
-                        fatura = extrair_fatura_cache(arquivo.getvalue(), arquivo.name)
-                except Exception as erro:
-                    st.error(f"Não foi possível ler o arquivo: {erro}")
-
-            if fatura:
-                st.success(f"Fatura processada por {fatura['metodo']}. Confira os campos antes de aplicá-los.")
-                meta1, meta2, meta3, meta4 = st.columns(4)
-                meta1.metric("Competência", fatura.get("competencia") or "—")
-                meta2.metric("Subgrupo", fatura.get("subgrupo") or "—")
-                meta3.metric("Modalidade", fatura.get("modalidade") or "—")
-                meta4.metric("ICMS identificado", f"{fatura['icms_percentual']:.2f}%" if fatura.get("icms_percentual") is not None else "—")
-                st.caption(
-                    f"PIS identificado: {fatura.get('pis_percentual') if fatura.get('pis_percentual') is not None else '—'}% · "
-                    f"COFINS identificado: {fatura.get('cofins_percentual') if fatura.get('cofins_percentual') is not None else '—'}% · "
-                    f"Classe identificada: {fatura.get('classe') or '—'} / {fatura.get('subclasse') or '—'}. "
-                    "Processamento local: o arquivo não é enviado a serviços externos."
-                )
-                if fatura.get("subgrupo") and fatura["subgrupo"] != principal[2]:
-                    st.warning(f"A fatura indica {fatura['subgrupo']}, mas a composição selecionada é {principal[2]}. Selecione a composição correspondente antes de reconciliar TE/TUSD.")
-                if fatura.get("modalidade") and fatura["modalidade"] != principal[3]:
-                    st.warning(f"A fatura indica modalidade {fatura['modalidade']}, mas a composição selecionada é {principal[3]}.")
-                if fatura.get("competencia"):
-                    competencia_data = datetime.strptime(fatura["competencia"] + "-01", "%Y-%m-%d").date()
-                    inicio_versao = datetime.strptime(principal[7], "%Y-%m-%d").date() if principal[7] else None
-                    fim_versao = datetime.strptime(principal[8], "%Y-%m-%d").date() if principal[8] else None
-                    if (inicio_versao and competencia_data < inicio_versao) or (fim_versao and competencia_data > fim_versao):
-                        st.warning(
-                            f"A competência da fatura é {fatura['competencia']}, fora da vigência da composição selecionada "
-                            f"({principal[7]} a {principal[8] or 'aberta'}). Volte à aba Consulta e selecione o mês da fatura."
-                        )
-                for aviso in fatura.get("avisos", []):
-                    st.warning(aviso)
-                reconciliados = reconciliar_com_aneel(fatura, tarifas_mwh, tarifas_kw)
-                revisao_df = pd.DataFrame([{
-                    "Tipo": r["tipo"], "Posto": r["posto"], "Quantidade": r["quantidade"], "Unidade": r["unidade"],
-                    "Consumo (MWh)": r["consumo_mwh"], "Valor com tributos (R$)": r["valor_com_tributos"],
-                    "PIS/COFINS retirado (R$)": r["pis_cofins"], "ICMS retirado (R$)": r["icms"],
-                    "Tarifa líquida fatura": r["tarifa_liquida_comparavel"], "TUSD ANEEL": r["tusd_aneel"],
-                    "TE ANEEL": r["te_aneel"], "TE + TUSD ANEEL": r["soma_aneel"], "Diferença": r["diferenca_tarifa"],
-                } for r in reconciliados])
-                revisao_editada = st.data_editor(
-                    revisao_df, hide_index=True, width="stretch", key="revisao_fatura",
-                    disabled=[c for c in revisao_df.columns if c not in {"Posto", "Quantidade"}],
-                )
-                if any(abs(v) > 1 for v in revisao_df["Diferença"].dropna()):
-                    st.warning("A tarifa líquida da fatura não reconciliou com TE + TUSD da composição selecionada. Confirme competência, subgrupo, modalidade, classe/detalhe e base tarifária.")
-                with st.expander("Como os impostos e TE/TUSD foram tratados"):
-                    st.write(
-                        "Por item, a tarifa líquida é lida da coluna 'Tarifa Unit.' ou reconstruída por "
-                        "(Valor com tributos - PIS/COFINS - ICMS) / Quantidade. Para energia, R$/kWh é convertido "
-                        "para R$/MWh. A separação entre TE e TUSD usa a composição ANEEL selecionada e é exibida "
-                        "ao lado da tarifa líquida da fatura para reconciliação."
-                    )
-                if st.button("Aplicar dados conferidos à simulação", type="secondary"):
-                    for _, linha in revisao_editada.iterrows():
-                        if pd.isna(linha["Quantidade"]):
-                            continue
-                        if linha["Tipo"] == "Energia":
-                            st.session_state[chave_input("consumo", linha["Posto"])] = float(linha["Quantidade"]) / 1000
-                        else:
-                            st.session_state[chave_input("demanda", linha["Posto"])] = float(linha["Quantidade"])
-                    st.session_state["modo_calculo"] = "Consumo por posto"
-                    st.rerun()
-
-            modo = st.radio("Forma de cálculo", ["Consumo por posto", "Consumo total estimado"], horizontal=True, key="modo_calculo")
+            modo = st.radio("Forma de cálculo", ["Consumo por posto", "Consumo total estimado"], horizontal=True)
+            arquivo = st.file_uploader("Importar perfil CSV/XLSX (opcional)", type=["csv", "xlsx"], help="Colunas esperadas: posto, consumo_mwh")
+            try:
+                perfil = carregar_perfil(arquivo)
+            except ValueError as erro:
+                st.error(str(erro)); perfil = {}
 
             consumos = {}
             demandas = {}
@@ -295,21 +211,14 @@ with aba_simulacao:
             if modo == "Consumo por posto":
                 colunas = st.columns(max(1, len(postos_energia)))
                 for i, posto_nome in enumerate(postos_energia):
-                    consumos[posto_nome] = colunas[i].number_input(
-                        f"Consumo {posto_nome} (MWh)", min_value=0.0,
-                        value=float(perfil.get(posto_nome, 0.0)), step=0.1,
-                        key=chave_input("consumo", posto_nome),
-                    )
+                    consumos[posto_nome] = colunas[i].number_input(f"Consumo {posto_nome} (MWh)", min_value=0.0, value=float(perfil.get(posto_nome, 0.0)), step=0.1)
             else:
                 consumo_total = st.number_input("Consumo mensal total (MWh)", min_value=0.0, step=0.1)
                 st.caption("Distribuição padrão: 66 horas de ponta, 44 horas intermediárias quando existentes e horas restantes fora de ponta.")
             if postos_demanda:
                 cols_demanda = st.columns(len(postos_demanda))
                 for i, posto_nome in enumerate(postos_demanda):
-                    demandas[posto_nome] = cols_demanda[i].number_input(
-                        f"Demanda {posto_nome} (kW)", min_value=0.0, step=1.0,
-                        key=chave_input("demanda", posto_nome),
-                    )
+                    demandas[posto_nome] = cols_demanda[i].number_input(f"Demanda {posto_nome} (kW)", min_value=0.0, step=1.0)
 
             fingerprint_atual = fingerprint_simulacao({
                 "escolhas": escolhas, "modo": modo, "consumos": consumos,
