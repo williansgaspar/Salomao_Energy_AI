@@ -16,7 +16,7 @@ def metadados_fonte(contexto):
         "Resource ID": "fcf2906c-7c32-4b9b-a637-054e7a5234f4",
         "Extração": datetime.now().astimezone().isoformat(timespec="seconds"),
         "Contexto": contexto,
-        "Versão do app": "Revisão 12",
+        "Versão do app": "Revisão 13",
     }
 
 

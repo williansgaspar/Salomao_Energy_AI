@@ -1,4 +1,4 @@
-"""Revisão 12 — detalhe tarifário fixado em Não se aplica."""
+"""Revisão 13 — detalhe automático no documento e obrigatório no manual."""
 
 import hashlib
 from datetime import date, datetime
@@ -345,14 +345,28 @@ with aba_consulta:
         filtrados = filtrar(filtrados, "DscSubClasse", subclasse, "Todas")
         a5, a6, a7 = st.columns(3)
         detalhes_disponiveis = opcoes(filtrados, "DscDetalhe")
-        detalhe = "Não se aplica"
-        st.session_state[chave_param("consulta_detalhe")] = detalhe
-        a5.selectbox("Detalhe", [detalhe], disabled=True, key=chave_param("consulta_detalhe"))
-        if detalhe in detalhes_disponiveis:
+        if documento_ativo:
+            detalhe = "Não se aplica"
+            st.session_state[chave_param("consulta_detalhe")] = detalhe
+            a5.selectbox(
+                "Detalhe documental",
+                [detalhe], disabled=True, key=chave_param("consulta_detalhe"),
+                help="Com documento válido, o detalhe é fixado automaticamente em 'Não se aplica'.",
+            )
+        else:
+            validar_estado_select("consulta_detalhe", detalhes_disponiveis)
+            detalhe = a5.selectbox(
+                "Detalhe tarifário (obrigatório)", detalhes_disponiveis, index=None,
+                placeholder="Selecione o detalhe", disabled=not detalhes_disponiveis,
+                key=chave_param("consulta_detalhe"),
+                help="Na entrada manual, selecione explicitamente Não se aplica, APE, SCEE ou outra opção disponível.",
+            )
+        if detalhe and detalhe in detalhes_disponiveis:
             filtrados = filtrar(filtrados, "DscDetalhe", detalhe, "Todas")
         else:
             filtrados = []
-            a5.caption("Sem registro 'Não se aplica' para a combinação selecionada.")
+            if documento_ativo:
+                a5.caption("Sem registro 'Não se aplica' para a combinação selecionada.")
         opcoes_acessante = ["Todos"] + opcoes(filtrados, "SigAgenteAcessante")
         validar_estado_select("consulta_acessante", opcoes_acessante, "Todos")
         acessante = a6.selectbox("Acessante", opcoes_acessante, disabled=not filtrados, key=chave_param("consulta_acessante"))
@@ -363,7 +377,7 @@ with aba_consulta:
         filtrados = filtrar(filtrados, "NomPostoTarifario", posto, "Todos")
 
     parametros = {"Distribuidora": distribuidora, "Referência": str(data_exata or f"{mes_nome}/{ano}"), "Subgrupo": subgrupo, "Modalidade": modalidade, "Base": base if periodo else None, "REH": reh if periodo else None, "Classe": classe if periodo else None, "Subclasse": subclasse if periodo else None, "Detalhe": detalhe if periodo else None}
-    parametros_obrigatorios = bool(distribuidora and ano and mes_nome and subgrupo not in (None, "Todos") and modalidade not in (None, "Todas") and base and filtrados)
+    parametros_obrigatorios = bool(distribuidora and ano and mes_nome and subgrupo not in (None, "Todos") and modalidade not in (None, "Todas") and base and detalhe and filtrados)
     consulta_manual = st.button("Consultar tarifas", type="primary", disabled=not parametros_obrigatorios)
     consulta_automatica = st.session_state.pop("consulta_auto_executar", False)
     if consulta_manual or consulta_automatica:
@@ -403,7 +417,7 @@ with aba_consulta:
                 "TE ausente": ausentes_te,
             })
     elif distribuidora:
-        st.info("Informe obrigatoriamente Ano, Mês, Subgrupo e Modalidade; depois clique em Consultar tarifas.")
+        st.info("Informe obrigatoriamente Ano, Mês, Subgrupo, Modalidade e Detalhe tarifário; depois clique em Consultar tarifas.")
     else:
         st.info("Sem documento válido, comece selecionando uma distribuidora e preencha os demais parâmetros obrigatórios.")
 

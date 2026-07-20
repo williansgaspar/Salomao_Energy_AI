@@ -4,7 +4,15 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 12 (19/07/2026) — atual
+## Revisão 13 (19/07/2026) — atual
+
+- Regra de detalhe diferenciada pela origem dos dados.
+- Com documento válido, `Detalhe documental` permanece fixado em `Não se aplica`.
+- Sem documento, `Detalhe tarifário (obrigatório)` permite seleção explícita entre as opções disponíveis, incluindo `APE` e `SCEE`.
+- Consulta manual permanece bloqueada até a escolha do detalhe.
+- Revisão 12 preservada no commit `77b9547`.
+
+## Revisão 12 (19/07/2026)
 
 - Campo `DscDetalhe` fixado obrigatoriamente em `Não se aplica` nos fluxos documental e manual.
 - Opções `APE`, `SCEE` e `Todas` deixam de participar da composição consultada.
