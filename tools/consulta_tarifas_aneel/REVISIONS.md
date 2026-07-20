@@ -4,7 +4,17 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 14 (19/07/2026) — atual
+## Revisão 15 (19/07/2026) — atual
+
+- Perfis documentais passam a respeitar a modalidade: Azul exige duas demandas; Verde exige somente demanda HFP/Único.
+- Demanda HFP/Único da fatura Verde é associada ao posto oficial `Não se aplica` da tarifa ANEEL e exibida como `Demanda única / HFP`.
+- Extração limitada à tabela `Itens de fatura`, evitando confundir leituras de medidor e energia reativa com grandezas faturadas.
+- Linhas sem posto deixam de gerar chaves de widget inválidas.
+- Colunas monetárias e tributárias foram realinhadas ao layout Light corrente.
+- Validação com `DEODORO.pdf`: 7,175 MWh HFP, 0,775 MWh HPT e 30 kW de demanda única, A4 Verde.
+- Revisão 14 preservada no commit `69a82d3`.
+
+## Revisão 14 (19/07/2026)
 
 - Quantidade passa a ser localizada relativamente à coluna `Unid.`/`Quant.`, sem coordenada horizontal fixa.
 - Linha Demanda HFP pode ser inferida pela sequência tarifária quando o rótulo estiver invertido ou corrompido pelo OCR.

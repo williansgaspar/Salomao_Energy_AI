@@ -120,7 +120,7 @@ def _quantidade_apos_unidade(linha):
     return ("kWh" if _normalizar(unidade.texto) == "kwh" else "kW"), quantidade
 
 
-def _extrair_itens(tokens):
+def _extrair_itens(tokens, modalidade=None):
     itens = []
     linhas = _agrupar_linhas(tokens)
     cabecalho_quant = next(
@@ -130,9 +130,21 @@ def _extrair_itens(tokens):
     )
     indice_cabecalho, x_quantidade = cabecalho_quant
     for ordem, linha in enumerate(linhas):
+        # Somente a tabela fiscal contém as quantidades faturadas. Leituras do
+        # medidor, histórico e grandezas contratadas repetem kW/kWh e não podem
+        # alimentar o perfil de cálculo.
+        if indice_cabecalho is not None and ordem <= indice_cabecalho:
+            continue
+        if indice_cabecalho is not None and ordem > indice_cabecalho + 10:
+            break
+        texto_linha = _normalizar(" ".join(t.texto for t in linha))
+        if texto_linha == "total" or texto_linha.startswith("medidor"):
+            break
         rotulo = " ".join(t.texto for t in linha if t.x < 0.30)
         classificacao = _classificar_rotulo(rotulo)
         unidade_detectada, quantidade_relativa = _quantidade_apos_unidade(linha)
+        if "reativ" in _normalizar(rotulo):
+            continue
         if (
             not classificacao and quantidade_relativa is None and indice_cabecalho is not None
             and indice_cabecalho < ordem <= indice_cabecalho + 7
@@ -153,13 +165,13 @@ def _extrair_itens(tokens):
             continue
         tipo, posto = classificacao
         quantidade = quantidade_relativa if quantidade_relativa is not None else _valor_zona(linha, 0.29, 0.37, 0.34)
-        preco_com_tributos = _valor_zona(linha, 0.37, 0.45, 0.40)
-        valor_com_tributos = _valor_zona(linha, 0.45, 0.53, 0.48)
-        pis_cofins = _valor_zona(linha, 0.53, 0.605, 0.575)
-        base_icms = _valor_zona(linha, 0.59, 0.65, 0.615)
-        aliquota_icms = _valor_zona(linha, 0.64, 0.675, 0.65)
-        icms = _valor_zona(linha, 0.675, 0.72, 0.69)
-        tarifa_liquida = _valor_zona(linha, 0.72, 0.79, 0.735)
+        preco_com_tributos = _valor_zona(linha, 0.43, 0.49, 0.452)
+        valor_com_tributos = _valor_zona(linha, 0.49, 0.54, 0.509)
+        pis_cofins = _valor_zona(linha, 0.54, 0.58, 0.560)
+        base_icms = _valor_zona(linha, 0.58, 0.61, 0.591)
+        aliquota_icms = _valor_zona(linha, 0.61, 0.645, 0.626)
+        icms = _valor_zona(linha, 0.645, 0.68, 0.661)
+        tarifa_liquida = _valor_zona(linha, 0.68, 0.72, 0.694)
         # Guardas semânticas: um deslocamento de coluna nunca pode transformar
         # valor monetário em percentual nem produzir tributo superior ao item.
         if aliquota_icms is not None and not 0 <= aliquota_icms <= 100:
@@ -186,7 +198,10 @@ def _extrair_itens(tokens):
         itens_tipo = [i for i in itens if i["tipo"] == tipo]
         desconhecidos = [i for i in itens_tipo if i["posto"] is None]
         conhecidos = {i["posto"] for i in itens_tipo if i["posto"]}
-        faltantes = [p for p in ("Fora ponta", "Ponta") if p not in conhecidos]
+        if tipo == "Demanda" and modalidade == "Verde":
+            faltantes = ["Fora ponta"]
+        else:
+            faltantes = [p for p in ("Fora ponta", "Ponta") if p not in conhecidos]
         for item, posto_inferido in zip(sorted(desconhecidos, key=lambda i: i["_ordem"]), faltantes):
             item["posto"] = posto_inferido
     for item in itens:
@@ -235,15 +250,17 @@ def extrair_fatura(conteudo, nome_arquivo):
         tokens, metodo = _tokens_ocr(Image.open(io.BytesIO(conteudo))), "OCR local"
     else:
         raise ValueError("Formato de fatura não suportado.")
-    itens = _extrair_itens(tokens)
     metadados = _metadados(tokens)
+    itens = _extrair_itens(tokens, metadados.get("modalidade"))
     metadados["icms_percentual"] = next((i["aliquota_icms"] for i in itens if i.get("aliquota_icms") is not None), None)
     if metadados["icms_percentual"] is None:
         texto_normalizado = " ".join(t.texto for t in tokens)
         percentuais = [float(v.replace(",", ".")) for v in re.findall(r"(\d{1,2},\d{2,3})\s*%", texto_normalizado)]
         metadados["icms_percentual"] = next((v for v in percentuais if 10 <= v <= 40), None)
     avisos = []
-    esperados = {(tipo, posto) for tipo in ("Energia", "Demanda") for posto in ("Ponta", "Fora ponta")}
+    esperados = {("Energia", "Ponta"), ("Energia", "Fora ponta"), ("Demanda", "Fora ponta")}
+    if metadados.get("modalidade") != "Verde":
+        esperados.add(("Demanda", "Ponta"))
     encontrados = {(i["tipo"], i["posto"]) for i in itens if i.get("quantidade") is not None}
     faltantes = esperados - encontrados
     if faltantes:
@@ -265,13 +282,27 @@ def grandezas_da_fatura(fatura):
     grandezas = {"consumos_mwh": {}, "demandas_kw": {}}
     for item in fatura.get("itens", []):
         quantidade = item.get("quantidade")
-        if quantidade is None:
+        posto = item.get("posto")
+        if quantidade is None or not posto:
             continue
         if item.get("tipo") == "Energia":
-            grandezas["consumos_mwh"][item["posto"]] = float(quantidade) / 1000
+            grandezas["consumos_mwh"][posto] = float(quantidade) / 1000
         elif item.get("tipo") == "Demanda":
-            grandezas["demandas_kw"][item["posto"]] = float(quantidade)
+            grandezas["demandas_kw"][posto] = float(quantidade)
     return grandezas
+
+
+def grandezas_ausentes(fatura):
+    """Valida as grandezas obrigatórias conforme a modalidade tarifária."""
+    grandezas = grandezas_da_fatura(fatura)
+    verificacoes = [
+        ("Consumo HFP", "Fora ponta" in grandezas["consumos_mwh"]),
+        ("Consumo HPT", "Ponta" in grandezas["consumos_mwh"]),
+        ("Demanda HFP", "Fora ponta" in grandezas["demandas_kw"]),
+    ]
+    if fatura.get("modalidade") != "Verde":
+        verificacoes.append(("Demanda HPT", "Ponta" in grandezas["demandas_kw"]))
+    return [nome for nome, presente in verificacoes if not presente]
 
 
 def reconciliar_com_aneel(fatura, tarifas_mwh, tarifas_kw):

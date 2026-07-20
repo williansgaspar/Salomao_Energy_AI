@@ -1,4 +1,4 @@
-"""Revisão 14 — quantidades robustas para PDFs Light com layout variável."""
+"""Revisão 15 — perfis documentais Azul e Verde."""
 
 import hashlib
 from datetime import date, datetime
@@ -15,7 +15,7 @@ from src.domain.composicao import chave_versao, rotulo_versao, valores_por_posto
 from src.domain.contexto import fingerprint_simulacao
 from src.domain.vigencia import periodo_do_mes, registros_vigentes_no_periodo
 from src.exports import gerar_excel, gerar_pdf
-from src.importers import extrair_fatura, grandezas_da_fatura, reconciliar_com_aneel, totais_tributos
+from src.importers import extrair_fatura, grandezas_ausentes, grandezas_da_fatura, reconciliar_com_aneel, totais_tributos
 from src.ui import aplicar_tema, cabecalho, fmt_brl
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -163,6 +163,10 @@ def montar_sincronizacao(documento, identificador):
     ano_doc, mes_doc = (competencia.split("-") if competencia and "-" in competencia else (None, None))
     subgrupo = documento.get("subgrupo")
     grandezas = grandezas_da_fatura(documento)
+    # Na modalidade Verde, a Light apresenta a demanda como HFP/Único,
+    # enquanto a base tarifária da ANEEL usa o posto "Não se aplica".
+    if documento.get("modalidade") == "Verde" and "Fora ponta" in grandezas["demandas_kw"]:
+        grandezas["demandas_kw"]["Não se aplica"] = grandezas["demandas_kw"]["Fora ponta"]
     distribuidora_documento = documento.get("distribuidora") or (
         "LIGHT SESA" if documento.get("origem") == "fatura" else st.session_state.get(chave_param("consulta_distribuidora"))
     )
@@ -249,7 +253,7 @@ with aba_consulta:
     )
     if arquivo_parametros is not None:
         conteudo_parametros = arquivo_parametros.getvalue()
-        id_documento = hashlib.sha256(conteudo_parametros).hexdigest() + ":v11"
+        id_documento = hashlib.sha256(conteudo_parametros).hexdigest() + ":v15"
         if st.session_state.get("fatura_sync_id") != id_documento:
             try:
                 extensao = arquivo_parametros.name.lower().rsplit(".", 1)[-1]
@@ -259,14 +263,7 @@ with aba_consulta:
                     documento = extrair_fatura_cache(conteudo_parametros, arquivo_parametros.name)
                 grandezas_validadas = grandezas_da_fatura(documento)
                 if documento.get("origem") == "fatura":
-                    ausentes = [
-                        nome for nome, presente in (
-                            ("Consumo HFP", "Fora ponta" in grandezas_validadas["consumos_mwh"]),
-                            ("Consumo HPT", "Ponta" in grandezas_validadas["consumos_mwh"]),
-                            ("Demanda HFP", "Fora ponta" in grandezas_validadas["demandas_kw"]),
-                            ("Demanda HPT", "Ponta" in grandezas_validadas["demandas_kw"]),
-                        ) if not presente
-                    ]
+                    ausentes = grandezas_ausentes(documento)
                     if ausentes:
                         raise ValueError("grandezas obrigatórias não reconhecidas: " + ", ".join(ausentes))
                 st.session_state["documento_ativo"] = documento
@@ -567,8 +564,9 @@ with aba_simulacao:
             if postos_demanda:
                 cols_demanda = st.columns(len(postos_demanda))
                 for i, posto_nome in enumerate(postos_demanda):
+                    rotulo_demanda = "Demanda única / HFP" if modalidade == "Verde" and posto_nome == "Não se aplica" else f"Demanda {posto_nome}"
                     demandas[posto_nome] = cols_demanda[i].number_input(
-                        f"Demanda {posto_nome} (kW)", min_value=0.0, step=1.0,
+                        f"{rotulo_demanda} (kW)", min_value=0.0, step=1.0,
                         key=chave_input("demanda", posto_nome),
                     )
 
