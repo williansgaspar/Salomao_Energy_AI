@@ -2,6 +2,7 @@
 
 import hashlib
 from datetime import date, datetime
+from io import StringIO
 from pathlib import Path
 
 import pandas as pd
@@ -79,6 +80,11 @@ def chave_input(prefixo, posto):
     return f"{prefixo}_{posto_normalizado}_{versao}"
 
 
+def chave_param(nome):
+    versao = st.session_state.get("param_widget_versao", "manual")
+    return f"{nome}_{versao}"
+
+
 def fmt_percentual(valor):
     return "—" if valor is None else f"{valor:.2f}%".replace(".", ",")
 
@@ -89,6 +95,7 @@ def fmt_numero_br(valor, casas):
 
 def validar_estado_select(chave, opcoes_validas, padrao=None):
     """Evita estado inválido quando uma fatura troca as opções em cascata."""
+    chave = chave_param(chave)
     if st.session_state.get(chave) is None:
         st.session_state.pop(chave, None)
         return
@@ -97,7 +104,12 @@ def validar_estado_select(chave, opcoes_validas, padrao=None):
 
 
 def carregar_documento_tabular(arquivo):
-    df = pd.read_csv(arquivo, sep=None, engine="python") if arquivo.name.lower().endswith(".csv") else pd.read_excel(arquivo)
+    if arquivo.name.lower().endswith(".csv"):
+        texto = arquivo.getvalue().decode("utf-8-sig")
+        candidatos = [pd.read_csv(StringIO(texto), sep=separador) for separador in (";", ",", "\t")]
+        df = next((c for c in candidatos if "posto" in {str(col).strip().lower() for col in c.columns}), candidatos[0])
+    else:
+        df = pd.read_excel(arquivo)
     normalizadas = {str(c).strip().lower(): c for c in df.columns}
     if "posto" not in normalizadas or not ({"consumo_mwh", "demanda_kw"} & set(normalizadas)):
         raise ValueError("CSV/XLSX deve conter 'posto' e ao menos uma coluna entre 'consumo_mwh' e 'demanda_kw'.")
@@ -116,16 +128,22 @@ def carregar_documento_tabular(arquivo):
             return "Ponta"
         return str(valor).strip()
 
+    def numero(valor):
+        convertido = converter_valor_brl(valor) if isinstance(valor, str) else float(valor)
+        if convertido is None:
+            raise ValueError(f"Valor numérico inválido: {valor}")
+        return float(convertido)
+
     itens = []
     for _, linha in df.iterrows():
         posto = posto_padrao(linha[normalizadas["posto"]])
         if "consumo_mwh" in normalizadas and pd.notna(linha[normalizadas["consumo_mwh"]]):
-            quantidade = float(linha[normalizadas["consumo_mwh"]]) * 1000
+            quantidade = numero(linha[normalizadas["consumo_mwh"]]) * 1000
             itens.append({"tipo": "Energia", "posto": posto, "unidade": "kWh", "quantidade": quantidade,
                           "consumo_mwh": quantidade / 1000, "valor_com_tributos": None, "pis_cofins": None,
                           "icms": None, "tarifa_liquida": None, "aliquota_icms": None})
         if "demanda_kw" in normalizadas and pd.notna(linha[normalizadas["demanda_kw"]]):
-            quantidade = float(linha[normalizadas["demanda_kw"]])
+            quantidade = numero(linha[normalizadas["demanda_kw"]])
             itens.append({"tipo": "Demanda", "posto": posto, "unidade": "kW", "quantidade": quantidade,
                           "consumo_mwh": None, "valor_com_tributos": None, "pis_cofins": None,
                           "icms": None, "tarifa_liquida": None, "aliquota_icms": None})
@@ -146,17 +164,17 @@ def montar_sincronizacao(documento, identificador):
     subgrupo = documento.get("subgrupo")
     grandezas = grandezas_da_fatura(documento)
     distribuidora_documento = documento.get("distribuidora") or (
-        "LIGHT SESA" if documento.get("origem") == "fatura" else st.session_state.get("consulta_distribuidora")
+        "LIGHT SESA" if documento.get("origem") == "fatura" else st.session_state.get(chave_param("consulta_distribuidora"))
     )
     return {
         "id": identificador,
         "widgets": {
             "consulta_distribuidora": distribuidora_documento,
-            "consulta_ano": int(ano_doc) if ano_doc else st.session_state.get("consulta_ano"),
-            "consulta_mes": dict(MESES).get(int(mes_doc)) if mes_doc else st.session_state.get("consulta_mes"),
+            "consulta_ano": int(ano_doc) if ano_doc else st.session_state.get(chave_param("consulta_ano")),
+            "consulta_mes": dict(MESES).get(int(mes_doc)) if mes_doc else st.session_state.get(chave_param("consulta_mes")),
             "consulta_data_ref": None,
-            "consulta_subgrupo": subgrupo or st.session_state.get("consulta_subgrupo", "Todos"),
-            "consulta_modalidade": documento.get("modalidade") or st.session_state.get("consulta_modalidade", "Todas"),
+            "consulta_subgrupo": subgrupo or st.session_state.get(chave_param("consulta_subgrupo"), "Todos"),
+            "consulta_modalidade": documento.get("modalidade") or st.session_state.get(chave_param("consulta_modalidade"), "Todas"),
             "consulta_base": "Tarifa de Aplicação", "consulta_reh": "Todas",
             "consulta_classe": documento.get("classe") or "Todas",
             "consulta_subclasse": documento.get("subclasse") or "Todas",
@@ -177,14 +195,28 @@ def extrair_fatura_cache(conteudo, nome):
     return {**extrair_fatura(conteudo, nome), "origem": "fatura"}
 
 
+# Descarte precisa ocorrer antes da recriação do file_uploader; caso contrário,
+# o frontend restaura o arquivo e ele é processado novamente no mesmo rerun.
+if st.session_state.pop("descartar_documento_pendente", False):
+    for chave in ("arquivo_parametrizacao", "documento_ativo", "fatura_sync_id", "fatura_sync_resumo",
+                  "fatura_grandezas_aplicadas", "consulta_registros", "consulta_brutos", "consulta_contexto"):
+        st.session_state.pop(chave, None)
+    for chave in [k for k in st.session_state if k.startswith("consulta_")]:
+        st.session_state.pop(chave, None)
+    st.session_state["perfil_widget_versao"] = "manual"
+    st.session_state["param_widget_versao"] = f"manual_{st.session_state.get('manual_widget_ciclo', 0) + 1}"
+    st.session_state["manual_widget_ciclo"] = st.session_state.get("manual_widget_ciclo", 0) + 1
+
+
 # A sincronização é aplicada antes de os widgets serem instanciados. Isso é
 # necessário porque o Streamlit não permite alterar o estado de um widget já
 # renderizado no mesmo ciclo em que a fatura foi processada na segunda aba.
 if "fatura_sync_pendente" in st.session_state:
     sincronizacao = st.session_state.pop("fatura_sync_pendente")
     st.session_state["perfil_widget_versao"] = sincronizacao["id"][:12]
+    st.session_state["param_widget_versao"] = sincronizacao["id"][:12]
     for chave, valor in sincronizacao["widgets"].items():
-        st.session_state[chave] = valor
+        st.session_state[chave_param(chave)] = valor
     for posto, valor in sincronizacao["grandezas"]["consumos_mwh"].items():
         st.session_state[chave_input("consumo", posto)] = valor
     for posto, valor in sincronizacao["grandezas"]["demandas_kw"].items():
@@ -244,12 +276,7 @@ with aba_consulta:
             f"Demanda HPT {fmt_numero_br(grandezas_doc['demandas_kw'].get('Ponta', 0), 0)} kW"
         )
         if st.button("Descartar documento e voltar ao preenchimento manual", type="secondary"):
-            for chave in ("documento_ativo", "fatura_sync_id", "fatura_sync_resumo", "fatura_grandezas_aplicadas",
-                          "consulta_registros", "consulta_brutos", "consulta_contexto"):
-                st.session_state.pop(chave, None)
-            for chave in [k for k in st.session_state if k.startswith("consulta_")]:
-                st.session_state.pop(chave, None)
-            st.session_state["perfil_widget_versao"] = "manual"
+            st.session_state["descartar_documento_pendente"] = True
             st.rerun()
 
     st.divider()
@@ -257,24 +284,24 @@ with aba_consulta:
     st.caption("Selecione a referência principal. Filtros técnicos menos frequentes ficam em Consulta avançada.")
     c1, c2, c3, c4 = st.columns([2, 1, 1, 1])
     opcoes_distribuidora = distribuidoras()
-    distribuidora_sincronizada = st.session_state.get("consulta_distribuidora")
+    distribuidora_sincronizada = st.session_state.get(chave_param("consulta_distribuidora"))
     if distribuidora_sincronizada not in opcoes_distribuidora and distribuidora_sincronizada:
         correspondencia = next(
             (opcao for opcao in opcoes_distribuidora if "light" in opcao.lower() and "light" in distribuidora_sincronizada.lower()),
             None,
         )
         if correspondencia:
-            st.session_state["consulta_distribuidora"] = correspondencia
+            st.session_state[chave_param("consulta_distribuidora")] = correspondencia
     validar_estado_select("consulta_distribuidora", opcoes_distribuidora)
-    distribuidora = c1.selectbox("Distribuidora", opcoes_distribuidora, index=None, placeholder="Digite para buscar...", key="consulta_distribuidora")
+    distribuidora = c1.selectbox("Distribuidora", opcoes_distribuidora, index=None, placeholder="Digite para buscar...", key=chave_param("consulta_distribuidora"))
     brutos = dados_distribuidora(distribuidora) if distribuidora else []
     anos = sorted({ano_da_vigencia(r) for r in brutos if ano_da_vigencia(r)}, reverse=True)
     validar_estado_select("consulta_ano", anos, anos[0] if anos else None)
-    ano = c2.selectbox("Ano", anos, index=0 if anos else None, disabled=not anos, key="consulta_ano")
+    ano = c2.selectbox("Ano", anos, index=0 if anos else None, disabled=not anos, key=chave_param("consulta_ano"))
     meses_nomes = [nome for _, nome in MESES]
     validar_estado_select("consulta_mes", meses_nomes, meses_nomes[date.today().month - 1])
-    mes_nome = c3.selectbox("Mês", meses_nomes, index=date.today().month - 1, disabled=not anos, key="consulta_mes")
-    data_exata = c4.date_input("Data de referência", value=None, help="Se preenchida, prevalece sobre Ano/Mês.", key="consulta_data_ref")
+    mes_nome = c3.selectbox("Mês", meses_nomes, index=date.today().month - 1, disabled=not anos, key=chave_param("consulta_mes"))
+    data_exata = c4.date_input("Data de referência", value=None, help="Se preenchida, prevalece sobre Ano/Mês.", key=chave_param("consulta_data_ref"))
 
     periodo = brutos
     if brutos and data_exata:
@@ -287,11 +314,11 @@ with aba_consulta:
     c5, c6 = st.columns(2)
     opcoes_subgrupo = ["Todos"] + opcoes(periodo, "DscSubGrupo")
     validar_estado_select("consulta_subgrupo", opcoes_subgrupo, "Todos")
-    subgrupo = c5.selectbox("Subgrupo", opcoes_subgrupo, disabled=not periodo, key="consulta_subgrupo")
+    subgrupo = c5.selectbox("Subgrupo", opcoes_subgrupo, disabled=not periodo, key=chave_param("consulta_subgrupo"))
     por_subgrupo = filtrar(periodo, "DscSubGrupo", subgrupo, "Todos")
     opcoes_modalidade = ["Todas"] + opcoes(por_subgrupo, "DscModalidadeTarifaria")
     validar_estado_select("consulta_modalidade", opcoes_modalidade, "Todas")
-    modalidade = c6.selectbox("Modalidade", opcoes_modalidade, disabled=not por_subgrupo, key="consulta_modalidade")
+    modalidade = c6.selectbox("Modalidade", opcoes_modalidade, disabled=not por_subgrupo, key=chave_param("consulta_modalidade"))
     filtrados = filtrar(por_subgrupo, "DscModalidadeTarifaria", modalidade, "Todas")
 
     with st.expander("Consulta avançada"):
@@ -299,35 +326,35 @@ with aba_consulta:
         bases_disponiveis = opcoes(filtrados, "DscBaseTarifaria")
         bases_ordenadas = (["Tarifa de Aplicação"] if "Tarifa de Aplicação" in bases_disponiveis else []) + [v for v in bases_disponiveis if v != "Tarifa de Aplicação"]
         validar_estado_select("consulta_base", bases_ordenadas, "Tarifa de Aplicação")
-        base = a1.selectbox("Base tarifária", bases_ordenadas, index=0 if bases_ordenadas else None, disabled=not bases_ordenadas, key="consulta_base")
+        base = a1.selectbox("Base tarifária", bases_ordenadas, index=0 if bases_ordenadas else None, disabled=not bases_ordenadas, key=chave_param("consulta_base"))
         filtrados = filtrar(filtrados, "DscBaseTarifaria", base, "Todas")
         rehs_disponiveis = opcoes(filtrados, "DscREH")
         opcoes_reh = ["Todas"] + rehs_disponiveis
         if st.session_state.get("fatura_sync_aplicando") and len(rehs_disponiveis) == 1:
-            st.session_state["consulta_reh"] = rehs_disponiveis[0]
+            st.session_state[chave_param("consulta_reh")] = rehs_disponiveis[0]
         validar_estado_select("consulta_reh", opcoes_reh, "Todas")
-        reh = a2.selectbox("REH", opcoes_reh, disabled=not filtrados, key="consulta_reh")
+        reh = a2.selectbox("REH", opcoes_reh, disabled=not filtrados, key=chave_param("consulta_reh"))
         filtrados = filtrar(filtrados, "DscREH", reh, "Todas")
         opcoes_classe = ["Todas"] + opcoes(filtrados, "DscClasse")
         validar_estado_select("consulta_classe", opcoes_classe, "Todas")
-        classe = a3.selectbox("Classe", opcoes_classe, disabled=not filtrados, key="consulta_classe")
+        classe = a3.selectbox("Classe", opcoes_classe, disabled=not filtrados, key=chave_param("consulta_classe"))
         filtrados = filtrar(filtrados, "DscClasse", classe, "Todas")
         opcoes_subclasse = ["Todas"] + opcoes(filtrados, "DscSubClasse")
         validar_estado_select("consulta_subclasse", opcoes_subclasse, "Todas")
-        subclasse = a4.selectbox("Subclasse", opcoes_subclasse, disabled=not filtrados, key="consulta_subclasse")
+        subclasse = a4.selectbox("Subclasse", opcoes_subclasse, disabled=not filtrados, key=chave_param("consulta_subclasse"))
         filtrados = filtrar(filtrados, "DscSubClasse", subclasse, "Todas")
         a5, a6, a7 = st.columns(3)
         opcoes_detalhe = ["Todas"] + opcoes(filtrados, "DscDetalhe")
         validar_estado_select("consulta_detalhe", opcoes_detalhe, "Todas")
-        detalhe = a5.selectbox("Detalhe", opcoes_detalhe, disabled=not filtrados, key="consulta_detalhe")
+        detalhe = a5.selectbox("Detalhe", opcoes_detalhe, disabled=not filtrados, key=chave_param("consulta_detalhe"))
         filtrados = filtrar(filtrados, "DscDetalhe", detalhe, "Todas")
         opcoes_acessante = ["Todos"] + opcoes(filtrados, "SigAgenteAcessante")
         validar_estado_select("consulta_acessante", opcoes_acessante, "Todos")
-        acessante = a6.selectbox("Acessante", opcoes_acessante, disabled=not filtrados, key="consulta_acessante")
+        acessante = a6.selectbox("Acessante", opcoes_acessante, disabled=not filtrados, key=chave_param("consulta_acessante"))
         filtrados = filtrar(filtrados, "SigAgenteAcessante", acessante, "Todos")
         opcoes_posto = ["Todos"] + opcoes(filtrados, "NomPostoTarifario")
         validar_estado_select("consulta_posto", opcoes_posto, "Todos")
-        posto = a7.selectbox("Posto", opcoes_posto, disabled=not filtrados, key="consulta_posto")
+        posto = a7.selectbox("Posto", opcoes_posto, disabled=not filtrados, key=chave_param("consulta_posto"))
         filtrados = filtrar(filtrados, "NomPostoTarifario", posto, "Todos")
 
     parametros = {"Distribuidora": distribuidora, "Referência": str(data_exata or f"{mes_nome}/{ano}"), "Subgrupo": subgrupo, "Modalidade": modalidade, "Base": base if periodo else None, "REH": reh if periodo else None, "Classe": classe if periodo else None, "Subclasse": subclasse if periodo else None}

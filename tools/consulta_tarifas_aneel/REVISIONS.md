@@ -13,6 +13,9 @@ na raiz da pasta é sempre a versão em uso.
 - CSV/XLSX aceita `posto` e uma ou ambas as colunas `consumo_mwh` e `demanda_kw`, além de metadados tarifários opcionais.
 - Aba 2 deixa de processar uploads e apenas recebe consumo/demanda já consolidados na Aba 1.
 - Incluída opção explícita para descartar o documento e reiniciar o fluxo manual.
+- Validação pós-implementação corrigiu CSV brasileiro com delimitador `;` e vírgula decimal.
+- Parâmetros da Aba 1 também recebem identidade por documento/modo manual, impedindo restauração de filtros antigos pelo frontend.
+- Descarte passa a limpar o `file_uploader` antes da renderização, evitando reprocessamento automático do arquivo removido.
 - Revisão 10 preservada no histórico Git pelo commit `f5ccb40`.
 
 ## Revisão 10 (19/07/2026)
