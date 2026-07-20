@@ -1,4 +1,4 @@
-"""Revisão 9 — sincronização integral e OCR consistente para PDF/imagem."""
+"""Revisão 10 — estado isolado por documento para preencher as grandezas."""
 
 import hashlib
 from datetime import date, datetime
@@ -75,11 +75,17 @@ def contexto_consulta(parametros):
 
 
 def chave_input(prefixo, posto):
-    return prefixo + "_" + posto.lower().replace(" ", "_").replace("ã", "a")
+    posto_normalizado = posto.lower().replace(" ", "_").replace("ã", "a")
+    versao = st.session_state.get("perfil_widget_versao", "manual")
+    return f"{prefixo}_{posto_normalizado}_{versao}"
 
 
 def fmt_percentual(valor):
     return "—" if valor is None else f"{valor:.2f}%".replace(".", ",")
+
+
+def fmt_numero_br(valor, casas):
+    return f"{valor:,.{casas}f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
 def validar_estado_select(chave, opcoes_validas, padrao=None):
@@ -111,14 +117,18 @@ def extrair_fatura_cache(conteudo, nome):
 # renderizado no mesmo ciclo em que a fatura foi processada na segunda aba.
 if "fatura_sync_pendente" in st.session_state:
     sincronizacao = st.session_state.pop("fatura_sync_pendente")
+    st.session_state["perfil_widget_versao"] = sincronizacao["id"][:12]
     for chave, valor in sincronizacao["widgets"].items():
         st.session_state[chave] = valor
-    for chave, valor in sincronizacao["grandezas"].items():
-        st.session_state[chave] = valor
+    for posto, valor in sincronizacao["grandezas"]["consumos_mwh"].items():
+        st.session_state[chave_input("consumo", posto)] = valor
+    for posto, valor in sincronizacao["grandezas"]["demandas_kw"].items():
+        st.session_state[chave_input("demanda", posto)] = valor
     st.session_state["modo_calculo"] = "Consumo por posto"
     st.session_state["consulta_auto_executar"] = True
     st.session_state["fatura_sync_id"] = sincronizacao["id"]
     st.session_state["fatura_sync_resumo"] = sincronizacao["resumo"]
+    st.session_state["fatura_grandezas_aplicadas"] = sincronizacao["grandezas"]
     st.session_state["fatura_sync_aplicando"] = True
     st.session_state.pop("sim_composicoes", None)
 
@@ -307,15 +317,13 @@ with aba_simulacao:
                     st.error(f"Não foi possível ler o arquivo: {erro}")
 
             if fatura:
-                id_fatura = hashlib.sha256(arquivo.getvalue()).hexdigest()
+                # O sufixo versiona o protocolo de estado. Assim, uma fatura
+                # já aberta antes desta correção também é reaplicada uma vez.
+                id_fatura = hashlib.sha256(arquivo.getvalue()).hexdigest() + ":v10"
                 if st.session_state.get("fatura_sync_id") != id_fatura:
                     competencia = fatura.get("competencia")
                     ano_fatura, mes_fatura = (competencia.split("-") if competencia else (None, None))
                     grandezas = grandezas_da_fatura(fatura)
-                    estado_grandezas = {
-                        **{chave_input("consumo", posto): valor for posto, valor in grandezas["consumos_mwh"].items()},
-                        **{chave_input("demanda", posto): valor for posto, valor in grandezas["demandas_kw"].items()},
-                    }
                     st.session_state["fatura_sync_pendente"] = {
                         "id": id_fatura,
                         "widgets": {
@@ -333,7 +341,7 @@ with aba_simulacao:
                             "consulta_acessante": "Todos",
                             "consulta_posto": "Todos",
                         },
-                        "grandezas": estado_grandezas,
+                        "grandezas": grandezas,
                         "resumo": (
                             f"Parâmetros sincronizados da fatura {competencia or 'sem competência'}: "
                             f"{fatura.get('distribuidora') or 'LIGHT SESA'}, "
@@ -346,6 +354,14 @@ with aba_simulacao:
                     st.rerun()
 
                 st.success(f"Fatura processada por {fatura['metodo']}. Os parâmetros e as grandezas reconhecidas já foram aplicados automaticamente.")
+                grandezas_aplicadas = st.session_state.get("fatura_grandezas_aplicadas", grandezas_da_fatura(fatura))
+                st.info(
+                    "Campos preenchidos: "
+                    f"Consumo HFP {fmt_numero_br(grandezas_aplicadas['consumos_mwh'].get('Fora ponta', 0), 3)} MWh · "
+                    f"Consumo HPT {fmt_numero_br(grandezas_aplicadas['consumos_mwh'].get('Ponta', 0), 3)} MWh · "
+                    f"Demanda HFP {fmt_numero_br(grandezas_aplicadas['demandas_kw'].get('Fora ponta', 0), 0)} kW · "
+                    f"Demanda HPT {fmt_numero_br(grandezas_aplicadas['demandas_kw'].get('Ponta', 0), 0)} kW"
+                )
                 tributos = totais_tributos(fatura)
                 meta1, meta2, meta3 = st.columns(3)
                 meta1.metric("Competência", fatura.get("competencia") or "—")

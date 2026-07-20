@@ -4,7 +4,16 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 9 (19/07/2026) — atual
+## Revisão 10 (19/07/2026) — atual
+
+- Os quatro campos de consumo e demanda recebem uma identidade de widget vinculada ao hash da fatura.
+- O estado manual anterior não pode mais restaurar zeros sobre as grandezas extraídas durante o rerun do Streamlit.
+- Grandezas passam entre as abas em estrutura semântica por posto, sendo convertidas em chaves de widget somente antes da renderização.
+- Incluída confirmação visível de consumo HFP/HPT e demanda HFP/HPT efetivamente aplicados aos campos.
+- Faturas abertas na revisão anterior são reaplicadas automaticamente uma vez pelo protocolo de estado `v10`.
+- Revisão 9 preservada no histórico Git pelo commit `d04e7af`.
+
+## Revisão 9 (19/07/2026)
 
 - PDF e imagem passam pelo mesmo pipeline visual de OCR, eliminando diferenças de coordenadas da camada textual do PDF.
 - Adicionadas guardas semânticas para rejeitar alíquotas fora de 0%–100% e tributos monetários superiores ao valor bruto do item.
