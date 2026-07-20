@@ -1,4 +1,4 @@
-"""Revisão 13 — detalhe automático no documento e obrigatório no manual."""
+"""Revisão 14 — quantidades robustas para PDFs Light com layout variável."""
 
 import hashlib
 from datetime import date, datetime
@@ -257,6 +257,18 @@ with aba_consulta:
                     documento = carregar_documento_tabular(arquivo_parametros)
                 else:
                     documento = extrair_fatura_cache(conteudo_parametros, arquivo_parametros.name)
+                grandezas_validadas = grandezas_da_fatura(documento)
+                if documento.get("origem") == "fatura":
+                    ausentes = [
+                        nome for nome, presente in (
+                            ("Consumo HFP", "Fora ponta" in grandezas_validadas["consumos_mwh"]),
+                            ("Consumo HPT", "Ponta" in grandezas_validadas["consumos_mwh"]),
+                            ("Demanda HFP", "Fora ponta" in grandezas_validadas["demandas_kw"]),
+                            ("Demanda HPT", "Ponta" in grandezas_validadas["demandas_kw"]),
+                        ) if not presente
+                    ]
+                    if ausentes:
+                        raise ValueError("grandezas obrigatórias não reconhecidas: " + ", ".join(ausentes))
                 st.session_state["documento_ativo"] = documento
                 st.session_state["fatura_sync_pendente"] = montar_sincronizacao(documento, id_documento)
                 st.rerun()

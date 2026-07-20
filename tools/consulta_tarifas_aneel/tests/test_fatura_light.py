@@ -70,3 +70,20 @@ def test_recupera_pis_quando_ocr_concatena_base_e_aliquota():
     ])
     assert metadados["pis_percentual"] == 0.88
     assert metadados["cofins_percentual"] == 4.04
+
+
+def test_extrai_quantidades_com_coluna_deslocada_e_rotulo_hfp_corrompido():
+    tokens = [
+        Token(.20, .10, "Itens de fatura"), Token(.392, .10, "Quant."),
+        Token(.20, .20, "ooun/dJH Mx eAgy epurweg"), Token(.403, .20, "2.475"),
+        Token(.20, .21, "Demanda Ativa kW HP"), Token(.358, .21, "kW"), Token(.403, .21, "2.122"),
+        Token(.20, .22, "Energia Ativa kWh HFP/Único"), Token(.358, .22, "kWh"), Token(.400, .22, "672.242"),
+        Token(.20, .23, "Energia Ativa kWh HP"), Token(.358, .23, "kWh"), Token(.401, .23, "72.879"),
+    ]
+    itens = _extrair_itens(tokens)
+    assert {(i["tipo"], i["posto"]): i["quantidade"] for i in itens} == {
+        ("Demanda", "Fora ponta"): 2475,
+        ("Demanda", "Ponta"): 2122,
+        ("Energia", "Fora ponta"): 672242,
+        ("Energia", "Ponta"): 72879,
+    }

@@ -106,15 +106,53 @@ def _valor_zona(linha, minimo, maximo, alvo):
     return min(candidatos, default=(None, None, None), key=lambda c: c[0])[1]
 
 
+def _quantidade_apos_unidade(linha):
+    """Lê Quant. pela posição relativa a kW/kWh, independente da largura do PDF."""
+    unidades = [t for t in linha if _normalizar(t.texto) in {"kw", "kwh"} and t.x > 0.25]
+    if not unidades:
+        return None, None
+    unidade = min(unidades, key=lambda t: t.x)
+    candidatos = [
+        (t.x - unidade.x, _numero_br(t.texto))
+        for t in linha if 0.015 <= t.x - unidade.x <= 0.09 and _numero_br(t.texto) is not None
+    ]
+    quantidade = min(candidatos, default=(None, None), key=lambda c: c[0])[1]
+    return ("kWh" if _normalizar(unidade.texto) == "kwh" else "kW"), quantidade
+
+
 def _extrair_itens(tokens):
     itens = []
-    for linha in _agrupar_linhas(tokens):
+    linhas = _agrupar_linhas(tokens)
+    cabecalho_quant = next(
+        ((indice, token.x) for indice, linha in enumerate(linhas) for token in linha
+         if _normalizar(token.texto).startswith("quant")),
+        (None, None),
+    )
+    indice_cabecalho, x_quantidade = cabecalho_quant
+    for ordem, linha in enumerate(linhas):
         rotulo = " ".join(t.texto for t in linha if t.x < 0.30)
         classificacao = _classificar_rotulo(rotulo)
+        unidade_detectada, quantidade_relativa = _quantidade_apos_unidade(linha)
+        if (
+            not classificacao and quantidade_relativa is None and indice_cabecalho is not None
+            and indice_cabecalho < ordem <= indice_cabecalho + 7
+        ):
+            candidatos_quantidade = [
+                (abs(t.x - x_quantidade), _numero_br(t.texto)) for t in linha
+                if abs(t.x - x_quantidade) <= 0.035 and _numero_br(t.texto) is not None
+            ]
+            quantidade_relativa = min(candidatos_quantidade, default=(None, None), key=lambda c: c[0])[1]
+            if quantidade_relativa is not None and ordem + 1 < len(linhas):
+                proximo_rotulo = " ".join(t.texto for t in linhas[ordem + 1] if t.x < 0.30)
+                proxima_classificacao = _classificar_rotulo(proximo_rotulo)
+                if proxima_classificacao == ("Demanda", "Ponta"):
+                    classificacao = ("Demanda", "Fora ponta")
+        if not classificacao and unidade_detectada and quantidade_relativa is not None:
+            classificacao = ("Energia" if unidade_detectada == "kWh" else "Demanda", None)
         if not classificacao:
             continue
         tipo, posto = classificacao
-        quantidade = _valor_zona(linha, 0.29, 0.37, 0.34)
+        quantidade = quantidade_relativa if quantidade_relativa is not None else _valor_zona(linha, 0.29, 0.37, 0.34)
         preco_com_tributos = _valor_zona(linha, 0.37, 0.45, 0.40)
         valor_com_tributos = _valor_zona(linha, 0.45, 0.53, 0.48)
         pis_cofins = _valor_zona(linha, 0.53, 0.605, 0.575)
@@ -142,8 +180,17 @@ def _extrair_itens(tokens):
             "quantidade": quantidade, "consumo_mwh": quantidade / 1000 if tipo == "Energia" and quantidade is not None else None,
             "preco_com_tributos": preco_com_tributos, "valor_com_tributos": valor_com_tributos,
             "pis_cofins": pis_cofins, "base_icms": base_icms, "aliquota_icms": aliquota_icms,
-            "icms": icms, "tarifa_liquida": tarifa_liquida,
+            "icms": icms, "tarifa_liquida": tarifa_liquida, "_ordem": ordem,
         })
+    for tipo in ("Energia", "Demanda"):
+        itens_tipo = [i for i in itens if i["tipo"] == tipo]
+        desconhecidos = [i for i in itens_tipo if i["posto"] is None]
+        conhecidos = {i["posto"] for i in itens_tipo if i["posto"]}
+        faltantes = [p for p in ("Fora ponta", "Ponta") if p not in conhecidos]
+        for item, posto_inferido in zip(sorted(desconhecidos, key=lambda i: i["_ordem"]), faltantes):
+            item["posto"] = posto_inferido
+    for item in itens:
+        item.pop("_ordem", None)
     unicos = {}
     for item in itens:
         chave = (item["tipo"], item["posto"])

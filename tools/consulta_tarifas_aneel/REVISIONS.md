@@ -4,7 +4,16 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 13 (19/07/2026) — atual
+## Revisão 14 (19/07/2026) — atual
+
+- Quantidade passa a ser localizada relativamente à coluna `Unid.`/`Quant.`, sem coordenada horizontal fixa.
+- Linha Demanda HFP pode ser inferida pela sequência tarifária quando o rótulo estiver invertido ou corrompido pelo OCR.
+- Faturas somente são consideradas válidas quando consumo HFP/HPT e demanda HFP/HPT forem reconhecidos.
+- Validação executada diretamente com `VELODROMO.pdf`: 672,242 MWh HFP, 72,879 MWh HPT, 2.475 kW HFP e 2.122 kW HPT.
+- Adicionado teste de regressão para coluna deslocada e rótulo HFP corrompido.
+- Revisão 13 preservada no commit `83c3a27`.
+
+## Revisão 13 (19/07/2026)
 
 - Regra de detalhe diferenciada pela origem dos dados.
 - Com documento válido, `Detalhe documental` permanece fixado em `Não se aplica`.
