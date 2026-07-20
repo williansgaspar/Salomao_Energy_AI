@@ -36,7 +36,7 @@ A consulta mensal inclui toda composição cuja vigência alcance pelo menos um 
 
 - Não contempla tributos, bandeiras, reativos, ultrapassagem, descontos, encargos ou regras particulares da unidade consumidora.
 - O resultado é uma estimativa técnica e não substitui o faturamento da distribuidora.
-- Séries históricas agregam registros repetidos por média apenas para visualização; a tabela de origem deve ser usada em análises formais.
+- Séries históricas preservam cada observação publicada, com REH e período de vigência; não há média ou consolidação entre versões tarifárias.
 
 ## Importação de fatura Light
 

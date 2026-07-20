@@ -1,4 +1,4 @@
-"""Revisão 16 — comparador ACR versus ACL pela TE."""
+"""Revisão 17 — histórico coerente com a família tarifária consultada."""
 
 import hashlib
 from datetime import date, datetime
@@ -13,6 +13,7 @@ from src.aneel import criar_sessao, listar_distribuidoras, obter_tarifas
 from src.domain.calculos import calcular_fatura, calcular_por_consumo_total, comparar_acr_acl, tarifas_indicativas_ponderadas
 from src.domain.composicao import chave_versao, rotulo_versao, valores_por_posto, versoes_disponiveis
 from src.domain.contexto import fingerprint_simulacao
+from src.domain.historico import filtros_da_familia, ordenar_registros_historicos, registros_historicos
 from src.domain.vigencia import periodo_do_mes, registros_vigentes_no_periodo
 from src.exports import gerar_excel, gerar_pdf
 from src.importers import extrair_fatura, grandezas_ausentes, grandezas_da_fatura, reconciliar_com_aneel, totais_tributos
@@ -99,6 +100,12 @@ def validar_estado_select(chave, opcoes_validas, padrao=None):
     if st.session_state.get(chave) is None:
         st.session_state.pop(chave, None)
         return
+    if chave in st.session_state and st.session_state[chave] not in opcoes_validas:
+        st.session_state[chave] = padrao if padrao in opcoes_validas else (opcoes_validas[0] if opcoes_validas else None)
+
+
+def validar_estado_historico(chave, opcoes_validas, padrao=None):
+    """Evita que a aba 3 mantenha seleção de uma consulta anterior."""
     if chave in st.session_state and st.session_state[chave] not in opcoes_validas:
         st.session_state[chave] = padrao if padrao in opcoes_validas else (opcoes_validas[0] if opcoes_validas else None)
 
@@ -203,7 +210,8 @@ def extrair_fatura_cache(conteudo, nome):
 # o frontend restaura o arquivo e ele é processado novamente no mesmo rerun.
 if st.session_state.pop("descartar_documento_pendente", False):
     for chave in ("arquivo_parametrizacao", "documento_ativo", "fatura_sync_id", "fatura_sync_resumo",
-                  "fatura_grandezas_aplicadas", "consulta_registros", "consulta_brutos", "consulta_contexto"):
+                  "fatura_grandezas_aplicadas", "consulta_registros", "consulta_brutos", "consulta_contexto",
+                  "consulta_filtros_historico"):
         st.session_state.pop(chave, None)
     for chave in [k for k in st.session_state if k.startswith("consulta_")]:
         st.session_state.pop(chave, None)
@@ -385,7 +393,13 @@ with aba_consulta:
         posto = a7.selectbox("Posto", opcoes_posto, disabled=not filtrados, key=chave_param("consulta_posto"))
         filtrados = filtrar(filtrados, "NomPostoTarifario", posto, "Todos")
 
-    parametros = {"Distribuidora": distribuidora, "Referência": str(data_exata or f"{mes_nome}/{ano}"), "Subgrupo": subgrupo, "Modalidade": modalidade, "Base": base if periodo else None, "REH": reh if periodo else None, "Classe": classe if periodo else None, "Subclasse": subclasse if periodo else None, "Detalhe": detalhe if periodo else None}
+    parametros = {"Distribuidora": distribuidora, "Referência": str(data_exata or f"{mes_nome}/{ano}"), "Subgrupo": subgrupo, "Modalidade": modalidade, "Base": base if periodo else None, "REH": reh if periodo else None, "Classe": classe if periodo else None, "Subclasse": subclasse if periodo else None, "Detalhe": detalhe if periodo else None, "Acessante": acessante if periodo else None, "Posto": posto if periodo else None}
+    parametros_historico = {
+        "SigAgente": distribuidora, "DscSubGrupo": subgrupo,
+        "DscModalidadeTarifaria": modalidade, "DscBaseTarifaria": base,
+        "DscClasse": classe, "DscSubClasse": subclasse, "DscDetalhe": detalhe,
+        "SigAgenteAcessante": acessante, "NomPostoTarifario": posto,
+    }
     parametros_obrigatorios = bool(distribuidora and ano and mes_nome and subgrupo not in (None, "Todos") and modalidade not in (None, "Todas") and base and detalhe and filtrados)
     consulta_manual = st.button("Consultar tarifas", type="primary", disabled=not parametros_obrigatorios)
     consulta_automatica = st.session_state.pop("consulta_auto_executar", False)
@@ -393,6 +407,7 @@ with aba_consulta:
         st.session_state["consulta_registros"] = filtrados
         st.session_state["consulta_brutos"] = brutos
         st.session_state["consulta_contexto"] = contexto_consulta(parametros)
+        st.session_state["consulta_filtros_historico"] = filtros_da_familia(parametros_historico)
         for chave in ("sim_resultados", "sim_memoria", "sim_fingerprint"):
             st.session_state.pop(chave, None)
         if consulta_automatica:
@@ -684,26 +699,45 @@ with aba_historico:
     if not brutos:
         st.info("Faça uma consulta para carregar o histórico da distribuidora.")
     else:
+        filtros_historico = st.session_state.get("consulta_filtros_historico", {})
+        familia = ordenar_registros_historicos(registros_historicos(brutos, filtros_historico))
         st.subheader("Evolução das tarifas homologadas")
-        h1, h2, h3 = st.columns(3)
-        sub = h1.selectbox("Subgrupo histórico", opcoes(brutos, "DscSubGrupo"), key="hist_sub")
-        base_hist = filtrar(brutos, "DscSubGrupo", sub, "Todos")
-        mod = h2.selectbox("Modalidade histórica", opcoes(base_hist, "DscModalidadeTarifaria"), key="hist_mod")
-        base_hist = filtrar(base_hist, "DscModalidadeTarifaria", mod, "Todas")
-        unidade = h3.selectbox("Unidade", opcoes(base_hist, "DscUnidadeTerciaria"), key="hist_un")
-        base_hist = filtrar(base_hist, "DscUnidadeTerciaria", unidade, "Todas")
-        hist = pd.DataFrame(base_hist)
-        if not hist.empty:
-            hist["Data"] = pd.to_datetime(hist["DatInicioVigencia"], errors="coerce")
+        if filtros_historico:
+            rastreio = " · ".join(f"{COLUNAS.get(campo, campo)}: {valor}" for campo, valor in filtros_historico.items())
+            st.caption(f"Família tarifária preservada da Aba 1: {rastreio}. REH e vigência permanecem livres para formar a série.")
+        if not familia:
+            st.warning("Não há histórico para a família tarifária consultada. Revise os filtros técnicos da Aba 1.")
+        else:
+            unidades_historicas = opcoes(familia, "DscUnidadeTerciaria")
+            validar_estado_historico("hist_unidade", unidades_historicas)
+            h1, h2, h3 = st.columns(3)
+            unidade = h1.selectbox("Unidade", unidades_historicas, key="hist_unidade")
+            por_unidade = filtrar(familia, "DscUnidadeTerciaria", unidade, "Todas")
+            postos_historicos = opcoes(por_unidade, "NomPostoTarifario")
+            validar_estado_historico("hist_posto", postos_historicos)
+            posto_historico = h2.selectbox("Posto tarifário", postos_historicos, key="hist_posto")
+            base_hist = filtrar(por_unidade, "NomPostoTarifario", posto_historico, "Todos")
+            hist = pd.DataFrame(base_hist)
+            hist["Início da vigência"] = pd.to_datetime(hist["DatInicioVigencia"], errors="coerce")
+            hist["Fim da vigência"] = pd.to_datetime(hist["DatFimVigencia"], errors="coerce")
             hist["TUSD"] = hist["VlrTUSD"].map(converter_valor_brl)
             hist["TE"] = hist["VlrTE"].map(converter_valor_brl)
-            hist["Posto"] = hist["NomPostoTarifario"]
-            agrupado = hist.groupby(["Data", "Posto"], as_index=False)[["TUSD", "TE"]].mean().sort_values("Data")
-            metrica = st.radio("Componente", ["TUSD", "TE"], horizontal=True)
-            grafico = agrupado.pivot(index="Data", columns="Posto", values=metrica)
-            st.line_chart(grafico)
-            st.dataframe(agrupado, hide_index=True, width="stretch")
-        else:
-            st.warning("Não há série para os filtros selecionados.")
-
+            componentes = [c for c in ("TUSD", "TE") if hist[c].notna().any()]
+            validar_estado_historico("hist_componente", componentes)
+            componente = h3.selectbox("Componente", componentes, key="hist_componente")
+            st.line_chart(hist, x="Início da vigência", y=componente, color="NomPostoTarifario", width="stretch")
+            tabela_historica = hist[[
+                "Início da vigência", "Fim da vigência", "DscREH", "DscBaseTarifaria",
+                "DscSubGrupo", "DscModalidadeTarifaria", "DscClasse", "DscSubClasse",
+                "DscDetalhe", "SigAgenteAcessante", "NomPostoTarifario",
+                "DscUnidadeTerciaria", "TUSD", "TE",
+            ]].rename(columns={
+                "DscREH": "REH", "DscBaseTarifaria": "Base tarifária",
+                "DscSubGrupo": "Subgrupo", "DscModalidadeTarifaria": "Modalidade",
+                "DscClasse": "Classe", "DscSubClasse": "Subclasse", "DscDetalhe": "Detalhe",
+                "SigAgenteAcessante": "Acessante", "NomPostoTarifario": "Posto",
+                "DscUnidadeTerciaria": "Unidade",
+            })
+            st.dataframe(tabela_historica, hide_index=True, width="stretch")
+            st.caption("Cada linha corresponde a uma observação publicada pela ANEEL. O histórico não realiza média nem consolidação entre REHs.")
 st.caption("Fonte: API pública de Dados Abertos da ANEEL. A simulação é estimativa técnica e não substitui a fatura da distribuidora.")

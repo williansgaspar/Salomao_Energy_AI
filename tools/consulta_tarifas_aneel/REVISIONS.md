@@ -4,7 +4,14 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 16 (19/07/2026) — atual
+## Revisão 17 (20/07/2026) — atual
+
+- Aba Histórico passa a preservar a família tarifária selecionada na Aba 1: distribuidora, subgrupo, modalidade, base, classe, subclasse, detalhe, acessante e posto.
+- REH e vigência são liberadas para formar a série, sem médias ou consolidação entre observações distintas.
+- Incluídos filtros de unidade, posto e componente, além de tabela auditável com REH e início/fim de vigência.
+- Revisão 16 preservada no commit 98780e4.
+
+## Revisão 16 (19/07/2026)
 
 - Campo manual para informar a TE negociada no ACL em R$/MWh após o resultado tarifário.
 - Comparador ACR × ACL mantém TUSD Energia e TUSD Demanda constantes e substitui apenas a TE.
