@@ -4,7 +4,16 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 8 (19/07/2026) — atual
+## Revisão 9 (19/07/2026) — atual
+
+- PDF e imagem passam pelo mesmo pipeline visual de OCR, eliminando diferenças de coordenadas da camada textual do PDF.
+- Adicionadas guardas semânticas para rejeitar alíquotas fora de 0%–100% e tributos monetários superiores ao valor bruto do item.
+- Preenchimento automático das quatro grandezas deixa de depender da geometria interna da camada textual do PDF.
+- REH é selecionada automaticamente quando a competência e o enquadramento resultam em uma única resolução aplicável.
+- Cartões tributários reorganizados em duas linhas para exibir valores completos, sem truncamento, e percentual em padrão brasileiro.
+- Revisão 8 preservada no histórico Git pelo commit `adaef90`.
+
+## Revisão 8 (19/07/2026)
 
 - Fatura carregada passa a ser a fonte autoritativa para competência, distribuidora, subgrupo, modalidade, classe e subclasse.
 - Aba 1 é sincronizada e a consulta ANEEL é refeita automaticamente quando houver divergência com o documento.

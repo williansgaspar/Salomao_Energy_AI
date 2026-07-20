@@ -1,4 +1,4 @@
-"""Revisão 8 — fatura como fonte autoritativa dos parâmetros e grandezas."""
+"""Revisão 9 — sincronização integral e OCR consistente para PDF/imagem."""
 
 import hashlib
 from datetime import date, datetime
@@ -78,6 +78,10 @@ def chave_input(prefixo, posto):
     return prefixo + "_" + posto.lower().replace(" ", "_").replace("ã", "a")
 
 
+def fmt_percentual(valor):
+    return "—" if valor is None else f"{valor:.2f}%".replace(".", ",")
+
+
 def validar_estado_select(chave, opcoes_validas, padrao=None):
     """Evita estado inválido quando uma fatura troca as opções em cascata."""
     if chave in st.session_state and st.session_state[chave] not in opcoes_validas:
@@ -115,6 +119,7 @@ if "fatura_sync_pendente" in st.session_state:
     st.session_state["consulta_auto_executar"] = True
     st.session_state["fatura_sync_id"] = sincronizacao["id"]
     st.session_state["fatura_sync_resumo"] = sincronizacao["resumo"]
+    st.session_state["fatura_sync_aplicando"] = True
     st.session_state.pop("sim_composicoes", None)
 
 
@@ -169,7 +174,10 @@ with aba_consulta:
         validar_estado_select("consulta_base", bases_ordenadas, "Tarifa de Aplicação")
         base = a1.selectbox("Base tarifária", bases_ordenadas, index=0 if bases_ordenadas else None, disabled=not bases_ordenadas, key="consulta_base")
         filtrados = filtrar(filtrados, "DscBaseTarifaria", base, "Todas")
-        opcoes_reh = ["Todas"] + opcoes(filtrados, "DscREH")
+        rehs_disponiveis = opcoes(filtrados, "DscREH")
+        opcoes_reh = ["Todas"] + rehs_disponiveis
+        if st.session_state.get("fatura_sync_aplicando") and len(rehs_disponiveis) == 1:
+            st.session_state["consulta_reh"] = rehs_disponiveis[0]
         validar_estado_select("consulta_reh", opcoes_reh, "Todas")
         reh = a2.selectbox("REH", opcoes_reh, disabled=not filtrados, key="consulta_reh")
         filtrados = filtrar(filtrados, "DscREH", reh, "Todas")
@@ -206,6 +214,9 @@ with aba_consulta:
             st.session_state.pop(chave, None)
         if consulta_automatica:
             st.session_state["sim_reset_composicoes"] = True
+            st.session_state.pop("fatura_sync_aplicando", None)
+            if reh not in (None, "Todas"):
+                st.session_state["fatura_sync_resumo"] += f" REH aplicada automaticamente: {reh}."
             st.toast("Aba 1 atualizada automaticamente com os dados da fatura.", icon="✅")
 
     if st.session_state.get("fatura_sync_resumo"):
@@ -325,7 +336,8 @@ with aba_simulacao:
                         "grandezas": estado_grandezas,
                         "resumo": (
                             f"Parâmetros sincronizados da fatura {competencia or 'sem competência'}: "
-                            f"{fatura.get('distribuidora') or 'LIGHT SESA'}, {fatura.get('subgrupo') or 'subgrupo não identificado'}, "
+                            f"{fatura.get('distribuidora') or 'LIGHT SESA'}, "
+                            f"Grupo {(fatura.get('subgrupo') or '—')[:1]} / Subgrupo {fatura.get('subgrupo') or 'não identificado'}, "
                             f"modalidade {fatura.get('modalidade') or 'não identificada'}, "
                             f"{fatura.get('classe') or 'classe não identificada'} / {fatura.get('subclasse') or 'subclasse não identificada'}. "
                             "Em divergências, a fatura prevalece sobre a seleção anterior."
@@ -335,15 +347,16 @@ with aba_simulacao:
 
                 st.success(f"Fatura processada por {fatura['metodo']}. Os parâmetros e as grandezas reconhecidas já foram aplicados automaticamente.")
                 tributos = totais_tributos(fatura)
-                meta1, meta2, meta3, meta4, meta5 = st.columns(5)
+                meta1, meta2, meta3 = st.columns(3)
                 meta1.metric("Competência", fatura.get("competencia") or "—")
                 meta2.metric("Enquadramento", f"{fatura.get('subgrupo') or '—'} · {fatura.get('modalidade') or '—'}")
-                meta3.metric("PIS/COFINS retirado", fmt_brl(tributos["pis_cofins"]))
-                meta4.metric("ICMS retirado", fmt_brl(tributos["icms"]))
-                meta5.metric("Alíquota ICMS", f"{fatura['icms_percentual']:.2f}%" if fatura.get("icms_percentual") is not None else "—")
+                meta3.metric("Alíquota ICMS", fmt_percentual(fatura.get("icms_percentual")))
+                trib1, trib2 = st.columns(2)
+                trib1.metric("PIS/COFINS retirado", fmt_brl(tributos["pis_cofins"]))
+                trib2.metric("ICMS retirado", fmt_brl(tributos["icms"]))
                 st.caption(
-                    f"PIS identificado: {fatura.get('pis_percentual') if fatura.get('pis_percentual') is not None else '—'}% · "
-                    f"COFINS identificado: {fatura.get('cofins_percentual') if fatura.get('cofins_percentual') is not None else '—'}% · "
+                    f"PIS identificado: {fmt_percentual(fatura.get('pis_percentual'))} · "
+                    f"COFINS identificado: {fmt_percentual(fatura.get('cofins_percentual'))} · "
                     f"Classe identificada: {fatura.get('classe') or '—'} / {fatura.get('subclasse') or '—'}. "
                     "Processamento local: o arquivo não é enviado a serviços externos."
                 )

@@ -1,6 +1,6 @@
 import pytest
 
-from src.importers.fatura_light import Token, _extrair_itens, grandezas_da_fatura, reconciliar_com_aneel, totais_tributos
+from src.importers.fatura_light import Token, _extrair_itens, _metadados, grandezas_da_fatura, reconciliar_com_aneel, totais_tributos
 
 
 def linha(y, rotulo, quantidade, bruto, valor, pis, icms, liquida):
@@ -52,3 +52,21 @@ def test_consolida_tributos_e_grandezas_para_preenchimento():
         "demandas_kw": {"Fora ponta": 2475.0},
     }
     assert totais_tributos(fatura) == pytest.approx({"pis_cofins": 1_888.24, "icms": 16_663.66})
+
+
+def test_rejeita_valor_monetario_lido_como_aliquota_ou_tributo():
+    tokens = linha(.10, "Energia Ativa kWh HFP/Único", "672.242", "0,63962757", "429.984,51", "634.200,00", "500.000,00", "0,46220")
+    tokens[5] = Token(.65, .10, "21108,17")
+    item = _extrair_itens(tokens)[0]
+    assert item["aliquota_icms"] is None
+    assert item["pis_cofins"] is None
+    assert item["icms"] is None
+
+
+def test_recupera_pis_quando_ocr_concatena_base_e_aliquota():
+    metadados = _metadados([
+        Token(.1, .1, "492.252,210,88%"),
+        Token(.2, .1, "4,04%"),
+    ])
+    assert metadados["pis_percentual"] == 0.88
+    assert metadados["cofins_percentual"] == 4.04

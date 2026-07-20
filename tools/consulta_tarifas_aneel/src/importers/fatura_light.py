@@ -58,22 +58,19 @@ def _tokens_ocr(imagem):
 
 
 def _tokens_pdf(conteudo):
+    """Renderiza o PDF antes do OCR para manter a geometria igual à de imagens.
+
+    A camada textual de alguns PDFs Light tem caixas de texto que não coincidem
+    com as colunas visuais da fatura. Usá-la diretamente deslocava quantidade,
+    tributos e alíquota, embora o texto em si estivesse correto.
+    """
     documento = pymupdf.open(stream=conteudo, filetype="pdf")
-    tokens = []
-    texto_total = []
-    for pagina in documento:
-        largura, altura = pagina.rect.width, pagina.rect.height
-        palavras = pagina.get_text("words", sort=True)
-        texto_total.extend(p[4] for p in palavras)
-        tokens.extend(Token((p[0] + p[2]) / 2 / largura, (p[1] + p[3]) / 2 / altura, p[4]) for p in palavras)
-    if len(" ".join(texto_total)) >= 250:
-        return tokens, "texto do PDF"
     tokens = []
     for pagina in documento:
         pix = pagina.get_pixmap(dpi=180, colorspace=pymupdf.csRGB, alpha=False)
         imagem = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
         tokens.extend(_tokens_ocr(imagem))
-    return tokens, "OCR local"
+    return tokens, "OCR local do PDF"
 
 
 def _agrupar_linhas(tokens, tolerancia=0.006):
@@ -125,6 +122,15 @@ def _extrair_itens(tokens):
         aliquota_icms = _valor_zona(linha, 0.64, 0.675, 0.65)
         icms = _valor_zona(linha, 0.675, 0.72, 0.69)
         tarifa_liquida = _valor_zona(linha, 0.72, 0.79, 0.735)
+        # Guardas semânticas: um deslocamento de coluna nunca pode transformar
+        # valor monetário em percentual nem produzir tributo superior ao item.
+        if aliquota_icms is not None and not 0 <= aliquota_icms <= 100:
+            aliquota_icms = None
+        if valor_com_tributos is not None:
+            if pis_cofins is not None and not 0 <= pis_cofins <= valor_com_tributos:
+                pis_cofins = None
+            if icms is not None and not 0 <= icms <= valor_com_tributos:
+                icms = None
         if quantidade is None and all(v is not None for v in (valor_com_tributos, pis_cofins, icms, tarifa_liquida)) and tarifa_liquida:
             quantidade = (valor_com_tributos - pis_cofins - icms) / tarifa_liquida
         if tarifa_liquida is None and quantidade and all(v is not None for v in (valor_com_tributos, pis_cofins, icms)):
@@ -158,7 +164,12 @@ def _metadados(tokens):
     modalidade = "Azul" if "azul" in normal else "Verde" if "verde" in normal else None
     classe = "Poder Público" if "poder publico" in normal else None
     subclasse = "Poder Público Federal" if "poder publico federal" in normal else None
-    taxas = [float(x.replace(",", ".")) for x in re.findall(r"(\d,\d{2})\s*%", texto)]
+    # O OCR pode concatenar base de cálculo e alíquota (ex.:
+    # ``492.252,210,88%``). A busca de um dígito preserva o 0,88% final;
+    # a de dois dígitos cobre alíquotas como 24,000%.
+    taxas_um_digito = [float(x.replace(",", ".")) for x in re.findall(r"(\d,\d{2,3})\s*%", texto)]
+    taxas_dois_digitos = [float(x.replace(",", ".")) for x in re.findall(r"(\d{2},\d{2,3})\s*%", texto)]
+    taxas = taxas_um_digito + taxas_dois_digitos
     return {
         "distribuidora": "LIGHT SESA" if "light" in normal else None,
         "competencia": competencia, "subgrupo": subgrupo, "modalidade": modalidade,
@@ -180,6 +191,10 @@ def extrair_fatura(conteudo, nome_arquivo):
     itens = _extrair_itens(tokens)
     metadados = _metadados(tokens)
     metadados["icms_percentual"] = next((i["aliquota_icms"] for i in itens if i.get("aliquota_icms") is not None), None)
+    if metadados["icms_percentual"] is None:
+        texto_normalizado = " ".join(t.texto for t in tokens)
+        percentuais = [float(v.replace(",", ".")) for v in re.findall(r"(\d{1,2},\d{2,3})\s*%", texto_normalizado)]
+        metadados["icms_percentual"] = next((v for v in percentuais if 10 <= v <= 40), None)
     avisos = []
     esperados = {(tipo, posto) for tipo in ("Energia", "Demanda") for posto in ("Ponta", "Fora ponta")}
     encontrados = {(i["tipo"], i["posto"]) for i in itens if i.get("quantidade") is not None}
