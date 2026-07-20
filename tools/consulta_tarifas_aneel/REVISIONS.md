@@ -4,7 +4,15 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 11 (19/07/2026) — atual
+## Revisão 12 (19/07/2026) — atual
+
+- Campo `DscDetalhe` fixado obrigatoriamente em `Não se aplica` nos fluxos documental e manual.
+- Opções `APE`, `SCEE` e `Todas` deixam de participar da composição consultada.
+- Consulta é bloqueada quando a combinação tarifária não contém registro com detalhe `Não se aplica`.
+- Detalhe aplicado passa a integrar o contexto auditável da consulta e das exportações.
+- Revisão 11 preservada nos commits `82c8325` e `337de5b`.
+
+## Revisão 11 (19/07/2026)
 
 - Upload de PDF, imagem, CSV ou XLSX transferido para o início da Aba 1, antes dos parâmetros tarifários.
 - Documento válido passa a constituir o perfil documental único usado pelas três abas.

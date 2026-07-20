@@ -1,4 +1,4 @@
-"""Revisão 11 — documento parametriza a consulta antes da simulação."""
+"""Revisão 12 — detalhe tarifário fixado em Não se aplica."""
 
 import hashlib
 from datetime import date, datetime
@@ -178,7 +178,7 @@ def montar_sincronizacao(documento, identificador):
             "consulta_base": "Tarifa de Aplicação", "consulta_reh": "Todas",
             "consulta_classe": documento.get("classe") or "Todas",
             "consulta_subclasse": documento.get("subclasse") or "Todas",
-            "consulta_detalhe": "Todas", "consulta_acessante": "Todos", "consulta_posto": "Todos",
+            "consulta_detalhe": "Não se aplica", "consulta_acessante": "Todos", "consulta_posto": "Todos",
         },
         "grandezas": grandezas,
         "resumo": (
@@ -344,10 +344,15 @@ with aba_consulta:
         subclasse = a4.selectbox("Subclasse", opcoes_subclasse, disabled=not filtrados, key=chave_param("consulta_subclasse"))
         filtrados = filtrar(filtrados, "DscSubClasse", subclasse, "Todas")
         a5, a6, a7 = st.columns(3)
-        opcoes_detalhe = ["Todas"] + opcoes(filtrados, "DscDetalhe")
-        validar_estado_select("consulta_detalhe", opcoes_detalhe, "Todas")
-        detalhe = a5.selectbox("Detalhe", opcoes_detalhe, disabled=not filtrados, key=chave_param("consulta_detalhe"))
-        filtrados = filtrar(filtrados, "DscDetalhe", detalhe, "Todas")
+        detalhes_disponiveis = opcoes(filtrados, "DscDetalhe")
+        detalhe = "Não se aplica"
+        st.session_state[chave_param("consulta_detalhe")] = detalhe
+        a5.selectbox("Detalhe", [detalhe], disabled=True, key=chave_param("consulta_detalhe"))
+        if detalhe in detalhes_disponiveis:
+            filtrados = filtrar(filtrados, "DscDetalhe", detalhe, "Todas")
+        else:
+            filtrados = []
+            a5.caption("Sem registro 'Não se aplica' para a combinação selecionada.")
         opcoes_acessante = ["Todos"] + opcoes(filtrados, "SigAgenteAcessante")
         validar_estado_select("consulta_acessante", opcoes_acessante, "Todos")
         acessante = a6.selectbox("Acessante", opcoes_acessante, disabled=not filtrados, key=chave_param("consulta_acessante"))
@@ -357,8 +362,8 @@ with aba_consulta:
         posto = a7.selectbox("Posto", opcoes_posto, disabled=not filtrados, key=chave_param("consulta_posto"))
         filtrados = filtrar(filtrados, "NomPostoTarifario", posto, "Todos")
 
-    parametros = {"Distribuidora": distribuidora, "Referência": str(data_exata or f"{mes_nome}/{ano}"), "Subgrupo": subgrupo, "Modalidade": modalidade, "Base": base if periodo else None, "REH": reh if periodo else None, "Classe": classe if periodo else None, "Subclasse": subclasse if periodo else None}
-    parametros_obrigatorios = bool(distribuidora and ano and mes_nome and subgrupo not in (None, "Todos") and modalidade not in (None, "Todas") and base)
+    parametros = {"Distribuidora": distribuidora, "Referência": str(data_exata or f"{mes_nome}/{ano}"), "Subgrupo": subgrupo, "Modalidade": modalidade, "Base": base if periodo else None, "REH": reh if periodo else None, "Classe": classe if periodo else None, "Subclasse": subclasse if periodo else None, "Detalhe": detalhe if periodo else None}
+    parametros_obrigatorios = bool(distribuidora and ano and mes_nome and subgrupo not in (None, "Todos") and modalidade not in (None, "Todas") and base and filtrados)
     consulta_manual = st.button("Consultar tarifas", type="primary", disabled=not parametros_obrigatorios)
     consulta_automatica = st.session_state.pop("consulta_auto_executar", False)
     if consulta_manual or consulta_automatica:
