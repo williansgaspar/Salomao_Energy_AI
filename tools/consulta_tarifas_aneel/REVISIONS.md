@@ -4,7 +4,17 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 7 (19/07/2026) — atual
+## Revisão 8 (19/07/2026) — atual
+
+- Fatura carregada passa a ser a fonte autoritativa para competência, distribuidora, subgrupo, modalidade, classe e subclasse.
+- Aba 1 é sincronizada e a consulta ANEEL é refeita automaticamente quando houver divergência com o documento.
+- Consumos HPT/HFP e demandas HPT/HFP reconhecidos passam a preencher a simulação sem depender de botão manual.
+- PIS/COFINS e ICMS retirados são consolidados e exibidos em R$, mantendo as alíquotas identificadas separadamente em %.
+- Incluído filtro de subclasse na consulta avançada para maior precisão da composição tarifária.
+- Mantido botão de reaplicação apenas para eventuais correções manuais feitas na tabela de conferência.
+- Revisão 7 preservada no histórico Git pelo commit `95f7922`.
+
+## Revisão 7 (19/07/2026)
 
 - Upload ampliado para PDF, PNG, JPG e WEBP de faturas Light Grupo A, além de CSV/XLSX.
 - Extração textual de PDF com PyMuPDF e fallback de OCR local com RapidOCR.

@@ -1,5 +1,6 @@
-"""Revisão 7 — indicadores ACL × ACR e importação local de fatura Light."""
+"""Revisão 8 — fatura como fonte autoritativa dos parâmetros e grandezas."""
 
+import hashlib
 from datetime import date, datetime
 from io import BytesIO
 from pathlib import Path
@@ -14,7 +15,7 @@ from src.domain.composicao import chave_versao, rotulo_versao, valores_por_posto
 from src.domain.contexto import fingerprint_simulacao
 from src.domain.vigencia import periodo_do_mes, registros_vigentes_no_periodo
 from src.exports import gerar_excel, gerar_pdf
-from src.importers import extrair_fatura, reconciliar_com_aneel
+from src.importers import extrair_fatura, grandezas_da_fatura, reconciliar_com_aneel, totais_tributos
 from src.ui import aplicar_tema, cabecalho, fmt_brl
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -77,6 +78,12 @@ def chave_input(prefixo, posto):
     return prefixo + "_" + posto.lower().replace(" ", "_").replace("ã", "a")
 
 
+def validar_estado_select(chave, opcoes_validas, padrao=None):
+    """Evita estado inválido quando uma fatura troca as opções em cascata."""
+    if chave in st.session_state and st.session_state[chave] not in opcoes_validas:
+        st.session_state[chave] = padrao if padrao in opcoes_validas else (opcoes_validas[0] if opcoes_validas else None)
+
+
 def carregar_perfil_tabular(arquivo):
     if arquivo is None:
         return {}
@@ -95,18 +102,47 @@ def extrair_fatura_cache(conteudo, nome):
     return extrair_fatura(conteudo, nome)
 
 
+# A sincronização é aplicada antes de os widgets serem instanciados. Isso é
+# necessário porque o Streamlit não permite alterar o estado de um widget já
+# renderizado no mesmo ciclo em que a fatura foi processada na segunda aba.
+if "fatura_sync_pendente" in st.session_state:
+    sincronizacao = st.session_state.pop("fatura_sync_pendente")
+    for chave, valor in sincronizacao["widgets"].items():
+        st.session_state[chave] = valor
+    for chave, valor in sincronizacao["grandezas"].items():
+        st.session_state[chave] = valor
+    st.session_state["modo_calculo"] = "Consumo por posto"
+    st.session_state["consulta_auto_executar"] = True
+    st.session_state["fatura_sync_id"] = sincronizacao["id"]
+    st.session_state["fatura_sync_resumo"] = sincronizacao["resumo"]
+    st.session_state.pop("sim_composicoes", None)
+
+
 aba_consulta, aba_simulacao, aba_historico = st.tabs(["1. Consulta", "2. Simulação e comparação", "3. Histórico"])
 
 with aba_consulta:
     st.subheader("Parâmetros da consulta")
     st.caption("Selecione a referência principal. Filtros técnicos menos frequentes ficam em Consulta avançada.")
     c1, c2, c3, c4 = st.columns([2, 1, 1, 1])
-    distribuidora = c1.selectbox("Distribuidora", distribuidoras(), index=None, placeholder="Digite para buscar...")
+    opcoes_distribuidora = distribuidoras()
+    distribuidora_sincronizada = st.session_state.get("consulta_distribuidora")
+    if distribuidora_sincronizada not in opcoes_distribuidora and distribuidora_sincronizada:
+        correspondencia = next(
+            (opcao for opcao in opcoes_distribuidora if "light" in opcao.lower() and "light" in distribuidora_sincronizada.lower()),
+            None,
+        )
+        if correspondencia:
+            st.session_state["consulta_distribuidora"] = correspondencia
+    validar_estado_select("consulta_distribuidora", opcoes_distribuidora)
+    distribuidora = c1.selectbox("Distribuidora", opcoes_distribuidora, index=None, placeholder="Digite para buscar...", key="consulta_distribuidora")
     brutos = dados_distribuidora(distribuidora) if distribuidora else []
     anos = sorted({ano_da_vigencia(r) for r in brutos if ano_da_vigencia(r)}, reverse=True)
-    ano = c2.selectbox("Ano", anos, index=0 if anos else None, disabled=not anos)
-    mes_nome = c3.selectbox("Mês", [nome for _, nome in MESES], index=date.today().month - 1, disabled=not anos)
-    data_exata = c4.date_input("Data de referência", value=None, help="Se preenchida, prevalece sobre Ano/Mês.")
+    validar_estado_select("consulta_ano", anos, anos[0] if anos else None)
+    ano = c2.selectbox("Ano", anos, index=0 if anos else None, disabled=not anos, key="consulta_ano")
+    meses_nomes = [nome for _, nome in MESES]
+    validar_estado_select("consulta_mes", meses_nomes, meses_nomes[date.today().month - 1])
+    mes_nome = c3.selectbox("Mês", meses_nomes, index=date.today().month - 1, disabled=not anos, key="consulta_mes")
+    data_exata = c4.date_input("Data de referência", value=None, help="Se preenchida, prevalece sobre Ano/Mês.", key="consulta_data_ref")
 
     periodo = brutos
     if brutos and data_exata:
@@ -117,36 +153,63 @@ with aba_consulta:
         periodo = registros_vigentes_no_periodo(brutos, inicio, fim)
 
     c5, c6 = st.columns(2)
-    subgrupo = c5.selectbox("Subgrupo", ["Todos"] + opcoes(periodo, "DscSubGrupo"), disabled=not periodo)
+    opcoes_subgrupo = ["Todos"] + opcoes(periodo, "DscSubGrupo")
+    validar_estado_select("consulta_subgrupo", opcoes_subgrupo, "Todos")
+    subgrupo = c5.selectbox("Subgrupo", opcoes_subgrupo, disabled=not periodo, key="consulta_subgrupo")
     por_subgrupo = filtrar(periodo, "DscSubGrupo", subgrupo, "Todos")
-    modalidade = c6.selectbox("Modalidade", ["Todas"] + opcoes(por_subgrupo, "DscModalidadeTarifaria"), disabled=not por_subgrupo)
+    opcoes_modalidade = ["Todas"] + opcoes(por_subgrupo, "DscModalidadeTarifaria")
+    validar_estado_select("consulta_modalidade", opcoes_modalidade, "Todas")
+    modalidade = c6.selectbox("Modalidade", opcoes_modalidade, disabled=not por_subgrupo, key="consulta_modalidade")
     filtrados = filtrar(por_subgrupo, "DscModalidadeTarifaria", modalidade, "Todas")
 
     with st.expander("Consulta avançada"):
-        a1, a2, a3 = st.columns(3)
+        a1, a2, a3, a4 = st.columns(4)
         bases_disponiveis = opcoes(filtrados, "DscBaseTarifaria")
         bases_ordenadas = (["Tarifa de Aplicação"] if "Tarifa de Aplicação" in bases_disponiveis else []) + [v for v in bases_disponiveis if v != "Tarifa de Aplicação"]
-        base = a1.selectbox("Base tarifária", bases_ordenadas, index=0 if bases_ordenadas else None, disabled=not bases_ordenadas)
+        validar_estado_select("consulta_base", bases_ordenadas, "Tarifa de Aplicação")
+        base = a1.selectbox("Base tarifária", bases_ordenadas, index=0 if bases_ordenadas else None, disabled=not bases_ordenadas, key="consulta_base")
         filtrados = filtrar(filtrados, "DscBaseTarifaria", base, "Todas")
-        reh = a2.selectbox("REH", ["Todas"] + opcoes(filtrados, "DscREH"), disabled=not filtrados)
+        opcoes_reh = ["Todas"] + opcoes(filtrados, "DscREH")
+        validar_estado_select("consulta_reh", opcoes_reh, "Todas")
+        reh = a2.selectbox("REH", opcoes_reh, disabled=not filtrados, key="consulta_reh")
         filtrados = filtrar(filtrados, "DscREH", reh, "Todas")
-        classe = a3.selectbox("Classe", ["Todas"] + opcoes(filtrados, "DscClasse"), disabled=not filtrados)
+        opcoes_classe = ["Todas"] + opcoes(filtrados, "DscClasse")
+        validar_estado_select("consulta_classe", opcoes_classe, "Todas")
+        classe = a3.selectbox("Classe", opcoes_classe, disabled=not filtrados, key="consulta_classe")
         filtrados = filtrar(filtrados, "DscClasse", classe, "Todas")
-        a4, a5, a6 = st.columns(3)
-        detalhe = a4.selectbox("Detalhe", ["Todas"] + opcoes(filtrados, "DscDetalhe"), disabled=not filtrados)
+        opcoes_subclasse = ["Todas"] + opcoes(filtrados, "DscSubClasse")
+        validar_estado_select("consulta_subclasse", opcoes_subclasse, "Todas")
+        subclasse = a4.selectbox("Subclasse", opcoes_subclasse, disabled=not filtrados, key="consulta_subclasse")
+        filtrados = filtrar(filtrados, "DscSubClasse", subclasse, "Todas")
+        a5, a6, a7 = st.columns(3)
+        opcoes_detalhe = ["Todas"] + opcoes(filtrados, "DscDetalhe")
+        validar_estado_select("consulta_detalhe", opcoes_detalhe, "Todas")
+        detalhe = a5.selectbox("Detalhe", opcoes_detalhe, disabled=not filtrados, key="consulta_detalhe")
         filtrados = filtrar(filtrados, "DscDetalhe", detalhe, "Todas")
-        acessante = a5.selectbox("Acessante", ["Todos"] + opcoes(filtrados, "SigAgenteAcessante"), disabled=not filtrados)
+        opcoes_acessante = ["Todos"] + opcoes(filtrados, "SigAgenteAcessante")
+        validar_estado_select("consulta_acessante", opcoes_acessante, "Todos")
+        acessante = a6.selectbox("Acessante", opcoes_acessante, disabled=not filtrados, key="consulta_acessante")
         filtrados = filtrar(filtrados, "SigAgenteAcessante", acessante, "Todos")
-        posto = a6.selectbox("Posto", ["Todos"] + opcoes(filtrados, "NomPostoTarifario"), disabled=not filtrados)
+        opcoes_posto = ["Todos"] + opcoes(filtrados, "NomPostoTarifario")
+        validar_estado_select("consulta_posto", opcoes_posto, "Todos")
+        posto = a7.selectbox("Posto", opcoes_posto, disabled=not filtrados, key="consulta_posto")
         filtrados = filtrar(filtrados, "NomPostoTarifario", posto, "Todos")
 
-    parametros = {"Distribuidora": distribuidora, "Referência": str(data_exata or f"{mes_nome}/{ano}"), "Subgrupo": subgrupo, "Modalidade": modalidade, "Base": base if periodo else None, "REH": reh if periodo else None}
-    if st.button("Consultar tarifas", type="primary", disabled=not distribuidora):
+    parametros = {"Distribuidora": distribuidora, "Referência": str(data_exata or f"{mes_nome}/{ano}"), "Subgrupo": subgrupo, "Modalidade": modalidade, "Base": base if periodo else None, "REH": reh if periodo else None, "Classe": classe if periodo else None, "Subclasse": subclasse if periodo else None}
+    consulta_manual = st.button("Consultar tarifas", type="primary", disabled=not distribuidora)
+    consulta_automatica = st.session_state.pop("consulta_auto_executar", False)
+    if consulta_manual or consulta_automatica:
         st.session_state["consulta_registros"] = filtrados
         st.session_state["consulta_brutos"] = brutos
         st.session_state["consulta_contexto"] = contexto_consulta(parametros)
         for chave in ("sim_resultados", "sim_memoria", "sim_fingerprint"):
             st.session_state.pop(chave, None)
+        if consulta_automatica:
+            st.session_state["sim_reset_composicoes"] = True
+            st.toast("Aba 1 atualizada automaticamente com os dados da fatura.", icon="✅")
+
+    if st.session_state.get("fatura_sync_resumo"):
+        st.info(st.session_state["fatura_sync_resumo"])
 
     consulta = st.session_state.get("consulta_registros", [])
     if consulta:
@@ -180,7 +243,12 @@ with aba_simulacao:
         versoes = versoes_disponiveis(consulta)
         rotulos = {rotulo_versao(v): v for v in versoes}
         st.subheader("Composição tarifária")
-        escolhas = st.multiselect("Composições para simular e comparar", list(rotulos), default=list(rotulos)[:1], max_selections=2)
+        opcoes_composicao = list(rotulos)
+        if st.session_state.pop("sim_reset_composicoes", False):
+            st.session_state["sim_composicoes"] = opcoes_composicao[:1]
+        elif "sim_composicoes" in st.session_state:
+            st.session_state["sim_composicoes"] = [v for v in st.session_state["sim_composicoes"] if v in opcoes_composicao][:2]
+        escolhas = st.multiselect("Composições para simular e comparar", opcoes_composicao, default=opcoes_composicao[:1], max_selections=2, key="sim_composicoes")
         st.caption("Selecione uma composição para simular ou duas para comparar com o mesmo perfil.")
         if escolhas:
             principal = rotulos[escolhas[0]]
@@ -228,12 +296,51 @@ with aba_simulacao:
                     st.error(f"Não foi possível ler o arquivo: {erro}")
 
             if fatura:
-                st.success(f"Fatura processada por {fatura['metodo']}. Confira os campos antes de aplicá-los.")
-                meta1, meta2, meta3, meta4 = st.columns(4)
+                id_fatura = hashlib.sha256(arquivo.getvalue()).hexdigest()
+                if st.session_state.get("fatura_sync_id") != id_fatura:
+                    competencia = fatura.get("competencia")
+                    ano_fatura, mes_fatura = (competencia.split("-") if competencia else (None, None))
+                    grandezas = grandezas_da_fatura(fatura)
+                    estado_grandezas = {
+                        **{chave_input("consumo", posto): valor for posto, valor in grandezas["consumos_mwh"].items()},
+                        **{chave_input("demanda", posto): valor for posto, valor in grandezas["demandas_kw"].items()},
+                    }
+                    st.session_state["fatura_sync_pendente"] = {
+                        "id": id_fatura,
+                        "widgets": {
+                            "consulta_distribuidora": fatura.get("distribuidora") or "LIGHT SESA",
+                            "consulta_ano": int(ano_fatura) if ano_fatura else None,
+                            "consulta_mes": dict(MESES).get(int(mes_fatura)) if mes_fatura else None,
+                            "consulta_data_ref": None,
+                            "consulta_subgrupo": fatura.get("subgrupo") or "Todos",
+                            "consulta_modalidade": fatura.get("modalidade") or "Todas",
+                            "consulta_base": "Tarifa de Aplicação",
+                            "consulta_reh": "Todas",
+                            "consulta_classe": fatura.get("classe") or "Todas",
+                            "consulta_subclasse": fatura.get("subclasse") or "Todas",
+                            "consulta_detalhe": "Todas",
+                            "consulta_acessante": "Todos",
+                            "consulta_posto": "Todos",
+                        },
+                        "grandezas": estado_grandezas,
+                        "resumo": (
+                            f"Parâmetros sincronizados da fatura {competencia or 'sem competência'}: "
+                            f"{fatura.get('distribuidora') or 'LIGHT SESA'}, {fatura.get('subgrupo') or 'subgrupo não identificado'}, "
+                            f"modalidade {fatura.get('modalidade') or 'não identificada'}, "
+                            f"{fatura.get('classe') or 'classe não identificada'} / {fatura.get('subclasse') or 'subclasse não identificada'}. "
+                            "Em divergências, a fatura prevalece sobre a seleção anterior."
+                        ),
+                    }
+                    st.rerun()
+
+                st.success(f"Fatura processada por {fatura['metodo']}. Os parâmetros e as grandezas reconhecidas já foram aplicados automaticamente.")
+                tributos = totais_tributos(fatura)
+                meta1, meta2, meta3, meta4, meta5 = st.columns(5)
                 meta1.metric("Competência", fatura.get("competencia") or "—")
-                meta2.metric("Subgrupo", fatura.get("subgrupo") or "—")
-                meta3.metric("Modalidade", fatura.get("modalidade") or "—")
-                meta4.metric("ICMS identificado", f"{fatura['icms_percentual']:.2f}%" if fatura.get("icms_percentual") is not None else "—")
+                meta2.metric("Enquadramento", f"{fatura.get('subgrupo') or '—'} · {fatura.get('modalidade') or '—'}")
+                meta3.metric("PIS/COFINS retirado", fmt_brl(tributos["pis_cofins"]))
+                meta4.metric("ICMS retirado", fmt_brl(tributos["icms"]))
+                meta5.metric("Alíquota ICMS", f"{fatura['icms_percentual']:.2f}%" if fatura.get("icms_percentual") is not None else "—")
                 st.caption(
                     f"PIS identificado: {fatura.get('pis_percentual') if fatura.get('pis_percentual') is not None else '—'}% · "
                     f"COFINS identificado: {fatura.get('cofins_percentual') if fatura.get('cofins_percentual') is not None else '—'}% · "
@@ -276,7 +383,7 @@ with aba_simulacao:
                         "para R$/MWh. A separação entre TE e TUSD usa a composição ANEEL selecionada e é exibida "
                         "ao lado da tarifa líquida da fatura para reconciliação."
                     )
-                if st.button("Aplicar dados conferidos à simulação", type="secondary"):
+                if st.button("Reaplicar correções da tabela à simulação", type="secondary"):
                     for _, linha in revisao_editada.iterrows():
                         if pd.isna(linha["Quantidade"]):
                             continue

@@ -1,6 +1,6 @@
 import pytest
 
-from src.importers.fatura_light import Token, _extrair_itens, reconciliar_com_aneel
+from src.importers.fatura_light import Token, _extrair_itens, grandezas_da_fatura, reconciliar_com_aneel, totais_tributos
 
 
 def linha(y, rotulo, quantidade, bruto, valor, pis, icms, liquida):
@@ -40,3 +40,15 @@ def test_reconciliacao_demanda_usa_r_kw_sem_conversao():
     linha = reconciliar_com_aneel(fatura, {}, {"Ponta": (29.95, 0)})[0]
     assert linha["tarifa_liquida_comparavel"] == 29.95
     assert linha["diferenca_tarifa"] == pytest.approx(0)
+
+
+def test_consolida_tributos_e_grandezas_para_preenchimento():
+    fatura = {"itens": [
+        {"tipo": "Energia", "posto": "Ponta", "quantidade": 72_879, "pis_cofins": 1_607.50, "icms": 10_319.60},
+        {"tipo": "Demanda", "posto": "Fora ponta", "quantidade": 2_475, "pis_cofins": 280.74, "icms": 6_344.06},
+    ]}
+    assert grandezas_da_fatura(fatura) == {
+        "consumos_mwh": {"Ponta": 72.879},
+        "demandas_kw": {"Fora ponta": 2475.0},
+    }
+    assert totais_tributos(fatura) == pytest.approx({"pis_cofins": 1_888.24, "icms": 16_663.66})

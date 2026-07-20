@@ -189,6 +189,29 @@ def extrair_fatura(conteudo, nome_arquivo):
     return {**metadados, "metodo": metodo, "itens": itens, "avisos": avisos}
 
 
+def totais_tributos(fatura):
+    """Consolida os tributos monetários reconhecidos nas linhas tarifárias."""
+    itens = fatura.get("itens", [])
+    return {
+        "pis_cofins": sum(float(item.get("pis_cofins") or 0) for item in itens),
+        "icms": sum(float(item.get("icms") or 0) for item in itens),
+    }
+
+
+def grandezas_da_fatura(fatura):
+    """Retorna as grandezas faturadas por posto, prontas para a simulação."""
+    grandezas = {"consumos_mwh": {}, "demandas_kw": {}}
+    for item in fatura.get("itens", []):
+        quantidade = item.get("quantidade")
+        if quantidade is None:
+            continue
+        if item.get("tipo") == "Energia":
+            grandezas["consumos_mwh"][item["posto"]] = float(quantidade) / 1000
+        elif item.get("tipo") == "Demanda":
+            grandezas["demandas_kw"][item["posto"]] = float(quantidade)
+    return grandezas
+
+
 def reconciliar_com_aneel(fatura, tarifas_mwh, tarifas_kw):
     linhas = []
     for item in fatura.get("itens", []):
