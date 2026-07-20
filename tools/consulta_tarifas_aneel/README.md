@@ -2,7 +2,7 @@
 
 Aplicativo para consulta, simulação, comparação e análise histórica das tarifas de aplicação das distribuidoras publicadas na API de Dados Abertos da ANEEL.
 
-Versão atual: **Revisão 10 (19/07/2026)**. O histórico está em [REVISIONS.md](REVISIONS.md) e a metodologia em [docs/metodologia.md](docs/metodologia.md).
+Versão atual: **Revisão 11 (19/07/2026)**. O histórico está em [REVISIONS.md](REVISIONS.md) e a metodologia em [docs/metodologia.md](docs/metodologia.md).
 
 ## Funcionalidades
 

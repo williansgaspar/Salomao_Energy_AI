@@ -4,7 +4,18 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 10 (19/07/2026) — atual
+## Revisão 11 (19/07/2026) — atual
+
+- Upload de PDF, imagem, CSV ou XLSX transferido para o início da Aba 1, antes dos parâmetros tarifários.
+- Documento válido passa a constituir o perfil documental único usado pelas três abas.
+- Campos disponíveis no documento prevalecem; parâmetros ausentes ficam obrigatoriamente disponíveis para preenchimento manual.
+- Consulta manual exige distribuidora, ano, mês, subgrupo, modalidade e base tarifária.
+- CSV/XLSX aceita `posto` e uma ou ambas as colunas `consumo_mwh` e `demanda_kw`, além de metadados tarifários opcionais.
+- Aba 2 deixa de processar uploads e apenas recebe consumo/demanda já consolidados na Aba 1.
+- Incluída opção explícita para descartar o documento e reiniciar o fluxo manual.
+- Revisão 10 preservada no histórico Git pelo commit `f5ccb40`.
+
+## Revisão 10 (19/07/2026)
 
 - Os quatro campos de consumo e demanda recebem uma identidade de widget vinculada ao hash da fatura.
 - O estado manual anterior não pode mais restaurar zeros sobre as grandezas extraídas durante o rerun do Streamlit.

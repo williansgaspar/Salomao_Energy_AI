@@ -1,8 +1,7 @@
-"""Revisão 10 — estado isolado por documento para preencher as grandezas."""
+"""Revisão 11 — documento parametriza a consulta antes da simulação."""
 
 import hashlib
 from datetime import date, datetime
-from io import BytesIO
 from pathlib import Path
 
 import pandas as pd
@@ -90,26 +89,92 @@ def fmt_numero_br(valor, casas):
 
 def validar_estado_select(chave, opcoes_validas, padrao=None):
     """Evita estado inválido quando uma fatura troca as opções em cascata."""
+    if st.session_state.get(chave) is None:
+        st.session_state.pop(chave, None)
+        return
     if chave in st.session_state and st.session_state[chave] not in opcoes_validas:
         st.session_state[chave] = padrao if padrao in opcoes_validas else (opcoes_validas[0] if opcoes_validas else None)
 
 
-def carregar_perfil_tabular(arquivo):
-    if arquivo is None:
-        return {}
+def carregar_documento_tabular(arquivo):
     df = pd.read_csv(arquivo, sep=None, engine="python") if arquivo.name.lower().endswith(".csv") else pd.read_excel(arquivo)
     normalizadas = {str(c).strip().lower(): c for c in df.columns}
-    if {"posto", "consumo_mwh"}.issubset(normalizadas):
-        return {
-            str(row[normalizadas["posto"]]).strip(): float(row[normalizadas["consumo_mwh"]])
-            for _, row in df.iterrows() if pd.notna(row[normalizadas["consumo_mwh"]])
-        }
-    raise ValueError("O arquivo deve conter as colunas 'posto' e 'consumo_mwh'.")
+    if "posto" not in normalizadas or not ({"consumo_mwh", "demanda_kw"} & set(normalizadas)):
+        raise ValueError("CSV/XLSX deve conter 'posto' e ao menos uma coluna entre 'consumo_mwh' e 'demanda_kw'.")
+
+    def primeiro(campo):
+        if campo not in normalizadas:
+            return None
+        valores = df[normalizadas[campo]].dropna()
+        return str(valores.iloc[0]).strip() if not valores.empty else None
+
+    def posto_padrao(valor):
+        normal = str(valor).strip().lower()
+        if normal in {"hfp", "fora ponta", "fora de ponta"}:
+            return "Fora ponta"
+        if normal in {"hp", "hpt", "ponta"}:
+            return "Ponta"
+        return str(valor).strip()
+
+    itens = []
+    for _, linha in df.iterrows():
+        posto = posto_padrao(linha[normalizadas["posto"]])
+        if "consumo_mwh" in normalizadas and pd.notna(linha[normalizadas["consumo_mwh"]]):
+            quantidade = float(linha[normalizadas["consumo_mwh"]]) * 1000
+            itens.append({"tipo": "Energia", "posto": posto, "unidade": "kWh", "quantidade": quantidade,
+                          "consumo_mwh": quantidade / 1000, "valor_com_tributos": None, "pis_cofins": None,
+                          "icms": None, "tarifa_liquida": None, "aliquota_icms": None})
+        if "demanda_kw" in normalizadas and pd.notna(linha[normalizadas["demanda_kw"]]):
+            quantidade = float(linha[normalizadas["demanda_kw"]])
+            itens.append({"tipo": "Demanda", "posto": posto, "unidade": "kW", "quantidade": quantidade,
+                          "consumo_mwh": None, "valor_com_tributos": None, "pis_cofins": None,
+                          "icms": None, "tarifa_liquida": None, "aliquota_icms": None})
+    if not itens:
+        raise ValueError("O arquivo não contém valores numéricos válidos de consumo ou demanda.")
+    return {
+        "origem": "tabular", "metodo": "arquivo tabular", "itens": itens, "avisos": [],
+        "distribuidora": primeiro("distribuidora"), "competencia": primeiro("competencia"),
+        "subgrupo": primeiro("subgrupo"), "modalidade": primeiro("modalidade"),
+        "classe": primeiro("classe"), "subclasse": primeiro("subclasse"),
+        "pis_percentual": None, "cofins_percentual": None, "icms_percentual": None,
+    }
+
+
+def montar_sincronizacao(documento, identificador):
+    competencia = documento.get("competencia")
+    ano_doc, mes_doc = (competencia.split("-") if competencia and "-" in competencia else (None, None))
+    subgrupo = documento.get("subgrupo")
+    grandezas = grandezas_da_fatura(documento)
+    distribuidora_documento = documento.get("distribuidora") or (
+        "LIGHT SESA" if documento.get("origem") == "fatura" else st.session_state.get("consulta_distribuidora")
+    )
+    return {
+        "id": identificador,
+        "widgets": {
+            "consulta_distribuidora": distribuidora_documento,
+            "consulta_ano": int(ano_doc) if ano_doc else st.session_state.get("consulta_ano"),
+            "consulta_mes": dict(MESES).get(int(mes_doc)) if mes_doc else st.session_state.get("consulta_mes"),
+            "consulta_data_ref": None,
+            "consulta_subgrupo": subgrupo or st.session_state.get("consulta_subgrupo", "Todos"),
+            "consulta_modalidade": documento.get("modalidade") or st.session_state.get("consulta_modalidade", "Todas"),
+            "consulta_base": "Tarifa de Aplicação", "consulta_reh": "Todas",
+            "consulta_classe": documento.get("classe") or "Todas",
+            "consulta_subclasse": documento.get("subclasse") or "Todas",
+            "consulta_detalhe": "Todas", "consulta_acessante": "Todos", "consulta_posto": "Todos",
+        },
+        "grandezas": grandezas,
+        "resumo": (
+            f"Documento válido {competencia or 'sem competência'}: {distribuidora_documento or 'distribuidora não informada'}, "
+            f"Grupo {(subgrupo or '—')[:1]} / Subgrupo {subgrupo or 'não informado'}, "
+            f"modalidade {documento.get('modalidade') or 'não informada'}. "
+            "Dados documentais prevalecem; campos ausentes permanecem para preenchimento manual."
+        ),
+    }
 
 
 @st.cache_data(show_spinner="Lendo fatura e executando OCR local...")
 def extrair_fatura_cache(conteudo, nome):
-    return extrair_fatura(conteudo, nome)
+    return {**extrair_fatura(conteudo, nome), "origem": "fatura"}
 
 
 # A sincronização é aplicada antes de os widgets serem instanciados. Isso é
@@ -125,7 +190,12 @@ if "fatura_sync_pendente" in st.session_state:
     for posto, valor in sincronizacao["grandezas"]["demandas_kw"].items():
         st.session_state[chave_input("demanda", posto)] = valor
     st.session_state["modo_calculo"] = "Consumo por posto"
-    st.session_state["consulta_auto_executar"] = True
+    essenciais = sincronizacao["widgets"]
+    st.session_state["consulta_auto_executar"] = all([
+        essenciais.get("consulta_distribuidora"), essenciais.get("consulta_ano"),
+        essenciais.get("consulta_subgrupo") not in (None, "Todos"),
+        essenciais.get("consulta_modalidade") not in (None, "Todas"),
+    ])
     st.session_state["fatura_sync_id"] = sincronizacao["id"]
     st.session_state["fatura_sync_resumo"] = sincronizacao["resumo"]
     st.session_state["fatura_grandezas_aplicadas"] = sincronizacao["grandezas"]
@@ -136,6 +206,53 @@ if "fatura_sync_pendente" in st.session_state:
 aba_consulta, aba_simulacao, aba_historico = st.tabs(["1. Consulta", "2. Simulação e comparação", "3. Histórico"])
 
 with aba_consulta:
+    st.subheader("Origem dos dados")
+    st.caption("Envie uma conta ou planilha para parametrização automática. Sem documento válido, preencha manualmente os campos obrigatórios abaixo.")
+    arquivo_parametros = st.file_uploader(
+        "Conta de energia ou arquivo de parâmetros",
+        type=["pdf", "png", "jpg", "jpeg", "webp", "csv", "xlsx"],
+        help=("PDF/imagem: fatura Light Grupo A. CSV/XLSX: posto e consumo_mwh e/ou demanda_kw; "
+              "opcionalmente distribuidora, competencia, subgrupo, modalidade, classe e subclasse."),
+        key="arquivo_parametrizacao",
+    )
+    if arquivo_parametros is not None:
+        conteudo_parametros = arquivo_parametros.getvalue()
+        id_documento = hashlib.sha256(conteudo_parametros).hexdigest() + ":v11"
+        if st.session_state.get("fatura_sync_id") != id_documento:
+            try:
+                extensao = arquivo_parametros.name.lower().rsplit(".", 1)[-1]
+                if extensao in {"csv", "xlsx"}:
+                    documento = carregar_documento_tabular(arquivo_parametros)
+                else:
+                    documento = extrair_fatura_cache(conteudo_parametros, arquivo_parametros.name)
+                st.session_state["documento_ativo"] = documento
+                st.session_state["fatura_sync_pendente"] = montar_sincronizacao(documento, id_documento)
+                st.rerun()
+            except Exception as erro:
+                st.session_state.pop("documento_ativo", None)
+                st.error(f"Documento inválido ou não reconhecido: {erro}. Preencha os parâmetros manualmente.")
+
+    documento_ativo = st.session_state.get("documento_ativo")
+    if documento_ativo:
+        st.success(f"Documento validado por {documento_ativo['metodo']}. Parâmetros e grandezas disponíveis foram aplicados.")
+        grandezas_doc = grandezas_da_fatura(documento_ativo)
+        st.info(
+            "Perfil documental: "
+            f"Consumo HFP {fmt_numero_br(grandezas_doc['consumos_mwh'].get('Fora ponta', 0), 3)} MWh · "
+            f"Consumo HPT {fmt_numero_br(grandezas_doc['consumos_mwh'].get('Ponta', 0), 3)} MWh · "
+            f"Demanda HFP {fmt_numero_br(grandezas_doc['demandas_kw'].get('Fora ponta', 0), 0)} kW · "
+            f"Demanda HPT {fmt_numero_br(grandezas_doc['demandas_kw'].get('Ponta', 0), 0)} kW"
+        )
+        if st.button("Descartar documento e voltar ao preenchimento manual", type="secondary"):
+            for chave in ("documento_ativo", "fatura_sync_id", "fatura_sync_resumo", "fatura_grandezas_aplicadas",
+                          "consulta_registros", "consulta_brutos", "consulta_contexto"):
+                st.session_state.pop(chave, None)
+            for chave in [k for k in st.session_state if k.startswith("consulta_")]:
+                st.session_state.pop(chave, None)
+            st.session_state["perfil_widget_versao"] = "manual"
+            st.rerun()
+
+    st.divider()
     st.subheader("Parâmetros da consulta")
     st.caption("Selecione a referência principal. Filtros técnicos menos frequentes ficam em Consulta avançada.")
     c1, c2, c3, c4 = st.columns([2, 1, 1, 1])
@@ -214,7 +331,8 @@ with aba_consulta:
         filtrados = filtrar(filtrados, "NomPostoTarifario", posto, "Todos")
 
     parametros = {"Distribuidora": distribuidora, "Referência": str(data_exata or f"{mes_nome}/{ano}"), "Subgrupo": subgrupo, "Modalidade": modalidade, "Base": base if periodo else None, "REH": reh if periodo else None, "Classe": classe if periodo else None, "Subclasse": subclasse if periodo else None}
-    consulta_manual = st.button("Consultar tarifas", type="primary", disabled=not distribuidora)
+    parametros_obrigatorios = bool(distribuidora and ano and mes_nome and subgrupo not in (None, "Todos") and modalidade not in (None, "Todas") and base)
+    consulta_manual = st.button("Consultar tarifas", type="primary", disabled=not parametros_obrigatorios)
     consulta_automatica = st.session_state.pop("consulta_auto_executar", False)
     if consulta_manual or consulta_automatica:
         st.session_state["consulta_registros"] = filtrados
@@ -228,6 +346,8 @@ with aba_consulta:
             if reh not in (None, "Todas"):
                 st.session_state["fatura_sync_resumo"] += f" REH aplicada automaticamente: {reh}."
             st.toast("Aba 1 atualizada automaticamente com os dados da fatura.", icon="✅")
+        else:
+            st.session_state.pop("fatura_sync_aplicando", None)
 
     if st.session_state.get("fatura_sync_resumo"):
         st.info(st.session_state["fatura_sync_resumo"])
@@ -251,9 +371,9 @@ with aba_consulta:
                 "TE ausente": ausentes_te,
             })
     elif distribuidora:
-        st.info("Ajuste os filtros e clique em Consultar tarifas.")
+        st.info("Informe obrigatoriamente Ano, Mês, Subgrupo e Modalidade; depois clique em Consultar tarifas.")
     else:
-        st.info("Comece selecionando uma distribuidora.")
+        st.info("Sem documento válido, comece selecionando uma distribuidora e preencha os demais parâmetros obrigatórios.")
 
 with aba_simulacao:
     consulta = st.session_state.get("consulta_registros", [])
@@ -297,62 +417,9 @@ with aba_simulacao:
                 "São referências para comparação inicial entre a TE regulada no ACR e ofertas de TE no ACL. "
                 "Não representam curva de carga, não alteram os cálculos abaixo e a ponderação da TUSD Demanda não constitui critério de faturamento."
             )
-            st.markdown('<div class="section-kicker">Importar dados de medição ou fatura</div>', unsafe_allow_html=True)
-            arquivo = st.file_uploader(
-                "Upload de perfil ou conta de energia (opcional)",
-                type=["csv", "xlsx", "pdf", "png", "jpg", "jpeg", "webp"],
-                help="CSV/XLSX: colunas posto e consumo_mwh. PDF/imagem: fatura Light Grupo A, processada localmente.",
-                key="arquivo_perfil_fatura",
-            )
-            perfil = {}
-            fatura = None
-            if arquivo is not None:
-                extensao = arquivo.name.lower().rsplit(".", 1)[-1]
-                try:
-                    if extensao in {"csv", "xlsx"}:
-                        perfil = carregar_perfil_tabular(arquivo)
-                    else:
-                        fatura = extrair_fatura_cache(arquivo.getvalue(), arquivo.name)
-                except Exception as erro:
-                    st.error(f"Não foi possível ler o arquivo: {erro}")
-
+            st.markdown('<div class="section-kicker">Dados documentais recebidos da Aba 1</div>', unsafe_allow_html=True)
+            fatura = st.session_state.get("documento_ativo")
             if fatura:
-                # O sufixo versiona o protocolo de estado. Assim, uma fatura
-                # já aberta antes desta correção também é reaplicada uma vez.
-                id_fatura = hashlib.sha256(arquivo.getvalue()).hexdigest() + ":v10"
-                if st.session_state.get("fatura_sync_id") != id_fatura:
-                    competencia = fatura.get("competencia")
-                    ano_fatura, mes_fatura = (competencia.split("-") if competencia else (None, None))
-                    grandezas = grandezas_da_fatura(fatura)
-                    st.session_state["fatura_sync_pendente"] = {
-                        "id": id_fatura,
-                        "widgets": {
-                            "consulta_distribuidora": fatura.get("distribuidora") or "LIGHT SESA",
-                            "consulta_ano": int(ano_fatura) if ano_fatura else None,
-                            "consulta_mes": dict(MESES).get(int(mes_fatura)) if mes_fatura else None,
-                            "consulta_data_ref": None,
-                            "consulta_subgrupo": fatura.get("subgrupo") or "Todos",
-                            "consulta_modalidade": fatura.get("modalidade") or "Todas",
-                            "consulta_base": "Tarifa de Aplicação",
-                            "consulta_reh": "Todas",
-                            "consulta_classe": fatura.get("classe") or "Todas",
-                            "consulta_subclasse": fatura.get("subclasse") or "Todas",
-                            "consulta_detalhe": "Todas",
-                            "consulta_acessante": "Todos",
-                            "consulta_posto": "Todos",
-                        },
-                        "grandezas": grandezas,
-                        "resumo": (
-                            f"Parâmetros sincronizados da fatura {competencia or 'sem competência'}: "
-                            f"{fatura.get('distribuidora') or 'LIGHT SESA'}, "
-                            f"Grupo {(fatura.get('subgrupo') or '—')[:1]} / Subgrupo {fatura.get('subgrupo') or 'não identificado'}, "
-                            f"modalidade {fatura.get('modalidade') or 'não identificada'}, "
-                            f"{fatura.get('classe') or 'classe não identificada'} / {fatura.get('subclasse') or 'subclasse não identificada'}. "
-                            "Em divergências, a fatura prevalece sobre a seleção anterior."
-                        ),
-                    }
-                    st.rerun()
-
                 st.success(f"Fatura processada por {fatura['metodo']}. Os parâmetros e as grandezas reconhecidas já foram aplicados automaticamente.")
                 grandezas_aplicadas = st.session_state.get("fatura_grandezas_aplicadas", grandezas_da_fatura(fatura))
                 st.info(
@@ -433,7 +500,7 @@ with aba_simulacao:
                 for i, posto_nome in enumerate(postos_energia):
                     consumos[posto_nome] = colunas[i].number_input(
                         f"Consumo {posto_nome} (MWh)", min_value=0.0,
-                        value=float(perfil.get(posto_nome, 0.0)), step=0.1,
+                        value=0.0, step=0.1,
                         key=chave_input("consumo", posto_nome),
                     )
             else:
