@@ -80,6 +80,32 @@ def calcular_fatura(tarifas_mwh, consumos_mwh, tarifas_kw=None, demandas_kw=None
     }
 
 
+def comparar_acr_acl(te_acr, tusd_energia, tusd_demanda, consumo_total_mwh, te_acl):
+    """Compara ambientes alterando somente a TE; TUSD e demanda são invariantes."""
+    te_acl = _numero(te_acl, "TE ACL")
+    consumo = _numero(consumo_total_mwh, "Consumo total")
+    te_acr = _numero(te_acr, "TE ACR")
+    tusd_energia = _numero(tusd_energia, "TUSD Energia")
+    tusd_demanda = _numero(tusd_demanda, "TUSD Demanda")
+    total_acr = te_acr + tusd_energia + tusd_demanda
+    custo_te_acl = te_acl * consumo
+    total_acl = custo_te_acl + tusd_energia + tusd_demanda
+    economia = total_acr - total_acl
+    return {
+        "consumo_total_mwh": consumo,
+        "te_acr_efetiva": te_acr / consumo if consumo else None,
+        "te_acl": te_acl,
+        "custo_te_acr": te_acr,
+        "custo_te_acl": custo_te_acl,
+        "tusd_energia": tusd_energia,
+        "tusd_demanda": tusd_demanda,
+        "total_acr": total_acr,
+        "total_acl": total_acl,
+        "economia": economia,
+        "economia_percentual": economia / total_acr * 100 if total_acr else None,
+    }
+
+
 def pesos_horarios_indicativos(postos):
     """Pesos de um mês típico; servem apenas para indicadores de tarifa."""
     postos = set(postos)

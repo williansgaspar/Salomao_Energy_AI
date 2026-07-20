@@ -4,7 +4,14 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 15 (19/07/2026) — atual
+## Revisão 16 (19/07/2026) — atual
+
+- Campo manual para informar a TE negociada no ACL em R$/MWh após o resultado tarifário.
+- Comparador ACR × ACL mantém TUSD Energia e TUSD Demanda constantes e substitui apenas a TE.
+- Exibição de total ACR, total ACL, economia absoluta e percentual, TE ACR efetiva e memória da premissa.
+- Revisão 15 preservada no commit `e8ff2dc`.
+
+## Revisão 15 (19/07/2026)
 
 - Perfis documentais passam a respeitar a modalidade: Azul exige duas demandas; Verde exige somente demanda HFP/Único.
 - Demanda HFP/Único da fatura Verde é associada ao posto oficial `Não se aplica` da tarifa ANEEL e exibida como `Demanda única / HFP`.

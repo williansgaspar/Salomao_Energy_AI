@@ -78,7 +78,7 @@ def cabecalho(base_dir: Path):
         <div class="brand-copy">
           <div class="eyebrow">Inteligência tarifária</div>
           <h1>Consulta de Tarifas ANEEL</h1>
-          <p>Programa de Eficiência, Transição e Governança Energética · Revisão 15</p>
+          <p>Programa de Eficiência, Transição e Governança Energética · Revisão 16</p>
         </div>
         {logo_projeto}
       </div>

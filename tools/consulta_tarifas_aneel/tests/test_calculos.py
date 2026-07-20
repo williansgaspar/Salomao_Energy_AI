@@ -1,6 +1,6 @@
 import pytest
 
-from src.domain.calculos import calcular_fatura, calcular_por_consumo_total
+from src.domain.calculos import calcular_fatura, calcular_por_consumo_total, comparar_acr_acl
 
 
 def test_calculo_direto_respeita_consumo_de_cada_posto():
@@ -36,3 +36,18 @@ def test_tarifa_ausente_nao_e_convertida_em_zero():
 def test_valores_negativos_sao_rejeitados():
     with pytest.raises(ValueError, match="negativo"):
         calcular_fatura({"Não se aplica": (10, 20)}, {"Não se aplica": -1})
+
+
+def test_comparacao_acl_altera_somente_te():
+    resultado = comparar_acr_acl(30_000, 20_000, 10_000, 100, 200)
+    assert resultado["te_acr_efetiva"] == 300
+    assert resultado["custo_te_acl"] == 20_000
+    assert resultado["total_acr"] == 60_000
+    assert resultado["total_acl"] == 50_000
+    assert resultado["economia"] == 10_000
+    assert resultado["economia_percentual"] == pytest.approx(16.6667, rel=1e-4)
+
+
+def test_comparacao_acl_rejeita_tarifa_negativa():
+    with pytest.raises(ValueError, match="negativo"):
+        comparar_acr_acl(100, 100, 100, 1, -1)

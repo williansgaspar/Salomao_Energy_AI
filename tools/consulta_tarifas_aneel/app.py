@@ -1,4 +1,4 @@
-"""Revisão 15 — perfis documentais Azul e Verde."""
+"""Revisão 16 — comparador ACR versus ACL pela TE."""
 
 import hashlib
 from datetime import date, datetime
@@ -10,7 +10,7 @@ import streamlit as st
 
 from aneel_api import ano_da_vigencia, converter_valor_brl
 from src.aneel import criar_sessao, listar_distribuidoras, obter_tarifas
-from src.domain.calculos import calcular_fatura, calcular_por_consumo_total, tarifas_indicativas_ponderadas
+from src.domain.calculos import calcular_fatura, calcular_por_consumo_total, comparar_acr_acl, tarifas_indicativas_ponderadas
 from src.domain.composicao import chave_versao, rotulo_versao, valores_por_posto, versoes_disponiveis
 from src.domain.contexto import fingerprint_simulacao
 from src.domain.vigencia import periodo_do_mes, registros_vigentes_no_periodo
@@ -625,6 +625,52 @@ with aba_simulacao:
                 m3.metric("TUSD Demanda", fmt_brl(principal_resultado["TUSD Demanda (R$)"]))
                 m4.metric("Energia TE + TUSD", fmt_brl(principal_resultado["Energia total (R$)"]))
                 st.markdown(f'<div class="total-card">Total geral estimado<strong>{fmt_brl(principal_resultado["Total (R$)"])}</strong></div>', unsafe_allow_html=True)
+                st.markdown('<div class="section-kicker">Simulação ACR × ACL</div>', unsafe_allow_html=True)
+                acl_col1, acl_col2 = st.columns([3, 1])
+                te_acl_informada = acl_col1.number_input(
+                    "Tarifa de Energia no ACL (R$/MWh)", min_value=0.0, step=1.0,
+                    help=("Informe somente a TE negociada no ACL. A TUSD Energia e a TUSD Demanda "
+                          "permanecem iguais às do cenário ACR calculado acima."),
+                    key="te_acl_informada",
+                )
+                simular_acl = acl_col2.button("Simular ACR vs ACL", type="primary", width="stretch")
+                consumo_calculado = float(
+                    memoria_df.loc[memoria_df["componente"] == "TE", "quantidade"].sum()
+                )
+                comparacao_chave = (fingerprint_atual, float(te_acl_informada))
+                if simular_acl:
+                    try:
+                        st.session_state["comparacao_acl"] = comparar_acr_acl(
+                            principal_resultado["TE (R$)"], principal_resultado["TUSD Energia (R$)"],
+                            principal_resultado["TUSD Demanda (R$)"], consumo_calculado, te_acl_informada,
+                        )
+                        st.session_state["comparacao_acl_chave"] = comparacao_chave
+                    except ValueError as erro:
+                        st.error(f"Comparação não realizada: {erro}")
+                comparacao = st.session_state.get("comparacao_acl")
+                if comparacao and st.session_state.get("comparacao_acl_chave") == comparacao_chave:
+                    a1, a2, a3, a4 = st.columns(4)
+                    a1.metric("Total ACR", fmt_brl(comparacao["total_acr"]))
+                    a2.metric("Total ACL", fmt_brl(comparacao["total_acl"]))
+                    a3.metric(
+                        "Economia estimada", fmt_brl(comparacao["economia"]),
+                        delta=(f'{comparacao["economia_percentual"]:.2f}%'.replace(".", ",")
+                               if comparacao["economia_percentual"] is not None else None),
+                    )
+                    a4.metric(
+                        "TE ACR efetiva",
+                        (f'{fmt_numero_br(comparacao["te_acr_efetiva"], 2)} R$/MWh'
+                         if comparacao["te_acr_efetiva"] is not None else "—"),
+                    )
+                    st.dataframe(pd.DataFrame([
+                        {"Ambiente": "ACR", "TE (R$)": comparacao["custo_te_acr"], "TUSD Energia (R$)": comparacao["tusd_energia"], "TUSD Demanda (R$)": comparacao["tusd_demanda"], "Total (R$)": comparacao["total_acr"]},
+                        {"Ambiente": "ACL", "TE (R$)": comparacao["custo_te_acl"], "TUSD Energia (R$)": comparacao["tusd_energia"], "TUSD Demanda (R$)": comparacao["tusd_demanda"], "Total (R$)": comparacao["total_acl"]},
+                    ]), hide_index=True, width="stretch")
+                    st.caption(
+                        f'Memória: TE ACL = {fmt_numero_br(comparacao["te_acl"], 2)} R$/MWh × '
+                        f'{fmt_numero_br(comparacao["consumo_total_mwh"], 3)} MWh. '
+                        "Premissa: somente a TE varia entre os ambientes; TUSD Energia e TUSD Demanda são mantidas constantes."
+                    )
                 st.dataframe(resultados_df, hide_index=True, width="stretch")
                 with st.expander("Memória de cálculo auditável", expanded=True):
                     st.dataframe(memoria_df, hide_index=True, width="stretch")
