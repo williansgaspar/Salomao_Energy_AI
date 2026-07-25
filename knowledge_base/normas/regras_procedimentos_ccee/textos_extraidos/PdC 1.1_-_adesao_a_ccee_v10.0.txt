@@ -1,0 +1,1026 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 1.1_-_adesao_a_ccee_v10.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 1.1_-_adesao_a_ccee_v10.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 1 – Agentes 
+Submódulo 1.1 – Adesão à CCEE 
+procedimentos de 
+comercialização
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Consulta Pública n° 05/2012 Despacho nº 3.215/2012 16.10.2012 
+2.0 Adequação à REN n° 619/2014 e à REN 622/2014 e 
+demais ajustes Despacho n° 4.881/2014 22.12.2014 
+3.0 Adequação ao Sistema Integrado de Gestão de Ativos 
+(SigaCCEE) Despacho n° 1.741/2015 01.06.2015 
+4.0 Consulta Pública n° 01/2016 Despacho n° 1.600/2016 17.06.2016 
+5.0 Adequação à REN n° 678/2015 e demais ajustes Despacho n° 1.911/2017 30.06.2017 
+6.0 Adequação ao Sistema de Agentes Despacho n° 2.542/2019 30.09.2019 
+7.0 Consulta Pública n° 02/2021 Resolução Normativa n° 
+1.006/2022 01.04.2022 
+8.0 Audiência Pública n° 03/2022 Resolução Normativa n° 
+1.012/2022 02.04.2022 
+9.0 Adequação à REN nº 1.014/2022 e demais 
+aprimoramentos Despacho nº 1.029/2023 17.04.2023 
+10.0 Aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+Os candidatos a agente considerados neste submódulo são os concessionários, permissionários, autorizados 
+ou em processo de obtenção da autorização, registrados, detentores ou não de instalações de energia elétrica, 
+e consumidores livres e especiais, que cumpram os requisitos legais e regulatórios vigentes, e que queiram 
+realizar operações de compra e venda de energia elétrica no Sistema Interligado Na cional - SIN, bem como 
+operações de importação/exportação de energia. 
+2. OBJETIVO 
+Estabelecer requisitos, responsabilidades, etapas e prazos  necessários à adesão de candidato a agente da 
+CCEE, além da obtenção de autorização para comercialização de energia elétrica, no caso de candidato a 
+agente pertencente à classe dos comercializadores.  
+3. PREMISSAS 
+Gerais 
+3.1 O pedido de adesão implica, inequivocamente, no prévio conhecimento e concordância de todas as 
+normas regulatórias vigentes, às quais o futuro agente se sujeitará integralmente ao ter sua adesão 
+aprovada pela Diretoria  da CCEE, sendo que qualquer medida posterior adotada pelo candidato a 
+agente que venha a afrontar a devida aplicação dessas normas configurará rompimento da afinidade 
+associativa.  
+3.2 As solicitações de adesão e de obtenção de autorização para comercialização de energia elétrica devem 
+ser realizadas, exclusivamente, por meio do sistema específico,  localizado na área logada do site da 
+CCEE. 
+3.3 Quando do preenchimento das informações na respectiva solicitação, o interessado deve respeitar os 
+atos regulatórios vigentes e apresentar os documentos exigidos pelo sistema, por este submódulo (item 
+4 - Lista de Documentos) e pelo submódulo 1.2 - Cadastro de agentes, de acordo com os formatos de 
+arquivos estabelecidos pelo próprio sistema , nos prazos determinados nos Procedimentos de 
+Comercialização. 
+3.3.1 Os candidatos a agente pertencentes às categorias de geração e distribuição, e os 
+pertencentes à classe dos comercializadores, devem informar, no sistema, os dados relativos 
+ao ato regulatório que os permitam atuar na CCEE com a respectiva categoria/classe  
+solicitada.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.3.2 Os documentos que constam com status “caso aplicável” podem deixar de ser encaminhados 
+à CCEE desde que o candidato a agente solicite e justifique sua dispensa no sistema. 
+3.3.3 Os documentos que são gerados de forma eletrônica por meio do sistema específico da CCEE 
+devem ser preenchidos e assinados  pelo(s) representante(s) legal(is) do candidato a agente . 
+São aceitas as seguintes formas de assinatura, nos termos da legislação vigente: assinatura 
+manual com firma reconhecida ; assinatura digital com certificado ICP -Brasil (devendo ser 
+encaminhado à CCEE o protocolo de autenticidade da assinatura); ou assinatura eletrônica 
+avançada desde que aceita pelo candidato a agente. 
+3.3.4 No caso da assinatura eletrônica avançada referenciada n a premissa anterior, a CCEE é 
+responsável por: a) assegurar, de maneira unívoca, a assinatura ao signatário; b) utilizar dados 
+para a criação de assinatura cujo signatário possa, com elevado nível de confiança, operar sob 
+o seu controle exclusivo; e c ) relacionar a assinatura aos dados a ela associados de tal modo 
+que qualquer modificação posterior possa ser detectável. 
+3.3.5 Outros documentos que, para fins do processo de adesão, demandem assinatura pelo(s) 
+representante(s) legal(is) do candidato a agente, devem ser assinados manualmente com 
+firma reconhecida ou digitalmente com certificado ICP -Brasil, conforme legislação vige nte, 
+devendo no último caso ser encaminhado à CCEE o protocolo de autenticidade da assinatura.  
+3.4 O candidato a agente se compromete e se responsabiliza pela validade e regularidade dos documentos 
+e dados apresentados à CCEE, incluindo os poderes do(s) signatário(s) dos documentos, cuja assinatura 
+o(s) vinculará(ão) às obrigações existentes no âmbito da CCEE. 
+3.4.1 O representante legal deve ter poderes para representar o candidato  perante a CCEE e a 
+inobservância a es se requisito pode fazê -lo incorrer em responsabilidade civil, criminal e 
+administrativa, nos termos da legislação vigente. 
+3.5 A CCEE está isenta de qualquer responsabilidade sobre informação que tenha sido cadastrada 
+erroneamente ou não atualizada no sistema específico. 
+3.6 O candidato a agente deve acompanhar, por meio do sistema, o andamento de sua solicitação e a 
+necessidade de eventual adequação da documentação apresentada e/ou cadastro. 
+Adesão à CCEE 
+3.7 O candidato a agente, independentemente da classe à qual pertença,  deve informar os dados de pré-
+cadastro, requeridos pelo sistema, para geração do boleto do emolumento de adesão à CCEE e realizar 
+o devido recolhimento (o valor do emolumento de adesão encontra-se disponível no site da CCEE).
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.8 O processo de adesão à CCEE tem início na data da confirmação do pagamento do  respectivo 
+emolumento, prestada pela instituição financeira, devendo esta data ser disponibilizada no sistema e 
+informada ao candidato a agente.  
+3.8.1 A partir deste momento, o candidato a agente deve realizar as demais atividades requeridas 
+pelo sistema relacionadas ao seu processo de adesão. 
+3.8.2 A desistência do processo por parte do candidato a agente ou o cancelamento do processo 
+pela CCEE devido à expiração do prazo, nos termos da premissa 3.21, não implica direito ao 
+ressarcimento do emolumento recolhido. 
+3.9 O candidato a agente deve abrir uma conta corrente específica  para fins de liquidação financeira  do 
+Mercado de Curto Prazo - MCP, junto ao agente de liquidação e custódia da CCEE, utilizando o mesmo 
+CNPJ indicado no processo de adesão, e informar a referida conta no sistema. 
+3.9.1 A obrigação prevista na premissa anterior se aplica a todos os candidatos a agente da CCEE, 
+inclusive aos que já possuam conta corrente aberta junto ao agente de liquidação e custódia, 
+bem como  aos candidatos a agente vendedores vencedores de leilão  e respectivos 
+compradores. 
+3.9.2 Os candidatos a agente que se enquadrem na condição de “matriz e filial” podem utilizar a 
+opção de conta prevista em seção própria deste submódulo, para fins de liquidação financeira. 
+3.9.3 Além da abertura da conta corrente específica para liquidação financeira, prevista na premissa 
+3.9, é necessário que: 
+a) Os candidatos a agente participantes do regime de cotas de garantia física ou de energia 
+nuclear realizem a abertura de conta corrente específica para fins de liquidação 
+financeira de Cotas, e informem a referida conta no sistema; 
+b) Os candidatos a agente pertencentes à classe dos importadores de energia realizem a 
+abertura de conta corrente específica para fins de importação, e informem a referida 
+conta no sistema.  
+3.9.4 Para abertura de conta(s), o candidato a agente deve seguir os termos e requisitos definidos 
+pela instituição financeira, a qual deve confirmar a abertura da(s) conta(s) em até cinco dias 
+úteis (5du), caso não haja pendências na documentação apresentada. 
+3.9.5 A CCEE deve informar, por meio do sistema , a necessidade de criação de conta corrente 
+específica que venha se tornar obrigatória para algum outro processo não listado neste 
+submódulo.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.10 É responsabilidade do candidato a agente que toda a documentação de adesão esteja válida e 
+plenamente vigente na data limite para regularização das pendências referente ao mês de aprovação 
+da adesão, conforme estabelecido no submódulo 1.2 - Cadastro de agentes. 
+3.10.1 A documentação de adesão é considerada válida e plenamente vigente quando estiver dentro 
+do prazo de validade nela expresso ou, na falta deste, até 60 (sessenta) dias contados da data 
+de sua emissão, quando aplicável. 
+3.10.2 No caso de adesão de filial, devem ser apresentadas as certidões exigidas por este submódulo 
+(item 4 - Lista de Documentos), em nome da matriz e da própria filial. 
+3.11 Além dos requisitos documentais estabelecidos neste submódulo e no sistema, também devem estar 
+cumpridos os requisitos do submódulo 1.2 - Cadastro de agentes, relacionados aos dados cadastrais.  
+3.11.1 Não se aplica o cumprimento  das seções ”Cadastro de pontos de medição ” e “Cadastro de 
+ativos”, ambas do submódulo 1.2 - Cadastro de agentes, para os candidatos a agente 
+pertencentes à classe dos comercializadores e para os candidatos a agente vendedores 
+vencedores de leilão.  
+3.11.2 No caso de candidatos a agente vendedores vencedores de leilão, as seções do submódulo 
+1.2 - Cadastro de agentes, mencionadas na premissa anterior, devem ser observadas antes do 
+início de suprimento do contrato, sem prejuízo das disposições do submódulo 3.2 - Contratos 
+do Ambiente Regulado. 
+3.11.3 Os candidatos a agente pertencentes à categoria de geração que tenham comercializado no 
+Ambiente de Contratação Livre a garantia física outorgada do respectivo empreendimento de 
+geração, no todo ou em parte,  podem solicitar sua adesão à CCEE com a dispensa do 
+atendimento às seções “Cadastro de pontos de medição” e “Cadastro de ativos”, ambas do 
+submódulo 1.2 – Cadastro de agentes, mediante apresentação de justificativa e documentos 
+comprobatórios. 
+3.11.3.1 A solicitação somente será avaliada pela Diretoria da CCEE se forem cumpridos 
+os critérios mínimos definidos no Anexo deste submódulo. 
+3.11.3.2 As referidas seções do submódulo 1.2 - Cadastro de agentes , eventualmente 
+dispensadas pela Diretoria da CCEE para adesão do candidato a agente,  devem 
+ser por ele  observadas antes do início da operação do empreendimento de 
+geração. 
+3.12 A CCEE deve divulgar a conclusão da análise dos requisitos e documentação no prazo de até cinco dias 
+úteis (5du) contados da data do recebimento de toda a documentação e cadastro.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.13 A CCEE pode solicitar ao candidato a agente, por meio do sistema, informação ou documentação 
+adicional que entenda necessária para complementar a análise do pedido de adesão.  
+3.14 A CCEE deve divulgar, pelo sistema, a conclusão da análise dos requisitos e documentação adicional no 
+prazo de até cinco dias úteis (5du) contados da data do recebimento da complementação solicitada.  
+3.15 Na hipótese de solicitação de adesão vinculada a um desligamento com sucessão, o candidato a agente 
+deve informar o agente a ser sucedido. 
+3.16 Processos de adesão, referentes ao mês “M”, podem ser deliberados em reunião da Diretoria da CCEE 
+a ser realizada até M-8du. 
+3.16.1 Nos casos de solicitação de adesão vinculada a um desligamento com sucessão, a Diretoria da 
+CCEE pode deliberar acerca de tal solicitação durante o mês de início de operacionalização - 
+mês “M”, na mesma reunião em que for deliberado o desligamento do sucedido. 
+3.17 O resultado da solicitação de adesão deve ser comunicad o por meio do sistema , em até um dia útil 
+(1du) após a deliberação da Diretoria da CCEE. 
+3.17.1 No caso de indeferimento da solicitação de adesão, a Diretoria da CCEE  deve expressar os 
+motivos que fundamentam a decisão. 
+3.18 Todas as decisões da Diretoria da CCEE sobre as solicitações de adesão à CCEE devem ser publicadas no 
+site da Câmara em até dois dias úteis (2du) após a deliberação, incluindo as respectivas motivações.  
+3.19 Na hipótese d e a Diretoria da CCEE  indeferir a solicitação de adesão, o candidato a agente pode 
+apresentar pedido de impugnação perante a CCEE, nos termos do submódulo 1.4 - Atendimento. 
+3.20 O candidato a agente pode desistir do processo de adesão  a qualquer momento, por meio do sistema 
+específico, desde que sua adesão ainda não tenha sido deliberada pela Diretoria da CCEE.  
+3.21 O processo de adesão não concluído dentro de doze meses a contar do mês de seu início é cancelado 
+no sistema. Caso o candidato a agente mantenha interesse em aderir à Câmara, um novo processo de 
+adesão deve ser iniciado, nos termos das premissas deste submódulo.  
+3.21.1 O cancelamento é realizado pelo sistema em M -5du, de forma que os processos que não 
+tenham sido concluídos para o mês “M”, e que tenham o prazo previsto na premissa anterior 
+expirado, são automaticamente cancelados.  
+3.21.2 Excepcionalmente para o processo de adesão dos candidatos a agente pertencentes à classe 
+dos comercializadores, deve ser observada a seção específica deste submódulo.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+8 
+ 
+procedimentos de 
+comercialização 
+3.22 Uma vez deliberada a adesão do candidato a agente, não é admitida alegação de desconhecimento da 
+assunção de quaisquer responsabilidades por seus representantes, cuja legitimidade é presumida, sem 
+admissão de entendimento contrário, visto que os acessos (l ogin e senha) para uso dos sistemas da 
+CCEE são de caráter pessoal e intransferível do agente e/ou de seus representantes que manuseiam os 
+sistemas.  
+Obtenção da Autorização para Comercialização de Energia Elétrica  
+3.23 Esta seção se aplica, exclusivamente, aos candidatos a agente pertencentes à classe dos 
+comercializadores de energia elétrica. 
+3.24 Para início do processo de obtenção da autorização para comercialização de energia elétrica, o 
+candidato deve atender, inicialmente, as premissas da seção anterior deste submódulo. 
+3.25 Além dos documentos necessários ao processo de adesão, o candidato deve apresentar os documentos 
+específicos para obtenção da autorização para comercialização de energia elétrica, exigidos pelo 
+sistema específico, por este submódulo (item 4 - Lista de Documentos) e pela regulamentação vigente, 
+de acordo com os formatos de arquivos estabelecidos pelo próprio  sistema, bem como deve atender, 
+concomitantemente, aos requisitos previstos na regulamentação vigente, observando-se que: 
+3.25.1 Os valores mínimos do patrimônio líquido e do capital social integralizado , previsto s na 
+regulamentação vigente: i) são atualizados monetariamente com base no Índice Nacional de 
+Preços ao Consumidor Amplo - IPCA ou seu sucedâneo; ii) são publicados pela CCEE 
+anualmente a partir do dia 15 de janeiro; iii) têm como data-base maio/2022.     
+3.25.2 O valor do patrimônio líquido  do candidato é atestado pela CCEE e, para fins de sua 
+comprovação, o candidato deve apresentar à CCEE, por meio do sistema específico, o balanço 
+patrimonial auditado por empresa independente, credenciada na Comissão de Valores 
+Mobiliários - CVM e sem vínculo com a empresa auditada, nos termos da regulamentação 
+vigente, e assinado pelo profissional de contabilidade, com registro profissional regular no 
+Conselho Regional de Contabilidade - CRC, referente ao ano fiscal imediatamente anterior ao 
+corrente (A -1) podendo , adicionalmente, apresentar o balanço patrimonial (mensal ou 
+trimestral) auditado e assinado, nos termos supracitados, referente ao ano corrente (A).
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+9 
+ 
+procedimentos de 
+comercialização 
+3.25.2.1 O candidato cujo pedido de adesão tenha sido realizado à CCEE entre os meses 
+de janeiro e  março de cada ano (A) deve apresentar o balanço patrimonial  
+auditado e assinado, nos termos supracitados, referente ao penúltimo ano fiscal 
+imediatamente anterior ao corrente (A-2) podendo, adicionalmente, apresentar 
+o balanço patrimonial (mensal ou trimestral) auditado e assinado, nos termos 
+supracitados, referente ao ano fiscal imediatamente anterior ao corrente  (A-1) 
+ou, ainda, referente ao ano corrente (A), observando-se a premissa 3.31.1.  
+3.25.2.2 O candidato cuja constituição da sociedade tenha ocorrido em período inferior a 
+1 (um) ano, com início no ano anterior ao corrente,  deve apresentar o balanço 
+patrimonial (mensal ou trimestral) auditado e assinado, nos termos supracitados, 
+referente ao ano fiscal imediatamente anterior ao corrente  (A-1) podendo, 
+adicionalmente, apresentar o balanço patrimonial  (mensal ou trimestral) 
+auditado e assinado, nos termos supracitados, referente ao ano corrente (A). 
+3.25.2.3 O candidato cuja constituição da sociedade tenha ocorrido em período inferior a 
+1 (um) ano , com início no ano corrente  (A), deve apresentar o balanço 
+patrimonial (mensal ou trimestral) auditado e assinado, nos termos supracitados, 
+referente ao ano corrente (A). 
+3.26 No caso de matriz e filial(is) do candidato, os valores a que aludem as premissas 3.25.1 e 3.25.2 devem 
+ser comprovados e atestados conjuntamente, envolvendo matriz e filial(is).  
+3.27 A partir do recebimento de todos os documentos mencionados na premissa anterior, a CCEE terá o 
+prazo de cinco dias úteis (5du) para analisá -los e, eventualmente, solicitar esclarecimentos ou 
+documentação adicional pelo sistema.  
+3.28 Não havendo pendências na documentação e solicitação de informações adicionais, em até dez dias 
+corridos (10dc) da data do último documento/esclarecimento recebido, a CCEE deve disponibilizar, ao 
+candidato e à ANEEL , por meio do sistema, a Certidão de Regularidade, com validade de trinta dias 
+corridos (30dc) contados a partir da data de sua expedição , com efeitos de atestar a conformidade da 
+documentação encaminhada pelo candidato , bem como o Parecer Técnico e Jurídico, nos termos da 
+regulamentação vigente, conforme modelo disponível no site da CCEE. 
+3.28.1 Caso o candidato tenha relação societária direta ou indireta com outra empresa que esteja 
+inadimplente no âmbito da CCEE, a Certidão de Regularidade e o P arecer Técnico e Jurídico 
+somente serão emitidos mediante a quitação ou o caucionamento dos débitos do agente ou 
+ex-agente relacionado ao candidato.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+10 
+ 
+procedimentos de 
+comercialização 
+3.29 É obrigação do candidato atualizar o s documentos encaminhados à CCEE, por meio do sistema 
+específico, caso o prazo de validade expire entre a data de emissão da Certidão de Regularidade e do 
+Parecer Técnico e Jurídico e a data de publicação do ato autorizativo pela ANEEL.  
+3.30 O processo de adesão do candidato será cancelado caso não seja enviada toda a documentação  e 
+informações exigidas para a elaboração da Certidão de Regularidade e do Parecer Técnico e Jurídico, 
+sem pendências, dentro de doze meses, a contar do mês de seu início.  
+3.31 Após a emissão da autorização para comercialização de energia elétrica, o candidato deve dar 
+continuidade ao seu processo de adesão perante a CCEE, o qual deve ser concluído em até noventa dias 
+corridos (90dc), contados da data de publicação do ato autorizativo; caso contrário, sua autorização 
+está sujeita à revogação pela ANEEL. Para tanto, deve indicar o ato regulatório no sistema, bem como 
+apresentar eventual documentação adicional ou que precise ser renovada, em atendimento às 
+premissas da seção “Adesão à CCEE” deste submódulo. 
+3.31.1 Para fins de classificação do candidato de que trata a premissa 3.25.2.1, o candidato deve  
+enviar o balanço patrimonial auditado e assinado, nos termos supracitados, referente: 
+3.31.1.1 Ao ano fiscal imediatamente anterior ao ano corrente (A-1), caso o processo de 
+adesão à CCEE seja concluído até o final do ano em que foi realizado o pedido de 
+adesão (A) podendo, adicionalmente, apresentar o balanço patrimonial (mensal 
+ou trimestral) auditado e assinado, nos termos supracitados, referente ao ano 
+corrente (A). 
+3.31.1.2 Ao penúltimo ano fiscal  imediatamente anterior ao ano corrente  (A-2), caso o 
+processo de adesão à CCEE seja concluído entre os meses de janeiro e março do 
+ano subsequente ao da realização do pedido de adesão  podendo, 
+adicionalmente, apresentar o balanço patrimonial (mensal ou trimestral) 
+auditado e assinado, nos termos supracitados, referente ao ano fiscal 
+imediatamente anterior ao corrente (A -1) ou, ainda, referente ao ano corrente 
+(A).    
+3.32 O agente autorizado a atuar como comercializador que tiver patrimônio líquido atestado pela CCEE de, 
+no mínimo, R$ 10.000.000,00 (dez milhões de reais) , atualizado conforme a premissa 3.25.1, é 
+classificado como Tipo 1 e, abaixo desse valor, é classificado como Tipo 2, estando sujeito às limitações 
+previstas na regulamentação vigente. 
+3.32.1 A CCEE deve divulgar, em seu site, a relação dos agentes comercializadores classificados como 
+Tipo 1 e classificados como Tipo 2.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+11 
+ 
+procedimentos de 
+comercialização 
+3.33 Uma vez aderido à CCEE, aplica-se ao agente autorizado a atuar como comercializador os requisitos e 
+os procedimentos atinentes à manutenção da autorização para comercia lização de energia elétrica, 
+conforme estabelecido na regulamentação vigente e no submódulo 1.2 - Cadastro de agentes. 
+Início das operações na CCEE 
+3.34 A atuação no âmbito da CCEE está condicionada à operacionalização do agente, que leva em 
+consideração a categoria/classe à qual pertença.  
+3.34.1 Consumidores livres, consumidores especiais, distribuidores e geradores não comprometidos 
+com contratos regulados têm início de operacionalização a partir do mês da adesão ou nos 
+subsequentes, cumpridos os requisitos deste submódulo e do submódulo 1.2 - Cadastro de 
+agentes, ressalvados os casos previstos na premissa 3.11.3.  
+3.34.2 No caso dos geradores comprometidos com contratos regulados, a operacionalização deve 
+ocorrer: i) na data informada no sistema , respeitada a data de suprimento dos respectivos 
+contratos; ou ii) de forma antecipada, caso o agente assim desejar, mediante solicitação 
+expressa à CCEE indicando a data pretendida, devendo cumprir os requisitos do submódulo 
+1.2 - Cadastro de agentes. 
+3.34.3 Comercializadores têm início de operacionalização a partir do mês da adesão ou nos 
+subsequentes, desde que cumpridos os requisitos deste submódulo e classificados em Tipo 1 
+ou Tipo 2, conforme regulamentação vigente. 
+3.35 Além dos requisitos estabelecidos na premissa anterior , o agente, excetuando-se o concessionário ou 
+permissionário de distribuição, deve constituir limite operacional , nos termos da regulamentação 
+vigente (a exigibilidade do disposto nesta premissa está suspensa enquanto permanecer em vigor o 
+artigo específico que trata sobre o assunto na Convenção de Comercialização, com exceção dos agentes 
+proponentes ou habilitados à comercialização varejista).  
+3.35.1 Os agentes geradores comprometidos exclusivamente com contratos regulados devem 
+comprovar à CCEE, nos termos da norma específica, até um mês antes da operacionalização 
+pretendida, a contratação de limite operacional, o qual deve estar vigente no momento de 
+sua efetiva operacionalização  (a exigibilidade do disposto nesta premissa está suspensa 
+enquanto permanecer em vigor o artigo específico que trata sobre o assunto na Convenção 
+de Comercialização, com exceção dos agentes proponentes ou habilitados à comerc ialização 
+varejista).
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+12 
+ 
+procedimentos de 
+comercialização 
+3.35.2 Os agentes pertencentes à classe dos comercializadores, para iniciar suas operações na CCEE, 
+inclusive aqueles que já possuam outorga emitida pela ANEEL em data anterior à 16 de 
+setembro de 2015 (data de publicação da Resolução Normativa n° 678/2015 ), devem  
+apresentar à CCEE garantias financeiras equivalentes a, no mínimo, dez vezes o valor atribuído 
+ao limite operacional para agentes de comercialização vigente, cujo valor atualizado está 
+disponível no site da CCEE, devendo estar válidos durante os seis pri meiros ciclos de 
+contabilização, contados a partir de seu início de operação (a entrada em vigor desta premissa 
+está condicionada à eficácia do Despacho n° 696/2017).  
+3.36 Os ativos dos agentes devem ser cadastrados nos termos do disposto no submódulo 1.2 - Cadastro de 
+agentes. 
+3.37 Os agentes devem iniciar o pagamento  da contribuição associativa a partir da operacionalização, nos 
+termos da Convenção de Comercialização de Energia Elétrica, do Estatuto Social da CCEE e do 
+submódulo 1.3 - Votos e Contribuições.  
+Matriz e Filial 
+3.38 O candidato a agente caracterizado como filial pode aderir à CCEE sem a prévia adesão da respectiva 
+matriz.  
+3.39 A matriz de um candidato a agente, independentemente de sua adesão ou não à CCEE, é integralmente 
+responsável pelas obrigações assumidas pela filial na CCEE, incluindo os créditos e débitos em nome da 
+filial.  
+3.40 Na hipótese de matriz e filiais e/ou apenas filiais aderirem à CCEE na qualidade de agentes distintos, 
+estas podem utilizar conta corrente específica única existente quando do início do processo de adesão, 
+conforme dispõe o submódulo 5.2 - Liquidação no mercado de curto prazo.  
+3.40.1 Neste caso, para o fim exclusivo de liquidação financeira, o candidato a agente deve solicitar 
+a inclusão em conta corrente de Grupo de Liquidação, cabendo à líder do respectivo grupo, 
+que pode ser matriz ou filial, desde que seja agente da CCEE, validar a solicitação. 
+3.41 A matriz pode ser agente da CCEE para representar ativos próprios e/ou de suas filiais. 
+3.41.1 A filial pode representar seu próprio ativo, bem como ativos da respectiva matriz ou de outras 
+filiais.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+13 
+ 
+procedimentos de 
+comercialização 
+Dos Agentes Desligados e/ou seus Substitutos 
+3.42 O candidato a agente anteriormente desligado da CCEE deve iniciar novo processo de adesão, conforme 
+estabelecido neste submódulo. Para tanto, deve adimplir eventuais débitos remanescentes junto à 
+CCEE.  
+3.43 O(s) candidato(s) a agente que vier(em) a suceder outro(s) agente(s) em processo de desligamento da 
+CCEE deve(m) atender a todas as premissas deste procedimento para sua adesão e demais normas 
+aplicáveis, bem como responder pelas obrigações contratuais e/ou financeiras do sucedido. 
+3.44 A aprovação da adesão de candidato a agente que apresente qualquer relação com empresa desligada 
+da CCEE por descumprimento de obrigação, bem como com seus sócios diretos ou indiretos, está 
+condicionada ao adimplemento de tal obrigação da empresa anteriormente desligada.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+14 
+ 
+procedimentos de 
+comercialização 
+4. LISTA DE DOCUMENTOS 
+DOCUMENTOS     Comercialização  Dist.  Geração  
+Descrição  DD  DE  CL  CE  COM  D  APE PIE  G  
+Documentos para adesão à CCEE                   
+Termo de Adesão.   ✔ ✔ ✔ ✔ ✔ ✔ ✔ ✔ 
+Termo de Adesão à Convenção Arbitral.   ✔ ✔ ✔ ✔ ✔ ✔ ✔ ✔ 
+Certidão Negativa de Falência e Recuperação Judicial e Extrajudicial 
+expedida pelo Poder Judiciário da sede do candidato a agente. 
+A certidão referida nesse item deve ser adequada às disposições da Lei n° 
+11.101, de 09.02.2005, ou eventual legislação superveniente, que 
+regulamenta a recuperação judicial, a extrajudicial e a falência do 
+empresário e da sociedade empresária, conforme a situação de cada 
+empresa. Caso a empresa não esteja sujeita ao referido dispositivo legal, 
+deve ser apresentada a declaração de inexistência de liquidação extrajudicial 
+(Modelo disponível no site da CCEE). 
+✔   ✔ ✔ ✔ ✔ ✔ ✔ ✔ 
+Declaração ou comprovante de adimplemento com o ONS ou permissionária 
+de distribuição de energia elétrica (não agente da CCEE), devendo atender 
+aos seguintes requisitos mínimos: 
+i) informações sobre o ONS ou permissionária de distribuição de energia 
+elétrica (não agente da CCEE), conforme o caso: nome empresarial, CNPJ, 
+endereço completo; 
+ii) informações sobre o candidato a agente: nome empresarial, CNPJ, 
+endereço completo e números das instalações a serem migradas; 
+iii) declaração sobre a existência ou não de débitos pendentes de 
+pagamento. Em caso positivo, é necessário indicar os débitos pendentes e os 
+respectivos processos administrativos e/ou judiciais, se houver; 
+iv) o documento deve estar datado e assinado, com a identificação do nome 
+e cargo do signatário, bem como possuir fator de verificação de 
+autenticidade (carimbo, chancela ou protocolo). 
+(Modelo disponível no site da CCEE) 
+✔   ✔ ✔           
+Ato regulatório de concessão, permissão, autorização e/ou registro. 
+Observação: Os geradores vendedores de energia convencional especial ou 
+energia incentivada especial devem comprovar as seguintes informações:  
+i) atuação como vendedor de energia convencional especial e/ou 
+incentivada especial, e  
+ii) concessão de desconto, na forma do §1º do art. 26 da Lei nº 9.427, de 26 
+de dezembro de 1996 ou enventual legislação superveniente. 
+✔       ✔ ✔ ✔ ✔ ✔
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+15 
+ 
+procedimentos de 
+comercialização 
+DOCUMENTOS     Comercialização  Dist.  Geração  
+Descrição  DD  DE  CL  CE  COM  D  APE PIE  G  
+Documentos específicos para obtenção da autorização para comercialização de energia elétrica  
+Ato constitutivo, estatuto ou contrato social atualizado e alterações 
+supervenientes ou o documento societário consolidado, devidamente 
+registrado no órgão competente, incluindo a ata de eleição dos 
+administradores/representantes legais, quando aplicável. 
+✔       ✔         
+Acordo de acionistas ou cotistas e demais negócios jurídicos que 
+proporcionam impacto no controle societário. 
+(Caso aplicável) 
+✔       ✔         
+Composição do Grupo Econômico do requerente, contemplando: 
+a) Diagrama do Grupo Econômico, com a demonstração dos sócios diretos e 
+indiretos do requerente, com a indicação de suas respectivas participações 
+societárias, demonstrando até seu último nível as pessoas jurídicas (PJ) e 
+pessoas físicas (PF), com participação societária igual ou superior a 5% em 
+relação ao requerente,  exceto se for integrante do seu Grupo de Controle. 
+b) Quadro do Grupo Econômico, com a discriminação e/ou declaração dos 
+seguintes requisitos, nos termos da regulamentação vigente: i) informações 
+completas dos sócios diretos e indiretos (Nome, Cidade/UF, e CNPJ ou CPF), 
+com participação societária igual ou superior a 5% em relação ao 
+requerente,  exceto se for integrante do seu Grupo de Controle, em 
+conformidade com a demonstração apresentada no “Diagrama do Grupo 
+Econômico”; ii) declaração e identificação das sociedades controladas, 
+controladoras, coligadas e a simples participações em outras empresas que 
+não estejam contempladas no “Diagrama do Grupo  Econômico”, bem como 
+a identificação de seus controladores direto, intermediário e indireto; iii) 
+declaração e identificação de pessoas naturais e jurídicas que compõem o 
+Grupo Econômico do candidato que possam exercer influência direta ou 
+indireta nos negócios e não tenham sido previamente mencionadas no 
+“Diagrama do Grupo Econômico” e/ou na "Declaração de Estrutura Técnico-
+Operacional, Comercial, Financeira, Estrutura Hierárquica e Organizacional”. 
+(Modelo disponível no site da CCEE) 
+✔       ✔         
+Balanço Patrimonial e demonstrações contábeis completas e 
+individualizadas, desde a criação da pessoa jurídica, limitados aos três 
+últimos exercícios financeiros exigíveis: 
+i) auditados por empresa reconhecida e independente, credenciada na CVM, 
+sem vínculo com a empresa auditada; e  
+ii) assinados pelo profissional de contabilidade com registro profissional 
+regular no CRC. 
+ 
+Observações: 
+a) Pessoas jurídicas constituídas há menos de 1 (um) ano devem apresentar 
+tais documentos desde a sua criação, de forma mensal ou trimestral, 
+cumprindo os critérios estabelecidos nos itens “i” e “ii”.  
+b) Caso o Balanço Patrimonial não alcance o valor mínimo de Capital Social, 
+exigido pela regulamentação vigente, pode ser apresentado, 
+complementarmente, a alteração contratual registrada na Junta Comercial 
+competente, comprovando o devido aporte do Capital Social. 
+✔ 
+      
+✔ 
+        
+Certidão Negativa, ou Positiva com Efeitos de Negativa, de Débitos inscritos 
+e não inscritos na Dívida Ativa, relativos a:  
+i) Tributos Federais e Contribuições Previdenciárias (INSS); e 
+ii) Tributos Estaduais/Distritais. 
+✔ 
+      
+✔ 
+        
+Certidão Negativa de Falência e Recuperação Judicial e Extrajudicial da 
+pessoa jurídica requerente, de seu Grupo de Controle e da(s) pessoa(s) 
+jurídica(s) do(s) sócio(s) direto(s) e/ou indireto(s), que detenham direta ou 
+indiretamente 5% ou mais de participação societária em relação ao 
+requerente, em conformidade com a demonstração apresentada no 
+“Diagrama do Grupo Econômico”. Caso o(s) sócio(s) direto(s) e/ou 
+indireto(s) seja(m) pessoa(s) física(s), deve(m) ser apresentada(s) 
+Certidão(ões) Negativa(s) de Insolvência Civil. 
+✔ 
+      
+✔
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+16 
+ 
+procedimentos de 
+comercialização 
+DOCUMENTOS     Comercialização  Dist.  Geração  
+Descrição  DD  DE  CL  CE  COM  D  APE PIE  G  
+Documentos específicos para obtenção da autorização para comercialização de energia elétrica  
+Certificado de Regularidade do FGTS-CRF. ✔       ✔         
+Declaração de Estrutura Técnico-Operacional, Comercial, Financeira, 
+Estrutura Hierárquica e Organizacional, para comprovação de aptidão para 
+desempenho de atividade de comercialização do requerente por meio de 
+seus sócios e/ou da equipe técnica, e ainda, por parte dos integrantes do 
+Grupo de Controle, bem como o organograma corporativo da estrutura 
+hierárquica e organizacional do requerente, de forma a identificar os 
+responsáveis por cada diretoria e gerência/área de atuação (Modelo 
+disponível no site da CCEE), acompanhado dos respectivos currículos dos 
+sócios, equipe técnica e/ou integrantes do Grupo de Controle informados na 
+declaração para comprovação do requisito.  
+✔ 
+      
+✔ 
+        
+Certidão de antecedentes criminais dos sócios diretos pessoas físicas do 
+requerente, expedidas no âmbito federal e do Estado em que esteja 
+localizada a sede ou a filial da pessoa jurídica requerente, e em caso de 
+inviabilidade a certidão emitida pela polícia civil poderá ser emitida no 
+Estado do domicílio do sócio direto pessoa física. 
+✔ 
+      
+✔ 
+        
+ 
+Legenda: 
+Dist.: Distribuição 
+DD: Documento Digitalizado 
+DE: Documento Eletrônico 
+CL: Consumidor Livre 
+CE: Consumidor Especial 
+COM: Comercializador 
+D: Distribuidor 
+APE: Autoprodutor de Energia 
+PIE: Produtor Independente 
+G: Demais Geradores
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+17 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Adesão à CCEE
+Candidato a 
+Agente CCEE Diretoria da CCEE
+Início
+N.A.
+Preencher 
+informações para 
+cadastros e 
+apresentar 
+documentos
+N.A.
+Gerar e pagar o 
+boleto do 
+emolumento de 
+adesão à CCEE
+N.A.
+Criar login e 
+senha para 
+acesso à área 
+logada do sistema
+Até 5du
+Analisar 
+documentação 
+de adesão
+Necessita 
+documentação 
+adicional?
+N.A.
+Apresentar 
+documentação 
+adicional
+Sim
+Até 1du
+Comunicar 
+resultado da 
+deliberação
+Até M-8du
+Deliberar sobre 
+a solicitação de 
+adesão
+Até 2du
+Publicar 
+resultado da 
+deliberação
+Não
+Fim
+ 
+Legenda: 
+M: mês de operação de compra e venda de energia   
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+18 
+ 
+procedimentos de 
+comercialização 
+ 
+Obtenção da Autorização para Comercialização de Energia 
+Elétrica
+Candidato a 
+Agente CCEE ANEEL
+Sim
+Não
+Até 10dc do último 
+recebimento
+Emitir Certidão de 
+Regularidade e 
+Parecer Técnico e 
+Jurídico
+Até 5du
+Analisar 
+documentação
+Necessita 
+esclarecimentos 
+ou documentação 
+adicional?
+N.A.
+Apresentar os 
+documentos de adesão 
+e os documentos 
+específicos para 
+obtenção da 
+autorização para 
+comercialização de 
+energia
+N.A.
+Apresentar 
+esclarecimentos 
+ou documentação 
+adicional
+Início
+Até 30dc do 
+recebimento do 
+Parecer
+Decidir sobre a 
+emissão da 
+autorização para 
+comercialização
+Fim
+Até 90dc da 
+publicação do ato 
+autorizativo
+Concluir o 
+processo de 
+adesão na CCEE
+Autorização 
+foi emitida?Sim
+Não  
+ 
+Legenda: 
+N.A.: Não aplicável 
+dc: dias corridos 
+du: dias úteis
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+19 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Adesão à CCEE 
+Atividade Responsável Detalhamento Prazo 
+Criar login e senha para  
+acesso à área logada do  
+sistema 
+Candidato a 
+agente Criar login e senha para acesso à área logada do sistema. N.A. 
+Gerar e pagar o boleto do 
+emolumento de adesão à 
+CCEE 
+Candidato a 
+agente 
+Informar os dados requeridos pelo sistema para 
+geração do boleto do emolumento de adesão à CCEE e 
+realizar o devido recolhimento. 
+N.A. 
+Preencher informações 
+para cadastros e 
+apresentar documentos 
+Candidato a 
+agente 
+Realizar o preenchimento de informações para 
+cadastros e apresentar os documentos exigidos. N.A. 
+Analisar documentação de 
+adesão CCEE 
+Disponibilizar no sistema a conclusão da análise do 
+cadastro e documentação apresentada pelo candidato 
+a agente. 
+Até 5du 
+Apresentar documentação 
+adicional 
+Candidato a 
+agente 
+Complementar, eventualmente, o cadastro e/ou 
+documentação de adesão, por meio do sistema. N.A. 
+Analisar documentação de 
+adesão CCEE 
+Disponibilizar no sistema a conclusão da análise da 
+informação e/ou documentação adicional apresentada 
+pelo candidato a agente. 
+Até 5du 
+Deliberar sobre a 
+solicitação de adesão 
+Diretoria da 
+CCEE - Até M-8du 
+Comunicar resultado da 
+deliberação  CCEE Comunicar ao candidato sobre o resultado da 
+deliberação da Diretoria da CCEE. 
+Até 1du após a 
+deliberação da 
+Diretoria da CCEE 
+Publicar resultado da 
+deliberação  CCEE Publicar no site da CCEE o resultado da deliberação da 
+Diretoria da CCEE. 
+Até 2du após a 
+deliberação da 
+Diretoria da CCEE 
+Legenda: 
+M: mês de operação de compra e venda de energia 
+N.A. Não aplicável 
+du: dias úteis
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+20 
+ 
+procedimentos de 
+comercialização 
+Obtenção da Autorização para Comercialização 
+Atividade Responsável Detalhamento Prazo 
+Apresentar os documentos de 
+adesão e os documentos 
+específicos para obtenção da 
+autorização para 
+comercialização de energia 
+Candidato a 
+agente Enviar à CCEE a documentação aplicável. N.A. 
+Analisar documentação CCEE 
+Disponibilizar no sistema a conclusão da análise do 
+cadastro e documentação apresentada pelo 
+candidato a agente. 
+Até 5du 
+Apresentar esclarecimentos ou 
+documentação adicional 
+Candidato a 
+agente 
+Complementar, eventualmente, o cadastro e/ou 
+documentação de obtenção de autorização para 
+comercialização, por meio do sistema. 
+N.A. 
+Analisar documentação CCEE 
+Disponibilizar no sistema a conclusão da análise do 
+esclarecimento e/ou documentação adicional 
+apresentada pelo candidato a agente. 
+Até 5du 
+Emitir Certidão de 
+Regularidade e Parecer Técnico 
+e Jurídico 
+CCEE Disponibilizar a Certidão de Regularidade e o 
+Parecer Técnico e Jurídico no sistema. 
+Até 10dc do último 
+recebimento 
+Decidir sobre a emissão da 
+autorização para 
+comercialização 
+ANEEL 
+Decidir sobre a emissão ou não da autorização para 
+comercialização, com base nos documentos 
+disponibilizados pelo candidato a agente e pela 
+CCEE. 
+Até 30dc do 
+recebimento do 
+Parecer Técnico e 
+Jurídico 
+Concluir o processo de adesão 
+na CCEE 
+Candidato a 
+agente 
+O processo de adesão à CCEE deve ser concluído 
+pelo candidato a agente. 
+Até 90dc da 
+publicação do ato 
+autorizativo 
+ 
+Legenda: 
+N.A.: Não aplicável 
+dc: dias corridos 
+du: dias úteis
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+21 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+7.1. Termo de Adesão 
+TERMO DE ADESÃO 
+Pelo presente instrumento particular de adesão, <Nome empresarial do candidato a agente> , empresa devidamente inscrita no CNPJ/MF sob nº <CNPJ>, com 
+endereço em: <Logradouro cadastrado na Receita Federal> , na cidade de <Cidade cadastrada na Receita Federal> , Estado de <Estado cadastrado na Receita 
+Federal>, CEP: <CEP cadastrado na Receita Federal> , na qualidade de  candidato a agente , conforme respectiva(s) categoria(s) e classe(s) indicada(s) em sua 
+solicitação de adesão e documentação apresentada, neste ato devidamente representado na forma da lei, em consonância com o disposto na Lei nº 10.848, de 
+15 de março de 2004, no Decreto nº 5.163, de 30 de julho de 2004 e no Decreto nº 5.177, de 12 de agosto de 2004, requer sua adesão à CCEE, e declara: 
+(i) Que, conforme definido no Módulo 1 - Agentes, submódulo 1.1 - Adesão à CCEE, dos Procedimentos de Comercialização, está ciente que, para início de 
+operacionalização na CCEE, deverá solucionar todas as eventuais pendências de instalação e/ou adequação do Sistema de Medição para Faturamento - SMF, de 
+cadastros de pontos de medição, de cadastros de ativos e de documentação de adesão; 
+(ii) Que tem pleno conhecimento e compromete -se a cumprir a legislação e normas regulatórias aplicáveis ao setor elétrico brasileiro, em especial a Lei 
+10.848/2004, Decreto 5.163/2004, Decreto 5.177/2004, a Convenção de Comercialização de Energia Elétrica e o Estatuto Social da Câmara de Comercialização 
+de Energia Elétrica - CCEE, os Procedimentos e as Regras de Comercialização, disponíveis no site da CCEE (www.ccee.org.br), bem como a Lei n° 12.846/2013; 
+(iii) Que os documentos anexados no s sistemas correspondem às cópias fié is dos originais, respondendo, o declarante, de forma integral, pela autenticidade, 
+legalidade e veracidade dos documentos nas esferas administrativa, cível e criminal; 
+(iv) Que sua adesão implicará na concordância do ingresso desta empresa como associada da Câmara de Comercializaçã o de Energia Elétrica - CCEE, 
+comprometendo-se a honrar todas as obrigações, contribuições, emolumentos e/ou pagamentos decorrentes de tal, nos termos da Convenção de 
+Comercialização de Energia Elétrica, e em consonância com o Estatuto Social da CCEE; 
+(v) Que se compromete a adotar todas as medidas necessárias em razão da realização de quaisquer operações de reestruturação societária, ou quaisquer outras 
+que venham a ocasionar sucessão e/ou eventual cessão de direitos e obrigações a outro agente da CCEE ou a qualquer terceiro, bem como apresentar todos os 
+documentos necessários à comprovação de tais atos, informando, ainda, qual a distribuição dos direitos e obrigações e consequ ente assunção de 
+responsabilidades, perante a CCEE, das empresas envolvidas nas operações anteriormente mencionadas; 
+vi) Que, em relação aos sistemas da CCEE, está ciente de que são suas obrigações: 
+• Observar e cumpri r as obrigações de ordem técnica e demais condições previstas em Procedimentos de Comercialização específicos, ou no(s) 
+documento(s) que vier(em) a substituí -los e/ou alterá-los, bem como em quaisquer outras normas e/ou documentos aprovados pelo Operador 
+Nacional do Sistema - ONS, pela Agência Nacional de Energia Elétrica - ANEEL e/ou divulgadas pela CCEE, que tratem da matéria; 
+• Instalar, operar e manter em perfeitas condições de uso os equipamentos e aplicativos de sua responsabilidade necessários ao p erfeito 
+acesso/funcionamento dos sistemas da CCEE; 
+• Acessar os sistemas da CCEE, através dos meios disponibilizados pela Câmara, sem interferir nos requisitos de segurança da CCEE;  
+• Responsabilizar-se pelos custos de conexão e de instalação dos aplicativos necessários para o acesso e utilização dos sistemas, inclusive cus tos de 
+energia elétrica e telecomunicações; 
+• Não sublicenciar, ceder, distribuir, comercializar sob qualquer forma, facilitar o acesso de terceiros para utilização dos sistemas e/ou qualquer outro 
+programa integrado a eles; 
+• Responsabilizar-se por todas as atividades que forem realizadas mediante a utilização dos tokens e dos códigos de acesso a eles associados; 
+• Responsabilizar-se pela operação, veracidade, correção e exatidão de toda e qualquer informação e/ou dados coletados pelos sistemas, bem como 
+pela continuidade de fornecimento de informações e/ou de dados; 
+• Abster-se de modificar, copiar, decompilar, produzir engenharia reversa, distribuir, transmitir, reproduzir, publicar, licenciar, total ou parcialmente, 
+os códigos -fonte dos programas computacionais contidos nos sistemas e/ou qualquer programa a eles relaci onado, responsabilizando-se por 
+qualquer violação resultante de tais atos; 
+• Não emprestar/compartilhar credenciais de acessos aos sistemas da CCEE; 
+• Responsabilizar-se pela manutenção e pelas correções necessárias em seus equipamentos a fim de garantir a correção, a veracidade e a exatidão das 
+informações coletadas pelo sistema; 
+• Providenciar a exclusão e/ou substituição de acessos, sempre que houver o desligamento ou substituição de usuário autorizado; 
+• Atender integralmente as condições operacionais constantes de normas e regulamentos vigentes para a implantação, operação e ma nutenção dos 
+sistemas, bem como toda e qualquer alteração futura que se faça necessária a fim de viabilizar o perfeito funcionamento destes; 
+• Responsabilizar-se pela válida e correta apresentação de documentos e dados à CCEE, incluindo a designação de pessoas que, sob sua única e exclusiva 
+responsabilidade, poderão contrair direitos e obrigações perante a CCEE e terceiros. 
+(vii) Que o(s) seu(s) representante(s) legal(is), contato(s) em geral e representante(s) CCEE são aqueles devidamente indicados em sistema específico, sob sua 
+única e exclusiva responsabilidade. 
+ 
+<Local>, <Data> de <Mês> de <Ano> 
+ 
+_______________________________________ 
+<Assinatura do representante legal do candidato a agente> 
+ 
+O(s) representante(s) legal(is) da empresa candidata a agente deve(m) ser indicado(s) nos sistemas da CCEE sob sua inteira res ponsabilidade, sem limitação de 
+quantidade. 
+ 
+Este documento é gerado automaticamente pelo sistema da CCEE, devendo ser assinado conforme as opções de assinaturas prevista s neste submódulo, nos 
+termos da legislação vigente.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+22 
+ 
+procedimentos de 
+comercialização 
+7.2. Termo de adesão à convenção arbitral 
+TERMO DE ADESÃO À CONVENÇÃO ARBITRAL 
+Pelo presente instrumento, <Nome empresarial do candidato a agente>, empresa devidamente inscrita no CNPJ/MF sob 
+n° <CNPJ>, com endereço em: <Logradouro cadastrado na Receita Federal>, na cidade de <Cidade cadastrada na Receita 
+Federal>, Estado de <Estado cadastrado na Receita Federal> , CEP: <CEP cadastrado na Receita Federal> , neste ato 
+devidamente representada na forma da lei, em consonância com o disposto na Lei nº 10.848, de 15 de março de 2004, 
+na Convenção de Comercialização de Energia Elétrica, instituída pela Agência Nacional de Energia Elétrica - ANEEL por 
+meio da Resolução Normativa ANEEL nº 957, de 7 de dezembro de 20 21 e/ou eventual legislação/regulamentação 
+superveniente, bem como no Estatuto Social da Câmara de Comercialização de Energia Elétrica - CCEE, adere 
+integralmente à Convenção Arbitral  vigente, aprovada pela Assembleia Geral da CCEE e homologada pela ANEEL , e 
+qualquer outra que vier a substitui-la. 
+ 
+Declara, ainda, que tem conhecimento e concorda com todas as cláusulas e condições previstas na referida Convenção 
+Arbitral. 
+ 
+ 
+<Local>, <Data> de <Mês> de <Ano>. 
+ 
+ 
+ 
+ 
+__________________________________________________ 
+<Assinatura do representante legal do candidato a agente> 
+ 
+ 
+ 
+ 
+<Nome empresarial do candidato a agente> 
+ 
+ 
+ 
+ 
+O(s) representante(s) legal(is) da empresa candidata a agente deve(m) ser indicado(s) nos sistemas da CCEE sob sua inteira res ponsabilidade, sem 
+limitação de quantidade.  
+ 
+Este documento é gerado automaticamente pelo sistema da CCEE, devendo ser assinado conforme as opções de assinaturas previstas neste submódulo, 
+nos termos da legislação vigente.
+
+Submódulo 1.1 – Adesão à CCEE 
+Revisão 10.0 
+23 
+ 
+procedimentos de 
+comercialização 
+7.3. Critérios mínimos para a Diretoria da CCEE avaliar a solicitação de adesão de gerador sem 
+cadastro de ponto de medição e de ativo 
+CRITÉRIOS MÍNIMOS PARA A DIRETORIA DA CCEE AVALIAR A SOLICITAÇÃO DE ADESÃO DE GERADOR SEM CADASTRO 
+DE PONTO DE MEDIÇÃO E DE ATIVO 
+De acordo com premissa específica deste submódulo, é possível que o candidato a agente pertencente à categoria de geração que  
+tenha comercializado no Ambiente de Contratação Livre - ACL a garantia física outorgada do respectivo empreendimento de geração, 
+no todo ou em parte, solicite sua adesão à CCEE com a dispensa do atendimento às seções “Cadastro de pontos de medição” e 
+“Cadastro de ativos”, ambas do submódulo 1.2 - Cadastro de agentes, mediante apresentação de justificativa e documentos 
+comprobatórios. 
+Para que a Diretoria da CCEE avalie o pedido do candidato, é necessário o cumprimento dos critérios mínimos, abaixo relacionados:  
+1. O candidato a agente pertencente à categoria de geração deve ter comercializado no ACL a garantia física outorgada do 
+respectivo empreendimento de geração, no todo ou em parte. 
+2. As obras para construção do empreendimento de geração devem estar em andamento, de acordo com o Relatório de 
+Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica - RALIE (classificadas com viabilidade “Alta”) ou outro 
+documento emitido pela Agência Nacional de Energia Elétrica - ANEEL, e com início da operação comercial da primeira unidade 
+geradora em atraso em relação à data estabelecida no ato de outorga. 
+3. O candidato a agente deve demonstrar ter celebrado os contratos de conexão e de uso dos sistemas de distribuição e/ou de 
+transmissão. 
+4. As cópias autenticadas digitalizadas dos contratos de venda, limitados à quantidade de garantia física outorgada do 
+empreendimento de geração não comprometida no Ambiente de Contratação Regulada - ACR, devem ser encaminhadas à CCEE. 
+5. Os contratos de compra no ACL devem ter sido firmados para suprir os respectivos contratos de venda, nos mesmos 
+submercados e com a mesma sazonalização, a mesma modulação e o mesmo tipo de energia (especial ou não especial), e estar 
+limitados ao montante previsto no item 4, estando o candidato a agente sujeito às Regras de Comercialização. 
+6. Os contratos de compra de energia devem atender aos seguintes requisitos: 
+a) As cópias autenticadas digitalizadas devem ser encaminhadas à CCEE. 
+b) A contraparte do contrato deve encaminhar à CCEE sua anuência. 
+c) Tenham início de suprimento a partir da contabilização do mês de referência em que a usina entraria em operação 
+comercial, conforme data estabelecida no ato de outorga. 
+7. A depender do caso concreto, a Diretoria da CCEE pode solicitar documentação adicional ao candidato a agente. 
+8. Uma vez que a adesão seja deliberada pela Diretoria da CCEE: 
+a) O agente estará em regime especial de monitoramento pela CCEE até que ocorra a entrada da primeira unidade geradora 
+em operação comercial. 
+b) A CCEE realizará a validação dos registros dos contratos de compra e os registros dos contratos de venda do agente, 
+conforme regulamentação específica, observada a vedação ao registro de contratos (e consequente validação) para meses 
+anteriores ao de eventual aprovação de adesão à CCEE. 
+c) Eventuais solicitações de ajustes de contratos e/ou validação deverão ser solicitadas observando os prazos estabelecidos 
+no submódulo 3.1 - Contratos do Ambiente Livre, por contingência, nos termos do submódulo 1.4 - Atendimento, de forma 
+que a CCEE garanta o atendimento aos critérios dispostos neste Anexo.

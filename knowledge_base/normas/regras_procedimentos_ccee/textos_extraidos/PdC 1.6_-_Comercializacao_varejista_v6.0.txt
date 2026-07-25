@@ -1,0 +1,1157 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 1.6_-_Comercializacao_varejista_v6.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 1.6_-_Comercializacao_varejista_v6.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 1 – Agentes 
+Submódulo 1.6 – Comercialização Varejista 
+procedimentos de 
+comercialização
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+ 
+ 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada  
+(AP n° 05/2015 e CP n° 16/2014) Resolução Normativa n° 654/2015 01.04.2015 
+1.1 
+Adequações: (i) da nomenclatura dos agentes 
+habilitados à comercialização varejista e (ii) da 
+designação específica no objeto social  
+Nota Técnica SRM/ANEEL n° 
+275/2015 e Despacho n° 1.877/2016  19.07.2016 
+2.0 Adequação ao Sistema de Agentes Despacho n° 2.542/2019 30.09.2019 
+2.1 Adequação à Nota Técnica SRM/ANEEL n° 34/2020 Despacho n° 741/2020 17.03.2020 
+3.0 Adequação à REN n° 951/2021 e aprimoramentos Despacho n° 485/2022 16.02.2022 
+4.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1.012/2022 01.04.2022 
+5.0 Adequação à REN nº 1.014/2022 e demais 
+aprimoramentos Despacho nº 1.029/2023 17.04.2023 
+6.0 Adequação à REN nº 1.081/2023 Resolução Normativa nº 1.110/2024 01.01.2025
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A comercialização varejista caracteriza-se pelas relações comerciais entre o varejista (agente representante) 
+e as pessoas físicas ou jurídicas elegíveis à representação (representados), dando-se pela adesão ao Contrato 
+para Comercialização Varejista e pela celebração de outras avenças de livre pactuação . Adicionalmente, os 
+agentes da Câmara de Comercialização de Energia Elétrica - CCEE proponentes a atuar como varejistas devem 
+pertencer à categoria de geração ou à classe dos comercializadores. 
+2. OBJETIVO 
+Estabelecer os procedimentos relativos à habilitação e atuação do varejista e seus representados, de acordo 
+com os critérios apresentados na regulamentação vigente. Este submódulo não se aplica aos consumidores 
+aos quais a regulamentação vigente exija a representação por agente varejista a partir da vigência do 
+submódulo 1.8 – Comercialização varejista – modelo simplificado. 
+3. PREMISSAS 
+Condições gerais para a habilitação do varejista  
+3.1 Podem atuar como varejista (habilitação inicial e manutenção) os comercializadores e geradores que 
+atenderem, concomitantemente, aos requisitos previstos na regulamentação vigente, aos 
+submódulos 1.1 - Adesão à CCEE e 1.2 - Cadastro de agentes, quando apli cável, e aos seguintes 
+requisitos:  
+3.1.1 O objeto social da pessoa jurídica deve apresentar designação específica para exercer tal 
+atividade: a comprovação da designação específica para exercer a comercialização 
+varejista, no objeto social, pode ser realizada por meio do pedido na Junta Comercial 
+competente e, havendo recusa para alteração do objeto social pela Junta Comercial, tal 
+fato deve ser comunicado à ANEEL; 
+3.1.2 Limite operacional não inferior a R$ 1.000.000,00 (um milhão de reais), atualizado 
+conforme a premissa 3.2; 
+3.1.3 Patrimônio líquido mínimo de: 
+3.1.3.1 R$ 4.000.000,00 (quatro milhões de reais), atualizado conforme a premissa 3.2, 
+para a habilitação inicial concedida pela CCEE ou para a análise da manutenção 
+realizada pela CCEE até 31 de março de 2024;
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.1.3.2 R$ 10.000.000,00 (dez milhões de reais), atualizado conforme a premissa 3.2, 
+para a habilitação inicial concedida pela CCEE ou para a análise da manutenção 
+realizada pela CCEE a partir de 1º de abril de 2024; 
+3.1.4 Índices de liquidez geral, liquidez corrente e solvência geral superiores a 1; 
+3.1.5 Possuir sede social em endereço comercial; 
+3.1.6 Se possuir marca registrada no Instituto Nacional da Propriedade Industrial - INPI, que seja 
+vedada sua cessão e o licenciamento a terceiros, mesmo que temporariamente ou sem 
+ônus; 
+3.1.7 Possuir nome de domínio (portal eletrônico) próprio ou website dentro do domínio do 
+grupo econômico, com expressão assemelhada ao nome empresarial;  
+3.1.8 Em seu portal eletrônico, devem estar claramente indicadas as demais pessoas jurídicas 
+controladas, controladoras, coligadas e de controlador comum que sejam, também, 
+agentes do setor elétrico; e 
+3.1.9 Possuir histórico mínimo de operação na CCEE, sem incorrer em qualquer descumprimento 
+de obrigação no âmbito da CCEE, de doze meses imediatamente anteriores à data de 
+solicitação, assim permanecendo até o deferimento de sua habilitação. Caso o proponente 
+não possua o histórico mínimo de operação na CCEE, ou o possua, mas não tenha 
+comercializado montante anual mínimo de 10MWmédios, deve-se observar o disposto na 
+regulamentação vigente.   
+3.2 Os valores a que aludem as premissas 3.1.2 e 3.1.3: i) são atualizados monetariamente com base no 
+Índice Nacional de Preços ao Consumidor Amplo - IPCA ou seu sucedâneo; ii) são publicados pela 
+CCEE anualmente a partir do dia 15 de janeiro; iii) as premissas 3.1.2 e 3.1.3.1 têm como data-base 
+abril/2015; iv) a premissa 3.1.3.2 tem como data-base maio/2022. 
+3.3 Caso o limite operacional constituído venha a se tornar inferior ao mínimo estipulado na premissa 
+3.1.2 (atualizado conforme a premissa 3.2), independentemente do motivo, a CCEE informará ao 
+agente, sendo necessária a recomposição do saldo em até cinco dias úteis contados do recebimento 
+da comunicação. 
+3.3.1 O agente que não compatibilizar o saldo no prazo indicado terá o procedimento de 
+inabilitação compulsória iniciado, nos termos deste submódulo.   
+3.4 A solicitação de habilitação para atuar como varejista deve ser realizada, exclusivamente, por meio 
+do sistema específico, localizado na área logada do site da CCEE.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.5 Quando do preenchimento das informações na respectiva solicitação, o proponente a atuar como 
+varejista deve respeitar os atos regulatórios vigentes e apresentar os documentos exigidos pelo 
+sistema específico, por este submódulo (item 4 - Lista de Documento s) e pela regulamentação 
+vigente, de acordo com os formatos de arquivos estabelecidos pelo próprio sistema específico, nos 
+prazos determinados nos Procedimentos de Comercialização. 
+3.5.1 Por meio do sistema específico, o proponente deve optar pela modalidade de habilitação 
+simplificada ou completa, nos termos da regulamentação vigente. 
+3.5.2 Toda a documentação de habilitação deve ser apresentada pelo proponente, 
+independentemente de ser um novo agente ou não. 
+3.5.3 O proponente deve informar quando os seu(s) representante(s) legal(is) for(em) o(s) 
+mesmo(s) de demais agentes associados à CCEE, indicando o nome empresarial e o 
+respectivo CNPJ no sistema específico.    
+3.5.4 Os documentos com status “caso aplicável” podem deixar de ser encaminhados à CCEE 
+desde que o proponente solicite e justifique sua dispensa no sistema específico. 
+3.5.5 Os documentos que são gerados de forma eletrônica por meio do sistema específico da 
+CCEE devem ser preenchidos e assinados pelo(s) representante(s) legal(is) do proponente. 
+São aceitas as seguintes formas de assinatura, nos termos da legislação vigente: assinatura 
+manual com firma reconhecida; assinatura digital com certificado ICP -Brasil (devendo ser 
+encaminhado à CCEE o protocolo de autenticidade da assinatura); ou assinatura eletrônica 
+avançada desde que aceita pelo agente. 
+3.5.6 No caso da assinatura eletrônica avançada de que trata a premissa anterior, a CCEE é 
+responsável por: a) assegurar, de maneira unívoca, a assinatura ao signatário; b) utilizar 
+dados para a criação de assinatura cujo signatário possa, com elevado nível de c onfiança, 
+operar sob o seu controle exclusivo; e c) relacionar a assinatura aos dados a ela associados 
+de tal modo que qualquer modificação posterior possa ser detectável.  
+3.5.7 Outros documentos que, para fins do processo de habilitação ou manutenção varejista, 
+demandem assinatura pelo(s) representante(s) legal(is) do proponente, devem ser 
+assinados manualmente com firma reconhecida ou digitalmente com certificado ICP-Brasil, 
+conforme legislação vigente, devendo no último caso ser encaminhado à CCEE o protocolo 
+de autenticidade da assinatura.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.6 O proponente se compromete e se responsabiliza pela validade e regularidade dos documentos e 
+dados apresentados à CCEE, incluindo os poderes do(s) signatário(s) dos documentos, cuja 
+assinatura o(s) vinculará(ão) às obrigações existentes no âmbito da CCEE.  
+3.6.1 O representante legal deve ter poderes para representar o agente perante a CCEE e a 
+inobservância a esse requisito pode fazê -lo incorrer em responsabilidade civil, criminal e 
+administrativa, nos termos da legislação vigente. 
+3.7 A CCEE é isenta de qualquer responsabilidade sobre os dados informados no sistema específico, 
+inclusive quanto aos dados cadastrados erroneamente ou não atualizados, considerando -os 
+verdadeiros e válidos desde seu cadastro/apresentação. 
+3.8 O proponente deve acompanhar, por meio do sistema específico, o andamento de sua solicitação e 
+a necessidade de eventual adequação da documentação apresentada e/ou cadastro. 
+3.9 É responsabilidade do proponente que toda a documentação de habilitação esteja válida e 
+plenamente vigente na data limite para regularização das pendências referente ao mês de aprovação 
+da habilitação, conforme estabelecido no submódulo 1.2 – Cadastro de agentes. 
+3.9.1 A documentação de habilitação é considerada válida e plenamente vigente quando estiver 
+dentro do prazo de validade nela expresso ou, na falta deste, até sessenta dias contados 
+da data de sua emissão, quando aplicável. 
+3.9.2 No caso de habilitação de filial, devem ser apresentadas as certidões exigidas por este 
+submódulo (item 4 - Lista de Documentos), em nome da matriz e da própria filial. 
+3.10 A CCEE deve divulgar a conclusão da análise dos requisitos e documentação no prazo de até cinco 
+dias úteis contados da data do recebimento de toda a documentação e cadastro. 
+3.11 A CCEE pode solicitar ao proponente, por meio do sistema específico, informação ou documentação 
+adicional que entenda necessária para complementar a análise do pedido de habilitação.  
+3.12 A CCEE deve divulgar, pelo sistema específico, a conclusão da análise dos requisitos e documentação 
+adicional no prazo de até cinco dias úteis contados da data do recebimento da complementação 
+solicitada.  
+3.13 Processos de habilitação, referentes ao mês “M”, podem ser deliberados em reunião do Conselho 
+de Administração da CCEE - CAd a ser realizada até M-8du. 
+3.13.1 Nos casos de solicitação de habilitação vinculada a um desligamento com sucessão, o CAd 
+pode deliberar acerca de tal solicitação durante o mês de início de operacionalização - mês 
+“M”, na mesma reunião em que for deliberado o desligamento do sucedido.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.14 O resultado da solicitação de habilitação deve ser comunicado por meio do sistema específico, em 
+até um dia útil após a deliberação do CAd. 
+3.14.1 No caso de indeferimento da solicitação de habilitação, o CAd deve expressar os motivos 
+que fundamentam a decisão. 
+3.15 Todas as decisões do CAd sobre as solicitações de habilitação à CCEE devem ser publicadas no site 
+da Câmara em até dois dias úteis após a deliberação, incluindo as respectivas motivações.  
+3.16 Na hipótese de o CAd indeferir a solicitação de habilitação, o proponente pode apresentar pedido 
+de impugnação perante a CCEE, nos termos do submódulo 1.4 - Atendimento. 
+3.17 O proponente pode desistir do processo de habilitação a qualquer momento, por meio do sistema 
+específico, desde que seu processo não tenha sido pautado para deliberação do CAd.  
+3.18 O processo de habilitação não concluído dentro de doze meses a contar do mês de seu início é 
+cancelado no sistema específico. Caso o proponente mantenha interesse em atuar como varejista, 
+um novo processo de habilitação deve ser iniciado, nos termos das pr emissas da presente seção 
+deste submódulo.  
+3.19 O processo de manutenção da habilitação varejista deve ocorrer anualmente: i) no mês em que foi 
+aprovada a habilitação varejista do agente (nos aniversários até 31 de dezembro de 2023); ii) no mês 
+em que foi aprovada a adesão à CCEE do agente (nos aniversários a partir de 1º de janeiro de 2024); 
+sendo de responsabilidade do agente o atendimento dessa obrigação em tempo hábil para a análise 
+da CCEE, sob pena das sanções regulatórias cabíveis.  
+3.19.1 A CCEE solicitará, por meio do sistema específico: 
+3.19.1.1 Em caso de comercializador varejista: a atualização dos documentos exigidos por 
+este submódulo (item 4 - Lista de Documentos) e pelo submódulo 1.1 - Adesão à 
+CCEE (item 4 - Lista de Documentos) e o envio de documentos complementares. 
+3.19.1.2 Em caso de gerador varejista: a atualização dos documentos exigidos por este 
+submódulo (item 4 - Lista de Documentos) e o envio de documentos 
+complementares. 
+3.19.2 A CCEE deve divulgar, por meio do sistema específico, a conclusão da análise do processo 
+de manutenção da habilitação varejista até o final do mês subsequente ao mês 
+referenciado na premissa 3.19.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+8 
+ 
+procedimentos de 
+comercialização 
+3.19.3 Caso não haja o atendimento a algum requisito exigido para manutenção da habilitação 
+varejista, o agente terá o procedimento de inabilitação compulsória iniciado, nos termos 
+deste submódulo.  
+3.19.4 A CCEE deve divulgar e manter atualizada, em seu site, a relação dos agentes habilitados à 
+comercialização varejista e o resultado da análise anual do processo de manutenção da 
+habilitação varejista de cada agente (bem como eventuais consequências). 
+3.20 Para fins de comprovação do patrimônio líquido, o agente habilitado à comercialização varejista 
+(comercializador ou gerador) deve apresentar à CCEE, por meio do sistema específico, até o final do 
+mês de abril de cada ano (com início no ano de 2024):  
+3.20.1 Declaração do valor de seu patrimônio líquido, fornecida pelo representante legal do 
+agente, o qual se responsabiliza pelas informações declaradas.  
+3.20.2 Balanço patrimonial auditado, nos termos da regulamentação vigente, e assinado pelo 
+profissional de contabilidade, com registro profissional regular no Conselho Regional de 
+Contabilidade - CRC, referente ao ano fiscal imediatamente anterior ao corrente, podendo 
+adicionalmente apresentar balanço patrimonial (mensal ou trimestral) auditado e 
+assinado, nos termos supracitados, referente ao ano corrente.  
+3.20.3 O agente cuja constituição da sociedade tenha ocorrido em período inferior a 1 (um) ano, 
+com início no ano anterior ao corrente, deve apresentar balanço patrimonial (mensal ou 
+trimestral) auditado, nos termos da regulamentação vigente, e assinado pelo prof issional 
+de contabilidade, com registro profissional regular no CRC, referente ao ano fiscal 
+imediatamente anterior ao corrente, podendo adicionalmente apresentar balanço 
+patrimonial (mensal ou trimestral) auditado e assinado, nos termos supracitados, referente 
+ao ano corrente.  
+3.20.4 O agente cuja constituição da sociedade tenha ocorrido em período inferior a 1 (um) ano, 
+com início no ano corrente, deve apresentar balanço patrimonial (mensal ou trimestral) 
+auditado, nos termos da regulamentação vigente, e assinado pelo profissional de 
+contabilidade, com registro profissional regular no CRC, referente ao ano corrente. 
+3.21 A CCEE deve avaliar as demonstrações contábeis e financeiras, os balanços energéticos e demais 
+dados pertinentes medidos, registrados ou apurados no âmbito da CCEE, a fim de propor à ANEEL a 
+atualização e os ajustes, qualitativa e quantitativamente, dos re quisitos para a habilitação inicial e 
+manutenção de que trata a premissa 3.1, sem prejuízo de outras proposições.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+9 
+ 
+procedimentos de 
+comercialização 
+Condições gerais para a habilitação de representados 
+3.22 São elegíveis a serem representados, na comercialização varejista: 
+3.22.1 Os consumidores com unidades consumidoras aptas à aquisição de energia elétrica no 
+Ambiente de Contratação Livre – ACL, ressaltando-se que este submódulo não se aplica 
+aos consumidores aos quais a regulamentação vigente exija a representação por agente 
+varejista a partir da vigência do submódulo 1.8 – Comercialização varejista – modelo 
+simplificado; 
+3.22.2 Os detentores de concessão, autorização ou registro de geração com capacidade instalada 
+inferior a 50 MW não comprometidos com Contrato de Comercialização de Energia em 
+Ambiente Regulado - CCEAR, Contrato de Energia de Reserva - CER ou Cotas; 
+3.22.3 Os detentores de concessão ou autorização para geração com capacidade instalada igual 
+ou superior a 50MW não comprometidos com CCEAR, CER ou Cotas, nos termos 
+excepcionais definidos pela regulamentação vigente, ressalvando -se que: i) devem ser 
+agentes da C CEE; ii) respondem, de forma proporcional e solidária, pelos resultados 
+decorrentes da gestão empreendida por seu representante; e iii) todo o relacionamento 
+com a CCEE será exercido, com exclusividade, pelo varejista, inclusive o direito a voto em 
+nome de seu representado. 
+3.23 A solicitação de habilitação do representado deve ser realizada pelo varejista, exclusivamente, por 
+meio do sistema específico.  
+3.24 Quando do preenchimento das informações na respectiva solicitação, o varejista deve respeitar os 
+atos regulatórios vigentes e apresentar os documentos do representado exigidos pelo sistema 
+específico, por este submódulo (item 4 - Lista de Documentos), pela  regulamentação vigente e 
+demais submódulos pertinentes, de acordo com os formatos de arquivos estabelecidos pelo próprio 
+sistema específico, nos prazos determinados nos Procedimentos de Comercialização. 
+3.24.1 Os documentos com status “caso aplicável” podem deixar de ser encaminhados à CCEE 
+desde que o varejista solicite e justifique sua dispensa no sistema específico. 
+3.24.2 Os documentos que são gerados de forma eletrônica por meio do sistema específico da 
+CCEE devem ser preenchidos e assinados pelo(s) representante(s) legal(is) do 
+representado. São aceitas as seguintes formas de assinatura, nos termos da legislação 
+vigente: assinatura manual com firma reconhecida; assinatura digital com certificado ICP-
+Brasil (devendo ser encaminhado à CCEE o protocolo de autenticidade da assinatura); ou
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+10 
+ 
+procedimentos de 
+comercialização 
+assinatura eletrônica avançada desde que aceita pelo representado e observado o disposto 
+na premissa 3.5.6. 
+3.24.3 As informações relacionadas ao representado devem ser preenchidas com os dados do 
+próprio representado, inclusive deve ser indicado o e -mail de contato do titular do ativo 
+representado, sendo vedada a indicação de e-mail vinculado ao agente varejista. 
+3.25 O varejista e o representado se comprometem e se responsabilizam pela validade e regularidade dos 
+documentos e dados do representado, apresentados à CCEE, incluindo os poderes do(s) signatário(s) 
+dos documentos, cuja assinatura o(s) vinculará(ão) às obrigações existentes no âmbito da CCEE.  
+3.26 Para consumidor(es) especial(is) cujas unidades consumidoras estejam reunidas por comunhão de 
+interesses de fato ou de direito, o varejista deve realizar as atividades específicas para a instituição 
+da comunhão no sistema específico, nos termos do submódul o 1.2 - Cadastro de agentes, sendo 
+que, no caso de comunhão de direito, o varejista deve indicar o representado cujo CNPJ corresponde 
+às unidades consumidoras participantes e, no caso de comunhão de fato, um dos representados 
+participantes deve ser selecionado no sistema específico. 
+3.27 Os agentes da CCEE que representem ativos de terceiros, nos termos da regulamentação em vigor 
+antes de 1º de agosto de 2013 (data de publicação da Resolução Normativa nº 570, de 23 de julho 
+de 2013), não podem solicitar alterações de representação em relação aos seus representados. Para 
+tanto, devem providenciar sua adequação aos termos e condições estabelecidos neste submódulo, 
+ainda que a representação que se pretenda alterar tenha tido início sob a égide de regulação 
+anterior. 
+3.28 Para os casos de consórcio de geração que optem por serem representados: i) devem ser observados 
+os requisitos do submódulo 1.2 - Cadastro de agentes, quando aplicáveis; ii) deve-se eleger, entre os 
+seus integrantes, um único responsável técnico do consórcio, caso não haja um líder definido no ato 
+autorizativo, a atuar em nome de todos; e iii) o cadastro do ativo está condicionado à atuação de 
+todos os consorciados na CCEE, como agentes ou representados de varejistas. 
+3.29 Além da entrega dos documentos relacionados neste submódulo (item 4 - Lista de Documentos), o 
+varejista deve realizar as atividades de cadastro do representado definidas no submódulo 1.2 - 
+Cadastro de agentes.  
+3.30 O varejista deve acompanhar as solicitações de cadastro e análise de documentação por meio do 
+sistema específico.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+11 
+ 
+procedimentos de 
+comercialização 
+3.31 Cada unidade consumidora ou empreendimento de geração (em caso de consórcio, entende-se por 
+empreendimento de geração a parcela do ativo que corresponde à participação de cada 
+consorciado) deve estar contratada com um único varejista, para a mesma vigência. 
+3.32 A vigência da representação se dá por prazo indeterminado, integrando-se por períodos completos 
+de contabilização.  
+3.33 Para cada unidade consumidora parcialmente livre, a distribuidora local deve registrar, no sistema 
+específico, o Contrato de Compra de Energia Regulada - CCER, nos termos do submódulo 3.2 - 
+Contratos do Ambiente Regulado. 
+3.34 A CCEE deve efetuar o cálculo da cota de energia do PROINFA da unidade consumidora que passe a 
+ser representada, nos termos do submódulo 3.2 - Contratos do Ambiente Regulado. 
+3.35 A partir da validação de documentos e atividades atinentes ao cadastro, tratados na presente seção 
+deste submódulo, o representado deve manter atualizado seu cadastro na CCEE, por meio do 
+sistema específico. 
+3.36 Ressalvada a hipótese disposta na premissa 3.22.3, o agente da CCEE, consumidor ou gerador, que 
+opte por ser representado por um varejista, deve solicitar seu desligamento da CCEE por meio de 
+uma das opções a seguir, nos termos do submódulo 1.5 - Desligamento da CCEE: i) sem sucessão; ou 
+ii) com sucessão, única e exclusivamente para fins de utilização da convenção sucessória financeira. 
+3.37 Nos casos de desligamento do agente da CCEE que passe à representação por um varejista, a 
+transferência do histórico de comercialização é vedada, com exceção da alínea “ii” da premissa 
+anterior. 
+3.38 Nos casos de alteração do varejista ou de representado que realize sua adesão à CCEE, caso a 
+regulação vigente não exija sua representação por agente varejista, a transferência do histórico de 
+comercialização é vedada. 
+3.39 A transferência do histórico de consumo ocorre apenas para fins de rateio do Encargo de Energia de 
+Reserva (EER), nos termos das Regras de Comercialização a serem aprovadas pela Agência Nacional 
+de Energia Elétrica (ANEEL). 
+Cadastro do Sistema de Medição para Faturamento e Coleta de Dados de Medição 
+3.40 É atribuição do agente responsável pelo Sistema de Medição para Faturamento – SMF (agente de 
+medição): 
+3.40.1 Solicitar o mapeamento e o cadastramento do(s) pontos(s) de medição por meio do 
+sistema específico, conforme estabelecido no submódulo 1.2 - Cadastro de agentes;
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+12 
+ 
+procedimentos de 
+comercialização 
+3.40.2 Responder pelas operações diárias de medição junto à CCEE, conforme estabelecido no 
+submódulo 2.1 - Coleta e ajuste de dados de medição.  
+3.41 O varejista pode acompanhar as atividades de cadastramento do(s) pontos(s) de medição dos seus 
+representados, por meio do sistema específico. 
+3.42 O recebimento de notificações e pagamento de penalidades de medição constantes no submódulo 
+6.1 - Penalidades de medição e multas são atribuições do agente de medição (distribuidora, 
+transmissora ou gerador) ou do varejista, quando aplicável.  
+Cadastro de ativos 
+3.43 O varejista deve solicitar a inclusão, alteração e exclusão de cadastro de ativos dos seus 
+representados, bem como realizar seu acompanhamento, respeitando os prazos e os procedimentos 
+do submódulo 1.2 - Cadastro de agentes. 
+3.44 O varejista é responsável pela atualização do cadastro dos ativos representados. 
+3.45 A modelagem de ativos se dá sob perfil contábil criado especificamente para cada tipo de geração 
+ou consumo. 
+3.45.1 O agente conectado deve conceder o desconto na TUSD/TUST provisório e pré -fixado, 
+conforme as Regras de Comercialização, para o mês de migração da unidade consumidora 
+ao ACL até que seja divulgado, pela CCEE, o primeiro relatório de desconto aplicável ao 
+referido perfil, devidamente apurado. 
+3.46 No caso de representação de autoprodutor que possua direito de repasse de desconto aplicado na 
+TUSD/TUST para as suas unidades consumidoras, o varejista deve realizar a modelagem dos ativos 
+sob perfis criados exclusivamente para cada representado nessa con dição, a fim de se garantir tal 
+direito, nos termos das Regras de Comercialização. 
+Notificações para encerramento do Contrato para Comercialização Varejista 
+3.47 A notificação para encerramento do Contrato para Comercialização Varejista deve ser enviada ao 
+varejista ou ao representado, conforme o caso, e também à CCEE, no prazo mínimo de quinze dias 
+em situações de resolução contratual (inadimplemento) ou noventa dias em situações de resilição 
+contratual (denúncia à prorrogação da representação) antecedentes à data pretendida para o 
+término da contratação, ou seja, o último dia do último mês que o varejista ou o representado 
+desejam manter a representação.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+13 
+ 
+procedimentos de 
+comercialização 
+3.47.1 No caso de notificação enviada pelo varejista por motivo de resolução contratual ou de 
+resilição contratual, a notificação deve adicionalmente informar o consumidor 
+representado que diligencie pela continuidade de sua operação comercial antes do 
+advento do término contratual, conforme as hipóteses previstas neste submódulo, e que 
+está sujeito à suspensão de fornecimento de energia elétrica após essa data. 
+3.47.2 O recebimento da notificação pelo varejista ou pelo representado é comprovado por meio 
+do comprovante de recebimento de e -mail registrado ou aviso de recebimento dos 
+Correios, a ser apresentado à CCEE juntamente com a notificação a ela enviada. 
+3.47.3 Em caso de resilição contratual por iniciativa de ambas as partes (comum acordo), a 
+notificação para encerramento do Contrato para Comercialização Varejista é dispensada. 
+Substituição de varejista, pelo representado 
+3.48 A opção do representado pela substituição do varejista atual por outro se inicia com o envio de 
+notificação para encerramento do Contrato para Comercialização Varejista, nos termos da seção 
+anterior. 
+3.49 O novo varejista que, já habilitado, pretenda efetivar a representação, deve, previamente, celebrar 
+novo Contrato para Comercialização Varejista com o representado e encaminhar à CCEE, por meio 
+do sistema específico, os documentos pertinentes ao representado exigidos por este submódulo 
+(item 4 - Lista de Documentos), bem como a notificação para encerramento do Contrato para 
+Comercialização Varejista enviada ao varejista anterior e o respectivo comprovante de recebimento. 
+3.50 Caso não ocorra a substituição do varejista e o representado não diligencie pela continuidade de sua 
+operação comercial antes do advento do término contratual, conforme as hipóteses previstas neste 
+submódulo, o representado sujeitar-se-á aos procedimentos estabelecidos na premissa 3.71.  
+3.51 Ao realizar a solicitação de alteração do cadastro do ativo no sistema específico, nos termos do 
+submódulo 1.2 – Cadastro de agentes, o atual varejista atesta a adimplência da unidade 
+consumidora.  
+Adesão do representado à CCEE 
+3.52 O representado que queira aderir à CCEE em nome próprio, caso a regulação vigente não exija sua 
+representação por agente varejista, deve realizar as notificações estabelecidas em seção própria 
+deste submódulo e proceder ao disposto no submódulo 1.1 - Adesão à CCEE.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+14 
+ 
+procedimentos de 
+comercialização 
+3.53 Ao realizar a solicitação de alteração do cadastro do ativo no sistema específico, nos termos do 
+submódulo 1.2 – Cadastro de agentes, o atual varejista atesta a adimplência da unidade 
+consumidora.  
+Retorno de unidade consumidora ao atendimento cativo 
+3.54 O consumidor representado por um varejista que deseje o atendimento de suas unidades 
+consumidoras pela distribuidora local deve celebrar CCER ou ter a anuência da distribuidora local 
+para o atendimento de energia elétrica sem celebração de CCER, nos termos  da regulamentação 
+vigente, devendo observar: 
+3.54.1 Se a unidade consumidora for ou pretender se tornar parcialmente livre, com a prévia 
+anuência do varejista, deve celebrar CCER ou aumentar o montante já contratado com a 
+distribuidora. 
+3.54.2 Se apenas algumas unidades consumidoras voltarem a ser integralmente atendidas pela 
+distribuidora, com a prévia anuência do varejista, deve -se celebrar CCER(s) ou alterar a 
+forma de contratação dos CCER(s) já em vigor. Nesse caso, o varejista deve solicita r a 
+exclusão do cadastro do ativo, no sistema específico, como também o agente de medição 
+deve providenciar a solicitação de desativação do(s) ponto(s) de medição 
+correspondentes, nos termos do submódulo 1.2 - Cadastro de agentes. 
+3.54.3 Se todas as unidades consumidoras voltarem a ser integralmente atendidas pela 
+distribuidora, deve-se celebrar CCER(s) ou alterar a forma de contratação dos CCER(s) já 
+em vigor. Nesse caso: i) o consumidor deve enviar ao varejista a notificação para 
+encerramento do Contrato para Comercialização Varejista, nos termos da seção própria 
+deste submódulo; e ii) o varejista deve solicitar a exclusão do cadastro do ativo, no sistema 
+específico, como também o agente de medição deve providenciar a solicitação de 
+desativação do(s) ponto(s) de medição correspondentes, nos termos do submódulo 1.2 - 
+Cadastro de agentes. 
+3.54.4 A celebração de CCER deve observar os prazos mínimos estabelecidos pelas normas 
+aplicáveis, salvo se acordado pelas partes o início de atendimento em prazos inferiores. 
+3.54.5 Ao realizar a solicitação de exclusão do cadastro do ativo no sistema específico, nos termos 
+do submódulo 1.2 – Cadastro de agentes, o atual varejista atesta a adimplência da unidade 
+consumidora.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+15 
+ 
+procedimentos de 
+comercialização 
+Inabilitação e Desligamento do varejista da CCEE 
+3.55 Para solicitar sua inabilitação voluntária, o varejista deve enviar a(s) notificação(ões) para 
+encerramento do(s) Contrato(s) para Comercialização Varejista, nos termos da seção própria deste 
+submódulo, com antecedência mínima de noventa dias da data pretendida para o término da 
+contratação e, posteriormente, e nviar à CCEE a referida solicitação de inabilitação, sob pena de 
+indeferimento do pedido. 
+3.55.1 A inabilitação voluntária do varejista está condicionada: i) à inexistência de ativos de 
+representados sob os seus perfis varejistas; ii) ao cancelamento ou à finalização de todos 
+os registros de contratos nos seus perfis varejistas, quando houver; e iii) ao encerramento 
+dos seus perfis varejistas. 
+3.55.2 O proponente pode desistir do processo de inabilitação a qualquer momento, por meio do 
+sistema específico, desde que seu processo não tenha sido pautado para deliberação pelo 
+CAd. 
+3.56 A inabilitação compulsória do varejista se dá pelo desatendimento das condições dispostas neste 
+submódulo e na regulamentação vigente, relativas à habilitação inicial e manutenção do varejista, 
+devendo a CCEE instaurar procedimento de inabilitação e enviar o respectivo Termo de Notificação 
+- TN ao varejista, preferencialmente por meio eletrônico, nos termos da regulamentação vigente e 
+do submódulo 1.4 - Atendimento, com a identificação do requisito não atendido. 
+3.57 O varejista pode apresentar sua manifestação por meio do sistema específico em até cinco dias úteis, 
+contados da data de recebimento do TN, conforme disposto no submódulo 1.4 - Atendimento. 
+3.57.1 O varejista, em sua manifestação, deve alegar toda a matéria de defesa, expondo as razões 
+de fato e de direito com que pretenda demonstrar a procedência dos seus pedidos e 
+oferecendo todos os documentos e provas que entenda necessários, sendo vedada dilação 
+probatória superveniente. 
+3.57.2 O julgamento do procedimento de inabilitação deve ser promovido em até trinta dias, 
+contados da data de sua instauração. 
+3.58 As inabilitações voluntária e compulsória se dão por deliberação do CAd, observando -se as 
+disposições estatutárias atinentes aos critérios de decisão. 
+3.59 Durante o procedimento de inabilitação voluntária ou compulsória do varejista, é vedada a 
+habilitação de novos representados, bem como a solicitação de mapeamento e cadastramento de 
+novos pontos de medição e a inclusão de cadastros de ativos sob sua responsabilidade.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+16 
+ 
+procedimentos de 
+comercialização 
+3.60 O histórico de comercialização do varejista inabilitado será mantido no comercializador ou no 
+gerador que permanecer como agente da CCEE. 
+3.61 O desligamento do varejista deve observar o disposto no submódulo 1.5 - Desligamento da CCEE, 
+bem como as premissas deste submódulo. 
+3.62 O desligamento voluntário do varejista ocorre mediante a formalização do Requerimento de 
+Desligamento da CCEE, por meio do sistema específico, nos termos do submódulo 1.5 - Desligamento 
+da CCEE, e da(s) notificação(ões) para encerramento do(s) Contrato(s) para Comercialização 
+Varejista, nos termos da seção própria deste submódulo, com antecedência mínima de noventa dias 
+da data pretendida para o término da contratação, sob pena de indeferimento do pedido.  
+3.62.1 O desligamento voluntário do varejista está condicionado: i) ao cumprimento de suas 
+obrigações financeiras; ii) à inexistência de ativos de representados sob todos os seus 
+perfis; e iii) ao cancelamento ou à finalização de todos os registros de contratos no sistema 
+específico, quando houver. 
+3.62.2 O desligamento voluntário com sucessão somente é aplicável após o cumprimento do 
+disposto na premissa anterior e o deferimento do CAd ao pedido para inabilitação 
+voluntária do varejista.  
+3.63 Para os casos de instauração de desligamento (compulsório ou por descumprimento de obrigação) 
+e de inabilitação compulsória do varejista, a CCEE deve enviar os respectivos TNs aos representados, 
+pelos Correios ou por meio eletrônico nos termos da regulamentação vigente de acordo com as 
+premissas 3.65.1 e 3.65.2, comunicando -lhes sobre a instauração do referido procedimento de 
+desligamento ou de inabilitação, conforme o caso, e a relação atualizada de varejistas adimplentes 
+e habilitados à representação, também disponível no site da CCEE, para livre escolha do 
+representado. 
+3.63.1 Na referida notificação, a CCEE também deve esclarecer os efeitos decorrentes do 
+desligamento ou inabilitação do varejista, dentre os quais a sujeição do consumidor 
+representado à suspensão de fornecimento de energia elétrica, caso o varejista seja 
+desligado ou inabilitado, e informar ao representado que ele pode optar, desde a 
+notificação, por: 
+a) Celebrar Contrato para Comercialização Varejista com qualquer dos agentes 
+varejistas disponíveis;
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+17 
+ 
+procedimentos de 
+comercialização 
+b) Aderir à CCEE em nome próprio, caso a regulação vigente não exija sua 
+representação por agente varejista, cumprindo, para tanto, as premissas previstas 
+nos submódulos 1.1 - Adesão à CCEE e 1.2 - Cadastro de agentes; 
+c) Celebrar CCER junto à distribuidora local, em prazo inferior ao estabelecido pelas 
+normas aplicáveis, conforme livre negociação entre as partes;  
+d) Ter a anuência da distribuidora para o atendimento de energia elétrica sem 
+celebração de CCER, em caso de representado consumidor adimplente com suas 
+obrigações e cuja representação varejista seja obrigatória. Esta opção é aplicável 
+exclusivamente nos caso s de resilição contratual por iniciativa do representante e 
+desligamento/inabilitação do varejista. 
+3.64 A ocorrência de qualquer das hipóteses constantes nos subitens da premissa anterior encerra, para 
+cada ativo, independentemente de notificação judicial ou extrajudicial, a relação comercial entre o 
+varejista e o representado, sendo nula qualquer estipulaçã o contratual de penalidade ao 
+representado. 
+3.65 Em até cinco dias da deliberação que decidir pelo desligamento (compulsório ou por 
+descumprimento de obrigação) ou pela inabilitação compulsória do varejista, a CCEE deve enviar 
+novos TNs a todos os representados, nos termos da regulamentação vigente, informando -lhes 
+acerca da decisão proferida, bem como concedendo o prazo de até MS -12du (sendo “M” o mês da 
+deliberação do processo de inabilitação ou desligamento do atual agente varejista) para cada 
+representado optar por um dos subitens da premissa 3.63.1. 
+3.65.1 A notificação deve ser encaminhada pelos Correios ou por meio eletrônico, contando-se o 
+prazo a partir do recebimento pelos Correios. 
+3.65.2 Negligenciado pelo representado a atualização de seu cadastro, o prazo a que alude a 
+premissa 3.65 deve ser contado: i) da data da primeira tentativa de entrega pelos Correios, 
+servindo de comprovação a data de devolução atestada no AR ou informada no histórico 
+de rastreamento de objetos no portal eletrônico dos Correios; ou ii) no insucesso da 
+hipótese precedente, da data de envio para o correio eletrônico constante do cadastro do 
+representado, independentemente desse estar ativo ou operacional. 
+3.66 Caso o representado não diligencie pela continuidade de sua operação comercial antes do término 
+do prazo para a opção de que trata a premissa anterior, conforme as hipóteses previstas neste 
+submódulo, sujeita-se aos procedimentos estabelecidos na premissa 3.71.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+18 
+ 
+procedimentos de 
+comercialização 
+3.67 O desligamento do varejista (compulsório ou por descumprimento de obrigação) não obsta a nova 
+modelagem dos ativos então representados sob o perfil de outros agentes, ressalvado o disposto na 
+regulamentação vigente.  
+Encerramento das atividades do representado 
+3.68 O encerramento das atividades do representado pode ser voluntário ou decorrer da ausência de 
+relação comercial, caracterizada pela não ocorrência de qualquer das hipóteses constantes nos 
+subitens da premissa 3.63.1. 
+3.69 O encerramento voluntário das atividades do representado se dá mediante o envio, ao varejista e à 
+CCEE, da notificação para encerramento do Contrato para Comercialização Varejista, nos termos da 
+seção própria deste submódulo. 
+3.69.1 Não sendo efetivada a desconexão do sistema elétrico até o advento da data pretendida 
+pelo representado para o encerramento da comercialização varejista, deve a CCEE 
+proceder ao disposto na premissa 3.71. 
+3.70 O encerramento da comercialização varejista por vontade do varejista se dá mediante o envio, ao 
+representado e à CCEE, da notificação para encerramento do Contrato para Comercialização 
+Varejista, nos termos da seção própria deste submódulo. 
+3.71 Caso o representado não diligencie pela continuidade de sua operação comercial, conforme as 
+hipóteses previstas neste submódulo, caracterizando a ausência de relação comercial, sujeitar-se-á 
+ao seguinte: 
+3.71.1 Caso o representado seja consumidor, a CCEE deve proceder à notificação do agente 
+conectado (distribuidora agente ou não agente da CCEE ou, ainda, transmissora) e, quando 
+pertinente, do ONS, para a operacionalização da suspensão do fornecimento a todas as 
+unidades consumidoras correspondentes, nos termos da seção específica deste 
+submódulo, conforme o caso: i) na data pretendida pelo representado de que trata a 
+premissa 3.50 ou 3.69; ii) na data de término do prazo de quinze dias, contados a partir da 
+data de recebimento da notificação enviada pelo agente varejista, em caso de resolução 
+contratual; iii) na data pretendida pelo varejista de que trata a premissa 3.70, em caso de 
+resilição contratual; ou iv) na data de término do prazo para a opção de que trata a 
+premissa 3.65. 
+3.71.2 Caso o representado seja gerador, a CCEE deve, nos termos das normas que regem o 
+desligamento de agentes da CCEE: i) proceder à notificação do ONS, a fim de que sejam 
+monitorados os empreendimentos de geração , quando programados ou despachados
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+19 
+ 
+procedimentos de 
+comercialização 
+centralizadamente; ii) providenciar o tratamento específico para a energia gerada; e iii) 
+comunicar à ANEEL, para os expedientes administrativos cabíveis, incluindo eventual 
+cassação de outorga. 
+3.72 O varejista permanece responsável pela carga do(s) representado(s) até que ocorra a suspensão do 
+fornecimento de energia de todas as unidades consumidoras modeladas sob o seu perfil varejista. 
+Suspensão de fornecimento de energia elétrica 
+3.73 Realizada a solicitação de suspensão de fornecimento, nos termos da premissa 3.71.1, o agente 
+conectado deve proceder à suspensão do fornecimento de todas as unidades consumidoras no prazo 
+mínimo de cinco dias e máximo de dez dias do recebimento da notificação, bem como informar à 
+CCEE em até quarenta e oito horas de sua execução, indicando a data efetiva em que foi realizada a 
+suspensão do fornecimento. 
+3.73.1 Caso a suspensão de fornecimento não seja efetivada no prazo estabelecido, deve ser 
+apresentada a justificativa à CCEE. 
+3.73.2 Em caso de ultrapassagem do prazo máximo para suspensão do fornecimento, decorrente 
+de responsabilidade exclusiva do agente conectado: 
+a) Distribuidora agente da CCEE, os débitos referentes ao consumo da unidade 
+consumidora serão alocados para responsabilidade da distribuidora a partir do 
+primeiro dia subsequente ao prazo máximo estabelecido para suspensão do 
+fornecimento, nos termos das Regras de Comercialização. 
+b) Distribuidora não agente da CCEE, os débitos referentes ao consumo da unidade 
+consumidora serão alocados para responsabilidade da distribuidora supridora a 
+partir do primeiro dia subsequente ao prazo máximo estabelecido para suspensão 
+do fornecimento, nos termos das Regras de Comercialização. Nesse caso, os valores 
+arcados pela distribuidora supridora serão divulgados pela CCEE para cobrança 
+bilateral, podendo configurar inadimplência setorial. 
+c) Transmissora, os débitos referentes ao consumo da unidade consumidora serão 
+alocados para responsabilidade do varejista representante a partir do primeiro dia 
+subsequente ao prazo máximo estabelecido para suspensão do fornecimento, nos 
+termos das Regras de Comercialização. Nesse caso, os valores arcados pelo varejista 
+serão divulgados pela CCEE para cobrança bilateral, podendo configurar 
+inadimplência setorial.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+20 
+ 
+procedimentos de 
+comercialização 
+3.73.3 Caso a suspensão de fornecimento seja efetivada após o prazo máximo estabelecido, é 
+necessário que o agente conectado informe à CCEE para que seja dado o tratamento 
+adequado em relação à alocação dos débitos da unidade consumidora.    
+3.74 Na ocorrência de qualquer das situações previstas na premissa anterior, o varejista deve ser 
+notificado pela CCEE. 
+3.75 A CCEE pode cancelar a solicitação de suspensão de fornecimento ao agente conectado e, quando 
+pertinente, ao ONS, preferencialmente por meio eletrônico, até o quarto dia do envio da notificação 
+em que requereu a suspensão, desde que a efetivação da suspens ão de fornecimento ainda não 
+tenha sido informada à CCEE. 
+3.76 Em caso de suspensão de fornecimento, o representado pode retornar ao ACL desde que realize: 
+3.76.1 A quitação de suas pendências com o último varejista, inclusive, quando aplicável, de sua 
+matriz e/ou filial(is); 
+3.76.2 Nova habilitação de suas unidades consumidoras, conforme seção específica deste 
+submódulo. 
+3.77 Para a adesão do representado à CCEE, ao validar a solicitação no sistema de cadastro de ativos da 
+CCEE, o agente conectado atesta que a unidade consumidora não passou por processo anterior de 
+suspensão de fornecimento, exceto em caso de realização da premissa 3.76.1. 
+Divulgação de Modelos Contratuais, Preços de Referência Comparáveis (PRC) e de 
+Condições Gerais de Contratação 
+3.78 Os agentes comercializadores e geradores que atuem como varejistas devem divulgar, em seu portal 
+eletrônico, com fácil acesso aos consumidores, os modelos de contratos utilizados pelo agente 
+varejista, seus Preços de Referência Comparáveis (PRC), considerando os parâmetros estipulados na 
+premissa a seguir, bem como as informações das condições gerais de contratação efetiva do agente 
+varejista descritas nesta seção. 
+3.79 O agente varejista deve divulgar seus Preços de Referência Comparáveis (PRC) ao consumidor, em 
+R$/MWh, fixos durante os prazos de suprimento, a saber estabelecidos, e que dever ser formulado 
+considerando as seguintes variáveis e suas combinações: 
+a) Períodos de suprimento anual, trianual e quinquenal;  
+b) Por cada submercado de atuação do comercializador; 
+c) Por tipos de energia elétrica convencional e incentivada;
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+21 
+ 
+procedimentos de 
+comercialização 
+d) Montante sem flexibilidade; 
+e) Sazonalização e modulação uniforme;   
+f) Data de pagamento MS+6du 
+g) Inclusão de todos os tributos incidentes, exceto o ICMS; 
+h) Não inclusão de custos de garantias; 
+i) Não inclusão de risco de crédito do consumidor; 
+j) Não inclusão de custos dos encargos setoriais (ESS, EER, ERCAP). 
+3.80 O agente varejista deve divulgar suas condições gerais de contratação de comercialização de energia 
+elétrica, dentre as quais deve formular Notas Explicativas esclarecendo aos consumidores o que 
+segue: 
+a) O Preço de Referência Comparável (PRC) não representa uma proposta comercial definitiva e 
+vinculativa, estando o preço efetivo de contratação sujeito a proposta de negociação entre as 
+partes, considerando os critérios próprios de livre formulação e de resp onsabilidade da 
+comercializadora, e;  
+b) Os possíveis impactos esperados, aumentativos ou diminutivos, no Preço de Referência 
+Comparável (PRC) divulgado, em razão de suas especificidades em eventual contratação do 
+agente varejista, tais como garantias efetivamente exigíveis, limites de flexibilid ade de 
+montante, riscos de crédito adotados, política adotada para o repasse de custo dos encargos 
+setoriais, incidências tributárias sobre ICMS, prazo contratual adotado, data de pagamento 
+considerada, indexações de atualização de preço, multas rescisórias, a adoção de certificações 
+de fonte renovável, dentre outras que identificar como relevantes. 
+3.81 O agente varejista deve informar à CCEE, quando solicitado, o endereço eletrônico onde estão 
+veiculadas as informações de que trata esta seção, para que seja divulgada a hiperligação, pela CCEE, 
+em seu sítio eletrônico. 
+3.81.1 O agente varejista deve informar à CCEE as eventuais modificações do endereço eletrônico, 
+sempre que aplicável.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+22 
+ 
+procedimentos de 
+comercialização 
+4. LISTA DE DOCUMENTOS 
+DOCUMENTOS         Comercialização  Geração  
+Descrição  DD  DE  DAD  DFR CL  CE  COM  APE PIE  G  
+Documentos - varejista                     
+Ato constitutivo, estatuto ou contrato social atualizado e alterações 
+supervenientes ou o documento societário consolidado, 
+devidamente registrado no órgão competente. 
+✔           ✔ ✔ ✔ ✔ 
+Acordo de acionistas ou cotistas e demais negócios jurídicos que 
+proporcionam impacto no controle societário. 
+(Caso aplicável) 
+✔           ✔ ✔ ✔ ✔ 
+Diagrama do grupo econômico, observando-se: i) a indicação de 
+nomes e percentuais das participações societárias; ii) a possibilidade 
+de plena aferição das condicionantes dispostas na regulamentação 
+vigente; e iii) a dispensa da apresentação de participação inferior a 
+5%, salvo se controlador. 
+(Modelo disponível no site da CCEE) 
+✔           ✔ ✔ ✔ ✔ 
+Quadro societário, contendo relação que discrimine: i) todos os 
+sócios ou acionistas do proponente; ii) o(s) controlador(es) 
+societário(s) indireto(s) e o(s) intermediário(s) do proponente, 
+observadas as definições contidas pela norma que rege transferência 
+de controle societário, e os sócios ou acionistas desses 
+controladores; iii) as controladas, coligadas e de simples participação 
+do proponente, com os respectivos sócios ou acionistas, observadas 
+as definições contidas no Código Civil; e iv) os administradores, 
+diretores, conselheiros e demais prepostos afins.  
+(Modelo disponível no site da CCEE) 
+✔           ✔ ✔ ✔ ✔ 
+Organograma corporativo. 
+(Modelo disponível no site da CCEE) ✔           ✔ ✔ ✔ ✔ 
+Declaração de matrimônio, união estável e de parentesco 
+consanguíneo ou afim, nos termos da regulamentação vigente. 
+(Modelo disponível no site da CCEE) 
+✔           ✔ ✔ ✔ ✔ 
+Demonstrações Contábeis auditadas desde a constituição da pessoa 
+jurídica, limitados aos três últimos exercícios financeiros exigíveis. 
+As demonstrações contábeis e financeiras devem ser auditadas por 
+auditores independentes, sem ressalvas, abrangendo balanço 
+patrimonial, resultado do exercício e fluxo de caixa.  
+Caso o proponente não possua tais documentos, poderão ser 
+apresentados os respectivos documentos relativos ao grupo 
+econômico ao qual o proponente pertença. 
+✔           ✔ ✔ ✔ ✔ 
+Certidão Negativa, ou Positiva com Efeitos de Negativa, de Débitos 
+inscritos e não inscritos na Dívida Ativa, relativos a: i) Tributos 
+Federais e Contribuições Previdenciárias (INSS); ii) Tributos 
+Estaduais/Distritais; e iii) Tributos Municipais. 
+✔           ✔ ✔ ✔ ✔ 
+Certidão Negativa de Falência e Recuperação Judicial e Extrajudicial 
+expedida pelo Poder Judiciário da sede do candidato a varejista. 
+A certidão referida nesse item deve ser adequada às disposições da 
+Lei nº 11.101, de 09.02.2005, que regulamenta a recuperação 
+judicial, a extrajudicial e a falência do empresário e da sociedade 
+empresária, conforme a situação de cada empresa.  
+✔           ✔ ✔ ✔ ✔ 
+Certificado de Regularidade do FGTS-CRF. ✔           ✔ ✔ ✔ ✔ 
+Certidão Negativa de Protestos e Títulos. ✔           ✔ ✔ ✔ ✔ 
+Certidão Negativa de Débitos Trabalhistas. ✔           ✔ ✔ ✔ ✔ 
+Comprovação de Estrutura Técnico-Operacional, Comercial e 
+Financeira (inventário de bens) 
+(Modelo disponível no site da CCEE) 
+✔           ✔ ✔ ✔ ✔
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+23 
+ 
+procedimentos de 
+comercialização 
+DOCUMENTOS         Comercialização  Geração  
+Descrição  DD  DE  DAD  DFR CL  CE  COM  APE PIE  G  
+Documentos - varejista                     
+Balanço energético nos termos da regulamentação vigente, 
+atestando-se o equilíbrio ou evidenciando o desequilíbrio para um 
+horizonte futuro mínimo de cinco anos. 
+O balanço referido neste item deve observar:  
+i) a geração e a carga modeladas sob o varejista;  
+ii) as projeções de modelagens futuras, de geração e carga, que são 
+vinculantes e oponíveis pela CCEE em face do varejista, quando de 
+eventual solicitação para habilitação de novo representado que 
+possa resultar em diferenças incompatíveis com as projeções 
+declaradas;  
+iii) os tipos de geração e consumo, que caracterizam os perfis 
+contábeis;  
+iv) os contratos de compra e venda celebrados pelo varejista, 
+facultado o sigilo de preços e contrapartes para contratos bilaterais 
+do ACL, sem prejuízo de eventual requisição pela CCEE ou ANEEL 
+para comprovação da existência e validade do contrato; e  
+v) a certificação de equilíbrio ou desequilíbrio deve ser estratificada 
+conforme os seguintes critérios, sem prejuízo de outros: a) contratos 
+de compra de energia celebrados pelo varejista, oferecidos em 
+garantia de financiamento de novos empreendimentos de geração; 
+b) contratos de compra de energia celebrados pelo varejista 
+garantidos por ativos financeiros; c) contratos de compra de energia 
+celebrados pelo varejista mediante prestação de garantias reais; d) 
+contratos de compra de energia celebrados pelo varejista mediante 
+prestação de garantias fidejussórias; e) contratos de compra de 
+energia celebrados pelo varejista com previsão contratual de 
+ressarcimento, acrescido ou não de penalidades; e f) demais 
+contratos de compra de energia celebrados pelo varejista. 
+(Modelo disponível no site da CCEE) 
+✔           ✔ ✔ ✔ ✔ 
+Demais documentos comprobatórios. ✔           ✔ ✔ ✔ ✔ 
+Documentos - representado                     
+Contrato para Comercialização Varejista.   ✔     ✔ ✔ ✔ ✔ ✔ ✔ 
+Contrato(s) de Uso do Sistema. 
+(Caso aplicável) ✔       ✔ ✔   ✔ ✔ ✔ 
+Faturas de energia/contas de fornecimento dos últimos meses de 
+consumo cativo. 
+(Caso aplicável) 
+✔       ✔ ✔   ✔ ✔   
+Termo de Instituição de Comunhão de Direito, para conjunto de 
+unidades consumidoras.   ✔       ✔         
+Termo de Instituição de Comunhão de Fato, para conjunto de 
+unidades consumidoras localizadas em áreas contíguas.   ✔ ✔ ✔   ✔         
+Declaração de Responsabilidade Solidária, quando da habilitação de 
+representado integrante do grupo societário, complexo industrial 
+e/ou comercial. 
+  ✔     ✔ ✔         
+Termo de Ciência, quando da habilitação de representado integrante 
+do grupo societário, complexo industrial e/ou comercial.   ✔     ✔ ✔   ✔ ✔ ✔ 
+Declaração de Responsabilidade Solidária e Representação, quando 
+da habilitação de representado que seja gerador com capacidade 
+instalada igual ou superior a 50 MW não comprometido com CCEAR, 
+CER ou Cotas. 
+  ✔           ✔ ✔ ✔ 
+Demais documentos previstos em outras normas ou Procedimentos 
+de Comercialização aplicáveis. ✔       ✔ ✔   ✔ ✔ ✔
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+24 
+ 
+procedimentos de 
+comercialização 
+Legenda: 
+Dist.: Distribuição 
+DD: Documento Digitalizado 
+DE: Documento Eletrônico 
+DFR: Documento com firma reconhecida 
+DAD: Documento assinado digitalmente 
+CL: Consumidor Livre 
+CE: Consumidor Especial 
+COM: Comercializador 
+APE: Autoprodutor de Energia 
+PIE: Produtor Independente 
+G: Demais Geradores
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+25 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Habilitação do varejista
+Proponente 
+varejista CCEE CAd
+Início
+N.A.
+Solicitar 
+habilitação e 
+apresentar 
+documentos
+Até 5du
+Analisar 
+documentação 
+de habilitação
+Necessita 
+documentaçã
+o adicional?
+N.A.
+Apresentar 
+documentação 
+adicional
+Sim
+Até 1du
+Comunicar 
+resultado da 
+deliberação
+Até M-8du
+Deliberar sobre 
+a solicitação de 
+habilitação
+Até 2du
+Publicar 
+resultado da 
+deliberação
+Não
+Fim
+ 
+Legenda: 
+M: mês de operação de compra e venda de energia   
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+26 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Habilitação do varejista 
+Atividade Responsável Detalhamento Prazo 
+Solicitar habilitação e 
+apresentar documentos 
+Proponente 
+varejista 
+Solicitar a habilitação à Comercialização Varejista por meio 
+do sistema específico e apresentar os documentos 
+exigidos. 
+N.A. 
+Analisar documentação de 
+habilitação CCEE 
+Disponibilizar no sistema específico a conclusão da análise 
+do cadastro e documentação apresentada pelo 
+proponente. 
+Até 5du 
+Apresentar documentação 
+adicional 
+Proponente 
+varejista 
+Complementar, caso necessário , o cadastro e/ou 
+documentação de habilitação, por meio do sistema  
+específico. 
+N.A. 
+Analisar documentação de 
+habilitação CCEE 
+Disponibilizar no sistema específico a conclusão da análise 
+da informação e/ou documentação adicional apresentada 
+pelo proponente. 
+Até 5du 
+Deliberar sobre a 
+solicitação de habilitação CAd - Até M-8du 
+Comunicar resultado da 
+deliberação CCEE Comunicar ao proponente sobre o resultado da 
+deliberação do CAd. 
+Até 1du após a 
+deliberação do CAd 
+Publicar resultado da 
+deliberação CCEE Publicar no site da CCEE o resultado da deliberação do CAd. Até 2du após a 
+deliberação do CAd 
+ 
+Legenda: 
+M: mês de operação de compra e venda de energia   
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+27 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+7.1. Declaração de Responsabilidade Solidária 
+ 
+DECLARAÇÃO DE RESPONSABILIDADE SOLIDÁRIA 
+(GRUPO SOCIETÁRIO ou COMPLEXO INDUSTRIAL-COMERCIAL) 
+ 
+ 
+<Nome empresarial do representado> , inscrita no CNPJ/MF sob n°: <CNPJ>, com endereço em: <Endereço Completo>, 
+neste ato representada por seus representantes legais abaixo assinados, nos termos de seu Estatuto/Contrato Social, a 
+ser representada no âmbito da CCEE pelo Varejista <Nome empresarial do varejista> , sigla: <Sigla na CCEE>, inscrito no 
+CNPJ/MF sob n°: <CNPJ>, vem por meio da presente expressamente declarar: 
+ 
+i. Possuir pleno conhecimento e comprometer -se a cumprir a legislação e normas regulatórias aplicáveis ao 
+setor elétrico brasileiro, em especial a Lei n° 10.848/2004, Decreto n° 5.163/2004, Decreto n° 5.177/2004, a 
+Convenção de Comercialização de Energia Elét rica, os Procedimentos e as Regras de Comercialização, 
+disponíveis no site da CCEE, bem como a Lei n° 12.846/2013; 
+ii. Ser integrante de GRUPO SOCIETÁRIO ou COMPLEXO INDUSTRIAL -COMERCIAL do agente representante 
+varejista no âmbito da CCEE; 
+iii. Ser RESPONSÁVEL SOLIDÁRIO em relação à eventual resultado financeiro negativo apurado em face de seu 
+representante varejista no âmbito da CCEE, proporcionalmente nos termos da regulamentação vigente e 
+demais normas, regras e procedimentos regulamentares aplicáveis, abrindo mão de qualquer direito de 
+preferência; 
+iv. Comprometer-se com a presente declaração, respondendo, de forma integral, pela autenticidade, legalidade 
+e veracidade das informações aqui prestadas nas esferas administrativa, cível e criminal, isentando a CCEE 
+de qualquer responsabilidade sobre informação que tenha sido cadastrada erroneamente ou não atualizada. 
+ 
+ 
+<Local>, <Data> de <Mês> de <Ano>. 
+ 
+ 
+ 
+____________________________________________ 
+<Assinatura do representante legal do representado> 
+ 
+ 
+ 
+____________________________________________ 
+<Assinatura do representante legal do varejista> 
+ 
+ 
+ 
+O(s) representante(s) legal(is) das empresas deve(m) ser indicado(s) nos sistemas da CCEE sob sua inteira responsabilidade, sem limitação de quantidade.  
+ 
+Este documento é gerado automaticamente pelo sistema da CCEE, devendo ser assinado conforme as opções de assinaturas previstas neste submódulo, 
+nos termos da legislação vigente.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+28 
+ 
+procedimentos de 
+comercialização 
+7.2. Declaração de Responsabilidade Solidária e Representação 
+ 
+DECLARAÇÃO DE RESPONSABILIDADE SOLIDÁRIA E REPRESENTAÇÃO 
+(GERADOR com capacidade instalada igual ou superior a 50 MW não comprometidos com CCEAR, CER ou Cotas) 
+ 
+ 
+<Nome empresarial do agente da CCEE representado> , inscrita no CNPJ /MF sob n°: <CNPJ>, com endereço em: 
+<Endereço completo> , neste ato representada por seus representantes legais abaixo assinados, nos termos de seu 
+Estatuto/Contrato Social, a ser representada no âmbito da CCEE pelo Varejista <Nome empresarial do varejista> , sigla: 
+<Sigla na CCEE>,  inscrito no CNPJ/MF sob n°: <CNPJ>, vem por meio da presente expressamente declarar: 
+ 
+i. Possuir pleno conhecimento e comprometer -se a cumprir a legislação e normas regulatórias aplicáveis ao 
+setor elétrico brasileiro, em especial a Lei n° 10.848/2004, Decreto n° 5.163/2004, Decreto n° 5.177/2004, a 
+Convenção de Comercialização de Energia Elét rica, os Procedimentos e as Regras de Comercialização, 
+disponíveis no site da CCEE, bem como a Lei n° 12.846/2013; 
+ii. Ser RESPONSÁVEL SOLIDÁRIO em relação à eventual resultado financeiro negativo apurado em face de seu 
+representante varejista no âmbito da CCEE, proporcionalmente nos termos da regulamentação vigente e 
+demais normas, regras e procedimentos regulamentares aplicáveis, abrindo mão de qualquer direito de 
+preferência; 
+iii. Estar ciente de  que, enquanto perdurar sua representação pelo varejista no âmbito da CCEE, este será o 
+único e integral responsável, em caráter irrevogável e irretratável, pelo relacionamento com a CCEE, ficando 
+inclusive outorgado ao varejista  o direito ao exercício exclusivo de seu voto de associado, inclusive do voto 
+correspondente à categoria de geração, bem como todos os demais direitos e obrigações deles decorrentes; 
+iv. Comprometer-se com a presente declaração, respondendo, de forma integral, pela autenticidade, legalidade 
+e veracidade das informações aqui prestadas nas esferas administrativa, cível e criminal, isentando a CCEE 
+de qualquer responsabilidade sobre informação que tenha sido cadastrada erroneamente ou não atualizada. 
+ 
+ 
+<Local>, <Data> de <Mês> de <Ano>. 
+ 
+ 
+ 
+____________________________________________ 
+<Assinatura do representante legal do representado> 
+ 
+ 
+ 
+____________________________________________ 
+<Assinatura do representante legal do varejista> 
+ 
+ 
+ 
+O(s) representante(s) legal(is) das empresas deve(m) ser indicado(s) nos sistemas da CCEE sob sua inteira responsabilidade, sem limitação de quantidade.  
+ 
+Este documento é gerado automaticamente pelo sistema da CCEE, devendo ser assinado conforme as opções de assinaturas previstas neste submódulo, 
+nos termos da legislação vigente.
+
+Submódulo 1.6 – Comercialização Varejista 
+Revisão 6.0 
+29 
+ 
+procedimentos de 
+comercialização 
+7.3.  Termo de Ciência 
+ 
+TERMO DE CIÊNCIA 
+(GRUPO SOCIETÁRIO ou COMPLEXO INDUSTRIAL-COMERCIAL) 
+ 
+ 
+<Nome empresarial do representado> , inscrita no CNPJ/MF sob n°: <CNPJ>, com endereço em: <Endereço completo>, 
+candidato no âmbito da CCEE à modelagem de sua carga no Ambiente de Contratação Livre por meio de representação 
+pelo Varejista <Nome empresarial do varejista> , sigla: <Sigla na CCEE> , inscrito no CNPJ/MF sob n°:  <CNPJ>, neste ato 
+representada por seus representantes legais abaixo assinados, nos termos de seu Estatuto/Contrato Social vem, por meio 
+do presente, expressamente declarar sua CIÊNCIA de que o eventual descumprimento, pelo varejista, da restrição 
+aplicável à extensão da representação, nos termos da regulamentação vigente , ensejará a inabilitação do varejista, com 
+todas as repercussões que disso possam advir ao representado. 
+ 
+ 
+<Local>, <Data> de <Mês> de <Ano>. 
+ 
+ 
+ 
+____________________________________________ 
+<Assinatura do representante legal do representado> 
+ 
+ 
+ 
+____________________________________________ 
+<Assinatura do representante legal do varejista> 
+ 
+ 
+ 
+O(s) representante(s) legal(is) das empresas deve(m) ser indicado(s) nos sistemas da CCEE sob sua inteira responsabilidade, sem limitação de quantidade.  
+ 
+Este documento é gerado automaticamente pelo sistema da CCEE, devendo ser assinado conforme as opções de assinaturas previstas neste submódulo, 
+nos termos da legislação vigente.

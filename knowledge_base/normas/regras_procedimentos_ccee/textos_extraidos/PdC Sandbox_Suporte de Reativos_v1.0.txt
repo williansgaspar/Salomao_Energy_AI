@@ -1,0 +1,103 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC Sandbox_Suporte de Reativos_v1.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+1 
+  
+  
+procedimentos provisórios 
+de comercialização 
+Procedimentos Provisórios 
+Sandbox de Serviço Ancilar de Suporte de Reativos
+
+Sandbox de Serviço Ancilar de Suporte de Reativos 
+Revisão 1.0 
+2 
+ 
+procedimentos provisórios  
+de comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+  
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Resolução Autorizativa nº 16.539/2025 - 1º.01.2026
+
+Sandbox de Serviço Ancilar de Suporte de Reativos 
+Revisão 1.0 
+3 
+ 
+procedimentos provisórios  
+de comercialização 
+1. INTRODUÇÃO 
+Os serviços ancilares têm por finalidade assegurar o correto funcionamento do sistema elétrico, mantendo a 
+segurança de suprimento e a qualidade requerida para sua operação.  
+A REN nº 1.062/2023 incluiu o art. 33-A na REN nº 1.030/2022, o qual estabelece a possibilidade de a Agência 
+Nacional de Energia Elétrica – ANEEL autorizar o Operador Nacional do Sistema Elétrico – ONS a dispor de 
+ambiente regulatório experimental ( sandbox) para testar produtos alternativos para prestação de serviços 
+ancilares, tendo como base um estudo elaborado pelo ONS com a identificação do serviço ancilar prioritário a 
+ser testado, considerando as necessidades sistêmicas.  
+Por meio do referido estudo, o ONS identificou que o serviço ancilar prioritário a ser testado é o de suporte 
+de potência reativa para controle de tensão. 
+Nesse sentido, foi publicada a REA nº 16.539/2025, que autoriza o ONS a contratar, em ambiente regulatório 
+experimental, produtos alternativos para prestação do serviço ancilar de suporte de reativos para controle de 
+tensão, adicional aos requisitos mínimos estabelecidos nos Procedimentos de Rede, definindo as diretrizes da 
+contratação a ser realizada mediante procedimento concorrencial promovido pelo ONS, com a  posterior 
+celebração de Contrato de Prestação de Serviços Ancilares – CPSA com os participantes vencedores. 
+2. OBJETIVO 
+Estabelecer os procedimentos necessários para operacionalização do sandbox de serviço ancilar de suporte 
+de reativos para controle de tensão no âmbito da CCEE, de acordo com a regulamentação vigente. 
+As definições contidas nas Regras de Comercialização e neste submódulo são consideradas de forma provisória 
+até a ocorrência de  eventual aprovação pela ANEEL , sem ensejar recontabilização em função da nova 
+regulamentação.  
+3. PREMISSAS 
+3.1 O prestador de serviço ancilar de suporte de reativos participa do sandbox, de acordo com as 
+definições contidas em edital específico referente ao procedimento concorrencial promovido pelo 
+ONS, desde que: 
+3.1.1 Seja agente da CCEE, nos termos dos submódulos 1.1 – Adesão à CCEE e 1.2 – Cadastro de 
+agentes; ou 
+3.1.2 Esteja modelado sob agente varejista, nos termos do submódulo 1.6 – Comercialização 
+varejista. Neste caso, o prestador de serviço ancilar de suporte de reativos participa do 
+sandbox na CCEE, obrigatoriamente, por meio do seu agente varejista.
+
+Sandbox de Serviço Ancilar de Suporte de Reativos 
+Revisão 1.0 
+4 
+ 
+procedimentos provisórios  
+de comercialização 
+3.2 Não é necessária a criação de um perfil de agente exclusivo para participação no sandbox. 
+3.3 O envio dos dados de medição à CCEE deve obedecer ao disposto no submódulo 2.1 – Coleta e ajuste 
+de dados de medição. 
+3.4 A CCEE é isenta de qualquer responsabilidade sobre dados ou informações enviados pelo prestador 
+de serviço ancilar de suporte de reativos  e/ou pelo ONS , c onsiderando-os verdadeiros, válidos e 
+atualizados desde sua apresentação. 
+3.5 A apuração dos valores financeiros referentes ao sandbox é realizada pela CCEE no mês seguinte 
+(“MS”) ao mês de referência “M” do despacho do serviço ancilar de suporte de reativos pelo ONS. 
+3.6 Os valores financeiros referentes ao sandbox são inseridos na contabilização do Mercado de Curto 
+Prazo – MCP referente ao mês “M”  e são percebidos pelo agente da CCEE na liquidação financeira 
+do MCP, observado s os submódulos 5.1 – Contabilização e recontabilização e  5.2 – Liquidação no 
+MCP, respectivamente, bem como as datas -limites desta operação, as quais se encontram 
+disponíveis no Calendário Geral de Operações e Relatórios, divulgado pela CCEE em seu site. 
+3.7 Os resultados associados ao sandbox participam regularmente do rateio d a inadimplência da 
+liquidação financeira do MCP e são liquidados na mesma conta corrente utilizada para as operações 
+do MCP, não sendo necessária a abertura de conta corrente específica para este fim. 
+3.8 A CCEE deve disponibilizar mensalmente, em seu site, os resultados totais relativos ao sandbox.  
+ 
+4. LISTA DE DOCUMENTOS 
+Não aplicável. 
+5. FLUXO DE ATIVIDADES 
+Não aplicável. 
+6. DESCRIÇÃO DE ATIVIDADES 
+Não aplicável. 
+7. ANEXOS 
+Não aplicável.

@@ -1,0 +1,713 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 1.4_-_atendimento_v11.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 1.4_-_atendimento_v11.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 1 – Agentes 
+Submódulo 1.4 – Atendimento 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP n° 05/2012) Despacho nº 3.215/2012 16.10.2012 
+2.0 Adequação à REN nº 545/2013 e ao Despacho 
+SEM/ANEEL n° 432/2014 Despacho nº 4.881/2014 22.12.2014 
+3.0 Adequação à REN n° 683/2015, REN n° 711/2016, REN 
+n° 755/2016 e demais aprimoramentos Despacho n° 1.911/2017 30.06.2017 
+4.0 Adequação à REN n° 802/2017 e demais 
+aprimoramentos Despacho n° 1.975/2018 31.08.2018 
+5.0 
+Adequação ao Sistema de Gestão de Sanções e 
+Desligamentos, PRT MME n° 301/2019, REN nº 
+909/2020 e demais aprimoramentos 
+Despacho n° 3.646/2020 01.01.2021 
+6.0 Aprimoramentos Despacho n° 485/2022 16.02.2022 
+7.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1.012/2022 01.04.2022 
+8.0 Adequação à REN nº 1.014/2022 e demais 
+aprimoramentos Despacho nº 1.029/2023 17.04.2023 
+9.0 Aprimoramento no plano de contingência para 
+divulgação do PLD  Despacho nº 4.615/2023 06.12.2023 
+10.0 Adequação à REN nº 1.078/2023 Resolução Normativa nº 
+1.104/2024 31.10.2024 
+11.0 Adequação à Tomada de Subsídios nº 002/2025 Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A CCEE, com o objetivo de agilizar o trâmite de documentação, divulgação de informações , solicitações, 
+questionamentos recebidos e, consequentemente, contribuir para a celeridade no tratamento de ocorrências, 
+determinou os procedimentos a serem observados pelos agentes e demais interessados, quando do 
+relacionamento com a Câmara. 
+2. OBJETIVO 
+Estabelecer os processos referentes ao relacionamento do agente com a CCEE, abaixo elencados: 
+a) Atendimento; 
+b) Documentação, Correspondências e Processos; 
+c) Pedido de Vistas e/ou Cópias de documentos/processos; 
+d) Prazos; 
+e) Entrada de Dados por Contingência; 
+f) Conciliação; 
+g) Decisões proferidas no âmbito da CCEE; 
+h) Divulgação das Funções de Custo Futuro e dos Preços de Liquidação das Diferenças (PLD e PLDX); e 
+i) Divulgação de Resultados e Informações - DRI. 
+3. PREMISSAS 
+Atendimento 
+3.1 Todo relacionamento do agente com a CCEE deve ser realizado por intermédio da Central de 
+Atendimento ou por carta/ofício via Central de Documentação - CEDOC. As informações para contato 
+com a CCEE, como telefone, endereço , canais eletrônicos  e horários de funcionamento  estão 
+disponíveis em seu site.  
+3.2 O(s) código(s) de atendimento, gerado(s) pela CCEE e enviado(s) ao(s) contato(s) do agente, deve(m) 
+ser informado(s) na abertura de chamados quando solicitado(s) pela Central de Atendimento 
+durante o processo de atendimento.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.3 Toda comunicação do agente com a Central de Atendimento deve ser registrada e um número de 
+chamado deve ser gerado com o respectivo prazo para atendimento e fornecido ao solicitante, com 
+o objetivo de facilitar seu acompanhamento e identificação. 
+3.3.1 A CCEE encaminha, via e-mail, resposta formal do chamado com a solução encontrada. 
+3.4 A CCEE pode entrar em contato com o agente para solicitar a prestação de informações e/ou o envio 
+de documentos para solução do chamado. 
+3.5 Os chamados respondidos pela CCEE possuem caráter meramente informativo. 
+3.6 Caso o agente não concorde com a resposta formal do chamado, conforme previsto na premissa 
+3.3.1, pode adotar os procedimentos estabelecidos nas premissas a seguir. 
+3.7 Em caso de não concordância com a informação prestada em resposta ao chamado, o agente poderá 
+encaminhar contestação à CCEE  por carta/ofício via CEDOC , no prazo de até 5 (cinco) dias  úteis, 
+contados a partir da emissão do posicionamento, indicando o número do chamado e detalhando os 
+fundamentos que justificam seu entendimento. 
+3.7.1 A CCEE deverá responder a contestação em até 30 (trinta) dias. 
+3.8 Caso a CCEE mantenha integral ou parcialmente o seu entendimento, o agente poderá solicitar em 
+até 5 (cinco) dias úteis, por chamado, indicando o número da carta resposta da CCEE, que a 
+contestação de que trata a premissa anterior seja submetida à deliberação da Diretoria da CCEE. 
+3.9 Os dados recebidos por meio da Central de Atendimento podem ser descartados pela CCEE 5 (cinco) 
+anos após o agente ser desligado da CCEE, por meio de seus controles de segurança. 
+3.10 A CCEE não disponibiliza em suas dependências estrutura para acesso pelos agentes aos seus 
+sistemas específicos. 
+3.11 A CCEE não realiza atendimento pessoal em suas dependências sem agendamento prévio. 
+3.12 A comunicação direta entre um agente e as áreas operacionais da CCEE só deve ocorrer por ocasião 
+de reuniões específicas, que devem ser previamente agendadas pela Central de Atendimento. 
+Documentação, Correspondências e Processos 
+3.13 Todos os documentos físicos endereçados à CCEE devem  vir acompanhados  de Carta de 
+Encaminhamento de Documentos, preferencialmente conforme modelo disponível no site da CCEE, 
+com identificação clara do assunto, e ser encaminhados ou entregues, exclusivamente, no endereço 
+disponível no site da CCEE, aos cuidados da CEDOC, onde são registrados e cadastrados.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.13.1 Não se aplica essa premissa para os documentos que devem ser enviados digitalmente à 
+CCEE por meio de sistemas específicos, conforme estabelecido nos Procedimentos de 
+Comercialização.  
+3.14 É obrigatório informar nos documentos físicos ou digitalizados, encaminhados à CCEE, os dados de 
+identificação do remetente, tais como nome, assinatura  do remetente responsável , endereço, 
+telefone e e -mail para contato, bem como a identificação clara d o assunto. A CCEE se reserva ao 
+direito de não receber e não realizar o protocolo d os documentos físicos ou digitalizados caso tais 
+requisitos não sejam cumpridos pelo remetente. 
+3.15 A CCEE deve entrar em contato com o agente para informar inconsistências na documentação 
+enviada e, neste caso, a eventual solicitação do agente fica suspensa até a solução das pendências 
+identificadas. 
+3.16 A tempestividade de qualquer documento enviado à CCEE deve ser verificada de acordo com a data 
+de recebimento pela CCEE, considerando o disposto nas premissas a seguir. 
+3.17 Os documentos físicos devem ser considerados efetivamente recebidos pela CCEE, respeitando o 
+horário de expediente da CEDOC, nas seguintes situações:  
+a) Quando entregues pessoalmente, mediante o comprovante de recebimento registrado pela 
+CCEE;  
+b) Quando enviados pelos Correios e demais empresas de serviço postal : na data atestada no 
+Aviso de Recebimento - AR ou informada no histórico de rastreamento de objetos.  
+3.18 Os documentos digitalizados devem ser considerados efetivamente recebidos pela CCEE nas 
+seguintes situações: 
+a) Quando enviados por e -mail, respeitando o horário de expediente do destinatário dos 
+documentos, seja Central de Atendimento ou CEDOC , condicionado à entrega dos 
+documentos originais caso seja solicitado pela CCEE; 
+b) Quando enviados por meio de sistemas específicos, até a data limite (os horários específicos 
+para a realização das atividades nas datas -limite estão disponíveis no site da CCEE e/ou são 
+informados por meio de comunicado) definida em submódulos específicos dos Procedimentos 
+de Comercialização e/ou normas de regência vigentes. 
+3.19 Os modelos padronizados de documentos de que tratam os Procedimentos de Comercialização não 
+são passíveis de alteração pelo agente e estão disponíveis no site da CCEE.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.20 Caso esses documentos sejam recebidos pela CCEE com alterações , serão considerados como 
+inválidos. 
+Pedido de vistas e/ou de cópias digitais de documentos/processos 
+3.21 Somente o agente ou seu representante CCEE são partes legítimas para solicitar à Câmara vistas e/ou 
+cópias de documentos/processos dos quais o agente seja parte, desde que não protegidos por sigilo. 
+3.22 A CCEE dev e disponibilizar documentos e processos pa ra vistas e/ou cópias em meio digital, sem 
+custos para o agente. 
+3.23 O agente deve enviar à CCEE a solicitação de vistas e/ou cópias digitais de documentos ou processos, 
+por meio de chamado, no qual devem constar:  i) siglas do agente e do seu representante CCEE; ii) 
+respectivos códigos de atendimento do agente e do seu representante CCEE ; iii) nome do(a) 
+autorizado(a) a obter  vistas e/ou retirar a cópia digital , caso não seja o próprio agente ou 
+representante (será disponibilizado em mídia digital - CD, caso o tamanho do arquivo exceda o 
+permitido para envio por e-mail); iv) tipo de solicitação (cópia digital e/ou vistas, inclusive indicar se 
+é o caso de vista presencial na CCEE ); v) nome /número do(s) documento(s) e/ou processo(s)  
+objeto(s) da solicitação ; vi) demais informações complementares necessárias para a identificação 
+clara do(s) documento(s) e/ou processo(s). 
+3.24 Nos casos em que os documentos ou processos sejam disponibilizados por meio d o(s) próprio(s) 
+sistema(s) da CCEE, a solicitação  e/ou disponibilização  de cópias digitais deve ser realizada 
+diretamente na(s) ferramenta(s). 
+3.25 O solicitante deve indicar se o pedido de cópia  de processo é integral ou parcial (neste caso, com 
+indicação dos números das folhas, se possível). 
+3.26 Caso o agente solicite cópia de processo, incluindo relatório e voto correspondentes à última 
+deliberação em reunião da Diretoria da CCEE, as cópias somente devem ser disponibilizadas após a 
+publicação formal da decisão. 
+3.27 Caso existam informações de outros agentes, a cópia do processo, incluindo relatório e voto, deve 
+contemplar a totalidade das informações pertinentes aos agentes envolvidos, com exceção daquelas 
+que tenham caráter sigiloso.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.28 Não sendo possível o atendimento imediato de vistas e/ou cópias nos casos de atos processuais 
+sujeitos a prazos, esses devem ficar suspensos a partir da data de recebimento da solicitação, até 
+que os autos do processo/documentos sejam efetivamente disponibilizados ao agente  (os prazos 
+processuais não serão reiniciados; após a disponibilização da cópia ao agente, os prazos processuais 
+recomeçarão a fluir pelo tempo remanescente), oportunidade em que devem voltar a fluir, sem que 
+sejam reiniciados. 
+Termo de Notificação ou Notificação ou Comunicação enviado(a) pela CCEE 
+3.29 O Termo de Notificação - TN ou notificação ou comunicação enviado(a) pela CCEE deve ser 
+encaminhado(a) ao destinatário preferencialmente por meio eletrônico, mas também pode ocorrer 
+pelos Correios ou por outra empresa de serviço postal. 
+3.29.1 A comprovação de recebimento do TN ou notificação ou comunicação encaminhado(a) 
+pela CCEE ocorre por meio do comprovante de recebimento de e -mail registrado ou do 
+aviso de recebimento - AR dos Correios ou de outra empresa de serviço postal. 
+3.30 Nas hipóteses em que o início da contagem do prazo do destinatário, previsto na regulamentação 
+vigente, for vinculado ao recebimento do termo de notificação ou notificação ou comunicação 
+enviado(a) pela CCEE, considera-se como data inicial:  
+3.30.1 Na hipótese de envio por meio eletrônico, endereçado ao correio eletrônico constante no 
+cadastro do destinatário na CCEE, ativo ou não: aquela da confirmação de leitura da 
+mensagem; ou, caso es sa não ocorra, após cinco dias corridos, contados da data de 
+confirmação do recebimento ou de falha no envio da mensagem eletrônica. 
+3.30.2 Na hipótese de envio pelos Correios ou por outra empresa de serviço postal: aquela 
+atestada no AR; ou, no caso de insucesso da entrega pelos Correios ou por outra empresa 
+de serviço postal, aquela da primeira tentativa de entrega atestada no AR ou informada no 
+histórico de rastreamento de objetos no site dos Correios ou de outra empresa de serviço 
+postal.  
+Prazos 
+3.31 A contagem dos prazos estabelecidos nos Procedimentos de Comercialização deve ser  realizada 
+observando-se apenas os dias úteis,  de acordo com o Calendário Geral de Operações da CCEE, 
+disponível em seu site, ressalvados os casos específicos previstos nos Procedimentos de 
+Comercialização.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+8 
+ 
+procedimentos de 
+comercialização 
+3.32 As atividades relacionadas a pagamentos devem ser efetuadas no dia útil seguinte à data de seus 
+vencimentos quando tais prazos coincidirem com dia em que não haja expediente bancário no 
+município de São Paulo. 
+3.33 Os horários informados nos Procedimentos de Comercialização baseiam-se no horário de Brasília. 
+3.34 Os procedimentos especiais para o horário de verão devem ser informados aos agentes por 
+comunicação formal e estão disponíveis no site da CCEE. 
+3.35 As datas-limite de atividades cujos prazos estejam previstos nos Procedimentos de Comercialização 
+e que coincidam com períodos festivos, como natal, ano novo e carnaval,  podem ser alterad as 
+precária e excepcionalmente a critério da Diretoria da CCEE, com a prévia emissão de comunicado 
+aos agentes, desde que não prejudiquem as operações do mercado.   
+Entrada de Dados por Contingência 
+3.36 O agente que apresentar problemas técnicos no envio de dados relacionados às atividades a seguir, 
+pode fazê-lo por procedimento de contingência: 
+i. Registro de CCEAL ou CBR; 
+ii. Validação de registro de CCEAL ou CBR; 
+iii. Ajuste de CCEAL ou CBR; 
+iv. Validação de ajuste de CCEAL ou CBR; 
+v. Finalização de CCEAL ou CBR; 
+vi. Validação de finalização de CCEAL ou CBR; 
+vii. Cancelamento de CCEAL ou CBR; 
+viii. Validação de cancelamento de CCEAL ou CBR; 
+ix. Registro da sazonalização de CCEAR Q; 
+x. Validação da sazonalização de CCEAR Q; 
+xi. Registro da sazonalização de Contratos de Leilão de Ajuste; 
+xii. Validação da sazonalização de Contratos de Leilão de Ajuste; 
+xiii. Registro da modulação de Contratos de Leilão de Ajuste; 
+xiv. Validação da modulação de Contratos de Leilão de Ajuste; 
+xv. Sazonalização e revisão da sazonalização de garantia física;
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+9 
+ 
+procedimentos de 
+comercialização 
+xvi. Registro de acordo bilateral de CCEAR; 
+xvii. Validação de acordo bilateral de CCEAR; 
+xviii. Fator de repasse de energia de reserva; 
+xix. Cessão de energia de reserva; 
+xx. Preço dos contratos de recomposição de lastro; 
+xxi. Declaração de sobras e déficits de montantes de energia elétrica para MCSD Mensal, Trocas 
+Livres, 4% e MCSD de Energia Nova. 
+3.37 O agente somente pode informar dados por contingência, seja por motivos técnicos de 
+indisponibilidade operacional do sistema específico e/ou por problemas de conectividade, 
+devidamente comprovados, se registrar  (o registro deve ser realizado através de um dos canais 
+informados na premissa 3.1) a ocorrência junto à CCEE até a data limite (os horários específicos para 
+a realização das atividades nas datas -limite estão disponíveis no site da CCEE e/ou são informados 
+por meio de comunicado ) para a entrada dos dados, definid as em submódulos específicos dos 
+Procedimentos de Comercialização.  
+3.38 O agente deve enviar à CCEE a solicitação de entrada de dados por contingência, por meio de  
+chamado, no qual devem constar: i) siglas do agente  e do seu representante CCEE; ii)  respectivos 
+códigos de atendimento do agente e do seu representante CCEE; iii) a(s) atividade(s) para a(s) qual(is) 
+solicita a contingência, listadas na presente seção deste submódulo; iv) juntamente com o arquivo 
+de dados (XML), caso aplicável. 
+3.39 O agente que solicita a entrada de dados por contingência: i) compromete -se a tomar todas as 
+providências necessárias descritas neste submódulo, especialmente nesta seção “Entrada de Dados 
+por Contingência”; ii) autoriza a CCEE a realizar o registro de dad os por contingência conforme 
+arquivo de dados (XML) enviado; e iii) está ciente de que, caso os dados sejam recusados pelo 
+sistema específico, não são nele inseridos, isentando a CCEE de qualquer responsabilidade 
+decorrente do não-registro de dados. 
+3.40 A CCEE deve aceitar os dados e arquivos digitais condicionados à verificação de código de 
+atendimento do agente, nos termos deste submódulo. 
+3.41 A CCEE deve efetivar a entrada de dados por contingência somente se for comprovada a 
+indisponibilidade e/ou o problema de conectividade alegado pelo agente , nos casos que não se 
+enquadram na premissa seguinte.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+10 
+ 
+procedimentos de 
+comercialização 
+3.42 A CCEE pode efetivar a entrada de dados por contingência se houver restrição de acesso do agente 
+aos sistemas específicos da Câmara, decorrente: i) de procedimento de desligamento, nos termos 
+da regulamentação vigente e submódulo específico, ii) de hipóteses previstas nos Procedimentos de 
+Comercialização, e iii) de deliberação da Diretoria da CCEE , de acordo com a regulamentação 
+aplicável. 
+3.43 A CCEE não realiza entrada de dados por contingência para os casos de restrição de acesso 
+decorrente da constituição de garantias financeiras em montante inferior ao mínimo estipulado pela 
+regulamentação vigente.  
+3.44 A CCEE desconsidera os dados recebidos do agente após os prazos limites definidos nos submódulos 
+específicos dos Procedimentos de Comercialização. A CCEE não insere no s sistemas específicos os 
+dados enviados pelo agente fora do formato padrão dos respectivos sistemas. 
+3.45 O agente pode visualizar os dados inseridos pela CCEE nos sistemas específicos imediatamente após 
+a operacionalização da contingência, até o prazo informado na abertura da solicitação, nos termos 
+deste submódulo.  
+Conciliação 
+3.46 A todos os agentes da CCEE deve ser garantido o direito de solicitar a instauração de procedimento 
+de conciliação junto à Câmara. 
+3.47 As questões sujeitas à conciliação no âmbito da CCEE se restringem às controvérsias ou divergências 
+de interesse entre agentes ou entre estes e a CCEE, fundadas  em conflitos no âmbito da Câmara , 
+excluídas as questões de cunho regulatório, de atribuição exclusiva da Agência Nacional de Energia 
+Elétrica - ANEEL. 
+3.48 As controvérsias apresentadas pelo agente devem versar sobre assunto de atribuição da Diretoria 
+da CCEE, consoante previsão constante da Convenção de Comercialização de Energia Elétrica.  As 
+controvérsias que não atendam à condição anterior podem ser dirimidas junto à Câmara de 
+Arbitragem da Fundação Getúlio Vargas, conforme Convenção Arbitral, aprovada pela Assembl eia 
+Geral da CCEE e homologada pela ANEEL. 
+3.49 O procedimento de conciliação deve transcorrer em sigilo, sendo vedado aos colaboradores da CCEE, 
+às partes e aos demais participantes divulgarem qualquer informação a que tenham tido acesso em 
+decorrência de sua participação no procedimento. 
+3.50 As condições da conciliação proposta à CCEE somente podem ser divulgadas para todos os agentes 
+mediante autorização expressa das partes envolvidas, ou quando necessárias à sua execução.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+11 
+ 
+procedimentos de 
+comercialização 
+3.51 A CCEE deve arcar somente com os custos administrativos internos e próprios relacionados à 
+conciliação. Todos os demais custos, tais como locomoção, estadia e alimentação são de 
+responsabilidade das partes envolvidas. 
+3.52 Caso o objeto da controvérsia interesse a um grupo de agentes, o grupo deve nomear um 
+representante para os atos necessários à conciliação. 
+3.53 A CCEE deve disponibilizar para as partes cópia dos documentos relacionados à conciliação por meio 
+de chamado ativo ou, quando solicitado pelas partes, por meio da Central de Atendimento. 
+3.54 O agente que desejar recorrer à conciliação deve solicitá-la à CCEE por meio de requerimento inicial. 
+O requerimento inicial deve ser enviado à CCEE por meio da Central de Atendimento e deve conter 
+as seguintes informações:  i) q ualificação completa do requerente;  ii) e ndereço eletrônico do 
+requerente para recebimento de comunicações/notificações; iii) exposição dos fatos e fundamentos 
+que embasam a sua pretensão; iv) documentação indispensável para comprovar os fatos alegados; 
+v) pedido, com as suas especif icações; vi) identificação completa do agente ou agentes com quem 
+se pretende conciliar;  vii) l ocal e a data do documento;  viii) i dentificação e assinatura do 
+representante do requerente, com documentos que comprovem esse poder. 
+3.55 A Diretoria da CCEE  analisa a pertinência e a adequação do requerimento inicial, nos termos da s 
+premissas desta seção do submódulo , bem como do Regimento Interno  da Diretoria da CCEE, 
+disponível em seu site. 
+3.56 O agente requerente é notificado caso a CCEE não acate o requerimento inicial de conciliação. 
+3.57 Caso a Diretoria da CCEE  acate o requerimento inicial de conciliação, a parte requerida será 
+notificada, nos termos da seção específica deste submódulo, para manifestação sobre o interesse 
+em participar do procedimento, devendo a CCEE encaminhar cópia do requerimento inicial. 
+3.58 Manifestado o interesse pela parte requerida, será nomeado membro da Diretoria da CCEE  que 
+acompanhará o procedimento como conciliador e convocará os envolvidos para a audiência de 
+conciliação. Não manifestado o interesse, as partes envolvidas serão notificadas , nos termos da 
+seção específica deste submódulo, sobre o arquivamento do procedimento de conciliação. 
+3.59 A audiência de conciliação é realizada se a parte requerida comparecer à audiência, sendo facultada 
+a apresentação , por escrito, de seus argumentos de fato e/ou de direito, acompanhados dos 
+documentos que entender pertinentes. 
+3.60 A Diretoria da CCEE, caso entenda necessário, pode solicitar à parte requerente a apresentação de 
+informações ou documentos adicionais de forma a auxiliar o entendimento da questão.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+12 
+ 
+procedimentos de 
+comercialização 
+3.61 Na audiência de conciliação, o membro da Diretoria da CCEE nomeado conciliador poderá ouvir as 
+partes, uma ou mais vezes, em conjunto ou separadamente, solicitar a apresentação de 
+esclarecimentos ou documentos adicionais e promover as diligências que entender necessárias para 
+esclarecer as questões relativas ao caso. 
+3.62 A CCEE pode apresentar documentos e informações necessárias e/ou úteis para a solução da 
+controvérsia durante a audiência, desde que tais dados não sejam confidenciais ou relativos a 
+terceiros estranhos ao conflito. 
+3.63 O membro da Diretoria da CCEE nomeado conciliador pode propor alternativas para a realização da 
+conciliação no decorrer da audiência. 
+3.64 Obtida a conciliação entre as partes, o acordo deve ser reduzido a termo pela CCEE, com a assinatura 
+dos presentes. 
+3.65 Se não for obtida a conciliação, o procedimento é encerrado pela CCEE, lavrando-se um termo com 
+essa informação, que também deve conter a assinatura dos presentes. 
+3.66 O membro da Diretoria da CCEE pode proferir o seu entendimento técnico sobre a questão discutida, 
+ou as condições que lhe pareçam capazes de conduzir a um acordo, caso entenda  possuir os 
+elementos de convicção suficientes para tanto, e as partes assim requeiram  na audiência de 
+conciliação. 
+3.67 Encerrado o procedimento de conciliação sem acordo, as partes podem adotar as medidas cabíveis 
+para a defesa de seus interesses, inclusive a instauração de arbitragem. 
+3.68 Nenhuma circunstância ou fato revelado ou ocorrido durante o processo de conciliação pode vir a 
+prejudicar o direito de qualquer das partes em eventual arbitragem ou demanda judicial posterior à 
+conciliação que se haja frustrado. 
+Decisões proferidas no âmbito da CCEE 
+3.69 O agente que seja parte de processo inscrito para deliberação pela Diretoria da CCEE pode formular 
+pedido de  sustentação oral, nos termos definidos pelo Regimento Interno da Diretoria da CCEE, 
+disponível em seu site.  
+3.69.1 Os pedidos de sustentação oral são objeto de análise e deliberação, nos termos do 
+Regimento Interno da Diretoria da CCEE. 
+3.70 É cabível pedido de impugnação de decisão proferida no âmbito da Diretoria da CCEE, nos termos e 
+prazos definidos pela regulamentação vig ente, sendo que o prazo para interposição deve ser 
+contado:
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+13 
+ 
+procedimentos de 
+comercialização 
+a) Da data da publicação da decisão no site da CCEE; ou 
+b) Da data d o recebimento da notificação da decisão enviada pela CCEE, nos termos da seção 
+específica deste submódulo, exclusivamente para os  processos em que há a obrigação de 
+notificação definida nos Procedimentos de Comercialização e /ou nas normas de regência 
+vigentes. 
+3.71 O pedido de impugnação é considerado protocolizado na CCEE na data de seu efetivo recebimento, 
+nos termos da seção específica deste submódulo. 
+Divulgação das Funções de Custo Futuro e dos Preços de Liquidação das Diferenças 
+(PLD e PLDX) 
+3.72 O cálculo do PLD em base horária é realizado e divulgado diariamente, até as 20 horas, com vigência 
+para as 24 horas do dia subsequente (D), respeitando eventual adoção do horário de verão, com 
+base na execução do modelo de otimização eletroenergética de médio, curto e  curtíssimo prazos, 
+NEWAVE, DECOMP e  DESSEM, respectivamente, de acordo com as Regras de Comercialização  e 
+regulamentação aplicável. 
+3.73 O modelo NEWAVE fornece a Função de Custo Futuro, atualizada com periodicidade mensal, para o 
+acoplamento com o modelo DECOMP. Por sua vez, o modelo DECOMP fornece a Função de Custo 
+Futuro, atualizada semanalmente, para o acoplamento com o modelo DESSEM. O PLD é obtido com 
+base no custo marginal de operação da execução do modelo DESSEM, respeitado os limites máximos 
+e mínimo regulatórios. 
+3.73.1 Na hipótese de acionamento do plano de contingência no processamento dos modelos de 
+médio ou curto prazos do Programa Mensal da Operação (PMO) ou do modelo DESSEM do 
+Programa Diário da Operação Eletroenergética, conforme estabelecido em Módulos 
+específicos dos Procedimentos de Rede, a CCEE deverá seguir a contingência adotada pelo 
+Operador Nacional do Sistema Elétrico – ONS em seus respectivos processos. 
+3.73.2 Na impossibilidade da obtenção dos resultados do modelo NEWAVE pela CCEE, até às 14 
+horas do último dia útil que antecede a primeira semana operativa do estudo  (ou, em 
+função da ocorrência de feriados, do dia da divulgação do modelo NEWAVE a ser 
+informado antecipadamente pela CCEE) , para o acoplamento com o modelo DECOMP, a 
+CCEE utilizará os resultados da execução do modelo de médio prazo do PMO.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+14 
+ 
+procedimentos de 
+comercialização 
+3.73.2.1 Caso a execução do modelo NEWAVE pela CCEE exceda ao prazo previsto na 
+premissa 3.73.2 e a nova função de custo futuro seja obtida até às 14 horas do 
+último dia útil que antecede cada semana operativa do mês de referência (ou, 
+em função da ocorrência de feriados, do dia da divulgação do modelo DECOMP 
+a ser informado antecipadamente pela CCEE), a CCEE passará a considerar esses 
+resultados a partir d a semana operativa subsequente àquela em que os 
+resultados foram obtidos. 
+3.73.3 Na impossibilidade da obtenção dos resultados do modelo DECOMP pela CCEE, até às 17 
+horas do último dia útil que antecede a semana operativa do estudo  (ou, em função da 
+ocorrência de feriados, do dia da divulgação do modelo DECOMP a ser informado 
+antecipadamente pela CCEE), para o acoplamento com o modelo DESSEM, a CCEE utilizará 
+os resultados da execução do modelo de curto prazo do PMO. 
+3.73.3.1 Caso a execução do modelo DECOMP pela CCEE exceda ao prazo previsto na 
+premissa 3.73.3 e a nova função de custo futuro seja obtida até às 17 horas do 
+penúltimo dia da semana operativa, a CCEE passará a utilizar esses resultados no 
+dia subsequente àquele em que os resultados foram obtidos. 
+3.73.4 Na impossibilidade da obtenção dos resultados do modelo DESSEM pela CCEE, até as 20 
+horas do dia anterior a sua vigência, o cálculo do PLD deverá obedecer aos seguintes 
+critérios de contingência: 
+3.73.4.1 Execução do modelo DESSEM desabilitando o algoritmo crossover. 
+3.73.4.2 Execução do modelo DESSEM desabilitando o algoritmo crossover e a 
+representação do Unit Commitment das usinas termelétricas. 
+3.73.4.3 Quando da impossibilidade da obtenção dos resultados do modelo DESSEM 
+desabilitando o algoritmo crossover e a representação do Unit Commitment das 
+usinas termelétricas, o PLD deverá ser  o CMO médio horário de cada 
+submercado, respeitados os limites máximos e mínimo do PLD, caso o CMO 
+proveniente do modelo DESSEM do Programa Diário da Operação 
+Eletroenergética tenha sido publicado. 
+3.74 A CCEE deve comunicar ao mercado eventuais acionamentos do plano de contingência, bem como 
+os respectivos motivadores. 
+3.75 O cálculo do PLDx é realizado anualmente e divulgado em até 5 (cinco) dias úteis após a divulgação 
+da contabilização do mês de dezembro do ano anterior.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+15 
+ 
+procedimentos de 
+comercialização 
+3.76 Caso o agente de geração termelétrico opte por declarar o Custo Variável Unitário – CVU inferior ao 
+atualizado pela CCEE ou aprovado pela ANEEL, nos termos da regulamentação vigente, tal declaração 
+deve ser realizada pelo referido agente diretamente ao ONS  conforme Módulos específicos dos 
+Procedimentos de Rede. 
+3.76.1 A CCEE utilizará o valor do CVU declarado pelo agente termelétrico ao ON S, nos termos 
+das Regras de Comercialização.  
+Divulgação de Resultados e Informações – DRI 
+3.77 Os relatórios de divulgação d e resultados e informações  somente podem ser acessados por: i) 
+agentes da CCEE que tenham acesso ao sistema  específico, ii) entidades do setor elétrico , e iii) 
+pessoas com autorização de acesso aos dados e informações, por determinação normativa, 
+regulatória, legal, administrativa ou decorrente de ação judicial. 
+3.78 Os relatórios de informações ao público em geral devem ser disponibilizados para consulta no site 
+da CCEE. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+16 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Conciliação
+Parte Requerente Diretoria da CCEE Parte
+Requerida
+Requerimento
+inicial
+Em até 5du do 
+recebimento da 
+notificação
+Manifestar interesse 
+em participar da 
+conciliação
+SimNão
+Em até 10du
+Analisar 
+requerimento 
+inicial
+Requeriment
+o acatado?
+Em até 30du da 
+convocação da 
+audiência
+Realizar audiência
+Em até 5du da 
+análise da Diretoria 
+da CCEE
+Notificar parte 
+requerente sobre o 
+não acatamento do 
+requerimento
+Em até 5du da análise 
+da Diretoria da CCEE
+Informar a parte 
+requerente sobre o 
+acatamento do 
+requerimento e 
+notificar a parte 
+requerida para 
+manifestar interesse 
+na conciliação
+Em até 5du da 
+nomeação
+Convocar os 
+envolvidos para 
+audiência de 
+conciliação
+Tem
+interesse na 
+conciliação?
+Sim
+Não
+Em até 5du da 
+manifestação
+Arquivar o 
+procedimento de 
+conciliação e notificar 
+as partes requerente e 
+requerida sobre o 
+arquivamentoApós a audiência
+Lavrar Termo de 
+Conciliação
+Em até 10du da 
+manifestação
+Nomear membro 
+da Diretoria como 
+conciliador
+Fim
+N.A.
+Solicitar 
+audiência de 
+conciliação
+ 
+Legenda: 
+N.A.: Não aplicável 
+du: Dias úteis
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+17 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Conciliação  
+Atividade Responsável Detalhamento Prazo 
+Solicitar audiência de conciliação Parte 
+Requerente 
+Enviar à CCEE o requerimento inicial  relativo à 
+conciliação, nos termos deste submódulo. N.A. 
+Analisar requerimento inicial Diretoria da 
+CCEE A Diretoria da CCEE deve analisar o requerimento inicial. Em até 10du 
+Notificar parte requerente sobre 
+o não acatamento do 
+requerimento 
+Diretoria da 
+CCEE 
+Caso o requerimento  não seja acatado, a  parte 
+requerente será notificada sobre o não acatamento. 
+Em até 5du da 
+análise da 
+Diretoria da 
+CCEE 
+Informar a parte requerente 
+sobre o acatamento do 
+requerimento e notificar a parte 
+requerida para manifestar 
+interesse na conciliação 
+Diretoria da 
+CCEE 
+Caso o requerimento seja acatado, a parte requerente 
+será informada sobre o acatamento do requerimento e 
+a parte requerida será notificada para manifestar 
+interesse em participar da conciliação. 
+Em até 5du da 
+análise da 
+Diretoria da 
+CCEE 
+Manifestar interesse em 
+participar da conciliação 
+Parte 
+Requerida 
+Caso tenha interesse em participar da conciliação, a 
+parte requerida deve se manifestar nesse sentido. 
+Em até 5du do 
+recebimento da 
+notificação 
+Arquivar o procedimento de 
+conciliação e notificar as partes 
+requerente e requerida sobre o 
+arquivamento 
+Diretoria da 
+CCEE 
+Caso a parte requerida não tenha interesse em 
+participar da conciliação, o procedimento de 
+conciliação será arquivado e as partes serão notificadas. 
+Em até 5du da 
+manifestação 
+Nomear membro da Diretoria da 
+CCEE como conciliador 
+Diretoria da 
+CCEE 
+Caso a parte requerida tenha interesse em participar da 
+conciliação, será nomeado membro da Diretoria da 
+CCEE para atuar como conciliador. 
+Em até 10du da 
+manifestação 
+Convocar os envolvidos para 
+audiência de conciliação 
+Membro da 
+Diretoria da 
+CCEE 
+Será encaminhada aos envolvidos  a convocação com a 
+data da audiência de conciliação. 
+Em até 5du da 
+nomeação 
+Realizar audiência 
+Membro da 
+Diretoria da 
+CCEE 
+O membro da Diretoria da CCEE  nomeado para a tuar 
+como conciliador deve buscar conjugar os interesses de 
+ambas as partes , examinar a legalidade e homologar o 
+acordo, caso as partes conciliem durante a audiência. 
+Em até 30du da 
+convocação da 
+audiência 
+Lavrar Termo de Conciliação 
+Membro da 
+Diretoria da 
+CCEE 
+O Termo de Conciliação deve conter as seguintes 
+informações: a) Local e data de realização da audiência 
+de conciliação; b) Partes envolvidas; c) Identificação dos 
+representantes das partes envolvidas;  d) Identificação 
+dos membros da CCEE presentes; e) Resumo do assunto 
+discutido e demais informações julgadas relevantes; e f) 
+Resultado da audiência de conciliação. 
+Após a audiência 
+Legenda: 
+N.A: Não aplicável 
+du: dias úteis
+
+Submódulo 1.4 – Atendimento 
+Revisão 11.0 
+18 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

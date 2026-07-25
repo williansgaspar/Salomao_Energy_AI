@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-19",
+  "generated_at": "2026-07-22",
   "source": "knowledge_base/Legislação",
   "policy": "Inventário não promove nem confirma vigência.",
   "count": 41,
@@ -16,8 +16,8 @@
     },
     {
       "path": "knowledge_base/Legislação/Lei n° 15.269-2025.pdf",
-      "size_bytes": 404162,
-      "sha256": "2a0bf5abc0f33f77a0c21c869ee1f03455510709125051b55dbb45669b17381c",
+      "size_bytes": 423193,
+      "sha256": "6fd03a66de7f0fa53463ac68157c61b31791750ef036a795a2f1a0bd4c2671a4",
       "classification": "lei",
       "triage_status": "pending_official_check",
       "canonical": false,
@@ -37,306 +37,306 @@
       "size_bytes": 489218,
       "sha256": "3e302a44d6b2fad65cdc87a3d692385f07db15f7034ff6fff6c784762cd25d0d",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 1.2_-_cadastro_de_agentes_v13.0.pdf",
       "size_bytes": 459526,
       "sha256": "caddb57e1de037d5651f0b601aa9b605c18a4050cd27dfff7142264fdb1a17f2",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 1.3_-_Votos_e_Contribuicoes_v5.0.pdf",
       "size_bytes": 288173,
       "sha256": "14b3728e818530c628b6037978f9fa938495cb854ab12409c8e59d472f594cd3",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 1.4_-_atendimento_v11.0.pdf",
       "size_bytes": 274280,
       "sha256": "bd1df83d9cef1939438b744dc05c53802a6196a2d94ff28ce7aa6acf67c7ac08",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 1.5_-_Desligamento_da_CCEE_v6.0.pdf",
       "size_bytes": 362176,
       "sha256": "f68e3b76d69a45a7184a2b8aeefbd56ae3778b886a41a244a9a72e6a05f56bcc",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 1.6_-_Comercializacao_varejista_v6.0.pdf",
       "size_bytes": 479311,
       "sha256": "ef7743cc40f188903bf49ff0feb2742bd9053e6b176cf0a16cf58495838252df",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 1.7_-_monitoramento_do_mercado_v3.0.pdf",
       "size_bytes": 282723,
       "sha256": "c67948045004abe1ea6894ea9fe6861322d4b1cd3c5c1cc9d1646a5b2fe89536",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 1.8 - CCEE.pdf",
       "size_bytes": 631951,
       "sha256": "090fc6d26713f9c7a319fd574e231c8a110e28f42a901f81c4cd0a8429c01be1",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 2.1_-_coleta_de_dados_de_medicao_v8.0.pdf",
       "size_bytes": 400128,
       "sha256": "19b2ca4f0ddd1f3af154149a853944ab253de8ea5e2316591535033f0b9541b6",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 3.1_-_contratos_acl_v5.0.pdf",
       "size_bytes": 334436,
       "sha256": "2a17ea426448886b152e0b0448ccfd25caf363c4aad32a013fcd36696bf0559c",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 3.2_-_contratos_acr_v9.0.pdf",
       "size_bytes": 501153,
       "sha256": "5609de136de87be4834e8fc584aa5723c9ee2bda04011e8ba4052eb62962c7ca",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 3.3_-_sazo_e_resazo_de_garantia_fisica_v7.0.pdf",
       "size_bytes": 284838,
       "sha256": "c500c92f98d042af9b321705591032d78ef411c1027267be12a7ecc1a0626f6b",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 3.5_-_receita_de_venda_de_ccear_v9.0.pdf",
       "size_bytes": 313384,
       "sha256": "0a30d214b2870d1f7dd1b7ef6edc80e5f5b1a0824e3de49cb604aa040b319cdc",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 3.6_-_apuracao_e_liquidacao_angra_1_e_2_v3.0.pdf",
       "size_bytes": 293116,
       "sha256": "eda40a001c586f1ec33aaa77622ac2607335693b15c2cfa37c07e9a260316ec5",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 3.7_-_liquidacao_cotas_de_garantia_fisica_v3.0.pdf",
       "size_bytes": 284387,
       "sha256": "afe0adebc79ec7e7a2c438d3ceaf0943005824b09db128cc21eb9db1e079600f",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 3.8_-_mecanismo_de_venda_de_excedentes_v8.0.pdf",
       "size_bytes": 520010,
       "sha256": "7c7d6f90170352662a4adbe1335195666e995304af1efa91bf00532c96c0e889",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 5.1_-_contab_e_recontab_v5.0.pdf",
       "size_bytes": 335124,
       "sha256": "381ed813417ed3ba53175ee37adabcbff0185ae4a18023b4a74b2e916c464761",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 5.2_-_liquidacao_mcp_v5.0.pdf",
       "size_bytes": 286629,
       "sha256": "ce8d1cbcddf89715e7e0bac869d27b24ec0aca879731d3c0824ebea1eb85c5eb",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 5.3_-_Conta_Bandeiras_v3.0.pdf",
       "size_bytes": 411749,
       "sha256": "63ee61300ee922af1be798980f1501674233ecd5c55dce2a43047a4a7220b310",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 6.1_-_Penalidades_de_medicao_e_multas_v5.0.pdf",
       "size_bytes": 368297,
       "sha256": "d8a25056fc564d1c7a9ef4372e805dc4d0d3b5851b488e927dc01d9ef62bbec3",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 6.2_-_Notificacao_gestao_pgto_penal_multas_v5.0.pdf",
       "size_bytes": 393718,
       "sha256": "7b08b2b824d2522b399ea88a5a4ad85a90eae76ba54f16d8218ce83b710eb794",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 7.1_-_apuracoes_de_energia_de_reserva_v7.0.pdf",
       "size_bytes": 308222,
       "sha256": "048ade0900ae3d937bbee6acc6eb9a4983116a4489b32a66adc16025a98350b6",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 7.2_-_liquidacao_energia_reserva_v4.0.pdf",
       "size_bytes": 349663,
       "sha256": "040cc3004b0e3bf2eac254afc560f46321430cfc4aac102f4cb4ad397f71e9a9",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 7.3_-Cessao_de_Energia_de_Reserva_v6.0.pdf",
       "size_bytes": 344166,
       "sha256": "9af74c1797541479979e1ca18d2167e45d172bd680ac8b4f67a1f60f6618db02",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 8.1_-_mcsd_existente_v10.0.pdf",
       "size_bytes": 349333,
       "sha256": "7158488252f3a23b23ea995e93837012d234fc633c0a83013aa8ae1db258aa94",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 8.2_-_MCSD_Contratacao_escalonada_v2.0.pdf",
       "size_bytes": 388265,
       "sha256": "b72e0564c667bbfe368e83d5090579a8467f8c16932b35d895565ed102d3bdf7",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 8.3_-_liquidacao_cessoes_mcsd_v4.0.pdf",
       "size_bytes": 380290,
       "sha256": "53bbeb4e6d46535b8a7109946583624127e952f96acefdb0a7159390de219123",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 8.4_-_mcsd_ex-post_v3.0.pdf",
       "size_bytes": 314209,
       "sha256": "e4d493426cd34ccbb8308ad99ec4a03c2a368327753f7c68d6f4caf10a5bcb4f",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 8.5_-_mcsd_energia_nova_v5.0.pdf",
       "size_bytes": 322295,
       "sha256": "0d7e8228e5d33050dbb69aaea6bae9c2f2cf379156776e13e4dcbcf5bf844d5a",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC 9.1_-_resposta_da_demanda_v1.0.pdf",
       "size_bytes": 295768,
       "sha256": "044e3d4fa537f6d6bbdb288f5216aebd3b1449a4049cacb4cf824ba6764e1bc6",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC exportacao_de_energia_termoeletrica_v3.0.pdf",
       "size_bytes": 486843,
       "sha256": "a197281c10a4627066fec1485b5d0f4bce87d2213e5b170cc4d019f3b868c3de",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC Nova_forma_de_rateio_Angra_1_e_2.zip",
       "size_bytes": 3990888,
       "sha256": "8144c224451a260f3667cf0f547cf947466d43e2561614ad4e9d03cf1408a7d3",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC Resposta_da_Demanda_v2.0_(estrutural_e_disponibilidade).pdf",
       "size_bytes": 389596,
       "sha256": "f55b41ac4f582eb7357fca8dfd885b79080d9fb5987dfa1fd1e944f9a3fdd411",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/PdC Sandbox_Suporte de Reativos_v1.0.pdf",
       "size_bytes": 316328,
       "sha256": "2b159c46a3c838bfb9436e1cfaedfc94978544569803c5576f18de2e1412844d",
       "classification": "procedimento_ccee",
-      "triage_status": "pending_version_check",
+      "triage_status": "official_download_confirmed",
       "canonical": false,
-      "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+      "notes": "PDF baixado diretamente do site da CCEE em 17/07/2026; a versão aplicável deve ser reconciliada com o catálogo normativo."
     },
     {
       "path": "knowledge_base/Legislação/Procedimentos de Comercialização - PdC - CCEE/REN ANEEL 1.012-2022.pdf",

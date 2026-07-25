@@ -1,0 +1,415 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 8.2_-_MCSD_Contratacao_escalonada_v2.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 8.2_-_MCSD_Contratacao_escalonada_v2.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 8 – Mecanismo de 
+Compensação de Sobras e 
+Déficits - MCSD 
+Submódulo 8.2 – MCSD contratação escalonada 
+procedimentos de 
+comercialização
+
+Submódulo 8.2 – MCSD contratação escalonada 
+Revisão 2.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+  
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada Despacho nº 1.019/2013 10.04.2013 
+2.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1012/2022 01.04.2022
+
+Submódulo 8.2 – MCSD contratação escalonada 
+Revisão 2.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O Mecanismo de Compensação de Sobras e Déficits Contratação Escalonada - MCSD Contratação Escalonada 
+(modalidade de MCSD prevista no § 5º do art. 28 do Decreto n° 5.163/2004 e disciplinada pela Resolução 
+Normativa n° 380/2009 , a  qual foi sucedida pela Resolução Normativa nº 1.009/2022 ) tem por  objetivo 
+permitir que os agentes de distribuição  efetuem ajustes n a alocação da energia adquirida , de forma 
+escalonada, nos leilões de energia  nova ou nos leilões de projetos de geração indicados pelo Conselho 
+Nacional de Política Energética – CNPE. 
+Essa alocação deve contemplar o escalonamento da entrada em operação comercial das unidades geradoras 
+dos empreendimentos durante os anos subsequentes ao início do período de suprimento dos Contratos de 
+Comercialização de Energia no Ambiente Regulado - CCEARs. 
+Na modalidade de MCSD  Contratação Escalonada, as declarações de eventuais sobras de leilões anteriores, 
+decorrentes do incremento da energia contratada em um ano que coincida com o primeiro ano de 
+suprimento de um Leilão de Energia Nova a ser realizado (ano de referência), são utilizadas para abater a 
+necessidade de compra declarada pelas distribuidoras participantes desse novo leilão.  
+2. OBJETIVO 
+Estabelecer as condições, procedimentos e prazos para os agentes da CCEE participa rem do MCSD 
+Contratação Escalonada.  
+3. PREMISSAS 
+3.1 O MCSD Contratação Escalonada se aplica aos CCEARs que preveem obrigação do agente vendedor 
+entregar energia do empreendimento de geração, em datas compatíveis com o cronograma de 
+entrada em operação comercial de suas unidades geradoras que conferem o respaldo físico desses 
+contratos.  
+3.2 Somente pode ser objeto de compensação pelo MCSD Contratação Escalonada o incremento anual 
+do volume de energia contratada estabelecida nos CCEARs mencionados na premissa 3.1. 
+3.3 A outorga do empreendimento de geração referido na premissa 3.1 deve ter sido objeto de disputa 
+nos leilões estabelecidos nos incisos I e IV do art. 19 do Decreto no 5.163/2004 e a entrada em 
+operação comercial de suas unidades geradoras deve ocorrer durante os anos subsequentes ao 
+início do período de suprimento dos CCEARs, nos termos do Edital de Leilão e do respectivo 
+Contrato de Concessão de Uso de Bem Público para Geração de Energia Elétrica.
+
+Submódulo 8.2 – MCSD contratação escalonada 
+Revisão 2.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.4 O processamento do MCSD Contratação Escalonada pode ser realizado sempre que houver 
+variações anuais de volumes de energia adquirida, em razão do cronograma de entrada em 
+operação comercial de unidades geradoras de empreendimentos de geração - que se enquadram 
+na premissa 3.3. O referido processamento deve ser realizado antes do leilão  de energia elétrica 
+proveniente de novos empreendimentos de geração  cujo primeiro ano de suprimento dos CCEARs 
+coincida com o ano civil onde ocorrem incrementos de energia contratada de empreendimentos 
+anteriormente leiloados. 
+3.5 A declaração de sobras está condicionada a não participação da distribuidora cedente no Leilão de 
+Energia Nova, a ser realizado no ano de referência, sendo que o processamento do MCSD 
+Contratação Escalonada é iniciado após o encerramento do prazo para envio de declaração de 
+necessidade de compra do leilão supracitado. 
+3.6 A declaração de sobras por parte das distribuidoras cedentes é voluntária, sendo essas sobras 
+decorrentes da compulsoriedade de contratação da parcela da garantia física proveniente dos 
+empreendimentos de geração enquadrados na premissa 3.1 que tiver sido vendida, anteriormente 
+ao ano de referência, no Ambiente de Contratação Regulada – ACR. 
+3.7 O processamento do mecanismo só será efetivo caso haja declaração de sobras por parte de no 
+mínimo uma distribuidora que seja detentora de CCEAR mencionado na premissa 3.1. 
+3.8 As distribuidoras que declararem os montantes de intenção de compra para o Leilão de Energia 
+Nova no ano de processamento do MCSD Contratação Escalonada são consideradas deficitárias. 
+Desta forma, não existe a necessidade de declaração de déficits para esta modalidade de MCSD, 
+pois o total das sobras declaradas deve ser utilizado para abater, de maneira proporcional, o 
+montante da intenção de compra das distribuidoras participantes do citado Leilão de Energia Nova. 
+3.9 A CCEE deve obter, junto ao Ministério de Minas e Energia – MME, a relação das distribuidoras que 
+declararem os montantes de necessidade de compra para o leilão de energia elétrica proveniente 
+de novos empreendimentos de geração a ser realizado no ano em que houver o processamento do 
+MCSD Contratação Escalonada, bem como o percentual de participação de cada distribuidora 
+nesse certame. 
+3.10 A CCEE, por meio de comunicado, divulga o cronograma específico de realização do MCSD 
+Contratação Escalonada aos agentes envolvidos, juntamente com o modelo de declaração de 
+sobras, que deve ser enviada à CCEE, pela distribuidora interessada em participar do referido 
+mecanismo, conforme indicado no Fluxo de Atividades deste submódulo. 
+3.11 O processamento do MCSD Contratação Escalonada ocorre somente quando houver declaração de 
+sobras validadas pela CCEE.
+
+Submódulo 8.2 – MCSD contratação escalonada 
+Revisão 2.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.12 Após a validação das sobras pela CCEE, o auditor independente realiza a circularização das sobras 
+declaradas junto aos agentes e, após a validação deles, certifica os dados de entrada utilizados no 
+processamento do MCSD Contratação Escalonada. 
+3.13 Nos resultados dos cálculos dos montantes de energia, objeto do processamento, deve ser 
+considerado o arredondamento dos números com 3 (três) casas decimais após a vírgula. 
+3.14 Após o processamento do MCSD Contratação Escalonada, a CCEE deve informar ao MME os 
+volumes de energia compensados para fins de subsidiar a determinação da quantidade total 
+demandada para o Leilão de Energia Nova vinculada ao processamento.  
+3.15 Os volumes de energia compensados ensejam a celebração de respectivos aditivos contratuais, de 
+modo a formalizar a adequação dos montantes de energia contratada entre o cedente, cessionário 
+e o vendedor. Caso a distribuidora cessionária participante do mecanismo de compensação não 
+possua o CCEAR relativo à energia elétrica que está sendo adquirida, deve ser celebrado um CCEAR 
+nos termos estabelecidos no Edital de Leilão correspondente. 
+3.16 Em prazo previamente acordado com a ANEEL, a CCEE elabora os Termos Aditivos e/ou CCEARs 
+para assinatura das distribuidoras participantes do MCSD Contratação Escalonada com os 
+respectivos geradores. 
+3.17 A CCEE divulga aos agentes envolvidos, por meio de comunicado, os prazos e procedimentos para 
+assinatura dos aditivos contratuais e/ou CCEARs, e encaminha relatório à ANEEL, para 
+homologação dos documentos. 
+3.18 As Cessões são irrevogáveis e irretratáveis, tendo validade por todo o período de vigência 
+remanescente dos respectivos CCEARs. Nesse sentido, o MCSD Contratação Escalonada não pode 
+ser objeto de reprocessamento. 
+3.19 As alterações nos montantes contratuais decorrentes do processamento do MCSD Contratação 
+Escalonada implicam na correspondente alteração da potência associada à energia contratada. 
+3.20 Na eventualidade de o volume de energia associado às declarações de sobras não ser 
+integralmente compensado, a parcela não compensada não será objeto de redução de CCEAR; 
+entretanto, a distribuidora cedente pode declarar o montante remanescente para processamento 
+do MCSD Contratação Escalonada do ano subsequente, desde que ainda atenda as condições 
+estabelecidas na premissa 3.2.
+
+Submódulo 8.2 – MCSD contratação escalonada 
+Revisão 2.0 
+6 
+ 
+procedimentos de 
+comercialização 
+4. LISTA DE DOCUMENTOS 
+DOCUMENTOS            Comercialização  Dist. Geração  
+Descrição  O F CA CS DG CL  CE  COM  D  APE  PIE  G  
+Declaração de Sobras de Montantes de Energia Elétrica decorrentes da 
+variação anual de energia contratada - MCSD Contratação Escalonada  
+Vias originais ou cópias autenticadas, assinadas pelo(s) Representante(s) 
+Legal(is) e/ou procurador(es) com firma(s) reconhecida(s) em cartório. 
+✔ ✔ ✔   ✔       ✔       
+ 
+Legenda: 
+Dist.: Distribuição 
+O: Documento Original 
+F: Documento com firma reconhecida 
+CA: Cópia Autenticada do documento 
+CS: Cópia Simples do documento 
+D: Digital 
+CL: Consumidor Livre 
+CE: Consumidor Especial 
+COM: Comercializador 
+D: Distribuidor 
+APE: Autoprodutor de Energia 
+PIE: Produtor Independente 
+G: Demais Geradores
+
+Submódulo 8.2 – MCSD contratação escalonada 
+Revisão 2.0 
+7 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+MCSD Contratação Escalonada
+CCEE MME Agente de 
+Distribuição
+Agente 
+Vendedor
+Auditor 
+independente ANEEL
+Início
+Conforme 
+cronograma 
+específico
+Informar prazos 
+para declarações de 
+sobras
+Conforme 
+cronograma 
+específico
+Solicitar lista das 
+distribuidoras 
+interessadas em 
+participar do leilão de 
+energia nova
+Conforme 
+cronograma 
+específico
+Enviar ofício à CCEE 
+com as declarações 
+de necessidades de 
+compra das 
+distribuidoras
+Conforme 
+cronograma 
+específico
+Enviar declarações de 
+sobras à CCEE
+Conforme 
+cronograma 
+específico
+Processar MCSD 
+Contratação 
+Escalonada
+Conforme 
+cronograma 
+específico
+Certificar o 
+processamento do 
+MCSD Contratação 
+Escalonada
+A
+
+Submódulo 8.2 – MCSD contratação escalonada 
+Revisão 2.0 
+8 
+ 
+procedimentos de 
+comercialização 
+MCSD Contratação Escalonada
+CCEE MME Agente de 
+Distribuição
+Agente 
+Vendedor
+Auditor 
+independente ANEEL
+Conforme 
+cronograma 
+específico
+Informar aos 
+agentes, à ANEEL e 
+ao MME os 
+montantes de 
+energia 
+compensados
+Conforme 
+cronograma 
+específico
+Comunicar os 
+procedimentos e 
+prazos para 
+assinatura dos 
+Termos Aditivos e/ou 
+CCEARs
+Conforme 
+cronograma 
+específico
+Validar e assinar os 
+Termos Aditivos e/ou 
+CCEARs
+Conforme 
+cronograma 
+específico
+Validar e assinar os 
+Termos Aditivos e/ou 
+CCEARs
+Enviar relatório à 
+ANEEL com os 
+Termos Aditivos e/ou 
+CCEARs assinados 
+pelos agentes
+Homologar os Termos 
+Aditivos e/ou CCEARs
+A
+Início
+
+Submódulo 8.2 – MCSD contratação escalonada 
+Revisão 2.0 
+9 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+MCSD Contratação Escalonada 
+Atividade Responsável Detalhamento Prazo 
+Informar prazos para 
+declarações de sobras CCEE Enviar comunicado aos agentes informando os prazos de 
+envio das declarações de sobras. 
+Conforme 
+cronograma 
+específico 
+Solicitar lista das 
+distribuidoras 
+interessadas em 
+participar do Leilão de 
+Energia Nova 
+CCEE 
+Solicitar ao MME a relação das distribuidoras 
+interessadas em participar do Leilão de Energia Nova, 
+bem como suas respectivas declarações de necessidades 
+de compra. 
+Conforme 
+cronograma 
+específico 
+Enviar ofício à CCEE com 
+as declarações de 
+necessidades de compra 
+das distribuidoras 
+MME 
+Enviar ofício à CCEE com a relação de distribuidoras que 
+declararam necessidades de compra para o Leilão de 
+Energia Nova, contendo a participação percentual de 
+cada uma em relação ao total da energia demandada. 
+Conforme 
+cronograma 
+específico 
+Enviar declarações de 
+sobras à CCEE 
+Agente Distribuidor 
+Declarante de Sobras 
+As Declarações de Sobras devem ser enviadas em vias 
+originais ou cópias autenticadas, assinadas pelo(s) 
+Representante(s) Legal(is) e/ou procurador(es) com 
+firma(s) reconhecida(s) em cartório. Essas declarações, 
+obrigatoriamente, deverão também ser encaminhadas de 
+forma digital com firma(s) reconhecida(s) em cartório 
+para o email da central de atendimento da CCEE 
+(atendimento@ccee.org.br). 
+Conforme 
+cronograma 
+específico 
+Processar o MCSD 
+Contratação Escalonada CCEE 
+Processar o MCSD Contratação Escalonada e enviar o 
+resultado ao auditor independente juntamente com as 
+declarações de sobras e o ofício do MME. 
+Conforme 
+cronograma 
+específico 
+Certificar o 
+processamento do MCSD 
+Contratação Escalonada 
+Auditor 
+Independente 
+Validar as declarações de sobras enviadas pelas 
+distribuidoras e certificar a conformidade do 
+processamento do MCSD Contratação Escalonada. 
+Conforme 
+cronograma 
+específico 
+Informar aos agentes, à 
+ANEEL e ao MME os 
+montantes de energia 
+compensados 
+CCEE 
+Enviar o resultado do processamento do MCSD 
+Contratação Escalonada aos agentes envolvidos, à ANEEL 
+e ao MME com os montantes de energia compensados 
+entre as distribuidoras participantes. 
+Conforme 
+cronograma 
+específico 
+Comunicar os 
+procedimentos e prazos 
+para assinatura dos 
+Termos Aditivos e/ou 
+CCEARs 
+CCEE 
+Enviar comunicado aos agentes informando os prazos e 
+condições para assinatura dos Termos Aditivos e/ou 
+CCEARs. 
+Conforme 
+cronograma 
+específico 
+Validar e assinar os 
+Termos Aditivos e/ou 
+CCEARs 
+Agentes de 
+Distribuição 
+participantes/Agentes 
+Vendedores 
+- 
+Conforme 
+cronograma 
+específico 
+Enviar relatório à Aneel 
+com os Termos Aditivos 
+e/ou CCEARs assinados 
+pelos agentes 
+CCEE - - 
+Homologar os Termos 
+Aditivos e/ou CCEARs ANEEL - -
+
+Submódulo 8.2 – MCSD contratação escalonada 
+Revisão 2.0 
+10 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

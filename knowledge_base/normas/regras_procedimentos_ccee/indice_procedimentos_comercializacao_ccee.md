@@ -1,7 +1,7 @@
 # Índice — Procedimentos de Comercialização CCEE (vigentes)
 
 > **Fonte:** https://www.ccee.org.br/web/guest/mercado/procedimentos-de-comercializacao
-> **Coletado em:** 13/07/2026. Este é o índice "VIGENTES" publicado pela CCEE no momento da coleta — a CCEE atualiza submódulos com frequência (vários datados de abril/maio de 2026). Antes de usar um submódulo em um parecer, confirme a versão atual no link acima ou em "Consultar histórico" (para versões anteriores).
+> **Coletado em:** 13/07/2026; **reconfirmado na fonte oficial em:** 21/07/2026. Este é o índice "VIGENTES" publicado pela CCEE no momento da verificação — a CCEE atualiza submódulos com frequência (vários datados de abril/maio de 2026). Antes de usar um submódulo em um parecer, confirme a versão atual no link acima ou em "Consultar histórico" (para versões anteriores).
 > Para o histórico de versões anteriores: https://www.ccee.org.br/acervo-ccee?fc=39221,39912,22547902,3509080&periodo=90007
 
 ## Módulo 1 — Agentes
@@ -85,6 +85,7 @@
 
 ## Observações para uso
 
+- A página de vigentes foi reconferida em 21/07/2026. Em especial, confirma o PdC 1.3 — versão 5.0, de 01/02/2026 — e o PdC 7.1 — versão 7.0, de 28/04/2026. O comunicado CCEE 067/2026, de 30/01/2026, que anunciava o PdC 7.1 v6.0 para fevereiro, é histórico e foi superado por essa atualização posterior.
 - Módulo 4 não aparece na listagem de vigentes coletada — não assuma que existe um módulo 4 ativo sem confirmar diretamente na fonte.
 - Vários submódulos foram revisados em lote em 28-29/04/2026 e 01/05/2026 (Despachos ANEEL 1.432/2026 e correlatos) — sinal de uma rodada de atualização regulatória concentrada nesse período; vale investigar o despacho consolidado se for relevante ao caso.
 - "Procedimentos Provisórios" (Módulo 10) valem até aprovação definitiva pela ANEEL — trate-os como regra vigente mas instável, e verifique se já foram substituídos por um submódulo definitivo antes de citar em um parecer.

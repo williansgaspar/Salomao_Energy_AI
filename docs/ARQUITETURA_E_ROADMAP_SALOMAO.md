@@ -102,5 +102,6 @@ Executar primeiro o Ciclo 1 e, em seguida, modelar o catálogo normativo com um 
 - Golden set: 10 controles curados/adversariais; pareceres reais permanecem pendentes de
   fornecimento e anonimização, sem substituição por conteúdo inventado.
 
-Próxima evolução: revisar os 26 links oficiais da fila, confirmar versões dos PdC da CCEE
-e incorporar pareceres reais anonimizados à medida que forem disponibilizados.
+Próxima evolução: revisar os 26 links oficiais da fila, monitorar alterações de versão
+dos PdC da CCEE já confirmados e incorporar pareceres reais anonimizados à medida que
+forem disponibilizados.

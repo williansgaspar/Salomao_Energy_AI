@@ -1,0 +1,551 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 3.5_-_receita_de_venda_de_ccear_v9.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 3.5_-_receita_de_venda_de_ccear_v9.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 3 – Contratação de 
+Energia 
+Submódulo 3.5 – Receita de Venda de CCEAR 
+procedimentos de 
+comercialização
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+2 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP08/2012) Despacho nº 3.572/2012 12.11.2012 
+1.1 Adequação de Prazos Despacho n° 283/2013 04.02.2013 
+1.2 Adequação para os contratos de recomposição de 
+lastro  Despacho n° 3.728/2013 05.11.2013 
+2.0 Adequação às Regras 2013, à REN 595/2013 e às 
+Regras 2015 Despacho nº 2.808/2015 27.08.2015 
+3.0 Adequação à REN n° 802/2017 e demais 
+aprimoramentos  Despacho n° 1.975/2018 31.08.2018 
+4.0 Adequação à REN nº 824/2018 Despacho nº 2.626/2019 23.09.2019 
+5.0 Adequação à REN nº 869/2020 Despacho nº 3.646/2020 01.01.2021 
+6.0 Adequação à REN nº 951/2021 e aprimoramentos Despacho n° 485/2022 16.02.2022 
+7.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1.012/2022 01.04.2022 
+8.0 Aprimoramentos Despacho n° 2.535/2025 26.08.2025 
+9.0 Adequação à REN nº 1.108/2024 e aprimoramentos Resolução Normativa nº  
+1.432/2026 28/04/2026
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+3 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+Os Contratos de Comercialização de Energia no Ambiente Regulado - CCEARs podem ser celebrados nas 
+modalidades por quantidade e por disponibilidade. 
+A apuração da receita de venda desses contratos é realizada pela CCEE conforme definido nas Regras de 
+Comercialização e os valores para faturamento são divulgados aos agentes nos prazos informados neste 
+submódulo. 
+Para compatibilizar as datas de vencimento das faturas estabelecidas nos CCEARs com os prazos da 
+contabilização do Mercado de Curto Prazo - MCP, a apuração da receita de venda ocorre mensalmente em 
+dois momentos: no cálculo da receita de venda preliminar (antes da contabilização) e no cálculo da receita de 
+venda final (após a contabilização).  
+Os casos de atraso no início da operação comercial de usina ou unidade geradora são tratados de acordo com 
+a regulamentação vigente e conforme as Regras de Comercialização vigentes. 
+2. OBJETIVO 
+Estabelecer os prazos e premissas para a apuração e divulgação da receita de venda. Este submódulo se aplica 
+a todos os agentes comprometidos com CCEARs nas modalidades por quantidade e por disponibilidade. 
+3. PREMISSAS 
+Receita de venda de empreendimentos comprometidos com CCEARs por quantidade 
+e CCEARs por disponibilidade 
+3.1 A CCEE deve apurar a receita de venda dos empreendimentos descritos nesta seção da seguinte 
+forma: 
+a) Antes da contabilização do mês de referência: 
+▪ Para CCEARs com 3 (três) datas de vencimento, calcular a receita de venda preliminar cujo 
+valor refere-se a dois terços do valor total da receita; 
+▪ Para CCEARs com 2 (duas) data de vencimento, calcular a receita de venda preliminar cujo 
+valor refere-se à receita fixa; 
+▪ Para CCEARs com 1 (uma) data de vencimento, calcular a receita de venda mensal. 
+b) Após a contabilização do mês de referência:
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+4 
+procedimentos de 
+comercialização 
+▪ Para CCEARs com 3 (três) datas de vencimento, calcular a receita de venda residual, resultante 
+da diferença entre as receitas de venda final e preliminar; 
+▪ Para CCEARs com 2 (duas) datas de vencimento, calcular a receita de venda mensal cujo valor 
+refere-se à parcela variável. 
+3.2 A CCEE deve calcular e divulgar a receita de venda preliminar em até seis dias úteis (6du) antes do 
+dia 20 (vinte) de cada mês . No caso das usinas em situação de atraso integral, a receita de venda 
+preliminar terá valor igual a “zero”.  
+3.2.1 No processo de apuração da receita de venda preliminar, a CCEE deve utilizar , dentre 
+outros dados, informações enviadas pelo Operador Nacional do Sistema Elétrico - ONS e 
+disponíveis nos sistemas de informação da  Agência Nacional de Energia Elétrica - ANEEL, 
+como a programação de despacho e situação das usinas comprometidas com CCEARs, 
+respectivamente. 
+3.3 A CCEE deve calcular e divulgar a receita de venda final em até oito dias úteis (8du) antes do dia 10 
+(dez) de cada mês.  
+3.3.1 No processo de apuração da receita de venda final, a CCEE deve considerar, além das 
+informações decorrentes da contabilização, as regras de recomposição de lastro conforme 
+a seção “Suspensão ou atraso do início da operação comercial de unidade geradora” deste 
+submódulo. 
+3.4 No processo de apuração da receita de venda preliminar e final, são utilizados preços arredondados 
+com duas casas decimais após a vírgula, podendo ocorrer eventuais diferenças residuais positivas ou 
+negativas em decorrência dos arredondamentos. 
+3.5 Após o término do processamento da receita de venda final, a CCEE deve divulgar o certificado da 
+receita de venda aprovado pelo auditor independente. 
+3.5.1 Possíveis diferenças nos valores de receita de venda, apontadas pelo auditor independente 
+nos documentos resultantes do processo de certificação, são consideradas pela CCEE, por 
+meio de reapuração, no processamento do mês subsequente. 
+3.6 Os relatórios com os resultados da apuração da receita de venda devem ser divulgados até o prazo 
+especificado neste submódulo. A partir da divulgação das parcelas preliminar e final, os agentes 
+vendedores devem providenciar o faturamento junto aos agentes de distribuição.
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+5 
+procedimentos de 
+comercialização 
+3.7 Há possibilidade de reapuração dos valores divulgados pela CCEE, mediante autorização da Diretoria 
+da CCEE e/ou da ANEEL, sendo que os novos valores devem ser inseridos na apuração da receita de 
+venda por meio de ajustes financeiros e divulgados por meio de relatórios específicos, inclusive nos 
+casos de contrato cujo período de suprimento já tenha sido encerrado  e/ou uma das partes 
+contratantes não pertencerem mais ao quadro associativo da CCEE. 
+3.8 Os ajustes provenientes da reapuração dos valores iniciais divulgados pela CCEE, tanto  a débito 
+quanto a crédito, podem ser realizados tanto na apuração da receita de venda preliminar quanto na 
+final, devendo ser atualizados monetariamente com base nas variações positivas do IPCA.  
+3.8.1 A metodologia de atualização monetária deve considerar o número índice do IPCA do mês 
+anterior ao do vencimento da receita de venda do mês de referência do ajuste e o número 
+índice do IPCA do mês anterior ao mês de vencimento das parcelas da receita de ven da, 
+preliminar ou final, que for inserido o ajuste.  
+3.8.2 Em caso de indisponibilidade do índice, na data de atualização, deve ser utilizado o último 
+índice disponível e deve ser realizada correção residual no mês subsequente. Na eventual 
+extinção do IPCA, deve ser o utilizado o índice que vier a substituí-lo.  
+3.9 Caracterizados e ventuais montantes residuais e/ou remanescentes relativos à receita de venda 
+preliminar ou final, o valor do débito deve ser atualizado  monetariamente com base nas variações 
+positivas do IPCA, conforme as Regras de Comercialização. 
+Suspensão ou atraso do início da operação comercial de unidade geradora 
+3.10 Esta seção se aplica, exclusivamente, aos empreendimentos em situação de: 
+i. Atraso da operação comercial; 
+ii. Suspensão da operação comercial e com contrato s provenientes a partir  do 35° Leilão de 
+Energia Nova. 
+3.11 O agente proprietário de usina, nas situações supracitadas, pode recompor lastro do CCEAR por meio 
+de: 
+i. Parcela da garantia física de empreendimentos de geração de responsabilidade do agente 
+vendedor não comprometida com contratos de venda de energia elétrica; e/ou 
+ii. Contratos de Comercialização de Energia no Ambiente Livre - CCEALs, inclusive aqueles 
+provenientes do Mecanismo de Venda de Excedentes - MVE (conforme Resolução Normativa 
+ANEEL n° 824/2018, sucedida pela Resolução Normativa ANEEL nº 1.009/2022, e/ou legislação 
+superveniente).
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+6 
+procedimentos de 
+comercialização 
+3.12 Para a definição da modalidade de recomposição de lastro mencionada na premissa anterior, o 
+agente deve informar em sistema específico os montantes que podem ser utilizados tanto por CCEAL 
+quanto por garantia física disponível de uma ou mais usinas sob o seu CNPJ, ambos em MWh, em 
+até MS+9du, sendo “M” o mês de apuração da suspensão ou atraso. 
+3.13 A recomposição de lastro por meio de contratos pode ser feita por meio de contratos de energia 
+proveniente de fonte convencional ou incentivada, a critério do agente vendedor de CCEAR, desde 
+que observe as restrições impostas nos CCEARs e nas Regras de Comercialização vigentes. 
+3.14 Para a modalidade de recomposição de lastro por meio de contratos, os dados do CCEAL devem ser 
+utilizados pela CCEE para o cálculo do preço ponderado e do montante que deve ser considerado 
+pelos agentes vendedores no faturamento dos referidos contratos, co nforme Regras de 
+Comercialização. 
+3.15 Para que o CCEAL seja considerado para fins de recomposição de lastro, além do atendimento das 
+premissas 3.12 e 3.13, é necessário o cumprimento das atividades a seguir: 
+3.15.1 O agente vendedor do CCEAL deve registrar/ajustar o referido contrato (é necessário que 
+os perfis dos agentes comprador e vendedor do CCEAL estejam ativos na CCEE ) e a 
+contraparte deve realizar a respectiva validação , conforme as disposições e prazos 
+estabelecidos no submódulo 3.1 – Contratos do Ambiente Livre. 
+3.15.1.1 No mês de apuração da suspensão ou atraso, a CCEE deve considerar a data da 
+última validação do CCEAL, seja em razão de seu registro ou de seu ajuste, 
+conforme Regras de Comercialização.  
+3.15.1.2 Especificamente para empreendimentos em situação de atraso, a premissa 
+anterior é aplicável inclusive para verificar se o contrato será considerado com 
+ou sem antecedência para fins de recomposição de lastro.  
+3.15.1.3 Especificamente para empreendimentos em situação de atraso : para 
+configuração do contrato com antecedência é necessário que a última validação 
+do seu registro ou do seu ajuste ocorra com antecedência mínima de seis meses 
+em relação ao mês de apuração do atraso (por exemplo: o mês de apuração do 
+atraso é janeiro ; o  contrato será considerado “com antecedência” caso a 
+validação de seu registro ou ajuste ocorra até o dia 30 de junho do ano anterior; 
+caso o atraso se estenda para o mês de fevereiro, o contrato s erá considerado 
+“com antecedência” caso a validação de seu registro ou ajuste ocorra até o dia 
+31 de julho do ano anterior, e assim por diante), bem como devem ser atendidas 
+as premissas 3.15.2, 3.15.3 e 3.15.4.
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+7 
+procedimentos de 
+comercialização 
+3.15.2 O agente comprador do CCEAL deve enviar cópia autenticada do referido contrato à CCEE, 
+com data de recebimento e protocolo na CCEE não superior a 10 dias úteis (10du) após a 
+data do seu registro ou do seu ajuste (a CCEE aceita a via física ou digitalizada do CCEAL, 
+desde que esteja autenticada; ou ainda a via assinada digitalmente com certificado ICP -
+Brasil, conforme legislação vigente, devendo ser enviado à CCEE o protocolo de 
+autenticidade da assinatura). 
+3.15.3 O agente vendedor do CCEAL de ve informar seu preço de venda, conforme disposto na 
+regulação vigente,  em módulo específico para Receita de Venda (RRV), em sistema 
+específico, em até MS+8du, sendo “M” o mês de apuração da suspensão ou atraso.  
+3.15.3.1 O registro do preço de venda do CCEAL implica a formação de saldo  (saldos de 
+recomposição por contratos registrados com ou sem antecedência, ou ainda, por 
+garantia física, conforme Regras de Comercialização ) do agente para fins de 
+recomposição de lastro. 
+3.15.3.2 O registro d o preço de venda deve seguir exatamente os dados de 
+vigenciamento, conforme previsto no contrato. 
+3.15.3.3 A CCEE não deve considerar, no mês de apuração da suspensão ou  atraso, os 
+dados de contratos e de garantia física disponível para fins de recomposição de 
+lastro, caso o agente não informe a modalidade de recomposição de lastro no 
+prazo mencionado neste submódulo, ainda que tenha sido realizado o registro 
+do preço de venda do CCEAL. 
+3.15.4 O preço de venda deve ser validado pela contraparte até MS+9du,  sendo “M” o mês de 
+apuração da suspensão ou atraso, conforme premissas específicas deste submódulo. 
+3.16 Para que o contrato proveniente da venda de excedentes (CCEAL, nos termos do submódulo 3.8 - 
+Mecanismo de Venda de Excedentes) seja considerado para fins de recomposição de lastro, o agente 
+comprador do CCEAL deve atender somente ao disposto nas premissas 3.12 e 3.13, bem como 
+indicar, em sistema específico, o contrato proveniente do MVE que será utilizado para fins de 
+recomposição de lastro. 
+3.17 O agente que ficar impedido de realizar operações, em razão de inviabilidade operacional de sistema 
+específico e/ou por problema de conectividade com a CCEE, deve seguir os procedimentos de 
+contingência detalhados no submódulo 1.4 – Atendimento. 
+3.18 A receita de venda dos empreendimentos descritos nesta seção é apurada na terceira ou  última 
+parcela da receita de venda , sendo desconsiderada da parcela intermediária,  conforme Regras de 
+Comercialização.
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+8 
+procedimentos de 
+comercialização 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+9 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES  
+  
+Receita de venda preliminar
+CCEE Agente de 
+Geração
+Agente de 
+Distribuição
+Até (dia 20 de 
+MS) – 8du
+Apurar a receita 
+de venda 
+preliminar
+Até (dia 20 de
+MS) – 5du
+Providenciar o 
+faturamento dos 
+valores divulgados 
+pela CCEE da receita 
+de venda preliminar
+Até (dia 20 de 
+MS) – 6du
+Divulgar valores 
+relativos à receita 
+de venda 
+preliminar
+Início
+Até dia 20 de MS
+Efetuar o 
+pagamento da 
+receita de venda 
+preliminar
+A  
+Legenda: 
+MS: mês subsequente às operações de compra e venda de energia e/ou à apuração da suspensão ou atraso, caso aplicável 
+du: dias úteis
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+10 
+procedimentos de 
+comercialização 
+Recomposição de lastro de empreendimentos em atraso  
+Agente Comprador do CCEAL 
+para recomposição
+Agente Vendedor do CCEAL 
+para recomposição
+Até MS+9du
+Informar montante 
+de declaração de 
+recomposição de 
+lastro por contrato 
+ou garantia física
+Realizar as atividades 
+de registro/ajuste de 
+contratos, conforme 
+PdC 3.1 – Contratos do 
+ACL, para 
+recomposição de lastro 
+por CCEALs
+Início
+Realizar as atividades de 
+validação de registro/
+ajuste de contratos, 
+conforme PdC 3.1 – 
+Contratos do ACL, para 
+recomposição de lastro 
+por CCEALs
+Até MS+8du
+Informar o preço 
+de venda dos 
+CCEALs
+Até MS+9du
+Validar o registro 
+do preço de 
+venda dos 
+CCEALs
+B
+Até 10du após o 
+registro/ajuste do CCEAL
+Enviar cópia autenticada 
+dos CCEALs para fins de 
+recomposição de lastro 
+ 
+Legenda: 
+MS: mês subsequente à apuração da suspensão ou atraso 
+du: dias úteis
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+11 
+procedimentos de 
+comercialização 
+Receita de venda final
+CCEE Agente de 
+Geração
+Agente de 
+Distribuição
+Fim
+Até (dia 10 de
+MSS) – 5du
+Providenciar o 
+faturamento dos 
+valores divulgados 
+pela CCEE da receita 
+de venda final
+Até (dia 10 de MSS) – 
+6du
+Divulgar o certificado 
+da receita de venda 
+aprovado pelo auditor 
+independente
+Até dia 10 de 
+MSS
+Efetuar o 
+pagamento da 
+receita de venda 
+final
+Até (dia 10 de 
+MSS) – 8du
+Apurar e divulgar 
+a receita de 
+venda final
+A B
+ 
+Legenda: 
+MSS: segundo mês subsequente às operações de compra e venda de energia e/ou à apuração da suspensão ou atraso, caso aplicável 
+du: dias úteis
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+12 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Receita de venda preliminar 
+Atividade Responsável Detalhamento Prazo 
+Apurar a receita de venda preliminar CCEE 
+Apurar a receita de venda preliminar dos 
+empreendimentos comprometidos com CCEARs 
+por quantidade e CCEARs por disponibilidade. 
+Até (dia 20 de MS) – 
+8du 
+Divulgar valores relativos à receita de 
+venda preliminar CCEE 
+Disponibilizar no site da CCEE os relatórios com os 
+resultados da apuração da receita de venda 
+preliminar. 
+Até (dia 20 de MS) – 
+6du 
+Providenciar o faturamento dos 
+valores divulgados pela CCEE  da 
+receita de venda preliminar 
+Agente de 
+Geração 
+Consultar os relatórios divulgados pela CCEE e 
+providenciar o faturamento da receita de venda 
+preliminar no prazo estabelecido no CCEAR. 
+Até (dia 20 de MS) – 
+5du 
+Efetuar o pagamento da receita de 
+venda preliminar 
+Agente de 
+Distribuição 
+Consultar os relatórios disponibilizados pela CCEE 
+e efetuar o pagamento dos valores devidos. Até dia 20 de MS 
+ 
+Legenda: 
+MS: mês seguinte às operações de compra e venda de energia e/ou à apuração da suspensão ou atraso, caso aplicável 
+du: dias úteis
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+13 
+procedimentos de 
+comercialização 
+Recomposição de lastro de empreendimentos em suspensão ou atraso 
+Atividade Responsável Detalhamento Prazo 
+Realizar as atividades de 
+registro/ajuste de contratos, 
+conforme submódulo 3.1 – Contratos 
+do Ambiente Livre , para 
+recomposição de lastro por CCEALs 
+Agente 
+Vendedor 
+do CCEAL 
+Efetuar o registro ou ajuste do(s) contrato(s), 
+conforme prazos e procedimentos previstos 
+no submódulo 3.1 – Contratos do Ambiente 
+Livre. 
+Conforme submódulo 
+3.1 – Contratos do 
+Ambiente Livre 
+Realizar as atividades de validação de 
+registro/ajuste de contratos, 
+conforme submódulo 3.1 – Contratos 
+do Ambiente Livre , para 
+recomposição de lastro por CCEALs 
+Agente 
+Comprador do 
+CCEAL 
+Validar o registro ou ajuste do(s) contrato(s), 
+conforme prazos e procedimentos previstos 
+no submódulo 3.1 – Contratos do Ambiente 
+Livre. 
+Conforme submódulo 
+3.1 – Contratos do 
+Ambiente Livre 
+Enviar cópia autenticada dos CCEALs 
+para fins de recomposição de lastro  
+Agente 
+Comprador do 
+CCEAL 
+Enviar cópia autenticada do CCEAL para fins de 
+recomposição de lastro, física ou digitalizada , 
+exceto para o CCEAL proveniente do MVE. 
+Até 10du após o 
+registro/ajuste do 
+CCEAL 
+Informar o preço de venda dos CCEALs 
+Agente 
+Vendedor 
+do CCEAL 
+Efetuar o registro do preço de venda do(s) 
+CCEAL(s) em sistema específico. Até MS+8du 
+Validar o registro do preço de venda 
+dos CCEALs 
+Agente 
+Comprador do 
+CCEAL 
+Validar o registro do preço de venda do(s) 
+CCEAL(s), realizado pelo agente vendedor, em 
+sistema específico. 
+Até MS+9du 
+Informar montante de declaração de 
+recomposição de lastro por contrato 
+ou garantia física 
+Agente 
+Comprador do 
+CCEAL 
+Efetuar o registro do montante de declaração 
+de recomposição de lastro por contrato ou 
+garantia física. 
+Até MS+9du 
+ 
+Legenda: 
+MS: mês seguinte à apuração da suspensão ou atraso 
+du: dias úteis
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+14 
+procedimentos de 
+comercialização 
+Receita de venda final 
+Atividade Responsável Detalhamento Prazo 
+Apurar e divulgar a receita de 
+venda final CCEE 
+Apurar a receita de venda final dos 
+empreendimentos comprometidos com CCEARs por 
+quantidade e CCEARs por disponibilidade 
+(considerando os CCEALs registrados e validados em 
+sistema específico para empreendimentos em 
+atraso, e a geração variável contabilizada), bem como 
+disponibilizar no site da CCEE os relatórios com os 
+resultados da receita de venda final. 
+Até (dia 10 de MSS) 
+– 8du 
+Divulgar o certificado da 
+receita de venda aprovado 
+pelo auditor independente 
+CCEE 
+Disponibilizar no site da CCEE o certificado aprovado 
+pelo auditor independente referente à validação dos 
+dados de entrada e resultado do processo de 
+apuração da receita de venda.   
+Até (dia 10 de MSS) 
+– 6du 
+Providenciar o faturamento 
+dos valores divulgados pela 
+CCEE da receita de venda final 
+Agente de 
+Geração 
+Consultar os relatórios divulgados pela CCEE e 
+providenciar o faturamento da receita de venda final 
+no prazo estabelecido no CCEAR. 
+Até (dia 10 de MSS) 
+– 5du 
+Efetuar o pagamento da 
+receita de venda final 
+Agente de 
+Distribuição 
+Consultar os relatórios disponibilizados pela CCEE e 
+efetuar o pagamento dos valores devidos. Até dia 10 de MSS 
+ 
+Legenda: 
+MSS: segundo mês subsequente às operações de compra e venda de energia e/ou à apuração da suspensão ou atraso, caso aplicável 
+du: dias úteis
+
+Submódulo 3.5 – Receita de venda de CCEAR 
+Revisão 9.0 
+15 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

@@ -1,0 +1,287 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 8.3_-_liquidacao_cessoes_mcsd_v4.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 8.3_-_liquidacao_cessoes_mcsd_v4.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+/  
+Módulo 8 – Mecanismo de 
+Compensação de Sobras e 
+Déficits - MCSD 
+Submódulo 8.3 – Liquidação financeira das cessões 
+do MCSD 
+procedimentos de 
+comercialização
+
+Submódulo 8.3 – Liquidação financeira das cessões do MCSD 
+Revisão 4.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+  
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada Despacho nº 1.019/2013 10.04.2013 
+2.0 Adequação à REN nº 909/2020 e demais 
+aprimoramentos Despacho nº 3.646/2020 01.01.2021 
+3.0 Adequação à REN nº 951/2021 e demais 
+aprimoramentos Despacho n° 485/2022 16.02.2022 
+4.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1012/2022 01.04.2022
+
+Submódulo 8.3 – Liquidação financeira das cessões do MCSD 
+Revisão 4.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A CCEE centraliza a apuração e liquidação financeira dos valores envolvidos nas cessões de energia  elétrica 
+objeto dos Contratos de Comercialização de  Energia no Ambiente Regulado - CCEARs, decorrentes de 
+processamentos do Mecanismo de Compensação de Sobras e Déficits - MCSD, nas suas modalidades mensal 
+e 4% (quatro por cento).   
+Neste processo, a CCEE calcula mensalmente os montantes transferidos entre as distribuidoras em 
+decorrência dos diversos processamentos do MCSD ao longo do tempo e determina os valores que cada 
+agente cessionário tem a pagar, decorrente das cessões, a todos os respectivos agentes vendedores de 
+CCEARs. Após esse cálculo, a CCEE realiza a liquidação financeira das cessões do MCSD. 
+2. OBJETIVO 
+Estabelecer as condições, procedimentos e prazos referentes à apuração e liquidação dos valores das 
+cessões decorrentes dos processamentos anteriores do MCSD Mensal e 4% (quatro por cento). Este 
+submódulo se aplica aos agentes vendedores de CCEARs, aos  agentes cedentes e aos agentes cessionários 
+participantes dos processamentos do MCSD.  
+3. PREMISSAS 
+3.1 A apuração e a liquidação dos valores das cessões do MCSD devem ocorrer mensalmente 
+enquanto vigorarem as cessões. 
+3.2 A apuração e a liquidação dos valores das cessões do MCSD são independentes da Contabilização 
+do Mercado de Curto Prazo - MCP. 
+3.3 A participação dos agentes na liquidação financeira do MCSD é compulsória. 
+3.4 A CCEE apura e divulga os valores referentes às cessões do MCSD em até 2 (dois) dias úteis após a 
+divulgação da Receita de Venda Preliminar e da Receita de Venda Final, cujas datas limites estão 
+estabelecidas n o submódulo 3.5 – Receita de Venda de CCEAR. 
+3.5 Para a apuraç ão dos valores a liquidar, s ão considerados para os CCEAR por quantidade e por 
+disponibilidade os valores apurados, de acordo com o processamento da Receita de Venda previsto 
+nas Regras de Comercialização. 
+3.6 Caso o agente discorde dos dados apresentados nos relatórios, deve se manifestar à CCEE por 
+meio de chamado via central de atendimento, em até 2 (dois) dias úteis após a divulgação dos 
+resultados.
+
+Submódulo 8.3 – Liquidação financeira das cessões do MCSD 
+Revisão 4.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.6.1 As solicitações procedentes serão consideradas por meio de ajustes na apuração  das 
+cessões a liquidar, atualizados monetariamente com base nas variações positivas do IPCA. 
+3.6.2 A ausência de manifestação formal de discordância quanto aos relatórios divulgados no 
+prazo estabelecido implica em aceitação expressa e irrevogável. 
+3.7 A liquidação das cessões será realizada após  o faturamento bilateral previsto nos CCEARs de 
+Energia Existente, respeitados 5du (cinco dias úteis) de intervalo entre a divulgação do relatório e a 
+liquidação.  
+3.7.1 Em virtude da existência de diferentes datas de pagamentos  nos CCEARs, será utilizado 
+como referência para a definição das liquidações as seguintes datas: dias 20 e 30 do mês 
+subsequente e dia 10 do segundo mês subsequente ao mês do suprimento considerado.  
+3.8 O calendário anual de liquidação financeira do mecanismo, com as datas de liquidação para cada 
+mês, é aprovado pelo Conselho de Administração da CCEE – CAd e deve ser divulgado no site da 
+CCEE antes do início de cada ano. 
+3.9 Até as 15h do dia da liquidação financeira do MCSD, os agentes devedores devem depositar os 
+recursos financeiros referentes à liquidação financeira do MCSD  
+3.10 Caso o recurso financeiro aportado pelo agente devedor não seja suficiente para cobrir seu débito, 
+a diferença entre a obrigação e o recurso financeiro aportado será objeto de rateio de 
+inadimplência somente entre os agentes credores diretamente impactados.  
+3.11 Até o dia da liquidação financeira do MCSD, o agente de liquidação do MCSD deverá creditar os 
+recursos financeiros na conta corrente de cada agente credor, considerando a dedução 
+proveniente do cálculo de rateio de inadimplência, se for o caso. 
+3.12 Em até 2 (dois) dias úteis após a data  da liquidação financeira do MCSD, a CCEE deve disponibilizar 
+aos agentes o relatório contendo o resultado da liquidação financeira do MCSD , após a validação 
+desses resultados por auditor independente , informando a eventual ocorrência de rateio de 
+inadimplência.  
+3.13 Cabe ao s agentes promover o faturamento bilateral relativo ao valor inadimplido ou acionar os 
+mecanismos de garantias vinculadas aos CCEAR.  
+3.14 Os valores das cessões a liquidar provenientes do processamento do MCSD, mesmo que auditados, 
+podem ser alterados em decorrência de determinação legal, arbitral ou de decisão do Conselho de 
+Administração da CCEE - CAd ou da Agência Nacional de Energia Elétrica - ANEEL.
+
+Submódulo 8.3 – Liquidação financeira das cessões do MCSD 
+Revisão 4.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.15 Em caso de reapuração dos valores a liquidar das cessões do MCSD, deve ser garantida a 
+manutenção do valor econômico das cessões, mediante atualização monetária  com base nas 
+variações positivas do IPCA.  
+3.15.1 A metodologia de atualização monetária deve considerar o número índice do IPCA do 
+mês de referência do ajuste e o número índice do IPCA do mês anterior ao mês em que 
+for inserido o ajuste. 
+3.15.2 Em caso de indisponibilidade do índice, na data de atualização, deve ser utilizado o último 
+índice disponível e deve ser realizada correção residual no mês subsequente. Na eventual 
+extinção do IPCA, deve ser utilizado o índice que vier a substituí-lo. 
+ 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 8.3 – Liquidação financeira das cessões do MCSD 
+Revisão 4.0 
+6 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Liquidação Financeira das Cessões do MCSD
+CCEE Agente devedor Agente de Liquidação
+Até X1 / X2 + 1du
+Enviar resultado 
+da liquidação 
+financeira do 
+MCSD
+Até X1 / X2
+Processar a 
+transferência de 
+recursos aos 
+agentes credores
+Até X1 / X2
+Depositar 
+recursos 
+financeiros para 
+liquidação
+Início
+Até 2du após a 
+divulgação do resultado 
+da Receita de Venda 
+Preliminar
+Apurar valores a liquidar 
+das cessões do MCSD e 
+divulgar resultados
+Até X1 / X2 + 2du
+Disponibilizar 
+resultado da 
+liquidação 
+financeira do 
+MCSD aos agentes
+Até X3
+Processar a 
+transferência de 
+recursos aos 
+agentes credores
+Até 2du após a 
+divulgação do 
+resultado da Receita 
+de Venda Final
+Apurar valores a 
+liquidar das cessões 
+do MCSD e divulgar 
+resultados
+Até X3
+Depositar 
+recursos 
+financeiros para 
+liquidação
+X1 / X2
+Até X3 + 1du
+Enviar resultado 
+da liquidação 
+financeira do 
+MCSD
+Até X3 + 2du
+Disponibilizar 
+resultado da 
+liquidação 
+financeira do 
+MCSD aos agentes
+Fim
+ 
+ 
+Legenda: 
+X1, X2 e X3: 5 (cinco) du após a referência para faturamento bilateral 
+du: Dias úteis
+
+Submódulo 8.3 – Liquidação financeira das cessões do MCSD 
+Revisão 4.0 
+7 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Liquidação financeira das cessões do MCSD 
+Atividade Responsável Detalhamento Prazo 
+Apurar valores a liquidar 
+das cessões do MCSD e 
+divulgar resultados 
+CCEE Divulgar os valores a liquidar das cessões do MCSD por 
+meio de relatórios no sistema específico. 
+Até 2du após a 
+divulgação da Receita 
+de Venda Preliminar e 
+Final, conforme o caso 
+Depositar Recursos 
+Financeiros para 
+liquidação  
+Agente 
+devedor 
+Os agentes devedores devem depositar os valores 
+indicados nos relatórios de apuração dos valores a 
+liquidar das cessões do MCSD.  O recurso deve estar 
+disponível na conta corrente do agente devedor até as 
+15h (Horário de Brasília) da data estabelecida para a 
+Liquidação Financeira do MCSD, para que o Agente de 
+Liquidação do MCSD possa processar a transferência de 
+recursos aos agentes credores. 
+X1, X2 e X3 
+(até as 15h) 
+Processar a transferência 
+de recursos aos agentes 
+credores 
+Agente de 
+Liquidação 
+O agente de liquidação deve processar a transferência 
+dos recursos financeiros recebidos dos agentes 
+devedores aos agentes credores, considerando os 
+percentuais de rateio da inadimplência informados pela 
+CCEE. 
+X1, X2 e X3 
+Enviar o resultado da 
+liquidação financeira do 
+MCSD 
+Agente de 
+Liquidação 
+Enviar o arquivo com o resultado da liquidação 
+financeira, detalhando pagamentos e recebimentos 
+realizados e eventuais inadimplências ocorridas. 
+X1, X2 e X3+1du 
+Disponibilizar o resultado 
+da liquidação financeira 
+do MCSD aos agentes 
+CCEE 
+Disponibilizar os resultados da liquidação financeira do 
+MCSD aos agentes da CCEE, após a validação desses 
+resultados por auditor independente, por meio dos 
+relatórios do sistema específico. 
+Até X1, X2 e X3+2du 
+ 
+Legenda: 
+X1, X2 e X3: 5 (cinco) du após a referência para faturamento bilateral 
+du: Dias úteis
+
+Submódulo 8.3 – Liquidação financeira das cessões do MCSD 
+Revisão 4.0 
+8 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

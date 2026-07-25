@@ -1,0 +1,757 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC exportacao_de_energia_termoeletrica_v3.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC exportacao_de_energia_termoeletrica_v3.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Exportação de Energia Termoelétrica 
+ 
+1 
+ 
+ 
+ 
+  
+  
+Procedimentos Provisórios 
+procedimentos provisórios 
+de comercialização 
+Exportação de Energia Termoelétrica
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+2 
+ 
+procedimentos provisórios  
+de comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+  
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 PRT MME nº 86/2024 - 01.10.2024 
+2.0 Adequação ao 2º LRCE, à repartição do benefício 
+financeiro decorrente da exportação e aprimoramentos   - 01.01.2026 
+3.0 
+Adequação à repartição do benefício financeiro 
+decorrente da exportação, aplicáveis aos CERs que 
+estabelecem que os custos operacionais são calculados 
+com base no CVU referente ao combustível utilizado na 
+operação de exportação  
+- 01.04.2026
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+3 
+ 
+procedimentos provisórios  
+de comercialização 
+1. INTRODUÇÃO 
+A Portaria do Ministério de Minas e Energia – MME nº 86, de 21.10.2024 (PRT nº 86/2024), que substituiu a 
+Portaria MME nº 418/2019, estabelece as diretrizes para a exportação de energia elétrica interruptível sem 
+devolução, destinada à República Argentina e à República Oriental do Uruguai, proveniente de geração de 
+usinas termoelétricas em operação comercial despachadas centralizadamente pelo Operador Nacional do 
+Sistema Elétrico – ONS, disponíveis e não utilizadas para atendimento eletroenergético do Sistema Interligado 
+Nacional – SIN. 
+2. OBJETIVO 
+Este submódulo tem a finalidade de estabelecer os procedimentos necessários para a operação da exportação, 
+nos termos da PRT nº 86/2024, no âmbito da CCEE. 
+As definições contidas nas Regras de Comercialização provisórias e neste documento são consideradas de 
+forma provisória até que haja aprovação pela Agência Nacional de Energia Elétrica – ANEEL, sem ensejar 
+recontabilização em função da nova regulamentação. 
+3. PREMISSAS 
+Gerais 
+3.1 O agente comercializador interessado em exportar energia elétrica deve ser autorizado pelo MME, 
+nos termos da Portaria MME nº 596/11 ou outra que venha a substitui-la. 
+3.2 O comercializador responsável pela exportação deve negociar diretamente com o país importador e 
+com os agentes termoelétricos. 
+3.3 O comercializador responsável pela exportação deve comprovar adimplência setorial para realizar a 
+atividade de exportação, nos termos da subpremissa 3.10.2. 
+3.4 A utilização dos recursos associados ao art. 13 da Lei nº 10.438/2002 (subsídios de reembolso de 
+combustíveis da Conta de Desenvolvimento Energético – CDE) pelos geradores termoelétricos que 
+realizarem exportação de energia, não poderá trazer custo adicional aos consumidores brasileiros. 
+3.5 Na contabilização do Mercado de Curto Prazo – MCP, o comercializador exportador representa as 
+cargas do Uruguai ou da Argentina e figura como parte compradora do Contrato de Exportação de 
+Energia (CEE) firmado com o gerador termelétrico.
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+4 
+ 
+procedimentos provisórios  
+de comercialização 
+3.6 O comercializador deve solicitar à CCEE, por meio da Central de Relacionamento com o Cliente, a 
+criação de perfil de agente específico para exportação de energia, sendo um perfil para cada país. A 
+modelagem das cargas necessárias ao processo é realizada au tomaticamente pela CCEE, após a 
+criação dos perfis solicitados. 
+3.7 O comercializador deve arcar com o pagamento de encargos associados ao consumo apurado no 
+perfil exportador, nos termos das Regras de Comercialização – caderno provisório de Encargos.  
+3.8 O gerador termoelétrico é dispensado da criação de perfil de agente e da modelagem de ativo 
+específicos para exportação. 
+3.9 Os resultados associados à exportação de energia participam regularmente do rateio da 
+inadimplência da liquidação financeira do Mercado de Curto Prazo (LF -MCP) e são liquidados na 
+mesma conta corrente utilizada para as operações do MCP, não sendo necessári a a abertura de 
+conta corrente específica para este fim.  
+Contrato de Exportação de Energia (CEE) 
+3.10 A efetivação do registro comercial entre o comercializador responsável pela exportação e o gerador 
+termoelétrico ocorre de maneira ex-post ao despacho realizado pelo ONS, do seguinte modo:  
+3.10.1 Gerador termelétrico (vendedor): até o 6º dia útil do mês seguinte ao da operação 
+(MS+6du), deve importar o registro de exportação no sistema da CCEE, por meio de 
+arquivo XML (disponível em: www.ccee.org.br > mercado > contratos > links de apoio ), 
+contendo a relação contratual existente e o respectivo montante de geração destinado à 
+exportação. O valor declarado pelo agente deve ser baseado no montante exportado 
+verificado pelo ONS, conforme detalhamento disposto nas Regras de Comercialização – 
+caderno provisório de Contratos. 
+3.10.2 Comercializador exportador (comprador): até o 7º dia útil do mês seguinte ao da operação 
+(MS+7du) deve validar o registro importado pelo gerador termoelétrico no sistema da 
+CCEE, bem como enviar certidão de adimplemento setorial válida (documento emitido no 
+endereço eletrônico da ANEEL). 
+3.11 São considerados válidos para o processo de exportação de energia somente os registros e 
+validações mencionados na premissa anterior que: i) contenham todas as informações necessárias, 
+ii) estejam acompanhados da comprovação da adimplência setorial e iii) sejam apresentados dentro 
+dos prazos estabelecidos.
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+5 
+ 
+procedimentos provisórios  
+de comercialização 
+3.12 A relação comercial entre as partes é formalizada pela CCEE por meio do Contrato de Exportação de 
+Energia (CEE), que deve ser registrado pela CCEE e disponibilizado aos agentes por meio dos 
+relatórios da contabilização até o 12º dia útil do mês seguinte ao da operação (MS+12du).  
+3.13 O montante de energia associado ao CEE considera: 
+3.13.1 A geração horária do agente termoelétrico, verificada pelo ONS para fins de exportação;  
+3.13.2 O total da geração programada pelo ONS para fins de exportação; e 
+3.13.3 O consumo verificado na conversora do país importador. 
+3.14 Eventuais diferenças entre o montante de geração registrado e validado no sistema da CCEE pelas 
+partes e o montante de geração verificado pelo ONS podem ocasionar exposições no MCP para 
+ambas as partes. 
+3.15 Na ocorrência de geração para exportação verificada pelo ONS inferior ao montante de consumo 
+verificado na conversora do país importador motivado por causa não sistêmica, o agente 
+termoelétrico deve arcar com o pagamento de montante financeiro associado a esta variação na LF-
+MCP, valorado pela diferença entre o Custo Variável Unitário – CVU da respectiva usina termoelétrica 
+e o Preço de Liquidação das Diferenças – PLD, sendo tal pagamento destinado como recurso à conta 
+de Encargos de Serviços de Sistema – ESS, conforme estabelecido na PRT nº 86/2024 e nas Regras 
+de Comercialização – caderno provisório de Encargos. 
+3.16 A metodologia para o cálculo da energia modulada associada ao CEE está disposta nas Regras de 
+Comercialização - caderno provisório de Contratos. 
+3.17 Os CEEs estão sujeitos ao processo de efetivação de contratos e são os últimos a serem ajustados, 
+em caso de descumprimento no aporte de garantias financeiras, de acordo com as Regras de 
+Comercialização vigentes. 
+3.18 A apuração de penalidades de lastro de energia desconsidera os montantes de energia associados 
+ao CEE, uma vez que a comercialização associada à exportação de energia é isenta de comprovação 
+de lastro, conforme estabelecido na PRT nº 86/2024. 
+Declarações de exportação 
+3.19 Para a comprovação dos montantes de energia destinados à exportação, registrados no âmbito da 
+CCEE, a CCEE deve emitir duas declarações ao comercializador: 
+3.19.1 Declaração dos montantes de energia relacionados à exportação (DIVULGAÇÃO INICIAL), 
+emitida até o 12º dia útil do mês seguinte ao da operação (MS+12du) e;
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+6 
+ 
+procedimentos provisórios  
+de comercialização 
+3.19.2 Declaração de Encargos de Serviço de Sistema (ESS) relacionados à exportação e de fator 
+de perdas elétricas de consumo horário (DIVULGAÇÃO FINAL), emitida até o 21º dia útil do 
+mês seguinte ao da operação (MS+21du).  
+3.20 Para assegurar a emissão da declaração no prazo mencionado na subpremissa 3.19.1, é necessário 
+que o comercializador envie à CCEE a “Declaração de ciência e anuência de recebimento de 
+informações antecipadas relacionadas à exportação de energia”, anexa a esse submódulo. O 
+documento deve ser assinado pelo comercializador digitalmente, com certificado padrão ICP-Brasil, 
+e encaminhado à CCEE por meio da Central de Relacionamento ao Cliente. 
+3.21 Caso o comercializador opte pelo não envio da “Declaração de ciência e anuência de recebimento 
+de informações antecipadas relacionadas à exportação de energia”, as declarações de exportação 
+serão emitidas pela CCEE somente no 21º dia útil do mês seguinte ao da operação (MS+21du). 
+Compensação de receita decorrente da exportação 
+3.22 A metodologia para o cálculo das compensações de receita pela exportação está disposta nas Regras 
+de Comercialização – cadernos provisórios de Encargos, Contratação de Energia de Reserva e 
+Contratação de Reserva de Capacidade. 
+3.23 A PRT nº 86/2024 estabelece que o gerador termoelétrico que faça jus ao recebimento de receita 
+fixa pelos consumidores de energia elétrica brasileiros deve realizar pagamento de montante 
+financeiro proporcional ao período em que realizou exportação, median te compensação à Conta 
+Centralizadora dos Recursos de Bandeiras Tarifárias, à Conta de Energia de Reserva – CONER e/ou à 
+Conta de Potência para Reserva de Capacidade – CONCAP. 
+▪ Compensação à Conta Centralizadora dos Recursos de Bandeiras Tarifárias 
+3.24 A compensação à Conta Bandeiras está associada a os geradores termoelétricos contratados no 
+Ambiente de Contratação Regulada – ACR. 
+3.24.1 O montante financeiro de compensação à Conta Bandeiras é disponibilizado por meio do 
+sistema da CCEE até o 21º dia útil do mês seguinte ao da operação (MS+21du). 
+3.24.2 O pagamento desses valores é realizado na data de débito da liquidação financeira de 
+Bandeiras Tarifárias, conforme calendário anual de liquidação financeira aprovado pela 
+Diretoria da CCEE e divulgado no endereço eletrônico da CCEE. 
+3.24.3 O pagamento deve ser realizado por meio de depósito identificado na Conta Centralizadora 
+dos Recursos de Bandeiras Tarifárias (a  Conta Bandeiras aceita PIX, sendo utilizados os 
+dados de agência e conta corrente para a operação, pois a conta não tem chave específica):
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+7 
+ 
+procedimentos provisórios  
+de comercialização 
+CCEE – Câmara de Comercialização de Energia Elétrica 
+CNPJ. 03.034.433/0001-56 
+Banco Bradesco SA (nº 237) 
+Agência: 0895 – c/c 118.669-8 
+3.24.4 Eventual inadimplência no pagamento da compensação à Conta Bandeiras implica em: i) 
+abertura de processo de desligamento no âmbito da CCEE, nos termos estabelecidos na 
+REN nº 957/21, ii) multa de 2% sobre a inadimplência, iii) juros de 1% ao mês e iv) retenção 
+de eventuais créditos provenientes da LF -MCP para equacionar o valor em aberto, 
+acrescido de multa e juros. 
+▪ Compensação à Conta de Energia de Reserva – CONER 
+3.25 A compensação à CONER está associada a os geradores termoelétricos contratados na forma de : i) 
+energia de reserva e ii) reserva de capacidade – produto energia. 
+3.25.1 O montante financeiro de compensação à CONER é disponibilizado por meio do sistema da 
+CCEE até o 8º dia útil do segundo mês seguinte ao da operação (MSS+8du). 
+3.25.2 O montante financeiro de compensação será retido pela CCEE na data de crédito da 
+liquidação financeira relativa à contratação de energia de reserva, conforme calendário 
+anual de liquidação financeira aprovado pela Diretoria da CCEE  e divulgado no endereço 
+eletrônico da CCEE. 
+3.25.3 Caso a receita fixa mensal do gerador termoelétrico , proveniente do CER, seja inferior ao 
+montante financeiro de compensação, cabe a ele realizar o pagamento da compensação 
+na data de débito da liquidação financeira relativa à contratação de energia de reserva, 
+conforme calendário anual de liquidação financeira aprovado pela Diretoria da CCEE  e 
+divulgado no endereço eletrônico da CCEE. 
+3.25.4 Eventual inadimplência no pagamento da compensação à CONER , de que trata a 
+subpremissa anterior, implica em: i) abertura de processo de desligamento no âmbito da 
+CCEE, nos termos estabelecidos na REN nº 957/21, ii) multa de 2% sobre a inadimplência, 
+iii) juros de 1% ao mês e iii) atualização monetária nos termos da regulação vigente. 
+▪ Compensação à Conta de Potência para Reserva de Capacidade – CONCAP 
+3.26 A compensação à CONCAP está associada a os geradores termoelétricos contratados na forma de 
+reserva de capacidade – produto potência.
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+8 
+ 
+procedimentos provisórios  
+de comercialização 
+3.26.1 O montante financeiro de compensação à CONCAP é disponibilizado por meio do sistema 
+da CCEE até o 13º dia útil do mês seguinte ao da operação (MS+13du).  
+3.26.2 O montante financeiro de compensação será retido pela CCEE na data de crédito da 
+liquidação financeira relativa à contratação de reserva de capacidade, conforme calendário 
+anual de liquidação financeira aprovado pela Diretoria da CCEE  e divulgado no endereço 
+eletrônico da CCEE. 
+3.26.3 Caso a receita fixa do gerador termoelétrico , proveniente do Contrato de Potência de 
+Reserva de Capacidade – CRCAP, seja inferior ao montante financeiro de compensação, 
+cabe a ele realizar o pagamento da compensação na data de débito da liquidação financeira 
+relativa à contratação de reserva de capacidade, conforme calendário anual de liquidação 
+financeira aprovado pela Diretoria da CCEE e divulgado no endereço eletrônico da CCEE. 
+3.26.4 Eventual inadimplência no pagamento da compensação à CONCAP , de que trata a 
+subpremissa anterior, implica em: i) abertura de processo de desligamento no âmbito da 
+CCEE, nos termos estabelecidos na REN nº 957/21, ii) multa de 2% sobre a inadimplência, 
+iii) juros de 1% ao mês e iii) atualização monetária nos termos da regulação vigente. 
+Repartição igualitária do benefício financeiro decorrente da exportação com a 
+CONER  
+3.27 O gerador termoelétrico  que possui r cláusula específica no CER sobre repartição igualitária do 
+benefício financeiro decorrente da operação de exportação de energia elétrica com a CONER deve 
+enviar à CCEE, por meio de chamado, até o 30º dia útil do mês seguinte ao da operação (MS+30du): 
+a) Declaração dos valores financeiros auferidos pela operação de exportação de energia elétrica 
+(por código de parcela de usina e por CEE); 
+b) Declaração dos valores financeiros totais referentes aos tributos incidentes na operação de 
+exportação de energia elétrica (por código de parcela de usina e por CEE);  
+c) Contrato(s) bilateral(is) firmado(s) com o  comercializador e seu (s) aditivo(s), até a última 
+atualização, e/ou instrumento (s) vinculado(s) entendido(s) como necessário (s) para 
+comprovar a efetiva contratação; 
+d) Nota(s) fiscal(is) emitidas pelo comercializador decorrente(s) da operação de exportação de 
+energia elétrica, com a indicação do código de parcela de usina  e do CEE, e fundamentos de 
+eventuais tributos não incidentes, nos termos da premissa 3.32, se aplicável;
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+9 
+ 
+procedimentos provisórios  
+de comercialização 
+e) Demais documentos vinculados ao(s) contrato(s) bilateral(is) firmado(s) com o 
+comercializador, além daqueles já mencionados,  com a indicação d o código de parcela de 
+usina e do CEE (quando aplicável). 
+3.28 Especificamente nos casos em que o CER estabelecer que os custos operacionais são calculados com 
+base no Custo Variável Unitário – CVU referente ao combustível utilizado na operação de exportação 
+de energia elétrica, além do cumprimento da premissa anterior, o gerador termoelétrico também 
+deve enviar à CCEE: 
+3.28.1 Por meio de chamado, até o 30º dia útil do mês seguinte ao da operação (MS+30du): 
+a) Declaração (por código de parcela de usina), conforme informações constantes na(s) 
+nota(s) fiscal(is) enviada(s) à CCEE:  do (i) valor unitário pago pelo combustível 
+utilizado na  operação de exportação de energia elétrica , (ii) da unidade (carvão: 
+R$/Ton, óleo diesel: R$/L e óleo combustível: R$/Kg); 
+b) Declaração d o percentual da quantidade de combustível  que foi  utilizado na 
+operação de exportação de energia elétrica em relação à quantidade do combustível 
+de que trata o item anterior (por código de parcela de usina e por nota fiscal); 
+c) Declaração do(s) mês(es) específico(s) em que o combustível adquirido pela(s) 
+nota(s) fiscal(is), de que trata o item “d”, foi utilizado para realização da operação 
+de exportação; 
+d) Nota(s) fiscal(is) de compra e comprovante(s) de pagamento  do combustível  
+utilizado na operação de exportação de energia elétrica, com a indicação do código 
+de parcela de usina, e fundamentos de eventuais tributos não incidentes, nos termos 
+da premissa 3.32, se aplicável.  
+3.28.1.1 O gerador termoelétrico declara a responsabilidade pela veracidade das 
+informações declaradas e/ou apresentadas, bem como pela correta vinculação 
+entre a competência  do custo  operacional informado e a(s) nota(s)  fiscal(is) 
+apresentada(s) à CCEE. 
+3.28.1.2 A quantidade total de combustível constante na(s) nota(s) fiscal(is) enviada(s) à 
+CCEE deve ser igual ou superior  à quantidade de  combustível utilizado na 
+operação de exportação de energia elétrica referente ao mês “M”. 
+3.28.2 Por meio da Plataforma de Integração da CCEE para o Sistema de Coleta de Dados de 
+Energia – SCDE, em arquivo digital diário até MS+30du, os dados de medição relacionados 
+ao consumo de combustível, em base horária.
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+10 
+ 
+procedimentos provisórios  
+de comercialização 
+3.28.2.1 As horas em que não forem encaminhados dados de medição serão consideradas 
+como faltantes irrecuperáveis iguais a zero. 
+3.28.2.2 É vedada a solicitação de alteração de dados de medição  após o prazo 
+estabelecido nesta premissa. 
+3.29 A CCEE deve divulgar a conclusão de sua análise no prazo de até cinco dias úteis (5du), contados da 
+data do recebimento de toda s as informações e d ocumentos, com exceção dos dados de medição  
+relacionados ao consumo de combustível , que serão considerados válidos  e definitivos desde sua 
+apresentação. 
+3.30 A CCEE pode solicitar, por meio de chamado, informação ou documentação adicional que entenda 
+necessária para complementar sua análise , devendo todas as pendências serem sanadas pelo 
+gerador termoelétrico até o último dia útil do segundo mês subsequente ao da operação (MSS-1du). 
+3.30.1 A CCEE deve comunicar à ANEEL caso  persista qualquer divergência não sanada pelo 
+gerador termoelétrico até o prazo de que trata esta premissa. 
+3.31 A CCEE é isenta de qualquer responsabilidade sobre informação ou documento que tenha sido 
+cadastrado/apresentado pelo gerador termoelétrico, inclusive quanto às informações cadastradas 
+erroneamente ou não atualizadas, considerando -os verdadeiros e válidos desde seu 
+cadastro/apresentação. 
+3.32 Eventual não incidência de tributos federais, estaduais ou municipais na operação de exportação de 
+energia elétrica, incluindo IBS e CBS, decorrentes da reforma tributária, acompanhada da respectiva 
+base legal referente à não incidência dos tributos mencionados , deve constar de forma expressa 
+na(s) nota(s) fiscal(is) enviada(s) à CCEE ou, alternativamente, ser comprovada por meio de 
+declaração do representante do agente, a fim de ser avaliada a comunicação prestada pelo agente, 
+considerando que a CCEE não se responsabiliza por atestar o recolhimento correto dos tributos 
+incidentes nas operações dos agentes, cabendo exclusivamente aos agentes eventual recolhimento. 
+3.33 O agente se compromete e se responsabiliza civil e criminalmente pela veracidade, vigência, 
+comprovação e atualização dos dados e documentos apresentados à CCEE, garantindo, se houver, a 
+validade e regularidade dos poderes do(s) signatário(s), cuja assinatura o(s) vinculará às obrigações 
+existentes no âmbito da CCEE. 
+3.34 A CCEE deve realizar o cálculo da repartição igualitária do benefício financeiro da operação de 
+exportação de energia elétrica entre o gerador termoelétrico e a CONER,  nos termos do CER e das 
+Regras de Comercialização, com base nas informações e documentos recebidos.
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+11 
+ 
+procedimentos provisórios  
+de comercialização 
+3.35 A apuração da energia de reserva , considerando o benefício financeiro calculado nos termos d a 
+premissa anterior, é disponibilizado por meio do sistema da CCEE até o 8º dia útil do terceiro mês 
+subsequente ao da operação (MSSS+8du). 
+3.35.1 O montante financeiro referente ao benefício financeiro decorrente da exportação será 
+retido pela CCEE na data de crédito da liquidação financeira relativa à contratação de 
+energia de reserva, conforme calendário anual de liquidação financeira aprovado pela 
+Diretoria da CCEE e divulgado no endereço eletrônico da CCEE. 
+3.35.2 Caso a receita fixa mensal do gerador termoelétrico , proveniente do CER, seja inferior ao 
+montante financeiro referente ao benefício financeiro decorrente da exportação , cabe a 
+ele realizar o pagamento do benefício na data de débito da liquidação financeira relativa à 
+contratação de energia de reserva, conforme calendário anual de liquidação financeira 
+aprovado pela Diretoria da CCEE e divulgado no endereço eletrônico da CCEE. 
+3.35.3 Eventual inadimplência no pagamento do benefício financeiro decorrente da exportação, 
+de que trata a subpremissa anterior, implica em: i) abertura de processo de desligamento 
+no âmbito da CCEE, nos termos estabelecidos na REN nº 957/21, ii) multa de 2% sobre a 
+inadimplência, iii) juros de 1% ao mês e iii) atualização monetária nos termos da regulação 
+vigente. 
+ 
+ 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+12 
+ 
+procedimentos provisórios  
+de comercialização 
+5. FLUXO DE ATIVIDADES 
+Exportação de energia termoelétrica
+CCEE Gerador termoelétrico 
+(vendedor)
+Comercializador 
+(comprador)
+Início
+Até MS+6du
+Importar o 
+registro de 
+exportação Até MS+7du
+Validar o registro 
+de exportação e 
+enviar a certidão de 
+adimplemento 
+setorial válidaAté MS+12du
+Registrar o CEE, 
+se for o caso, e 
+disponibilizar aos 
+agentes
+Até MS+12du
+Emitir declaração dos 
+montantes de 
+energia relacionados 
+à exportação, se for o 
+caso
+Até MS+21du
+Emitir declaração de 
+ESS relacionados à 
+exportação e de fator 
+de perdas elétricas 
+de consumo horário
+Até MS+13du
+Disponibilizar o 
+montante financeiro 
+a ser compensado à 
+CONCAP, se for o 
+caso
+Até MS+21du
+Disponibilizar o 
+montante financeiro 
+a ser compensado à 
+Conta Bandeiras, se 
+for o caso
+Até MSS+8du
+Disponibilizar o 
+montante financeiro 
+a ser compensado à 
+CONER, se for o caso
+Compensação na 
+liquidação de Bandeiras 
+Tarifárias
+Compensação na 
+liquidação de Reserva de 
+Capacidade
+Compensação na 
+liquidação de Energia de 
+Reserva
+ 
+Legenda: 
+MS: Mês seguinte ao da operação de exportação de energia elétrica 
+MSS: Segundo mês subsequente ao da operação de exportação de energia elétrica  
+du: dias úteis
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+13 
+ 
+procedimentos provisórios  
+de comercialização 
+Repartição igualitária do benefício financeiro decorrente 
+da exportação com a CONER
+CCEE
+Gerador termoelétrico com 
+cláusula no CER sobre 
+repartição do benefício 
+financeiro com a CONER
+Início
+Até MS+30du
+Declarar as 
+informações e enviar 
+os documentos 
+relativos à exportação
+Até 5du
+Analisar as 
+informações 
+prestadas e os 
+documentos 
+enviados
+Até MSSS+8du
+Divulgar a apuração 
+da energia de reserva 
+considerando o 
+benefício financeiro 
+decorrente da 
+exportação
+Liquidação de Energia de 
+Reserva
+Necessita 
+informações ou 
+documentação 
+adicional?
+Até MSS-1du
+Sanar todas as 
+pendências
+Sim
+Não
+CER estabelece que os 
+custos operacionais são 
+calculados com base no 
+CVU referente ao 
+combustível utilizado na 
+exportação?
+Até MS+30du
+Declarar as informações, 
+enviar os documentos e 
+os dados de medição 
+relacionados ao 
+combustível utilizado na 
+exportação
+Sim
+Não
+ 
+Legenda: 
+MS: Mês seguinte ao da operação de exportação de energia elétrica 
+MSS: Segundo mês subsequente ao da operação de exportação de energia elétrica  
+MSSS: Terceiro mês subsequente ao da operação de exportação de energia elétrica  
+du: dias úteis
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+14 
+ 
+procedimentos provisórios  
+de comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Exportação de energia termoelétrica 
+Atividade Responsável Detalhamento Prazo 
+Importar o registro de 
+exportação 
+Gerador 
+termoelétrico 
+(vendedor) 
+O gerador termelétrico (vendedor) deve importar o 
+registro de exportação no sistema da CCEE. Até MS+6du 
+Validar o registro de 
+exportação e enviar a 
+certidão de adimplemento 
+setorial válida 
+Comercializado
+r (comprador) 
+O c omercializador exportador (comprador ) d eve 
+validar o registro importado pelo gerador 
+termoelétrico no sistema da CCEE, bem como 
+enviar certidão de adimplemento setorial válida. 
+Até MS+7du 
+Registrar o CEE, se for o 
+caso, e disponibilizar aos 
+agentes 
+CCEE 
+A relação comercial entre as partes é formalizada 
+pela CCEE por meio do CEE, que deve ser registrado 
+pela CCEE e disponibilizado aos agentes, desde que 
+cumpridos todos os requisitos exigidos por este 
+submódulo. 
+Até 
+MS+12du 
+Emitir declaração dos 
+montantes de energia 
+relacionados à exportação, 
+se for o caso 
+CCEE 
+A CCEE deve emitir a d eclaração dos montantes de 
+energia relacionados à exportação (DIVULGAÇÃO 
+INICIAL), desde que o comercializador envie à CCEE 
+a “Declaração de ciência e anuência de recebimento 
+de informações antecipadas relacionadas à 
+exportação de energia”, nos termos dest e 
+submódulo. 
+Até 
+MS+12du 
+Disponibilizar o montante 
+financeiro a ser compensado 
+à CONCAP, se for o caso 
+CCEE 
+Em caso de geradores termoelétricos contratados 
+na forma de reserva de capacidade – produto 
+potência, a CCEE deve divulgar o montante 
+financeiro de compensação à CONCAP, por meio do 
+sistema. 
+Até 
+MS+13du 
+Emitir declaração de ESS 
+relacionados à exportação e 
+de fator de perdas elétricas 
+de consumo horário 
+CCEE 
+A CCEE deve emitir a d eclaração de Encargos de 
+Serviço de Sistema (ESS) relacionados à exportação 
+e de fator de perdas elétricas de consumo horário 
+(DIVULGAÇÃO FINAL). 
+Até 
+MS+21du 
+Disponibilizar o montante 
+financeiro a ser compensado 
+à Conta Bandeiras, se for o 
+caso 
+CCEE 
+Em caso de geradores termoelétricos contratados 
+no ACR, a CCEE deve divulgar o montante financeiro 
+de compensação à Conta Bandeiras, por meio do 
+sistema. 
+Até 
+MS+21du 
+Disponibilizar o montante 
+financeiro a ser compensado 
+à CONER, se for o caso 
+CCEE 
+Em caso de geradores termoelétricos contratados 
+na forma de energia de reserva e de reserva de 
+capacidade – produto energia, a CCEE deve divulgar 
+o montante financeiro de compensação à CONER, 
+por meio do sistema. 
+Até 
+MSS+8du 
+ 
+Legenda: 
+MS: Mês seguinte ao da operação de exportação de energia elétrica 
+MSS: Segundo mês subsequente ao da operação de exportação de energia elétrica  
+du: dias úteis
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+15 
+ 
+procedimentos provisórios  
+de comercialização 
+Repartição igualitária do benefício financeiro decorrente da exportação com a 
+CONER 
+Atividade Responsável Detalhamento Prazo 
+Declarar as informações e 
+enviar os documentos 
+relativos à exportação 
+Gerador 
+termoelétrico 
+com cláusula 
+no CER sobre 
+repartição do 
+benefício 
+financeiro com 
+a CONER 
+O gerador termoelétrico que possuir cláusula 
+específica no CER sobre repartição igualitária do 
+benefício financeiro decorrente da operação de 
+exportação de energia elétrica com a CONER deve 
+enviar à CCEE  as informações e  os documentos 
+estabelecidos neste submódulo. 
+Até MS+30du 
+Declarar as informações, 
+enviar os documentos e os 
+dados de medição 
+relacionados ao 
+combustível utilizado na 
+exportação 
+Gerador 
+termoelétrico 
+com cláusula 
+no CER sobre 
+repartição do 
+benefício 
+financeiro com 
+a CONER 
+O gerador termoelétrico que possua  cláusula no  
+CER estabelecendo que os custos operacionais são 
+calculados com base no CVU referente ao 
+combustível utilizado na operação de exportação  
+também deve enviar à CCEE  as informações, os 
+documentos e os dados de medição rela cionados 
+ao combustível utilizado na operação de 
+exportação, nos termos deste submódulo. 
+Até MS+30du 
+Analisar as informações 
+prestadas e os documentos 
+enviados 
+CCEE 
+A CCEE deve analisar as informações prestadas e os 
+documentos enviados , podendo solicitar 
+informação ou documentação adicional que 
+entenda necessária para complementar sua 
+análise, com exceção dos dados de medição 
+relacionados ao consumo de combustível. 
+Até 5du 
+Sanar todas as pendências 
+Gerador 
+termoelétrico 
+com cláusula 
+no CER sobre 
+repartição do 
+benefício 
+financeiro com 
+a CONER 
+O gerador termoelétrico deve sanar todas as 
+pendências levantadas pela CCEE. Até MSS-1du 
+Divulgar a apuração da 
+energia de reserva 
+considerando o benefício 
+financeiro decorrente da 
+exportação 
+CCEE 
+A CCEE deve d ivulgar, no sistema,  a apuração da 
+energia de reserva considerando o benefício 
+financeiro decorrente da exportação. 
+Até MSSS+8du 
+ 
+Legenda: 
+MS: Mês seguinte ao da operação de exportação de energia elétrica 
+MSS: Segundo mês subsequente ao da operação de exportação de energia elétrica 
+MSSS: Terceiro mês subsequente ao da operação de exportação de energia elétrica  
+du: dias úteis
+
+Exportação de Energia Termoelétrica 
+Revisão 3.0 
+ 
+16 
+ 
+procedimentos provisórios  
+de comercialização 
+7. ANEXOS 
+7.1 - Declaração de ciência e anuência de recebimento de informações antecipadas 
+relacionadas à exportação de energia  
+DECLARAÇÃO DE CIÊNCIA E ANUÊNCIA DE RECEBIMENTO DE INFORMAÇÕES ANTECIPADAS RELACIONADAS À 
+EXPORTAÇÃO DE ENERGIA 
+<RAZÃO SOCIAL DO AGENTE> , inscrita no CNPJ/MF sob o no <CNPJ>, com sede na <ENDEREÇO COMPLETO>, neste ato 
+representada por seus representantes legais abaixo assinados, nos termos de seu Estatuto/Contrato Social, vem por meio 
+da presente, para todos os fins de direito, expressamente declarar, por solicitação da Câmara de Comercialização de 
+Energia Elétrica – CCEE, que: 
+i. Conhece a metodologia aplicada pela Portaria do Ministério de Minas e Energia nº 86/2024 (PRT MME nº 
+86/2024), bem como a proposta de aplicação transitória dos comandos ali contidos, e que vigerá até que as novas 
+Regras e Procedimentos de Comercialização estejam aprovados pela ANEEL; 
+ii. Concorda e possui pleno conhecimento de que a CCEE emitirá a declaração de exportação de energia elétrica 
+contendo os melhores dados de montante de energia disponíveis em até MS+12du (DIVULGAÇÃO INICIAL). Em 
+até MS+21du (DIVULGAÇÃO FINAL) será emitida declaração com os valores consolidados de encargos de serviços 
+do sistema (ESS) e fator de perda de consumo (XP_CLFj), nos termos do submódulo dos Procedimentos de 
+Comercialização provisórios – Exportação de Energia Termoelétrica; 
+iii. Está plenamente ciente de que as melhores informações a serem disponibilizados na DIVULGAÇÃO INICIAL são 
+dados parciais, sujeitos à alteração, não auditados e que dependem substancialmente dos dados de medição 
+coletados pela CCEE; 
+iv. Concorda em receber a DIVULGAÇÃO INICIAL e a DIVULGAÇÃO FINAL nas condições aqui descritas, bem como em 
+contribuir para que tal fluxo seja utilizado durante e após a elaboração das Regras de Comercialização e/ou 
+Procedimentos de Comercialização a serem definidos no âmbito da Agência Nacional de Energia Elétrica; e 
+v. Isenta a CCEE de toda e quaisquer responsabilidades relacionadas à diferença de valores informados na 
+DIVULGAÇÃO INICIAL e na DIVULGAÇÃO FINAL, que sejam compatíveis e estejam em conformidade com os dados 
+fornecidos pelos geradores, pelo Operador Nacional do Sistema – ONS, bem como de toda e qualquer 
+responsabilidade relacionada ao uso de tais declarações de DIVULGAÇÃO INICIAL e DIVULGAÇÃO FINAL . 
+<Local>, <Dia> de <Mês> de <Ano> 
+ 
+<ASSINATURA DO AGENTE> 
+Este documento deve ser assinado com firma reconhecida ou digitalmente com certificado ICP-Brasil (devendo ser encaminhado à CCEE 
+o protocolo de autenticidade da assinatura), pelo(s) representante(s) legal(is), que deve(m) ter poderes para representar a e mpresa, 
+conforme disposto no Contrato ou Estatuto Social e Ata de Eleição de Diretoria, quando aplicável.

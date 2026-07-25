@@ -1,0 +1,1691 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 3.2_-_contratos_acr_v9.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 3.2_-_contratos_acr_v9.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+/  
+Módulo 3 – Contratação de 
+Energia 
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+procedimentos de 
+comercialização
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada  
+(CP 11/2015) Despacho nº 1.454/2016 02.06.2016 
+2.0 Adequação à REN nº 711/2016, REN nº 755/2016 e 
+demais aprimoramentos Despacho nº 1.911/2017 30.06.2017 
+3.0 Adequação à REN n° 783/2017, REN n° 802/2017 e 
+demais aprimoramentos Despacho n° 1.975/2018 31.08.2018 
+4.0 Adequação à REN n° 909/2020 e demais 
+aprimoramentos Despacho n° 3.646/2020 01.01.2021 
+5.0 Adequação à REN nº 951/2021 Despacho n° 485/2022 16.02.2022 
+6.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1.012/2022 01.04.2022 
+7.0 Adequação à REN nº 1.051/2022 Despacho n° 1032/2023 17.04.2023 
+8.0 Adequação à REN nº 1.080/2023 e aprimoramentos Despacho nº 1.432/2026 28/04/2026 
+9.0 Adequação à Consulta Pública nº 25/2025 Resolução Normativa nº 
+1.155/2026 01.05.2026
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+Sem prejuízo e em complemento aos conceitos e à sistemática apresentada especialmente no Módulo 
+“Contratos” das Regras de Comercialização, este submódulo se destina ao tratamento de atividades de 
+assinatura, registro, sazonalização e modulação dos contrato s regulados, dentre eles os  contratos de 
+comercialização de energia no ambiente regulado,  contratos de energia de reserva,  contratos de leilão de 
+ajuste, cotas-partes de Itaipu e cotas de energia do Programa de Incentivo às Fontes Alternativas de Energia 
+Elétrica - PROINFA, Contratos de Compra de Energia Regulada - CCER (abrangendo os contratos firmados entre 
+a distribuidora local e o consumidor livre ou especial que opta por contratar parte das necessidades de energia 
+e potência das unidades consumidoras com essa distribuidora local ), contratos de cotas de garantia física e 
+energia nuclear, contratos bilaterais regulados, tratamento dos Contratos de Constituição de Garantias - CCG, 
+alteração de dados cadastrais, aditamentos de contratos regulados, acordo bilateral de CCEAR, cancelamento 
+de registro de CCEAR, suspensão do registro de CCEAR e garantias financeiras do CCEAR.  
+2. OBJETIVO 
+Estabelecer os procedimentos para as tratativas entre a CCEE e os agentes de mercado com relação aos 
+contratos firmados no Ambiente de Contratação Regulado - ACR. 
+3. PREMISSAS 
+Gerais 
+3.1 Os contratos firmados entre agentes de distribuição, caracterizado como suprimento a agente de 
+distribuição com mercado próprio inferior a 700GWh/ano, devem ser registrados no sistema 
+específico, quando couber, pelos próprios agentes de distribuição supridores.  
+3.2 Os contratos que compõem anexos de editais de leilão de energia , bem como aqueles decorrentes 
+de leis ou medidas provisórias e demais atos normativos, contêm cláusulas e condições fixas e não 
+são passíveis de alteração pelos agentes e pela CCEE sem a expressa autorização da ANEEL. 
+3.3 Os contratos decorrentes de leilões serão disponibilizados pela CCEE para assinatura dos agentes 
+somente após a apresentação, quando couber, das respectivas garantias financeiras contratuais 
+válidas. 
+3.4 Os contratos decorrentes de leilões serão registrados na CCEE somente após sua respectiva 
+validação pela CCEE.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.5 O atendimento às condições estabelecidas no Edital do certame para assinatura dos contratos deve 
+ser rigorosamente observado pela CCEE e cumprido pelos agentes participantes. 
+3.6 A CCEE deve disponibilizar em seu site, quando aplicável, o inteiro teor dos contratos de 
+comercialização de energia elétrica, conforme previsto na regulamentação vigente. 
+3.7 Os contratos regulados que estiverem em situação de suspensão no sistema específico não poderão 
+participar de mecanismos de redução/rescisão da energia contratada enquanto perdurar o período 
+da suspensão.  
+Validação, Assinatura e Registro de Contratos 
+▪ Contratos de Comercialização de Energia no Ambiente Regulado (CCEARs), 
+Contratos de Energia de Reserva (CERs) e Contratos de Leilão de Ajuste (CAs) 
+3.8 O processo de elaboração dos contratos de novo agente será iniciado após a publicação da outorga, 
+sendo que a assinatura dos contratos somente ocorrerá após a deliberação favorável de sua adesão 
+à CCEE, nos termos do submódulo 1.1 – Adesão à CCEE. 
+3.9 Os candidatos a agente ou agentes vendedores de energia elétrica de novos empreendimentos 
+vencedores de leilão deverão informar, no sistema específico, os dados relativos ao ato regulatório 
+de seu empreendimento, em até dois dias úteis (2du), contados a partir da data de sua publicação. 
+3.10 A CCEE deve tomar as devidas providências para assinatura efetiva dos Contratos por todas as partes 
+envolvidas em até 25 dias úteis (25du) após a publicação da outorga no Diário Oficial da União ou da 
+homologação e adjudicação do resultado do leilão, o que for mais contemporâneo, incluindo -se 
+apresentação da garantia contratual, validação e saneamento de eventuais pendências por parte dos 
+agentes. 
+3.11 Os marcos intermediários e os respectivos prazos para  cumprimento por parte da CCEE e dos 
+agentes do prazo total de vinte e  cinco dias úteis (25du) para assinatura dos contratos, com o 
+estabelecimento de prazo mínimo de três dias úteis ( 3du) para qualquer obrigação dos agentes , 
+encontram-se disponíveis no site da CCEE. 
+3.12 Os mesmos prazos e obrigações da premissa anterior serão seguidos pela CCEE no caso de alteração 
+dos marcos intermediários e/ou dos respectivos prazos para cumprimento por parte da CCEE e dos 
+agentes do prazo total de vinte e cinco dias úteis (25du) para assinatura dos contratos. 
+3.13 Até a efetiva assinatura dos contratos, os marcos intermediários devem ser, no mínimo, os seguintes: 
+▪ Registro do ato autorizativo pelos agentes vendedores sem outorga;
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+5 
+ 
+procedimentos de 
+comercialização 
+▪ Solicitação de informações para confecção dos contratos; 
+▪ Análise da CCEE sobre eventuais inconsistências e saneamento de pendências; 
+▪ Validação pelos responsáveis pelas assinaturas das informações disponibilizadas; 
+▪ Providências em relação às garantias contratuais, de forma concomitante; 
+▪ Disponibilização do contrato,  pela CCEE , para assinatura digital com certificado ICP -Brasil, 
+compatível com os sistemas disponibilizados pela CCEE , devendo ser encaminhado à CCEE o 
+protocolo de autenticidade da assinatura. 
+3.13.1 Apenas no caso excepcional de indisponibilidade do sistema específico por parte da CCEE 
+é que o(s) contrato(s) poderá(ão) ser assinado(s) pelas partes de forma física, com 
+reconhecimento de firma. 
+3.13.2 A responsabilidade pela válida e correta indicação de dados, incluindo a designação dos 
+signatários do(s) contrato(s) e dos dados do banco gestor é única e exclusiva dos agentes. 
+3.14 A CCEE deve disponibilizar à ANEEL, em até cinco dias úteis (5du) após o prazo final para assinatura 
+dos contratos, as informações  sobre: i) o  agente que der causa a não assinatura dos contratos 
+decorrentes de leilões e/ou que não atenda aos prazos da CCEE para resolução de pendência(s) no(s) 
+contrato(s) e/ou seu(s) anexo(s), e ii) a data de cumprimento da obrigação da parte adimplente com 
+relação à assinatura dos contratos. 
+3.15 A CCEE deve efetuar, no sistema específico, o registro das negociações ocorridas no ambiente 
+regulado decorrentes de leilões de energia nova e de reserva, para todo o período de suprimento, 
+conforme as Regras de Comercialização, condições estabelecidas no edital do certame e após a 
+efetiva assinatura dos contratos respectivos. 
+3.15.1 O registro, sazonalização e modulação das negociações decorrentes dos leilões de energia 
+existente e de ajuste, realizados no sistema específico, prescindem da conclusão do 
+processo de assinatura dos contratos, sendo que estes devem atender ao prazo 
+estabelecido na premissa 3.10. 
+3.16 A CCEE deve encam inhar à ANEEL, conforme Normativo de monitoramento do mercado e quando 
+couber, o relatório sobre a situação da assinatura dos contratos decorrentes dos leilões, nomeando 
+os agentes envolvidos em pendências nos respectivos certames, a descrição das pendênci as, os 
+números e datas de chamados emitidos e outras informações relevantes para as ações na ANEEL. 
+3.17 O relatório sobre os contratos firmados decorrentes do certame deve ser encaminhado pela CCEE à 
+ANEEL, na forma estabelecida na regulamentação, em até dez dias úteis (10du) após a informação 
+para liberação das garantias financeiras do último agente.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.18 A CCEE deve manter os contratos disponíveis, caso requisitado pela ANEEL.  
+3.19 Os mesmos prazos estabelecidos para as atividades relacionadas aos contratos são aplicáveis aos 
+respectivos aditivos, quando couber. 
+3.20 Para os aditivos contratuais, o marco para início da contagem dos prazos deve ser a data de 
+publicação do ato deliberativo sobre a questão pela ANEEL ou poder concedente, o que deve ser 
+diariamente acompanhado pela CCEE. 
+3.21 Não obstante as obrigações da CCEE neste Procedimento de Comercialização, todo o processo 
+descrito deve ser acompanhado pelos agentes vendedores e compradores. 
+▪ Contratos de Compra de Energia Regulada - CCER e Contratos de Itaipu 
+3.22 Para cada unidade consumidora parcialmente livre e especial, o agente de distribuição deve registrar 
+o CCER no sistema específico até MS+9du. 
+3.23 O registro do CCER deve ser realizado uma vez para todo o período de suprimento do contrato, no 
+sistema específico. 
+3.24 No tocante aos contratos de Itaipu, a CCEE deve disponibilizar em seu site a consulta dos montantes 
+registrados no sistema específico aos agentes cotistas e à Empresa Brasileira de Participações em 
+Energia Nuclear e Binacional - ENBPar, em até cinco dias úteis (5du) antes do início de sua vigência. 
+▪ Contratos Bilaterais Regulados – CBRs 
+3.25 Os CBRs são classificados conforme sua procedência, nos termos das Regras de Comercialização , 
+considerando os seguintes subgrupos: 
+a) CBR cuja parte compradora é um agente de distribuição; ou 
+b) CBR cuja parte vendedora é um agente de geração, referente aos contratos estabelecidos nos 
+artigos 5° e 10 da Lei n° 13.182/2015 e similares.  
+3.26 Os CBRs e suas respectivas alterações, cuja parte compradora é um agente de distribuição , devem 
+ser registrados no sistema específico conforme aprovação ou homologação pela ANEEL, de acordo 
+com a regulamentação específica. 
+3.26.1 A CCEE deve monitorar permanentemente o registro desses contratos em conjunto com a 
+ANEEL e considerar o registro inválido, não gerando quaisquer efeitos no âmbito da CCEE, 
+quando a premissa anterior for descumprida.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.27 O registro, ajuste e validação dos CBRs devem ser realizados no sistema específico, obedecendo os 
+mesmos prazos previstos para o CCEAL, conforme submódulo 3.1 – Contratos do Ambiente Livre, 
+sem prejuízo ao tratamento excepcional dado aos contratos celebrados entre empresas do mesmo 
+grupo econômico, nos termos deste submódulo. 
+3.28 O registro ou o ajuste deve ser realizado pela parte vendedora e validado pela parte compradora, 
+mensalmente ou para todo o período de suprimento do contrato. 
+3.28.1 A CCEE deve limitar o registro, ajuste e validação dos CBRs referenciados no item “b” da 
+premissa 3.25 somente aos vendedores e compradores elegíveis, conforme estabelecido 
+na Lei n° 13.182/2015.  
+3.28.2 Excepcionalmente para os CBRs cuja parte vendedora é um agente de geração, referente 
+aos contratos estabelecidos no artigo 5° da Lei n° 13.182/2015: i) a CCEE deve registrar os 
+contratos, dispensando a validação pela contraparte, e ii) o vendedor elegível deve ajustar 
+e os compradores elegíveis devem validar os valores horários máximos de suprimento dos 
+contratos.  
+3.29 Os contratos decorrentes de Geração Distribuída de Chamada Pública , decorrentes de Geração 
+Distribuída de Desverticalização, oriundos do sistema isolado de distribuidora interligada  e 
+anteriores à Lei nº 10.848/2004 deverão ter a parcela de usina identificada no registro do contrato. 
+3.29.1 O agente vendedor deverá informar o período de vigência do montante, bem como o valor 
+do montante expresso em Mwmédio, exceto para os contratos estabelecidos no artigo 5° 
+da Lei n° 13.182/2015. 
+3.30 A precisão dos montantes inseridos para os CBRs deve ser de 6 (seis) casas decimais em MWmédio. 
+Caso ocorra diferença de arredondamento entre o somatório dos dados horários e o montante por 
+período de vigência, essa diferença é alocada na primeira hora do contrato pelo sistema específico, 
+de forma automática, ou seja, quando a distribuição horária for feita pelo sistema específico, deverá 
+utilizar esta mesma regra de arredondamento. 
+3.31 A finalização de registro  de um CBR pode decorrer  por meio de: i)  acordo entre as partes,  ii) 
+desligamento de agente da CCEE, conforme disposto no submódulo 1.5 – Desligamento da CCEE, ou 
+iii) decisão judicial, arbitral ou administrativa. 
+3.31.1 Em caso de acordo entre as partes, o agente vendedor deve realizar o cancelamento do 
+registro do CBR no sistema específico, o que deve também ser validado pelo agente 
+comprador até MS+9du.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+8 
+ 
+procedimentos de 
+comercialização 
+3.32 A finalização do registro de CBR produz efeito no âmbito da CCEE a partir da data de finalização 
+especificada no sistema específico pelo vendedor e validada pelo comprador. 
+3.33 O agente que ficar impedido de realizar operações referentes aos seus contratos em razão de 
+inviabilidade operacional do sistema específico e/ou por problema de conectividade com a CCEE, ou 
+ainda, por restrição de acesso, deve seguir os procedimentos de contingência detalhados  no 
+submódulo 1.4 – Atendimento. 
+3.34 A CCEE deve enviar à ANEEL, anualmente, relatório com parâmetros e informações dos CBRs 
+registrados no sistema específico. 
+▪ Contratos de Constituição de Garantias – CCGs 
+3.35 As atividades referentes à confecção dos CCGs seguem a mesma sistemática dos respectivos 
+contratos (CCEARs ou CAs), sendo realizadas concomitantemente. 
+3.36 Até a efetiva assinatura dos CCGs, os marcos intermediários devem ser, no mínimo, os seguintes: 
+▪ Solicitação ao comprador do tipo de garantia a ser prestada e demais informações para geração 
+dos contratos, incluindo o Banco Gestor; 
+▪ Disponibilização de arquivo eletrônico dos instrumentos de garantia para validação dos agentes;  
+▪ Análise da CCEE sobre eventuais inconsistências; 
+▪ Validação pelos agentes das informações disponibilizadas pela CCEE; 
+▪ Disponibilização pela CCEE para assinatura do instrumento de garantia. 
+3.37 Os CCGs de CCEN e CCGF devem ser confeccionados pela CCEE em até 30 (trinta) dias após o início 
+do período de alocação das cotas, sendo adotados como marcos intermediários aqueles descritos 
+na premissa anterior. 
+3.37.1 A CCEE utilizará como minutas os modelos existentes na regulamentação vigente, que 
+contém condições fixas, não sendo passíveis de alteração pelas partes, exceto a atualização 
+dos dados mutáveis, ou seja, que não alteram o teor provido pela regulamentação. 
+▪ Cotas de Energia do PROINFA 
+3.38 A migração total ou parcial de unidade consumidora para o Ambiente de Contratação Livre acarreta 
+a transferência de cota de energia do PROINFA do agente de distribuição para o referido consumidor, 
+proporcionalmente à parcela que migrou para o mercado livre.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+9 
+ 
+procedimentos de 
+comercialização 
+3.39 A CCEE deve calcular a cota do PROINFA para a unidade consumidora que migrou para o Ambiente 
+de Contratação Livre, com base em seu consumo mensal.  
+3.40 A CCEE deve disponibilizar em até MS+ 4du, com base nos dados prévios de medição,  o percentual 
+de atendimento ao consumo pelas cotas do PROINFA , para que os agentes consigam estimar  sua 
+cota mensal do PROINFA. 
+▪ Contrato de Uso da Energia de Reserva – CONUER 
+3.41 O Contrato de Uso da Energia de Reserva – CONUER é firmado entre os agentes usuários de energia 
+de reserva e a CCEE na forma do Agente Comercializador da Energia de Reserva – ACER. 
+3.42 A CCEE deve enviar o CONUER ao agente que se enquadra como usuário de energia de reserva 
+imediatamente ao fim do processo de adesão do agente. 
+3.43 Os dispositivos do CONUER são aceitos de forma compulsória pelos agentes que são aprovados pela 
+Diretoria da CCEE. 
+Sazonalização e Modulação de Contratos 
+▪ CCEARs 
+3.44 Até o mês de dezembro de cada ano, a CCEE informará o calendário da sazonalização do CCEAR por 
+quantidade, que deverá ser realizada e validada diretamente no sistema específico pelos agentes 
+compradores e vendedores, respectivamente, uma única vez, para todos os meses contratuais do 
+ano civil seguinte. 
+3.45 Caso os agentes compradores e vendedores não respeitem os prazos estabelecidos no calendário 
+ou não haja acordo entre as partes, a sazonalização do CCEAR por quantidade será realizada pela 
+CCEE, aplicando o perfil de carga declarado pelo agente de distribuição, consolidado pelo Sistema 
+de Informação de Mercado para o Planejamento do Setor Elétrico  - SIMPLES ou seu sucedâneo, 
+conforme Regras de Comercialização, respeitados os limites mínimo e máximo situados entre 85% e 
+115% da média anual da energia contratada. 
+3.45.1 A sazonalização da energia contratada por meio de CCEAR por quantidade, quando feita 
+pela CCEE, nos termos da premissa anterior, será realizada uma única vez, até o final do 
+mês de dezembro, para todos os meses contratuais do ano civil seguinte.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+10 
+ 
+procedimentos de 
+comercialização 
+3.46 Especificamente para os CCEARs por quantidade  de leilões de energia nova , de fonte hidráulica,  
+celebrados a partir do 25° Leilão de Energia Nova (LEN),  a sazonalização será realizada pela CCEE, 
+aplicando o perfil de carga declarado pelo agente de distribuição consolidado pelo SIMPLES ou seu 
+sucedâneo, nos termos da premissa anterior.  
+3.47 Especificamente para os CCEARs por quantidade, de fonte eólica e solar, celebrados no 28º e 29º 
+Leilões de Energia Nova (LEN), o agente vendedor deve declarar os valores de disponibilidade do 
+empreendimento, respeitados os limites mínimo e máximo situados entre 8 0% e 120% do valor de 
+disponibilidade declarada constante no anexo I do CCEAR. 
+3.47.1 A sazonalização é realizada pela CCEE conforme os valores de disponibilidade declarados 
+no sistema e, caso o agente vendedor não os declare, a sazonalização será realizada pela 
+CCEE, conforme os valores constantes no anexo I do CCEAR. 
+3.47.2 O perfil utilizado para a sazonalização dos contratos será único por empreendimento e 
+refletirá proporcionalmente em todos os CCEARs do mesmo produto. 
+3.47.3 Em caso de alteração de características técnicas da usina, o agente vendedor pode declarar 
+novos valores de disponibilidade no sistema específico. 
+3.47.4 Na ocorrência da hipótese prevista na premissa anterior, o s valores da sazonalização do 
+ano corrente não serão revisados. Os novos valores de disponibilidade mensal serão 
+considerados somente no processo de sazonalização do próximo ano civil. 
+3.48 A sazonalização da energia contratada por meio de CCEAR por disponibilidade é feita a cada ano pela 
+CCEE, uma única vez, até o final do mês de dezembro, para todos os meses contratuais do ano civil 
+seguinte, de forma uniforme ao longo do ano (sazonalização “flat”). 
+3.49 A sazonalização da inflexibilidade contratual definida no CCEAR por disponibilidade (com CVU 
+diferente de zero) deverá ser preenchida no sistema específico pela CCEE, uma única vez, para todos 
+os meses contratuais do ano civil seguinte, nos termos do(s) contrato(s), nos prazos descrito na 
+premissa anterior. 
+3.50 Caso o(s) agente(s) vendedor(es) vencedor(es) do leilão opte(m) por destinar a geração da parcela 
+ACL da usina ao CCEAR por disponibilidade, deverá(ão) informar, anualmente, no sistema específico, 
+em data anterior à realização do PMO do mês de referência do início do ano contratual (a data limite 
+para a declaração ex-ante deve ser divulgada pela CCEE no calendário de operações, disponível em 
+seu site). 
+3.50.1 A opção realizada pelo agente não será recontabilizada.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+11 
+ 
+procedimentos de 
+comercialização 
+▪ Contratos de Leilão de Ajuste – CAs 
+3.51 A sazonalização do CA é realizada uma única vez, pelo agente comprador, para todos os meses 
+contratuais de cada ano civil, por meio do sistema específico, em data estabelecida pela CCEE para 
+cada leilão. 
+3.52 A validação da sazonalização do CA será realizada uma única vez, pelo vendedor, para todos os meses 
+contratuais de cada ano civil. 
+3.53 A sazonalização, realizada pelo comprador, e a validação, realizada pelo vendedor, devem ser 
+efetivadas antes do início de suprimento. 
+3.54 Em caso de não realização e/ou validação da sazonalização no prazo definido pela CCEE, será 
+considerada a divisão proporcional do total de energia contratada no período pelo número de horas 
+de cada mês (sazonalização flat). 
+3.55 Os montantes referentes à sazonalização dos contratos de ajuste devem respeitar os limites máximo 
+e mínimo situados entre 85% e 115% da média anual da energia contratada. 
+3.56 A modulação da energia contratada de cada mês deverá ser realizada pelo comprador, uma única 
+vez para cada mês contratual, respeitando-se os limites de potência associada, por meio do sistema 
+específico, até a data limite estabelecida pela CCEE. 
+3.57 Em caso de não realização e/ou validação da modulação nos prazos definidos, será considerada a 
+divisão do total de energia mensal pelo número de horas do mês. (modulação flat). 
+3.58 Quando não informado no edital do leilão, o valor de potência mínima deve ser considerado igual a 
+zero e o de potência máxima deve ser igual à potência associada à energia contratada. 
+▪ Cotas de energia do PROINFA 
+3.59 A sazonalização das cotas do PROINFA deve ser realizada diretamente no sistema específico, pelo 
+Agente Comercializador da Energia do PROINFA - ACEP, até o final de dezembro de cada ano, para 
+todos os meses do ano seguinte. 
+3.60 As usinas hidrelétricas do PROINFA com possibilidade de participação no MRE são modeladas de 
+forma individualizada em um perfil específico. Para esses casos, é necessário informar no sistema 
+específico, até o final do mês de dezembro de cada ano, a sazonalização das cotas do PROINFA entre 
+o perfil específico sob o qual está modelada a usina e o perfil do Agente Comercializador de Energia 
+do PROINFA – ACEP.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+12 
+ 
+procedimentos de 
+comercialização 
+3.61 Havendo o aumento ou a redução da Garantia Física, durante o ano de referência, a CCEE revisará a 
+sazonalização dos montantes contratuais relacionados à usina, de forma proporcional à curva já 
+sazonalizada pela ENBPar no ano anterior. 
+3.62 A CCEE realizará a sazonalização automaticamente, conforme Regras de Comercialização, até o final 
+do mês de janeiro de cada ano, caso não seja cumprido o  prazo da premissa 3.60 ou não seja 
+respeitado o montante anual de energia (em MWh), estabelecido em ato regulatório específico. 
+3.63 A sazonalização deve ser informada aos agentes cotistas pela CCEE em até três dias úteis (3du) 
+contados, conforme o caso: i) do prazo limite estabelecido na premissa 3.60; ou ii) do prazo limite 
+estabelecido na premissa anterior. 
+3.64 A CCEE deve disponibilizar, no sistema específico, a consulta dos montantes registrados aos agentes 
+cotistas e à ENBPar. As usinas hidrelétricas do PROINFA com possibilidade de participação no MRE 
+terão seus dados divulgados de forma individualizada, ou seja, por cada usina. 
+3.65 No caso de agente cotista do PROINFA com participação facultativa  e representado por terceiro na 
+CCEE, o registro do Contrato do PROINFA será realizado para o Agente Representante, conforme 
+submódulo 1.2 – Cadastro de Agentes. 
+▪ Contratos de Compra de Energia Regulada – CCERs 
+3.66 A sazonalização do CCER deve ser realizada pelo agente de distribuição no momento do registro do 
+contrato e deve contemplar todo o período de suprimento. 
+3.67 Caso o agente de distribuição não registre as informações do CCER no sistema específico no prazo 
+estabelecido, os montantes na contabilização devem ser considerados nulos. 
+3.68 Caso o consumidor parcialmente livre, responsável por unidade consumidora conectada à Rede 
+Básica, não efetue os pagamentos relativos ao CCER, o agente de distribuição pode registrar valor 
+zero para os montantes de energia contratada no sistema específico até a quitação total dos débitos. 
+3.69 A modulação do montante mensal de energia do CCER é realizada conforme disposto nas Regras de 
+Comercialização. 
+3.70 A CCEE pode solicitar o CCER, se julgar necessário. 
+▪ Cotas de Garantia Física de Energia e de Energia Nuclear e Contratos de Itaipu
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+13 
+ 
+procedimentos de 
+comercialização 
+3.71 A sazonalização dos montantes contratados de garantia física e de energia nuclear deve ser realizada 
+diretamente no sistema específico, pela CCEE, conforme Regras de Comercialização, e 
+disponibilizada aos agentes, até dois dias úteis (2du) antes do final do mês de dezembro, para todos 
+os meses do ano seguinte. 
+3.72 A sazonalização e a modulação dos contratos de Itaipu são realizadas automaticamente pela CCEE, 
+conforme descrito nas Regras de Comercialização. 
+▪ Contratos Bilaterais Regulados – CBRs 
+3.73 A sazonalização do CBR deve ser realizada pelo agente vendedor no momento do registro do 
+contrato no sistema específico, conforme aprovação ou homologação pela ANEEL , e validada pela 
+parte compradora, mensalmente ou para todo o período de suprimento do contrato. 
+3.74 A modulação do CBR deve ser definida no momento do registro do contrato no sistema específico, 
+devendo obedecer os critérios definidos nas Regras de Comercialização. 
+3.75 Para os CBRs celebrados entre empresas do mesmo grupo econômico, cujo comprador seja agente 
+de distribuição, a modulação dos montantes de energia contratados  é realizada conforme descrito 
+nas Regras de Comercialização. 
+3.75.1 A modulação ex-ante livremente acordada entre as partes deve ser inserida e validada no 
+sistema específico, em data anterior à realização do Programa Mensal de Operação – PMO 
+do mês de referência. 
+3.75.2 Caso a modulação ex-ante não seja inserida e/ou validada no sistema específico antes da 
+divulgação do PLD para o mês de referência, ela será realizada de forma flat pelo sistema 
+específico.  
+3.76 Para o CBR de Geração Distribuída Elétrico, a modulação ex -ante deve ser inserida no sistema 
+específico pelo agente comprador (agente de distribuição ), sem necessidade de validação pelo 
+agente vendedor, em data anterior à realização do PMO do mês de referência. 
+3.76.1 Caso a modulação ex-ante não seja inserida  no sistema específico , ela será realizada de 
+forma flat pelo sistema específico. 
+3.77 A CCEE deverá divulgar em seu site, no Calendário Geral de Operações, a data limite para inserção e 
+validação da modulação ex-ante de que tratam as premissas desta seção. 
+Alterações Contratuais 
+▪ Alteração de dados contratuais por solicitação do agente
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+14 
+ 
+procedimentos de 
+comercialização 
+3.78 Após a assinatura do CCEAR , CER ou CA, ou do instrumento de garantia financeira, ou do Termo 
+Aditivo ou de Cessão, observada a necessidade de adequação de dados bancários e de 
+representantes para comunicação constante dos referidos instrumentos e alteração de faturamento 
+da matriz pela filial , o agente vendedor e/ou agente comprador poderão solicitar alterações 
+mediante o preenchimento do formulário eletrônico  (o formulário eletrônico será disponibilizado 
+para (i) preenchimento das alterações contratuais a serem realizadas e (ii) indicaç ão dos 
+representantes com poderes outorgados para assiná -los) a ser gerado e enviado pelo sistema 
+específico. 
+3.79 Em até cinco dias úteis (5du) a partir da data de seu envio, a CCEE deverá  avaliar a solicitação do 
+agente e disponibilizar o formulário mencionado na premissa anterior no Portal de Assinaturas CCEE 
+ou, caso sejam identificadas  inconsistências, deverá comunicar ao agente, por meio do sistema 
+específico. 
+3.79.1 A parte solicitante deverá assinar digitalmente o  formulário eletrônico, com certificado  
+ICP-Brasil, compatível com os sistemas disponibilizados pela CCEE , devendo ser 
+encaminhado à CCEE o protocolo de autenticidade da assinatura.  
+3.80 Após a assinatura digital do formulário eletrônico, a CCEE deverá informar à(s) contraparte(s) a(s) 
+alteração(ões) realizada(s). 
+3.81 Para alterações de nome empresarial, desde que não implique alteração da titularidade, e/ou de 
+endereço, os agentes vendedor e comprador deverão observar o submódulo 1.2 – Cadastro de 
+agentes e a alteração efetivada será informada pela CCEE à(s) contraparte(s). 
+3.82 As partes deverão informar aos seus respectivos bancos sobre as alterações de dados cadastrais 
+realizadas pelas contrapartes. 
+3.83 Caso a parte solicitante não dê seguimento à solicitação aberta, a CCEE deverá cancelá -la após 30 
+dias corridos (30dc) contados da data de seu recebimento. 
+▪ Anuência à Cessão dos direitos creditórios do CER e/ou à Alteração de dados 
+bancários do CER 
+3.84 O agente vendedor poderá solicitar anuência à CCEE à Cessão dos direitos creditórios e/ou à 
+Alteração de dados bancários do CER, conforme procedimento publicado pela CCEE em seu site. 
+▪ Alteração contratual por meio de aditamentos
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+15 
+ 
+procedimentos de 
+comercialização 
+3.85 Na hipótese de alterações societárias de um contratante que possam vir a resultar na 
+reunião/aglutinação de CCEAR ou CA, será celebrado termo de distrato dos contratos originais com 
+a posterior celebração de novos CCEAR ou CA com a pessoa jurídica sucessor a do contratante, ou 
+termo de cessão, conforme o caso. 
+3.85.1 A data de celebração do termo de distrato deverá ser idêntica à data de início de vigência 
+dos novos CCEAR ou CA a serem celebrados, os quais deverão possuir vigência idêntica ao 
+prazo residual dos CCEAR ou CA originais. Neste documento, deverá constar a data de início 
+de sua vigência, que deverá ser igual àquela de início da validade do novo i nstrumento 
+jurídico. 
+3.85.2 Em caso de alteração de titularidade da concessão, permissão ou autorização, as partes se 
+obrigam a distratar a garantia financeira original e constituir novo instrumento jurídico -
+financeiro. 
+3.86 O novo signatário do contrato assumirá todos os direitos e obrigações do signatário original  nos 
+termos do contrato. 
+3.87 A CCEE poderá solicitar documentos complementares que justifiquem a alteração contratual, se 
+necessário. 
+3.88 Aplicar-se-á ao processo de aditamento os mesmos prazos do contrato que lhe deu origem. 
+3.89 Em caso de emissão de ato regulatório que altere os dados dos contratos (CCEAR, CA ou CER), o(s) 
+agente(s) deverá(ão) informar à CCEE tal alteração, por meio do sistema específico, através do link 
+Gestão ACR, em até dois dias úteis (2du), contados a partir da data de sua publicação, para dar início 
+ao processo de confecção do(s) aditamento(s) ao(s) contrato(s). 
+3.90 Em até dois dias úteis (2du) após o prazo indicado na premissa anterior, a CCEE deverá: 
+a) Iniciar os procedimentos de alteração contratual em nome do(s) agente(s), informar à ANEEL 
+sobre o descumprimento da obrigação, caso o(s) agente(s) não informe(m) a CCEE sobre tal 
+alteração e disponibilizar o formulário eletrônico (o formulário eletrônico será disponibilizado 
+para (i) preenchimento das informações para a elaboração do(s) aditamento(s) ao(s) 
+contrato(s) e (ii) indicação dos representantes com poderes outorgados para assiná -los), via 
+sistema específico; ou 
+b) Validar os dados enviados pelo(s) agente(s), e disponibilizar o  formulário eletrônico, via 
+sistema específico. 
+3.91 Fica dispensada a celebração de aditivos contratuais nos casos de alteração de características 
+técnicas dos empreendimentos de geração no ambiente regulado.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+16 
+ 
+procedimentos de 
+comercialização 
+3.92 A CCEE deve tomar as devidas providências para assinatura efetiva dos aditivos contratuais por todas 
+as partes envolvidas em até 25 dias úteis  (25du) após a publicação do respectivo ato regulatório, 
+incluindo-se apresentação da garantia contratual, validação e saneamento de eventuais pendências 
+por parte dos agentes. 
+3.93 Para a assinatura do(s) aditamento(s) ao(s) contrato(s), é condição obrigatória que as partes sejam 
+agentes da CCEE. 
+3.94 O(s) aditamento(s) ao(s) contrato(s) terá(ão) sua eficácia condicionada à  celebração do(s) 
+correspondente(s) CCG ou equivalente(s). 
+3.95 O(s) agente(s) responderá(ão) solidariamente pelo cumprimento das etapas  do processo de 
+assinatura do(s) aditamento(s) ao(s) contrato(s), sendo de  sua(s) responsabilidade(s) acompanhá -
+las. 
+3.96 Para cada certame, a CCEE disponibilizará relatórios à ANEEL com os dados  sobre cada um do(s) 
+aditamento(s) ao(s) contrato(s), bem como informações sobre seu processo de assinatura, por meio 
+do sistema específico. 
+▪ Substituição de CCG 
+3.97 O instrumento jurídico-financeiro apresentado para garantia de fiel cumprimento das obrigações do 
+CCEAR ou CA pelo agente comprador, e aceito pelo agente vendedor, deverá ser substituído por um 
+novo documento nos seguintes casos , não havendo necessidade de distrato do instrumento 
+anterior: 
+a) Alteração de titularidade do agente vendedor; 
+b) Alteração de titularidade do agente comprador; 
+c) Substituição do banco gestor, e 
+d) Outros casos que venham a ser reconhecidos pela ANEEL. 
+3.98 A nova garantia financeira deverá atender ao especificado no respectivo edital do leilão e no 
+respectivo CCEAR ou CA firmado entre as partes. 
+3.99 Em caso de substituição do instrumento de garantia financeira do leilão, o agente comprador deverá 
+solicitar à CCEE, por meio do sistema específico, o início do processo de confecção do novo 
+instrumento de garantia financeira.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+17 
+ 
+procedimentos de 
+comercialização 
+3.100 Com a celebração do novo CCG, o CCG anterior será automaticamente revogado para todos os 
+efeitos legais, inclusive nos registros da CCEE, devendo as partes signatárias do CCG anterior operar 
+os efeitos da revogação entre si, por sua conta e risco, ficando a CCEE isenta de toda e qualquer 
+responsabilidade daí decorrente. 
+3.101 Os prazos para substituição de CCG devem seguir sistemática similar à exposta na seção Contratos 
+de Constituição de Garantias – CCGs. 
+▪ Acordo Bilateral de CCEAR 
+3.102 Conforme previsto na regulamentação vigente , a s informações referentes ao acordo bilateral 
+celebrado entre as partes signatárias do CCEAR devem ser registradas e validadas no sistema 
+específico. 
+3.103 O agente comprador deve registrar e o agente vendedor deve validar até o 25º dia do mês anterior 
+ao mês de início da vigência do acordo bilateral, sendo que o sistema específico permanece 
+bloqueado para as referidas atividades entre o 1ºdu e o 14ºdu de cada mês. 
+3.104 Os acordos bilaterais registrados e devidamente validados no sistema específico não podem ser 
+cancelados ou modificados pelas partes. 
+3.105 Solicitações de recontabilização de acordos bilaterais não são aceitas pela CCEE. 
+3.106 Durante o período de sazonalização de CCEAR, informado em comunicado específico pela CCEE, não 
+será permitido o registro de acordos bilaterais. 
+3.107 Para registro de acordo bilateral de CCEAR por quantidade, para períodos ainda não sazonalizados, 
+somente será permitido: (i) a redução do montante anual para todo o ano contratual e (ii) a rescisão 
+a partir do primeiro mês de cada ano contratual. 
+Cancelamento do Registro de CCEAR 
+3.108 O registro de CCEAR no sistema específico somente poderá ser cancelado pela CCEE após decisão da 
+ANEEL. Nesse caso, o cancelamento deverá ter efeitos na data da publicação do respectivo ato. 
+3.109 O registro do CCEAR deve estar cancelado nos sistemas específicos da CCEE em até três dias úteis 
+(3du) após decisão da ANEEL. 
+3.110 Caso o(s) CCEAR(s) tenha(m) gerado efeitos, observadas as disposições do submódulo 5.1 – 
+Contabilização e Recontabilização, a CCEE deverá processar a recontabilização para os meses já 
+liquidados.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+18 
+ 
+procedimentos de 
+comercialização 
+3.111 Exclusivamente nos casos de rescisão amigável, conforme previsto na regulamentação vigente, a 
+CCEE somente poderá cancelar o registro do CCEAR após o atendimento do disposto na premissa 
+3.104 pelas partes signatárias do acordo bilateral. 
+Suspensão do Registro de CCEAR 
+3.112 Os prazos relativos a esta seção estão definidos no item 5 – Fluxo de Atividades.  
+3.113 A CCEE deve promover a suspensão do registro do CCEAR, vinculado à usina que não estiver em 
+operação comercial, quando, pela segunda vez durante o período de suprimento, não ocorrer a 
+efetivação de seu registro, observada eventual instauração do processo de desligamento da CCEE. 
+3.113.1 A CCEE deve notificar as partes e a ANEEL informando sobre a realização da suspensão do 
+registro do CCEAR. 
+3.113.2 A CCEE deve divulgar o valor a ser equacionado pelo agente vendedor. 
+3.114 O agente comprador pode optar por resolver ou retomar o CCEAR, conforme premissas a seguir. 
+3.115 O agente comprador que opte por resolver o CCEAR deve: 
+3.115.1 Enviar notificação ao agente vendedor informando-o sobre a decisão de resolver o CCEAR, 
+além de adotar as providências contratuais necessárias. 
+3.115.1.1 O recebimento da notificação pelo agente vendedor é comprovado por meio do 
+comprovante de recebimento de e-mail registrado ou aviso de recebimento dos 
+Correios. 
+3.115.2 Solicitar à CCEE  a resolução do CCEAR e enviar o comprovante de recebimento da 
+notificação pelo agente vendedor, de que trata a subpremissa anterior. 
+3.115.2.1 A CCEE analisará se as comunicações, prazos contratuais e regulatórios da 
+solicitação foram observados pelo agente comprador. Em caso positivo, a CCEE 
+deve rescindir o CCEAR e informar à ANEEL. Caso contrário, o contrato 
+permanecerá suspenso.  
+3.116 O agente comprador que opte por retomar o CCEAR deve solicitar à CCEE a sua retomada, bem como 
+informar que houve o equacionamento dos débitos pelo agente vendedor. Nesse caso, o agente 
+vendedor também deve solicitar à CCEE a retomada do CCEAR.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+19 
+ 
+procedimentos de 
+comercialização 
+3.116.1 Caso o agente vendedor esteja integralmente adimplente com todas as obrigações no 
+âmbito da CCEE, a Câmara deve retomar o CCEAR, promover o registro dos montantes 
+contratados remanescentes (a partir do primeiro dia do mês subsequente ao do 
+recebimento da i nformação das partes) e informar à ANEEL. Caso contrário, o contrato 
+permanecerá suspenso. 
+3.117 Caso a CCEE não receba qualquer comunicação do agente comprador sobre a intenção de resolver 
+o CCEAR, o contrato permanecerá suspenso, sem prejuízo da eventual instauração do processo de 
+desligamento da CCEE. 
+Garantias Financeiras do CCEAR 
+3.118 Para os CCEARs celebrados a partir do 35º Leilão de Energia Existente, o agente vendedor deve 
+constituir garantias financeiras específicas, além das demais garantias financeiras já previstas na 
+regulamentação vigente. 
+3.119 As garantias financeiras do CCEAR serão avaliadas e recebidas pelo agente custodiante e somente 
+serão consideradas válidas se observarem, no mínimo, os seguintes critérios: i) baixo risco, alta 
+liquidez, certeza e exigibilidade, ii) rápida execução (no mes mo dia em que ocorrer a comunicação 
+da CCEE sobre a necessidade de execução) e iii) vigência, na qual as garantias devem estar válidas 
+desde o início de suprimento do CCEAR até, pelo menos, o último dia útil do mês em que ocorrer a 
+liquidação do Mercado de Curto Prazo – MCP referente ao último mês de suprimento do CCEAR. 
+3.120 Os procedimentos operacionais relativos à constituição, recomposição, substituição, liberação, 
+renovação, complemento das garantias financeiras do CCEAR, dentre outros, devem ser observados 
+pelo agente vendedor junto ao agente custodiante ou, ainda, quando  solicitado pelo agente 
+custodiante. 
+3.121 As garantias financeiras tratadas nesta seção devem ser constituídas, complementadas ou 
+recompostas para cada CCEAR, conforme atividades e prazos definidos no item 5 – Fluxo de 
+Atividades, sendo vedada sua utilização para assegurar: 
+3.121.1 Demais compromissos do agente vendedor perante a CCEE ou a terceiros; 
+3.121.2 Outros CCEARs celebrados pelo agente vendedor. 
+3.122 A constituição das garantias financeiras do CCEAR prescinde do registro do contrato e da conclusão 
+do processo de assinatura dos CCEARs quando o prazo para assinatura, estabelecido na premissa 
+3.10, for posterior ao início de suprimento dos CCEARs.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+20 
+ 
+procedimentos de 
+comercialização 
+3.122.1 A CCEE deve divulgar o calendário com as datas das atividades referentes ao processo de 
+constituição das garantias financeiras do CCEAR, mediante comunicação aos agentes. 
+3.122.2 A CCEE deve divulgar o montante a ser aportado pelo agente vendedor para constituição 
+das garantias financeiras do CCEAR. 
+3.122.3 O agente vendedor deve realizar o aporte integral do montante divulgado pela CCEE para 
+composição das garantias financeiras do CCEAR. 
+3.122.4 Em caso de não aporte integral para composição das garantias financeiras do CCEAR, por 
+parte do agente vendedor: i) o contrato não estará apto para participar Mecanismo de 
+Compensação de Sobras e Déficits, e ii) a CCEE deve realizar a suspensão do CCEAR, c om 
+efeitos imediatos, e informar à ANEEL. 
+3.122.5 Em caso de resolução do CCEAR pela ANEEL, a CCEE deve divulgar o valor da multa por 
+resolução contratual, para cobrança bilateral, nos contatos indicados no CCEAR e/ou no 
+sistema específico da CCEE, bem como informar à ANEEL o referido valor. 
+3.122.5.1 O valor informado pela CCEE, a título de multa por resolução do CCEAR, constitui 
+o principal da obrigação de débito do agente vendedor, pois a cobrança da multa 
+é realizada bilateralmente, cabendo à contraparte compradora efetuar o cálculo 
+das atualizações monetárias e demais encargos devidos pelo agente vendedor, 
+não competindo à CCEE apresentar o valor a ser cobrado.  
+3.123 A CCEE deve apurar e divulgar, mensalmente, a variação dos montantes das garantias financeiras do 
+CCEAR, nos termos das Regras de Comercialização. 
+3.123.1 A CCEE deve divulgar o calendário com as datas das atividades referentes ao processo de 
+complemento das garantias financeiras do CCEAR. 
+3.123.2 O montante divulgado pela CCEE para complemento das garantias financeiras do CCEAR 
+deve ser aportado pelo agente vendedor junto ao agente custodiante. 
+3.123.3 Em caso de não complemento integral das garantias financeiras do CCEAR, por parte do 
+agente vendedor, a CCEE deve realizar a suspensão do CCEAR, com efeitos imediatos, e 
+informar à ANEEL. 
+3.123.4 Em caso de resolução do CCEAR pela ANEEL, a CCEE deve divulgar o valor da multa por 
+resolução contratual, para cobrança bilateral, nos contatos indicados no CCEAR e/ou no 
+sistema específico da CCEE, observado o disposto na subpremissa 3.123.5.1, bem como 
+informar à ANEEL o referido valor.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+21 
+ 
+procedimentos de 
+comercialização 
+3.124 Caracterizado o não aporte integral das garantias financeiras previstas para o MCP para o mês de 
+referência, a CCEE deve proceder à não efetivação dos registros validados de contratos de venda do 
+agente vendedor, nos termos da regulamentação vigente, confo rme prazos estabelecidos no 
+submódulo 5.1 – Contabilização e recontabilização e, caso o agente vendedor possua CCEAR 
+celebrado a partir do 35º LEE, as garantias financeiras do CCEAR serão executadas pela CCEE para 
+assegurar a efetivação do registro deste contrato na contabilização e liquidação do MCP do mês de 
+referência, nos termos das Regras de Comercialização.  
+3.124.1 A CCEE deve divulgar o montante para recomposição das garantias financeiras do CCEAR 
+que foi executada.  
+3.124.2 O montante divulgado pela CCEE para recomposição das garantias financeiras do CCEAR 
+deve ser aportado pelo agente vendedor junto ao agente custodiante.  
+3.124.3 Em caso de não recomposição integral das garantias financeiras do CCEAR, por parte do 
+agente vendedor, a CCEE deve realizar a suspensão do CCEAR, com efeitos para o mês de 
+referência subsequente, e informar à ANEEL.  
+3.124.4 Em caso de resolução do CCEAR pela ANEEL, a CCEE deve divulgar o valor da multa por 
+resolução contratual, para cobrança bilateral, nos contatos indicados no CCEAR e/ou no 
+sistema específico da CCEE, observado o disposto na subpremissa 3.123.5.1, bem como 
+informar à ANEEL o referido valor.  
+3.125 A CCEE deve informar ao agente custodiante eventual montante de garantias financeiras do CCEAR 
+passível de:  
+3.125.1 Realocação em favor do agente cessionário, decorrente de cessão do CCEAR, nos termos 
+do submódulo 8.1 – MCSD de Energia Existente.  
+3.125.2 Liberação em favor do agente vendedor, decorrente de: i) redução do CCEAR, nos termos 
+do submódulo 8.1 – MCSD de Energia Existente, ii) término de suprimento do CCEAR, ou 
+iii) demais hipóteses previstas nas Regras de Comercialização. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+22 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+ Assinatura – CCEARs de novo empreendimento e CERs
+CCEE
+Candidato a agente 
+ou agente vendedor 
+vencedor do leilão
+Agente 
+comprador
+Início
+Até P+2du
+Enviar outorga, se 
+for o caso
+Até P+25du
+Tomar as 
+providências 
+para assinatura 
+do(s) contrato(s)
+Até P+25du
+Assinar 
+digitalmente o(s) 
+contrato(s)
+Fim
+Até P+25du
+Assinar 
+digitalmente o(s) 
+contrato(s)
+ 
+Legenda:  
+P: Data da publicação da outorga de novo empreendimento 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+23 
+ 
+procedimentos de 
+comercialização 
+ Assinatura – CCEARs de empreendimento existente e CAs
+CCEE
+Candidato a agente 
+ou agente vendedor 
+vencedor do leilão
+Agente 
+comprador
+Fim
+Até 25du
+Tomar as 
+providências 
+para assinatura 
+do(s) contrato(s)
+Até 25du
+Assinar 
+digitalmente o(s) 
+contrato(s)
+Até 25du
+Assinar 
+digitalmente o(s) 
+contrato(s)
+N.A.
+Constatar a 
+homologação e 
+adjudicação do 
+resultado do leilão, 
+se for o caso
+Início
+ 
+Legenda:  
+N.A.: Não Aplicável 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+24 
+ 
+procedimentos de 
+comercialização 
+Alteração Contratual por Solicitação do Agente
+CCEE Agente solicitante
+N.A.
+Preencher formulário 
+eletrônico para solicitar 
+alteração contratual, se 
+for o caso
+Fim
+Início
+Até 5du
+Disponibilizar formulário 
+eletrônico no Portal de 
+Assinaturas CCEE ou 
+comunicar o agente, caso 
+haja inconsistência
+Até T+30dc
+Assinar 
+digitalmente o 
+formulário 
+eletrônico
+Até T+30dc
+Cancelar a 
+solicitação, caso o 
+agente não dê 
+seguimento à 
+solicitação
+N.A.
+Informar à(s) 
+contraparte(s) a(s) 
+alteração(ões) 
+realizada(s)
+ 
+Legenda:  
+N.A.: Não Aplicável 
+T: Data da abertura da solicitação de alteração contratual 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+25 
+ 
+procedimentos de 
+comercialização 
+Alteração Contratual por meio de Aditamento (ato regulatório)
+CCEE Agentes envolvidos
+Início
+Fim
+Até L+2du
+Informar a alteração 
+dos dados do(s) 
+contrato(s) (CCEAR, CA 
+ou CER)
+Até 2du
+Iniciar o processo de 
+confecção do 
+aditamento ao(s) 
+contrato(s) com o 
+registro do ato 
+regulatório, e 
+disponibilizar o 
+formulário eletrônico
+Até 2du
+Validar os dados e 
+disponibilizar o 
+formulário eletrônico
+N.A.
+Assinar 
+digitalmente o 
+formulário 
+eletrônico
+Até L+25du
+Assinar 
+digitalmente o(s) 
+aditivo(s) 
+contratual(is)
+N.A.
+Disponibilizar o(s) 
+aditivo(s) 
+contratual(is) no 
+Portal de Assinaturas 
+CCEE
+ 
+Legenda:  
+N.A.: Não Aplicável 
+L: Data da publicação do ato regulatório que alterou os dados dos contratos 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+26 
+ 
+procedimentos de 
+comercialização 
+Suspensão do Registro de CCEAR
+CCEE Agente 
+Comprador Agente Vendedor
+Fim
+N.A.
+Enviar notificação 
+ao agente 
+vendedor
+Após o decurso do 
+prazo de saneamento 
+da inadimplência sem a 
+devida regularização 
+até N+30d
+Solicitar à CCEE a 
+resolução do CCEAR
+Até 1du do prazo limite para 
+efetivação de contratos, 
+conforme PdC 5.1 - 
+Contabilização e 
+recontabilização
+Suspender o registro do 
+CCEAR
+Início
+Até 2du (N)
+Notificar as partes 
+e a ANEEL sobre a 
+suspensão do 
+registro do CCEAR 
+Até o 5ºdu 
+de cada mês
+Divulgar o valor a 
+ser equacionado 
+pelo agente 
+vendedor 
+Agente 
+comprador 
+optou por 
+resolver o 
+CCEAR?Sim
+(Resolução do CCEAR)
+Até 5du
+Analisar a 
+solicitação
+Agente comprador 
+observou as 
+comunicações, prazos 
+contratuais e 
+regulatórios?Até 2du
+Rescindir o CCEAR 
+e informar à 
+ANEEL
+Resolução 
+do CCEAR
+Não
+N.A.
+Manter o CCEAR 
+suspenso
+Sim
+N.A.
+Solicitar à CCEE a  
+retomada do CCEAR e 
+informar que houve o 
+equacionamento dos 
+débitos
+N.A.
+Solicitar à CCEE a 
+retomada do 
+CCEAR
+Agente 
+vendedor 
+adimplente?
+Não 
+(Retomada do CCEAR)
+Não 
+(Retomada do CCEAR)
+Até 2du
+Retomar o CCEAR 
+e informar à 
+ANEEL
+Sim
+Retomada 
+do CCEAR
+Não
+ 
+ 
+Legenda:  
+N.A.: Não Aplicável 
+N: Data de envio da notificação pela CCEE informando sobre a realização da suspensão do registro do CCEAR 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+27 
+ 
+procedimentos de 
+comercialização 
+Constituição das Garantias Financeiras do CCEAR
+CCEE Agente Vendedor
+Sim
+Após a emissão do ato 
+regulatório sobre a 
+resolução do CCEAR
+Divulgar o valor da 
+multa por resolução 
+contratual
+Conforme calendário 
+divulgado pela CCEE 
+(D)
+Divulgar o montante 
+a ser aportado para 
+constituição das 
+garantias financeiras 
+do CCEAR
+Fim
+Aporte 
+integral?
+Até 1du
+Suspender o 
+CCEAR
+Início
+Até 1du
+Efetivar o CCEAR
+Não
+Até D+3du
+Realizar o aporte 
+integral do 
+montante divulgado 
+pela CCEE
+Após a suspensão do 
+CCEAR
+Informar à ANEEL 
+sobre a suspensão 
+do CCEAR
+ 
+Legenda:  
+D: Data da divulgação do montante a ser aportado para constituição das garantias financeiras do CCEAR 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+28 
+ 
+procedimentos de 
+comercialização 
+Complemento das Garantias Financeiras do CCEAR
+CCEE Agente Vendedor
+Após a emissão do ato 
+regulatório sobre a 
+resolução do CCEAR
+Divulgar o valor da 
+multa por resolução 
+contratual
+Conforme calendário 
+divulgado pela CCEE 
+(C)
+Divulgar a variação 
+das garantias 
+financeiras do CCEAR
+Fim
+Complemento 
+integral?
+Até 1du
+Suspender o 
+CCEAR
+Início
+Sim
+Até C+3du
+Complementar 
+integralmente as 
+garantias 
+financeiras do 
+CCEAR
+Após a suspensão do 
+CCEAR
+Informar à ANEEL 
+sobre a suspensão 
+do CCEAR
+Conforme calendário 
+divulgado pela CCEE (C)
+Informar ao agente 
+custodiante eventual 
+montante de garantias 
+financeiras passível de 
+realocação ou liberação, 
+se for o caso
+Não
+ 
+Legenda:  
+C: Data da divulgação do montante a ser aportado para complemento das garantias financeiras do CCEAR 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+29 
+ 
+procedimentos de 
+comercialização 
+Recomposição das Garantias Financeiras do CCEAR
+CCEE Agente Vendedor
+Após a emissão do ato 
+regulatório sobre a 
+resolução do CCEAR
+Divulgar o valor da 
+multa por resolução 
+contratual
+Fim
+Até 1du
+Suspender o 
+CCEAR
+Início
+Sim
+Conforme prazo 
+estabelecido no PdC 5.1 - 
+Contabilização e 
+recontabilização
+Não realizou o aporte 
+integral das garantias 
+financeiras do MCP
+Conforme prazo para 
+efetivação dos contratos, 
+conforme PdC 5.1 - 
+Contabilização e 
+recontabilização
+Executar as garantias 
+financeiras para assegurar a 
+efetivação do registro do 
+CCEAR
+Até o prazo limite para 
+efetivação dos contratos, 
+conforme PdC 5.1 - 
+Contabilização e 
+recontabilização (R)
+Divulgar o montante para 
+recomposição das 
+garantias financeiras do 
+CCEAR
+Até R+3du
+Recompor 
+integralmente as 
+garantias financeiras 
+do CCEAR
+Recomposição 
+integral?
+Não
+Possui CCEAR 
+celebrado a 
+partir do 35º LEE 
+passível de não 
+efetivação?
+Sim
+Não
+Após a suspensão 
+do CCEAR
+Informar à ANEEL 
+sobre a suspensão 
+do CCEAR
+ 
+Legenda:  
+R: Data da divulgação do montante a ser aportado para recomposição das garantias financeiras do CCEAR 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+30 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Assinatura – CCEARs de novo empreendimento e CERs 
+Atividade Responsável Detalhamento Prazo 
+Enviar a outorga, se for o 
+caso 
+Candidato a agente ou 
+agente vendedor 
+vencedor do leilão 
+O candidato a agente ou agente vendedor de energia 
+elétrica de novo empreendimento, vencedor do leilão, 
+deve enviar a outorga à CCEE,  por meio do sistema 
+específico. 
+Até P+2du 
+Tomar as providências 
+para assinatura do(s) 
+contrato(s) 
+CCEE 
+A CCEE deve  tomar as providências para assinatura 
+efetiva do(s) contrato(s) por todas as partes 
+envolvidas, incluindo apresentação da garantia 
+contratual, validação e saneamento de eventuais 
+pendências. 
+Até P+25du 
+Assinar digitalmente o(s) 
+contrato(s) 
+Candidato a agente ou 
+agente vendedor 
+vencedor do leilão 
+O candidato a agente ou agente vendedor vencedor 
+do leilão deve assinar o(s) contrato(s) digitalmente 
+com certificado ICP-Brasil. 
+Até P+25du 
+Assinar digitalmente o(s) 
+contrato(s)  Agente comprador O agente comprador deve assinar o(s) contrato(s) 
+digitalmente com certificado ICP-Brasil. Até P+25du 
+Legenda:  
+P: Data da publicação da outorga de novo empreendimento 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+31 
+ 
+procedimentos de 
+comercialização 
+Assinatura – CCEARs de empreendimento existente e CAs  
+Atividade Responsável Detalhamento Prazo 
+Constatar a homologação 
+e adjudicação do 
+resultado do leilão, se for 
+o caso 
+CCEE 
+Constatada a homologação e adjudicação de um leilão de 
+empreendimento existente, a CCEE deve tomar as 
+providências necessárias para a assinatura do(s) 
+contrato(s). 
+N.A. 
+Tomar as providências 
+para assinatura do(s) 
+contrato(s) 
+CCEE 
+A CCEE deve tomar as providências para assinatura efetiva 
+do(s) contrato(s) por todas as partes envolvidas, incluindo 
+apresentação da garantia contratual, validação e 
+saneamento de eventuais pendências. 
+Até 25du 
+Assinar digitalmente o(s) 
+contrato(s) 
+Candidato a agente ou 
+agente vendedor 
+vencedor do leilão 
+O candidato a agente ou agente vendedor vencedor do 
+leilão deve assinar o(s) contrato(s) digitalmente com 
+certificado ICP-Brasil. 
+Até 25du 
+Assinar digitalmente o(s) 
+contrato(s) Agente comprador O agente comprador deve assinar o(s) contrato(s) 
+digitalmente com certificado ICP-Brasil. Até 25du 
+Legenda:  
+N.A.: Não Aplicável 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+32 
+ 
+procedimentos de 
+comercialização 
+Alteração Contratual por Solicitação do Agente 
+Atividade Responsável Detalhamento Prazo 
+Preencher formulário eletrônico 
+para solicitar alteração contratual, 
+se for o caso 
+Agente solicitante 
+O agente comprador e/ou vendedor podem solicitar 
+alterações de dados contratuais, por meio do sistema 
+específico. 
+N.A. 
+Disponibilizar formulário eletrônico 
+no Portal de Assinaturas CCEE ou 
+comunicar o agente, caso haja 
+inconsistência 
+CCEE 
+A CCEE deve avaliar a solicitação do agente e 
+disponibilizar o formulário eletrônico no Portal de 
+Assinaturas CCEE. Caso haja inconsistências, a CCEE 
+deve comunicar o agente para saná -las, por meio do 
+sistema específico. 
+Até 5du 
+Assinar digitalmente o formulário 
+eletrônico Agente solicitante O agente solicitante deve assinar o formulário 
+eletrônico digitalmente com certificado ICP-Brasil. Até T+30dc 
+Cancelar a solicitação, caso o 
+agente não dê seguimento à 
+solicitação 
+CCEE 
+A CCEE deve cancelar a solicitação de alteração de 
+dados contratuais caso o agente solicitante não dê 
+seguimento à solicitação aberta. 
+Até T+30dc 
+Informar à(s) contraparte(s) a(s) 
+alteração(ões) realizada(s) CCEE 
+Após a assinatura digital do formulário eletrônico, a 
+CCEE deve informar à(s) contraparte(s) a(s) 
+alteração(ões) realizada(s). 
+N.A. 
+Legenda:  
+N.A.: Não Aplicável 
+T: Data da abertura da solicitação de alteração contratual 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+33 
+ 
+procedimentos de 
+comercialização 
+Alteração Contratual por meio de Aditamento (ato regulatório)  
+Atividade Responsável Detalhamento Prazo 
+Informar a alteração dos dados 
+do(s) contrato(s) (CCEAR, CA 
+ou CER) 
+Agentes 
+envolvidos 
+Os agentes envolvidos devem informar à CCEE a alteração de 
+dados contratuais advindas pela publicação de ato 
+regulatório, por meio do registro do referido ato via sistema 
+específico. 
+Até L+2du 
+Iniciar o processo de confecção 
+do aditamento ao(s) 
+contrato(s) com o registro do 
+ato regulatório, e disponibilizar 
+o formulário eletrônico 
+CCEE 
+Caso os agentes envolvidos não informem à CCEE sobre a 
+alteração contratual, a CCEE deve iniciar os procedimentos 
+de alteração em nome dos agentes,  com o registro do ato 
+regulatório, bem como informar à ANEEL o descumprimento 
+dessa obrigação  e, por fim, disponibilizar o formulário 
+eletrônico, via sistema específico. 
+Até 2du 
+Validar os dados e 
+disponibilizar o formulário 
+eletrônico 
+CCEE 
+Caso os agentes envolvidos informem à CCEE sobre a 
+alteração contratual, a CCEE deve validar os dados e 
+disponibilizar o formulário eletrônico, via sistema específico. 
+Até 2du 
+Assinar digitalmente o 
+formulário eletrônico 
+Agentes 
+envolvidos 
+Os agentes envolvidos devem assinar o formulário eletrônico 
+digitalmente com certificado ICP-Brasil. N.A. 
+Disponibilizar o(s) aditivo(s) 
+contratual(is) no Portal de 
+Assinaturas CCEE 
+CCEE A CCEE deve disponibilizar o(s) aditivo(s) contratual(is) no 
+Portal de Assinaturas CCEE. N.A. 
+Assinar digitalmente o(s) 
+aditivo(s) contratual(is) 
+Agentes 
+envolvidos 
+Os agentes envolvidos devem assinar o(s) aditivo(s) 
+contratual(is) digitalmente com certificado ICP-Brasil. Até L+25du 
+Legenda:  
+N.A.: Não Aplicável 
+L: Data da publicação do ato regulatório que alterou os dados dos contratos 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+34 
+ 
+procedimentos de 
+comercialização 
+Suspensão do Registro de CCEAR  
+Atividade Responsável Detalhamento Prazo 
+Suspender o registro do 
+CCEAR CCEE 
+A CCEE deve promover a suspensão do registro do 
+CCEAR, vinculado à usina que não estiver em operação 
+comercial, quando, pela segunda vez durante o período 
+de suprimento, não ocorrer a efetivação de seu registro, 
+observada eventual instauração do processo d e 
+desligamento da CCEE. 
+Até 1du do prazo limite 
+para efetivação de 
+contratos, conforme 
+PdC 5.1 - Contabilização 
+e recontabilização 
+Notificar as partes e a 
+ANEEL sobre a suspensão 
+do registro do CCEAR 
+CCEE A CCEE deve notificar as partes e a ANEEL informando 
+sobre a realização da suspensão do registro do CCEAR. Até 2du (N) 
+Divulgar o valor a ser 
+equacionado pelo agente 
+vendedor 
+CCEE A CCEE deve divulgar o valor a ser equacionado pelo 
+agente vendedor. 
+Até o 5ºdu 
+de cada mês 
+Enviar notificação ao 
+agente vendedor 
+Agente 
+Comprador 
+O agente comprador que opte por resolver o CCEAR 
+deve enviar notificação ao agente vendedor  
+informando-o sobre a decisão de resolver o CCEAR, 
+além de adotar as providências contratuais necessárias. 
+N.A. 
+Solicitar à CCEE a resolução 
+do CCEAR 
+Agente 
+Comprador 
+O agente comprador que opte por resolver o CCEAR 
+deve solicitar à CCEE a resolução do CCEAR e enviar o 
+comprovante de recebimento da notificação pelo 
+agente vendedor. 
+Após o decurso do 
+prazo de saneamento 
+da inadimplência sem a 
+devida regularização 
+até N+30d 
+Solicitar à CCEE a retomada 
+do CCEAR e informar que 
+houve o equacionamento 
+dos débitos 
+Agente 
+Comprador 
+O agente comprador que opte por retomar o CCEAR 
+deve solicitar à CCEE a sua retomada  e informar que 
+houve o equacionamento dos débitos pelo agente 
+vendedor. 
+N.A. 
+Solicitar à CCEE a retomada 
+do CCEAR Agente Vendedor O agente vendedor deve solicitar à CCEE a retomada do 
+CCEAR. N.A. 
+Analisar a solicitação CCEE 
+A CCEE deve analisar se as comunicações, prazos 
+contratuais e regulatórios da solicitação foram 
+observados pelo agente comprador. 
+Até 5du 
+Rescindir o CCEAR e 
+informar à ANEEL CCEE 
+A CCEE deve rescindir o CCEAR e informar à ANEEL caso 
+verifique que as comunicações, prazos contratuais e 
+regulatórios da solicitação foram observados pelo 
+agente comprador. 
+Até 2du 
+Retomar o CCEAR e 
+informar à ANEEL CCEE 
+A CCEE deve retomar o CCEAR e informar à ANEEL caso 
+verifique que o agente vendedor está in tegralmente 
+adimplente com todas as obrigações no âmbito da 
+CCEE. 
+Até 2du 
+Manter o CCEAR suspenso CCEE 
+A CCEE deve manter o CCEAR suspenso caso verifique 
+que as comunicações, prazos contratuais e regulatórios 
+da solicitação não foram observados pelo agente 
+comprador (para fins de resolução do CCEAR) ou, ainda, 
+caso verifique que o agente vendedor não está 
+integralmente adimplente com todas as obrigações no 
+âmbito da CCEE (para fins de retomada do CCEAR). 
+N.A. 
+Legenda:  
+N.A.: Não Aplicável; 
+N: Data de envio da notificação pela CCEE informando sobre a realização da suspensão do registro do CCEAR 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+35 
+ 
+procedimentos de 
+comercialização 
+Constituição das Garantias Financeiras do CCEAR  
+Atividade Responsável Detalhamento Prazo 
+Divulgar o montante a ser 
+aportado para constituição 
+das garantias financeiras 
+do CCEAR 
+CCEE 
+A CCEE deve divulgar o montante a ser aportado pelo 
+agente vendedor para constituição das garantias 
+financeiras do CCEAR.  
+Conforme calendário 
+divulgado pela CCEE (D) 
+Realizar o aporte integral 
+do montante divulgado 
+pela CCEE 
+Agente vendedor 
+O agente vendedor deve realizar o aporte integral do 
+montante divulgado pela CCEE para composição das 
+garantias financeiras do CCEAR. 
+Até D+3du 
+Efetivar o CCEAR CCEE 
+Caso o agente vendedor efetue o aporte integral 
+para composição das garantias financeiras do CCEAR, 
+a CCEE deve efetivar o CCEAR. 
+Até 1du 
+Suspender o CCEAR CCEE 
+Caso o agente vendedor não efetue o aporte integral 
+para composição das garantias financeiras do CCEAR, 
+a CCEE deve realizar a suspensão do CCEAR, com 
+efeitos imediatos. 
+Até 1du 
+Informar à ANEEL sobre a 
+suspensão do CCEAR CCEE A CCEE deve informar à ANEEL sobre a suspensão do 
+CCEAR. 
+Após a suspensão do 
+CCEAR 
+Divulgar o valor da multa 
+por resolução contratual CCEE 
+Em caso de resolução do CCEAR pela ANEEL, a CCEE 
+deve divulgar o valor da multa por resolução 
+contratual, para cobrança bilateral, bem como 
+informar à ANEEL o referido valor. 
+Após a emissão do ato 
+regulatório sobre a 
+resolução do CCEAR 
+ 
+Legenda:  
+D: Data da divulgação do montante a ser aportado para constituição das garantias financeiras do CCEAR 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+36 
+ 
+procedimentos de 
+comercialização 
+Complemento das Garantias Financeiras do CCEAR  
+Atividade Responsável Detalhamento Prazo 
+Divulgar a variação das 
+garantias financeiras do 
+CCEAR 
+CCEE A CCEE deve divulgar mensalmente a variação dos 
+montantes das garantias financeiras dos CCEARs. 
+Conforme calendário 
+divulgado pela CCEE (C) 
+Informar ao agente 
+custodiante eventual 
+montante de garantias 
+financeiras passível de 
+realocação ou liberação, se 
+for o caso 
+CCEE 
+CCEE deve informar ao agente custodiante eventual 
+montante de garantias financeiras do CCEAR 
+passível de i) realocação em favor do agente 
+cessionário, decorrente de cessão do CCEAR, ii) 
+liberação em favor do agente vendedor decorrente 
+de redução do CCEAR, término de suprimento do 
+CCEAR ou demais hipóteses previstas nas Regras de 
+Comercialização. 
+Conforme calendário 
+divulgado pela CCEE (C) 
+Complementar 
+integralmente as garantias 
+financeiras do CCEAR 
+Agente vendedor 
+O agente vendedor deve complementar 
+integralmente as garantias financeiras do CCEAR, 
+conforme montante divulgado pela CCEE. 
+Até C+3du 
+Suspender o CCEAR CCEE 
+Caso o agente vendedor não efetue o complemento 
+integral das garantias financeiras do CCEAR, 
+conforme montante divulgado pela CCEE, a Câmara 
+deve realizar a suspensão do CCEAR, com efeitos 
+imediatos. 
+Até 1du 
+Informar à ANEEL sobre a 
+suspensão do CCEAR CCEE A CCEE deve informar à ANEEL sobre a suspensão do 
+CCEAR. 
+Após a suspensão do 
+CCEAR 
+Divulgar o valor da multa por 
+resolução contratual CCEE 
+Em caso de resolução do CCEAR pela ANEEL, a CCEE 
+deve divulgar o valor da multa por resolução 
+contratual, para cobrança bilateral, bem como 
+informar à ANEEL o referido valor. 
+Após a emissão do ato 
+regulatório sobre a 
+resolução do CCEAR 
+ 
+Legenda:  
+C: Data da divulgação do montante a ser aportado para complemento das garantias financeiras do CCEAR 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+37 
+ 
+procedimentos de 
+comercialização 
+Recomposição das Garantias Financeiras do CCEAR  
+Atividade Responsável Detalhamento Prazo 
+Não realizou o aporte 
+integral das garantias 
+financeiras do MCP 
+Agente vendedor 
+Em caso de não recomposição integral das garantias 
+financeiras do CCEAR, por parte do agente vendedor, 
+a CCEE deve realizar a suspensão do CCEAR e informar 
+à ANEEL. 
+Conforme prazo 
+estabelecido no PdC 
+5.1 - Contabilização e 
+recontabilização 
+Executar as garantias 
+financeiras para assegurar a 
+efetivação do registro do 
+CCEAR 
+CCEE 
+Caracterizado o não aporte integral das garantias 
+financeiras previstas para o MCP para o mês de 
+referência, e caso o agente vendedor possua CCEAR 
+celebrado a partir do 35º LEE  passível de não 
+efetivação, a CCEE deve executar as garantias 
+financeiras do CCEAR para assegurar a efetivação do 
+registro deste contrato na contabilização e liquidação 
+do MCP do mês de referência, nos termos das Regras 
+de Comercialização. 
+Conforme prazo para 
+efetivação dos 
+contratos, conforme 
+PdC 5.1 - 
+Contabilização e 
+recontabilização 
+Divulgar o montante para 
+recomposição das garantias 
+financeiras do CCEAR 
+CCEE 
+A CCEE deve divulgar o montante a ser aportado para 
+recomposição das garantias financeiras do CCEAR que 
+foi executada. 
+Até o prazo limite para 
+efetivação dos 
+contratos, conforme 
+PdC 5.1 - 
+Contabilização e 
+recontabilização (R) 
+Recompor integralmente as 
+garantias financeiras do 
+CCEAR 
+Agente vendedor 
+O agente vendedor deve realizar a recomposição 
+integral das garantias financeiras do CCEAR, conforme 
+montante divulgado pela CCEE. 
+Até R+3du 
+Suspender o CCEAR CCEE 
+Caso o agente vendedor não efetue a recomposição 
+integral das garantias financeiras do CCEAR, conforme 
+montante divulgado pela CCEE, a Câmara deve realizar 
+a suspensão do CCEAR, com efeitos para o mês de 
+referência subsequente. 
+Até 1du 
+Informar à ANEEL sobre a 
+suspensão do CCEAR CCEE A CCEE deve informar à ANEEL sobre a suspensão do 
+CCEAR. 
+Após a suspensão do 
+CCEAR 
+Divulgar o valor da multa 
+por resolução contratual CCEE 
+Em caso de resolução do CCEAR pela ANEEL, a CCEE 
+deve divulgar o valor da multa por resolução 
+contratual, para cobrança bilateral, bem como 
+informar à ANEEL o referido valor. 
+Após a emissão do ato 
+regulatório sobre a 
+resolução do CCEAR 
+ 
+Legenda:  
+R: Data da divulgação do montante a ser aportado para recomposição das garantias financeiras do CCEAR 
+du: dias úteis
+
+Submódulo 3.2 – Contratos do Ambiente Regulado 
+Revisão 9.0 
+38 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

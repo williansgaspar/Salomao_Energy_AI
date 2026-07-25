@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-21",
+  "purpose": "Correções de caminho e prioridade canônica identificadas na reconciliação local/SharePoint/Notebook.",
+  "overrides": [
+    {
+      "id": "lei-9427-1996",
+      "caminho_local_canonico": "Legislacao/Leis_Federais/Lei_9427_1996_ANEEL_Concessoes.txt"
+    },
+    {
+      "id": "portaria-mme-50-2022",
+      "caminho_local_canonico": "Legislacao/Portarias_MME/PORTARIA_NORMATIVA_MME_50_2022_TEXTO_INTEGRAL_CANONICO.txt"
+    },
+    {
+      "id": "lei-9074-1995",
+      "caminho_local_canonico": "Legislacao/Leis_Federais/Lei_9074_1995_Marco_Regulatorio_SEB.txt"
+    },
+    {
+      "id": "ren-aneel-1012-2022",
+      "caminho_local_canonico": "Legislacao/Resolucoes_ANEEL/REN_Aneel_1012_2022_Comercializacao_Energia.txt"
+    },
+    {
+      "id": "ren-aneel-1110-2024",
+      "caminho_local_canonico": "Legislacao/Resolucoes_ANEEL/REN_ANEEL_1110_2024_TEXTO_INTEGRAL_CANONICO.txt",
+      "acao_referencia_permanente": "substituir-resumo-legado"
+    }
+  ]
+}

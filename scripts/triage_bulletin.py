@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import html
 import json
 import re
@@ -44,10 +45,32 @@ def main() -> int:
             "decision": old.get("decision"),
             "notes": old.get("notes", "Descoberta não constitui evidência normativa final.")
         })
-    data = {"schema_version": 1, "generated_at": "2026-07-19", "source": args.bulletin.relative_to(ROOT).as_posix(), "items": items}
+    official_pending = sum(
+        item["source_class"] == "official" and item["review_status"] == "pending"
+        for item in items
+    )
+    data = {
+        "schema_version": 2,
+        "generated_at": dt.date.today().isoformat(),
+        "source": args.bulletin.relative_to(ROOT).as_posix(),
+        "source_last_modified_at": dt.datetime.fromtimestamp(
+            args.bulletin.stat().st_mtime, tz=dt.timezone.utc
+        ).date().isoformat(),
+        "policy": "Descoberta e triagem não constituem promoção normativa.",
+        "summary": {
+            "total_links": len(items),
+            "official_links": sum(item["source_class"] == "official" for item in items),
+            "official_pending_review": official_pending,
+        },
+        "items": items,
+    }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Fila atualizada: {len(items)} links; {sum(i['source_class']=='official' for i in items)} oficiais")
+    print(
+        f"Fila atualizada: {len(items)} links; "
+        f"{data['summary']['official_links']} oficiais; "
+        f"{official_pending} oficiais pendentes"
+    )
     return 0
 
 

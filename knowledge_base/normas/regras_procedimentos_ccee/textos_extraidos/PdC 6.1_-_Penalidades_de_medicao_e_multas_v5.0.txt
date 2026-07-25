@@ -1,0 +1,289 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 6.1_-_Penalidades_de_medicao_e_multas_v5.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+1 
+  
+Módulo 6 – Penalidades 
+Submódulo 6.1 – Penalidades de medição e multas  
+procedimentos de 
+comercialização
+
+Submódulo 6.1 – Penalidades de medição e multas 
+Revisão 5.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE  
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP05/2012) Despacho nº 3.215/2012 16.10.2012 
+1.1 Adequação das Penalidades relativas às não 
+conformidades do SMF Despacho n° 534/2013 27.02.2013 
+2.0 Adequação em atendimento à REN n° 601/2014 e 
+demais alterações Despacho n° 4.881/2014 22.12.2014 
+3.0 Adequação à REN n° 718/2016 Despacho n° 1.600/2016 17.06.2016 
+4.0 Adequação à REN nº 863/2019 Despacho nº 3.646/2020 01.01.2021 
+5.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1.012/2022 01.04.2022
+
+Submódulo 6.1 – Penalidades de medição e multas 
+Revisão 5.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+Todos os agentes conectados ao Sistema Interligado Nacional - SIN que comercializem energia devem instalar 
+Sistemas de Medição para Faturamento - SMF, conforme legislação vigente. 
+O propósito da implantação e adequada manutenção do SMF é garantir a qualidade das informações utilizadas 
+pela CCEE nos processos de contabilização e de apuração de encargos de uso do sistema de transmissão pelo 
+Operador Nacional do Sistema Elétrico - ONS. Para que isto ocorra de forma adequada, é indispensável que a 
+infraestrutura relacionada ao SMF atenda aos requisitos técnicos  necessários e que sejam cumpridas as 
+premissas necessárias ao seu bom funcionamento.  Cabe à CCEE apurar as penalidades para os agentes que 
+apresentarem não conformidades em relação à adequação e manutenção do SMF. 
+Adicionalmente, o Ministério de Minas e Energia - MME, por meio da Portaria n° 29, de 28 de janeiro de 2011, 
+em seu artigo 1°, estabeleceu que os geradores eólicos que tenham negociado energia elétrica nos Leilões de 
+Novos Empreendimentos de Geração, Leilões de Fontes Alternativas  - LFA e Leilões de Energia de Reserva  - 
+LER devem iniciar as medições anemométricas e climatológicas permanentes dos ventos no local do parque 
+de geração em até 180 (cento e oitenta) dias da assinatura (i) do Contrato de Comercialização de Energia no 
+Ambiente Regulado - CCEAR, ou (ii) do Contrato de Energia de Reserva - CER. Ainda nesse contexto, a Agência 
+Nacional de Energia Elétrica - ANEEL, por meio do Despacho n° 2.178, de 1° de julho de 2014, determinou que 
+o descumprimento de obrigação contratual envolve os aspectos de não implantação de medidores no prazo 
+estabelecido nos respectivos contratos, ausência de envio dos dados coletados para a Empresa de Pesquisa 
+Energética - EPE e inobservância do padrão definido para coleta e transmissão de dados. 
+Dessa forma, a CCEE notificará os geradores eólicos que não cumprirem a mencionada obrigação e os 
+informará sobre a aplicação das multas previstas nos CCEARs ou CERs. 
+Os vendedores de usinas térmicas a gás estão sujeitos à aplicação de multa por não fechamento do ciclo 
+combinado, caso haja previsão no CCEAR firmado.  
+2. OBJETIVO 
+Estabelecer a metodologia de apuração e a aplicação de penalidades por infração nos processos previstos no 
+Sistema de Coleta de Dados de Energia - SCDE, relacionados com: 
+▪ adequação do Sistema de Medição para Faturamento; 
+▪ inspeção lógica, e  
+▪ coleta de dados de medição.
+
+Submódulo 6.1 – Penalidades de medição e multas 
+Revisão 5.0 
+4 
+ 
+procedimentos de 
+comercialização 
+Estabelecer a forma de notificação e aplicação de penalidade por não envio de registros de medição 
+anemométrica e climatológica à EPE por geradores eólicos que tenham negociação nos LEN, LER e LFA.  
+Estabelecer o método de aplicação de multa por não fechamento do ciclo combinado. 
+3. PREMISSAS 
+Penalidades de medição - não conformidades do Sistema de Medição para 
+Faturamento 
+3.1 As penalidades relativas a não conformidades do SMF são classificadas conforme os grupos a seguir: 
+i. Adequação do Sistema de Medição para Faturamento; 
+ii. Inspeção lógica; e 
+iii. Coleta de dados de medição. 
+3.2 A CCEE apura a conformidade do SMF mensalmente, e em caso de infração, os agentes ficam sujeitos 
+às penalidades de multas dos grupos i, ii e iii adiante descritas. 
+3.3 Para o mesmo período de apuração, os agentes de medição que forem penalizados por infração do 
+grupo i não terão apuradas as penalidades para os grupos ii e iii, para o(s) respectivo(s) ponto(s) de 
+medição considerado(s). 
+3.4 Os agentes de medição devem informar à CCEE, por meio do módulo de notificações do SCDE, as 
+intervenções realizadas no SMF ocasionadas  por manutenção preventiva ou corretiva, conforme 
+prazos estabelecidos nos Procedimentos de Rede, incluindo ocorrências com o s sistemas de 
+telecomunicações e em equipamentos que não façam parte do SMF, porém impactem na medição 
+final do agente. 
+3.5 A CCEE avalia as informações apresentadas nas notificações de manutenção do SCDE pelo agente de 
+medição e o resultado dessa análise pode isentá-lo ou não da apuração da penalidade. 
+3.6 Para os pontos de medição que tenham a concessionária de transmissão, de distribuição ou  
+permissionária de distribuição como agente de medição, a apuração da conformidade do SMF é 
+realizada pela CCEE e, em caso de infração, o processo deve ser encaminhado para providências da 
+ANEEL.  
+3.7 A CCEE encaminha Termos de Notificação - TNs, para cada tipo de infração (grupos i, ii ou iii definidos 
+na premissa 3.1), relacionando os pontos de medição irregulares e informando os valores de 
+penalidades apurados.
+
+Submódulo 6.1 – Penalidades de medição e multas 
+Revisão 5.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.8 Os procedimentos para envio do TN supracitado e de contestação para deliberação pelo Conselho 
+de Administração da CCEE - CAd, dentre outras providências, estão previstos no Submódulo 6.2 - 
+Notificação e Gestão do Pagamento de Penalidades e Multas dos Procedimentos de Comercialização.  
+3.9 A penalidade de medição apurada para um não agente da CCEE será informada ao respectivo Agente 
+Representante por meio do Termo de Notificação, sendo que o Representante será o responsável 
+pelo recebimento e pagamento dos valores constantes no TN.  
+Infração na Adequação do Sistema de Medição para Faturamento 
+3.10 A infração pela não  adequação do Sistema de Medição para Faturamento é caracterizada quando 
+for constatada uma ou mais das seguintes pendências:  
+a) Ponto de medição não cadastrado no SCDE;  
+b) Ponto de medição cadastrado, porém que não tenha apresentado projeto e/ou relatório de 
+comissionamento aprovado pelo ONS.  
+3.11 A infração prevista na alínea “b” do item 3.10  não se aplica a os pontos de medição de unidades 
+consumidoras livres e especiais e centrais geradoras do Tipo III, conectadas à rede das distribuidoras. 
+3.11.1 Para os pontos referidos no item 3.11, a solicitação e efetivação do cadastro do ponto no 
+SCDE, pelo agente responsável, caracteriza que as etapas de aprovação de projeto e 
+relatório de comissionamento foram concluídas, conforme Submódulo 1.2 - Cadastro de 
+agentes. 
+3.12 O fato de a concessionária, permissionária ou autorizada possuir a responsabilidade técnica ou 
+financeira pela instalação e/ou manutenção do Sistema de Medição para Faturamento não exime o 
+consumidor livre e o consumidor especial de eventuais penalidades d e multa decorrentes de 
+Infração na adequação do sistema de medição para faturamento, quando estes forem os causadores 
+do fato impeditivo para a adequação. 
+3.13 Para a análise simultânea da responsabilidade a CCEE encaminhará termos de notificação para 
+ambos, sendo que somente será possível a penalização do responsável. 
+3.14 O fato de a concessionária de transmissão efetuar a compra dos equipamentos de medição para 
+faturamento, cobrando os encargos de conexão da concessionária, permissionária ou autorizada de 
+distribuição, não exime a distribuidora acessante de eventuais penalidades decorrentes de infração 
+na adequação do Sistema de Medição para Faturamento.
+
+Submódulo 6.1 – Penalidades de medição e multas 
+Revisão 5.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.15 A penalidade de multa por infração na adequação do Sistema de Medição para  Faturamento, 
+aplicável para cada ponto de medição irregular do agente de medição, corresponde a R$ 5.000,00 
+(cinco mil reais), multiplicados pelo Fator de Penalidade - FPE: 
+▪ FPE=1, para o nível de tensão inferior a 30 kV; 
+▪ FPE=2, para o nível de tensão igual ou maior que 30 kV e inferior a 69 kV; 
+▪ FPE=4, para o nível de tensão igual ou maior que 69 kV e inferior a 88 kV; 
+▪ FPE=8, para o nível de tensão igual ou maior que 88 kV e inferior a 230 kV; e 
+▪ FPE=16, para o nível de tensão igual ou superior a 230 kV. 
+3.16 Constitui fato gerador de reincidência a permanência de SMF não adequado após 30 dias corridos, 
+contados da data de cobrança da penalidade anterior. Neste caso, a multa aplicável  terá seu valor 
+dobrado, uma única vez. Enquanto persistir a pendência de adequação será considerado como valor 
+de penalidade o valor apurado como reincidência. 
+Infração na Inspeção Lógica 
+3.17 Entende-se por inspeção lógica  a coleta, para validação pelo SCDE, dos parâmetros e dados de 
+medição diretamente dos medidores principal, retaguarda e geração bruta, se aplicável. 
+3.17.1 A inspeção lógica não se aplica aos SMF dos usuários do sistema de distribuição que têm a 
+distribuidora como agente de medição e cujos dados sejam coletados de forma passiva 
+tipo 1 ou 2,  nos termos do Submódulo 2.1 - Coleta e Ajuste de Dados de Medição, dos 
+Procedimentos de Comercialização. 
+3.18 Os agentes de medição devem realizar monitoramento do link de comunicação para acesso aos 
+medidores pelo SCDE, de forma a garantir a inspeção lógica como definida na premissa anterior. 
+3.19 A infração na inspeção lógica é caracterizada quando constatadas três tentativas fracassadas e 
+consecutivas de acesso a qualquer um dos medidores do ponto de medição dentro de um mesmo 
+mês civil. 
+3.20 A CCEE comunicará ao agente de medição na primeira tentativa de coleta fracassada. A segunda 
+tentativa é realizada após transcorridos três dias úteis da comunicação. A terceira tentativa é feita 
+com o intervalo mínimo de um dia útil após a segunda. 
+3.21 O valor da penalidade de multa por infração na inspeção lógica corresponde ao montante de  R$ 
+1.500,00 (mil e quinhentos Reais), multiplicado pelo Fator de Penalidade – FPE, para cada ponto de 
+medição irregular:
+
+Submódulo 6.1 – Penalidades de medição e multas 
+Revisão 5.0 
+7 
+ 
+procedimentos de 
+comercialização 
+▪ FPE=1, para o nível de tensão inferior a 30 (trinta) kV; 
+▪ FPE=2, para o nível de tensão igual ou maior que 30 (trinta) kVe inferior a 69 (sessenta e nove) 
+kV; 
+▪ FPE=4, para o nível de tensão igual ou maior que 69 (sessenta e nove) kV e inferior a 88 
+(oitenta e oito) kV; 
+▪ FPE=8, para o nível de tensão igual ou maior que 88 (oitenta e oito) kV e inferior a 230 
+(duzentos e trinta) kV; e 
+▪ FPE=16, para o nível de tensão igual ou superior a 230 (duzentos e trinta) kV. 
+Infração na Coleta de Dados de Medição 
+3.22 Os agentes de medição devem consultar no SCDE, diariamente, o relatório de medidas consolidadas 
+dos pontos de medição sob sua responsabilidade para tomar, se cabível, as providências necessárias 
+para a regularização. 
+3.23 Os agentes de medição que tiverem suas solicitações de ajustes de dados de medição aprovadas, 
+conforme premissas descritas nos termos do Submódulo 2.1 - Coleta e Ajuste de Dados de Medição, 
+dos Procedimentos de Comercialização, não estão isentos de eventual apuração da penalidade 
+prevista nesta seção. 
+3.24 A infração na coleta de dados de medição pelo SCDE  é caracterizada pela ausência de dados por 
+períodos maiores que setenta e duas horas, ininterruptas, ou cento e vinte horas alternadas para o 
+mês de apuração. 
+3.25 O valor da penalidade de multa por infração na coleta de dados de medição pelo SCDE é obtido pela 
+fórmula: 
+𝑃𝐸𝑁𝑚  =  
+𝑇𝑜𝑡𝑎𝑙_𝑑𝑒_𝐸𝑛𝑒𝑟𝑔𝑖𝑎𝑆𝐶𝐷𝐸_𝑚
+𝑁ºℎ𝑜𝑟𝑎𝑠_𝑚ê𝑠
+∗ 𝑁ºℎ𝑜𝑟𝑎𝑠_𝑓𝑎𝑙𝑡 ∗ 0,05 ∗ 𝑃𝐿𝐷 𝑚é𝑑𝑖𝑜𝑚 
+Em que: 
+m é o mês de referência; 
+PENm é o valor de penalidade mensal por infração na coleta de dados de medição, expresso em R$; 
+Total de EnergiaSCDEm é o total de energia do ponto de medição a ser utilizado no processo de contabilização, inclusive considerando 
+eventuais ajustes e estimativas de dados (MWh). O total de energia a ser considerado é o valor da soma dos canais de consumo e 
+geração, independente da natureza do ponto de medição. 
+Nº horas_mês é o número de horas do mês; 
+Nº horas_falt é o número de horas sem coleta; 
+PLD médiom é a média dos Preços de Liquidação de Diferenças médios dos submercados no mês; e 
+O valor mínimo a ser aplicado para o PENm é de R$ 5.000,00 (cinco mil Reais).
+
+Submódulo 6.1 – Penalidades de medição e multas 
+Revisão 5.0 
+8 
+ 
+procedimentos de 
+comercialização 
+3.26 Os agentes de medição estão isentos da aplicação de penalidades por infração na coleta de dados 
+de medição pelo SCDE quando ocorrer instabilidade de comunicação que seja de responsabilidade 
+da CCEE. 
+Multa por Descumprimento de Obrigação Contratual  
+▪ Gerais  
+3.27 De acordo com cláusulas contratuais específicas dos CCEARs ou dos CERs, quando aplicável, a multa 
+pelo descumprimento de obrigação contratual pode ocorrer das seguintes formas:  
+a) pelo não Envio de Registros de Medições Anemométricas e Climatológicas à EPE; ou, 
+b) pelo não Fechamento do Ciclo Combinado.  
+3.28 CCEE enviará correspondência informando quando da realização da cobrança no primeiro mês de 
+descumprimento da obrigação seja pelo não envio dos dados e medição ou pelo não fechamento do 
+ciclo combinado, conforme o caso, de forma que o agente esteja ciente da redução de sua Receita 
+de Venda referente à multa incidente.  
+3.29 A CCEE informará as distribuidoras contratantes sobre o valor que deverá ser deduzido das faturas 
+mensais associadas às respectivas receitas de venda, quando do início do recebimento dessas por 
+parte dos vendedores, referente às multas apuradas.  
+3.30 A CCEE somente efetuará recálculo da apuração caso haja determinação expressa da ANEEL e/ou, 
+quando aplicável, da EPE , bem como devido a deliberações excepcionais do Conselho de 
+Administração, que devem ser informadas à ANEEL.  
+▪ a) Multa p elo n ão envio de Registros de Medições Anemométricas e 
+Climatológicas à EPE 
+3.31 Com relação aos registros de medição anemométrica e climatológica, o envio dos dados deverá 
+observar as normas estabelecidas pelo MME, pela ANEEL e pela EPE, incluindo, mas não se limitando, 
+o estabelecido nos CCEARs e CERs e as normas técnicas e operacion ais relacionadas ao Sistema de 
+Acompanhamento de Medições Anemométricas (AMA) da EPE.  
+3.32 Com base nas informações disponibilizadas pela EPE, a  CCEE calcula a multa pelo não envio de 
+registros de Medições Anemométricas e Climatológicas à EPE, conforme as Regras de 
+Comercialização e demais normativos vigentes.
+
+Submódulo 6.1 – Penalidades de medição e multas 
+Revisão 5.0 
+9 
+ 
+procedimentos de 
+comercialização 
+3.33 A CCEE deve comunicar os geradores eólicos sobre o não envio de registros de medições 
+anemométricas e climatológicas à EPE por meio de correspondência enviada aos agentes.   
+▪ b) Multa pelo não fechamento do ciclo combinado 
+3.34 A CCEE deverá cadastrar a data prevista para fechamento do ciclo combinado da usina no Sistema 
+de Gestão de Contratos - SGC, observando a data em cláusula contratual específica.   
+3.35 Com base nas Regras de Comercialização e na observação dos Atos  emitidos pela ANEEL, 
+especialmente a Outorga e os Despachos da área de fiscalização para entrada em operação 
+comercial, bem como das informações do cadastro da usina na CCEE, a Câmara deve atualizar o 
+processo de modelagem da usina com a data efetiva  de conclusão de fechamento do ciclo 
+combinado. 
+3.36 A CCEE calculará a multa pelo não fechamento do ciclo combinado  após o encerramento do prazo 
+previsto para fechamento do ciclo estabelecido no contrato. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável. 
+5. FLUXO DE ATIVIDADE 
+Não aplicável. 
+6. DESCRIÇÃO DE ATIVIDADES 
+Não aplicável. 
+7. ANEXOS 
+Não aplicável.

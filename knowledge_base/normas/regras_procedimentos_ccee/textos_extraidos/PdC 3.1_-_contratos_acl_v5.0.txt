@@ -1,0 +1,664 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 3.1_-_contratos_acl_v5.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 3.1_-_contratos_acl_v5.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 3 – Contratação de 
+Energia 
+Submódulo 3.1 – Contratos do Ambiente Livre 
+procedimentos de 
+comercialização
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP 08/2012) Despacho n° 3.572/2012 12.11.2012 
+1.1 Adequação para os contratos de recomposição de 
+lastro  Despacho n° 3.728/13 11.11.2013 
+2.0 Adequação às RENs n° 595/2013, n° 599/2014, n° 
+611/2014, n° 683/2015 e n° 755/2016 Despacho n° 1.911/2017 30.06.2017 
+3.0 Adequação à REN n° 832/2018 Despacho n° 2.626/2019 23.09.2019 
+4.0 Adequação à REN n° 909/2020 Despacho n° 3.646/2020 01.01.2021 
+5.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1.012/2022 01.04.2022
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A comercialização de energia no Ambiente de Contratação Livre - ACL é realizada mediante operações de 
+compra e venda de energia elétrica entre agentes concessionários, permissionários, autorizados e detentores 
+de registro de geração, comercializadores, impor tadores/exportadores de energia elétrica e consumidores 
+livres ou especiais, que atendam às condições previstas na regulamentação. 
+Todo contrato negociado no ACL tem suas condições de atendimento, preço e demais cláusulas de contratação 
+livremente negociadas entre as partes e são denominados Contratos de Comercialização de Energia no 
+Ambiente Livre - CCEALs.  
+Os CCEALs também englobam os contratos firmados entre as partes na Comercialização de Energia 
+Incentivada e/ou Especial, sendo eles: 
+▪ Contrato de Comercialização de Energia Incentivada de Cogeração Qualificada – CCEICOGQ: neste 
+contrato a parte vendedora é um agente com perfil de geração ou de comercialização associado à 
+energia oriunda de usinas de cogeração qualificada; 
+▪ Contrato de Comercialização de Energia Incentivada Especial – CCEIE: neste contrato a parte 
+vendedora é um agente com perfil associado a energia de usinas enquadradas no §1º do art.26 da Lei 
+nº 9.427/1996, com exceção de usinas de cogeração qualificada; e 
+▪ Contrato de Comercialização de Energia Convencional Especial - CCECE: a parte vendedora é um 
+agente com perfil associado à energia oriunda de usinas enquadradas no §5º do art.  26 da Lei nº 
+9.427/1996. 
+Os CCEALs, incluindo as cessões, devem ser registrados no sistema específico, sendo dispensado o envio do 
+contrato físico à CCEE, salvo quando determinado em norma pertinente, decisão judicial, administrativa e/ou 
+arbitral ou, ainda, quando requisitado pela CCEE. 
+Tais contratos devem ser considerados no processo de contabilização, quando devidamente registrados e 
+validados, compondo o recurso de lastro do agente comprador e o requisito de lastro do agente vendedor. 
+Para tanto, os volumes de energia contratados deve m ser discriminados por período de comercialização, 
+definição de montantes e vigência (montante, em MW médios, e sua respectiva vigência, que podem ou não 
+estar atrelados a um determinado mês) e modulação (distribuição do volume de energia por hora ou patamar 
+de carga, para uma determinada vigência). 
+Além da definição dos processos relativos ao registro e manutenção dos montantes contratados ou cedidos 
+em CCEALs, este submódulo detalha o modo de alocação  de geração própria  às unidades de consumo 
+correlatas, por parte dos empreendimentos de autoprodução e produção independente, para fins de não 
+incidência de parcelas das tarifas de uso do sistema.
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+4 
+ 
+procedimentos de 
+comercialização 
+2. OBJETIVO 
+Estabelecer os procedimentos para registro, ajuste, validação e demais informações referentes aos CCEALs e 
+cessões no sistema específico, além de informações referentes à alocação de geração própria. Este submódulo 
+se aplica a todos os agentes que realizam operações de compra e/ou venda de energia por meio do registro 
+de contratos no ACL.  
+3. PREMISSAS 
+3.1 As informações sobre o registro do CCEAL , as cessões de CCEAL , as eventuais pendências e as 
+alterações de dados  são atualizados em tempo real no sistema específico e podem ser 
+acompanhados pelos agentes envolvidos. 
+3.2 Os agentes que possuam características de consumidor especial somente podem adquirir energia 
+oriunda de geração própria ou de fontes especiais. 
+3.3 O agente que ficar impedido de realizar operações referentes aos seus contratos , em razão de 
+inviabilidade operacional do sistema específico e/ou por problema de conectividade com a CCEE,  
+deve seguir os procedimentos de contingência detalhados no submódulo 1.4 – Atendimento. 
+3.4 Os CCEALs oriundos do Mecanismo de Venda de Excedentes – MVE serão tratados de acordo com o 
+submódulo 3.8 – Mecanismo de Venda de Excedentes. 
+Registro e Validação 
+3.5 Todos os CCEALs, respectivas alterações e cessões devem ser registrados no sistema específico, sem 
+prejuízo de seu registro, aprovação ou homologação pela Agência Nacional de Energia Elétrica – 
+ANEEL, conforme regulamentação específica. 
+3.6 Os CCEALs devem ser registrados pelo agente vendedor até MS+6du e validados pelo agente 
+comprador até MS+7du, para que sejam considerados na contabilização e liquidação. 
+3.7 Os contratos registrados, de que trata a premissa anterior, podem ser ajustados pelo agente 
+vendedor até MS+8du e devem ser validados pelo agente comprador até MS+9du. 
+3.8 Os montantes contratados dos CCEALs devem ser registrados no sistema específico pelo agente 
+vendedor para todo o seu período de vigência, independentemente de sua duração.
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.9 A precisão dos montantes inseridos para os CCEALs deve ser de 6 (seis) casas decimais em 
+MWmédio. Caso ocorra diferença de arredondamento entre o somatório dos dados horários e o 
+montante por período de vigência, essa diferença é alocada na primeira hora d o contrato pelo 
+sistema específico, de forma automática – ou seja, quando a distribuição horária for feita pelo 
+sistema específico, deverá utilizar esta mesma regra de arredondamento. 
+3.10 As atividades de registro, ajuste e validação dos CCEALs correspondem à definição dos seguintes 
+parâmetros:  
+a) Tipo ou modalidade de contrato: o agente deve determinar a condição do CCEAL firme ou , a 
+partir de um CCEAL, a modalidade de cessão; 
+b) Partes envolvidas; 
+c) Suprimento do contrato: o agente deve informar o período contratual; 
+d) Vigência e valor do montante: o agente deve informar o período de vigência do montante, 
+bem como o valor do montante expresso em MWmédio, para todo o período de suprimento 
+do contrato; 
+e) Modulação: opcionalmente, o agente pode informar o tipo de modulação. Na falta de 
+preenchimento, o sistema específico considerará a modulação flat; 
+f) Vínculo do ativo de carga ou de geração: o agente deve vincular o montante contratual com 
+o ativo de carga ou de geração, para o tipo de modulação conforme a carga ou conforme a 
+geração, respectivamente; 
+g) Submercado; 
+h) Demais parâmetros. 
+3.11 As partes podem alterar os valores de montante , vigência e tipo de modulação  diretamente no 
+sistema específico, nos prazos constantes deste submódulo. 
+3.11.1 Para alteração de outros parâmetros contratuais, tais como partes envolvidas, período de 
+suprimento e submercado de entrega de energia, o agente deve finalizar o contrato 
+existente e efetuar um novo registro de contrato no sistema específico, observando o 
+prazo de registro de contratos previsto nesse submódulo.
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.12 Para fins de Informações Tributárias, os agentes que possuírem unidades consumidoras devem 
+vincular os montantes contratados a essas unidades diretamente no sistema específico até MS+29du 
+para todos os CCEALs registrados. Tais informações são de inteira responsabilidade do agente e são 
+disponibilizadas pela CCEE , na ferramenta de Divulgação de Resultados e Informações – DRI, à 
+respectiva Secretaria da Fazenda - SEFAZ (conforme termos do Convênio ICMS CONFAZ nº 15/2007) 
+até MS+30du, não tendo impacto na contabilização da CCEE. 
+3.13 O agente vendedor deve informar diretamente no sistema específico, no momento do registro de 
+contrato, caso aplicável, uma das seguintes particularidades: 
+a) Contrato destinado à composição de lastro para consumidor especial (contrato de geração 
+própria); 
+b) Contrato destinado ao alívio de exposições; ou 
+c) Contrato destinado à exportação de energia elétrica.  
+3.14 A CCEE deve verificar, após a validação do registro do contrato pelo agente comprador, se as 
+informações prestadas pelos agentes no sistema específico são válidas para as particularidades 
+especificadas, de acordo com o disposto na premissa anterior. 
+3.15 O agente não pode efetuar registros de novos contratos de venda ou alterações de contratos 
+existentes que ocasionem o aumento de sua exposição financeira, durante a tramitação do processo 
+de desligamento, conforme norma de regência. 
+3.16 A CCEE pode, a qualquer tempo, exigir a comprovação da existência e validade dos CCEALs 
+registrados no sistema específico, inclusive por meio de cópia integral do respectivo instrumento. 
+Montante e Modulação dos CCEALs  
+3.17 As informações de montante e modulação podem ser inseridas no sistema específico pelo agente 
+vendedor no mesmo intervalo de tempo permitido para o registro de novos CCEALs e, 
+posteriormente alteradas, no período de realização (até MS+8du) e validação das operações de 
+ajuste (até MS+9du).  
+3.18 O agente vendedor pode optar, dentro de uma determinada vigência do montante, de acordo com 
+o módulo de Contratos das Regras de Comercialização, por um dos seguintes critérios de modulação:  
+a) Declarada. Livremente acordada entre as partes, sendo necessária a indicação da modulação 
+hora/hora para o mês a ser contabilizado; 
+b) Flat;
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+7 
+ 
+procedimentos de 
+comercialização 
+c) Carga. De acordo com o perfil de carga do agente comprador, na(s) vigência(s) a ser(em) 
+contabilizada(s), sendo necessária a indicação de, ao menos, uma de suas cargas para o mês 
+a ser contabilizado;  
+d) Geração. De acordo com o perfil de geração do agente vendedor, na(s) vigência(s) a ser(em) 
+contabilizada(s), sendo necessária a indicação de, ao menos, uma de suas usinas para o mês a 
+ser contabilizado;  
+e) MRE. De acordo com a curva de geração verificada no portfólio de todas as usinas 
+pertencentes ao MRE, aplicada a todas as vigências impactadas no mês a ser contabilizado. 
+3.19 O agente vendedor pode ajustar no sistema específico, mais de uma vez, os montantes de energia e 
+tipo de modulação para CCEALs, desde que dentro dos prazos estabelecidos neste submódulo. 
+3.20 Somente o último montante e  a última modulação inserid os no sistema específico pelo agente 
+vendedor, devidamente validados pelo agente comprador, são considerados na contabilização. 
+Cessão de Montantes - CCEAL 
+3.21 A cessão ocorre por meio do Contrato Bilateral de Cessão – CCEAL de Cessão de Montantes, devendo 
+ser registrado e validado nos prazos estabelecidos nas premissas deste submódulo.  
+3.22 A cessão de CCEAL tem como cedente apenas consumidor livre ou especial, e como cessionário 
+consumidor livre, especial ou agente vendedor. 
+3.23 O agente cedente deve informar o número do contrato original registrado na CCEE.  
+3.24 A CCEE deve divulgar o resultado do ajuste das cessões de CCEALs até MS+12du. 
+Cancelamento de Registro 
+3.25 O cancelamento de registro de um CCEAL decorre de:  
+a) Acordo entre as partes; 
+b) Desligamento de agente da CCEE , conforme disposto no submódulo 1.5 – Desligamento da 
+CCEE; ou 
+c) Decisão judicial, arbitral ou administrativa. 
+3.26 Em caso de acordo entre as partes, o agente vendedor deve realizar o cancelamento do registro do 
+CCEAL no sistema específico, o que deve também ser validado pelo agente comprador até MS+9du. 
+3.27 O cancelamento do registro de CCEAL produz efeito no âmbito da CCEE a partir da data de finalização 
+especificada no sistema específico pelo vendedor e validado pelo comprador.
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+8 
+ 
+procedimentos de 
+comercialização 
+Contrato de lastro para CCEAR para usinas em atraso 
+3.28 Os CCEALs celebrados para fins de recomposição de lastro para venda de energia elétrica, em virtude 
+do atraso na entrada em operação comercial das usinas comprometidas com CCEARs por quantidade 
+ou disponibilidade, devem ser registrados no sistema específico nos prazos definidos neste 
+submódulo, observadas as disposições das cláusulas contratuais específicas de cada leilão  e do 
+submódulo 3.5 – Receita de Venda de CCEAR. 
+Alívio de Exposições 
+3.29 Os seguintes agentes da CCEE que tenham firmado CCEAL têm direito ao alívio de exposição  (o 
+agente está sujeito a exposição da diferença de Preço de Liquidação das Diferenças – PLD entre 
+submercados, quando um contrato de energia elétrica é registrado em um submercado diferente do 
+seu; para alguns casos em que o registro de submercado de entrega não é opção do agente, este 
+pode ter sua exposição negativa ao PLD aliviada, conforme as Regras de Comercialização): 
+a) Agentes autoprodutores e concessionários de serviço público de geração em consórcios 
+estabelecidos com base no Decreto nº 2.003, de 10 de setembro de 1996, ou em concessões 
+outorgadas até 12 de agosto de 1998 (art. 10 da Resolução ANEEL nº 290, de 3 de agosto de 
+2000, sucedida pela Resolução Normativa ANEEL nº 817, de 5 de junho de 2018); 
+b) Agente vendedor de CCEAL com direitos especiais aprovados pela ANEEL  (Resoluções ANEEL 
+n° 211/2001 e n° 431/2001); e 
+c) Agentes da CCEE que possuam alocação de garantia física do MRE em submercado diferente 
+daquele em que as suas usinas estão localizadas (art. 10 da Resolução ANEEL nº 290, de 3 de 
+agosto de 2000, sucedida pela Resolução Normativa ANEEL nº 817, de 5 de junho de 2018). 
+3.30 Os agentes que possuam direito ao alívio de exposição, que iniciem suas atividades na CCEE durante 
+o ano corrente, devem informar no sistema específico até M–10du os montantes mensais de energia 
+e o(s) submercado(s) de origem e de entrega de energia que confiram direito ao alívio de exposições, 
+que são considerados para o ano corrente. 
+3.31 Os agentes devem informar diretamente no sistema específico, até o 10º dia útil de dezembro, os 
+dados para alívio de exposições para o ano seguinte e que não podem sofrer alteração durante o 
+ano, conforme Regras de Comercialização.  
+Alívio de Exposições para Agentes Autoprodutores 
+3.32 O agente autoprodutor que optar por receber o alívio de exposição e possuir: 
+a) Carga em um único submercado: deve indicar o submercado de entrega de energia;
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+9 
+ 
+procedimentos de 
+comercialização 
+b) Carga em mais de um submercado: pode eleger (i) o submercado de entrega da energia, sendo 
+o alívio de exposição limitado ao menor valor entre a energia destinada ao alívio de exposições 
+e seu consumo em cada submercado; ou (ii) declarar os montantes de energia para o alívio de 
+exposição de cada submercado de entrega, nos quais efetivamente possua carga, sendo o 
+alívio de exposição limitado ao menor valor entre a energia destinada ao alívio de exposições, 
+o montante declarado para o alívio de exposições e seu consumo em cada submercado. 
+Contrato de geração própria  
+3.33 O indicador de contrato de geração própria permite o registro no sistema específico de um CCEAL 
+entre um gerador não especial e um consumidor especial com mesmo CNPJ ou participante de 
+Sociedade de Propósito Específico - SPE da geração equiparada a autoprodutor pela ANEEL. 
+3.34 O agente comprador deve enviar à CCEE, nos prazos estabelecidos para registro do CCEAL, o 
+Formulário de Contrato de Geração Própria para análise da CCEE. 
+3.35 A CCEE deve analisar se o CCEAL corresponde a um contrato de geração própria e, em caso negativo, 
+deve realizar o seu cancelamento, não sendo o CCEAL considerado válido para fins de contabilização. 
+Alocação de geração própria 
+3.36 As solicitações de autorização para destinar a  geração de empreendimento de autoprodução e 
+produção independente ao atendimento de unidades consumidoras próprias ou equiparadas (para 
+fins do benefício previsto no art. 26 da Lei n° 11.488/2007 ) são analisadas e aprovadas pela CCEE 
+para o mês de referência “M”, desde que enviadas sem pendências até M-1du.  
+3.36.1 O agente gerador ou o agente consumidor deve encaminhar para a CCEE, via chamado, o 
+Formulário para Solicitação de Alocação de Geração Própria, acompanhado dos 
+respectivos documentos comprobatórios do direito à alocação, conforme norma de 
+regência, bem como providenciar que a contraparte envie à CCEE a anuência da solicitação.  
+3.36.2 A CCEE terá o prazo de 5du para analisar o pedido e respectivos documentos, podendo 
+solicitar qualquer documentação complementar nesse prazo, que é reiniciado na data de 
+seu recebimento. Inexistindo pendências, o pedido está apto a ser aprovado, conforme 
+premissa 3.36 
+3.37 A energia produzida por usina explorada por Sociedade de Propósito Específico – SPE pode ser 
+alocada aos seus acionistas que possuam unidades consumidoras próprias ou equiparadas, de 
+acordo com a seguinte proporção (a premissa decorre do disposto no art. 26 da Lei n° 11.488/2007, 
+apenas detalhando seu teor):
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+10 
+ 
+procedimentos de 
+comercialização 
+a) Participação direta na SPE outorgada: ações com direito a voto emitidas pela SPE outorgada 
+para explorar o empreendimento detidas pelo consumidor, em relação ao total das ações com 
+direito a voto; ou 
+b) Participação direta no acionista da SPE: produto das (i) ações com direito a voto emitidas pela 
+SPE outorgada para explorar o empreendimento detidas pelo seu acionista direto, em relação 
+ao total de ações com direito a voto, e (ii)  ações com direito a voto emitidas pelo acionista 
+direto da SPE e detidas pelo consumidor, em relação ao total das ações com direito a voto. 
+3.38 O agente solicitante é responsável pela veracidade da documentação apresentada, bem como por 
+sua atualização em razão de qualquer alteração no direito à alocação, estando sujeito à fiscalização 
+da ANEEL e ao submódulo 1.7 – Monitoramento do Mercado. 
+3.39 Após o cadastro da autorização de destinação de geração, os percentuais de participação da geração 
+no ACL podem ser alterados pelo agente responsável  (por padrão, o responsável no sistema é o 
+agente proprietário da usina), conforme definido nas Regras de Comercialização. 
+3.39.1 Caso seja interesse, o responsável indicado na premissa anterior pode indicar outro agente, 
+com autorização de participação de propriedade na usina como responsável,  bastando 
+encaminhar um chamado à Central de Atendimento. 
+3.40 Para a alteração dos percentuais  de participação da geração no ACL, é necessário que todos os 
+envolvidos que tiveram seus percentuais alterados validem os novos valores. 
+3.40.1 A alteração e as devidas validações devem ser realizadas em módulo específico do sistema 
+específico até MS-6du para que sejam válidas na apuração do mês de referência M. 
+3.41 O agente consumidor que foi autorizado a receber montante de geração nos termos das premissas 
+anteriores, por sua vez, deve informar o percentual de alocação de geração para suas unidades 
+consumidoras em módulo específico do sistema específico, em até MS-6du, para que seja válido na 
+apuração do mês de referência M. 
+3.42 A CCEE deve disponibilizar até MS-2du à ANEEL, ao ONS e aos agentes envolvidos relatório específico 
+com as informações da alocação d e geração própria destinada a unidades consumidoras 
+participantes de empreendimentos de autoprodução e produção independente, bem como o 
+respectivo consumo verificado nessas unidades consumidoras, para fins de aplicação da TUSD/TUST. 
+3.43 Para ativos de geração e de consumo modelados separadamente sob agentes distintos, a alocação 
+de geração própria é concretizada por meio do registro e validação de CCEAL, no sistema específico, 
+nos prazos estabelecidos neste submódulo, devendo ser registrado no perfil sob o qual a usina está 
+modelada, nos termos das Regras de Comercialização.
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+11 
+ 
+procedimentos de 
+comercialização 
+3.43.1 O CCEAL pode ser  registrado: i)  diretamente entre o agente proprietário d a usina  e o 
+agente proprietário da unidade consumidora (repasse direto), ou ii) por meio de um agente 
+intermediário (repasse indireto). 
+3.44 Especificamente para os casos de repasse indireto, os agentes devem solicitar o cadastro do repasse 
+indireto no mesmo prazo do registro de contratos previsto neste submódulo, por meio de chamado 
+para a  Central de Atendimento, informando os contratos envolvidos e a usina relacionada , bem 
+como devem ser atendidas as premissas a seguir  (as diretrizes estabelecidas nesta premissa são 
+consideradas para fins de apuração de encargos, conforme definido nas Regras de Comercialização): 
+3.44.1 O agente intermediário deve ter participação direta no agente proprietário da usina (ações 
+com direito a voto ) e ter como acionista , com direito a voto , o agente proprietário da 
+unidade consumidora, conforme documentos comprobatórios a serem enviados para a 
+CCEE, nos termos das premissas relacionadas à documentação previstas na presente seção 
+deste submódulo. 
+3.44.2 O agente proprietário da unidade consumidora deve ser, obrigatoriamente, atendido pela 
+energia proveniente da usina, cabendo ao agente intermediário registrar o CCEAL em perfil 
+que represente o exato tipo de energia repassada pela usina. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+12 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Contratos do Ambiente Livre
+Agente vendedor 
+ou cedente
+Agente 
+comprador ou 
+cessionário
+CCEE
+Até MS + 6du
+Realizar 
+operações de 
+registro e cessão 
+de CCEAL Até MS + 7du
+Validar 
+operações de 
+registro e cessão 
+de CCEAL
+Fim
+Início
+Até MS + 8du
+Realizar 
+operações de 
+ajustes de CCEAL 
+e de cessões Até MS + 9du
+Validar 
+operações de 
+ajustes de CCEAL 
+e de cessões
+MS+30du
+Disponibilizar 
+informações à 
+SEFAZ
+Até MS + 10du 
+Confirmar 
+sinalização de 
+condições 
+especiais
+Até MS+29du
+Associar carga ao 
+CCEAL e demais 
+informações 
+para fins fiscais
+ 
+Legenda:  
+MS: Mês seguinte ao de operação de compra e venda de energia elétrica 
+du: dias
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+13 
+ 
+procedimentos de 
+comercialização 
+Alívio de Exposições
+Agente com direito a alívio de 
+exposição
+Início
+M-10du
+Informar dados 
+para alívio de 
+exposições para o 
+ano corrente, no 
+caso de novos 
+agentes
+Fim
+Até o 10º du de 
+dezembro
+Informar dados 
+para alívio de 
+exposições para o 
+ano seguinte
+ 
+Legenda: 
+M: Mês de operação de compra e venda de energia 
+du: dias úteis
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+14 
+ 
+procedimentos de 
+comercialização 
+Alocação de geração própria
+CCEE Agente consumidor com 
+geração própria
+Agente consumidor ou 
+gerador
+Agente responsável 
+pelo cadastro
+Até 5du
+Analisar as 
+solicitações e 
+cadastrar a 
+autorização de 
+destinação de 
+geração
+Até MS-6du
+Alterar os 
+percentuais de 
+participação da 
+geração no ACL
+Até MS-2du
+Disponibilizar à 
+ANEEL, ONS e 
+agentes 
+envolvidos as 
+informações da 
+alocação da 
+geração
+Início
+Até M-1du
+Solicitar 
+destinação de 
+geração de 
+empreendimento 
+de autoprodução
+Até MS-6du
+Informar os 
+percentuais de 
+alocação
+Início
+Até MS-6du
+Validar os 
+percentuais de 
+participação da 
+geração no ACL
+ 
+Legenda:  
+MS: Mês seguinte ao de operação de compra e venda de energia elétrica 
+M: Mês de operação de compra e venda de energia 
+du: dias úteis
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+15 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Contratos do ambiente livre 
+Atividade Responsável Detalhamento Prazo 
+Realizar operações de registro 
+de CCEAL Agente vendedor Atividades relacionadas à efetivação e/ou alteração do 
+registro de CCEAL.  Até MS+6du 
+Validar operações de registro 
+de CCEAL 
+Agente 
+comprador 
+Validação das atividades relacionadas à efetivação e/ou 
+alteração do registro de CCEAL.  Até MS+7du 
+Realizar operações de ajustes 
+de CCEAL Agente vendedor Atividades relacionadas a ajustes de dados do CCEAL.  Até MS+8du 
+Validar operações de ajustes de 
+CCEAL 
+Agente 
+comprador 
+Validação das atividades relacionadas a ajustes de 
+dados do CCEAL.  Até MS+9du 
+Confirmar sinalização de 
+condições especiais CCEE A CCEE confirma informações prestadas pelo agente. Até MS+10du 
+Associar carga ao CCEAL e 
+demais informações para fins 
+fiscais 
+Agente 
+comprador 
+Os agentes compradores vinculam os montantes 
+contratados às suas respectivas unidades consumidoras 
+para todos os CCEALs registrados. 
+Até MS+29du 
+Disponibilizar informações à 
+SEFAZ CCEE 
+A CCEE envia à respectiva Secretaria da Fazenda as 
+informações disponibilizadas pelos agentes 
+compradores diretamente no sistema específico até 
+esta data. 
+MS+30du 
+ 
+Legenda:  
+MS: Mês seguinte ao de operação de compra e venda de energia elétrica 
+du: dias
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+16 
+ 
+procedimentos de 
+comercialização 
+Alívio de exposições 
+Atividade Responsável Detalhamento Prazo 
+Informar dados para alívio de 
+exposições para o ano corrente, 
+no caso de novos agentes 
+Agente com direito 
+a alívio de exposição 
+Novos agentes vendedores de CCEAL com direitos 
+especiais e autoprodutores, que iniciem suas 
+atividades na CCEE durante o ano, informam dados 
+necessário à CCEE até 10 dias úteis antes do término 
+do mês a partir do qual se dará o início do alívio de 
+exposições, até o final do ano corrente. 
+Até M-10du 
+Informar dados para alívio de 
+exposições para o ano seguinte 
+Agente com direito 
+a alívio de exposição 
+Os agentes vendedores de CCEAL com direitos 
+especiais e autoprodutores informam à CCEE dados 
+para alívio de exposições para o ano seguinte, até o 
+10º dia útil do mês de dezembro. 
+Até o 10° du 
+de dezembro 
+ 
+Legenda:  
+M: Mês de operação de compra e venda de energia elétrica 
+du: dias
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+17 
+ 
+procedimentos de 
+comercialização 
+Alocação de geração própria 
+Atividade Responsável Detalhamento Prazo 
+Solicitar destinação de 
+geração de empreendimento 
+de autoprodução 
+Agente consumidor 
+ou gerador 
+O agente interessado deve encaminhar à CCEE o 
+Formulário para solicitação de alocação de 
+geração própria, acompanhado da respectiva 
+documentação comprobatória do direito à 
+alocação, bem como providenciar que a 
+contraparte envie à CCEE a anuência da 
+solicitação. 
+Até M-1du 
+Analisar as solicitações  e 
+cadastrar a autorização de 
+destinação de geração 
+CCEE 
+A CCEE terá o prazo de 5du para analisar o pedido 
+e respectivos documentos, podendo solicitar 
+qualquer documentação complementar nesse 
+prazo, que é reiniciado na data de seu 
+recebimento.  
+5du do recebimento 
+da documentação 
+Alterar os percentuais da 
+participação da geração no 
+ACL 
+Agente responsável 
+pelo cadastro 
+Conforme definido nas Regras de 
+Comercialização, os percentuais de participação 
+da geração no ACL podem ser alterados. 
+Até MS-6du 
+Validar os percentuais de 
+participação da geração no 
+ACL 
+Agente consumidor 
+ou gerador 
+Todos os envolvidos que tiveram seus percentuais 
+alterados precisam validar os novos valores. Até MS-6du 
+Informar os percentuais de 
+alocação 
+Agente consumidor 
+com geração própria 
+Informar os percentuais de alocação de geração 
+para suas unidades consumidoras no sistema 
+específico. 
+Até MS-6du 
+Disponibilizar à ANEEL, ONS e 
+agentes envolvidos as 
+informações da alocação da 
+geração 
+CCEE 
+A CCEE disponibiliza à ANEEL, ONS e agentes 
+envolvidos, por meio de relatório específico, as 
+informações da alocação da geração destinada às 
+unidades consumidoras. 
+Até MS-2du 
+ 
+Legenda:  
+MS: Mês seguinte ao de operação de compra e venda de energia elétrica 
+M: Mês de operação de compra e venda de energia; 
+du: dias
+
+Submódulo 3.1 – Contratos do ambiente livre 
+Revisão 5.0 
+18 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

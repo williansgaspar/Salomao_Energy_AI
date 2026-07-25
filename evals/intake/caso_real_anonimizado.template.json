@@ -1,0 +1,19 @@
+{
+  "id": "real-aaaa-mm-assunto-sequencia",
+  "status": "draft",
+  "anonymization": "pending",
+  "domain": "acl|tarifas|mmgd|armazenamento|municipal",
+  "business_context": "Descrever o cenário sem identificar cliente, ativo ou contrato.",
+  "question": "Pergunta técnica a ser avaliada.",
+  "risk_tested": "vigencia|citacao|transicao|calculo|recusa_calibrada",
+  "expected_checks": [
+    "indicar fonte primária e dispositivo",
+    "informar a data da verificação"
+  ],
+  "critical_failure": [
+    "Conclusão incompatível com fonte ou vigência confirmada."
+  ],
+  "review_status": "pending_technical_review",
+  "reviewed_at": null,
+  "notes": "Não incluir informação confidencial."
+}

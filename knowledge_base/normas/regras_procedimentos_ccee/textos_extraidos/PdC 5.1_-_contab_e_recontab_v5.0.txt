@@ -1,0 +1,621 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 5.1_-_contab_e_recontab_v5.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+1 
+ 
+ 
+  
+Módulo 5 – Mercado de 
+Curto Prazo 
+Submódulo 5.1 – Contabilização e recontabilização 
+procedimentos de 
+comercialização
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP n° 05/2012) Despacho nº 3.215/2012 16.10.2012 
+1.1 Adequação de Prazos Despacho n° 283/2013 04.02.2013 
+2.0 Adequação ao Sistema de Recontabilização e demais 
+aprimoramentos Despacho n° 485/2022 16.02.2022 
+3.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1012/2022 01.04.2022 
+4.0 Aprimoramentos Despacho nº 1.029/2023 17.04.2023 
+5.0 Adequação à REN nº 1.080/2023 e aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A contabilização das operações do Mercado de Curto Prazo - MCP e as recontabilizações são realizadas pela 
+CCEE nos termos deste submódulo, das Regras de Comercialização e da regulamentação vigente.  
+2. OBJETIVO 
+Estabelecer as responsabilidades, os procedimentos e os prazos das atividades pertinentes (i) ao 
+processamento da contabilização das operações do MCP e (ii) à solicitação, à análise e ao processamento da 
+recontabilização.  
+3. PREMISSAS 
+Contabilização 
+3.1 O processamento da contabilização ocorre conforme atividades e prazos definidos no item 5 - Fluxo 
+de Atividades, que resulta na divulgação pela CCEE dos relatórios da contabilização e de desconto 
+aplicável à TUSD/TUST. 
+3.2 Após o término do processamento da contabilização, o  auditor independente deve realizar a 
+validação dos dados e resultados do processo de contabilização. 
+3.3 O auditor independente pode, a seu critério, selecionar uma amostra aleatória de agentes para 
+efetuar a confirmação dos dados utilizados na contabilização. 
+3.4 Os agentes selecionados devem responder à interação com o auditor independente.  
+3.5 Os ajustes provenientes de decisões judiciais  ou arbitrais de caráter provisório , deliberações da 
+Diretoria da CCEE e determinações da Agência Nacional de Energia Elétrica – ANEEL são calculados 
+via Mecanismo Auxiliar de Cálculo - MAC (mecanismo utilizado pela CCEE para considerar eventuais 
+valores em discussão e seus respectivos efeitos financeiros no resultado final da contabilização, sem 
+gerar interferências no processamento desta, nos termos da Convenção de Comercialização de 
+Energia Elétrica), sendo seus efeitos financeiros considerados na contabilização. 
+Recontabilização 
+▪ Gerais
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.6 Os dados e valores relativos a um processo de contabilização e liquidação já encerrado, mesmo que 
+auditados, podem ser alterados por meio de recontabilização em virtude de decisão judicial, arbitral 
+ou administrativa definitivas, decisão de ofício pela Diretoria da CCEE, determinação legal ou, ainda, 
+decisão da Diretoria da CCEE decorrente de solicitação do agente. 
+3.7 As solicitações de recontabilização referentes a dados que, isoladamente, não impactem 
+financeiramente os agentes, o histórico utilizado para o cálculo de penalidades, o desconto aplicável 
+à TUSD/TUST ou a apuração de alocação de geração própria  poderão ter os respectivos 
+processamentos postergados pela CCEE, para serem realizadas junto com outras solicitações 
+envolvendo o mesmo mês objeto da recontabilização. 
+3.8 As solicitações de recontabilização não são aceitas pela CCEE  para inserção de dados de medição 
+correspondentes ao período que antecede à conclusão do cadastro do ativo (geração ou consumo) 
+no sistema específico ou para alterações cadastrais anteriores à adesão do agente. 
+3.9 O agente deve acompanhar, por meio do sistema específico, o andamento de todas as etapas da sua 
+solicitação de recontabilização. 
+3.10 Os processos de recontabilização instaurados de ofício pela Diretoria da CCEE ou por determinação 
+da ANEEL também estão disponíveis no sistema específico para acompanhamento pelo(s) agente(s) 
+envolvido(s). 
+▪ Prazos 
+3.11 O prazo para solicitação de recontabilização , por parte dos agentes, se inicia com a divulgação dos 
+relatórios com os valores a serem aportados a título de garantias financeiras para o MCP referente 
+ao período mensal considerado, e se encerra em  3 (três) meses, contados da data da realização da 
+liquidação financeira do período mensal considerado, entendida esta como a data dos créditos aos 
+agentes credores da respectiva liquidação financeira , devendo ser seguido o calendário para 
+solicitações de recontabilização disponibilizado pela CCEE. 
+3.12 O prazo para solicitação de recontabilização, por parte dos agentes,  para alteração dos dados 
+fornecidos pelo ONS, motivada por erro de responsabilidade do agente, é de até 3 (três) meses , 
+contados da aprovação da alteração pelo ONS.  
+3.12.1 O prazo para solicitação de recontabilização devido a alterações nos acrônimos TEIF e TEIP 
+de usinas hidrelétricas participantes do Mecanismo de Realocação de Energia - MRE é de 
+até 3 (três) meses, contados da aprovação das alterações pelo ONS. A recontabilização é 
+realizada a partir do 3º (terceiro) mês anterior à solicitação do agente ao ONS até o mês 
+em que os referidos índices foram corrigidos no sistema de contabilização.
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.13 Os prazos das atividades pertinentes à recontabilização  estão definidos no item 5 - Fluxo de 
+Atividades. 
+3.14 As solicitações de recontabilização que apresentarem pendências de responsabilidade dos agentes, 
+sem justificativa, serão canceladas após 1 (um) mês da última interação dos agentes. 
+3.15 A contagem do prazo estabelecido para deliberação do processo de recontabilização, constante no 
+item 5 – Fluxo de Atividades, somente é iniciada mediante (i) o recolhimento integral do emolumento 
+de recontabilização e (ii) a anuência da(s) contraparte(s), caso solicitado pela CCEE. 
+3.15.1 Para os processos de recontabilização em que forem abertas pendências complementares, 
+a contagem do prazo para deliberação fica suspensa até a resolução das pendências. 
+▪ Solicitação 
+3.16 A solicitação de recontabilização deve ser realizada, exclusivamente, por meio do sistema específico, 
+localizado na área logada do site da CCEE, e deve ser fundamentada em erro. 
+3.17 Quando do preenchimento das informações na respectiva solicitação, o agente deve apresentar os 
+documentos exigidos pela CCEE para cada tipo de recontabilização  (a documentação necessária a 
+ser apresentada à CCEE encontra-se indicada no sistema específico), de acordo com os formatos de 
+arquivos estabelecidos pelo próprio sistema específico, nos prazos determinados neste submódulo. 
+3.18 O agente se compromete e se responsabiliza pela validade e regularidade dos documentos e dados 
+apresentados à CCEE, incluindo os poderes do(s) signatário(s) dos documentos, cuja assinatura o(s) 
+vinculará(ão) às obrigações existentes no âmbito da CCEE. 
+3.19 Em caso de solicitação da CCEE, o agente deve adequar ou complementar a documentação e/ou os 
+dados apresentados em sua solicitação, observada a premissa 3.15.1.  
+▪ Anuência 
+3.20 A(s) contraparte(s) deve(m) dar sua(s) anuência(s) por meio do  sistema específico, caso seja 
+solicitado pela CCEE. 
+3.21 Os casos excepcionais em que sejam caracterizados conflitos motivados por falta de anuência entre 
+as partes envolvidas podem ser levados para conciliação pela Diretoria da CCEE, desde que solicitado 
+pelo agente, conforme submódulo 1.4 - Atendimento. 
+▪ Emolumento
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.22 O valor do emolumento de recontabilização é de R$ 9.447,00 (nove mil, quatrocentos e quarenta e 
+sete reais) (valor referenciado a outubro de 2021, com vigência de novembro de 2021 a outubro de 
+2022, conforme comunicado disponibilizado no site da CCEE, sendo que o valor atualizado do 
+emolumento de recontabilização encontra -se disponível no site da CCEE ). Es se valor é corrigido 
+anualmente pelo IPCA/IBGE, ou em caso de sua descontinuidade, pelo índice que vier a substituí-lo, 
+tendo como data base o mês de outubro de cada ano. Caso o índice seja um valor negativo , não é 
+realizada a atualização. 
+3.23 O valor do emolumento de recontabilização é calculado por mês a ser recontabilizado, ressalvados 
+os casos a seguir: 
+3.23.1 Em casos de ajuste de dados de medição e alterações cadastrais do ativo ( de geração ou 
+consumo), o emolumento é calculado por mês e por ativo de medição. 
+3.23.2 Em casos de alteração nos parâmetros relacionados a registros de  contratos, o 
+emolumento é calculado por mês, considerando a existência de relação entre as alterações 
+solicitadas, a ser analisada pela CCEE. 
+3.24 O agente deve gerar o boleto do emolumento de recontabilização, quando indicado pela  CCEE, e 
+realizar o devido recolhimento. 
+3.25 A responsabilidade pelo recolhimento do emolumento é do agente que solicitou a recontabilização, 
+independentemente do erro ter sido causado por ação ou omissão de outro(s) agente(s), ressalvado 
+o disposto nas premissas a seguir. 
+3.26 O agente de medição é responsável pelo recolhimento do emolumento, bem como pela inserção de 
+dados de medição diretamente no sistema específico , quando a solicitação de recontabilização 
+estiver fundamentada em erro de medição, independentemente de a solicitação ter sido realizada 
+por outro agente. 
+3.27 Caso os agentes envolvidos queiram alterar a responsabilidade pelo recolhimento do emolumento, 
+é necessário que isso seja informado à CCEE no ato da solicitação de recontabilização, por meio do 
+sistema específico, sendo necessária a manifestação do responsável. 
+3.28 A Diretoria da CCEE, ao determinar de ofício uma recontabilização, também deve determinar quem 
+é o responsável por recolher o emolumento correspondente, sendo considerado o valor vigente na 
+data da aprovação do processo pela Diretoria da CCEE.
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.29 Para os casos cuja recontabilização seja causada por responsabilidade do agente junto ao ONS, o 
+agente será responsável pelo recolhimento do emolumento.  Para os casos em que o  ONS seja o 
+responsável pela necessidade de alterar dados já contabilizados, o processo de recontabilização será 
+realizado de ofício pela CCEE sem cobrança de emolumento. 
+3.30 A CCEE deve instaurar procedimento de desligamento por descumprimento de obrigação caso o 
+agente não recolha integralmente os emolumentos devidos em razão de recontabilização 
+determinada de ofício, pela CCEE ou pela ANEEL, motivada por erro causado por ação ou omissão 
+do agente. 
+3.30.1 Nesse caso, independentemente do recolhimento integral do emolumento devido pelo 
+agente envolvido, a recontabilização é processada. 
+3.31 Os valores pagos a título de emolumento de recontabilização  somente são devolvidos c aso seja 
+comprovado que o agente não pode ser responsabilizado pelo(s) motivo(s) da recontabilização. 
+3.32 A destinação dos emolumentos arrecadados pela CCEE dos agentes que solicitaram recontabilização 
+será estabelecida no momento da elaboração do orçamento anual da Câmara e deverá ser publicada 
+aos agentes.  
+3.33 Os ajustes provenientes de cada recontabilização são atualizados monetariamente: 
+a) Com base nas variações positivas e negativas do IGP-M/FGV compreendido no período entre 
+o mês de referência da recontabilização e o mês da contabilização em que será processado; e 
+b) Considerando o intervalo de dias entre as datas de débito das liquidações financeiras dos 
+meses supracitados, pro rata die.  
+3.34 Caso o índice a ser utilizado não tenha sido publicado até o momento do cálculo, deve ser aplicado 
+o último índice divulgado pela Fundação Getúlio Vargas – FGV. Na extinção desse índice, passa a ser 
+utilizado o que vier a substituí-lo. 
+▪ Deliberação 
+3.35 O processo de recontabilização que cumprir os critérios estabelecidos no Anexo deste submódulo, 
+é deliberado por um Diretor da CCEE e, posteriormente, homologado pela Diretoria da CCEE. 
+3.36 O processo de recontabilização que não cumprir os critérios estabelecidos na premissa anterior  é 
+deliberado pela Diretoria da CCEE. 
+3.37 O processo de recontabilização que for deliberado/homologado pela Diretoria da CCEE seguirá o 
+calendário de recontabilização disponibilizado pela CCEE.
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+8 
+ 
+procedimentos de 
+comercialização 
+3.38 O Diretor Relator do processo de recontabilização pode sobrestá-lo por até 60 (sessenta) dias para 
+a realização de diligências, esclarecimentos e/ou solicitação de documentos adicionais que entender 
+necessários à adequada instrução do processo. 
+3.38.1 Durante o período de sobrestamento do processo, a contagem dos prazos definidos no 
+item 5 - Fluxo de Atividades fica suspensa. 
+3.39 A CCEE deve publicar em seu site a deliberação final da Diretoria da CCEE  acerca do processo de 
+recontabilização. 
+3.40 O agente pode interpor pedido de impugnação quando não concordar com a deliberação da 
+Diretoria da CCEE referente ao seu processo de recontabilização, nos moldes das normas de regência 
+vigentes e do submódulo 1.4 – Atendimento. 
+3.41 O agente pode desistir do processo de recontabilização a qualquer momento, por meio do sistema 
+específico, desde que seu processo de recontabilização ainda não tenha sido deliberado pela 
+Diretoria da CCEE. 
+▪ Processamento 
+3.42 No caso de o processamento da recontabilização impactar os valores de entrada da matriz de 
+desconto aplicável à TUSD/TUST e, consequentemente, o cálculo do vetor dos descontos finais, a 
+matriz é reprocessada.  
+3.43 A CCEE deve definir a previsão do calendário de recontabilização e divulgá-lo em seu site, sendo que 
+essa previsão pode ser alterada sem aviso prévio pela CCEE. 
+3.44 Nos casos em que forem necessárias alterações nas Regras de Comercialização, que impliquem 
+modificações no código do sistema específico, é dispensada a instauração de processo de 
+recontabilização. Em tais casos, a execução do processamento da recontabilização deve seguir um 
+calendário diferenciado baseado nas implementações a serem realizadas no sistema  específico, 
+sendo as mesmas devidamente submetidas ao auditor independente. 
+3.45 Na hipótese de determinado agente ser desligado da CCEE sem sucessão, havendo alteração dos 
+montantes de liquidação financeira de qualquer período anterior ao desligamento, seja em virtude 
+de recontabilização e/ou de ajustes financeiros,  eventuais débitos ou créditos apurados para o 
+agente desligado são rateados igualmente entre os agentes credores e devedores participantes da 
+recontabilização e/ou dos ajustes financeiros na proporção, respectivamente, de seus créditos e 
+débitos, conforme definido nas Regras de Comercialização.
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+9 
+ 
+procedimentos de 
+comercialização 
+3.46 Em caso de  desligamento com sucessão, o(s) agente(s) sucessor(es) assume(m)os direitos, ônus e 
+obrigações, inclusive passadas, e as decorrentes de eventuais recontabilizações  ou ajustes 
+financeiros perante a CCEE do agente sucedido. 
+3.47 Os resultados do processamento da recontabilização devem ser validados pelo auditor 
+independente. 
+4. TABELA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+10 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Contabilização
+CCEE Agente
+Até MS+21du
+Divulgar os 
+relatórios da 
+contabilização
+Início
+Até MS+12du
+Divulgar resultado 
+para o aporte de 
+garantias 
+financeiras
+ De MS+12du a 
+MS+15du
+Aportar
+garantias 
+financeiras
+Até MS+11du
+Iniciar o 
+processamento 
+da contabilização
+De MS+16du a 
+MS+17du
+Efetivar os 
+contratos de 
+venda dos agentes 
+que aportaram 
+garantias 
+financeiras
+Até MS+35du
+Divulgar os 
+relatórios de 
+desconto aplicável 
+à TUSD/TUST
+Fim
+ 
+Legenda: 
+MS: Mês seguinte às operações de compra e venda de energia elétrica 
+du: dias úteis
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+11 
+ 
+procedimentos de 
+comercialização 
+ 
+Solicitação de Recontabilização
+CCEE Agente solicitante Parte envolvida
+Sim
+Não
+Até 5du
+Enviar 
+documentação 
+complementar e 
+realizar ajustes, se 
+for o caso
+Até 5du
+Analisar 
+documentação e 
+necessidade de 
+ajuste, se for o 
+caso
+Enviar solicitação 
+de recontabilização 
+e documentação 
+necessária
+Conforme a data 
+de vencimento do 
+boleto
+Realizar o 
+recolhimento do  
+emolumento, se 
+for o responsável
+Cancelamento da 
+solicitação
+Até 35du
+Deliberar sobre o 
+processo de 
+recontabilização
+Anuência dada
+(se for o caso) e 
+emolumento 
+recolhido?
+Até 2du
+Publicar a 
+deliberação final
+Início
+Conforme a data 
+de vencimento do 
+boleto
+Realizar o 
+recolhimento do 
+emolumento, se 
+for o responsável
+Necessita 
+documentação 
+complementar 
+ou ajuste?
+Sim
+Solicitar 
+recolhimento do 
+emolumento e 
+anuência, se for o 
+caso
+Não
+Até 30dc
+Gerar boleto do 
+emolumento, se 
+for o responsável
+Até 30dc
+Dar anuência, se 
+for o caso, e gerar 
+boleto do 
+emolumento, se 
+for o responsável
+Fim  
+Legenda: 
+dc: dias corridos 
+du: dias úteis
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+12 
+ 
+procedimentos de 
+comercialização 
+ 
+Processamento de Recontabilização
+CCEE
+Até MS+10du
+Divulgar os 
+relatórios de 
+recontabilização
+Fim
+Início
+Definir a previsão 
+do calendário de 
+recontabilização
+Conforme 
+calendário
+Processar 
+recontabilização  
+ 
+Legenda: 
+MS: mês baseado na determinação do processo de recontabilização  
+du: dias úteis
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+13 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Contabilização 
+Atividade Responsável Detalhamento Prazo 
+Iniciar o processamento da 
+contabilização CCEE A CCEE deve iniciar o processamento da contabilização 
+das operações do MCP. Até MS+11du 
+Divulgar resultado para o aporte 
+de garantias financeiras CCEE A CCEE deve divulgar os valores a serem aportados  a 
+título de garantias financeiras. Até MS+12du 
+Aportar garantias financeiras Agente O agente deve disponibilizar o valor referente ao 
+aporte das garantias financeiras. 
+De MS+12du a 
+MS+15du 
+Efetivar os contratos de venda 
+dos agentes que aportaram 
+garantias financeiras 
+CCEE 
+A CCEE deve proceder com a efetivação dos contratos 
+de venda dos agentes que aportar am os  valores 
+referentes às garantias financeiras e divulgar os 
+agentes que tiveram seus contratos não efetivados em 
+razão do não aporte. 
+De MS+16du a 
+MS+17du 
+Divulgar os relatórios da 
+contabilização CCEE 
+A CCEE deve disponibilizar os relatórios contendo os 
+dados e resultados referentes à contabilização 
+mediante validação pelo auditor independente. 
+Até MS+21du 
+Divulgar os relatórios de 
+desconto aplicável à TUSD/TUST CCEE A CCEE deve disponibilizar os relatórios de desconto 
+aplicável à TUSD/TUST. Até MS+35du 
+ 
+Legenda: 
+MS: mês seguinte às operações de compra e venda de energia elétrica    
+du: dias úteis
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+14 
+ 
+procedimentos de 
+comercialização 
+Solicitação de Recontabilização 
+Atividade Responsável Detalhamento Prazo 
+Enviar solicitação de 
+recontabilização e documentação 
+necessária 
+Agente 
+solicitante 
+O agente solicitante deve enviar à CCEE a solicitação de 
+recontabilização e os documentos e arquivos de dados que 
+embasam a solicitação, por meio do sistema específico. 
+- 
+Analisar documentação e 
+necessidade de ajuste, se for o caso CCEE A CCEE deve analisar a solicitação  e a documentação 
+enviada, podendo solicitar ajustes, se for o caso. Até 5du 
+Enviar documentação 
+complementar e realizar ajustes, se 
+for o caso 
+Agente 
+solicitante 
+Caso seja requisitado pela CCEE, o agente solicitante deve 
+enviar a documentação complementar requerida e realizar 
+os ajustes necessários, se for o caso. 
+Até 5du 
+Solicitar recolhimento do 
+emolumento e anuência, se for o 
+caso 
+CCEE A CCEE deve solicitar o pagamento do  emolumento, bem 
+como a anuência da(s) contraparte(s), se for o caso. - 
+Gerar boleto do emolumento, se for 
+o responsável 
+Agente 
+solicitante 
+O agente solicitante deve gerar o boleto do emolumento, 
+se for o responsável. Até 30dc 
+Dar anuência, se for o caso, e gerar 
+boleto do emolumento, se for  o 
+responsável 
+Parte 
+envolvida 
+A parte envolvida deve dar sua anuência por meio do 
+sistema específico, caso seja solicitado pela CCEE e gerar o 
+boleto do emolumento, se for a responsável. 
+Até 30dc 
+Realizar o recolhimento d o 
+emolumento, se for o responsável 
+Agente 
+solicitante 
+O agente solicitante deve recolher integralmente o 
+emolumento de recontabilização, caso seja o responsável 
+por essa atividade, nos termos das premissas des te 
+submódulo. 
+Conforme a data 
+de vencimento 
+do boleto 
+Realizar o recolhimento do  
+emolumento, se for o responsável 
+Parte 
+envolvida 
+A parte envolvida deve recolher integralmente o 
+emolumento de recontabilização, caso seja  a responsável 
+por essa atividade, nos termos das premissas desse 
+submódulo. 
+Conforme a data 
+de vencimento 
+do boleto 
+Deliberar sobre o processo de 
+recontabilização CCEE 
+O processo de recontabilização será deliberado, sendo que 
+a anuência (se for o caso) e o recolhimento integral do 
+emolumento são requisitos para o início da contagem do 
+prazo para essa atividade. 
+Até 35du 
+ Publicar a deliberação final CCEE O resultado da deliberação deve ser publicado no  site da 
+CCEE. Até 2du 
+Legenda: 
+dc: dias corridos 
+du: dias úteis
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+15 
+ 
+procedimentos de 
+comercialização 
+Processamento de Recontabilização 
+Atividade Responsável Detalhamento Prazo 
+Definir a previsão do calendário 
+de recontabilização CCEE A CCEE deve  definir a previsão d o calendário de 
+recontabilização. - 
+Processar recontabilização CCEE Uma vez realizados os ajustes, a CCEE deve processar 
+a recontabilização do mês em questão. 
+Conforme 
+calendário 
+Divulgar os relatórios de 
+recontabilização CCEE A CCEE deve disponibilizar os relatórios referentes ao 
+processo de recontabilização. MS+10du 
+Legenda: 
+MS: mês baseado na determinação do processo de recontabilização  
+du: dias úteis
+
+Submódulo 5.1 – Contabilização e recontabilização 
+Revisão 5.0 
+16 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+7.1. Antecipação dos efeitos financeiros (recontabilização express) 
+Para que uma solicitação de recontabilização possa ser aprovada pelo processo express, a solicitação deve atender 
+cumulativamente aos seguintes critérios:  
+a) ser solicitada por agente da CCEE ou por agente de medição; 
+b) ter anuência da(s) contraparte(s) diretamente envolvida(s), quando aplicável;  
+c) ser integralmente tempestiva, conforme prazos estabelecidos neste Submódulo;  
+d) não produzir impactos em operacionalização de ações judiciais em andamento;  
+e) possuir indícios suficientes de que a origem da solicitação seja relacionada a erro em processo de contabilização e 
+liquidação; 
+f) ser isenta de pedidos extraordinários dos agentes; 
+g) não gerar impacto direto nas apurações do Mercado Regulado, a saber: Receita de Venda - RRV, Energia de Reserva, 
+Cotas de Energia Nuclear e de Garantia Física, Mecanismos de Compensação de Sobras e D éficits - MCSDs, 
+Mecanismo de Venda de Excedentes - MVE ou outra que vier a ser criada; 
+h) ser solicitada por meio da plataforma de operações da CCEE; 
+i) quando houver antecipação financeira, um Diretor da CCEE  deve simular os efeitos específicos da solicitação por 
+meio de simulador que utilize as mesmas Regras de Comercialização e dados de entrada do sistema específico.  
+Solicitações de recontabilização determinadas pel a ANEEL ou abertas de ofício pela CCEE  poderão ser aprovadas pelo 
+processo express.  
+A antecipação provisória dos efeitos financeiros na contabilização do MCP de solicitações de recontabilização será 
+aplicada com as devidas atualizações monetárias e conforme simulação citada em ”i” em um mês de referência de 
+contabilização desde que a solicitação esteja aprovada no processo express até o 9º dia útil do mês seguinte ao de 
+referência (MS+9du). 
+Até que haja a deliberação da Diretoria da CCEE  que homologue as solicitações de recontabilização aprovadas no 
+processo express, a aprovação por um membro da Diretoria da CCEE será considerada provisória. 
+Conforme calendário previsto na premissa 3.42 deste Submódulo, serão mantidos os processamentos dos meses 
+impactados por quaisquer solicitações de recontabilização, nos quais os efeitos definitivos dos processos serão apurados 
+e poderão ser observadas eventuais diferenças em relação aos efeitos provis órios antecipados com base em simulação 
+realizada nos termos supracitados. 
+As diferenças supracitadas deverão ser aplicadas com as devidas atualizações monetárias e respeitando as premissas 3.44 
+e 3.45 deste Submódulo quanto ao rateio de diferenças em caso de desligamento sem sucessão ou à transferência dos 
+efeitos para o sucessor.  
+As solicitações de recontabilização poderão ser recebidas a partir da divulgação da Memória de Cálculo de Garantias 
+Financeiras do MCP (MS+12du) do mês de referência a ser recontabilizado.  
+Caso a análise técnica por um Diretor da CCEE conclua pela reprovação da solicitação ou pela necessidade de apreciação 
+e deliberação da Diretoria da CCEE , incluindo, mas não se restringindo, a existência de solicitações extraordinárias dos 
+agentes envolvidos, fica vedada a aprovação da solicitação pelo processo express.

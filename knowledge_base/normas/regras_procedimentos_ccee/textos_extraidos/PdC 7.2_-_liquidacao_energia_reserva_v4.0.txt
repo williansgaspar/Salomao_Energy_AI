@@ -1,0 +1,291 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 7.2_-_liquidacao_energia_reserva_v4.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+1 
+ 
+  
+Módulo 7 – Energia de 
+Reserva 
+Submódulo 7.2 – Liquidação financeira relativa à 
+contratação de energia de reserva 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização
+
+Submódulo 7.2 – Liquidação financeira relativa à contratação de energia de reserva 
+Revisão 4.0 
+2 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada Despacho nº 1.019/2013 10.04.2013 
+2.0 Divulgação dos agentes inadimplentes e demais 
+melhorias Despacho nº 3.646/2020 01.01.2021 
+3.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1.012/2022 01.04.2022 
+4.0 Aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 7.2 – Liquidação financeira relativa à contratação de energia de reserva 
+Revisão 4.0 
+3 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O Decreto nº 6.353/2008, que regulamenta a contratação da energia de reserva, estabelece que todos os 
+custos decorrentes dessa contratação devem ser arcados, mensalmente, pelos usuários de energia de reserva, 
+por meio de liquidação financeira específica a ser realizada pela CCEE. 
+Dessa forma, foi implementado o processo de liquidação financeira relativa à contratação de energia de 
+reserva, do qual fazem parte a CCEE, os agentes vendedores de energia de reserva, os usuários de energia de 
+reserva e o banco liquidante (responsável pela mo vimentação dos recursos financeiros). Após a apuração 
+mensal da energia de reserva e do cálculo do Encargo de Energia de Reserva - EER, a CCEE disponibiliza em 
+sistema específico os relatórios de Pré-Liquidação Financeira, contendo, dentre outros resultados, os valores 
+a serem pagos e recebidos. Os agentes com posição devedora devem depositar os valores apurados pela CCEE 
+em conta corrente específica e o banco liquidante, por sua vez, deve efetuar a t ransferência dos recursos 
+disponíveis aos agentes com posição credora, observando os prazos estabelecidos neste submódulo. 
+2. OBJETIVO 
+Estabelecer os prazos e procedimentos inerentes à liquidação financeira relativa à contratação de energia de 
+reserva. Este submódulo se aplica aos agentes de geração vendedores de energia de reserva e aos agentes 
+com consumo registrado na CCEE.  
+3. PREMISSAS 
+3.1 A CCEE deve promover a liquidação financeira relativa à contratação de energia de reserva de modo 
+a contemplar: 
+a) O recolhimento do EER  (os valores remanescentes do aporte de Garantias Financeiras para 
+liquidação da contabilização do Mercado de Curto Prazo – MCP não podem ser utilizados 
+como recurso para o pagamento do encargo de energia de reserva ) junto aos usuários de 
+energia de reserva; 
+b) O pagamento de eventuais ressarcimentos e/ou penalidades apurados para os agentes 
+vendedores de energia de reserva em virtude do descumprimento de suas obrigações 
+contratuais ou insuficiência de lastro; 
+c) O pagamento de encargos moratórios aplicados sobre eventuais valores inadimplidos nos 
+itens a e b; 
+d) O pagamento dos valores devidos aos agentes vendedores de energia de reserva de acordo 
+com os Contratos de Energia de Reserva - CERs celebrados;
+
+Submódulo 7.2 – Liquidação financeira relativa à contratação de energia de reserva 
+Revisão 4.0 
+4 
+procedimentos de 
+comercialização 
+e) A movimentação (débitos ou créditos) dos recursos financeiros da Conta de Energia de 
+Reserva - CONER para constituição e/ou recomposição do fundo de garantia;  
+f) O ressarcimento à CCEE dos custos administrativos, financeiros e tributários incorridos na 
+gestão da CONER e dos contratos associados à energia de reserva; e 
+g) Outros lançamentos (a crédito ou débito) resultante s de reapurações, decisões judiciais , 
+arbitrais e/ou decisões administrativas da Agência Nacional de Energia Elétrica - ANEEL. 
+3.2 O calendário de liquidação financeira relativa à contratação de energia de reserva é definido pela 
+Diretoria da CCEE, sendo que a data de liquidação dos débitos não pode ser posterior ao dia 25 de 
+cada mês, exceto se autorizado pela ANEEL. 
+3.3 A CCEE deve encaminhar ao agente de liquidação o mapa de liquidação financeira relativa à 
+contratação de energia de reserva, no qual constarão os débitos e créditos de cada agente. 
+3.4 O montante financeiro do débito , apurado e informado pela CCEE,  deve ser depositado na conta 
+corrente específica e estar disponível durante o expediente bancário da data dos débitos, conforme 
+calendário de liquidação financeira relativa à contratação de energia de reserva publicado no site da 
+CCEE. 
+3.4.1 Em caso de compensação financeira, a mesma deve ocorrer a tempo de atender à data dos 
+débitos da liquidação financeira relativa à contratação de energia de reserva.  
+3.5 A movimentação de recursos financeiros da CONER para pagamento dos agentes credores deve 
+ocorrer no dia útil subsequente ao dia da liquidação dos débitos.  
+3.6 Em caso de inadimplência na liquidação dos débitos de que trata a premissa 3.4, o valor inadimplido 
+deve ser coberto, caso necessário, com recursos do fundo de garantia. 
+3.7 No caso de utilização de recursos financeiros do fundo de garantia, esse fundo deve ser recomposto 
+na liquidação financeira relativa à contratação de energia de reserva subsequente. 
+3.8 Os recursos associados à retenção do pagamento do agente vendedor de energia de reserva devem 
+ser desconsiderados na definição do fundo de garantia. 
+3.9 Caracterizada a inadimplência no pagamento do EER devido pelo usuário de energia de reserva e no 
+pagamento de débitos atribuídos ao agente vendedor de energia de reserva, deve incidir multa de 
+2% (dois por cento) e juros de mora de 1% (um por cento) ao mês, calculados “pro rata die”, sobre 
+o valor inadimplido. 
+a) A multa incide apenas uma vez sobre o valor originalmente inadimplido.
+
+Submódulo 7.2 – Liquidação financeira relativa à contratação de energia de reserva 
+Revisão 4.0 
+5 
+procedimentos de 
+comercialização 
+b) Os juros de mora são cobrados considerando o período desde o dia da liquidação financeira 
+relativa à contratação de energia de reserva na qual se caracterizou a inadimplência, até o dia 
+que antecede a liquidação financeira relativa à contratação de energia de reserva 
+subsequente. 
+c) É vedada a incidência de juros de mora sobre a parcela da multa calculada no item “a”. 
+d) Os valores devidos são atualizados monetariamente com base no último índice IGP -M 
+divulgado pela Fundação Getúlio Vargas na data do cálculo. Caso o último índice divulgado 
+seja negativo, é desconsiderado e, neste caso, não haverá atualização monetária. 
+3.10 O valor inadimplido, somado aos encargos moratórios, deve ser lançado na liquidação financeira 
+relativa à contratação de energia de reserva subsequente e destinado à CONER. 
+3.11 Após a efetivação dos créditos, a CCEE deve disponibilizar , de forma pública, relação de 
+inadimplentes, contendo a lista de inadimplentes  com respectivos valores inadimplidos,  com 
+informação sobre eventual inexigibilidade de valores de qualquer agente inadimplente , bem como 
+a eventual justificativa enviada pelo agente, em seu inteiro teor. O conteúdo da justificativa é de 
+total e inteira responsabilidade do agente, para todos os fins e efeitos , e será disponibilizado 
+publicamente sem análise prévia da CCEE. 
+3.12 Na ocorrência de proferimento de decisão judicial ou arbitral provisória que determine para 
+determinado usuário de energia de reserva, de forma expressa, a suspensão da obrigação de pagar 
+o EER apurado pela CCEE, o valor atribuído ao usuário deve ser coberto com recursos do fundo de 
+garantia, caso os recursos financeiros depositados pelos outros usuários não sejam suficientes para 
+o pagamento do EER. 
+3.13 A CCEE deve manter um registro de valores não pagos por força de decisões judiciais ou arbitrais, 
+sendo que, na hipótese de revogação das decisões, a CCEE deve promover a cobrança dos valores 
+não pagos pelo usuário de energia de reserva, com base nos valor es apurados conforme premissa 
+3.12, sendo o valor arrecadado destinado à CONER. 
+3.14 Os prazos previstos neste submódulo para a liquidação financeira relativa à contratação de energia 
+de reserva podem ser alterados, a qualquer tempo, pela Diretoria da CCEE, observado o disposto na 
+premissa 3.2. 
+3.15 Após o término do processamento da liquidação financeira relativa à contratação de energia de 
+reserva, o auditor independente deve realizar a validação dos resultados dessa liquidação financeira.
+
+Submódulo 7.2 – Liquidação financeira relativa à contratação de energia de reserva 
+Revisão 4.0 
+6 
+procedimentos de 
+comercialização 
+3.16 É de competência exclusiva dos agentes o cumprimento das obrigações fiscais, a condução de seus 
+negócios e o recolhimento de tributos, sendo o s únicos responsáveis  pela verificação do s 
+procedimentos adequados a ser em adotados, bem como dirimir quaisquer dúvidas perante a 
+Fazenda Federal, Distrital, Estadual, Municipal ou terceiros, conforme o caso. 
+3.17 Eventuais informações, interpretações ou opiniões jurídicas da CCEE não são determinativas e não 
+afastam interpretações diferentes pelas Administrações Tributárias, não devendo a CCEE se 
+responsabilizar pela utilização dessas informações, interpretações ou  opiniões pelos agentes  
+impactados por este submódulo. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 7.2 – Liquidação financeira relativa à contratação de energia de reserva 
+Revisão 4.0 
+7 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Liquidação Financeira da Energia de Reserva
+CCEE Agente usuário de 
+energia de reserva
+Agente vendedor de 
+energia de reserva
+Início
+MS(ER)+8du
+Divulgar 
+relatórios da Pré-
+Liquidação 
+Financeira Y
+Efetuar 
+ressarcimento ou 
+pagamento de 
+penalidades, 
+caso aplicável
+Y
+Recolher EER
+Y+1du
+Realizar 
+pagamentos aos 
+geradores
+Até 5du
+Apresentar 
+manifestação à 
+CCEE
+Até 5du
+Apresentar 
+manifestação  à 
+CCEE
+Y+3du
+Divulgar relatórios 
+de Pós-Liquidação 
+Financeira e 
+relação de agentes 
+inadimplentes
+Fim
+ 
+Legenda:  
+MS(er): Mês seguinte à liquidação financeira dos valores relativos à energia de reserva contabilizada no MCP 
+Y: Data de recolhimento do Encargo de Energia de Reserva – EER (Consultar calendário publicado no site da CCEE) 
+   du: dias úteis
+
+Submódulo 7.2 – Liquidação financeira relativa à contratação de energia de reserva 
+Revisão 4.0 
+8 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Liquidação financeira da energia de reserva 
+Atividade Responsável Detalhamento Prazo 
+Divulgar relatórios da Pré -
+Liquidação Financeira CCEE 
+Disponibilizar em sistema específico os relatórios 
+referentes à Pré -Liquidação Financeira relativa à 
+contratação de energia de reserva. 
+MS(ER)+8du 
+Recolher EER Usuário de 
+energia de reserva 
+Efetuar o pagamento do EER, divulgado pela CCEE nos 
+relatórios de Pré -Liquidação Financeira, depositando os 
+recursos financeiros até o encerramento do expediente 
+bancário no dia do pagamento dos débitos. 
+Y 
+Efetuar ressarcimento ou 
+pagamento de penalidades, 
+caso aplicável 
+Agente vendedor 
+de energia de 
+reserva 
+Efetuar o pagamento de eventuais ressarcimentos e/ou 
+penalidades apuradas, depositando os recursos 
+financeiros até o encerramento do expediente bancário 
+no dia do pagamento dos débitos. 
+Y 
+Realizar pagamento aos 
+agentes geradores CCEE 
+Verificar a totalidade dos recursos financeiros 
+depositados pelos agentes e processar a transferência 
+aos agentes vendedores de energia de reserva e à CCEE 
+(para ressarcimento dos custos). 
+Y+1du 
+Divulgar relatórios de Pós -
+Liquidação Financeira e 
+relação de agentes 
+inadimplentes  
+CCEE 
+Disponibilizar os relatórios referentes à liquidação 
+financeira relativa à contratação de energia de reserva, 
+por meio de sistema específico, com informação sobre 
+eventual inexigibilidade de valores de qualquer agente 
+inadimplente, de forma pública. 
+Y+3du 
+Apresentar manifestação à 
+CCEE 
+Usuário e agente 
+vendedor de 
+energia de reserva 
+Os usuários e agentes vendedores constantes nas 
+relações de inadimplentes podem apresentar 
+manifestação sobre a inadimplência verificada na 
+liquidação financeira e/ou participação em eventual 
+ação judicial à CCEE, sob sua inteira e total 
+responsabilidade, a qual será disponibilizada 
+publicamente sem análise prévia da CCEE. 
+Até 5du 
+ 
+Legenda: 
+MS(ER): Mês seguinte à liquidação financeira dos valores relativos à energia de reserva contabilizada no MCP 
+Y: Data de recolhimento do Encargo de Energia de Reserva – EER (consultar calendário publicado no site da CCEE) 
+du: dias úteis
+
+Submódulo 7.2 – Liquidação financeira relativa à contratação de energia de reserva 
+Revisão 4.0 
+9 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

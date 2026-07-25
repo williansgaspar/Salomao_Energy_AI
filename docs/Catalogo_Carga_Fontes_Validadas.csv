@@ -1,0 +1,13 @@
+id_normativo,tipo,data,arquivo,destino_sharepoint,url_oficial,status
+REN-ANEEL-1000-2021,Resolução Normativa ANEEL,2021-12-07,REN_Aneel_1000_2021_Direitos_Consumidor.txt,01_Fontes_Canônicas/Resolucoes_ANEEL,https://www2.aneel.gov.br/cedoc/ren20211000.pdf,carregado
+REN-ANEEL-1009-2022,Resolução Normativa ANEEL,2022-03-22,REN_Aneel_1009_2022_Contratacao_Energia.txt,01_Fontes_Canônicas/Resolucoes_ANEEL,https://www2.aneel.gov.br/cedoc/ren20221009.pdf,preexistente
+REN-ANEEL-1011-2022,Resolução Normativa ANEEL,2022-03-29,REN_Aneel_1011_2022_Autorizacao_Comercializacao.txt,01_Fontes_Canônicas/Resolucoes_ANEEL,https://www2.aneel.gov.br/cedoc/ren20221011.pdf,preexistente
+REN-ANEEL-1012-2022,Resolução Normativa ANEEL,2022-03-29,REN_Aneel_1012_2022_Procedimentos_Comercializacao.txt,01_Fontes_Canônicas/Resolucoes_ANEEL,https://www2.aneel.gov.br/cedoc/ren20221012.pdf,preexistente
+REN-ANEEL-1110-2024,Resolução Normativa ANEEL,2024-12-10,REN_ANEEL_1110_2024_TEXTO_INTEGRAL_CANONICO.txt,01_Fontes_Canônicas/Resolucoes_ANEEL,https://www2.aneel.gov.br/cedoc/ren20241110.pdf,preexistente-canonico
+LEI-9074-1995,Lei Federal,1995-07-07,Lei_9074_1995_Marco_Regulatorio_SEB.html,01_Fontes_Canônicas/Leis_Federais,https://www.planalto.gov.br/ccivil_03/leis/l9074cons.htm,preexistente
+LEI-9427-1996,Lei Federal,1996-12-26,Lei_9427_1996_ANEEL_Concessoes.html,01_Fontes_Canônicas/Leis_Federais,https://www.planalto.gov.br/ccivil_03/leis/l9427compilada.htm,preexistente
+LEI-14300-2022,Lei Federal,2022-01-06,Lei_14300_2022_Marco_Legal_MMGD.txt,01_Fontes_Canônicas/Leis_Federais,https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm,carregado
+LEI-14133-2021,Lei Federal,2021-04-01,Lei_14133_2021_Licitacoes_Contratos.html,01_Fontes_Canônicas/Leis_Federais,https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm,carregado
+LEI-15269-2025,Lei Federal,2025-11-24,Lei_15269_2025_Novo_Marco_Eletrico.html,01_Fontes_Canônicas/Leis_Federais,https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15269.htm,carregado
+DECRETO-11462-2023,Decreto Federal,2023-03-31,Decreto_11462_2023_SRP_ARP.html,01_Fontes_Canônicas/Decretos_Federais,https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11462.htm,carregado
+PORTARIA-MME-50-2022,Portaria Normativa MME,2022-09-27,Portaria_Normativa_50_2022_MME_Acesso_ACL_Grupo_A.html,01_Fontes_Canônicas/Portarias_MME,https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao/portarias/2022/portaria-normativa-n-50-gm-mme-2022.pdf,preexistente

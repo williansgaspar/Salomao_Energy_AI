@@ -1,0 +1,390 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 7.1_-_apuracoes_de_energia_de_reserva_v7.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 7.1_-_apuracoes_de_energia_de_reserva_v7.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+///  
+procedimentos de 
+comercialização 
+Módulo 7 – Energia de 
+Reserva 
+Submódulo 7.1 – Apurações da energia de reserva
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+2 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+ 
+  
+Revisão Motivo da Revisão Instrumento de aprovação 
+pela ANEEL Data de Vigência 
+1.0 Primeira versão aprovada Despacho nº 1.019/2013 10.04.2013 
+2.0 Adequação à REN nº 755/2016 Despacho nº 1.911/2017 30.06.2017 
+3.0 Adequação à REN n° 802/2017 Despacho n° 1.975/2018 31.08.2018 
+4.0 Adequação à REN n° 869/2020 Despacho n° 3.646/2020 01.01.2021 
+5.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1.012/2022 01.04.2022 
+6.0 Decreto nº 11.835/2023 Resolução Normativa nº 
+1.087/2024 
+01.02.2026 
+(Mês subsequente à homologação do 
+Estatuto da CCEE/2024 – Resolução 
+Homologatória nº 3.566/2026) 
+7.0 Adequação à REN nº 1.080/2023 
+e aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+3 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+Com a reestruturação do Setor Elétrico Brasileiro, passou a ser prevista a possibilidade de contratação de 
+energia de reserva, destinada a aumentar a segurança no fornecimento de energia elétrica ao Sistema 
+Interligado Nacional - SIN, proveniente de usinas especialmente contratadas para esse fim.  
+O Decreto n° 6.353/2008 regulamentou a contratação de energia de reserva prevista na Lei n° 10.848/2004, 
+proveniente de novos empreendimentos de geração ou empreendimentos existentes, desde que 
+acrescentem garantia física ao SIN e não tenham entrado em operação comercial até 17 de janeiro de 2008 
+(data de publicação do referido Decreto). 
+Os empreendimentos de geração vencedores dos Leilões de Energia de Reserva- LER devem celebrar 
+Contratos de Energia de Reserva - CERs com a CCEE, que atua como representante dos usuários de energia 
+de reserva, que suportam os custos associados a tal contratação mediante pagamento do Encargo de 
+Energia de Reserva - EER.  
+2. OBJETIVO 
+Estabelecer as premissas para a apuração e divulgação dos valores relativos à energia de reserva, o que 
+contempla: (i) apuração e rateio do EER; (ii) antecipação de receita; (iii) ressarcimento de valores por parte 
+dos agentes vendedores; (iv) efeitos de eventuais reapurações da energia de reserva; (v) ajustes relativos a 
+decisões administrativas e judiciais.  
+Este submódulo se aplica aos agentes de geração vendedores de energia de reserva e aos usuários de 
+energia de reserva.  
+3. PREMISSAS 
+Gerais 
+3.1 A parcela da garantia física comprometida no LER não pode ser usada como lastro para fins de 
+comercialização de energia, sendo que toda a geração associada à energia de reserva é 
+contabilizada e liquidada exclusivamente no Mercado de Curto Prazo - MCP. 
+3.2 Os custos decorrentes da contratação de energia de reserva, incluindo os custos administrativos, 
+financeiros e tributários, devem ser suportados por todos os usuários de energia de reserva, 
+mediante o pagamento do EER, conforme estabelecido no submódulo 7.2 - Liquidação Financeira 
+Relativa à Contratação de Energia de Reserva.
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+4 
+procedimentos de 
+comercialização 
+3.3 A CCEE deve manter conta corrente específica, denominada Conta de Energia de Reserva - CONER, 
+para administração dos recursos financeiros associados a: 
+a) Recolhimento do EER junto aos usuários de energia de reserva; 
+b) Recebimento dos valores referentes ao pagamento de multas ou penalidades e 
+ressarcimentos (penalidades por descumprimento de obrigações estabelecidas no CER; 
+multas por não instalação e coleta do sistema de medição anemométrica; ressarcimentos, 
+por meio da devolução da receita fixa previamente recebida referente ao montante vendido 
+e efetivamente não entregue pelo agente vendedor aos usuários de energia de reserva ) 
+relativos à energia de reserva pelos agentes vendedores de energia de reserva, nos termos 
+do CER;  
+c) Recebimento dos encargos moratórios decorrentes da inadimplência no pagamento do EER 
+e de eventuais ressarcimentos/penalidades; 
+d) Valores resultantes da liquidação financeira relativa à contratação de energia de reserva no 
+MCP, incluindo os valores relativos à antecipação de usinas; 
+e) Pagamento ou retenção dos valores devidos aos agentes vendedores de energia de reserva; 
+f) Constituição e manutenção do fundo de garantia; 
+g) Ressarcimento dos custos administrativos, financeiros e tributários incorridos pela CCEE na 
+gestão e estruturação da CONER e dos contratos associados à energia de reserva; 
+h) Valores resultantes das diferenças entre as apurações já liquidadas e os novos valores 
+calculados na reapuração de energia de reserva, no caso de agentes de geração desligados 
+da CCEE; 
+i) Remuneração da CCEE pela gestão do EER e da CONER e pela realização de estudos que lhe 
+sejam solicitados. 
+3.4 Findo o prazo de vigência dos CERs e concluídas todas as obrigações decorrentes da contratação de 
+energia de reserva, eventual saldo remanescente da CONER será restituído aos usuários de energia 
+de reserva. 
+3.5 No processo de contabilização e liquidação financeira relativa à contratação de  energia de reserva 
+no MCP, a CCEE representa os usuários de energia de reserva por meio de um agente virtual 
+denominado Agente Associado à Contratação de Energia de Reserva - ACER. 
+3.6 O ACER não participa do rateio de eventual inadimplência na liquidação financeira das operações 
+de compra e venda de energia elétrica realizadas no MCP, nem tampouco do rateio dos ajustes 
+escriturais relativos a ações judiciais.
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+5 
+procedimentos de 
+comercialização 
+3.7 Os recursos obtidos com a liquidação da geração associada à energia de reserva no MCP são 
+destinados à CONER, de modo a reduzir os custos associados à sua contratação. 
+3.8 O empreendimento de geração que não estiver em operação comercial no mês de início de 
+suprimento do CER terá o pagamento de sua receita fixa mensal retido conforme as Regras de 
+Comercialização ou  por determinação da Agência Nacional de Energia Elétrica - ANEEL, até que 
+inicie sua operação comercial.  
+3.8.1 A liberação do pagamento da receita fixa retida , atualizada conforme as Regras de 
+Comercialização, ocorrerá no mês de lançamento de eventual ressarcimento apurado, de 
+modo a abater parte ou todo o ressarcimento devido pelo agente vendedor  de energia 
+de reserva. 
+3.9 Na constituição do fundo de garantia, a CCEE deve considerar o montante de recursos financeiros 
+equivalente ao pagamento integral aos agentes vendedores de energia de reserva no mês de 
+referência, observados os critérios de reajuste dos CERs. Os recursos financeiros associados à 
+retenção do pagamento ao agente vendedor de energia de reserva  são desconsiderados para 
+efeitos de constituição do fundo de garantia. 
+3.10 Para fins de apuração do EER a ser pago pelos usuários de energia de reserva, a CCEE deve 
+considerar os recursos disponíveis na CONER no momento do cálculo e os demais dispositivos das 
+Regras de Comercialização. Se os recursos forem suficientes para o pagamento de todas as 
+obrigações vinculadas à energia de reserva e para o atendimento dos conceitos técnicos do fundo 
+de garantia, não será realizada a cobrança de EER no mês de referência. 
+3.11 O valor do EER calculado pela CCEE deve ser rateado entre todos os usuários de energia de reserva 
+na proporção da parcela de consumo do agente atendido pelo SIN, conforme medição verificada 
+nos últimos 12 (doze) meses liquidados, sendo utilizados, na forma de janela móvel de 12 (doze) 
+meses, valores que representem, efetivamente, a carga líquida mensal do agente. 
+3.12 O cálculo do rateio do EER entre os usuários de energia de reserva deve considerar apenas a 
+parcela de consumo que exceda o atendimento feito por meio de geração própria, caso aplicável.  
+3.13 Os relatórios com os valores a receber ou recolher do EER devem ser disponibilizados aos agentes 
+em sistema específico após a validação dos resultados da apuração da energia de reserva  pelo 
+auditor independente.
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+6 
+procedimentos de 
+comercialização 
+3.14 Em caso de reapurações  de energia de reserva, a s diferenças dos valores financeiros entre as 
+apurações já liquidadas e os novos valores calculados na reapuração, bem como os demais ajustes 
+provenientes de decisões judiciais  ou arbitrais , deliberações da Diretoria da CCEE  e/ou 
+determinação da ANEEL, devem ser atualizados monetariamente com base nas variações positivas 
+do Índice Nacional de Preços ao Consumidor Amplo - IPCA, divulgado pelo Instituto Brasileiro de 
+Geografia e Estatística - IBGE, e divulgados por meio de relatórios. 
+3.14.1 A metodologia de atualização monetária deve considerar o IPCA do mês de referência do 
+ajuste e o último IPCA divulgado pelo IBGE na data do cálculo. 
+3.14.2 Caso o último índice divulgado seja negativo, este será desconsiderado e, nesse caso, não 
+haverá atualização monetária. Havendo a extinção desse índice, será  adotado outro 
+índice oficial que vier a substituí-lo. 
+Empreendimentos de geração de fonte biomassa 
+3.15 Os empreendimentos de geração de fonte biomassa não podem utilizar o mecanismo de 
+autocessão. 
+3.16 Durante o período de suprimento definido no CER, o percentual de destinação da geração do 
+empreendimento comprometido com CER, a cada mês, será, no mínimo, o percentual da garantia 
+física comprometida no respectivo LER, até atingir o montante anual previsto no contrato. 
+3.17 O agente vendedor de energia de reserva pode, caso esteja definido na Regra de Comercialização, 
+destinar a geração da parcela de usina modelada no ACL para atendimento do CER . Nesse caso , 
+deve informar, anualmente, no sistema específico, em data anterior à realização do PMO do mês 
+de referência do início do ano contratual  (a data limite para a declaração ex-ante deve ser  
+divulgada pela CCEE no calendário de operações, disponível em seu site). 
+3.17.1 A opção realizada pelo agente não será recontabilizada.  
+3.18 A liberação do percentual mínimo de geração destinada ao CER ocorrerá automaticamente assim 
+que for verificado o atendimento do volume contratado em cada ano de suprimento, sendo que a 
+geração verificada nos meses subsequentes ficará liberada para o ACL até o mês de início do 
+próximo ano de entrega do CER. 
+Empreendimentos de geração de fonte eólica  
+3.19 O agente vendedor de energia de reserva  deve realizar medições anemométricas e climatológicas 
+dos ventos conforme definido nos respectivos contratos e os registros das medições à Empresa de 
+Pesquisa Energética - EPE.
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+7 
+procedimentos de 
+comercialização 
+3.20 O descumprimento da obrigação indicada na premissa anterior, que será apurado e informado pela 
+EPE à CCEE, sujeita o agente ao pagamento mensal de multa, no âmbito da liquidação financeira 
+relativa à contratação de energia de reserva, conforme estabelecido em cada CER e detalhado no 
+submódulo 6.1 - Penalidades de medição e multas. 
+3.21 O empreendimento de geração de fonte eólica que entrar em operação comercial antes da data de 
+início de suprimento definida no CER receberá, compulsoriamente, receita antecipada por toda a 
+energia gerada até o início de suprimento do contrato. 
+3.22 Com relação à conta de energia  de reserva do agente , apurada de acordo com as Regras de 
+Comercialização, caso seja verificado saldo positivo dentro da faixa de tolerância ao final do último 
+ano de cada quadriênio, o agente vendedor de energia de reserva  pode, a seu critério, utilizar o 
+saldo acumulado das seguintes formas: 
+a) Repassar montante desse saldo para o quadriênio seguinte na forma de crédito de energia; 
+b) Ceder montante desse saldo para outros agentes de geração vencedores do mesmo LER; 
+e/ou 
+c) Receber receita variável, caso ainda exista saldo na conta de energia após a declaração dos 
+montantes de repasse e/ou cessão. 
+3.23 A declaração dos montantes de repasse e/ou cessão deve ser realizada diretamente em sistema 
+específico, caso contrário o saldo positivo de energia será remunerado na forma de receita 
+variável, conforme Regras de Comercialização. 
+Empreendimentos de geração de fonte solar  
+3.24 O empreendimento de geração de fonte solar  que entrar em operação comercial antes da data de 
+início de suprimento definida no CER receberá, compulsoriamente, receita antecipada por toda a 
+energia gerada até o início de suprimento do contrato. 
+3.25 Com relação à conta de energia  de reserva do agente , apurada de acordo com as Regras de 
+Comercialização, caso seja verificado saldo positivo dentro da faixa de tolerância ao final de cada 
+ano contratual , o agente vendedor de energia de reserva  pode, a seu critério, utilizar o saldo 
+acumulado das seguintes formas: 
+a) Repassar montante desse saldo para o ano seguinte na forma de crédito de energia; 
+b) Ceder montante desse saldo para outros agentes de geração vencedores do mesmo LER; 
+e/ou
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+8 
+procedimentos de 
+comercialização 
+c) Receber receita variável, caso ainda exista saldo na conta de energia após a declaração dos 
+montantes de repasse e/ou cessão. 
+3.26 A declaração dos montantes de repasse e/ou cessão deve ser realizada diretamente em sistema 
+específico, caso contrário o saldo positivo de energia será remunerado na forma de receita 
+variável, conforme Regras de Comercialização. 
+Empreendimentos de geração de fonte hidráulica 
+3.27 O empreendimento de geração de fonte hidráulica (classificado como Pequena Central Hidrelétrica 
+– PCH ou Central Geradora Hidrelétrica – CGH) comprometido com CER celebrado a partir do 10° 
+LER que entrar em operação comercial antes da data de início de suprimento definida no CER 
+receberá, compulsoriamente, receita antecipada por toda a energia gerada até o início de 
+suprimento do contrato. 
+3.28 Com relação à conta de energia  de reserva do agente , apurada de acordo com as Regras de 
+Comercialização, caso seja verificado saldo positivo dentro da faixa de tolerância ao final do último 
+ano de cada quinquênio, o agente vendedor de energia de reserva  pode, a seu critério, utilizar o 
+saldo acumulado das seguintes formas: 
+a) Repassar montante desse saldo para o quinquênio seguinte na forma de crédito de energia; 
+b) Ceder montante desse saldo para outros agentes de geração vencedores do mesmo LER; 
+e/ou 
+c) Receber receita variável, caso ainda exista saldo na conta de energia após a declaração dos 
+montantes de repasse e/ou cessão. 
+3.29 A declaração dos montantes de repasse e/ou cessão deve ser realizada diretamente em sistema 
+específico, caso a declaração não ocorra, o saldo positivo de energia será remunerado na forma de 
+receita variável, conforme Regras de Comercialização. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+9 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Apurações da Energia de Reserva
+CCEE Agente Vendedor da 
+Energia de Reserva
+Ao final de cada 
+quadriênio
+Apurar saldo da 
+conta de energia 
+das usinas 
+eólicas e divulgar 
+aos agentes
+MS(ER)+8du
+Divulgar 
+relatórios com os 
+resultados da 
+apuração da 
+energia de 
+reserva
+Início
+Fim
+Conforme 
+cronograma 
+específico
+Celebrar CER 
+com a CCEE
+Ao final de cada 
+ano contratual
+Apurar saldo da 
+conta de energia 
+das usinas 
+solares e divulgar 
+aos agentes
+Ao final de cada 
+quinquênio
+Apurar saldo da 
+conta de energia 
+das usinas 
+hidráulicas e 
+divulgar aos 
+agentes
+ 
+Legenda:  
+MS: mês seguinte ao mês de operação de compra e venda de energia  
+MS(er): mês seguinte à liquidação financeira dos valores relativos à energia de reserva contabilizada no MCP 
+du: dias úteis
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+10 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Apurações da energia de reserva 
+Atividade Responsável Detalhamento Prazo 
+Celebrar CER com a 
+CCEE 
+Agente vendedor 
+de energia de 
+reserva 
+- 
+Conforme 
+cronograma 
+específico 
+Divulgar relatórios com 
+os resultados da 
+apuração da energia de 
+reserva 
+CCEE 
+Divulgar os relatórios com os resultados da apuração 
+da energia de reserva, após a validação desses 
+resultados pelo auditor independente. 
+MS(ER)+8du 
+Apurar saldo da conta 
+de energia de reserva 
+das usinas eólicas e 
+divulgar aos agentes 
+CCEE 
+Apurar o saldo da conta de energia de reserva dos 
+empreendimentos de geração de fonte eólica para 
+verificar se esses apresentam saldo positivo ou 
+negativo dentro da faixa de tolerância e divulgar os 
+valores apurados aos agentes, considerando o 
+montante de repasse e/ou cessão já declarado(s). 
+Ao final de cada 
+quadriênio 
+Apurar saldo da conta 
+de energia de reserva 
+das usinas solares e 
+divulgar aos agentes 
+CCEE 
+Apurar o saldo da conta de energia de reserva dos 
+empreendimentos de geração de fonte solar para 
+verificar se esses apresentam saldo positivo ou 
+negativo dentro da faixa de tolerância e divulgar os 
+valores apurados aos agentes, considerando o 
+montante de repasse e/ou cessão já declarado(s). 
+Ao final de cada 
+ano contratual 
+Apurar saldo da conta 
+de energia de reserva 
+das usinas hidráulicas e 
+divulgar aos agentes 
+CCEE 
+Apurar o saldo da conta de energia de reserva dos 
+empreendimentos de geração de fonte hidráulica 
+(classificados como PCH ou CGH) para verificar se 
+esses apresentam saldo positivo ou negativo dentro da 
+faixa de tolerância e divulgar os valores apurados aos 
+agentes, considerando o montante de repasse e/ou 
+cessão já declarado(s). 
+Ao final de cada 
+quinquênio 
+ 
+Legenda: 
+MS: Mês seguinte ao mês de operação de compra e venda de energia 
+MS(ER): Mês seguinte à liquidação financeira dos valores relativos à energia de reserva contabilizada no MCP 
+du: dias úteis
+
+Submódulo 7.1 – Apurações da energia de reserva 
+Revisão 7.0 
+11 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

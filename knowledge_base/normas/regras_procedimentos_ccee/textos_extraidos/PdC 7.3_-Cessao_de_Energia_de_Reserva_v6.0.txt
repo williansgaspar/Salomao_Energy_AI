@@ -1,0 +1,443 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 7.3_-Cessao_de_Energia_de_Reserva_v6.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 7.3_-Cessao_de_Energia_de_Reserva_v6.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+procedimentos de 
+comercialização 
+Módulo 7 – Energia de 
+Reserva 
+Submódulo 7.3 – Cessões de energia de reserva
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+2 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada  Despacho nº 1.019/2013 10.04.2013 
+2.0 Adequação à REN n° 595/2013 Despacho n° 4.881/2014 22.12.2014 
+3.0 Adequação à REN n° 637/2014 Despacho n° 2.808/2015 27.08.2015 
+4.0 Adequação à REN nº 755/2016 Despacho nº 1.911/2017 30.06.2017 
+5.0 Adequação à REN n° 869/2020 e REN n° 909/2020 Despacho n° 3.646/2020 01.01.2021 
+6.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1012/2022 01.04.2022
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+3 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O Decreto n° 6.353/2008 regulamentou a contratação de energia de reserva prevista na Lei n° 10.848/2004, 
+a fim de aumentar a segurança no fornecimento de energia elétrica ao Sistema Interligado Nacional - SIN. 
+Posteriormente, a Agência Nacional de Energia Elétrica - ANEEL estabeleceu as diretrizes para a cessão e 
+aquisição de energia e lastro de reserva por usinas de fonte biomassa, bem como para a cessão e aquisição 
+de energia de reserva por usinas de fonte s eólica, solar e hidráulica , sendo que para essa última restrita 
+àquela classificada como Pequena Central Hidrelétrica – PCH ou Central Geradora Hidrelétrica – CGH 
+contratada a partir do 10° Leilão de Energia de Reserva – LER. 
+2. OBJETIVO 
+Estabelecer as atividades e os prazos para a cessão e aquisição de energia e lastro de reserva por usinas de 
+fonte biomassa e a cessão e aquisição de energia de reserva por usinas de fontes eólica, solar e hidráulica , 
+todas comprometidas com Contratos de Energia de Reserva - CERs. 
+3. PREMISSAS 
+Gerais  
+3.1 Os resultados da apuração dos montantes passíveis de cessão  de energia de reserva,  nas 
+modalidades de energia e/ou de lastro, conforme o caso,  equivalentes a cada agente, e a relação 
+dos agentes com superávit , são disponibilizados pela CCEE por meio de relatórios  em sistema 
+específico. Os contatos para negociação são disponibilizados no site da CCEE.  
+3.2 Os vencedores do 1 ° Leilão de Energia de Reserva - LER interessados em participar do mecanismo 
+de cessão de energia de reserva devem realizar a assinatura do Primeiro Termo Aditivo ao Contrato 
+de Energia de Reserva - CER, disponível no site da CCEE. 
+3.3 Os agentes interessados em negociar a cessão, nos termos da s normas vigentes  e deste 
+submódulo, devem acessar o componente de negociação de cessão de energia de reserva, 
+disponível em sistema específico.  
+3.4 O agente cedente deve efetuar o registro de cessão no componente de negociação de cessão de 
+energia de reserva em sistema específico e o agente cessionário deve validá -la para que os 
+montantes negociados sejam considerados no âmbito da CCEE. 
+3.5 O agente cedente pode cancelar o registro de aquisição por meio da cessão, antes da validação 
+pelo agente cessionário . Após a validação do registro, o eventual cancelamento  não terá efeito 
+prático.
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+4 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+3.6 Em caso de reapuração de energia de reserva, o s montantes referentes às cessões registradas e 
+validadas pelas partes não são alterados. 
+Cessão e aquisição de energia de reserva por usinas de fonte biomassa 
+3.7 Os montantes passíveis de cessão de energia de reserva por usinas de fonte biomassa, nas 
+modalidades de (i) lastro e energia e (ii) energia , devem ser divulgados, mensalmente, até 2 (dois) 
+dias úteis após a data-limite de divulgação da apuração dos resultados da parcela final do Reajuste 
+da Receita de Venda - RRV. 
+3.8 O registro da cessão está condicionado à adimplência dos agentes envolvidos no âmbito da CCEE. 
+3.9 O agente cessionário deve observar as restrições de negociação entre empreendimentos 
+participantes do mesmo LER, bem como as relativas ao submercado e ao período de entrega. 
+Cessão e aquisição de energia de reserva por usinas de fontes eólica, solar e 
+hidráulica 
+3.10 Os montantes passíveis de cessão de energia de reserva , na modalidade de energia , devem ser 
+divulgados pelos agentes nos seguintes prazos: 
+a) Para as usinas de fonte eólica: até 2 (dois) dias úteis após a data -limite da divulgação dos 
+resultados da última contabilização do quadriênio; 
+b) Para as usinas de fonte solar: até 4 (quatro) dias úteis após a data -limite da divulgação dos 
+resultados da última contabilização de cada ano contratual; 
+c) Para as usinas de fonte hidráulica: até 6 (seis) dias úteis após a data -limite da divulgação dos 
+resultados da última contabilização do quinquênio. 
+3.11 O agente cessionário deve observar as restrições de negociação entre empreendimentos 
+participantes do mesmo LER. 
+3.12 A cessão e a aquisição de energia de reserva somente podem ser realizadas, respectivamente, até 
+o limite do saldo positivo e até o limite do montante do saldo negativo da conta de energia de 
+reserva do agente, sendo verificada: 
+a) Para as usinas de fonte eólica: ao final de cada quadriênio; 
+b) Para as usinas de fonte solar: ao final de cada ano contratual; 
+c) Para as usinas de fonte hidráulica: ao final de cada quinquênio.
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+5 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+3.13 São permitidas cessões entre mais de um empreendimento, sendo considerado o conjunto das 
+cessões efetivamente realizadas. 
+3.14 Antes de realizar as cessões, o agente cedente po de informar, em sistema específico, o montante 
+do saldo positivo acumulado em sua conta de energia de reserva a ser  repassado, na forma de 
+crédito de energia, para o próximo quadriênio ( se fonte eólica), ano contratual ( se fonte solar) ou 
+quinquênio (se fonte hidráulica).  
+3.14.1 Caso o montante de repasse não seja informado, esse montante será considerado como 
+zero.  
+3.14.2 Em caso de reapuração de energia de reserva, o montante de repasse será reapurado 
+conforme as Regras de Comercialização. 
+3.15 Caso o agente cessionário não valide o registro da cessão  de energia de reserva , o montante 
+negociado e registrado não resultará no efeito desejado e, consequentemente, o saldo da conta de 
+energia de reserva do agente cedente retornará à condição prévia ao respectivo registro. 
+3.16 Caso o agente cedente não realize cessões de energia de reserva nem informe montante do saldo 
+positivo acumulado em sua conta de energia de reserva a ser repassado para período subsequente, 
+deve ser observado o submódulo 7.1 – Apurações de Energia de Reserva.  
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+6 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Cessão e aquisição de energia de reserva para usinas de fonte 
+biomassa
+CCEE Agente cedente Agente cessionário
+X
+Até X+2du
+Informar 
+montantes 
+passíveis de 
+cessão
+Até X+7du
+Divulgar 
+informações 
+acerca dos 
+resultados da 
+cessão
+Fim
+Até X+5du
+Registrar os 
+montantes de 
+cessão
+Até X+5du
+Validar os 
+montantes de 
+cessão
+ 
+ 
+Legenda:  
+X para biomassa: Data-limite da divulgação dos resultados da parcela final do RRV 
+du: Dias úteis
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+7 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+ 
+Cessão e aquisição de energia de reserva para usinas de fonte 
+eólica
+CCEE Agente cedente Agente cessionário
+Até X+5du
+Informar 
+montante de 
+repasse
+Até X+2du
+Informar 
+montantes 
+passíveis de 
+cessão
+X
+Até X+5du
+Validar os 
+montantes de 
+cessão
+Até X+7du
+Divulgar 
+informações 
+acerca dos 
+resultados da 
+cessão
+Fim
+Até X+5du
+Registrar os 
+montante de 
+cessão  
+ 
+Legenda:  
+X para eólica: Data-limite da divulgação da última contabilização do quadriênio 
+du: Dias úteis
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+8 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+ 
+Cessão e aquisição de energia de reserva para usinas de fonte 
+solar
+CCEE Agente cedente Agente cessionário
+Até X+7du
+Validar os 
+montantes de 
+cessão
+Fim
+Até X+4du
+Informar 
+montantes 
+passíveis de 
+cessão
+Até X+7du
+Registrar os 
+montante de 
+cessão
+Até X+7du
+Informar 
+montante de 
+repasse
+Até X+9du
+Divulgar 
+informações 
+acerca dos 
+resultados da 
+cessão
+X  
+ 
+Legenda:  
+X para solar: Data-limite da divulgação da última contabilização do ano contratual 
+du: Dias úteis
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+9 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+ 
+Cessão e aquisição de energia de reserva para usinas de fonte 
+hidráulica 
+CCEE Agente cedente Agente cessionário
+Até X+9du
+Validar os 
+montantes de 
+cessão
+Até X+11du
+Divulgar 
+informações 
+acerca dos 
+resultados da 
+cessão
+Fim
+X
+Até X+6du
+Informar 
+montantes 
+passíveis de 
+cessão
+Até X+9du
+Informar 
+montante de 
+repasse
+Até X+9du
+Registrar os 
+montante de 
+cessão  
+ 
+Legenda:  
+X para hidráulica: Data-limite da divulgação da última contabilização do quinquênio 
+du: Dias úteis
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+10 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Cessão e aquisição de energia de reserva por usinas de fonte biomassa  
+Atividade Responsável Detalhamento Prazo 
+Informar montantes 
+passíveis de cessão CCEE 
+Disponibilizar, em sistema específico relatórios com os 
+montantes passíveis de cessão de energia de reserva, nas 
+modalidades de energia e/ou lastro, conforme o caso, 
+equivalentes à energia de cada agente, e a relação dos 
+agentes com superávit. Os contatos para negociação são 
+informados no site da CCEE. 
+Até X+2du 
+Registrar os montantes de 
+cessão Agente cedente 
+Acessar o componente de negociação em sistema específico 
+para registrar a cessão livremente negociada, ajustar ou 
+cancelar o(s) registro(s) realizado(s). 
+Até X+5du 
+Validar os montantes de 
+cessão 
+Agente 
+cessionário 
+Acessar o componente de negociação em sistema específico 
+para validar o registro, ajuste ou cancelamento realizado pelo 
+agente cedente. 
+Até X+5du 
+Divulgar informações 
+acerca dos resultados da 
+cessão 
+CCEE 
+Divulgar, por meio do componente de divulgação de 
+relatórios em sistema específico , as informações dos 
+resultados das cessões devidamente registradas e validadas, 
+tempestivamente, pelos agentes envolvidos. 
+Até X+7du 
+ 
+Legenda: 
+X para biomassa: Data-limite da divulgação dos resultados da parcela final do RRV 
+du: Dias úteis
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+11 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+Cessão e aquisição de energia de reserva por usinas de fontes eólica, solar e 
+hidráulica 
+Atividade Responsável Detalhamento Prazo 
+Informar montantes 
+passíveis de cessão CCEE 
+Disponibilizar, em sistema específico relatórios com os 
+montantes passíveis de cessão de energia de reserva, na 
+modalidade de energia, equivalentes à energia de cada 
+agente, e a relação dos agentes com superávit. Os contatos 
+para negociação são informados no site da CCEE. 
+Até X+2du (eólica) 
+Até X+4du (solar) 
+Até X+6du (hidráulica) 
+Informar montante 
+de repasse 
+Agente 
+cedente 
+Informar, em sistema específico,  o montante a ser 
+repassado do saldo positivo da conta de energia de reserva 
+do agente, na forma de crédito de energia, para o próximo 
+quadriênio (se fonte eólica), ano contratual ( se fonte solar) 
+e quinquênio (se fonte hidráulica). 
+Até X+5du (eólica) 
+Até X+7du (solar) 
+Até X+9du (hidráulica) 
+Registrar os 
+montantes de 
+cessão 
+Agente 
+cedente 
+Acessar o componente de negociação  em sistema 
+específico para registrar a cessão livremente negociada, 
+ajustar ou cancelar o(s) registro(s) realizado(s). 
+Até X+5du (eólica) 
+Até X+7du (solar) 
+Até X+9du (hidráulica) 
+Validar os 
+montantes de 
+cessão 
+Agente 
+cessionário 
+Acessar o componente de negociação  em sistema 
+específico para validar o registro, ajuste ou cancelamento 
+realizado pelo agente cedente. 
+Até X+5du (eólica) 
+Até X+7du (solar) 
+Até X+9du (hidráulica) 
+Divulgar 
+informações acerca 
+dos resultados da 
+cessão 
+CCEE 
+Divulgar, por meio do componente de divulgação de 
+relatórios em sistema específico , as informações dos  
+resultados das cessões devidamente registradas e 
+validadas, tempestivamente, pelos agentes envolvidos. 
+Até X+7du (eólica) 
+Até X+9du (solar) 
+Até X+11du (hidráulica) 
+ 
+Legenda: 
+X para eólica: Data-limite da divulgação da última contabilização do quadriênio 
+X para solar: Data-limite da divulgação da última contabilização do ano contratual 
+X para hidráulica: Data-limite da divulgação da última contabilização do quinquênio 
+du: Dias úteis
+
+Submódulo 7.3 – Cessões de energia de reserva 
+Revisão 6.0 
+12 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

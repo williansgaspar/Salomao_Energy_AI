@@ -1,0 +1,245 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 1.7_-_monitoramento_do_mercado_v3.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 1.7_-_monitoramento_do_mercado_v3.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 1 – Agentes 
+Submódulo 1.7 – Monitoramento do Mercado 
+procedimentos de 
+comercialização
+
+Submódulo 1.7 – Monitoramento do Mercado 
+Revisão 3.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada  
+(CP 009/2016) Despacho nº 3.117/2016 30.11.2016 
+2.0 Aprimoramentos Despacho n° 485/2022 16.02.2022 
+3.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1.012/2022 01.04.2022
+
+Submódulo 1.7 – Monitoramento do Mercado 
+Revisão 3.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O monitoramento do mercado de energia elétrica brasileiro tem por finalidade aumentar a segurança, 
+transparência e confiança nas operações nele realizadas , trazendo benefícios não somente aos agentes 
+envolvidos nas relações comerciais , mas também a os demais participantes do mercado , às instituições do 
+setor elétrico e à sociedade.  
+Nesse contexto, cabe à  CCEE, dentre outras atribuições,  realizar o monitoramento da comercialização de 
+energia elétrica, agindo de forma preventiva  para identificar as ações dos agentes que, eventualmente, 
+estejam em desacordo com a legislação ou representem condutas incompatíveis com as boas práticas 
+comerciais, e adotar as providências cabíveis para a preservação do mercado. 
+Assim, p ara a realização de um  monitoramento efetivo, é necessário o estabelecimento de  regras bem 
+delimitadas para dar mais previsibilidade ao mercado, afastando possíveis inseguranças dos envolvidos.  
+2. OBJETIVO 
+Estabelecer as condições e os procedimentos necessários para viabilizar o monitoramento da comercialização 
+de energia elétrica, de acordo com a regulamentação vigente. 
+3. PREMISSAS 
+3.1 Para a realização do monitoramento do mercado, é necessário que os agentes mantenham os seus 
+cadastros atualizados na CCEE, nos termos do submódulo 1.2 – Cadastro de agentes. 
+3.2 Qualquer interessado, agente ou não da CCEE, pode enviar relatos sobre situações relevantes para 
+o mercado por meio da Central de Monitoramento, disponível no site da CCEE, podendo optar por 
+permanecer totalmente anônimo, com vistas a aprimorar o acompanhamento da atuação dos 
+agentes no mercado.  
+3.3 Caso seja(m) identificada(s) conduta(s) atípicas e/ou iminente risco ao mercado, a CCEE deve realizar 
+análise para apuração dos fatos. 
+3.4 A CCEE pode requisitar, em caráter sigiloso, os documentos e as informações que julgar relevantes 
+para a apuração e análise dos fatos, quantas vezes forem necessárias, inclusive preço. 
+3.5 As comunicações, requisições  de documentos , troca de informações, convocações de reunião, 
+dentre outras atividades entre a CCEE e o agente referentes ao monitoramento devem ser realizadas 
+por meio do endereço de e-mail monitoramento@ccee.org.br, que garante o sigilo das informações 
+confidenciais, destinado diretamente ao representante legal e/ou ao representante CCEE do agente.
+
+Submódulo 1.7 – Monitoramento do Mercado 
+Revisão 3.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.6 Em até 5 (cinco) dias úteis do recebimento do e-mail indicado na premissa anterior, o agente deve 
+enviar para a CCEE  as informações e os documentos requisitados, na íntegra e sem rasuras, em 
+envelope lacrado ou em formato digital, conforme estabelecido no e-mail. 
+3.7 A CCEE deve dar tratamento confidencial e sigiloso ao conteúdo de todos os documentos recebidos 
+e informações prestadas pelos agentes. 
+3.8 A CCEE deve se manifestar acerca da análise dos documentos em até 20 (vinte) dias úteis do seu 
+recebimento, sem prejuízo de novas análises posteriores que venham a utilizar essas mesmas 
+informações, bem como comunicar ao agente. 
+3.9 A qualquer tempo , a CCEE pode convocar o agente, na pessoa de seu r epresentante legal, para 
+participar de reuniões de monitoramento a fim de obter informações mais detalhadas para auxiliar 
+a análise do monitoramento de mercado.  
+3.9.1 Todas as reuniões realizadas entre o agente e a CCEE devem ter lista de presença a ser 
+validada pelos participantes, e devem ser registradas em atas. 
+3.10 A CCEE, no âmbito do monitoramento: 
+3.10.1 Analisa constantemente a sua base de dados referente a todos os agentes e demais 
+informações prestadas por eles; 
+3.10.2 Havendo indícios de conduta atípica, a CCEE pode solicitar as informações e 
+esclarecimentos que entender necessários, inclusive preço, em caráter sigiloso, 
+estabelecendo prazo para cumprimento; 
+3.10.3 Havendo indícios de conduta atípica que ofereça iminente risco ao mercado, a CCEE , por 
+meio de seu Conselho de Administração - CAd, pode deliberar medidas excepcionais e 
+urgentes, com o diferimento do contraditório , incluída a necessidade de registro 
+balanceado das operações do(s) agente(s), nos termos do submódulo 1.4 - Atendimento.  
+3.11 Na ocorrência da premissa 3.10.3, além da comunicação ao agente  em até 1 (um) dia útil da 
+deliberação do CAd e da publicação da decisão no site da Câmara, a CCEE deve comunicar à Agência 
+Nacional de Energia Elétrica – ANEEL, em até 2 (dois) dias úteis da deliberação do CAd. 
+3.12 O CAd deve adotar  todas as medidas necessárias para a preservação  do mercado, evitando ou 
+minimizando os efeitos de ações que lhe sejam potencialmente danosas. 
+3.13 O agente pode interpor pedido de impugnação quando não concordar com a de cisão proferida no 
+âmbito da CCEE, nos moldes das normas de regência vigentes e do submódulo 1.4 – Atendimento.
+
+Submódulo 1.7 – Monitoramento do Mercado 
+Revisão 3.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.14 O agente pode solicitar vistas e/ou cópias dos documentos produzidos pela CCEE, referentes à 
+análise de sua conduta, conforme procedimento estabelecido no submódulo 1.4 – Atendimento. 
+3.15 A CCEE deve enviar à ANEEL as informações previstas na regulamentação vigente  no prazo 
+determinado pelo normativo. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 1.7 – Monitoramento do Mercado 
+Revisão 3.0 
+6 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+   
+ Monitoramento do Mercado
+CCEE Agente CAd
+Início
+N.A.
+Realizar análise 
+para apurar 
+conduta que possa 
+apresentar risco ao 
+mercado
+Fim
+N.A.
+Requisitar 
+documentos e 
+informações em 
+caráter sigiloso, 
+caso necessário
+N.A.
+Elaborar Relatório 
+de Monitoramento
+N.A.
+Realizar 
+reuniões de 
+monitoramento, 
+caso necessário
+N.A.
+Deliberação do CAd
+Até 5du
+Enviar os 
+documentos e 
+informações 
+requisitadosAté 20du
+Apresentar 
+manifestação e 
+comunicar ao 
+agente
+Até 2du
+Comunicar à ANEEL, 
+em caso de adoção 
+de medidas 
+excepcionais e 
+urgentes
+Até 1du
+Comunicar ao 
+agente  
+Legenda: 
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 1.7 – Monitoramento do Mercado 
+Revisão 3.0 
+7 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Atividade Responsável Detalhamento Prazo 
+Realizar análise para apurar 
+conduta que possa apresentar 
+risco ao mercado 
+CCEE Quando identificada conduta que possa apresentar risco às operações 
+do mercado, a CCEE deve realizar análise para apurar os fatos.  N.A. 
+Requisitar documentos e 
+informações em caráter 
+sigiloso, caso necessário 
+CCEE 
+A CCEE pode requisitar, diretamente ao representante legal e/ou ao 
+representante CCEE do agente e em caráter sigiloso, os documentos e 
+informações que julgar relevantes para a apuração e análise dos fatos. 
+N.A. 
+Enviar os documentos e 
+informações requisitados Agente O agente deve enviar para a CCEE os documentos e informações 
+requisitados. Até 5du 
+Apresentar manifestação e 
+comunicar ao agente CCEE A CCEE deve se manifestar acerca da análise dos documentos e 
+comunicar ao agente. Até 20du 
+Realizar reuniões de 
+monitoramento, caso 
+necessário 
+CCEE 
+A CCEE pode convocar reuniões de monitoramento com o 
+representante legal do agente para obter os esclarecimentos 
+necessários. 
+N.A. 
+Elaborar Relatório de 
+Monitoramento CCEE Caso a CCEE constate conduta atípica, as respectivas informações 
+devem ser registradas em Relatório de Monitoramento. N.A. 
+Deliberação do CAd CAd 
+O CAd deve adotar todas as medidas necessárias para a preservação do 
+mercado, evitando ou minimizando os efeitos de ações que lhe sejam 
+potencialmente danosas. Caso exista risco imediato, mediante 
+fundamentação de sua relevância e risco da demora, o CAd pode adotar 
+medidas excepcionais e urgentes, com diferimento do contraditório.  
+N.A. 
+Comunicar ao agente  CCEE A CCEE deve comunicar ao agente sobre a decisão do CAd. Até 1du 
+Comunicar à ANEEL, em caso 
+de adoção de medidas 
+excepcionais e urgentes  
+CCEE A CCEE deve comunicar à ANEEL sobre a decisão do CAd, em caso de 
+adoção de medidas excepcionais e urgentes. Até 2du 
+ 
+Legenda: 
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 1.7 – Monitoramento do Mercado 
+Revisão 3.0 
+8 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+ 
+Não aplicável.

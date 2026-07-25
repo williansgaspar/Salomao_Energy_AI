@@ -1,0 +1,4 @@
+interface:
+  display_name: "Acervo Gemini do Salomão"
+  short_description: "Consulta automática ao acervo externo do SalomãoAI"
+  default_prompt: "Use $notebooklm-conhecimento-salomao para consultar o acervo do SalomãoAI."

@@ -1,7 +1,14 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-07-19",
+  "schema_version": 2,
+  "generated_at": "2026-07-22",
   "source": "Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html",
+  "source_last_modified_at": "2026-07-22",
+  "policy": "Descoberta e triagem não constituem promoção normativa.",
+  "summary": {
+    "total_links": 92,
+    "official_links": 30,
+    "official_pending_review": 30
+  },
   "items": [
     {
       "url": "https://abrapch.org.br/2026/02/marco-legal-do-setor-eletrico-lei-15-269-ainda-depende-de-regulamentacao-em-42-pontos/",
@@ -420,6 +427,22 @@
       "notes": "Descoberta não constitui evidência normativa final."
     },
     {
+      "url": "https://www.ccee.org.br/en/-/co-mecanismo-de-venda-de-excedentes-mve-de-julho-de-2026-procedimento-para-aporte-das-garantias-financeiras",
+      "source_class": "official",
+      "catalogued": false,
+      "review_status": "pending",
+      "decision": null,
+      "notes": "Descoberta não constitui evidência normativa final."
+    },
+    {
+      "url": "https://www.ccee.org.br/en/perfil-segmentado/comercializacao",
+      "source_class": "official",
+      "catalogued": false,
+      "review_status": "pending",
+      "decision": null,
+      "notes": "Descoberta não constitui evidência normativa final."
+    },
+    {
       "url": "https://www.ccee.org.br/en/web/guest/-/ccee-amplia-consulta-a-base-historica-do-pld-no-portal-dados-abertos",
       "source_class": "official",
       "catalogued": false,
@@ -516,6 +539,14 @@
       "notes": "Descoberta não constitui evidência normativa final."
     },
     {
+      "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026-defeso-eleitoral/revisao-tarifaria-periodica-da-energisa-sul-sudeste-e-aprovada-pela-aneel",
+      "source_class": "official",
+      "catalogued": false,
+      "review_status": "pending",
+      "decision": null,
+      "notes": "Descoberta não constitui evidência normativa final."
+    },
+    {
       "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026/aneel-aprova-reajuste-tarifario-anual-de-2026-da-amazonas-energia",
       "source_class": "official",
       "catalogued": false,
@@ -589,6 +620,14 @@
     },
     {
       "url": "https://www.gov.br/mme/pt-br/assuntos/noticias/2023-2026/mme-estabelece-diretrizes-para-realizacao-dos-leiloes-de-energia-existente-de-2026",
+      "source_class": "official",
+      "catalogued": false,
+      "review_status": "pending",
+      "decision": null,
+      "notes": "Descoberta não constitui evidência normativa final."
+    },
+    {
+      "url": "https://www.gov.br/mme/pt-br/assuntos/noticias/consulta-publica-do-potee-2026-esta-aberta-para-contribuicoes-da-sociedade/",
       "source_class": "official",
       "catalogued": false,
       "review_status": "pending",

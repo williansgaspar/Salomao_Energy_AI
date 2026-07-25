@@ -1,0 +1,398 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 3.3_-_sazo_e_resazo_de_garantia_fisica_v7.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 3.3_-_sazo_e_resazo_de_garantia_fisica_v7.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 3 – Contratação de 
+Energia 
+Submódulo 3.3 – Sazonalização e revisão da 
+Sazonalização de Garantia Física 
+procedimentos de 
+comercialização
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+2 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP08/2012) Despacho nº 3.572/2012 12.11.2012 
+2.0 Adequação em conformidade com as Resoluções 
+Normativas n° 584/2013, n°637/2014 e n° 638/2014 Despacho nº 2.808/2015 27.08.2015 
+3.0 Adequação à REN nº 899/2020 REN nº 946/2021 05.10.2021 
+4.0 Adequação à REN nº 951/2021 Despacho n° 485/2022 16.02.2022 
+5.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1.012/2022 01.04.2022 
+6.0 Adequação à REN nº 1.051/2022 Despacho n° 1032/2023 17.04.2023 
+7.0 Adequação à REN nº 1.080/2023 Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+3 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A garantia física  corresponde ao montante de energia , definido pelo de vido ato legal,  que a usina pode 
+comprometer em seus contratos de venda e/ou consumo próprio. 
+A sazonalização da garantia física de uma determinada usina é a conversão dos valores anuais médios 
+(MWméd), definidos em regulamentação, em valores mensais, expressos em termos de energia visando, entre 
+outros, os cálculos da contabilização das operações realizadas no Mercado de Curto Prazo – MCP; da energia 
+vinculada à Usina Hidrelétrica - UHE Itaipu para usinas hidráulicas e participantes do Mecanismo de Realocação 
+de Energia - MRE; e das penalidades por insuficiência de lastro para comercialização de energia pelos agentes, 
+conforme Regras de Comercialização. 
+2. OBJETIVO 
+Definir os processos para sazonalização e revisão da sazonalização de garantia física. Este submódulo é 
+aplicável aos agentes titulares de concessão, permissão, autorização ou detentores de registro , de 
+empreendimentos de geração modelados na CCEE com garantia física definida em regulamentação. 
+3. PREMISSAS 
+Gerais 
+3.1 Os agentes proprietários de usinas devem utilizar o sistema específico para declarar os montantes 
+(em MWh) da sazonalização de garantia física  para fins de lastro e fins de alocação de energia no 
+MRE, bem como para a consulta dos montantes declarados e demais parâmetros das usinas. 
+3.2 A sazonalização da garantia física para fins de lastro e fins de alocação de energia no MRE deve ser 
+realizada anualmente em até 3 (três) dias úteis antecedentes ao Programa Mensal de Operação - 
+PMO, ressalvad os os casos específicos tratados em Regras de Comercialização  no módulo de 
+“Garantia Física”.  
+3.3 Os montantes declarados no sistema  podem ser alterados  ou excluídos  até o encerramento do 
+período de declaração de  sazonalização da garantia física para fins de lastro e fins de alocação de 
+energia no MRE, no que couber, sendo considerados nos processos de contabilização os montantes 
+validados. 
+3.4 A CCEE deve  informar aos agentes o cronograma da sazonalização da garantia física para fins de 
+lastro e fins de alocação de energia no MRE até o dia 1° de dezembro de cada ano.
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+4 
+procedimentos de 
+comercialização 
+3.5 Para as usinas que optarem por não declarar os montantes, a sazonalização da garantia física  será 
+calculada pela CCEE conforme as Regras de Comercialização: 
+a) Para fins de lastro: os montantes serão proporcionais ao número de horas de cada período do 
+ano civil seguinte (sazonalização “flat”); 
+b) Para fins de alocação de energia no MRE: os montantes seguirão o perfil de sazonalização dos 
+demais agentes participantes do MRE. 
+3.6 Os agentes proprietários de usinas com garantia física definida e previsão de motorização completa 
+até o final do ano corrente podem declarar sua sazonalização de garantia física para fins de lastro no 
+sistema, conforme o cronograma disponibilizado pela CCEE.  
+3.7 Os agentes proprietários de usinas de fonte hidráulica com garantia física definida, previsão de 
+motorização completa até o final do ano corrente e previsão de entrada no MRE em janeiro do ano 
+seguinte podem declarar sua sazonalização de garantia física para fins de alocação de energia no 
+MRE no sistema, conforme o cronograma disponibilizado pela CCEE. 
+3.8 Caso as condições definidas na s premissas 3.6 e/ou 3.7 não sejam atendidas , quais sejam: 
+motorização completa até o final do ano corrente e adesão ao MRE  até o M-12du para o mês de 
+referência janeiro  (essa última no caso de usina de fonte hidráulica) , a CCEE desconsidera rá as 
+informações enviadas e a sazonalização ocorrerá conforme o disposto neste submódulo. 
+3.9 A sazonalização de garantia física para fins de lastro e fins de alocação de energia do MRE, para 
+usinas integrantes de um consórcio de geração, deve ser efetuada p elos seus respectivos agentes 
+consorciados, sendo que cada um deverá registrar a sazonalização de garantia física da usina de 
+forma individualizada e proporcionalmente às suas respectivas participações no consórcio, 
+constantes no contrato de concessão ou n o contrato de constituição de consórcio apresentado ao 
+Poder Concedente, conforme o caso , respondendo de forma proporcional e solidária pela 
+integralidade de suas obrigações. 
+3.9.1 Não obstante a participação individual e proporcional de cada consorciado, os efeitos de 
+eventual inadimplência se estendem integralmente aos demais participantes do consórcio, 
+solidariamente responsáveis, inclusive pela sua regularização. 
+3.10 O sistema de sazonalização de garantia física impede a inserção de valores mensais que ultrapassem 
+os limites mensais (máximo e mínimo) estabelecidos nas Regras de Comercialização.
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+5 
+procedimentos de 
+comercialização 
+Sazonalização de garantia física para fins de lastro 
+3.11 A sazonalização de garantia física para fins de lastro é permitida a todos os agentes titulares de 
+concessão, permissão, autorização ou detentores de registro  de empreendimentos de geração 
+modelados na CCEE com garantia física definida em regulamentação. 
+3.12 Para usinas em fase de motorização ou usinas com final de concessão, UHE Itaipu, usinas cotistas de 
+que trata a Lei nº 12.783/2013, as parcelas de energia de usinas comprometidas com o Programa de 
+Incentivo às Fontes de Energia Elétrica – PROINFA e Termelétricas Angra I e II  - a sazonalização da 
+garantia física para fins de lastro é realizada de forma flat, proporcional ao número de horas, 
+conforme as Regras de Comercialização. 
+3.13 Quando a usina estiver totalmente motorizada ou tiver atingido o NUB (NUB é a quantidade mínima 
+de Unidades Geradoras em operação comercial de uma usina hidráulica, para que esta seja capaz de 
+gerar sua Garantia Física total), a partir do mês seguinte ao mês de sua motorização até dezembro 
+do ano de referência, o agente proprietário da usina pode sazonalizar o valor remanescente da 
+garantia física para fins de lastro correspondente a este período. Para tanto, a CCEE deve enviar ao 
+agente um comunicado com os prazos para realização da sazonalização. 
+3.13.1 Caso o agente não realize a sazonalização no período específico, expresso em comunicado, 
+a CCEE deve realizar a sazonalização de forma flat, considerando o montante anual 
+estabelecido em regulamentação específica. 
+Sazonalização de garantia física para fins de alocação de energia no MRE 
+3.14 Observadas as premissas deste submódulo, a sazonalização de garantia física para fins de alocação 
+de energia no MRE é permitida aos agentes titulares de concessão, permissão, autorização ou 
+detentores de registro de usinas hidrelétricas participantes no MRE, salvo os casos de: UHE Itaipu, 
+usinas cotistas de que trata a  Lei nº 12.783/2013 , usinas submotorizadas, usinas com final de 
+concessão no ano de referência, desde o mês de final de concessão até dezembro do ano de 
+referência, parcela de aumento ou redução de garantia física estabelecida em legislação específica, 
+com início de vigência durante o ano de referência, usinas sem declaração nos prazos definidos e 
+demais usinas que assim optarem. 
+3.15 A sazonalização de garantia física para fins de alocação de energia no MRE deve ser tratada de acordo 
+com as Resoluções Normativas específicas e as Regras de Comercialização, inclusive o módulo de 
+“Garantia Física”.
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+6 
+procedimentos de 
+comercialização 
+3.16 O perfil de geração média do MRE, considerando o histórico dos últimos 60 (sessenta) meses 
+contabilizados e certificados no momento do cálculo, deve ser divulgado pela CCEE entre o 15ºdu e 
+o último dia útil do mês de outubro de cada ano. 
+3.16.1 A informação divulgada pela CCEE não será alterada mesmo nos casos em que houver 
+recontabilização dos meses que compõem o histórico. 
+Revisão da sazonalização de garantia física 
+3.17 Ocorrendo aumento ou redução da garantia física de empreendimento de geração com garantia 
+física definida em regulamentação, deve ser realizada a revisão da sazonalização para fins de lastro  
+pelo agente. 
+3.18 A sazonalização revisada tem início de vigência coincidente com a data estabelecida em 
+regulamentação para a nova garantia física. 
+3.19 Caso o agente tenha sua garantia física alterada e publicada em regulamentação específica, durante 
+o ano corrente, a CCEE enviará comunicado informando -lhe os prazos, exclusivamente, para a 
+revisão da sazonalização de garantia física para fins de lastro. 
+3.20 A revisão da sazonalização de garantia física para fins de alocação de energia no MRE segue o perfil 
+de sazonalização dos demais agentes participantes do MRE, conforme consta do módulo de 
+“Garantia Física” das Regras de Comercialização. 
+3.21 A revisão da sazonalização para fins de lastro deve observar os critérios  deste submódulo, sendo 
+realizada diretamente no sistema específico, conforme segue: 
+a) No caso de aumento ou redução de garantia física, a alocação da diferença entre o montante 
+já sazonalizado e o montante a sazonalizar, para os meses ainda não contabilizados, deve ser 
+efetuada pelo agente responsável no sistema específico, considerando integralmente o novo 
+valora partir da data constante da publicação oficial da regulamentação,  salvo os casos em 
+que, para um determinado mês, o montante previamente sazonalizado já correspondesse ao 
+limite de sazonalização do mês; 
+b) A alocação proporcional da garantia física reduzida não pode resultar em valores mensais 
+inferiores a zero;  
+c) Excetua-se aos agentes responsáveis a sazonalização de valores resultantes da revisão de 
+garantia física nos casos em que o valor proveniente do aumento ou redução do montante de 
+garantia física supere os limites de potência instalada ou resulte em valores inferiores a zero, 
+sendo, nesses casos, aplicado o constante das Regras de Comercialização.
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+7 
+procedimentos de 
+comercialização 
+3.22 Caso o agente não observe a premissa anterior – item “a” ,“b” e “C” , bem como os prazos 
+estabelecidos neste submódulo, a CCEE deverá distribuir o aumento ou redução de garantia física, 
+para os meses não contabilizados, de acordo com o perfil já informado pelo agente na sazonalização, 
+obedecendo os critérios definidos neste submódulo. 
+3.22.1 Para fins de lastro, havendo um montante residual positivo, dado em MWh e obtido pelo 
+resultado da diferença entre o aumento da garantia física e a potência instalada da usina, 
+até o final do ano de referência, a CCEE deverá considerá -lo para a sazonalização do ano 
+seguinte ao de referência. 
+3.22.2 Para o caso de redução de garantia física, com vigência durante o ano de referência, a CCEE 
+deverá considerar: 
+a) Para fins de lastro, eventual montante residual, dado em MWh, no ano seguinte ao de 
+referência, caso este tenha sido superior ao montante originalmente sazonalizado no ano de 
+referência; e, 
+b) Para fins de alocação de energia no MRE, para o ano de referência, a parcela de redução de 
+garantia física seguirá o perfil de sazonalização dos demais agentes participantes do MRE, 
+limitada ao montante, em MWh, tal que não existam valores mensais negativos  de garantia 
+física sazonalizada. 
+c) Eventual parcela do montante residual, não sazonalizada conforme item “b”, será alocada no 
+ano seguinte ao de referência. 
+Revisão de garantia física 
+3.23 A CCEE fornece  à Empresa de Pesquisa Energética – EPE após a contabilização das operações do 
+Mercado de Curto Prazo – MCP realizadas no âmbito desta Câmara no mês dezembro, conforme 
+determinado pelo Ministério de Minas e Energia – MME e a fim de possibilitar ajustes e novos 
+cálculos de garantia física, um relatório contendo os montantes de energia efetivamente gerados no 
+ano civil anterior: 
+a) Pelos empreendimentos que não tenham garantia física definida em regulamentação; e, 
+b) Pelas usinas hidráulicas tipos II A, IIB, IIC  e III e não hidráulicas  tipos I  sem CVU , IIB e III  
+(conforme estabelecido no módulo de Garantia Física das Regras de Comercialização). 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+8 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Sazonalização de garantia física 
+CCEE
+Agente com 
+empreendimentos com 
+garantia física definida 
+Início
+Até 1° de 
+dezembro de cada 
+ano
+Divulgar 
+cronograma de 
+sazonalização de 
+garantia física 
+Até 3du antes do 
+último PMO de cada 
+ano
+Realizar a 
+sazonalização da 
+garantia física para fins 
+de lastro e de 
+realocação de energia 
+no MRE
+Fim
+ 
+Legenda:  
+MS: mês seguinte ao de operação de compra e venda de energia elétrica; 
+du: dias úteis.
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+9 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Sazonalização de garantia física 
+Atividade Responsável Detalhamento Prazo 
+Divulgar cronograma de 
+sazonalização de garantia 
+física 
+CCEE 
+A CCEE envia comunicado aos agentes 
+informando o cronograma com prazos das 
+atividades relacionadas à sazonalização da 
+garantia física. 
+Até 1° de dezembro de 
+cada ano 
+Sazonalizar a garantia física 
+dos seus empreendimentos 
+para o ano seguinte 
+Agente com 
+empreendimentos 
+com garantia 
+física definida 
+O agente com empreendimentos com garantia 
+física definida deve sazonalizar a garantia física 
+para fins de lastro e fins de  alocação de energia 
+no MRE para o ano seguinte diretamente no 
+sistema específico. 
+De acordo com 
+cronograma enviado pela 
+CCEE, ou até 3 dias úteis 
+antecedentes ao PMO, 
+conforme o caso 
+Realizar sazonalização flat 
+para garantias físicas não 
+sazonalizadas pelos agentes, 
+caso necessário 
+CCEE 
+Caso o agente não respeite os prazos 
+estabelecidos neste submódulo, a CCEE 
+sazonaliza automaticamente de forma flat para 
+fins de lastro o montante anual especificado em 
+regulamentação, quando aplicável. 
+De acordo com 
+cronograma enviado pela 
+CCEE 
+Realizar sazonalização 
+seguindo curva das demais 
+usinas que assim realizaram 
+para fins de MRE para 
+garantias físicas não 
+sazonalizadas pelos agentes, 
+caso necessário 
+CCEE 
+Caso o agente não respeite os prazos 
+estabelecidos neste submódulo ou não realize a 
+sazonalização, a CCEE sazonaliza 
+automaticamente, conforme curva dos demais, o 
+montante anual especificado em 
+regulamentação, de acordo com premissa 
+específica deste submódulo (para fins de MRE). 
+De acordo com 
+cronograma enviado pela 
+CCEE 
+Enviar à EPE relatório com as 
+informações dos montantes 
+de geração do ano civil 
+anterior 
+CCEE 
+A CCEE fornece à EPE relatório com montantes 
+de energia efetivamente gerados no ano civil 
+anterior dos empreendimentos citados na 
+premissa 3.21. 
+Até 30 de janeiro 
+ 
+Legenda: 
+MS: mês seguinte ao de operação de compra e venda de energia elétrica; 
+du: dias úteis.
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+10 
+procedimentos de 
+comercialização 
+Sazonalização de garantia física de usinas modeladas após o período anual de 
+sazonalização 
+Atividade Responsável Detalhamento Prazo 
+Divulgar cronograma de 
+sazonalização de garantia física 
+para fins de lastro 
+CCEE 
+A CCEE envia comunicado aos agentes 
+informando o cronograma com prazos das 
+atividades relacionadas à sazonalização da 
+garantia física para fins de lastro. 
+M 
+Sazonalizar a garantia física para 
+fins de lastro dos seus 
+empreendimentos para o ano 
+corrente 
+Agente com 
+empreendimentos 
+com garantia física 
+definida 
+O agente com empreendimentos com garantia 
+física definida deve sazonalizar a garantia física 
+para o ano corrente diretamente no sistema 
+específico, conforme os critérios estabelecidos 
+neste submódulo. 
+De acordo com 
+cronograma 
+enviado pela CCEE 
+Realizar sazonalização para fins 
+de lastro e fins de alocação de 
+energia no MRE, para as 
+garantias físicas não 
+sazonalizadas pelos agentes, 
+caso necessário 
+CCEE 
+Caso o agente não respeite os prazos 
+estabelecidos neste submódulo, a CCEE 
+sazonaliza automaticamente o montante anual 
+especificado em regulamentação, obedecendo 
+os critérios estabelecidos neste submódulo. 
+De acordo com 
+cronograma 
+enviado pela CCEE 
+Legenda: 
+M: mês de operação – entrada em operação comercial de usinas não modeladas na CCEE no período de sazonalização de garantia 
+física; 
+MS: mês seguinte ao de operação de compra e venda de energia elétrica; 
+du: dias úteis.
+
+Submódulo 3.3 –Sazonalização e revisão da sazonalização da garantia física 
+Revisão 7.0 
+11 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

@@ -1,7 +1,7 @@
 # Índice — Regras de Comercialização CCEE (Cadernos de Regras, vigentes)
 
 > **Fonte:** https://www.ccee.org.br/web/guest/mercado/regras-de-comercializacao
-> **Coletado em:** 13/07/2026 — apenas a **página 1 de 12** da listagem paginada do site (o site mostra "1 de 12"). Esta página já traz os 26 números de caderno de regras (00 a 25, com o nº 14 ausente/descontinuado), todos com vigência corrente em 2026 — é provavelmente o conjunto completo de regras **vigentes**; as páginas 2-12 provavelmente contêm versões **não vigentes** (histórico) dos mesmos cadernos. Se precisar do histórico de uma regra específica, peça e eu busco a página correspondente.
+> **Coletado em:** 13/07/2026; **reconfirmado na fonte oficial em:** 21/07/2026 — apenas a **página 1 de 12** da listagem paginada do site (o site mostra "1 de 12"). Esta página já traz os 26 números de caderno de regras (00 a 25, com o nº 14 ausente/descontinuado), todos com vigência corrente em 2026 — é provavelmente o conjunto completo de regras **vigentes**; as páginas 2-12 provavelmente contêm versões **não vigentes** (histórico) dos mesmos cadernos. Se precisar do histórico de uma regra específica, peça e eu busco a página correspondente.
 
 ## Por que este documento importa
 

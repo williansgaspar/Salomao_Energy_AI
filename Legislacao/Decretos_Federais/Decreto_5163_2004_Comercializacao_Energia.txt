@@ -1,0 +1,2883 @@
+Decreto nº 5.163, de 30 de julho de 2004
+
+TEXTO INTEGRAL — fonte oficial: https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5163.htm
+
+Extração para pesquisa: 20/07/2026
+
+D5163 
+
+Presidência
+ da República 
+ Casa Civil 
+ Subchefia para Assuntos Jurídicos 
+
+DECRETO Nº 5.163 DE 30 DE JULHO DE 2004. 
+
+Texto compilado 
+ Regulamenta a comercialização de energia elétrica, o processo de
+ outorga de concessões e de autorizações de geração de energia elétrica, e dá outras
+ providências. 
+
+O PRESIDENTE DA REPÚBLICA , no uso da atribuição que lhe confere o art. 84, inciso
+IV, da Constituição, e tendo em vista o disposto nas Leis n o s 9.074,
+de 7 de julho de 1995, 9.427, de 26 de dezembro de 1996, 9.648, de 27 de maio de 1998,
+10.438, de 26 de abril de 2002, 10.604, de 17 de dezembro de 2002, e 10.848, de 15 de
+março de 2004, 
+
+DECRETA: 
+
+CAPÍTULO I 
+
+DAS REGRAS GERAIS DE COMERCIALIZAÇÃO DE
+ENERGIA ELÉTRICA 
+
+Art. 1 o   A comercialização de energia elétrica entre
+concessionários, permissionários e autorizados de serviços e instalações de energia
+elétrica, bem como destes com seus consumidores no Sistema Interligado
+Nacional - SIN, dar-se-á nos Ambientes de Contratação Regulada ou Livre, nos
+termos da legislação, deste Decreto e de atos complementares. 
+
+§ 1 o   A Agência Nacional de
+Energia Elétrica - ANEEL expedirá, para os fins do disposto no caput , em
+especial, os seguintes atos: 
+
+I - a convenção de comercialização; 
+
+II - as regras de comercialização; e 
+
+III - os procedimentos de comercialização. 
+
+§ 2 o   Para fins de comercialização de energia
+elétrica, entende-se como: 
+
+I - Ambiente de Contratação Regulada - ACR o segmento do mercado no qual se
+realizam as operações de compra e venda de energia elétrica entre agentes vendedores e
+agentes de distribuição, precedidas de licitação, ressalvados os casos previstos em
+lei, conforme regras e procedimentos de comercialização específicos; 
+
+II - Ambiente de Contratação Livre - ACL o segmento do mercado no qual se
+realizam as operações de compra e venda de energia elétrica, objeto de contratos
+bilaterais livremente negociados, conforme regras e procedimentos de comercialização
+específicos; 
+
+III - agente vendedor o titular de concessão, permissão ou autorização do
+poder concedente para gerar, importar ou comercializar energia elétrica; 
+
+IV - agente de distribuição o titular de concessão,
+permissão ou autorização de serviços e instalações de distribuição para fornecer
+energia elétrica a consumidor final exclusivamente de forma regulada; 
+
+V - agente autoprodutor o titular de concessão, permissão ou autorização
+para produzir energia elétrica destinada ao seu uso exclusivo; 
+
+VI - ano-base "A" o ano de previsão para o início do suprimento da
+energia elétrica adquirida pelos agentes de distribuição por meio dos leilões de que
+trata este Decreto; 
+
+VII - ano "A - 1" o ano anterior ao ano-base "A"
+em que se realizam os leilões de compra de energia elétrica; 
+
+VII - ano A-N o enésimo ano anterior ao 
+ ano-base A em que se realizam os leilões de compra de energia elétrica;              
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+VIII - ano "A - 3" o terceiro ano anterior ao ano-base
+"A" em que se realizam os leilões de compra de energia elétrica; 
+
+VIII - consumidor livre é aquele que, atendido em 
+ qualquer tensão, tenha exercido a opção de compra de energia elétrica, 
+ conforme as condições estabelecidas no 
+ art. 15 e no art.16 da Lei n º 
+ 9.074, de 7 de julho de 1995 ;             
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+IX - ano "A - 5" o quinto ano anterior ao ano-base
+"A" em que se realizam os leilões de compra de energia elétrica; 
+
+IX - consumidor potencialmente livre é aquele 
+ que, a despeito de cumprir as condições estabelecidas no 
+ art. 15 da Lei n º 
+ 9.074, de 1995 , seja atendido de forma regulada; e             
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+X - consumidor livre é aquele que, atendido em qualquer
+tensão, tenha exercido a opção de compra de energia elétrica, conforme as condições
+previstas nos arts. 15 e 16 da Lei n o 9.074, de 7 de
+julho de 1995 ; e 
+
+X - consumidor especial é o consumidor livre ou o 
+ conjunto de consumidores livres reunidos por comunhão de interesses de fato 
+ ou de direito, cuja carga seja maior ou igual a 500 kW, que tenha adquirido 
+ energia na forma estabelecida no 
+ § 5 º do art. 26 da Lei n º 
+ 9.427, de 26 de dezembro de 1996 .            
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+XI - consumidor potencialmente livre é aquele que, atendido em qualquer
+tensão, não tenha exercido a opção de compra, a despeito de cumprir as condições
+previstas nos arts. 15 e 16 da Lei n o 9.074, de 1995 . 
+
+XI - consumidor potencialmente livre é aquele que, a
+despeito de cumprir as condições previstas no art. 15 da Lei n o 9.074, de
+1995, é atendido de forma regulada.              (Redação dada pelo
+Decreto nº 5.249, de 2004)            
+ (Revogado pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 3 o   Dependerá de autorização da ANEEL a
+comercialização, eventual e temporária, pelo agente autoprodutor, de seus excedentes de
+energia elétrica. 
+
+Art. 2 o   Na comercialização de energia elétrica de que
+trata este Decreto deverão ser obedecidas, dentre outras, as seguintes condições: 
+
+I - os agentes vendedores deverão apresentar lastro para a venda de energia e
+potência para garantir cem por cento de seus contratos, a partir da data de publicação
+deste Decreto; 
+
+I - 
+ os 
+agentes vendedores deverão apresentar lastro para a venda de energia para 
+garantir cem por cento de seus contratos;             
+ (Redação dada pelo 
+Decreto nº 8.828, de 2016) 
+
+II - os agentes de distribuição deverão garantir, a partir de 1 o 
+de janeiro de 2005, o atendimento a cem por cento de seus mercados de energia e potência
+por intermédio de contratos registrados na Câmara de Comercialização de Energia
+Elétrica - CCEE e, quando for o caso, aprovados, homologados ou registrados pela ANEEL; e 
+
+II 
+- os agentes de distribuição deverão garantir o atendimento a cem por cento de 
+seus mercados de energia por intermédio de contratos registrados na Câmara de 
+Comercialização de Energia Elétrica - CCEE e, quando for o caso, aprovados, 
+homologados ou registrados pela ANEEL; e             
+ (Redação dada pelo 
+Decreto nº 8.828, de 2016) 
+
+III - os consumidores não supridos integralmente em condições reguladas pelos
+agentes de distribuição e agentes vendedores deverão, a partir de 1 o 
+de janeiro de 2005, garantir o atendimento a cem por cento de suas cargas, em termos de
+energia e potência, por intermédio de geração própria ou de contratos registrados na
+CCEE e, quando for o caso, aprovados, homologados ou registrados na ANEEL. 
+
+III 
+- os consumidores não supridos integralmente em condições reguladas pelos 
+agentes de distribuição e pelos agentes vendedores deverão garantir o 
+atendimento a cem por cento de suas cargas, em termos de energia, por intermédio 
+de geração própria ou de contratos registrados na CCEE e, quando for o caso, 
+aprovados, homologados ou registrados na ANEEL.              
+ (Redação dada pelo 
+Decreto nº 8.828, de 2016) 
+
+§ 1 o   O lastro para a venda de que trata o inciso I do caput 
+será constituído pela garantia física proporcionada por empreendimento de geração
+próprio ou de terceiros, neste caso, mediante contratos de compra de energia ou de
+potência. 
+
+§ 1 º   
+O lastro para a venda de que trata o inciso I do caput será constituído 
+pela garantia física proporcionada por empreendimento de geração própria ou de 
+terceiros, neste caso, mediante contratos de compra de energia.            
+ (Redação dada pelo 
+Decreto nº 8.828, de 2016) 
+
+§ 2 o   A garantia física de energia e potência de um
+empreendimento de geração, a ser definida pelo Ministério de Minas e Energia e
+constante do contrato de concessão ou ato de autorização, corresponderá às
+quantidades máximas de energia e potência elétricas associadas ao empreendimento,
+incluindo importação, que poderão ser utilizadas para comprovação de atendimento de
+carga ou comercialização por meio de contratos. 
+
+§ 2 º   
+A garantia física de energia de um empreendimento de geração, a ser definida 
+pelo Ministério de Minas e Energia e a qual deverá constar do contrato de 
+concessão ou do ato de autorização, corresponderá à quantidade máxima de energia 
+elétrica associada ao empreendimento, incluída a importação, que poderá ser 
+utilizada para comprovação de atendimento de carga ou comercialização por meio 
+de contratos.            
+ (Redação dada pelo 
+Decreto nº 8.828, de 2016) 
+
+§ 3º  A garantia física de empreendimentos de 
+geração será revisada periodicamente e calculada pela Empresa de Pesquisa 
+Energética - EPE conforme diretrizes e metodologias estabelecidas pelo 
+Ministério de Minas e Energia.        
+ (Incluído pelo 
+Decreto nº 10.798, de 2021) 
+
+Art. 3 o   As obrigações de que tratam os incisos do caput 
+do art. 2 o serão aferidas mensalmente pela CCEE e, no caso de seu
+descumprimento, os agentes ficarão sujeitos à aplicação de penalidades, conforme o
+previsto na convenção, nas regras e nos procedimentos de comercialização. 
+
+§ 1 o   A aferição de que trata o caput será
+realizada a partir da data de publicação deste Decreto, considerando, no caso da
+energia, o consumo medido e os montantes contratados nos últimos doze meses. 
+
+§ 2 o   Até 2009, as obrigações de que tratam os
+incisos II e III do caput do art. 2 o serão aferidas apenas no
+que se refere à energia. 
+
+§ 3 o   As penalidades por descumprimento do previsto nos
+incisos do caput do art. 2 o , sem prejuízo da aplicação das
+disposições vigentes relativas à matéria, terão o seguinte tratamento: 
+
+I - para a obrigação prevista no inciso I daquele artigo, as penalidades
+serão aplicáveis a partir da data de publicação deste Decreto; e 
+
+II - para as obrigações previstas nos incisos II e III daquele artigo, as
+penalidades serão aplicáveis a partir de janeiro de 2006, observado o disposto no § 2 o . 
+
+§ 4 o   As receitas resultantes da aplicação de
+penalidades serão revertidas à modicidade tarifária no ACR. 
+
+§ 5 o   Até 
+2014, os agentes ficarão isentos das penalidades por descumprimento da obrigação 
+de atendimento a cem por cento de seus mercados de potência por intermédio de 
+contratos registrados na CCEE, nos termos do art. 2 o , incisos 
+II e III.               (Incluído 
+pelo Decreto nº 7.317, de 2010)              
+ (Revogado pelo 
+Decreto nº 8.826, de 2016) 
+
+§ 6 o   As penalidades de que trata o
+ caput não serão aplicáveis na hipótese de exposição contratual 
+involuntária reconhecida pela ANEEL.           (Incluído 
+pelo Decreto nº 7.317, de 2010) 
+
+§ 7 o   Entende-se por exposição 
+contratual involuntária o não atendimento ao disposto no art. 2 o , 
+inciso II, em razão de:               
+ (Incluído pelo 
+Decreto nº 7.317, de 2010) 
+
+§ 7 º  Entende-se por exposição contratual 
+ involuntária o não atendimento ao disposto no inciso II do caput do 
+ art. 2 º , observada a avaliação do máximo esforço do agente de 
+ distribuição pela ANEEL, em razão de:               
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+I - compra frustrada nos leilões de que trata o art. 
+11, decorrente de contratação de energia elétrica e de potência inferior à 
+declaração de necessidade de compra apresentada pelos agentes de distribuição, 
+conforme dispõe o art. 18;             
+ (Incluído pelo 
+Decreto nº 7.317, de 2010) 
+
+I - compra frustrada nos leilões de que trata o 
+ art. 11, decorrente de contratação de energia elétrica inferior à declaração 
+ de necessidade de compra apresentada pelos agentes de distribuição, nos 
+ termos do art. 18;               
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+II - acontecimentos extraordinários e imprevisíveis, 
+reconhecidos pela ANEEL como decorrentes de eventos alheios à vontade do agente 
+vendedor, nos termos do art. 3 o , 
+inciso V, da Lei n o 9.427, de 26 de dezembro de 1996 , e do
+ art. 2º, §§ 16 e
+ 17, da Lei n o 10.848, de 
+15 de março de 2004 ;               
+ (Incluído pelo 
+Decreto nº 7.317, de 2010) 
+
+III - a opção de retorno de 
+consumidores ou conjunto de consumidores reunidos por comunhão de interesses de 
+fato ou de direito, cuja carga seja maior ou igual a 500 kW, que adquiriram 
+energia elétrica na forma prevista no 
+art. 26, § 5 o , da Lei n o 9.427, de 1996 , 
+ao mercado regulado do agente de distribuição em prazo inferior a três anos; e                 
+ (Incluído pelo 
+Decreto nº 7.317, de 2010)                 
+ (Revogado pelo 
+Decreto nº 9.143, de 2017) 
+
+IV - alterações na distribuição de quotas ou na disponibilidade de energia e 
+potência de Itaipu Binacional, do PROINFA ou, a partir de 2013, das Usinas Angra 
+1 e Angra 2               
+ (Incluído pelo 
+Decreto nº 7.317, de 2010) 
+
+IV - alterações na 
+distribuição de quotas ou na disponibilidade de energia e potência da Itaipu 
+Binacional, do Programa de Incentivo às Fontes Alternativas de Energia Elétrica 
+- PROINFA ou, a partir do ano de 2013, das Usinas Angra 1 e Angra 2; e              
+ (Redação pelo 
+Decreto nº 9.143, de 2017) 
+
+IV - 
+ alterações na distribuição de quotas ou na disponibilidade de energia e 
+ potência da Itaipu Binacional, do Programa de Incentivo às Fontes 
+ Alternativas de Energia Elétrica - PROINFA ou, a partir do ano de 2013, das 
+ Usinas Angra 1 e Angra 2;        
+ (Redação pelo 
+Decreto nº 10.350, de 2020) 
+
+V - exercício da opção de 
+compra por consumidores livres e especiais.                 
+ (lncluído pelo 
+Decreto nº 9.143, de 2017) 
+
+V - exercício 
+ da opção de compra por consumidores livres e especiais; e        
+ (Redação pelo 
+Decreto nº 10.350, de 2020) 
+
+VI - redução 
+ de carga decorrente dos efeitos da pandemia da covid-19 apurada 
+ conforme regulação da Aneel.        
+ (lncluído pelo 
+Decreto nº 10.350, de 2020) 
+
+Art. 4 o   O Conselho Nacional de
+Política Energética - CNPE deverá propor critérios gerais de garantia de suprimento,
+com vistas a assegurar o adequado equilíbrio entre confiabilidade de fornecimento e
+modicidade de tarifas e preços. 
+
+§ 1 o   O Ministério de Minas e Energia, mediante
+critérios de garantia de suprimento propostos pelo CNPE, disciplinará a forma de
+cálculo da garantia física dos empreendimentos de geração, a ser efetuado pela Empresa
+de Pesquisa Energética - EPE, mediante critérios gerais de garantia de suprimento. 
+
+§ 2 o   O Ministério de Minas e Energia poderá,
+assegurado o atendimento ao mercado do SIN, estabelecer condições específicas do lastro
+para a venda, ou sua dispensa, em caso de fornecimento temporário e interruptível,
+inclusive para exportação de energia elétrica. 
+
+Art. 5 o   O agente vendedor, em caso do não-cumprimento
+do prazo de início da operação comercial de unidades geradoras de um empreendimento e
+não possuindo lastro para a venda suficiente para o cumprimento de suas obrigações,
+deverá celebrar contratos de compra de energia para garantir os seus contratos de venda
+originais, sem prejuízo de aplicação das penalidades cabíveis. 
+
+Art. 6 o   A ANEEL deverá prever as hipóteses e os prazos
+de indisponibilidade de unidades geradoras, incluindo a importação ou empreendimentos
+correlatos, estabelecendo os casos nos quais o agente vendedor, não tendo lastro
+suficiente para cumprimento de suas obrigações, deverá celebrar contratos de compra de
+energia para atender a seus contratos de venda originais, sem prejuízo de aplicação das
+penalidades cabíveis. 
+
+Art. 7 o   Os contratos de compra de energia para garantir
+os contratos de venda originais de que tratam os arts. 5 o e 6 o 
+serão firmados sob a integral responsabilidade do agente vendedor, inclusive quanto aos
+riscos de diferenças de preços entre submercados. 
+
+Art. 8 o   A ANEEL deverá estabelecer, até 31 de outubro
+de 2004, mecanismos para o tratamento específico dos casos previstos nos arts. 5 o ,
+6 o e 7 o , inclusive quanto à suspensão dos
+benefícios e dos direitos de repasse aplicáveis à venda da energia gerada ou
+disponibilizada pelo empreendimento. 
+
+§ 1 o   Eventuais reduções de custos, em especial as
+decorrentes das contratações para atender aos contratos de venda originais, serão
+repassados às tarifas dos consumidores finais. 
+
+§ 2 o   Para cumprimento do disposto no § 1 o ,
+os custos de aquisição de energia elétrica para atender aos contratos de venda
+originais deverão ser comparados com os custos variáveis de geração ou
+disponibilização da energia do empreendimento. 
+
+Art. 9 o  As concessionárias, permissionárias e autorizadas de
+geração sob controle federal, estadual ou municipal comercializarão energia elétrica
+no SIN de forma regulada ou livre, obedecendo às regras gerais de comercialização
+previstas para os respectivos ambientes. 
+
+Art. 10.  Todos os contratos de comercialização de energia elétrica
+deverão ser informados, registrados, homologados ou aprovados pela ANEEL, conforme o
+caso. 
+
+CAPÍTULO II 
+
+DA COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA NO
+AMBIENTE 
+
+DE CONTRATAÇÃO REGULADA 
+
+Seção I 
+
+Disposições Gerais 
+
+Art. 11.  Para atendimento à obrigação prevista no inciso II do art. 2 o ,
+cada agente de distribuição do SIN deverá adquirir, por meio de leilões realizados no
+ACR, energia elétrica proveniente de: 
+
+I - empreendimentos de geração existentes; e 
+
+II - novos empreendimentos de geração. 
+
+§ 1 o   Entendem-se como novos empreendimentos de
+geração aqueles que até a data de publicação do respectivo edital de leilão: 
+
+I - não sejam detentores de concessão, permissão ou autorização; ou 
+
+II - sejam parte de empreendimento existente que venha a ser objeto de
+ampliação, restrito ao acréscimo da sua capacidade instalada. 
+
+§ 2 o   Para efeito deste Decreto, a energia elétrica
+decorrente de importação e a gerada por meio de fontes alternativas serão consideradas
+como provenientes de empreendimentos de geração novos ou existentes, conforme o previsto
+no § 1 o . 
+
+§ 2 o   A 
+ energia elétrica decorrente de importação e a gerada por meio de fontes 
+ alternativas, salvo o disposto no § 4 o , serão 
+ consideradas como provenientes de empreendimentos de geração novos ou 
+ existentes, conforme previsto no § 1 o deste artigo.          
+ (Redação dada pelo 
+Decreto nº 6.048, de 2007) 
+
+§ 3 o   Para atendimento à obrigação prevista no inciso
+II do art. 2 o , os agentes de distribuição não se submeterão ao
+processo de contratação por meio de leilão, nos casos referidos no inciso III do art.
+13. 
+
+§ 4 o   Excepcionalmente, 
+ para cumprimento à obrigação de atendimento de cem por cento da demanda 
+ dos agentes de distribuição, a ANEEL poderá, de acordo com as diretrizes 
+ do Ministério de Minas e Energia, promover direta ou indiretamente 
+ leilões de compra de energia proveniente de fontes alternativas, 
+ independentemente da data de outorga.            
+ (Incluído pelo 
+Decreto nº 6.048, de 2007) 
+
+Art. 12.  O Ministério de Minas e Energia, para a
+realização dos leilões de energia elétrica proveniente de novos empreendimentos,
+definirá: 
+
+I - o montante total de energia elétrica a ser contratado no ACR, segmentado
+por região geo-elétrica, quando cabível; e 
+
+II - a relação de empreendimentos de geração aptos a integrar os leilões. 
+
+§ 1 o   A EPE submeterá ao Ministério de Minas e
+Energia, para aprovação, a relação de empreendimentos de geração que integrarão, a
+título de referência, os leilões de energia proveniente de novos empreendimentos, bem
+como as estimativas de custos correspondentes. 
+
+§ 2 o   Na definição do montante de energia elétrica e
+da relação de empreendimentos de que tratam os incisos I e II do caput, a EPE
+submeterá ao Ministério de Minas e Energia estudo que considerará a otimização
+técnico-econômica do parque hidrotérmico do SIN, bem como do sistema de transmissão
+associado. 
+
+§ 3 o   No caso de empreendimentos hidrelétricos, a EPE
+poderá propor ao Ministério de Minas e Energia percentual mínimo de energia elétrica a
+serem destinadas à contratação no ACR. 
+
+§ 4 o   A EPE habilitará tecnicamente e cadastrará os
+empreendimentos de geração que poderão participar dos leilões de novos
+empreendimentos, os quais deverão estar registrados na ANEEL. 
+
+§ 4º   A EPE cadastrará e habilitará 
+tecnicamente os empreendimentos de geração que poderão participar dos leilões de 
+novos empreendimentos.       
+
+(Redação dada pelo 
+Decreto nº 10.798, de 2021) 
+
+§ 5 o   Para atendimento ao disposto neste artigo e
+cumprimento de suas atribuições legais, a EPE utilizará os dados informados pelos
+agentes, conforme o disposto nos arts. 17 e 18. 
+
+Art. 13.  No cumprimento da obrigação de contratação para o atendimento
+à totalidade do mercado dos agentes de distribuição, será contabilizada a energia
+elétrica: 
+
+I - contratada até 16 de março de 2004; 
+
+II - contratada nos leilões de compra de energia elétrica proveniente de
+empreendimentos de geração existentes, inclusive os de ajustes, e de novos
+empreendimentos de geração; e 
+
+II - contratada nos leilões de compra de energia elétrica 
+ proveniente de empreendimentos de geração existentes, inclusive os de 
+ ajustes, de novos empreendimentos de geração e de leilões de reserva de 
+ capacidade, na forma de potência;  
+ (Redação dada 
+pelo Decreto nº 10.707, de 2021) 
+
+III - proveniente de: 
+
+a) geração distribuída; 
+
+b) usinas que produzam energia elétrica a partir de fontes eólicas, pequenas
+centrais hidrelétricas e biomassa, contratadas na primeira etapa do Programa de Incentivo
+às Fontes Alternativas de Energia Elétrica - PROINFA; e 
+
+b) usinas que produzam energia elétrica a partir 
+ de fontes eólicas, pequenas centrais hidrelétricas e biomassa, contratadas 
+ na primeira etapa do Programa de Incentivo às Fontes Alternativas de Energia 
+ Elétrica - PROINFA;            
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+c) Itaipu Binacional. 
+
+c) Itaipu Binacional;            
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+d) cotas de 
+ garantia física de energia e de potência definidas para as usinas 
+ hidrelétricas cujas concessões forem prorrogadas nos termos da 
+ Medida 
+ Provisória n o 579, de 11 de setembro de 2012 ; e                
+ (Incluído 
+ pelo Decreto nº 7.805, de 2012) 
+
+d) cotas de garantia física de energia e de 
+ potência definidas para as usinas hidrelétricas cujas concessões sejam 
+ prorrogadas ou licitadas nos termos estabelecidos na 
+ Lei n º 12.783, 
+ de 11 de janeiro de 2013 ; e             
+ (Redação 
+ dada pelo Decreto nº 9.143, de 2017) 
+
+e) Angra I 
+ e II.            
+ (Incluído pelo Decreto nº 7.805, de 2012 
+
+Parágrafo único.  Os montantes de energia elétrica contratada nos 
+ termos do art. 47-A não serão considerados no mercado do agente de 
+ distribuição.           
+ (Incluído 
+ pelo Decreto nº 9.143, de 2017) 
+
+Art. 14.  Para os fins deste Decreto, considera-se geração distribuída a
+produção de energia elétrica proveniente de empreendimentos de agentes
+concessionários, permissionários ou autorizados, incluindo aqueles tratados pelo art. 8 o da Lei n o 
+9.074, de 1995 , conectados diretamente no sistema elétrico de distribuição do
+comprador, exceto aquela proveniente de empreendimento: 
+
+I - hidrelétrico com capacidade instalada superior a 30 MW; e 
+
+II - termelétrico, inclusive de cogeração, com eficiência energética
+inferior a setenta e cinco por cento, conforme regulação da ANEEL, a ser estabelecida
+até dezembro de 2004. 
+
+Parágrafo único.  Os empreendimentos termelétricos que utilizem biomassa ou
+resíduos de processo como combustível não estarão limitados ao percentual de
+eficiência energética prevista no inciso II do caput . 
+
+Art. 15.  A contratação de energia elétrica proveniente de
+empreendimentos de geração distribuída será precedida de chamada pública promovida
+diretamente pelo agente de distribuição, de forma a garantir publicidade, transparência
+e igualdade de acesso aos interessados. 
+
+§ 1 o   O montante total da energia elétrica contratada
+proveniente de empreendimentos de geração distribuída não poderá exceder a dez por
+cento da carga do agente de distribuição. 
+
+§ 2 o   Não será incluído no limite de que trata o § 1 o 
+deste artigo o montante de energia elétrica decorrente dos empreendimentos próprios de
+geração distribuída de que trata o § 2 o do art. 70. 
+
+§ 3 o   O contrato de compra e venda de energia elétrica
+proveniente de empreendimentos de geração distribuída deverá prever, em caso de atraso
+do início da operação comercial ou de indisponibilidade da unidade geradora, a
+aquisição de energia no mercado de curto prazo pelo agente de distribuição. 
+
+§ 4 o   As eventuais reduções de custos de aquisição
+de energia elétrica referida no § 3 o deverão ser consideradas no
+repasse às tarifas dos consumidores finais com vistas a modicidade tarifária, vedado o
+repasse de custos adicionais. 
+
+§ 5 o   A ANEEL definirá os limites de atraso e de
+indisponibilidade de que trata o § 3 o , considerando a sazonalidade da
+geração, dentre outros aspectos, a partir dos quais aplicar-se-á o previsto nos arts. 5 o ,
+6 o , 7 o e 8 o . 
+
+§ 6 o   O lastro para a venda da energia elétrica
+proveniente dos empreendimentos de geração distribuída será definido conforme o
+estabelecido nos §§ 1 o e 2 o do art. 2 o . 
+
+Art. 16.  Os agentes de distribuição que tenham mercado próprio inferior
+a 500 GWh/ano poderão adquirir energia elétrica: 
+
+I - por meio dos leilões de compra realizados no ACR; 
+
+II - de geradores distribuídos, na forma dos arts. 14 e 15; 
+
+III - com tarifa regulada do seu atual agente supridor; ou 
+
+IV - mediante processo de licitação pública por eles promovido. 
+
+§ 1 o   Os agentes de distribuição de que trata o caput ,
+quando adquirirem energia na forma do inciso III, deverão informar o montante de energia
+a ser contratado em até quinze dias antes da data em que o seu atual agente supridor
+esteja obrigado a declarar a sua necessidade de compra para o leilão de energia
+proveniente de empreendimentos existentes com entrega de energia elétrica prevista para o
+ano subseqüente. 
+
+§ 2 o   Os agentes de distribuição de que trata o caput 
+e que tenham contratos de suprimento celebrados sem cláusula de tempo determinado só
+poderão adquirir energia elétrica nas formas referidas nos incisos I, II e IV do caput 
+a partir do ano subseqüente ao da comunicação formal ao seu agente supridor. 
+
+§ 3 o   A comunicação formal de que trata o § 2 o 
+deverá ser realizada no mesmo prazo estabelecido no § 1 o e poderá
+abranger a totalidade ou parcela do mercado do agente de distribuição, desde que
+garantido seu pleno atendimento por meio de contratos. 
+
+§ 4 o   Os agentes de distribuição que optarem pela
+contratação de que tratam os incisos I, II ou IV do caput serão agentes da CCEE
+e deverão formalizar junto ao seu supridor, com antecedência mínima de cinco anos, a
+decisão de retornar à condição de agente atendido mediante tarifa e condições
+reguladas. 
+
+§ 5 o   O prazo de que trata o § 4 o 
+poderá ser reduzido a critério do agente supridor. 
+
+Seção II 
+
+Das Informações e Declarações de
+Necessidades de Energia Elétrica 
+
+Art. 17.  A partir de 2005, todos os agentes de distribuição, vendedores,
+autoprodutores e os consumidores livres deverão informar ao Ministério de Minas e
+Energia, até 1 o de agosto de cada ano, as previsões de seus mercados
+ou cargas para os cinco anos subseqüentes. 
+
+Art. 18.  Sem
+prejuízo da obrigação referida no art. 17, todos os agentes de distribuição, em até
+sessenta dias antes da data prevista para a realização de cada um dos leilões de que
+trata o art. 19, deverão apresentar declaração ao Ministério de Minas e Energia,
+definindo os montantes a serem contratados para recebimento da energia elétrica no centro
+de gravidade de seus submercados e atendimento à totalidade de suas cargas. 
+
+Art. 18.  Sem prejuízo da obrigação referida no art.
+17, todos os agentes de distribuição, a partir de 1 o de janeiro de
+2006, em até sessenta dias antes da data prevista para a realização de cada um dos
+leilões de que trata o art. 19, deverão apresentar declaração ao Ministério de Minas
+e Energia, definindo os montantes a serem contratados para recebimento da energia
+elétrica no centro de gravidade de seus submercados e atendimento à totalidade de suas
+cargas.               (Redação dada pelo Decreto nº
+5.499, de 2005) 
+
+Art. 18.  Sem prejuízo da obrigação referida no art. 17, 
+todos os agentes de distribuição, a partir de 1 o de janeiro de 
+2006, deverão apresentar declaração ao Ministério de Minas e Energia, conforme 
+prazos e condições estabelecidos em ato do Ministro de Estado de Minas e 
+Energia, definindo os montantes a serem contratados por meio dos leilões, a que 
+se refere o art. 19, para recebimento da energia elétrica no centro de gravidade 
+de seus submercados e atendimento à totalidade de suas cargas.                         
+ (Redação dada pelo 
+Decreto nº 7.317, de 2010) 
+
+§ 1 o   Os agentes de distribuição deverão especificar
+os montantes necessários ao atendimento de seus consumidores potencialmente livres nas
+declarações relativas aos leilões de que trata o inciso II do § 1 o 
+do art. 19. 
+
+§ 1 º  Os agentes de distribuição deverão 
+ especificar os montantes necessários ao atendimento de seus consumidores 
+ potencialmente livres e os que se enquadram como consumidores especiais nas 
+ declarações relativas aos leilões de que trata o inciso II do § 1 º do 
+ art. 19.            
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 2 o   Os agentes de distribuição,
+excepcionalmente para os leilões de que trata o art. 25, deverão apresentar declaração
+ao Ministério de Minas e Energia, até 30 de setembro de 2004, definindo os montantes de
+energia elétrica a serem contratados em cada ano do período de 2005 até 2009, e
+especificando, inclusive, as parcelas relativas aos consumidores potencialmente livres. 
+
+§ 2 o   Os agentes de distribuição,
+excepcionalmente para os leilões de que tratam os arts. 19 e 25, a serem promovidos no
+período de 26 de julho a 31 de dezembro de 2005, deverão apresentar declaração ao
+Ministério de Minas e Energia, conforme prazos e condições estabelecidos em Portaria do
+Ministro de Estado de Minas e Energia, definindo os montantes de energia elétrica a serem
+contratados em cada ano do período de 2006 até 2010, e especificando, inclusive, as
+parcelas relativas aos consumidores potencialmente livres.            (Redação dada pelo Decreto nº 5.499, de 2005) 
+
+§ 3 o   Ocorrendo o disposto no § 
+ 5 o e no inciso II do § 6 o do art. 
+ 19, os montantes contratados de energia elétrica serão considerados nas 
+ declarações de necessidades dos anos subseqüentes.              
+ (Incluído 
+ pelo Decreto nº 6.210, de 2007) 
+
+§ 4 o   Fica 
+ garantida a neutralidade do agente de distribuição comprador, nos 
+ volumes superiores à sua declaração, com relação ao repasse dos custos 
+ de aquisição às tarifas dos consumidores finais.           
+ (Incluído 
+ pelo Decreto nº 6.210, de 2007) 
+
+§ 4 º  Na hipótese prevista no § 3 º , 
+fica garantida a neutralidade do agente de distribuição comprador, nos volumes 
+superiores à sua declaração, com relação ao repasse dos custos de aquisição às 
+tarifas dos consumidores finais               
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+Seção III 
+
+Dos Leilões para Compra de Energia
+Elétrica 
+
+Art. 19.  A ANEEL promoverá, direta ou indiretamente,
+licitação na modalidade de leilão, para a contratação de energia elétrica pelos
+agentes de distribuição do SIN, observando as diretrizes fixadas pelo Ministério de
+Minas e Energia, que contemplarão os montantes por modalidade contratual de energia a
+serem licitados, prevista no art. 28. 
+
+§ 1o  Os leilões para compra de energia elétrica de
+que trata o caput serão promovidos, observado o disposto nos arts. 60 a 64, nos: 
+
+I - anos "A - 5" e "A - 3", para energia
+elétrica proveniente de novo empreendimento de geração; e 
+
+II - ano "A - 1", para energia elétrica proveniente de
+empreendimento de geração existente. 
+
+§ 1o  Os 
+ leilões para compra de energia elétrica de que trata o caput serão 
+ promovidos, observado o disposto nos arts. 60 a 64:              
+ (Redação 
+ dada pelo Decreto nº 6.048, de 2007) 
+
+I - nos anos A - 5 
+ e A - 3, para energia elétrica proveniente de novo empreendimento de 
+ geração;                
+
+(Redação dada pelo Decreto nº 6.048, de 2007) 
+
+II - no ano A - 1, para energia elétrica proveniente de empreendimento 
+ de geração existente; e                 
+
+(Redação 
+ dada pelo Decreto nº 6.048, de 2007) 
+
+II -  no ano 
+ A e A - 1, para energia elétrica proveniente de empreendimento de 
+ geração existente;                 
+ (Redação 
+ dada pelo Decreto nº 8.213, de 2014) 
+
+III - entre os anos 
+ A-1 e A-5, para energia elétrica proveniente dos leilões de compra 
+ exclusiva de fontes alternativas.              
+ (Incluído 
+ pelo Decreto nº 6.048, de 2007) 
+
+IV - nos anos A-5 e A-3, para energia proveniente 
+ de projetos de geração indicados por Resolução do Conselho Nacional de 
+ Política Energética - CNPE e aprovada pelo Excelentíssimo Senhor 
+ Presidente da República, conforme disposto no 
+ inciso VI do art. 2o 
+ da Lei no 9.478, de 6 de agosto de 1997 .             
+ (Incluído 
+ pelo Decreto nº 6.210, de 2007) 
+
+Art. 19.  A ANEEL promoverá, direta ou 
+ indiretamente, licitação na modalidade de leilão para a contratação de 
+ energia elétrica pelos agentes de distribuição do SIN, observados os 
+ procedimentos e as diretrizes fixados em ato do Ministro de Estado de Minas 
+ e Energia, que contemplarão os montantes por modalidade contratual de 
+ energia, a que se refere o art. 28, a serem licitados.               
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 1 º  Observado o disposto nos art. 60 a 
+ art. 64, os leilões para compra de energia elétrica de que trata o caput 
+ poderão ser promovidos:                  
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+I - nos anos A-3, A-4, A-5 e A-6, para 
+ energia elétrica proveniente de novo empreendimento de geração;              
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+II - nos anos A, A-1, A-2, A-3, A-4 e 
+ A-5, para energia elétrica proveniente de empreendimento de geração 
+ existente;              
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+III - nos anos A-1, A-2, A-3, A-4 e A-5 
+ e A-6, para energia elétrica proveniente de leilões de compra exclusiva de 
+ fontes alternativas;             
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+IV - nos anos A-5, A-6 ou A-7, para energia 
+ proveniente de projetos de geração indicados por Resolução do CNPE e 
+ aprovada pelo Presidente da República, conforme disposto no 
+ inciso VI do
+ caput do art. 2 º da Lei n º 9.478, de 6 de agosto de 1997 ; 
+ e              
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+V - nos anos A-5, A-6 ou A-7, para energia 
+ elétrica proveniente de novo empreendimento de geração com licitação 
+ conjunta dos ativos de transmissão necessários para seu escoamento.               
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 1 º -A.  Nos anos A-1, deverá ser 
+ promovido, no mínimo, um leilão para compra de energia elétrica proveniente 
+ de empreendimento de geração existente, com entrega a partir do ano 
+ subsequente, desde que haja demanda declarada pelos agentes de 
+ distribuição.             
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 1 º -B.  Anualmente, desde que haja 
+ demanda declarada pelos agentes de distribuição, deverão ser promovidos, no 
+ mínimo, ao menos dois leilões para compra de energia elétrica proveniente de 
+ novo empreendimento de geração, observadas as seguintes condições:       (Incluído pelo 
+Decreto nº 9.143, de 2017)         
+
+(Revogado pelo 
+Decreto nº 10.798, de 2021) 
+
+I - no mínimo, um leilão no ano A-3 ou no ano 
+ A-4; e               
+ (Incluído pelo 
+Decreto nº 9.143, de 2017)    
+
+(Revogado pelo 
+Decreto nº 10.798, de 2021) 
+
+II - no mínimo, um leilão no ano A-5 ou no ano 
+ A-6.               
+ (Incluído pelo 
+Decreto nº 9.143, de 2017)     
+
+(Revogado pelo 
+Decreto nº 10.798, de 2021) 
+
+§ 1 º -C.  Na hipótese de promoção, em um 
+ mesmo ano civil, de leilões de energia proveniente de empreendimento de 
+ geração existente e de leilões de energia proveniente de novos 
+ empreendimentos, ambos com entrega da energia iniciada no mesmo ano A, a 
+ data de realização dos leilões de energia proveniente de empreendimento de 
+ geração existente não deverá ser posterior àquela para contratação de 
+ energia proveniente de novos empreendimentos.              
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 1 º -D.  O Ministério de Minas e Energia 
+ publicará cronograma estimado de promoção dos leilões de que trata este 
+ artigo até o dia 30 de março de cada ano.               
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 2 o   O Ministério de Minas e Energia deverá definir o
+preço máximo de aquisição nos leilões de energia proveniente
+de     empreendimentos existentes. 
+
+§ 3 o  A partir de 2009, o preço máximo referido no § 2 o 
+não poderá superar o valor médio resultante dos leilões de compra de energia elétrica
+proveniente de novos empreendimentos realizados no ano "A - 5", cujo início do
+suprimento coincida com o ano do leilão de que trata o inciso II do § 1 o .
+              (Revogado 
+pelo Decreto nº 8.213, de 2014) 
+
+§ 4 o   Até 31 de dezembro de 2005,
+excepcionalmente, os leilões de energia proveniente de novos empreendimentos de que trata
+o art. 17 da Lei n o 10.848, de 2004, poderão prever início da entrega
+da energia em até cinco anos após o processo licitatório.             (Incluído pelo Decreto nº 5.499, de 2005) 
+
+§ 4 º Poderão ser previstos produtos com 
+ início para entrega da energia nos seguintes prazos:              
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+I - até sete anos após o processo licitatório, 
+ nos casos de leilões de energia proveniente de novos empreendimentos, de que 
+ trata o § 1 º ; e                
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+II - até cinco anos após o processo licitatório, 
+ nos casos de leilões de energia proveniente de empreendimentos existentes, 
+ de que trata o § 1 º .                 
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 5 o   Relativamente aos leilões 
+ de que tratam os incisos I e IV do § 1 o deste artigo, 
+ a entrada das unidades geradoras do empreendimento a ser licitado poderá 
+ ocorrer durante os anos subseqüentes ao início da entrega da energia 
+ contratada, ficando assegurada a contratação de toda a parcela da 
+ garantia física proveniente do respectivo empreendimento que tiver sido 
+ vendida ao Ambiente de Contratação Regulada - ACR.                
+ (Incluído 
+ pelo Decreto nº 6.210, de 2007) 
+
+§ 6 o   Na hipótese de ocorrer o 
+ disposto no § 5 o deste artigo, deverão estar previstas 
+ no Edital, no Contrato de Concessão e nos respectivos Contratos de 
+ Comercialização de Energia no Ambiente Regulado - CCEARs as seguintes 
+ obrigações:                        
+
+(Incluído pelo Decreto nº 6.210, de 2007) 
+
+I - aplicação de penalidades no caso de não 
+ entrada em operação comercial de todas as unidades geradoras até as 
+ respectivas datas previstas no cronograma do empreendimento constante do 
+ Edital;               
+ (Incluído pelo Decreto nº 6.210, de 2007) 
+
+II - contratação da energia para os anos 
+ subseqüentes ao primeiro ano da entrega da energia proporcionalmente aos 
+ montantes declarados para o respectivo leilão; e                
+ (Incluído 
+ pelo Decreto nº 6.210, de 2007) 
+
+III - entrega da energia contratada no leilão compatível com o 
+ cronograma de entrada em operação comercial das unidades geradoras do 
+ empreendimento constante do Edital.              
+ (Incluído 
+ pelo Decreto nº 6.210, de 2007) 
+
+§ 7 º  Nos leilões de que trata o inciso II 
+ do § 1 º , a participação de novos empreendimentos de geração cuja 
+previsão de entrada em operação comercial seja anterior ao ano A poderá ser 
+estabelecida em diretrizes, nas mesmas condições  estabelecidas em edital.               
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 20.  Os editais dos leilões previstos no art. 19 serão elaborados
+pela ANEEL, observadas as normas gerais de licitações e de concessões e as diretrizes
+do Ministério de Minas e Energia, e conterão, no que couber, o seguinte: 
+
+I - objeto, metas, prazos e minutas dos contratos de concessão; 
+
+II - objeto, prazos e minutas dos contratos de compra e venda de energia
+elétrica, incluindo a modalidade contratual adotada e a indicação das garantias
+financeiras a serem prestadas pelos agentes de distribuição; 
+
+III - percentual mínimo de energia hidrelétrica a ser destinada ao mercado
+regulado; 
+
+IV - prazos, locais e horários em que serão fornecidos, aos interessados, os
+dados, estudos e projetos necessários à elaboração dos orçamentos e apresentação
+das propostas, entre os quais: 
+
+a) os estudos de viabilidade técnica; 
+
+b) os Estudos de Impacto Ambiental - EIA e os Relatórios de Impacto
+Ambientais - RIMA; e 
+
+c) as licenças ambientais prévias; 
+
+V - critérios para a aferição da capacidade técnica, da idoneidade
+financeira e da regularidade jurídica e fiscal dos licitantes; 
+
+VI - diretrizes relativas à sistemática dos leilões; 
+
+VII - indicadores, fórmulas e parâmetros a serem utilizados no julgamento das
+propostas, observado o critério de menor tarifa; 
+
+VIII - prazos, locais, horários e formas para recebimento das propostas,
+julgamento da licitação e assinatura dos contratos; 
+
+IX - valor anual do pagamento pelo Uso do Bem Público - UBP, a ser definido
+pelo poder concedente; 
+
+X - valor do custo marginal de referência, calculado pela EPE e aprovado pelo
+Ministério de Minas e Energia; 
+
+XI - critérios de reajuste ou revisão de tarifas, ouvido o Ministério da
+Fazenda; 
+
+XII - expressa indicação do responsável pelo ônus das desapropriações
+necessárias à execução do serviço ou da obra pública, ou para a instituição de
+servidão administrativa; 
+
+XIII - condições de liderança do responsável, quando permitida a
+participação de consórcios; e 
+
+XIV - nos casos de concessão de serviços públicos ou de uso de bem público,
+precedidos ou não da execução de obra pública, serão estabelecidas as garantias
+exigidas para essa parte específica do contrato, adequadas a cada caso e limitadas ao
+valor da obra. 
+
+Art. 21.  Para os aproveitamentos hidrelétricos em que eventual parcela da
+energia assegurada possa ser comercializada no ACL ou utilizada para consumo próprio, o
+edital de leilão de energia elétrica proveniente de novos empreendimentos deverá prever
+que parte da receita será destinada a favorecer a modicidade tarifária, conforme a
+fórmula abaixo: 
+
+V = a . x . EA . ( P marginal 
+- P ofertada ) 
+
+onde: 
+
+V é o valor a ser auferido para favorecer a modicidade tarifária; 
+
+x é a fração da energia assegurada da usina destinada ao consumo próprio e à
+venda no ACL; 
+
+EA é a energia assegurada da usina em MWh/ano; 
+
+P marginal é o menor valor entre o custo marginal de referência previsto no
+edital e o custo marginal resultante do leilão; 
+
+P ofertada é o valor ofertado para a energia destinada ao ACR; e 
+
+a é um fator de atenuação variável, estabelecido em função dos preços ou
+quantidades da energia destinada ao consumo próprio, ao ACR e à venda no ACL, cuja forma
+de cálculo será definida no edital. 
+
+§ 1 o   O valor obtido por meio da aplicação da fórmula
+estabelecida no caput será deduzido do montante a ser pago pelos agentes de
+distribuição ao agente vendedor, de forma proporcional à quantidade de energia objeto
+de cada Contrato de Comercialização de Energia no Ambiente Regulado - CCEAR. 
+
+§ 2 o   O custo marginal de referência, expresso em Reais
+por MWh, será estabelecido como sendo o valor da maior estimativa de custo de geração
+dos empreendimentos a serem licitados, considerados necessários e suficientes para o
+atendimento da demanda conjunta do ACR e ACL. 
+
+§ 3 o   Na hipótese de haver 
+ apenas um empreendimento participando de leilão, deverá ser aplicada a 
+ seguinte fórmula, mantidos os demais parâmetros e conceitos previstos 
+ neste artigo:          
+ (Incluído 
+ pelo Decreto nº 6.210, de 2007) 
+
+V = a . x . EA . P ofertada              (Incluído 
+ pelo Decreto nº 6.210, de 2007) 
+
+Art. 22.  Até 31 de dezembro de 2007, excepcionalmente, nos leilões para
+contratação de energia previstos no inciso I do § 1 o do art. 19,
+poderá ser ofertada a energia elétrica proveniente de empreendimentos de geração
+existentes ou de projetos de ampliação, que atendam cumulativamente aos seguintes
+requisitos: 
+
+I - que tenham obtido outorga de concessão ou autorização até 16 de março de 2004; 
+
+II - que tenham iniciado a operação comercial a partir de 1 º de
+janeiro de 2000; e 
+
+III - cuja energia não tenha sido contratada até 16 de março de 2004. 
+
+§ 1 o   Poderá ser ofertada nos leilões de energia
+proveniente de novos empreendimentos, nos termos do inciso III do caput , a parcela
+de energia que não esteja contratada para atendimento a consumidores finais, por meio de
+agente de distribuição ou agente vendedor. 
+
+§ 2 o   Os agentes vendedores interessados em participar
+dos leilões de venda de energia elétrica proveniente de novos empreendimentos de
+geração de que trata este artigo deverão requerer habilitação junto à ANEEL, nos
+termos e condições previstos em portaria do Ministério de Minas e Energia, que
+disciplinará, dentre outros, o prazo para divulgação dos resultados da habilitação. 
+
+§ 3 o   A ANEEL publicará no Diário Oficial da União a
+relação das empresas, dos empreendimentos e respectivos montantes de energia elétrica
+habilitados a participar nos leilões referidos no caput , na forma de que trata
+este artigo. 
+
+§ 4 o   Não se aplica o disposto neste artigo aos
+empreendimentos de importação de energia elétrica. 
+
+Art. 23.  Nos leilões de energia proveniente de novos empreendimentos de
+geração, no caso de participação de empreendimentos que já possuam concessões
+resultantes de licitação em que tenha sido observado critério do máximo pagamento pelo
+UBP, a oferta de energia terá o seguinte tratamento: 
+
+I - concorrerá nas mesmas condições das ofertas dos demais participantes do
+certame, inclusive quanto ao valor de referência do UBP, relativo ao empreendimento
+licitado, a ser definido pelo poder concedente; e 
+
+II - a diferença entre o UBP efetivamente pago, decorrente da licitação
+original, da qual resultou a concessão ou autorização dos empreendimentos de que trata
+o caput , e o UBP de referência, previsto no inciso I, deverá ser incorporada à
+receita do gerador nos CCEAR. 
+
+§ 1 o   O valor de que trata o inciso II do caput ,
+somado ao lance vencedor do empreendimento licitado, não poderá ultrapassar o custo
+marginal resultante do processo de licitação. 
+
+§ 2 o   O custo marginal resultante do processo de
+licitação corresponderá ao maior valor da energia elétrica, expresso em Reais por MWh,
+dentre as propostas vencedoras do certame. 
+
+Art. 24.  A partir de 2009, nos leilões de energia proveniente de
+empreendimentos existentes, cada agente de distribuição poderá contratar energia
+elétrica correspondente ao seu montante de reposição. 
+
+Art. 24.  Nos leilões de energia proveniente de 
+ empreendimentos existentes, cada agente de distribuição poderá contratar 
+ energia elétrica correspondente ao seu montante de reposição e à recuperação 
+ de mercado.                
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 1 o   Para os fins deste Decreto, entende-se por
+montante de reposição a quantidade de energia elétrica dos contratos que se extinguirem
+no ano dos leilões de que trata o caput , subtraídas as reduções referidas no
+art. 29. 
+
+§ 1 o   Para os fins deste Decreto, entende-se por 
+montante de reposição a quantidade de energia elétrica objeto de contratos que 
+forem extintos, ou tiverem previsão de redução da quantidade contratada, no ano 
+dos leilões de que trata o caput , subtraídas as reduções referidas no 
+art. 29.            (Redação dada pelo Decreto 
+nº 5.911, de 2006) 
+
+§ 1 o   Para 
+os fins deste Decreto, entende-se por montante de reposição a quantidade de 
+energia elétrica decorrente:                
+ (Redação dada pelo 
+Decreto nº 7.317, de 2010) 
+
+I - do vencimento de contratos de compra de energia 
+elétrica dos agentes de distribuição no ano A-1 e no ano A; e                 
+ (Incluído pelo 
+Decreto nº 7.317, de 2010) 
+
+I - do vencimento de contratos de compra de energia elétrica dos agentes 
+ de distribuição no ano A-1; e                 
+ (Redação dada pelo 
+Decreto nº 7.521, de 2011). 
+
+II - da redução, com 
+previsão contratual, da quantidade contratada pelos agentes de distribuição no 
+ano A-1 e no ano A.              
+ (Incluído 
+pelo Decreto nº 7.317, de 2010) 
+
+II - da redução, com previsão contratual, da 
+ quantidade contratada pelos agentes de distribuição no ano A-1.                (Redação 
+dada pelo Decreto nº 7.521, de 2011). 
+
+II - da 
+ redução da quantidade contratada pelos agentes de distribuição no ano A em 
+ relação ao ano A-1.                           
+ (Redação dada pelo 
+Decreto nº 7.850, de 2012) 
+
+§ 1º-A.  Para os fins do disposto neste 
+ Decreto, entende-se por recuperação de mercado o somatório do montante de 
+ reposição não contratado nos cinco anos anteriores ao ano de realização do 
+ leilão.                 
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 2 o   O agente de distribuição poderá, havendo
+disponibilidade no SIN, contratar até cinco por cento acima do montante de reposição
+referido no caput . 
+
+§ 2 o   Não integram o montante de 
+reposição, as reduções permanentes de montantes contratados, conforme dispõe o 
+art. 29, e o vencimento de contratos celebrados por meio de leilões de ajuste 
+referidos no art. 26.           
+ (Redação 
+dada pelo Decreto nº 7.317, de 2010) 
+
+§ 2 o   Não integram o 
+ montante de reposição as reduções referidas no art. 29 e o vencimento de 
+ contratos celebrados por meio de leilões de ajuste referidos no art. 
+ 26.                 (Redação 
+dada pelo Decreto nº 7.521, de 2011). 
+
+§ 3 o   No caso do montante de energia ofertado nos
+leilões de que trata o caput ser inferior à necessidade declarada pelos agentes
+de distribuição para o respectivo leilão, será priorizada a contratação de até cem
+por cento do montante de reposição de que trata este artigo. 
+
+§ 3 o   O agente de distribuição 
+poderá, havendo oferta nos leilões, contratar:             
+ (Redação dada pelo 
+Decreto nº 7.317, de 2010) 
+
+I - até um por cento da carga do agente de 
+distribuição comprador, verificada no ano A-1, acima do montante de reposição 
+mencionado no caput , a exclusivo critério do agente de distribuição;                
+ (Incluído pelo 
+Decreto nº 7.317, de 2010) 
+
+I - até meio por cento da carga do agente de 
+ distribuição comprador, verificada no ano A-1, acima do montante de 
+ reposição mencionado no caput , a exclusivo critério do agente de 
+ distribuição; 
+
+(Redação dada pelo 
+Decreto nº 7.521, de 2011). 
+
+II - a exposição involuntária reconhecida pela ANEEL;              
+ (Incluído pelo 
+Decreto nº 7.317, de 2010) 
+
+II - a compra frustrada em leilões de que 
+ trata o caput e a exposição contratual involuntária de que trata 
+ o art. 3 o , § 7 o , inciso IV, desde 
+ que reconhecida pela ANEEL; 
+
+(Redação dada pelo 
+Decreto nº 7.521, de 2011). 
+
+III - o montante necessário para atendimento à opção 
+de retorno de consumidores, enquadrados no art. 48, ao mercado regulado do 
+agente de distribuição; e               
+ (Incluído pelo 
+Decreto nº 7.317, de 2010) 
+
+IV - o montante necessário para atendimento à 
+necessidade de suprimento dos agentes de distribuição na forma do disposto no 
+art. 16, inciso III e § 1 o .             
+ (Incluído pelo 
+Decreto nº 7.317, de 2010) 
+
+§ 4 o   Atendida a prioridade de que trata o § 3 o ,
+o excedente de energia será rateado proporcionalmente entre os agentes de distribuição
+de acordo com a necessidade declarada na forma do art. 18. 
+
+§ 4 o   No caso do montante de 
+energia ofertado nos leilões, de que trata o caput , ser inferior à 
+necessidade declarada pelos agentes de distribuição para o respectivo leilão, 
+será priorizada a contratação de até cem por cento do montante de reposição a 
+que se refere este artigo.        
+ (Redação 
+dada pelo Decreto nº 7.317, de 2010) 
+
+§ 5 o   Atendida a prioridade 
+prevista no § 4 o , o excedente de energia será rateado 
+proporcionalmente entre os agentes de distribuição de acordo com a necessidade 
+declarada na forma do art. 18.                 (Incluído 
+pelo Decreto nº 7.317, de 2010) 
+
+§ 6 o   Para fins de aplicação do 
+disposto no art. 40, o montante de reposição será o menor valor entre o 
+calculado, nos termos deste artigo, e a necessidade de compra declarada pelo 
+agente de distribuição no leilão A-1.          
+ (Incluído pelo 
+Decreto nº 7.317, de 2010)               
+ (Revogado pelo 
+Decreto nº 7.521, de 2011). 
+
+§ 7 o 
+ A apuração do montante de reposição deverá considerar os efeitos da alocação 
+ de cotas da garantia física de energia e de potência proveniente das usinas 
+ hidrelétricas cujas concessões foram prorrogadas nos termos da 
+ Medida 
+ Provisória n o 579, de 11 de setembro de 2012 , e de cotas 
+ de Angra I e II, conforme regulação da ANEEL.            
+ (Incluído pelo 
+Decreto nº 7.805, de 2012) 
+
+§ 7 º  A apuração do montante de reposição 
+ deverá considerar os efeitos da alocação de cotas da garantia física de 
+ energia e de potência proveniente das usinas hidrelétricas cujas concessões 
+ tenham sido prorrogadas ou licitadas nos termos da
+ Lei n º 12.783, de 
+ 2013 , e de cotas das Usinas Angra I e II, observadas as normas fixadas pela ANEEL.            
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 24-A.  Nos leilões de energia proveniente 
+ de novos empreendimentos, os agentes de distribuição poderão contratar o 
+ crescimento de mercado, acrescido da compra frustrada da recuperação de 
+ mercado a que se refere o § 1 º -A do art. 24.                
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 25.  Excepcionalmente
+em 2004, a ANEEL promoverá, direta ou indiretamente, leilões de compra de energia
+elétrica proveniente de empreendimentos existentes, aos quais não se aplicará o
+disposto no art. 41, observado o seguinte: 
+
+Art. 25.  Excepcionalmente em 2004 e 2005, a ANEEL
+poderá promover, direta ou indiretamente, leilões de compra de energia elétrica
+proveniente de empreendimentos existentes, aos quais não se aplicará o disposto no art.
+41, observado o seguinte:            (Redação dada pelo Decreto nº 5.271,
+de 2004) 
+
+I - o prazo mínimo de vigência será de oito anos para o início do suprimento
+a partir de 2005, 2006 e 2007; e 
+
+II - o prazo mínimo de vigência será de cinco anos para o início do
+suprimento a partir de 2008 e 2009. 
+
+Art. 26.  A ANEEL promoverá, direta ou indiretamente, leilões
+específicos para contratações de ajuste pelos agentes de distribuição, com prazo de
+suprimento de até dois anos, para fins de possibilitar a complementação, pelos
+referidos agentes, do montante de energia elétrica necessário para o atendimento à
+totalidade de suas cargas. 
+
+§ 1 o   O montante total de energia contratado em leilões
+de ajuste não poderá exceder a um por cento da carga total contratada de cada agente de
+distribuição. 
+
+§ 1 o   O montante total de 
+ energia contratado em leilões de ajuste não poderá exceder a um por 
+ cento da carga total contratada de cada agente de distribuição, exceto 
+ nos anos de 2008 e 2009, quando este limite de contratação será de cinco 
+ por cento.              
+(Redação dada pelo Decreto nº 6.210, de 2007) 
+
+§ 1 o   
+O montante total de energia contratado em leilões de ajuste será de até cinco 
+por cento da carga total contratada de cada agente de distribuição, a critério 
+do Ministério de Minas e Energia.            
+
+(Redação dada pelo Decreto nº 
+8.379, de 2014) 
+
+§ 2 o   Poderão participar dos processos licitatórios
+tratados neste artigo, como vendedores, somente os concessionários, permissionários e
+autorizados de geração, inclusive sob controle federal, estadual e municipal, e os
+autorizados de comercialização e importação. 
+
+Seção IV 
+
+Dos Contratos de Compra e Venda de Energia
+Elétrica 
+
+Art. 27.  Os vencedores dos leilões de energia proveniente de
+empreendimentos de geração novos ou existentes deverão formalizar contrato bilateral
+denominado Contrato de Comercialização de Energia Elétrica no Ambiente
+Regulado - CCEAR, celebrado entre cada agente vendedor e todos os agentes de
+distribuição compradores. 
+
+§ 1 o   O CCEAR deverá prever os seguintes prazos de
+duração: 
+
+I - no mínimo quinze e no máximo trinta anos, contados do início do
+suprimento de energia proveniente de novos empreendimentos; e 
+
+II - no mínimo cinco e no máximo quinze anos, contados do ano seguinte ao da
+realização do leilão para compra de energia de empreendimentos existentes. 
+
+II - no 
+mínimo três e no máximo quinze anos, contados do ano seguinte ao da realização 
+do leilão para compra de energia de empreendimentos existentes;
+
+(Redação dada pelo 
+Decreto nº 7.317, de 2010) 
+
+II 
+- no mínimo um e no máximo quinze anos, contados do início do suprimento de 
+energia proveniente de empreendimentos existentes; e 
+
+(Redação dada pelo 
+Decreto nº 7.945, de 2013) 
+
+III - no mínimo dez 
+ e no máximo trinta anos, contados do início do suprimento de energia 
+ proveniente de fontes alternativas.              
+ (Incluído pelo 
+Decreto nº 6.048, de 2007) 
+
+§ 2 o   O termo final do
+CCEAR não poderá ultrapassar o prazo previsto para a extinção do contrato de
+concessão ou do ato de autorização de geração ou de importação, quando cabível.                
+ (Revogado pelo Decreto nº 5.271, de 2004) 
+
+§ 3 o   O CCEAR deverá conter cláusula arbitral, nos
+termos do § 5 o do art. 4 o 
+da Lei n o 10.848, de 15 de março de 2004 , conforme o disposto na
+convenção de comercialização. 
+
+§ 4 o    Não se aplica o disposto no caput e no §
+1 o à contratação, pelos agentes de distribuição, por meio de
+leilões de ajuste. 
+
+§ 5 o   Para o leilão de energia
+proveniente de empreendimentos existentes promovido em 2005, para entrega de energia a
+partir de janeiro de 2006, o prazo de duração do CCEAR poderá ser de três anos.              (Incluído pelo Decreto nº 5.499, de 2005) 
+
+Art. 28.  O CCEAR poderá ter as seguintes modalidades: 
+
+I - quantidade de energia elétrica; ou 
+
+II - disponibilidade de energia elétrica. 
+
+§ 1 o   Deverá estar previsto no CCEAR, na modalidade por
+quantidade de energia elétrica que: 
+
+I - o ponto de entrega será no centro de gravidade do submercado onde esteja
+localizado o empreendimento de geração; e 
+
+II - os custos decorrentes dos riscos hidrológicos serão assumidos pelos
+agentes vendedores. 
+
+§ 2 o   As regras de comercialização deverão prever
+mecanismos específicos para o rateio dos riscos financeiros eventualmente impostos aos
+agentes de distribuição que celebrarem contratos na modalidade referida no inciso I do caput ,
+decorrentes de diferenças de preços entre submercados. 
+
+§ 3 o   Na falta de cobertura integral dos dispêndios
+decorrentes dos riscos financeiros referidos no § 2 o , fica assegurado o
+repasse das sobras aos consumidores finais dos agentes de distribuição, conforme
+mecanismo a ser estabelecido pela ANEEL. 
+
+§ 4 o   No CCEAR, na modalidade por disponibilidade de
+energia elétrica, os custos decorrentes dos riscos hidrológicos serão assumidos pelos
+agentes compradores, e eventuais exposições financeiras no mercado de curto prazo da
+CCEE, positivas ou negativas, serão assumidas pelos agentes de distribuição, garantido
+o repasse ao consumidor final, conforme mecanismo a ser estabelecido pela ANEEL. 
+
+§ 5 o   A ANEEL deverá 
+ disciplinar a forma de aplicação de mecanismo de compensação de sobras e 
+ déficits de energia elétrica proveniente dos leilões de que trata o § 5 o 
+ do art. 19, somente para os anos em que houver entrada das unidades 
+ geradoras.             
+(Incluído pelo Decreto nº 6.210, de 2007) 
+
+Art. 29.  Os CCEAR decorrentes dos leilões de energia elétrica
+proveniente de empreendimentos existentes deverão prever a possibilidade de redução dos
+montantes contratados, a critério exclusivo do agente de distribuição, em razão: 
+
+I - do exercício pelos consumidores potencialmente livres da opção de compra
+de energia elétrica proveniente de outro fornecedor; 
+
+I - do exercício, pelos 
+consumidores potencialmente livres e os que se enquadram como especiais, da 
+opção de compra de energia elétrica proveniente de outro fornecedor;               
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+II - de outras variações de mercado, hipótese na qual poderá haver, em cada
+ano, redução de até quatro por cento do montante inicial contratado, independentemente
+do prazo de vigência contratual, do início do suprimento e dos montantes efetivamente
+reduzidos nos anos anteriores; e 
+
+III - de acréscimos na aquisição de energia elétrica decorrentes de
+contratos celebrados até 16 de março de 2004, observado o disposto no art. 21 da Lei n o 10.848, de 2004. 
+
+§ 1 o   O exercício da opção de redução contratual de
+que trata este artigo terá caráter permanente. 
+
+§ 2 o   As reduções dos montantes contratados previstas
+no inciso I do caput : 
+
+I - deverão ser precedidas da utilização de mecanismo de compensação de
+sobras e déficits a ser estabelecido na convenção de comercialização, hipótese na
+qual somente poderão ser reduzidas as quantidades de energia remanescentes; 
+
+II - serão rateadas proporcionalmente entre todos os CCEAR do agente de
+distribuição referidos no caput , conforme procedimentos de comercialização
+específicos; 
+
+III - terão eficácia a partir do mês da efetiva aquisição de energia de
+outro fornecedor pelos consumidores potencialmente livres que não tenham firmado novos
+contratos ou prorrogado os contratos existentes, observado o disposto nos arts. 49 e 72; e 
+
+IV - terão eficácia a partir do ano seguinte ao da declaração do agente de
+distribuição fornecedor, relativamente aos consumidores potencialmente livres que tenham
+firmado novos contratos ou prorrogado os contratos existentes, observado o disposto nos
+arts. 49 e 72. 
+
+§ 3 o   As reduções anuais dos montantes contratados
+previstas no inciso II do caput: 
+
+I - terão eficácia a partir do segundo ano subseqüente ao da declaração que
+deu origem à compra do agente de distribuição; e 
+
+II - obedecerão ao mesmo percentual para todos os CCEAR aos quais sejam
+aplicáveis. 
+
+§ 4 o   As reduções dos montantes contratados de que
+tratam os incisos II e III do caput deverão constar da declaração anual dos
+agentes de distribuição prevista no art. 18. 
+
+§ 4 o   As 
+reduções dos montantes contratados de que tratam os incisos II e III do caput 
+deverão constar da declaração anual dos agentes de distribuição prevista no art. 
+18 para os leilões A-1, referidos no inciso II do § 1 o do 
+art. 19.              
+
+(Redação dada pelo Decreto nº 5.911, 
+de 2006) 
+
+§ 4 º  As reduções dos montantes 
+ contratados de que tratam os incisos II e III do caput deverão 
+ constar da declaração anual dos agentes de distribuição prevista no art. 18 
+ para os leilões de energia elétrica proveniente de empreendimentos 
+ existentes, referidos no inciso II do § 1 º do art. 19.           
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 30.  Até 31 de dezembro de 2009, deverá ser considerado no inciso I
+do art. 29 os montantes de redução dos contratos firmados entre os agentes de
+distribuição e os consumidores potencialmente livres que optarem por produzir energia
+elétrica para seu consumo próprio, sob o regime de autoprodução. 
+
+Art. 31.  A partir de 1 o de janeiro de 2010, será
+facultada aos consumidores que pretendam utilizar em suas unidades industriais energia
+elétrica produzida por geração própria, em regime de autoprodução ou produção
+independente, a redução da demanda e da energia contratadas ou a substituição dos
+contratos de fornecimento por contratos de conexão e de uso dos sistemas elétricos,
+mediante notificação ao agente de distribuição ou agente vendedor, aplicando-se o
+disposto no art. 49. 
+
+§ 1 o   As reduções ou substituições de que trata o caput 
+somente terão eficácia e produzirão seus efeitos se notificado o agente supridor com
+três anos de antecedência, exceto se acordado de maneira diversa pelas partes. 
+
+§ 2 o   As reduções de que trata este artigo não
+ensejarão reduções nos CCEAR dos agentes de distribuição. 
+
+Art. 32.  As contratações decorrentes dos leilões de ajustes 
+previstas no art. 26 deverão ser formalizadas diretamente entre as partes 
+envolvidas, para entrega da energia no submercado do agente de distribuição, 
+mediante contratos bilaterais, devidamente registrados na ANEEL e na CCEE. 
+
+Parágrafo único.  Os contratos decorrentes do leilão de ajustes deverão
+prever o início de entrega da energia elétrica no prazo máximo de quatro meses, a
+contar da realização do leilão, considerando como termo inicial o dia 1 o 
+de cada mês, e conter cláusulas referentes à constituição de garantias. 
+
+Art. 33.  As contratações tratadas nesta Seção vigorarão pelos prazos
+previstos nos respectivos contratos, independentemente do prazo final da concessão do
+agente de distribuição. 
+
+Seção V 
+
+Do Repasse às Tarifas dos Consumidores
+Finais 
+
+Art. 34.  Para regular o repasse às tarifas dos consumidores finais dos
+custos de aquisição de energia elétrica previstos neste Decreto, a ANEEL deverá
+calcular um Valor Anual de Referência - VR, mediante aplicação da seguinte fórmula: 
+
+VR = 
+
+[VL5 . Q5 + VL3 . 
+ Q3] 
+
+[Q5 + Q3] 
+
+onde: 
+
+VL5 é o valor médio de aquisição nos leilões de compra de energia elétrica
+proveniente de novos empreendimentos de geração realizados no ano
+"A - 5", ponderado pelas respectivas quantidades adquiridas; 
+
+Q5 é a quantidade total, expressa em MWh por ano, adquirida nos leilões de compra de
+energia elétrica proveniente de novos empreendimentos de geração, realizados no Ano
+"A - 5"; 
+
+VL3 é o valor médio de aquisição nos leilões de compra de energia elétrica
+proveniente de novos empreendimentos de geração realizados no ano "A - 3",
+ponderado pelas respectivas quantidades adquiridas; e 
+
+Q3 é a quantidade total, expressa em MWh por ano, adquirida nos leilões de compra de
+energia elétrica proveniente de novos empreendimentos de geração, realizados no ano
+"A - 3". 
+
+Parágrafo único.  Para efeito de cálculo do VR, não serão considerados 
+ os valores e os montantes de energia proveniente de leilões de fontes 
+ alternativas.              
+
+(Incluído pelo 
+Decreto nº 6.048, de 2007) 
+
+Art. 34.  Para regular o repasse às tarifas dos 
+ consumidores finais dos custos de aquisição de energia elétrica previstos 
+ neste Decreto, a ANEEL deverá calcular um Valor Anual de Referência - VR, 
+ por meio da aplicação da fórmula que consta do Anexo.            
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+Parágrafo único. Para efeito de cálculo do VR, 
+ não serão considerados os valores e os montantes de energia proveniente dos:                
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+I - leilões de fontes alternativas; e               
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+II - leilões de que trata o inciso IV do 
+ caput
+ do art. 19.              
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 35.  Até 2008, a ANEEL deverá estabelecer o VR conforme as seguintes
+diretrizes: 
+
+Art. 35.  Até 
+31 de dezembro de 2009, a ANEEL deverá estabelecer o Valor de Referência - VR 
+conforme as seguintes diretrizes:              
+
+(Redação dada pelo Decreto nº 5.911, 
+de 2006) 
+
+I - para os anos de 2005 e 2006, o VR será o valor máximo de aquisição de
+energia proveniente de empreendimentos existentes, nos leilões realizados em 2004, para
+início de entrega naqueles anos; 
+
+I - para os anos de 2005, 
+2006 e 2007, o VR será o valor máximo de aquisição de energia proveniente de 
+empreendimentos existentes, nos leilões realizados em 2004 e 2005, para início 
+de entrega naqueles anos; e                
+
+(Redação dada pelo Decreto nº 5.911, 
+de 2006) 
+
+II - para os anos de 2007 e 2008, deverá ser aplicada a fórmula prevista no
+art. 34, considerando: 
+
+a) para VL5 e Q5, os valores médios ponderados de aquisição e as quantidades
+adquiridas nos leilões de energia proveniente de novos empreendimentos de geração
+realizados até o final de 2005, para entrega em 2009 e 2010; e 
+
+b) para VL3 e Q3, os valores médios ponderados de aquisição e as quantidades
+adquiridas nos leilões de energia proveniente de novos empreendimentos de geração
+realizados até o final de 2005 para entrega em 2007 e 2008. 
+
+II - para os anos de 2008 e 
+2009, o VR será o valor médio ponderado de aquisição de energia proveniente de 
+novos empreendimentos de geração, nos leilões realizados nos anos de 2005 e 
+2006, para início de entrega naqueles anos.             
+
+(Redação dada pelo Decreto nº 5.911, 
+de 2006) 
+
+Art. 36.  A ANEEL autorizará o repasse a partir do ano-base "A"
+dos custos de aquisição de energia elétrica previstos nos contratos de que tratam os
+arts. 15, 27 e 32 deste Decreto, pelos agentes de distribuição às tarifas de seus
+consumidores finais, conforme os seguintes critérios: 
+
+I - nos leilões de compra de energia elétrica proveniente de novos
+empreendimentos realizados no ano "A - 5", observado o disposto no art. 40: 
+
+a) repasse do VR durante os três primeiros anos de suprimento da energia elétrica
+adquirida; e 
+
+b) repasse integral do valor de aquisição da energia elétrica, a partir do quarto
+ano de sua entrega; 
+
+I - nos leilões de compra de energia elétrica 
+ proveniente de novos empreendimentos realizados no ano A-5, repasse 
+ integral dos custos de aquisição da energia elétrica, observado o 
+ disposto no art. 40;               
+ (Redação 
+ dada pelo Decreto nº 7.521, de 2011). 
+
+I - nos leilões de 
+ compra de energia elétrica proveniente de novos empreendimentos 
+ realizados nos anos A-5 e A-6, repasse integral dos custos de 
+ aquisição da energia elétrica;              
+ (Redação 
+ dada pelo Decreto nº 9.143, de 2017) 
+
+II - nos leilões de compra de energia elétrica proveniente de novos
+empreendimentos realizados no ano "A - 3", observado o disposto no art. 40: 
+
+a) repasse do VR durante os três primeiros anos de entrega da energia elétrica
+adquirida, limitado ao montante correspondente a dois por cento da carga do agente de
+distribuição comprador verificada no ano "A - 5"; 
+
+b) repasse integral do valor de aquisição da energia elétrica a partir do quarto
+ano de sua entrega, limitado ao montante correspondente a dois por cento da carga do
+agente de distribuição comprador verificada no ano "A - 5"; e 
+
+II - nos leilões de compra de energia elétrica 
+ proveniente de novos empreendimentos realizados no ano A-3, observado 
+ o disposto no art. 40:              
+ (Redação 
+ dada pelo Decreto nº 7.521, de 2011). 
+
+a) repasse integral dos custos de aquisição do 
+ montante da energia elétrica correspondente a até dois por cento da 
+ carga do agente de distribuição comprador verificada no ano A-5, 
+ acrescido da diferença, se positiva, entre o montante total contratado 
+ nos leilões A-3 ocorridos durante o ano e o montante decorrente da 
+ Declaração de Necessidade do agente para esses leilões; e                
+ (Redação 
+ dada pelo Decreto nº 7.521, de 2011). 
+
+b) repasse do menor valor 
+ entre o VL5 e o VL3, definidos no art. 34 e corrigidos monetariamente, 
+ da parcela adquirida que exceder os montantes referidos na alínea a 
+ deste inciso;                
+ (Redação 
+ dada pelo Decreto nº 7.521, de 2011). 
+
+c) repasse ao menor valor entre o VL5 e o VL3, definidos no art. 34, da parcela
+adquirida que exceder os montantes referidos nas alíneas "a" e "b"
+deste inciso;               
+ (Revogado pelo 
+Decreto nº 7.521, de 2011). 
+
+II - nos leilões de compra de energia elétrica 
+ proveniente de novos empreendimentos realizados nos anos A-3 e A-4:              
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+a) repasse integral dos custos de aquisição do 
+ montante da energia elétrica correspondente a até dois por cento da carga do 
+ agente de distribuição comprador verificada no ano A-5, acrescido da 
+ diferença, se positiva, entre o montante total contratado nos leilões de 
+ compra de energia elétrica proveniente de novos empreendimentos realizados 
+ nos anos A-4 e A-3 com início de suprimento no ano A e o montante 
+ decorrente da Declaração de Necessidade do agente para esses leilões; e                  
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+b) repasse do menor valor entre a média ponderada 
+ pela energia de VL6 e VL5 e a média ponderada pela energia de VL4 e VL3, 
+ definidos no art. 34 e corrigidos monetariamente, da parcela adquirida que 
+ exceder os montantes referidos na alínea a.              
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+III - nos leilões de energia elétrica proveniente de empreendimentos
+existentes, repasse integral dos respectivos valores de sua aquisição, observado o
+disposto no art. 41; 
+
+IV - nos leilões de ajustes de que trata o art. 26, repasse integral até o
+limite do VR; e 
+
+IV - nos leilões 
+de ajuste de que trata o art. 26, repasse integral até o limite estabelecido 
+pelo maior valor entre:               
+
+(Redação dada pelo Decreto nº 
+8.379, de 2014) 
+
+a) a média 
+estimada dos Custos Marginais de Operação - CMO futuros do submercado de entrega 
+da energia, limitados aos Preços de Liquidação das Diferenças - PLD mínimos e 
+máximos, referentes aos períodos de suprimento dos contratos negociados, 
+calculados com base na configuração do Plano Mensal da Operação - PMO do 
+Operador Nacional do Sistema Elétrico -ONS; e                
+
+(Incluída pelo Decreto nº 
+8.379, de 2014) 
+
+b) a média móvel 
+de cinco anos do VR atualizado;              
+
+(Incluída pelo Decreto nº 
+8.379, de 2014) 
+
+V - na contratação de energia elétrica proveniente de geração distribuída
+de que trata o art. 15, repasse integral até o limite do VR. 
+
+VI - nos leilões de 
+ compra de energia elétrica proveniente de fontes alternativas, repasse 
+ integral dos respectivos valores de aquisição.               
+ (Incluído pelo 
+Decreto nº 6.048, de 2007) 
+
+VI - nos leilões de compra de energia elétrica 
+ proveniente de fontes alternativas e daqueles de que trata o inciso IV 
+ do § 1 o do art. 19, repasse integral dos respectivos 
+ valores de aquisição.             
+ (Redação dada pelo 
+Decreto nº 6.210, de 2007) 
+
+§ 1 o   Deverá ser assegurada a neutralidade no repasse
+dos custos de aquisição de energia elétrica constantes dos contratos de que trata o caput ,
+utilizando-se metodologia de cálculo que deverá observar, dentre outras, as seguintes
+diretrizes: 
+
+I - o preço médio ponderado dos contratos de compra de energia elétrica
+registrados, homologados ou aprovados na ANEEL até a data do reajuste em processamento,
+para entrega nos doze meses subseqüentes; e 
+
+II - a aplicação deste preço médio ponderado ao mercado de referência,
+entendido como o mercado dos doze meses anteriores à data do reajuste em processamento. 
+
+§ 2 o   Para cumprimento do disposto no § 1 o ,
+a ANEEL fica autorizada a celebrar, se for o caso, aditivos aos Contratos de Concessão de
+Serviço Público de Distribuição de Energia Elétrica. 
+
+§ 3 o   No 
+caso de os montantes contratados nos leilões de energia proveniente de novos 
+empreendimentos realizados em A-5 serem inferiores às quantidades declaradas 
+pelos agentes de distribuição, o limite de dois por cento de que tratam as 
+alíneas a e b do inciso II do caput poderá ser acrescido do 
+percentual relativo à compra frustrada.                
+
+(Incluído pelo Decreto nº 5.911, de 
+2006) 
+
+§ 3 º  Na hipótese de os montantes 
+ contratados nos leilões de energia proveniente de novos empreendimentos 
+ realizados em A-5 e A-6 serem inferiores às quantidades declaradas pelos 
+ agentes de distribuição, o limite de dois por cento de que tratam as alíneas 
+ a e b do inciso II do caput poderá ser acrescido do percentual 
+ relativo à compra frustrada.             
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 4 o   Relativamente 
+à compra frustrada do leilão de energia elétrica proveniente de novos 
+empreendimentos, realizado em 2005, com início de suprimento a partir de janeiro 
+de 2009, aplica-se o disposto no § 3 o ao repasse dos custos de 
+aquisição de energia elétrica decorrente do leilão de compra de energia elétrica 
+proveniente de novos empreendimentos A-3, realizado em 2006.              
+
+(Incluído pelo Decreto nº 5.911, de 
+2006) 
+
+§ 5 o   Entende-se 
+por compra frustrada, para fins deste Decreto, a quantidade de energia elétrica 
+declarada pelo agente de distribuição e não contratada no respectivo leilão.              
+
+(Incluído pelo Decreto nº 5.911, de 
+2006)               
+ (Revogado pelo 
+Decreto nº 7.317, de 2010) 
+
+Art. 37.  Ficam mantidas as normas para cálculo do repasse dos custos de
+aquisição da energia elétrica proveniente de contratos celebrados até 16 de março de
+2004, da Itaipu Binacional e das usinas contratadas na primeira etapa do PROINFA. 
+
+Art. 38.  No repasse dos custos de aquisição de energia elétrica de que
+tratam os arts. 36 e 37 às tarifas dos consumidores finais, a ANEEL deverá considerar
+até cento e três por cento do montante total de energia elétrica contratada em
+relação à carga anual de fornecimento do agente de distribuição. 
+
+Art. 38.  No repasse dos custos 
+de aquisição de energia elétrica, de que tratam os arts. 36 e 37, às tarifas dos 
+consumidores finais, a Aneel deverá considerar até cento e cinco por cento do 
+montante total de energia elétrica contratada em relação à carga anual de 
+fornecimento do agente de distribuição. 
+
+(Redação dada pelo 
+Decreto nº 7.945, de 2013) 
+
+Parágrafo único.  O percentual de que trata o 
+ caput poderá ser ampliado para atendimento ao previsto nos §§ 3 o 
+ e 4 o do art. 18, desde que o agente de distribuição 
+ participe do mecanismo previsto no § 5 o do art. 28.             
+ (Incluído pelo 
+Decreto nº 6.210, de 2007) 
+
+Art. 39.  Nos anos de 2007 e 2008, será integral o repasse dos custos de
+aquisição de energia elétrica proveniente de novos empreendimentos de geração
+decorrentes dos respectivos leilões, não se aplicando o disposto nos incisos I e II do caput
+ do art. 36 e no art. 40. 
+
+Art. 39.  Para os produtos 
+com início de suprimento previsto para os anos de 2008 e 2009, observado o 
+disposto nos §§ 3 o e 4 o do art. 36, será 
+integral o repasse dos custos de aquisição de energia elétrica proveniente de 
+novos empreendimentos de geração decorrentes exclusivamente dos leilões 
+realizados em 2005 e 2006, não se aplicando o previsto nos incisos I e II do caput do art. 36 e no art. 40.               
+
+(Redação dada pelo Decreto nº 5.911, 
+de 2006)                  
+ (Revogado pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 40.  O repasse às tarifas dos consumidores finais dos custos de
+aquisição de energia elétrica proveniente de novos empreendimentos de geração será
+limitado ao Valor de Referência da Energia Existente - VRE, caso a contratação
+resultante de leilões de compra de energia proveniente de empreendimentos existentes seja
+menor que o limite inferior de recontratação. 
+
+Art. 40.  O repasse às tarifas dos consumidores 
+ finais dos custos de aquisição da parcela da energia elétrica 
+ proveniente de novos empreendimentos de geração equivalente à diferença 
+ entre o limite mínimo de recontratação e a quantidade efetivamente 
+ contratada nos leilões de compra de energia proveniente de 
+ empreendimentos existentes será limitado ao Valor de Referência da 
+ Energia Existente - VRE.               (Redação 
+ dada pelo Decreto nº 7.521, de 2011).                   
+ (Revogado 
+ pelo Decreto nº 9.143, de 2017) 
+
+§ 1 o   Entende-se por limite inferior de recontratação
+o valor positivo resultante da seguinte equação: 
+
+LI=MR - 4% MI 
+
+onde: 
+
+LI é o limite inferior de contratação; 
+
+MR é o montante de reposição referido no art. 24; e 
+
+MI é o montante inicial de energia elétrica dos CCEAR considerado para a apuração do
+MR. 
+
+§ 1 o   Entende-se por limite 
+ mínimo de recontratação o valor positivo resultante da seguinte equação:                
+ (Redação 
+ dada pelo Decreto nº 7.521, de 2011).             
+ (Revogado 
+ pelo Decreto nº 9.143, de 2017) 
+
+LM = 96% . MR                 
+ (Redação 
+ dada pelo Decreto nº 7.521, de 2011).                
+ (Revogado 
+ pelo Decreto nº 9.143, de 2017) 
+
+onde:                
+ (Redação 
+ dada pelo Decreto nº 7.521, de 2011). 
+
+LM é o limite mínimo de contratação;                   
+ (Redação 
+ dada pelo Decreto nº 7.521, de 2011).               
+ (Revogado 
+ pelo Decreto nº 9.143, de 2017) 
+
+MR é o montante de reposição referido no art. 
+ 24; e                    
+ (Redação 
+ dada pelo Decreto nº 7.521, de 2011).             
+ (Revogado 
+ pelo Decreto nº 9.143, de 2017) 
+
+§ 2 o   O VRE será calculado mediante a aplicação da
+seguinte fórmula: 
+
+VRE = VR . VLE 
+
+VL5 
+
+onde: 
+
+VLE é o valor médio ponderado, em Reais por MWh, de aquisição de energia
+elétrica proveniente de empreendimentos existentes nos leilões realizados no ano "A
+- 1" ; 
+
+VR conforme definido no art. 34; e 
+
+VL5 conforme definido no art. 34. 
+
+§ 2 o   O VRE é o valor médio 
+ ponderado, em Reais por MWh, de aquisição de energia elétrica 
+ proveniente de empreendimentos existentes nos leilões realizados no ano 
+ A-1.                (Redação 
+ dada pelo Decreto nº 7.521, de 2011)                
+ (Revogado 
+ pelo Decreto nº 9.143, de 2017) 
+
+§ 3 o   Nos três primeiros anos de suprimento, o
+mecanismo de repasse de que trata este artigo deverá ser aplicado à parcela de energia
+elétrica proveniente de novos empreendimentos adquirida nos leilões realizados no ano
+"A - 3", equivalente à diferença entre o limite inferior de
+recontratação e a quantidade efetivamente contratada. 
+
+§ 3 o   O limite de repasse a 
+ que se refere o caput será aplicado somente nos três primeiros 
+ anos após o leilão de compra de energia proveniente de empreendimentos 
+ existentes em que o limite mínimo de recontratação não tenha sido 
+ atingido.                        (Redação 
+ dada pelo Decreto nº 7.521, de 2011).                
+ (Revogado 
+ pelo Decreto nº 9.143, de 2017) 
+
+§ 4 o   Para efeito do disposto no § 3 o ,
+nos casos em que a quantidade de energia adquirida nos leilões realizados no ano
+"A - 3" for insuficiente para aplicação do mecanismo de repasse,
+será considerada quantidade de energia elétrica adquirida no ano "A - 5". 
+
+§ 4 o   O limite de repasse a 
+ que se refere o caput deverá ser aplicado à parcela de energia 
+ elétrica, proveniente de novos empreendimentos, adquirida nos leilões 
+ realizados no ano A-3 ou A-5 com CCEARs de maior preço.               (Redação 
+ dada pelo Decreto nº 7.521, de 2011).              
+ (Revogado 
+ pelo Decreto nº 9.143, de 2017) 
+
+§ 5 o   O disposto neste artigo não se aplica nos casos
+em que o limite inferior de recontratação não tenha sido atingido por insuficiência de
+oferta nos leilões de energia elétrica proveniente de empreendimentos existentes,
+realizados no ano "A - 1", ao preço máximo definido no § 2 o 
+do art. 19. 
+
+§ 5 o   O disposto neste 
+ artigo não se aplica aos casos em que o limite mínimo de recontratação 
+ não tenha sido atingido por insuficiência de oferta nos leilões de 
+ energia elétrica proveniente de empreendimentos existentes, realizados 
+ no ano A-1, ao preço máximo definido no § 2 o do art. 
+ 19.                 
+ (Redação dada pelo Decreto nº 7.521, de 2011). 
+
+§ 6º   
+ O disposto neste artigo não se aplica aos casos em que a declaração de 
+ necessidade do agente de distribuição comprador nos leilões de energia 
+ de empreendimentos existentes tenha sido inferior ao limite mínimo de 
+ recontratação em função de excesso de contratos sobre a carga de 
+ fornecimento aferida no ano A-1.              
+ (Incluído 
+ pelo Decreto nº 8.828, de 2016)                  
+ (Revogado 
+ pelo Decreto nº 9.143, de 2017) 
+
+Art. 41.  Para
+fins de repasse às tarifas dos consumidores finais dos custos de aquisição nos leilões
+de energia elétrica proveniente de empreendimentos existentes, realizados nos anos de
+2005 a 2008, para entrega no ano subseqüente ao do leilão, a ANEEL deverá observar o
+seguinte: 
+
+Art. 41.  Para fins de repasse às tarifas dos
+consumidores finais dos custos de aquisição nos leilões de energia elétrica
+proveniente de empreendimentos existentes, realizados nos anos de 2006 a 2008, para
+entrega no ano subseqüente ao do leilão, a ANEEL deverá observar o seguinte:                (Redação dada pelo Decreto nº 5.499, de 2005) 
+
+I - repasse integral dos valores de aquisição de até um por cento da carga
+verificada no ano anterior ao da declaração de necessidade do agente de distribuição
+comprador, observado o disposto no § 2 o do art. 19; 
+
+II - repasse
+limitado a setenta por cento do valor médio do custo de aquisição de energia elétrica
+proveniente de empreendimentos existentes para entrega a partir de 2005 e até 2008,
+referente à parcela que exceder o um por cento referido no inciso I. 
+
+II - repasse limitado a setenta por cento do valor médio do custo de
+aquisição de energia elétrica proveniente de empreendimentos existentes para entrega a
+partir de 2005 e até 2009, referente à parcela que exceder o um por cento referido no
+inciso I.               (Redação dada pelo Decreto nº 5.271, de 2004) 
+
+II - repasse limitado a setenta por cento do valor médio do custo de
+aquisição de energia elétrica proveniente de empreendimentos existentes para entrega a
+partir de 2007 e até 2009, referente à parcela que exceder o um por cento referido no
+inciso I.            (Redação dada pelo Decreto
+nº 5.499, de 2005) 
+
+§ 1 o   Exclusivamente para a energia adquirida no leilão
+"A-1" a ser promovido em 2008, o percentual referido no inciso I será acrescido
+da quantidade de energia contratada no leilão "A-1" promovido em 2005, com
+prazo de duração de três anos.                    (Incluído
+pelo Decreto nº 5.499, de 2005) 
+
+(Renumerado pelo Decreto nº 5.911, 
+de 2006) 
+
+§ 2 o   O 
+repasse integral previsto no inciso I do caput aplica-se também à compra 
+frustrada, entendida conforme o disposto no § 5 o do art. 36, 
+decorrente dos leilões de compra de energia elétrica proveniente de novos 
+empreendimentos realizados nos anos de 2005 e 2006 e que tenham a data de início 
+de entrega da energia, respectivamente, nos anos de 2008 e 2009.            
+
+(Incluído pelo Decreto nº 5.911, de 
+2006) 
+
+Art. 42.  Na hipótese de o agente de distribuição não atender a
+obrigação de contratar a totalidade de sua carga, a energia elétrica adquirida no
+mercado de curto prazo da CCEE será repassada às tarifas dos consumidores finais ao
+menor valor entre o Preço de Liquidação de Diferenças - PLD e o VR, sem prejuízo da
+aplicação do disposto no art. 3 o . 
+
+Parágrafo único.  No caso dos montantes contratados nos leilões de
+energia elétrica proveniente de empreendimentos existentes serem inferiores às
+quantidades declaradas para a contratação no ano "A - 1", o repasse
+dos custos de aquisição no mercado de curto prazo da CCEE obedecerá o seguinte: 
+
+I - será integral, quando observar o limite correspondente ao montante de
+reposição de que trata o § 1 o do art. 24 , hipótese em que não
+será aplicado o disposto no art. 3 o ; e 
+
+II - corresponderá ao menor valor entre o PLD e o VR, sem prejuízo da
+aplicação do disposto no art. 3 o , na parcela que exceder ao montante
+de reposição. 
+
+Parágrafo único.  Na hipótese de os montantes 
+ contratados nos leilões de energia elétrica proveniente de empreendimentos 
+ existentes serem inferiores às quantidades declaradas, o repasse dos custos 
+ de aquisição no mercado de curto prazo da CCEE:          
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+I - será integral, quando observar o limite 
+ correspondente ao montante de reposição acrescido da recuperação de mercado 
+ de que tratam os § 1 º e § 1 º -A do art. 24, hipótese em que não 
+ será aplicado o disposto no art. 3 º ; e 
+
+(Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+II - corresponderá ao menor valor entre o PLD e o 
+ VR, sem prejuízo da aplicação do disposto no art. 3 º , na parcela que 
+ exceder ao montante de reposição acrescido da recuperação de mercado.            
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 43.  Caberá aos Ministérios de Minas e Energia e da Fazenda, em ato
+conjunto, incluírem nos mecanismos de compensação de que trata a 
+ Medida Provisória n o 
+2.227, de 4 de setembro de 2001 , as variações resultantes dos custos de aquisição de
+energia elétrica não consideradas no reajuste tarifário promovido no ano anterior. 
+
+§ 1 o   As variações de que trata o caput serão
+calculadas em função das modificações de preços, incluídas as decorrentes dos §§ 3 o 
+e 4 o do art. 28, expressos em Reais por MWh, efetivamente praticados na
+aquisição de energia elétrica. 
+
+§ 2 o   A aplicação do disposto neste artigo fica
+condicionada à celebração do aditivo contratual de que trata o § 2 o 
+do art. 36. 
+
+Art. 44.  A partir de 1 o de janeiro de 2006, a ANEEL, no
+reajuste ou revisão tarifária, deverá contemplar a previsão dos custos com os encargos
+de que trata o art. 59 para os doze meses subseqüentes. 
+
+Art. 44.  A 
+partir de 1 o de janeiro de 2006, no reajuste ou revisão 
+tarifária, a ANEEL deverá contemplar a previsão para os doze meses subseqüentes 
+dos custos com os encargos de que trata o art. 59 e com os custos variáveis 
+relativos aos CCEAR na modalidade por disponibilidade de energia elétrica.               
+
+(Redação dada pelo Decreto nº 5.911, 
+de 2006) 
+
+Art. 44.  A ANEEL, no reajuste ou revisão tarifária, deverá contemplar 
+ a previsão para os doze meses subseqüentes dos custos com os encargos de 
+ que trata o art. 59, com os custos variáveis relativos ao CCEAR na 
+ modalidade por disponibilidade de energia elétrica e com o Encargo de 
+ Energia de Reserva - EER.                
+ (Redação 
+ dada pelo Decreto nº 6.353, de 2008) 
+
+Art. 44.  A ANEEL, no reajuste ou na revisão tarifária, deverá 
+ contemplar a previsão para os doze meses subsequentes dos custos com os 
+ encargos de que trata o art. 59, com os custos variáveis relativos ao CCEAR 
+ na modalidade por disponibilidade de energia elétrica, com o Encargo de 
+ Energia de Reserva - EER e com o Encargo de Potência para Reserva de 
+ Capacidade - ERCAP.  
+ (Redação 
+ dada pelo Decreto nº 10.707, de 2021) 
+
+Parágrafo único.  O Operador Nacional do Sistema Elétrico - ONS
+informará até o dia 31 de outubro de cada ano e a ANEEL aprovará a estimativa dos
+custos relativos ao encargo de que trata o caput .              
+
+(Redação dada pelo Decreto nº 5.911, 
+de 2006) 
+
+§ 1 o   O 
+ Operador Nacional do Sistema Elétrico - ONS informará a estimativa dos 
+ custos relativos ao encargo de que trata o art. 59 e aos custos 
+ variáveis relativos ao CCEAR na modalidade por disponibilidade de 
+ energia, até o dia 31 de outubro de cada ano, para aprovação da ANEEL.               (Incluído 
+ pelo Decreto nº 6.353, de 2008) 
+
+§ 2 o   A 
+ CCEE informará a estimativa dos valores do EER, até o dia 31 de outubro 
+ de cada ano, para a aprovação da ANEEL.   
+ (Incluído 
+ pelo Decreto nº 6.353, de 2008) 
+
+§ 2º  A CCEE informará a estimativa dos valores do EER e do ERCAP 
+ até o dia 31 de outubro de cada ano para a aprovação da ANEEL.  
+ (Redação dada 
+pelo Decreto nº 10.707, de 2021) 
+
+Art. 45.  O repasse aos consumidores finais dos custos de aquisição de
+energia elétrica dos agentes de distribuição que tenham mercado próprio inferior a 500
+GWh/ano, quando esta for adquirida mediante processo de licitação por eles promovidos,
+será limitado ao custo de aquisição da energia proveniente de seu supridor local, com
+tarifas reguladas pela ANEEL. 
+
+Art. 46.  Para efeito do repasse de que trata esta Seção, será aplicado
+o VR vigente no ano de início da entrega da energia contratada. 
+
+Art. 46.  Para efeito do 
+repasse de que trata esta Seção, será aplicado o VR vigente no ano de início da 
+entrega da energia contratada, cabendo à ANEEL garantir a manutenção do valor 
+econômico do VR, mediante aplicação do índice de correção monetária previsto nos 
+CCEAR, tendo janeiro como mês de referência.              
+
+(Redação dada pelo Decreto nº 5.911, 
+de 2006) 
+
+CAPÍTULO III 
+
+DA COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA NO
+AMBIENTE DA CONTRATAÇÃO LIVRE 
+
+Art. 47.  A contratação no ACL dar-se-á mediante operações de compra e
+venda de energia elétrica envolvendo os agentes concessionários, permissionários e
+autorizados de geração, comercializadores, importadores, exportadores de energia
+elétrica e consumidores livres. 
+
+Parágrafo único.  As relações comerciais entre os agentes no ACL serão
+livremente pactuadas e regidas por contratos bilaterais de compra e venda de energia
+elétrica, onde estarão estabelecidos, entre outros, prazos e volumes. 
+
+Art. 47-A.  Os agentes de distribuição poderão 
+ negociar, no ACL, contratos de venda de energia elétrica lastreados no 
+ excesso de energia contratada para atendimento à totalidade do mercado.               (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 1 º  Observado o disposto no contrato de 
+ concessão do agente de distribuição, a negociação prevista no caput 
+ ocorrerá com:  
+
+(Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+I - os consumidores de que tratam os 
+ art. 15 e 
+ art. 16 da Lei n º 9.074, de 1995 ; e               
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+II - os agentes concessionários, permissionários 
+ e autorizados de geração, os comercializadores e os agentes de 
+ autoprodução.             (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 2 º  A ANEEL editará normas para o 
+ cumprimento do disposto neste artigo.               
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 48.  Os consumidores ou conjunto de consumidores reunidos por
+comunhão de interesses de fato ou de direito, cuja carga seja maior ou igual a 500 kW,
+quando adquirirem energia na forma prevista no § 5 o do art. 26 da Lei n o 
+9.427, de 26 de dezembro de 1996 , serão incluídos no ACL. 
+
+Art. 49.  Os consumidores potencialmente livres que tenham contratos com
+prazo indeterminado só poderão adquirir energia elétrica de outro fornecedor com
+previsão de entrega a partir do ano subseqüente ao da declaração formal desta opção
+ao seu agente de distribuição. 
+
+§ 1 o   O prazo para a declaração formal a que se refere
+o caput será de até quinze dias antes da data em que o agente de distribuição
+está obrigado, nos termos do art. 18, a declarar a sua necessidade de compra de energia
+elétrica com entrega no ano subseqüente, exceto se o contrato de fornecimento celebrado
+entre o consumidor potencialmente livre e o agente de distribuição dispuser
+expressamente em contrário. 
+
+§ 2 o   A opção do consumidor potencialmente livre
+poderá abranger a compra de toda a carga de sua unidade consumidora, ou de parte dela,
+garantido seu pleno atendimento por meio de contratos, cabendo à ANEEL acompanhar as
+práticas de mercado desses agentes. 
+
+§ 3 o   O prazo definido no caput poderá ser
+reduzido a critério do respectivo agente de distribuição. 
+
+Art. 50.  Os consumidores livres e aqueles referidos no art. 48 deverão
+ser agentes da CCEE, podendo ser representados, para efeito de contabilização e
+liquidação, por outros agentes dessa Câmara. 
+
+Art. 51  Os consumidores livres e aqueles referidos no art. 48 estarão
+sujeitos ao pagamento de todos os tributos e encargos devidos pelos demais consumidores,
+salvo expressa previsão legal ou regulamentar em contrário. 
+
+Parágrafo único.  Para dar cumprimento ao disposto no caput , a
+ANEEL poderá determinar que os encargos, taxas e contribuições setoriais sejam pagos no
+momento da liquidação das transações no mercado de curto prazo da CCEE. 
+
+Art. 52.  Os consumidores livres deverão formalizar junto ao agente de
+distribuição local, com antecedência mínima de cinco anos, a decisão de retornar à
+condição de consumidor atendido mediante tarifa e condições reguladas. 
+
+Parágrafo único.  O prazo definido no caput poderá ser reduzido a
+critério do respectivo agente de distribuição. 
+
+Art. 53.  A emissão das manifestações formais de que tratam os arts. 49
+e 52 implicará a assunção da responsabilidade pelo ressarcimento de eventuais
+prejuízos causados pelo seu descumprimento. 
+
+Art. 54.  No ACL, a comercialização de energia elétrica pelos agentes
+vendedores sob controle federal, estadual e municipal poderá ser realizada das seguintes
+formas: 
+
+I - leilões exclusivos para consumidores finais ou por estes promovidos; 
+
+II - oferta pública para atendimento à expansão da demanda de consumidores
+existentes ou a novos consumidores; 
+
+II - na forma prevista no 
+ art. 27, § 4 º , 
+ da Lei n º 10.438, de 26 de abril de 2002 ;                
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+III - leilões, chamadas ou ofertas públicas junto a agentes vendedores e
+exportadores; e 
+
+III - leilões, chamadas ou ofertas públicas junto a agentes 
+ vendedores e exportadores;              
+ (Redação 
+ dada pelo Decreto nº 7.129, de 2010). 
+
+IV - aditamentos de contratos de fornecimento de energia elétrica, em vigor no
+dia 26 de agosto de 2002, firmados entre os agentes vendedores de que trata o caput 
+e seus consumidores finais, com vigência até 31 de dezembro de 2010. 
+
+IV - aditamentos de contratos de fornecimento de energia elétrica, em 
+ vigor no dia 26 de agosto de 2002, firmados entre os agentes vendedores 
+ de que trata o caput e seus consumidores finais, com vigência até 
+ 31 de dezembro de 2010; e             
+ (Redação 
+ dada pelo Decreto nº 7.129, de 2010). 
+
+V - aditamento dos contratos de compra de energia elétrica a que se 
+ refere o inciso IV, vigentes na data de publicação da 
+ Lei n o 
+ 11.943, de 28 de maio de 2009 , para vigorarem até 30 de junho de 2015, 
+ desde que, cumulativamente:              
+ (Incluído 
+ pelo Decreto nº 7.129, de 2010). 
+
+a) atendam ao disposto no art. 3 o da Lei n o 
+ 10.604, de 17 de dezembro de 2002 ; e           
+ (Incluído 
+ pelo Decreto nº 7.129, de 2010). 
+
+b) observem o disposto nos §§ 5 o a 7 o 
+ deste artigo.            
+ (Incluído 
+ pelo Decreto nº 7.129, de 2010). 
+
+§ 1 o    A comercialização de que tratam os incisos I, II
+e III do caput deste artigo deverá observar critérios de transparência,
+publicidade e garantia de acesso a todos os interessados. 
+
+§ 1 º  A comercialização de que tratam os 
+ incisos I e III do caput observará os critérios de transparência, 
+ publicidade e garantia de acesso aos interessados.             
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 2 o   Os aditamentos previstos no inciso IV do caput 
+somente poderão ser celebrados após a segmentação e a imediata substituição dos
+atuais contratos de fornecimento de energia por contratos equivalentes de conexão e uso
+dos sistemas de transmissão ou distribuição e de compra de energia elétrica, observado
+o seguinte: 
+
+I - o contrato de compra e venda de energia elétrica deverá ser celebrado com
+o respectivo agente vendedor; 
+
+II - o contrato de uso do sistema de transmissão deverá ser celebrado com o
+ONS, e o de conexão com a concessionária de transmissão no ponto de acesso, na
+hipótese de as instalações do consumidor estarem conectadas à rede básica; e 
+
+III - os contratos de uso e de conexão deverão ser celebrados com agente de
+distribuição, na hipótese de as instalações do consumidor estarem conectadas à rede
+de distribuição desse agente. 
+
+§ 3 o   A tarifa aplicada nos contratos de compra e venda
+de energia elétrica mencionados no § 2 o deverá ser calculada com base
+nas tarifas de fornecimento vigentes, deduzidas as tarifas de uso das instalações de
+transmissão ou de distribuição e as tarifas de conexão, fixadas pela ANEEL. 
+
+§ 4 o   Os reajustes da tarifa da energia elétrica
+dar-se-ão conforme a variação anual do Índice Geral de Preços do Mercado - IGP-M, ou
+em outros termos anteriormente pactuados pelas partes no respectivo contrato de
+fornecimento. 
+
+§ 5 o   O 
+ aditamento referido no inciso V deverá prever a segmentação, a ser 
+ realizada pela ANEEL, das tarifas em parcela correspondente ao 
+ fornecimento de potência e energia elétrica e parcela correspondente aos 
+ encargos setoriais de responsabilidade dos consumidores finais.           
+ (Incluído 
+ pelo Decreto nº 7.129, de 2010). 
+
+§ 6 o   A parcela correspondente ao fornecimento de 
+ potência e energia elétrica de que trata o inciso V será definida pela 
+ ANEEL, considerando a tarifa aplicada de acordo com o disposto no § 3 o 
+ deste artigo, e será reajustada, anualmente, pela variação do Índice 
+ Geral de Preços do Mercado - IGPM, ou em outros termos anteriormente 
+ pactuados.            
+ (Incluído pelo Decreto nº 7.129, de 2010). 
+
+§ 7 o   A parcela correspondente aos encargos setoriais 
+ de que trata o § 5 o será também definida pela ANEEL.            
+ (Incluído 
+ pelo Decreto nº 7.129, de 2010). 
+
+Art. 55.  A oferta pública de que trata o inciso II do caput do
+art. 54 deverá ser realizada para atendimento da carga:             
+ (Revogado pelo 
+Decreto nº 9.143, de 2017) 
+
+I - correspondente à expansão de consumidores existentes que tenham carga
+igual ou superior a 50 MW; ou           
+ (Revogado pelo 
+Decreto nº 9.143, de 2017) 
+
+II - de novos consumidores que tenham carga igual ou superior a 50 MW.               
+ (Revogado pelo 
+Decreto nº 9.143, de 2017) 
+
+Parágrafo único.  A contratação ou opção de contratação decorrente
+da oferta pública de que trata o caput deverá ocorrer até 15 de setembro de 2005
+e terá prazo máximo de dez anos, prorrogável uma única vez, por igual período.               
+ (Revogado pelo 
+Decreto nº 9.143, de 2017) 
+
+CAPÍTULO IV 
+
+DA CONTABILIZAÇÃO E LIQUIDAÇÃO DE
+DIFERENÇAS NO MERCADO DE CURTO PRAZO 
+
+Art. 56.  Todos os contratos de compra e venda de energia elétrica
+firmados pelos agentes, seja no ACR ou no ACL, deverão ser registrados na CCEE, segundo
+as condições e prazos previstos em procedimento de comercialização específico, sem
+prejuízo de seu registro, aprovação ou homologação pela ANEEL, nos casos aplicáveis. 
+
+Parágrafo único.  A CCEE poderá exigir a comprovação da existência e
+validade dos contratos de que trata o caput . 
+
+Art. 57.  A contabilização e a liquidação mensal no mercado de curto
+prazo serão realizadas com base no PLD. 
+
+Art. 57.  A contabilização e a liquidação no 
+ mercado de curto prazo serão realizadas com base no PLD.               
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+§ 1 o   O PLD, a ser publicado pela CCEE, será calculado
+antecipadamente, com periodicidade máxima semanal e terá como base o custo marginal de
+operação, limitado por preços mínimo e máximo, e deverá observar o seguinte: 
+
+I - a otimização do uso dos recursos eletro-energéticos para o atendimento
+aos requisitos da carga, considerando as condições técnicas e econômicas para o
+despacho das usinas; 
+
+II - as necessidades de energia elétrica dos agentes; 
+
+III - os mecanismos de segurança operativa, podendo incluir curvas de aversão
+ao risco de déficit de energia; 
+
+IV - o custo do déficit de energia elétrica; 
+
+V - as restrições de transmissão entre submercados; 
+
+VI - as interligações internacionais; e 
+
+VII - os intervalos de tempo e escalas de preços previamente estabelecidos que
+deverão refletir as variações do valor econômico da energia elétrica. 
+
+§ 2 o   O valor máximo do PLD, a ser estabelecido pela
+ANEEL, será calculado levando em conta os custos variáveis de operação dos
+empreendimentos termelétricos disponíveis para o despacho centralizado. 
+
+§ 3 o   O valor mínimo do PLD, a ser estabelecido pela
+ANEEL, será calculado levando em conta os custos de operação e manutenção das usinas
+hidrelétricas, bem como os relativos à compensação financeira pelo uso dos recursos
+hídricos e royalties . 
+
+§ 4 o   O critério determinante para a definição dos
+submercados será a presença e duração de restrições relevantes de transmissão aos
+fluxos de energia elétrica no SIN. 
+
+§ 5 o   O cálculo do PLD em cada submercado levará em
+conta o ajuste de todas as quantidades de energia pela aplicação do fator de perdas de
+transmissão, relativamente a um ponto comum de referência, definido para cada
+submercado. 
+
+§ 6 o   A liquidação no mercado de curto prazo far-se-á
+no máximo em base mensal. 
+
+§ 6 º  A contabilização e a liquidação no 
+ mercado de curto prazo serão realizadas no máximo em base mensal.                
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 58.  O processo de contabilização e liquidação de energia
+elétrica, realizado segundo as regras e os procedimentos de comercialização da CCEE,
+identificará as quantidades comercializadas no mercado e as liquidadas ao PLD. 
+
+Art. 59.  As regras e procedimentos de comercialização da CCEE poderão
+prever o pagamento de um encargo destinado à cobertura dos custos dos serviços do
+sistema, inclusive os serviços ancilares, prestados aos usuários do SIN, que
+compreenderão, dentre outros: 
+
+Art. 59.  As regras e os procedimentos de 
+ comercialização deverão prever o pagamento de encargo para cobertura dos 
+ custos dos serviços do sistema, inclusive dos serviços ancilares, prestados 
+ aos usuários do SIN, que compreenderão, entre outros:              
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+I - custos decorrentes da geração despachada independentemente da ordem de
+mérito, por restrições de transmissão dentro de cada submercado; 
+
+I - a geração despachada independentemente da 
+ ordem de mérito, por restrições de transmissão em cada submercado ou por 
+ razões de segurança energética, a ser alocada aos consumidores com 
+ possibilidade de diferenciação entre os submercados;            
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+II - a reserva de potência operativa, em MW, disponibilizada pelos geradores
+para a regulação da freqüência do sistema e sua capacidade de partida autônoma; 
+
+III - a reserva de capacidade, em MVAr, disponibilizada pelos geradores,
+superior aos valores de referência estabelecidos para cada gerador em Procedimentos de
+Rede do ONS, necessária para a operação do sistema de transmissão; e 
+
+III - a reserva de capacidade, em MVAr, 
+ disponibilizada pelos geradores, superior aos valores de referência 
+ estabelecidos para cada gerador em Procedimentos de Rede do ONS, necessária 
+ à operação do sistema de transmissão;            
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+IV - a operação dos geradores como compensadores síncronos, a regulação da
+tensão e os esquemas de corte de geração e alívio de cargas. 
+
+IV - a operação dos geradores como compensadores 
+ síncronos, a regulação da tensão e os esquemas de corte de geração e alívio 
+ de cargas; e                
+ (Redação dada pelo 
+Decreto nº 9.143, de 2017) 
+
+V - o deslocamento da geração hidrelétrica de que 
+ trata o art. 2 º da Lei n º 13.203, de 8 de dezembro de 2015 .               (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+Parágrafo único. O autoprodutor equipara-se ao 
+ consumidor na parcela de seu consumo líquido no SIN.           
+ (Incluído pelo 
+Decreto nº 9.143, de 2017) 
+
+CAPÍTULO V 
+
+DAS OUTORGAS DE CONCESSÕES 
+
+Art. 60.  Atendidas as disposições legais, aos vencedores das
+licitações que oferecerem energia proveniente de novos empreendimentos de geração,
+conforme definido em edital, serão outorgadas: 
+
+I - concessões, sempre a título oneroso, para geração de energia elétrica
+sob regime: 
+
+a) de serviço público; ou 
+
+b) de uso de bem público, no caso de autoprodução ou produção independente; ou 
+
+II -  autorizações. 
+
+Parágrafo único.  Em se tratando de importação de energia elétrica, as
+autorizações deverão incluir, quando necessário, a implantação dos sistemas de
+transmissão associados e prever o livre acesso a esses sistemas, nos limites da sua
+disponibilidade técnica, mediante pagamento de encargo, a ser aprovado pela ANEEL. 
+
+Art. 61.  O Ministério de Minas e Energia autorizará a implantação de
+novos empreendimentos de geração termelétrica somente quando comprovada a
+disponibilidade dos combustíveis necessários à sua operação. 
+
+Parágrafo único.  A autorização de que trata o caput poderá ser
+condicionada à possibilidade do empreendimento de geração termelétrica operar
+utilizando combustível substituto. 
+
+Art. 62.  O Ministério de Minas e Energia deverá celebrar, na outorga de
+concessões, os respectivos contratos de concessão de geração de serviço público ou
+de uso de bem público com os vencedores dos leilões, observado o disposto nos arts. 19 a
+21. 
+
+Art. 63.  A outorga de autorização será feita pelo Ministério de Minas
+e Energia. 
+
+Art. 64.  No período de até doze meses anterior ao término da concessão
+de empreendimento existente de geração hidrelétrica, a ANEEL, observado o disposto no art. 4 o da Lei n o 
+9.074, de 1995 , realizará licitação para outorga de nova concessão e celebração
+de novo contrato de concessão e respectivos CCEAR. 
+
+CAPÍTULO VI 
+
+DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS 
+
+Art. 65.  O Ministério de Minas e Energia assumirá as competências e
+executará as atribuições da EPE até sua efetiva criação e funcionamento. 
+
+Art. 66.  O Ministério de Minas e Energia estabelecerá metodologia para
+utilização de sinal locacional no cálculo das tarifas de uso dos sistemas de
+transmissão, visando a sua estabilidade, e no cálculo dos fatores de perdas aplicáveis
+à geração e ao consumo de energia elétrica.    
+ (Revogado pelo 
+Decreto nº 9.143, de 2017) 
+
+Art. 67.  A EPE deverá submeter, para aprovação do Ministério de Minas
+e Energia, procedimentos específicos de planejamento nacional da expansão de curto,
+médio e longo prazo do parque de geração e dos sistemas de transmissão de energia
+elétrica. 
+
+Art. 68.  Enquanto não constituída a CCEE e instituídas a convenção,
+as regras e os procedimentos de comercialização, permanecerão válidas todas as normas
+e atos expedidos pela ANEEL e aplicáveis às operações realizadas no âmbito do Mercado
+Atacadista de Energia Elétrica - MAE relativos à comercialização de energia elétrica
+de que trata este Decreto, inclusive no que diz respeito à manutenção dos direitos e
+obrigações decorrentes das relações mantidas entre o MAE e seus agentes. 
+
+Art. 69.  As concessionárias de geração de serviço público sob
+controle privado e os produtores independentes de energia poderão aditar os contratos
+iniciais ou equivalentes que estavam em vigor em 16 de março de 2004, observados os
+prazos e condições previstos no Decreto n o 
+4.767, de 26 de junho de 2003 . 
+
+Art. 70.  A ANEEL deverá estabelecer os mecanismos de regulação e
+fiscalização para dar cumprimento a obrigação de separação das atividades de
+distribuição das de geração e transmissão prevista na Lei n o 9.074, de 1995. 
+
+§ 1 o   As concessionárias obrigadas ao cumprimento do
+previsto no caput deverão observar, nas suas declarações de necessidade de
+contratação de energia de que trata o art. 18, a redução gradual de contratação de
+sua geração própria, conforme estabelecido no art. 10 da Lei n o 9.648, de 27
+de maio de 1998 , e respectiva regulação da ANEEL. 
+
+§ 2 o    Os agentes, cujos contratos de concessão de
+distribuição incluam geração distribuída, nos termos dos §§ 1 o e
+2 o do art. 15, poderão registrar e homologar na ANEEL e na CCEE
+contratos de compra e venda de energia elétrica de suas respectivas unidades geradoras,
+desde que a vigência seja a mesma do contrato de concessão e o preço seja o do último
+reajuste ou revisão de tarifas do agente de distribuição. 
+
+Art. 71.  Conforme disciplina a ser emitida pela ANEEL até outubro de
+2005, as concessionárias de serviços públicos de distribuição deverão incorporar a
+seus patrimônios as redes particulares de energia elétrica que não dispuserem de ato
+autorizativo do poder concedente até 31 de dezembro de 2005 ou, mesmo dispondo, desde que
+exista interesse das partes em que sejam transferidas. 
+
+§ 1 o   Considera-se, para fins do disposto no caput ,
+rede particular a instalação elétrica, em qualquer tensão, utilizada para o fim
+exclusivo de prover energia elétrica para unidades de consumo de seus proprietários e
+conectada em sistema de transmissão ou de distribuição de energia elétrica. 
+
+§ 2 o   As concessionárias de serviços públicos de
+transmissão e de distribuição de energia elétrica deverão cientificar, até 30 de
+novembro de 2004, os proprietários de redes particulares conectadas a seus respectivos
+sistemas sobre o disposto no art. 15 da Lei n o 
+10.848, de 2004 , neste artigo e no ato da ANEEL que disciplinar a matéria. 
+
+§ 3 o   O proprietário de rede particular já instalada
+que não dispuser de ato autorizativo do poder concedente poderá requerê-lo até 30 de
+outubro de 2005, apresentando as informações e documentos que forem exigidos pela ANEEL,
+incluindo a comprovação da titularidade sobre os imóveis em que se situa a rede
+particular, ou da respectiva autorização de passagem. 
+
+§ 4 o   A ANEEL deverá expedir o ato autorizativo de que
+trata o § 3 o até 31 de dezembro de 2005, desde que atendidas as
+condições requeridas para sua expedição. 
+
+§ 5 o   A partir de 1 o de janeiro de
+2006, as redes particulares que não dispuserem de ato autorizativo serão incorporadas ao
+patrimônio das concessionárias de serviços públicos de distribuição de energia
+elétrica, conforme as respectivas áreas
+de concessão, mediante processo formal a
+ser disciplinado pela ANEEL, observadas as seguintes condições: 
+
+I - comprovação pela concessionária do cumprimento do disposto no § 2 o ;
+e 
+
+II - avaliação prévia das instalações, para o fim de fixação do valor a
+ser indenizado ao titular da rede particular a ser incorporada. 
+
+§ 6 o   Os custos decorrentes da incorporação de que
+trata o § 5 o , incluindo a reforma das redes, após aprovação pela
+ANEEL, serão considerados nos processos de revisão tarifária da concessionária
+incorporadora. 
+
+§ 7 o   Não serão objeto da incorporação de que trata
+o § 5 o deste artigo as redes, em qualquer tensão, de interesse
+exclusivo de agentes geradores que conectem suas instalações de geração à rede
+básica, à rede de distribuição, ou a suas instalações de consumo, desde que
+integrantes das respectivas concessões, permissões ou autorizações. 
+
+§ 8 o   As redes particulares instaladas
+exclusivamente em imóveis de seus proprietários não serão objeto de ato autorizativo
+ou de incorporação. 
+
+§ 8 o   As redes particulares
+instaladas exclusivamente em imóveis de seus proprietários não serão objeto de ato
+autorizativo ou de incorporação, salvo, neste último caso, se houver expresso acordo
+entre as partes.                 (Redação dada pelo Decreto
+nº 5.597, de 2005) 
+
+Art. 72.  A partir de outubro de 2004, nas datas dos respectivos reajustes
+ou revisões tarifárias, o que ocorrer primeiro, os agentes de distribuição e agentes
+vendedores deverão celebrar, com seus consumidores potencialmente livres, contratos
+distintos para a conexão e uso dos sistemas de transmissão ou distribuição e para a
+compra de energia elétrica. 
+
+§ 1 o   Até 30 de setembro de 2004, a ANEEL deverá
+regular o valor da tarifa de energia elétrica referente aos contratos de compra de que
+trata o caput . 
+
+§ 2 o   Na celebração de novos contratos de compra de
+energia elétrica e na prorrogação de contratos existentes dos consumidores de que trata
+o caput , deverão ser incluídas cláusulas de prazos e condições de aquisição
+de energia elétrica por outro fornecedor, na forma do art. 49. 
+
+Art. 73.  As concessionárias e permissionárias de distribuição de
+energia elétrica poderão, conforme disciplina a ser estabelecida pela ANEEL, condicionar
+a continuidade do fornecimento aos usuários inadimplentes de mais de uma fatura mensal em
+um período de doze meses: 
+
+I - ao oferecimento de depósito-caução, limitado ao valor inadimplido, não
+se aplicando o disposto neste inciso ao consumidor integrante da Classe Residencial; ou 
+
+II - à comprovação de vínculo entre o titular da unidade consumidora e o
+imóvel onde ela se encontra, não se aplicando o disposto neste inciso ao consumidor
+integrante da Subclasse Residencial Baixa Renda. 
+
+§ 1 o   Em se tratando de inadimplência de consumidor
+potencialmente livre, o agente de distribuição poderá exigir que o usuário
+inadimplente, para utilização do serviço de distribuição, apresente contrato de
+compra de energia firmado com agente vendedor, conforme disciplina a ser estabelecida pela
+ANEEL. 
+
+§ 2 o   Não se aplica o disposto nos incisos I e II do caput 
+aos consumidores que prestam serviços públicos essenciais. 
+
+Art. 74.  Os autoprodutores e produtores independentes não estão sujeitos
+ao pagamento das quotas da Conta de Desenvolvimento Energético - CDE, tanto na produção
+quanto no consumo, exclusivamente com relação à parcela de energia elétrica destinada
+a consumo próprio. 
+
+Art. 75.  A ANEEL expedirá normas complementares para a execução do
+disposto neste Decreto. 
+
+Art. 75-A .  Ficam delegadas à Aneel:            
+ (Incluído pelo 
+ Decreto nº 9.415, de 2018) 
+
+I - a competência estabelecida no 
+ art. 28, § 3º, 
+ da Lei nº 9.427, de 1996 ; e               
+
+(Incluído pelo 
+Decreto nº 9.415, de 2018) 
+
+I - as competências estabelecidas nos 
+ art. 3º-A , 
+ art. 26 e 
+ art. 28 da Lei nº 9.427, de 1996 ; e          
+ (Redação dada pelo 
+Decreto nº 10.272, de 2020) 
+
+I - as competências estabelecidas nos
+ art. 3º-A ,
+ art. 26 e art. 28 da Lei nº 9.427, 
+de 1996;         
+
+(Redação dada pelo 
+Decreto nº 10.798, de 2021) 
+
+II - a definição do aproveitamento ótimo de que tratam os 
+ § 2º e 
+ § 3º do art. 5º da Lei nº 9.074, de 1995 .            
+
+(Incluído pelo 
+Decreto nº 9.415, de 2018) 
+
+II - a definição de aproveitamento ótimo 
+de que tratam os § 2º e
+ § 3º do art. 5º da Lei nº 9.074, de 
+1995 ; e        
+
+(Redação dada pelo 
+Decreto nº 10.798, de 2021) 
+
+III - as incorporações aos contratos de concessão de bens e 
+instalações de que trata o art. 34 
+da Lei nº 9.074, de 7 de julho de 1995, conforme as diretrizes estabelecidas 
+pelo Ministério de Minas e Energia.      
+
+(Incluído pelo 
+Decreto nº 10.798, de 2021) 
+
+Parágrafo único.  As competências a que se 
+refere o inciso I do caput compreendem:           
+ (Incluído pelo 
+Decreto nº 10.272, de 2020) 
+
+I - as outorgas de autorização de empreendimentos de energia 
+elétrica; e           
+ (Incluído pelo 
+Decreto nº 10.272, de 2020) 
+
+I - as outorgas de autorização de 
+empreendimentos de energia elétrica, ressalvado o disposto no art. 63;       
+
+(Redação dada pelo 
+Decreto nº 10.798, de 2021) 
+
+II - as declarações de necessidade ou de utilidade pública 
+previstas nos incisos VIII e
+ IX do caput do art. 29 da Lei nº 
+8.987, de 13 de fevereiro de 1995 .           
+ (Incluído pelo 
+Decreto nº 10.272, de 2020) 
+
+II - as declarações de necessidade ou de utilidade 
+pública previstas nos  incisos 
+VIII  e  IX do caput do 
+art. 29 da Lei nº 8.987, de 13 de fevereiro de 1995; e       
+
+(Redação dada pelo 
+Decreto nº 10.798, de 2021) 
+
+III - as extinções de concessão previstas no 
+
+inciso IV do caput do art. 
+29 da Lei nº 8.987, de 1995, para os casos de empreendimentos de capacidade reduzida, nos 
+termos do disposto no art. 8º da Lei 
+nº 9.074, de 1995 .  
+
+(Incluído pelo 
+Decreto nº 10.798, de 2021) 
+
+Art. 76.  Ficam revogados os §§ 1 o e 2 o 
+do art. 3 o , o art. 7 o ,
+o art. 10 e o inciso III do art. 25 do Decreto n o 
+2.003, de 10 de setembro de 1996 ; os §§
+6 o , 7 o , 8 o e 9 o do
+art. 1 o e os arts. 5 o 
+a 9 o do Decreto n o 4.562, de 31 de dezembro de 2002. 
+
+Art. 77.  Após a instituição da convenção, das regras e dos
+procedimentos de comercialização referidos no art. 68, ficam revogados os
+ arts. 13 a
+ 18
+do Decreto n o 2.655, de 2 de julho de 1998 . 
+
+Art. 78.  Este Decreto entra em vigor na data de sua publicação. 
+
+Brasília, 30 de
+julho de 2004; 183 o da Independência e 116 o da
+República. 
+
+LUIZ INÁCIO LULA DA SILVA 
+ Dilma Vana Rousseff 
+
+Este texto não substitui o
+publicado no DOU de 30.7.2004 - Edição Extra e 
+ retificado em 4.8.2004 
+
+ANEXO 
+
+(Incluído dada 
+pelo Decreto nº 9.143, de 2017)  
+
+FÓRMULA PARA CALCULAR O VALOR ANUAL DE REFERÊNCIA - 
+VR 
+
+VR = 
+
+[VL6.Q6 + VL5.Q5 + VL4.Q4 + VL3.Q3] 
+
+[Q6 + Q5 + Q4 + Q3] 
+
+Onde: 
+
+a) VLN é o valor médio de 
+aquisição nos leilões de compra de energia elétrica proveniente de novos 
+empreendimentos de geração realizados nos anos A-N, ponderado pelas 
+respectivas quantidades adquiridas; 
+
+b) QN é a quantidade 
+total, expressa em MWh por ano, adquirida nos leilões de compra de energia 
+elétrica proveniente de novos empreendimentos de geração, realizados nos anos 
+A-N; e 
+
+c) N é o enésimo ano 
+anterior ao ano-base A em que se realizam os leilões de compra de energia 
+elétrica proveniente de novos empreendimentos de geração. 
+
+*

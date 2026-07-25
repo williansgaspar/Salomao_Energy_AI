@@ -1,0 +1,370 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 9.1_-_resposta_da_demanda_v1.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+1 
+ 
+  
+Módulo 9 – Recursos 
+adicionais ao SIN 
+Submódulo 9.1 – Resposta da Demanda 
+procedimentos de 
+comercialização
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Adequação à REN nº 1.080/2023 Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A Resposta da Demanda – RD tem por finalidade possibilitar aos consumidores participantes reduzirem seu 
+consumo de energia elétrica conforme ofertas realizadas ao Operador Nacional do Sistema – ONS e por ele 
+aceitas, em períodos previamente indicados, como recurso adicional para atendimento ao Sistema Interligado 
+Nacional – SIN, visando a obtenção de resultados mais benéficos para a confiabilidade do sistema elétrico, 
+bem como para a modicidade tarifária. 
+No programa estrutural de RD, o ONS pode dispor de produtos com avisos de acionamento para o dia seguinte 
+(D-1), cabendo aos participantes enviarem ao ONS suas ofertas de redução de consumo semanalmente para 
+a semana operativa seguinte, e diariamente, no d ia anterior ao despacho, confirmarem sua disponibilidade 
+para redução da demanda. 
+Os interessados em participar da RD devem atender ao disposto na regulamentação vigente, nos 
+Procedimentos de Rede publicados pelo ONS, nas Regras de Comercialização e no presente submódulo dos 
+Procedimentos de Comercialização. 
+2. OBJETIVO 
+Estabelecer as condições, procedimentos e prazos necessários para viabilizar a participação de  agentes da 
+CCEE na RD, de acordo com a regulamentação vigente. 
+3. PREMISSAS 
+Participantes 
+3.1 A Unidade Consumidora Autorrepresentada (UC Autorrepresentada) participa da RD por meio de 
+ofertas de redução de seu consumo realizadas diretamente ao ONS e deve atender aos seguintes 
+requisitos: 
+3.1.1 Ser agente da CCEE como consumidor livre, parcialmente livre  ou consumidor cujos 
+contratos de compra de energia seguem os preceitos estabelecidos no artigo 5° da Lei n° 
+13.182/2015; 
+3.1.2 Estar conectada na rede de supervisão do ONS ou fora da rede de supervisão , desde que 
+disponibilize ao ONS os dados para monitoramento do despacho, conforme Procedimentos 
+de Rede; e 
+3.1.3 Estar adimplente no âmbito da CCEE e do ONS.
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.2 A Unidade Consumidora Agregada (UC Agregada) participa da RD por meio da representação de um 
+Agregador e deve atender aos seguintes requisitos:  
+3.2.1 Atender às premissas 3.1.1 e 3.1.2; ou 
+3.2.2 Estar modelada sob agente varejista e atender à premissa 3.1.2. 
+3.3 O Agregador participa da RD por meio de ofertas de redução de consumo de sua(s) UC(s) Agregada(s) 
+realizadas diretamente ao ONS e deve atender aos seguintes requisitos: 
+3.3.1 Ser agente da CCEE como consumidor, comercializador ou gerador; e  
+3.3.2 Estar adimplente no âmbito da CCEE e do ONS. 
+Participação do Agregador e da UC Agregada 
+3.4 O Agregador deve criar um perfil de agente exclusivo para RD, no sistema específico. 
+3.4.1 A classe e o submercado deste perfil não apresentam efeitos práticos no processamento 
+da contabilização dos valores financeiros referentes à participação na RD. 
+3.4.2 É vedado que este perfil pertença à categoria de distribuição. 
+3.4.3 É vedado o registro de contratos e o cadastro de ativos neste perfil. 
+3.4.4 Caso seja identificada a existência de contratos ou ativos vinculados a este perfil, a CCEE 
+deve realizar a finalização dos contratos ou a exclusão dos cadastros dos ativos, 
+respectivamente, sem prévia anuência dos envolvidos. 
+3.5 O Agregador deve indicar, no sistema específico, as UCs Agregadas (próprias ou de terceiros) que ele 
+pretende representar na RD. 
+3.5.1 Esta premissa não se aplica em caso de m atriz ou filial ser agente na CCEE e possuir um 
+único ativo cadastrado sob o agente (para a RD , será considerada como UC 
+Autorrepresentada). 
+3.6 A UC Agregada deve dar anuência, no sistema específico, à representação pelo Agregador , 
+observando-se que: 
+3.6.1 Em caso de matriz e filial , agentes distintos na CCEE, pretende rem ser Agregador e UC 
+Agregada, a anuência é necessária. 
+3.6.2 Em caso de matriz ou filial, agente na CCEE, pretender ser Agregador e os ativos da matriz 
+ou filial cadastrado s sob o agente pretende rem ser suas  UCs Agregadas, a anuência é  
+dispensada, exceto se já for em representadas por outro Agregador, devendo observar a 
+seção “Alteração na Forma de Participação” deste submódulo.
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.6.3 Em caso de o representante operacional ou varejista, nos termos dos submódulos 1.2 – 
+Cadastro de agentes ou 1.6 – Comercialização varejista, pretender ser Agregador de suas 
+UCs representadas, a anuência destas é dispensada, exceto se já forem representadas por 
+outro Agregador, devendo observar a seção “Alteração na Forma de Participação” deste 
+submódulo.  
+3.6.4 Em caso de UC Agregada modelada sob agente varejista pretender ser representada na RD 
+por Agregador (que não seja o seu varejista), a anuência deve ser dada pelo varejista 
+representante da UC Agregada.  
+3.7 Para que o Agregador possa realizar ofertas  de redução de consumo d a UC Agregada ao ONS, é 
+necessária a formalização desta representação na CCEE, que consiste no cumprimento das premissas 
+anteriores da presente seção deste submódulo. 
+3.7.1 A formalização da representação na CCEE deve ocorrer até o dia útil anterior ao da entrega 
+de ofertas de redução ao ONS, conforme estabelecido nos Procedimentos de Rede.  
+3.8 Para todos os efeitos legais, a formalização da representação de que trata a premissa anterior pode 
+ser realizada por meio dos seus representantes legais ou d os seus representantes na CCEE, nos 
+termos dos submódulos 1.2 – Cadastro de agentes ou 1.6 – Comercialização varejista, sendo de total 
+responsabilidade do Agregador e da UC Agregada. 
+3.9 A CCEE é isenta de qualquer responsabilidade sobre as informações enviadas pelo Agregador e pela 
+UC Agregada, considerando-as verdadeiras e válidas desde sua apresentação. 
+3.10 O Agregador pode representar inúmeras  UCs Agregadas , porém uma  UC Agregada deve ser 
+representada por um único Agregador no mês de referência “M”.  
+3.11 O Agregador deve ofertar a redução de consumo apenas de UC Agregada que: 
+3.11.1 Esteja sob sua representação, mediante a anuência dada pela  UC Agregada , quando 
+necessário, nos termos deste submódulo; 
+3.11.2 Não esteja suspensa e não tenha saído da RD, nos termos deste submódulo, sob pena de 
+não recebimento de qualquer remuneração. 
+3.12 O Agregador pode ter acesso aos dados de medição de sua  UC Agregada. Para tanto, é necessário 
+que a UC Agregada conceda ao Agregador as permissões de acesso aos seus pontos de medição, no 
+sistema específico. 
+3.13 A representação da UC Agregada pelo Agregador implica a assunção, pelo Agregador, de obrigações 
+financeiras da UC Agregada advindas exclusivamente da RD, observada a seção “Operacionalização” 
+deste submódulo.
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+6 
+ 
+procedimentos de 
+comercialização 
+Alteração na Forma de Participação 
+3.14 A alteração na forma de participação na RD deve ser realizada diretamente no sistema específico. 
+3.14.1 A UC Agregada pode realizar o cancelamento da representação pelo Agregador, não 
+necessitando de qualquer anuência, sendo que o Agregador será notificado , por meio do 
+sistema, para ciência do cancelamento. 
+3.14.2 O Agregador pode realizar o cancelamento da representação da UC Agregada, não 
+necessitando de qualquer anuência, sendo que a UC Agregada será notificada , por meio 
+do sistema, para ciência do cancelamento. 
+3.14.3 A UC Autorrepresentada pode passar a atuar como UC Agregada. Para tanto, o Agregador 
+deve indicar a representação e a UC Agregada deve dar a anuência, quando necessário, 
+nos termos deste submódulo. 
+3.14.4 A UC Agregada pode substituir o Agregador. Para tanto, o novo Agregador deve indicar a 
+representação e a UC Agregada deve dar a anuência, quando necessário, nos termos deste 
+submódulo. 
+3.14.5 Cabe ao agente varejista, representante da UC Agregada sob ele modelada, realizar a 
+alteração na forma de participação na RD da referida UC Agregada diretamente no sistema 
+específico. 
+3.15 A nova forma de participação na RD terá início de vigência a partir do primeiro dia do mês 
+subsequente da formalização da alteração na CCEE, nos termos da premissa anterior. 
+Linha Base 
+3.16 A CCEE deve divulgar , em seu site,  a linha base de todos os potenciais participantes da RD, nos 
+termos da premissa 3.1, no prazo definido no item 5 – Fluxo de Atividades. 
+3.16.1 A CCEE deve disponibilizar a linha base de dias úteis e de sábados. 
+3.16.2 A linha base divulgada pela CCEE é válida para as reduções de consumo que ocorrerem no 
+mês subsequente ao de sua divulgação. 
+3.17 Em caso de representação por meio de Agregador , a CCEE  deve divulgar a linha base por UC 
+Agregada, nos termos das Regras de Comercialização. 
+3.18 Conforme critérios estabelecidos nas Regras de Comercialização para o cálculo da linha base, para a 
+UC Autorrepresentada e UC Agregada com recente migração para o Ambiente de Contratação Livre 
+– ACL, a linha base é divulgada pela CCEE a partir do:
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.18.1 Primeiro mês subsequente ao de aprovação de sua adesão à CCEE, para linha base de dias 
+úteis. 
+3.18.2 Segundo mês subsequente ao de aprovação de sua adesão à CCEE, para linha base de  
+sábados.  
+Operacionalização 
+3.19 A UC Autorrepresentada e o Agregador inadimplentes no âmbito da CCEE  e/ou do ONS  estão 
+automaticamente suspensos da RD. 
+3.19.1 A UC Autorrepresentada ou o Agregador inadimplente, para estar apto a realizar ofertas 
+de redução ao ONS, deve regularizar sua situação perante a CCEE  e/ou o ONS, mediante 
+confirmação da quitação, observada a premissa abaixo. 
+3.19.2 Em caso de débitos no âmbito da CCEE, a UC Autorrepresentada ou o Agregador pode 
+participar da RD desde que regularize suas pendências e informe à CCEE em até 3du (três 
+dias úteis) antes da data limite, estabelecida nos Procedimentos de Rede, para: 
+a) Envio de ofertas de redução de consumo ao ONS, válidas para a semana operativa 
+seguinte; ou 
+b) Confirmação de disponibilidade para redução de consumo ao ONS, válida para o dia 
+seguinte. 
+3.20 A CCEE deve disponibilizar em seu site, referente às ofertas de redução despachadas  pelo ONS no 
+mês de referência “M”, nos prazos definidos no item 5 – Fluxo de Atividades: 
+3.20.1 As informações preliminares  de participação na RD  considerando os melhores dados 
+disponíveis no momento, contemplando: 
+3.20.1.1 Os produtos despachados pelo ONS e não atendidos por UC Autorrepresentada 
+e Agregador, nos termos das Regras de Comercialização; 
+3.20.1.2 O montante de redução de consumo por participante. 
+3.20.2 As informações finais de participação na RD, contemplando: 
+3.20.2.1 A UC Autorrepresentada e o Agregador que não atenderam à quantidade 
+mínima, estabelecida nos Procedimentos de Rede , de produtos despachados 
+pelo ONS; 
+3.20.2.2 Os resultados finais por participante.
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+8 
+ 
+procedimentos de 
+comercialização 
+3.21 A partir do recebimento da i nformação de que trata a premissa 3.20.2.1 pelo ONS , a UC 
+Autorrepresentada e o Agregador  estarão suspensos da RD pelo período estabelecido nos 
+Procedimentos de Rede (nesse período, não poderão realizar ofertas de redução de consumo e não 
+poderão reduzir o consumo para fins de RD). 
+3.22 Nos termos das Regras de Comercialização, o s valores financeiros referentes à participação na RD 
+devem ser apurados pela CCEE na contabilização do MCP e percebidos pela UC Autorrepresentada 
+e pelo Agregador na liquidação financeira do MCP, observados os submódulos 5.1 – Contabilização 
+e recontabilização e 5.2 – Liquidação no mercado de curto prazo, respectivamente.  
+3.22.1 O Agregador perceberá valores financeiros relacionados exclusivamente aos  Encargos de 
+Serviço do Sistema – ESS em razão do despacho da oferta de redução de suas UCs 
+Agregadas na RD.  
+3.22.2 Cabe ao Agregador e  às UCs Agregadas realizarem o acerto e/ou as avenças comerciais 
+bilateralmente, fora do âmbito da CCEE.  
+Saída Voluntária e Compulsória da RD 
+3.23 A saída voluntária da RD  tem início de vigência a partir do primeiro dia do mês subsequente ao da 
+informação cadastrada diretamente no sistema específico. 
+3.23.1 Esta premissa não se aplica em caso de UC Autorrepresentada que queira deixar de 
+participar da RD. 
+3.23.2 O Agregador ou a UC Agregada, conforme o caso, será notificado, por meio do sistema, 
+para ciência da saída voluntária de sua UC Agregada ou de seu Agregador  e não há 
+necessidade de qualquer anuência. 
+3.24 A saída compulsória da RD ocorre com o desligamento da CCEE  da UC Autorrepresentada, do 
+Agregador e da UC Agregada. 
+3.24.1 A CCEE deve informar ao  Agregador ou à  UC Agregada , conforme o caso, sobre a 
+instauração do procedimento de desligamento da CCEE por descumprimento de 
+obrigações ou compulsório, de sua UC Agregada ou de seu Agregador.  
+3.24.2 Em caso de instauração de procedimento de desligamento voluntário do Agregador ou da 
+UC Agregada, conforme o caso, é de responsabilidade das próprias partes envolvidas na 
+representação realizar a comunicação entre elas.
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+9 
+ 
+procedimentos de 
+comercialização 
+3.24.3 Nos termos do submódulo 1.5 – Desligamento da CCEE, em até cinco dias do julgamento 
+do procedimento de desligamento, por qualquer modalidade,  a CCEE deve informar ao 
+Agregador ou à UC Agregada, conforme o caso, sobre a saída compulsória da RD de sua UC 
+Agregada ou de seu Agregador. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+10 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Resposta da Demanda
+CCEE
+Até MS+15du
+Divulgar a linha base 
+dos potenciais 
+participantes
+Início
+Fim
+Até MS+12du
+Divulgar as 
+informações 
+preliminares de 
+participação na RD
+Até MS+21du
+Divulgar as 
+informações finais 
+de participação na 
+RD
+Até MS+21du
+Informar ao ONS os 
+participantes que não 
+atenderam à 
+quantidade mínima de 
+produtos despachados
+ 
+Legenda: 
+MS: Mês seguinte às operações de compra e venda de energia elétrica 
+du: Dias úteis
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+11 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Resposta da Demanda 
+Atividade Responsável Detalhamento Prazo 
+Divulgar as informações 
+preliminares de 
+participação na RD 
+CCEE 
+A CCEE deve divulgar, referente às ofertas de redução 
+despachadas pelo ONS no mês de referência “M”, as 
+informações preliminares de participação na RD 
+considerando os melhores dados disponíveis no momento, 
+contemplando (i) os produtos despachados pelo ONS e não 
+atendidos por UC Autorrepresentada e Agregador, nos 
+termos das Regras de Comercialização, e (ii) o montante de 
+redução de consumo por participante. 
+Até MS+12du 
+Divulgar a linha base dos 
+potenciais participantes CCEE 
+A CCEE deve divulgar a linha base (de dias úteis e de sábados) 
+de todos os potenciais participantes da RD, que será válida 
+para as reduções de consumo que ocorrerem no mês 
+subsequente ao de sua divulgação. 
+Até MS+15du 
+Divulgar as informações 
+finais de participação na 
+RD 
+CCEE 
+A CCEE deve divulgar, referente às ofertas de redução 
+despachadas pelo ONS no mês de referência “M”, as 
+informações finais de participação na RD, contemplando (i) a 
+UC Autorrepresentada e o Agregador que não atenderam à 
+quantidade mínima, estabelecida nas Regras de 
+Comercialização, de produtos despachados pelo ONS e (ii) os 
+resultados finais por participante. 
+Até MS+21du 
+Informar ao ONS os 
+participantes que não 
+atenderam à quantidade 
+mínima de produtos 
+despachados 
+CCEE 
+A CCEE deve informar ao ONS a UC Autorrepresentada e o 
+Agregador que não atenderam à quantidade mínima, 
+estabelecida nas Regras de Comercialização, de produtos 
+despachados, os quais estarão suspensos da RD pelo período 
+estabelecido nos Procedimentos de Rede. 
+Até MS+21du 
+ 
+Legenda: 
+MS: Mês seguinte às operações de compra e venda de energia elétrica 
+du: Dias úteis
+
+Submódulo 9.1 – Resposta da Demanda 
+Revisão 1.0 
+12 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

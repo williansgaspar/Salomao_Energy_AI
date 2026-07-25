@@ -1,0 +1,362 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 1.3_-_Votos_e_Contribuicoes_v5.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 1.3_-_Votos_e_Contribuicoes_v5.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 1 – Agentes 
+Submódulo 1.3 – Votos e contribuições 
+procedimentos de 
+comercialização
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação 
+pela ANEEL Data de Vigência 
+1.0 Primeira versão aprovada  
+(CP n° 05/2012) Despacho nº 3.215/2012 16.10.2012 
+2.0 Aprimoramentos Despacho nº 1.975/2018 31.08.2018 
+3.0 Aprimoramentos Despacho nº 485/2022 16.02.2022 
+4.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1.012/2022 01.04.2022 
+5.0 Decreto n° 11.835/2023 Resolução Normativa n° 
+1.087/2024 
+01.02.2026 
+(Mês subsequente à homologação do 
+Estatuto da CCEE/2024 – Resolução 
+Homologatória nº 3.566/2026)
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A Assembleia Geral é o órgão deliberativo superior da CCEE, composta pelos agentes no pleno exercício de 
+seus direitos de voto, conforme disposto no Decreto nº 5.177/2004. 
+A cada Assembleia Geral é realizada a distribuição de votos entre os agentes por meio de processos de rateio 
+uniforme e proporcional, definidos na Convenção de Comercialização e no Estatuto Social da CCEE, e 
+calculados conforme estabelecido nas Regras de Comercialização. 
+Cada agente da CCEE deve realizar o pagamento do valor mensal referente à contribuição associativa, utilizada 
+para custeio das atividades realizadas pela CCEE. 
+2. OBJETIVO 
+Estabelecer os procedimentos de apuração e divulgação da quantidade de votos de cada agente na Assembleia 
+Geral e do valor da contribuição associativa mensal a ser paga à CCEE por seus agentes. 
+3. PREMISSAS 
+Cálculo de Votos  
+3.1 Os agentes da CCEE podem participar e votar nas sessões das Assembleias Gerais desde que estejam 
+adimplentes com todas as obrigações no âmbito da Câmara.  
+a) A CCEE realizará a verificação dos agentes adimplentes no prazo definido no item 5 - Fluxo de 
+Atividades.  
+b) Caso o agente possua débitos no âmbito da CCEE, ele ainda poderá participar e votar na 
+Assembleia Geral desde que regularize suas pendências. Para tanto, é necessário o 
+encaminhamento da comprovação da quitação dos débitos à CCEE, por meio de chamado, no 
+prazo estabelecido no item 5 - Fluxo de Atividades. 
+3.2 O agente pode indicar um representante para participar e votar nas Assembleias Gerais da CCEE em 
+seu nome e por sua conta, conforme submódulo 1.2 - Cadastro de agentes.  
+3.3 Os agentes têm direito de participar na distribuição de votos a partir da sua  efetiva 
+operacionalização. 
+3.4 A distribuição dos votos deve ser disponibilizada pela CCEE previamente à realização da Assembleia 
+Geral, incluindo os novos agentes e excluindo os agentes desligados da CCEE, caso aplicável.
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.5 Para fins de contagem de quórum para participação dos agentes em Assembleia Geral a CCEE deve 
+efetuar, no dia útil que antecede a Assembleia Geral, novo rateio de votos para considerar os novos 
+agentes e os agentes desligados. O quórum para Assembleia Gera l deve ser revisto a cada 
+convocação para Assembleia Geral. 
+3.6 A distribuição dos votos não é impactada por e ventuais recontabilizações que ocorram 
+posteriormente à sua divulgação. 
+3.7 A CCEE deve efetuar a distribuição de votos considerando:  
+a) O rateio proporcional de 95.000 votos, conforme volume de energia contabilizado pelos 
+agentes nos 12 (doze) meses anteriores à realização da Assembleia Geral; 
+b) O rateio uniforme de 5.000 votos; e  
+c) O número de agentes existente à época da realização da Assembleia Geral.  
+3.8 Os resultados da contabilização dos últimos 12 (doze) meses considerados para o cálculo dos votos 
+proporcionais dos agentes da CCEE devem estar certificados por auditoria independente. 
+3.9 A distribuição dos votos entre os agentes é realizada mensalmente para fins de rateio de eventuais 
+repercussões financeiras decorrentes do desligamento sem sucessão de agente inadimplente no 
+âmbito da CCEE. 
+3.10 O volume de energia contabilizado pelos agentes desligados e sem sucessores não compõe a base 
+de cálculo de votos da CCEE. 
+3.11 O volume total de energia contabilizado nos últimos 12 (doze) meses por agente(s) sucessor(es) e 
+eventual sucedido não desligado, que compõe a base de cálculo de votos da CCEE, é considerado 
+somando-se: 
+a) O volume de energia contabilizado por agente nos meses posteriores à sucessão; e 
+b) O volume de energia contabilizado pelo agente sucedido nos meses anteriores à sucessão, 
+proporcionalizado a cada agente de acordo com o(s) respectivo(s) percentual(is) de sucessão 
+de direitos e obrigações junto à CCEE. 
+3.12 O volume de energia contabilizado pelo sucessor já agente da CCEE, nos meses anteriores à 
+sucessão, é considerado para o cálculo de votos. 
+Custeio da CCEE 
+3.13 O custo de funcionamento da CCEE é coberto por contribuição associativa (parcela mínima e parcela 
+adicional), paga mensalmente por todos os agentes, e por emolumentos.
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.14 A cobrança de emolumentos ou o ressarcimento de custos e despesas pode decorrer da realização 
+de atividades específicas, como a realização de leilões, treinamentos, dentre outros. 
+3.15 A contribuição associativa é devida pelo agente a partir da sua efetiva operacionalização, nos termos 
+do submódulo 1.1 – Adesão à CCEE.  
+3.16 A contribuição associativa deve ter como base o custo total de operações da CCEE, rateado entre 
+todos os agentes, em duodécimos ou em outra periodicidade que vier a ser proposta pela Diretoria 
+e aprovada pelo CAd ou pela Assembleia Geral, se for o caso. 
+3.17 A parcela mínima da contribuição associativa é cobrada de todos os agentes de maneira uniforme, 
+independentemente do volume de energia transacionado, e tem como finalidade prover recursos 
+para a manutenção e operação dos serviços essenciais disponíveis, os quais são de uso individual e 
+estão relacionados à disponibilidade de tais serviços coletivos , tais como: Central de Atendimento, 
+Capacitação e Informações.  
+3.18 A parcela adicional da contribuição associativa é calculada nos termos das Regras de Comercialização 
+e cobrada de forma proporcional ao volume de energia transacionada por cada agente nos últimos 
+12 (doze) meses contabilizados e certificados, e tem como finalidade  financiar os demais custos 
+associados ao cumprimento do planejamento estratégico e às despesas gerais necessárias para o 
+pleno funcionamento do serviço coletivo.  
+3.18.1 Essa parcela da contribuição é destinada à cobertura de serviços de uso coletivo e abrange 
+os aspectos que extrapolam os serviços essenciais disponíveis para uso individual, 
+englobando uma participação proporcional nos custos relacionados ao planejamento 
+estratégico e às despesas gerais. 
+3.19 A CCEE deve disponibilizar ao agente, ao término do cálculo mensal da proporção do volume de 
+energia transacionado pelo agente nos últimos 12 (doze) meses, contabilizados e certificados: 
+a) A memória de cálculo da contribuição associativa, por meio de relatório; 
+b) A cobrança da contribuição associativa, por meio de e-mail e do sistema específico, localizado 
+na área logada do site da CCEE, para providências e pagamento. 
+3.20 O agente deve efetuar o pagamento da contribuição associativa mensal por meio da rede bancária, 
+até o respectivo vencimento. 
+3.21 O agente que tiver sua adesão deliberada pela Diretoria  e operacionalizada após o cálculo da 
+contribuição associativa do mês de referência pode participar do rateio da contribuição apenas no 
+próximo ciclo de cálculo.
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.22 O agente da CCEE desligado é passível de cobrança da contribuição associativa até o mês em que 
+ocorrer a liquidação financeira da última contabilização da qual tenha participado, respeitados os 
+prazos de vencimento das cobranças emitidas. 
+3.23 Eventuais recontabilizações de meses referentes ao período considerado como base para o cálculo 
+do valor da parcela adicional da contribuição associativa do agente não afetam os valores já 
+calculados. 
+3.24 A inadimplência no pagamento de emolumentos e contribuição associativa, além de caracterizar o 
+descumprimento de obrigações passível de instauração de procedimento de desligamento da 
+Câmara, nos termos do submódulo 1.5 – Desligamento da CCEE, e de medidas judiciais cabíveis, deve 
+implicar a incidência de multa de 2% (dois por cento) , juros de mora pro rata die  de 1% (um por 
+cento) e atualização monetária mensal do débito com base no índice IGP-M positivo divulgado pela 
+Fundação Getúlio Vargas , calculados e aplicados na mesma cobrança emitida  para pagamento do 
+emolumento ou da contribuição associativa. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+7 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Votos e Contribuição Associativa
+CCEE Agente
+Até M+3du
+Calcular a 
+quantidade de 
+votos e o valor da 
+contribuição 
+associativa
+Até M+5du
+Disponibilizar os 
+resultados do 
+cálculo de votos e 
+da contribuição 
+associativa
+Até M+5du
+Disponibilizar a 
+cobrança Até M+20du
+Efetuar o 
+pagamento da 
+contribuição 
+associativa
+Pagamento 
+efetuado?Não
+Até 5du 
+Pagar contribuição 
+associativa 
+corrigida
+Fim
+Sim
+Após a data de 
+vencimento da 
+cobrança
+Aplicar os 
+encargos por 
+atraso
+Início
+ 
+Legenda: 
+M: mês de apuração para contribuição associativa 
+du: dias úteis
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+8 
+ 
+procedimentos de 
+comercialização 
+Cálculo de Votos para Assembleia
+CCEE Agente
+Calcular a 
+quantidade de 
+votos por agente
+Até 1du antes da 
+Assembleia
+A cada 
+Assembleia
+Disponibilizar 
+distribuição de 
+votos para 
+Assembléia
+Até 1du antes da 
+Assembleia
+Verificar os 
+agentes 
+adimplentes
+Até 2du antes da 
+Assembleia
+Regularizar 
+pendências, se 
+for o caso
+Até 1du antes da 
+Assembleia
+Fim
+Votar, conforme 
+nº de votos
+Na Assembleia
+ 
+ 
+Legenda: 
+du: dias úteis
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+9 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Votos e contribuição associativa 
+Atividade Responsável Detalhamento Prazo 
+Calcular quantidade de votos 
+e o valor da contribuição 
+associativa 
+CCEE 
+Calcular o volume de energia comercializada, a quantidade de 
+votos uniformes e proporcionais e o valor da contribuição 
+associativa para cada agente da CCEE, conforme Regras de 
+Comercialização. 
+Até M+3du 
+Disponibilizar os resultados 
+do cálculo de votos e da 
+contribuição associativa 
+CCEE 
+Disponibilizar, nos termos deste submódulo, as informações 
+sobre as respectivas quantidades de votos dos rateios uniforme 
+e proporcional do agente, o total de contribuição de todos os 
+agentes, o percentual de participação do agente e seu valor de 
+contribuição associativa. 
+Até M+5du 
+Disponibilizar a cobrança CCEE 
+Disponibilizar a cobrança  com os valores de contribuição 
+associativa ao agente por e-mail e no sistema específico, 
+localizado na área logada do site da CCEE.  
+Até M+5du 
+Efetuar o pagamento da 
+contribuição associativa Agente - Até M+20du 
+Pagamento efetuado? CCEE Sim: finalizado o processo. 
+Não: aplicar os encargos por atraso. - 
+Aplicar os encargos  por 
+atraso CCEE Os encargos são aplicados na mesma cobrança da contribuição 
+associativa. 
+Após a data 
+de 
+vencimento 
+da cobrança 
+Pagar contribuição 
+associativa corrigida Agente Efetuar o pagamento da contribuição associativa corrigida. - 
+ 
+Legenda: 
+M: mês de apuração para contribuição associativa 
+du: dias úteis
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+10 
+ 
+procedimentos de 
+comercialização 
+Cálculo de votos para Assembleia 
+Atividade Responsável Detalhamento Prazo 
+Verificar os agentes 
+adimplentes CCEE A CCEE realizará a verificação dos agentes adimplentes. 
+Até 2du antes 
+da 
+Assembleia 
+Regularizar pendências, se 
+for o caso Agente 
+O agente que possua débitos no âmbito da CCEE  deve 
+regularizar suas pendências e encaminhar à CCEE, por meio 
+de chamado, a comprovação da quitação dos seus débitos. 
+Até 1du antes 
+da 
+Assembleia 
+Calcular a quantidade de 
+votos por agente CCEE - 
+Até 1du antes 
+da 
+Assembleia 
+Disponibilizar distribuição 
+de votos para Assembleia CCEE 
+Disponibilizar, por meio de relatório, a distribuição de votos 
+dos agentes para a Assembleia Geral, previamente à sua 
+realização. 
+1du antes da 
+Assembleia 
+Votar, conforme número 
+de votos Agente - Na 
+Assembleia 
+ 
+Legenda: 
+du: dias úteis
+
+Submódulo 1.3 – Votos e contribuições 
+Revisão 5.0 
+11 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

@@ -1,0 +1,233 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 8.4_-_mcsd_ex-post_v3.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 8.4_-_mcsd_ex-post_v3.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 8 – Mecanismo de 
+Compensação de Sobras e 
+Déficits - MCSD 
+Submódulo 8.4 – MCSD Ex-post 
+procedimentos de 
+comercialização
+
+Submódulo 8.4 – MCSD Ex-post 
+Revisão 3.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+  
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada Despacho nº 1.019/2013 10.04.2013 
+2.0 Adequação à REN nº 904/2020 e demais 
+aprimoramentos Despacho n° 485/2022 16.02.2022 
+3.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1012/2022 01.04.2022
+
+Submódulo 8.4 – MCSD Ex-post 
+Revisão 3.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O Mecanismo de Compensação de Sobras e Déficits Ex-Post – MCSD Ex-Post tem por objetivo permitir que os 
+agentes de distribuição otimizem a alocação da energia adquirida nos leilões de energia de empreendimentos 
+existentes e/ou novos, de forma a minimizar o risco de penalidades por insuficiência de lastro de energia. 
+O MCSD Ex-Post, previsto nas Regras de Comercialização , é processado anualmente após a divulgação dos 
+resultados da contabilização de dezembro  e antes do cálculo da s penalidades de insuficiência de lastro de 
+energia para os agentes de distribuição. Cumpre destacar que tal processamento se inicia após a divulgação, 
+por parte da Agência Nacional de Energia Elétrica - ANEEL, das exposições involuntárias dos agentes de 
+distribuição referentes ao ano-base de processamento.  
+O mecanismo aloca as sobras dos Contratos de Comercialização de Energia no Ambiente Regulado - CCEARs 
+de energia existente e/ou de energia nova , nas modalidades quantidade e disponibilidade,  dos agentes de 
+distribuição para atendimento dos déficits de outros agentes de distribuição, dentro do período de 12 (doze) 
+meses do ano civil anterior. 
+O MCSD Ex-post é facultativo para todas as distribuidoras que compraram pelo menos um produto nos leilões 
+de energia de empreendimentos existentes e/ou novos  e ocorre de forma multilateral, ou seja, não são 
+identificados os agentes que formam os pares de cedentes/c essionários. Os montantes recebidos por um 
+agente deficitário constituem lastro para atendimento à exigência de 100% (cem por cento) de cobertura de 
+consumo.  
+A transferência de energia no MCSD Ex -post tem utilização exclusiva na apuração de penalidade dos 
+distribuidores, não alterando as quantidades contratadas dos agentes e nem as quantidades sazonalizadas. 
+2. OBJETIVO 
+Estabelecer as condições, procedimentos e prazos para os agentes da CCEE participarem do MCSD Ex-Post. 
+3. PREMISSAS 
+3.1 O processamento do MCSD Ex-Post ocorre conforme estabelecido nas Regras de Comercialização da 
+CCEE. 
+3.2 A participação no MCSD Ex -Post é facultativa e a apuração das sobras será limitada aos agentes 
+distribuidores que compraram pelo menos um produto nos leilões de energia de empreendimentos 
+existentes e/ou novos, cujo suprimento esteja vigente no ano-base a que se refere o processamento 
+do MCSD Ex-Post.
+
+Submódulo 8.4 – MCSD Ex-post 
+Revisão 3.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.3 A CCEE deve enviar comunicado aos agentes com as orientações para participação no MCSD Ex-Post 
+até o 1º dia útil de dezembro do ano anterior ao de apuração. 
+3.4 O agente de distribuição deve informar, no sistema específico, o interesse em participar do MCSD 
+Ex-Post até o 10º dia útil de dezembro do ano anterior ao de apuração. 
+3.5 Até o 15º dia útil de dezembro do ano anterior ao de apuração, a CCEE deve divulgar a relação dos 
+agentes de distribuição participantes do MCSD Ex-post. 
+3.6 Após a contabilização do mês de dezembro do ano civil em apuração e antes do cálculo das 
+penalidades para os agentes de distribuição, a CCEE processa o MCSD Ex -post e disponibiliza 
+relatório. 
+3.6.1 A CCEE somente inicia o processamento do MCSD Ex-Post após a divulgação, por parte da 
+ANEEL, das exposições involuntárias dos agentes de distribuição referentes ao ano-base de 
+processamento. 
+3.7 O resultado do processamento do  MCSD Ex-Post não é objeto de cessão e/ou redução de CCEARs, 
+bem como não altera os resultados dos processamentos do MCSD de Energia Existente e do MCSD 
+de Energia Nova . Eventuais compensações serão consideradas exclusivamente para fins de 
+insuficiência de lastro de energia, no processo de apuração de penalidades. 
+3.8 O MCSD Ex -Post pode ser reprocessado somente mediante autorização da ANEEL. No 
+reprocessamento devem ser considerados os últimos eventos recontabilizados referentes aos meses 
+do ano-base. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 8.4 – MCSD Ex-post 
+Revisão 3.0 
+5 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+ 
+MCSD Ex-Post
+Agente de 
+distribuição CCEE ANEEL
+Início
+N/A
+Divulgar as exposições 
+involuntárias dos 
+agentes de 
+distribuição
+Até o 1ºdu de 
+dezembro do ano 
+anterior ao de 
+apuração
+Divulgar orientações 
+para participação no 
+MCSD Ex-Post
+Até o 10ºdu de 
+dezembro do ano 
+anterior ao de 
+apuração
+Informar interesse 
+em participar do 
+MCSD Ex-Post
+Até o 15ºdu de 
+dezembro do ano 
+anterior ao de apuração
+Divulgar a relação dos 
+agentes de distribuição 
+participantes do MCSD 
+Ex-Post
+Após a contabilização do 
+mês de dezembro do 
+ano civil de apuração e 
+antes do cálculo das 
+penalidades para os 
+agentes de distribuição
+Disponibilizar relatório 
+do processamento do 
+MCSD Ex-Post
+Fim  
+Legenda: 
+du: dias úteis 
+N/A: Não aplicável
+
+Submódulo 8.4 – MCSD Ex-post 
+Revisão 3.0 
+6 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+MCSD Ex-Post 
+Atividade Responsável Detalhamento Prazo 
+Divulgar orientações para 
+participação no MCSD Ex -
+Post 
+CCEE 
+As orientações para participação dos 
+agentes de distribuição no MCSD Ex-Post são 
+informadas por meio de comunicado. 
+Até o 1ºdu de dezembro do 
+ano anterior ao de apuração 
+Informar interesse em 
+participar do MCSD Ex-Post 
+Agente de 
+distribuição 
+O interesse em participar no mecanismo 
+deve ser informado, no sistema específico, 
+até as 18h do prazo previsto neste 
+submódulo. 
+Até o 10ºdu de dezembro do 
+ano anterior ao de apuração 
+Divulgar a relação dos 
+agentes de distribuição  
+participantes do MCSD Ex -
+Post 
+CCEE 
+A lista dos agentes de distribuição  
+participantes do mecanismo é divulgada 
+pela CCEE por meio de comunicado. 
+Até o 15ºdu de dezembro do 
+ano anterior ao de apuração 
+Divulgar as exposições 
+involuntárias dos agentes 
+de distribuição 
+ANEEL 
+As exposições involuntárias dos agentes de 
+distribuição, referentes ao ano -base de 
+processamento do mecanismo, são 
+divulgadas pela ANEEL. 
+N/A 
+Disponibilizar relatório do 
+processamento do MCSD 
+Ex-Post 
+CCEE 
+O MCSD Ex -Post deve ser processado  e 
+disponibilizado o relatório  após a 
+contabilização do mês de dezembro do ano 
+civil em apuração e antes do cálculo das 
+penalidades para os agentes de distribuição, 
+mediante a divulgação das exposições 
+involuntárias dos agentes de distribuição, 
+pela ANEEL. 
+Após a contabilização do mês 
+de dezembro do ano civil de 
+apuração e antes do cálculo 
+das penalidades para os 
+agentes de distribuição 
+ 
+Legenda: 
+du: dias úteis 
+N/A: Não aplicável
+
+Submódulo 8.4 – MCSD Ex-post 
+Revisão 3.0 
+7 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

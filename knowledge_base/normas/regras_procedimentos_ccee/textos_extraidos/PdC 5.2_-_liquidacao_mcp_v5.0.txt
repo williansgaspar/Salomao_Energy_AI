@@ -1,0 +1,353 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 5.2_-_liquidacao_mcp_v5.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 5.2_-_liquidacao_mcp_v5.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 5 – Mercado de 
+Curto Prazo 
+Submódulo 5.2 – Liquidação no mercado de curto 
+prazo 
+procedimentos de 
+comercialização
+
+Submódulo 5.2 – Liquidação no mercado de curto prazo 
+Revisão 5.0 
+2 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP05/2012) Despacho nº 3.215/2012 16.10.2012 
+1.1 Adequação de Prazos Despacho n° 283/2013 04.02.2013 
+2.0 Adequação de Prazos de pré e pós-liquidação e à 
+REN ANEEL n° 622/2014 Despacho n° 4.881/2014 22.12.2014 
+3.0 Divulgação dos agentes inadimplentes e demais 
+melhorias Despacho n° 3.646/2020 01.01.2021 
+4.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1012/2022 01.04.2022 
+5.0 Aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 5.2 – Liquidação no mercado de curto prazo 
+Revisão 5.0 
+3 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+Ao final de um determinado período de operações, em base mensal, a CCEE , no processamento da 
+contabilização, calcula qual a posição, devedora ou credora, de cada agente com relação ao Mercado de Curto 
+Prazo - MCP. 
+Após o process amento d a liquidação f inanceira, a CCEE viabiliza  os pagamentos e  os recebimentos, 
+respectivamente, dos débitos e créditos apurados no processo de contabilização, relativos às operações de 
+compra e venda de energia elétrica realizadas por seus agentes no MCP. 
+A liquidação financeira é realizada de forma multilateral, sem que haja identificação de parte e contraparte 
+nas transações de créditos e débitos. 
+A(s) instituição(ões) financeira(s) contratada(s) ou credenciadas(s) pela CCEE como agente(s) de liquidação ou 
+agente garantidor(es) são responsáveis, respectivamente, pela operacionalização do processo de liquidação e 
+pela constituição de garantias financeiras mediante a concessão de Limites de Crédito aos agentes da CCEE.  
+Informações detalhadas do processamento da liquidação financeira constam em módulo específico das Regras 
+de Comercialização disponível no site da CCEE. 
+2. OBJETIVO 
+Estabelecer os procedimentos e prazos relativos à liquidação financeira das operações de compra e venda de 
+energia elétrica realizadas no MCP, no âmbito da CCEE. Este submódulo é aplicável ao agente garantidor, ao 
+agente de liquidação e a todas as categorias de agentes da CCEE.  
+3. PREMISSAS 
+3.1 A CCEE deve realizar a contabilização das operações de compra e venda, realizadas no MCP, efetuar 
+o cálculo do valor a ser liquidado e gerar o mapa de liquidação contendo os débitos e créditos 
+relativos a cada agente da CCEE. 
+3.2 Um relatório específico de pré -liquidação, contendo o percentual de rateio da inadimplência e o 
+respectivo valor a liquidar, deve ser gerado e disponibilizado aos agentes por meio d e sistema 
+específico. 
+3.3 A liquidação financeira ocorre em duas datas, sendo uma para o depósito de recursos por parte dos 
+agentes devedores e outra para a transferência desses recursos aos agentes credores.  Tais datas 
+estão previstas no Fluxo de Atividades deste submódulo e, a critério da Diretoria da CCEE , podem 
+ser alteradas.
+
+Submódulo 5.2 – Liquidação no mercado de curto prazo 
+Revisão 5.0 
+4 
+procedimentos de 
+comercialização 
+3.4 O Calendário an ual de liquidação do MCP com as datas dos débitos e dos créditos para cada mês 
+deve ser divulgado no site da CCEE antes do início do ano. 
+3.5 Os valores a serem liquidados podem, eventualmente, apresentar diferença em centavos  
+decorrentes de arredondamentos previstos nos processos de contabilização e liquidação financeira, 
+os quais são suportados pela CCEE. 
+3.6 O montante financeiro do débito apurado e informado pela CCEE aos agentes e aos agentes 
+garantidores, por meio de relatório de liquidação, deve ser depositado em conta corrente específica 
+e estar disponível  durante o  expediente bancário d o dia dos débitos , conforme calendário de 
+liquidação financeira relativa ao MCP publicado no site da CCEE. 
+3.6.1 Em caso de compensação financeira, a mesma deve ocorrer a tempo de atender à data dos 
+débitos da liquidação financeira do MCP.  
+3.7 No dia do pagamento dos valores dos créditos, o agente de liquidação deve creditar os recursos 
+financeiros na conta corrente específica de cada agente credor, considerando a dedução 
+proveniente do cálculo do rateio de inadimplência, se for o caso. 
+3.8 Grupo de Agentes, a exemplo de empresas matriz e/ou filiais podem optar pela abertura de conta 
+corrente específica única, conforme previsto no submódulo 1.1 – Adesão à CCEE. Essa opção não 
+exime que os débitos, créditos e as garantias financeiras sejam tratados de forma individualizada, ou 
+seja, os débitos são lançados pelo agente de liquidação conforme ordem de alocação de recursos 
+financeiros definida pelos agentes envolvidos, caracterizando como inadimplente(s) o(s) agente(s) 
+cujo(s) débito(s) não seja(m) totalmente coberto(s). 
+3.9 Caso o agente garantidor não deposite integralmente os recursos financeiros no prazo estabelecido 
+pela CCEE, o agente impactado será responsável pelos valores faltantes. 
+3.10 A diferença entre a obrigação inicial e o valor aportado pelo agente  devedor deve ser objeto de 
+rateio de inadimplência. 
+3.11 Caso recaiam medidas constritivas tais como, mas sem limitação, arresto, sequestro ou penhora 
+judicial sobre eventuais ativos aportados em garantias e/ou valores constituídos para fins de 
+liquidação financeira, a parcela ou totalidade do montante atingida por tais medidas será 
+considerada como inadimplência do agente no âmbito da CCEE.  
+3.12 Caracterizada a inadimplência, o agente fica sujeito, no âmbito da CCEE, ao procedimento de 
+desligamento previsto na Resolução Normativa nº 957 /2021, bem como no submódulo 1.5 – 
+Desligamento da CCEE , sem prejuízo da aplicação de penalidades previstas nas demais normas 
+aplicáveis à matéria.
+
+Submódulo 5.2 – Liquidação no mercado de curto prazo 
+Revisão 5.0 
+5 
+procedimentos de 
+comercialização 
+3.13 Os valores remanescentes da liquidação financeira devem ser atualizados monetariamente 
+conforme o disposto na Resolução Normativa nº 957/2021. 
+3.13.1 Caso o último índice divulgado seja negativo, o mesmo é desconsiderado e, neste caso, não 
+há atualização monetária.  
+3.14 O ACER – Agente Comercializador de Energia de Reserva  não participa do rateio de inadimplência 
+com os demais agentes credores na liquidação dos créditos do MCP. 
+3.15 É de competência exclusiva dos agentes o cumprimento das obrigações fiscais, a condução de seus 
+negócios e o recolhimento de tributos, sendo os únicos responsáveis pela verificação do s 
+procedimentos adequados a ser em adotados, bem como dirimir quaisquer dúvidas perante a 
+Fazenda Federal, Distrital, Estadual, Municipal ou terceiros, conforme o caso. 
+3.16 Eventuais informações, interpretações ou opiniões jurídicas da CCEE não são determinativas e não 
+afastam interpretações diferentes pelas Administrações Tributárias, não devendo a CCEE se 
+responsabilizar pela utilização dessas informações, interpretações ou  opiniões pelos agentes 
+impactados por este submódulo. 
+3.17 A CCEE deve disponibilizar , de forma pública , relação de inadimplentes, contendo a lista de 
+inadimplentes (inclusive quanto ao pagamento de penalidades) com respectivos valores 
+inadimplidos, com informação sobre eventual inexigibilidade de valores de qualquer agente 
+inadimplente, bem como a eventual justificativa enviada pelo agente, em seu inteiro teor. O 
+conteúdo da justificativa é de total e inteira responsabilidade do agente, para todos os fins e efeitos, 
+e será disponibilizado publicamente sem análise prévia da CCEE. 
+3.18 O agente de liquidação deve emitir para cada agente da CCEE sua respectiva Nota de Liquidação da 
+Contabilização - NLC.  
+3.19 A CCEE deve encaminhar à ANEEL a relação de inadimplentes na liquidação financeira e respectivos 
+valores inadimplidos. 
+3.20 Após o término do processamento da liquidação financeira, o auditor independente deve realizar a 
+validação dos resultados dessa liquidação financeira. 
+Decisões Judiciais, Arbitrais ou Administrativas de Caráter Provisório 
+3.21 No caso de existência de decisão judicial, arbitral ou administrativa de caráter provisório,  que 
+determine a suspensão da obrigação de pagamento de débito apurado na contabilização , a CCEE 
+deve proceder aos ajustes na contabilização e na liquidação mediante a utilização de Mecanismo 
+Auxiliar de Cálculo - MAC.
+
+Submódulo 5.2 – Liquidação no mercado de curto prazo 
+Revisão 5.0 
+6 
+procedimentos de 
+comercialização 
+3.22 Os valores objeto da decisão referida na premissa anterior devem ser excluídos dos montantes totais 
+a serem liquidados, e lançados em registro escritural especial mantido pela CCEE , bem como  
+informados aos agentes para conhecimento, relativamente aos valores específicos de cada agente. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 5.2 – Liquidação no mercado de curto prazo 
+Revisão 5.0 
+7 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Liquidação Financeira
+CCEE Agente da CCEE Agente garantidor Agente de 
+liquidação
+Início
+Até MS+22du
+Cálculo do valor 
+a liquidar e 
+geração do mapa 
+de liquidação
+Até MS+22du
+Disponibilizar 
+relatório
+MS+26du
+Disponibilizar 
+recursos para 
+liquidação 
+financeira
+MS+26du
+Verificar 
+suficiência de 
+recursos 
+financeiros
+MS+26du
+Aportar recursos 
+financeiros até o 
+limite das 
+garantias do 
+agente da CCEE
+MS+26du
+Apurar eventuais 
+montantes de 
+inadimplência
+A
+MS+26du
+Disponibilizar 
+recursos para 
+liquidação 
+financeira
+
+Submódulo 5.2 – Liquidação no mercado de curto prazo 
+Revisão 5.0 
+8 
+procedimentos de 
+comercialização 
+Liquidação Financeira
+CCEE Agente da CCEE Agente garantidor Agente de liquidação
+Até 5du
+Apresentar 
+manifestação à 
+CCEE
+Fim
+Até MS+32du
+Emitir NLC para 
+os agentes da 
+CCEE
+MS+27du
+Processar a 
+transferência de 
+recursos aos 
+agentes credores
+LCmcp+2du
+Disponibilizar 
+relatórios de 
+liquidação 
+financeira aos 
+agentes da CCEE e 
+relação de 
+inadimplentes
+A
+Fim
+ 
+Legenda 
+MS: Mês seguinte ao mês de operação de compra e venda de energia 
+LCmpc: Data dos créditos da liquidação financeira do MCP (MS+27du) 
+du: dias úteis
+
+Submódulo 5.2 – Liquidação no mercado de curto prazo 
+Revisão 5.0 
+9 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Liquidação financeira 
+Atividade Responsável Detalhamento Prazo 
+Cálculo do valor a liquidar e 
+geração do mapa de liquidação CCEE 
+A CCEE deve calcular o valor a ser liquidado e gerar, para 
+conferência e validação do agente de liquidação e do agente 
+garantidor, o mapa de liquidação contendo os valores a 
+serem transacionados na liquidação do MCP, detalhados de 
+acordo com débitos e créd itos relativos a cada agente da 
+CCEE. 
+Até 
+MS+22du 
+Disponibilizar relatório CCEE 
+A CCEE deve divulgar , por meio de sistema específico,  
+relatório com dados referentes à pré -liquidação financeira, 
+contendo os montantes de débito e crédito de cada agente. 
+Até 
+MS+22du 
+Disponibilizar recursos para 
+liquidação financeira 
+Agente da CCEE 
+e/ou 
+Agente 
+garantidor 
+O montante requisitado por meio de relatório/mapa de 
+liquidação deve estar disponível na conta corrente específica 
+do agente da CCEE até o encerramento  do expediente 
+bancário no dia do pagamento dos débitos. 
+MS+26du 
+Verificar suficiência de 
+recursos financeiros 
+Agente de 
+Liquidação 
+O agente de liquidação deve verificar a suficiência de 
+recursos aportados. MS+26du 
+Apurar eventuais montantes 
+de inadimplência 
+Agente de 
+Liquidação 
+O agente de liquidação deve apurar eventuais montantes de 
+inadimplência, através da diferença entre a expectativa de 
+total de recebimentos e o total de valores efetivamente 
+recebidos. 
+MS+26du 
+Processar a transferência de 
+recursos aos agentes credores 
+Agente de 
+Liquidação 
+O agente de liquidação deve p rocessar a transferência dos 
+recursos financeiros recebidos dos agentes devedores aos 
+agentes credores, considerando os percentuais de rateio da 
+inadimplência informada. 
+MS+27du 
+Disponibilizar relatórios de 
+liquidação financeira e as 
+relações de inadimplentes e de 
+ações judiciais que tenham 
+ocasionado impacto na 
+contabilização do MCP. 
+CCEE 
+A CCEE deve disponibilizar os resultados da liquidação 
+financeira aos agentes por meio de relatórios, constantes em 
+sistema específico , bem como a s relações de agentes 
+inadimplentes e com informação sobre eventual 
+inexigibilidade de valores de qualquer agente inadimplente , 
+de forma pública. 
+Até 
+LCmcp+2du 
+Apresentar manifestação à 
+CCEE Agente 
+Os agentes constantes nas relações de inadimplentes podem 
+apresentar manifestação sobre a inadimplência verificada na 
+liquidação financeira e/ou participação em eventual ação 
+judicial à CCEE, sob sua inteira e total responsabilidade, a 
+qual será disponibilizada publicamente sem análise prévia da 
+CCEE.  
+Até 5du 
+Emitir Notas de Liquidação da 
+Contabilização (NLC) para os 
+agentes da CCEE 
+Agente de 
+Liquidação 
+O agente de liquidação deve emitir e enviar aos agentes, 
+Nota de Liquidação da Contabilização - NLC de acordo com 
+os valores efetivamente liquidados. 
+Até 
+MS+32du 
+ 
+Legenda: 
+MS: Mês seguinte ao mês de operação de compra e venda de energia 
+LCmpc: Data dos créditos da liquidação financeira do MCP (MS+27du) 
+du: dias úteis
+
+Submódulo 5.2 – Liquidação no mercado de curto prazo 
+Revisão 5.0 
+10 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

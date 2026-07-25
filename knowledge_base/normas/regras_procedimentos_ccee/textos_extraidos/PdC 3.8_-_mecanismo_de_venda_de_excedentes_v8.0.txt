@@ -1,0 +1,1642 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 3.8_-_mecanismo_de_venda_de_excedentes_v8.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+1 
+ 
+ 
+ 
+ 
+  
+Módulo 3 – Contratação de 
+Energia 
+Submódulo 3.8 – Mecanismo de Venda de 
+Excedentes 
+procedimentos de 
+comercialização
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL Data de Vigência 
+1.0 Primeira versão aprovada  
+(CP n° 09/2019) Despacho n° 2.626/2019 23.09.2019 
+2.0 Adequação à REN n° 909/2020 Despacho n° 3.646/2020 01.01.2021 
+3.0 Adequação à REN n° 904/2020 e 
+aprimoramentos Despacho n° 485/2022 16.02.2022 
+4.0 Audiência Pública nº 03/2022 Resolução Normativa n° 
+1.012/2022 01.04.2022 
+5.0 Consulta Pública nº 46/2021 Resolução Normativa n° 
+1.015/2022 
+Conforme art. 7º da REN nº 
+1.015/2022 
+6.0 Consulta Pública nº 72/2021 Resolução Normativa n° 
+1.046/2022 
+Conforme art. 6º da REN nº 
+1.046/2022 
+7.0 Adequação à REN n° 1.051/2022 Despacho nº 1.032/2023 17.04.2023 
+8.0 Aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O Mecanismo de Venda de Excedentes - MVE tem por objetivo permitir que os agentes de distribuição 
+(agentes vendedores) negociem seus excedentes contratuais de energia elétrica no Ambiente de Contratação 
+Livre com agentes de geração, agentes de autoprodução, agentes de comercialização, consumidores livres e 
+consumidores especiais que estejam adimplentes na CCEE (agentes compradores), de modo transparente , 
+com igualdade de acesso e com a exigência de garantias financeiras. 
+As declarações de oferta para o mecanismo , realizadas pelos agentes vendedores e compradores , são 
+voluntárias, irrevogáveis e irretratáveis. 
+A CCEE centraliza o processamento  do mecanismo, bem como a apuração e a liquidação financeira dos 
+montantes a pagar e a receber para os agentes participantes que se sagrarem vencedores , conforme as 
+negociações realizadas por produto , sendo que os efeitos decorrentes da  inadimplência do s agentes 
+compradores vencedores são tratados de forma bilateral, afetando somente os vendedores que negociaram 
+com o agente inadimplente, nos termos das Regras de Comercialização. 
+2. OBJETIVO 
+Estabelecer as condições, requisitos, procedimentos e prazos necessários para operacionalizar o MVE, de 
+acordo com  a regulamentação vigente . Este submódulo se aplica aos agentes de distribuição , agentes de 
+geração, agentes de autoprodução, agentes de comercialização, consumidores livres e consumidores 
+especiais. 
+3. PREMISSAS 
+Gerais 
+3.1 As garantias exigidas para o funcionamento do mecanismo são: i) Garantia Financeira de Participação 
+(GFinP) e ii) Garantia Financeira de Fiel Cumprimento do Contrato (GFinFC). 
+3.2 Eventuais garantias financeiras depositadas junto ao agente custodiante pelo agente, relativas a 
+outras operações não relacionadas ao MVE, não poderão integrar as garantias financeiras para o 
+mecanismo. 
+3.3 O valor de referência da GFinP, estabelecido na regulamentação vigente, será atualizado anualmente 
+e publicado pela CCEE, em seu site, até o final de dezembro.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.4 A GFinP e a GFinFC  serão avaliadas e recebidas pelo  agente custodiante e somente serão 
+consideradas válidas se observarem , no mínimo, os seguintes critérios: i) baixo risco, alta liquidez, 
+certeza e exigibilidade, ii) rápida execução (até o dia seguinte à comunicação da CCEE sobre a 
+necessidade de execução) e iii) vigência, na qual as garantias devem estar válidas até a data posterior 
+à data limite de execução para o atendimento de sua finalidade, conforme subpremissas a seguir: 
+3.4.1 A GFinP deve estar vigente desde a data limite para o aporte, nos termos da premissa 
+3.10.1, até, pelo menos, o último dia útil do mês de processamento do mecanismo. 
+3.4.2 A GFinFC deve estar vigente desde o início de suprimento do contrato proveniente do 
+mecanismo, observado o prazo para o aporte estabelecido na premissa 3.34, até , pelo 
+menos, o último dia útil do mês subsequente ao último mês de suprimento do contrato. 
+3.5 Os procedimentos operacionais relativos ao aporte, recomposição, substituição, liberação, 
+renovação, eventuais complementos das garantias financeiras, dentre outros, devem ser observados 
+pelo agente junto ao agente custodiante ou, ainda, quando solicitado pelo agente custodiante. 
+3.6 A valoração das garantias estabelecidas com base no depósito pode ser revista a exclusivo critério 
+do agente custodiante, caso este julgue que quaisquer destas sofreram ou estão por sofrer uma 
+deterioração no valor ou na qualidade. Neste caso, o agente cus todiante deve entrar em contato 
+com o agente para que este promova reforço ou a substituição das garantias, cumpridos os prazos 
+estipulados neste submódulo. 
+Participação no Mecanismo 
+3.7 A CCEE deve apurar e divulgar para cada agente de distribuição, por meio do sistema específico, o 
+limite dos montantes de energia elétrica disponível para venda em até 5du (cinco dias úteis) antes 
+da data do início do processamento do mecanismo.  
+3.8 Caso o agente de distribuição  possua algum questionamento relativo ao montante de energia 
+elétrica mencionado na premissa anterior, deve se manifestar em até 4du (quatro dias úteis) antes 
+da data do início do processamento do mecanismo. 
+3.9 A CCEE deve realizar a análise até o dia útil anterior ao início do processamento do mecanismo e, 
+caso seja procedente, realizar a adequação dos montantes diretamente no sistema específico.  
+3.10 O agente interessado em participar do mecanismo como comprador deve:
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.10.1 Aportar a GFinP junto ao agente custodiante, nos termos deste submódulo, das Regras de 
+Comercialização e da regulamentação vigente, em até 5du (cinco dias úteis) antes do início 
+do processamento do mecanismo , cabendo ao agente custodiante, no mesmo prazo, 
+informar à CCEE os agentes que aportaram a GFinP e os montantes aportados. 
+3.10.2 Estar adimplente com todas as suas obrigações financeiras no âmbito da CCEE.  
+a) A CCEE realizará a verificação dos agentes elegíveis até 4du (quatro dias úteis) antes 
+do início do processamento do mecanismo.  
+b) Caso o agente interessado possua débitos no âmbito da CCEE, ele poderá participar 
+do mecanismo desde que regularize suas pendências até 2du (dois dias úteis) antes 
+do início do processamento do mecanismo e informe à CCEE, que realizará a análise 
+até o dia útil anterior ao início do processamento do mecanismo. 
+3.11 Excepcionalmente, a CCEE pode alterar os prazos estabelecidos na presente seção deste submódulo, 
+mediante prévia comunicação aos agentes. 
+3.12 O sistema  específico indicará, na data do início do processamento do mecanismo, se o agente 
+comprador é elegível ou não para participação. 
+Processamento do Mecanismo  
+3.13 O calendário anual com as datas de processamento do mecanismo, respeitando as diretrizes da 
+regulamentação vigente, deve ser divulgado no site da CCEE antes do início de cada ano, observadas 
+as premissas 3.11 e 3.26. 
+3.14 O processamento do mecanismo é composto por etapas, e cada etapa é composta por um ou mais 
+produtos, nos termos da regulamentação vigente. 
+3.15 A CCEE deve definir e divulgar, por meio de comunicado específico: i) o horário previsto para o início 
+do encaminhamento das ofertas ; ii) a composição das etapas  de processamento; iii) o período de 
+duração de cada etapa; iv) os produtos que serão disponibilizados por etapa; v) outras informações 
+que a CCEE considerar relevantes. 
+3.16 Todas as referências de horários devem ser feitas considerando-se o horário de Brasília. 
+3.17 Eventual alteração oficial  dos critérios de início e término do horário de verão não enseja 
+reprocessamento dos mecanismos anteriores. Os novos critérios devem ser considerados nos 
+processamentos dos mecanismos subsequentes a essa nova definição.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.18 Na data do processamento do mecanismo, cada  agente participante pode enviar suas ofertas de 
+venda ou compra no mecanismo por produto, inserindo as informações exigidas pelo sistema  
+específico, sendo algumas de caráter obrigatório, tais como opção de vigência, tipo de energia, 
+modalidade de preço, submercado, código do perfil (deve ser inserido no sistema o “código do perfil 
+de agente” ativo na CCEE), dentre outras. 
+3.19 As ofertas de venda e compra devem ser enviadas para a CCEE, exclusivamente, por meio do sistema 
+específico. 
+3.20 A quantidade máxima de ofertas de compra por agente participante é limitada ao montante de GFinP 
+aportado pelo agente. 
+3.21 As ofertas de venda e compra  submetidas pelos agentes participantes são  irrevogáveis e 
+irretratáveis, e devem considerar a totalidade de seus custos, incluindo os custos tributários, para 
+precificação, obrigando-os a cumprir fielmente as condições de participação no mecanismo. 
+3.22 É de competência exclusiva dos agentes o cumprimento das obrigações fiscais, a condução de seus 
+negócios e o recolhimento de tributos, sendo os únicos responsáveis pela verificação dos 
+procedimentos adequados a serem adotados, bem como dirimir quaisquer dú vidas perante a 
+Fazenda Federal, Distrital, Estadual, Municipal ou terceiros, conforme o caso. 
+3.23 Eventuais informações, interpretações ou opiniões jurídicas da CCEE não são determinativas e não 
+afastam interpretações diferentes pelas Administrações Tributárias, não devendo a CCEE se 
+responsabilizar pela utilização dessas informações, interpretações ou  opiniões pelos agentes 
+impactados por este submódulo. 
+3.24 Todas as informações inseridas no sistema específico serão passíveis de auditoria. 
+3.25 A CCEE deve dar tratamento confidencial e sigiloso ao conteúdo das ofertas de venda e compra 
+submetidas pelos agentes participantes, observada a premissa 3.32. 
+3.26 A critério da CCEE, o processamento do mecanismo poderá ser temporariamente suspenso e/ou ter 
+suas negociações reprogramadas em decorrência de fatos supervenientes, mediante comunicação 
+aos agentes. 
+3.27 Durante as suspensões, novas ofertas de venda ou  compra não poderão ser submetidas  ao 
+mecanismo. 
+3.28 O mecanismo não será objeto de reprocessamento, mesmo nos casos em que houver 
+recontabilizações de meses impactados pelo mecanismo.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.29 O encaminhamento de ofertas de venda ou compra implica na concordância do participante com 
+todos os procedimentos, termos e condições relacionados ao mecanismo, dispostos neste 
+submódulo, nas Regras de Comercialização e na regulamentação vigente. 
+Resultados do Mecanismo 
+3.30 O cálculo dos montantes de energia elétrica negociados em cada produto deve considerar o 
+arredondamento dos números com 6 (seis) casas decimais após a vírgula, podendo ocorrer eventuais 
+diferenças residuais positivas ou negativas em decorrência dos arredondamentos. 
+3.31 Os montantes e preços de equilíbrio, bem como os agentes vendedores e compradores vencedores 
+do mecanismo são determinados por produto negociado, nos termos das Regras de Comercialização.  
+3.32 Após a execução de cada etapa de processamento do mecanismo, serão disponibilizadas no sistema 
+específico as informações sobre: i) montantes totais negociados nos produtos; ii) preços marginais 
+por produto; e iii) status das ofertas: “atendida”, “parcialmente atendida” ou “não atendida” (as 
+informações relativas aos itens “i”, “ii” e “iii” serão públicas, exceto aquelas relativas ao status “não 
+atendida”, que serão restritas). 
+3.33 Em até 3du (três dias úteis) após o término de todas as etapas de processamento do mecanismo, a 
+CCEE deve realizar o cadastro do contrato preliminar e: 
+3.33.1 Divulgar o resultado final, por meio de relatório,  com informações sobre as negociações, 
+incluindo: i) os participantes vencedores e os pares contratuais de cada  produto e ii) o 
+extrato da contratação de cada agente, com os valores necessários para aporte integral da 
+GFinFC (exceto para produto mensal) por agente comprador vencedor. 
+3.33.2 Informar ao agente custodiante os valores de GFinP a serem liberados: i) para o agente que 
+não participou do mecanismo por estar inadimplente na CCEE, nos termos da premissa 
+3.10.2, ii) para o agente que não se sagrou vencedor em nenhum produto no mecanismo, 
+iii) para o agente comprador vencedor apenas de produto mensal  e iv) para o agente 
+comprador vencedor de qualquer produto (exceto mensal), em montante que exceda o 
+aporte integral da GFinFC. 
+3.34 Em até 2du (dois dias úteis) antes do Programa Mensal de Operação (PMO), o agente comprador 
+vencedor de qualquer produto (exceto mensal) deve aportar a GFinFC integral junto ao agente 
+custodiante, nos termos deste submódulo, das Regras de Comercialização e  da regulamentação 
+vigente, cabendo ao agente custodiante, no mesmo prazo, informar à CCEE os agentes que 
+realizaram o aporte e os montantes aportados.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+8 
+ 
+procedimentos de 
+comercialização 
+3.35 Em até 1du (um dia útil) antes do Programa Mensal de Operação (PMO), a  CCEE deve informar ao 
+agente custodiante os valores de GFinP a serem liberados para os agentes compradores vencedores 
+de qualquer produto (exceto mensal)  que aportaram a GFinFC integral, nos termos da premissa 
+anterior.    
+3.36 Em até 1du (um dia útil) antes do PMO, em caso de não aporte integral da GFinFC  por parte do 
+agente comprador vencedor de qualquer produto (exceto mensal), a GFinP será executada em favor 
+das contrapartes vendedoras para o pagamento da multa por rescisão contratual ocasionada pelo 
+não aporte integral da GFinFC, calculada pela CCEE nos termos das Regras de Comercialização e da 
+regulamentação vigente , e os valores serão depositados na mesma conta corrente destinada à 
+liquidação financeira de Cotas, observada a premissa 3.52. 
+3.37 Até o dia do PMO, a CCEE deve divulgar eventual valor remanescente da multa por rescisão 
+contratual ocasionada pelo não aporte integral da GFinFC, que não foi coberto pela GFinP executada, 
+para cobrança bilateral.  
+3.37.1 O valor informado pela CCEE, a título de multa por rescisão contratual ocasionada pelo não 
+aporte integral da GFinFC , constitui o principal da obrigação de débito do agente 
+comprador vencedor do mecanismo, pois a cobrança da multa é realizada bilateralmente, 
+cabendo às contrapartes vendedoras efetuarem o cálculo das atualizações monetárias e 
+demais encargos devidos pelo  agente comprador, não competindo à CCEE apresentar o 
+valor a ser cobrado.   
+3.37.2 Caberá ao agente vendedor e comprador vencedor do mecanismo adotarem as medidas 
+mais ágeis para evidenciar à CCEE o adimplemento das obrigações, em comum acordo, 
+bem como assumir exclusivamente as eventuais consequências dos atrasos na prova de 
+quitação das obrigações, de forma a manter a CCEE isenta de qualquer responsabilidade 
+do acordo bilateral das contrapartes.    
+3.38 Caracterizado o não aporte integral da GFinFC por parte do agente comprador vencedor de qualquer 
+produto (exceto mensal), será iniciado o processo de desligamento do agente por descumprimento 
+de obrigação, nos termos do submódulo 1.5 – Desligamento da CCEE. 
+3.38.1 O processo de desligamento será suspenso e iniciado o período de monitoramento, nos 
+termos da regulamentação vigente, em caso de: i) pagamento da multa de que trata a 
+premissa 3.37, quando devidamente e imediatamente comprovado à CCEE e validado pelo 
+agente credor e ii) não ocorrência de outros descumprimentos de obrigações no âmbito 
+da CCEE.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+9 
+ 
+procedimentos de 
+comercialização 
+3.39 As relações entre os agentes vendedores e os agentes compradores vencedores do mecanismo serão 
+representadas por meio de Contratos de Comercialização de Energia no Ambiente Livre – CCEALs. 
+No entanto, o registro dos contratos está condicionado ao aporte  integral da GFinFC pelos agentes 
+compradores vencedores de qualquer produto (exceto mensal) , nos termos deste submódulo, das 
+Regras de Comercialização e da regulamentação vigente. 
+3.40 Mediante o atendimento d a premissa anterior,  a CCEE deve registrar os contratos no sistema  
+específico em até M-1du (até o último dia útil do mês de processamento do mecanismo) , 
+respeitando as informações declaradas nas ofertas que se sagraram vencedora s, sendo dispensada 
+a validação das contrapartes.  
+3.40.1 Os contratos não serão passíveis de edição pelas partes contratuais. 
+3.40.2 Será vedada a alteração de perfil dos contratos mediante solicitação das partes 
+contratuais, exceto em caso de desligamento com sucessão. 
+3.40.3 Somente a CCEE pode realizar a finalização dos contratos e, em caso de desligamento 
+voluntário sem sucessão, tal finalização ocorrerá mediante prévia autorização da 
+contraparte, nos termos do submódulo 1.5 – Desligamento da CCEE e 3.1 – Contratos do 
+ambiente livre. 
+3.40.4 Os montantes dos contratos poderão ser objeto de cessão, nos termos do submódulo 3.1 
+– Contratos do ambiente livre. 
+3.40.5 Os contratos poderão ser utilizados para fins de recomposição de lastro, nos termos do 
+submódulo 3.5 – Receita de Venda de CCEAR. 
+3.40.6 Para fins de faturamento, as demais informações devem ser obtidas diretamente entre as 
+partes contratuais. 
+3.41 O agente comprador vencedor de produto com preço fixo plurianual deve realizar a recomposição 
+da GFinFC aportada, sempre que solicitado pela CCEE, a partir do segundo ano de vigência do 
+contrato, considerando a atualização do seu preço nos termos da regulamentação vigente. 
+3.41.1 Em até 3du (três dias úteis) após a data da liquidação financeira do MVE referente ao mês 
+de dezembro de cada ano, a CCEE deve divulgar o montante apurado para recomposição 
+da GFinFC, nos termos das Regras de Comercialização. 
+3.41.2 O montante divulgado pela CCEE para recomposição da GFinFC deve ser aportado pelo 
+agente comprador, junto ao agente custodiante, em até 7du (sete dias úteis) após a data 
+da liquidação financeira referente ao mês de dezembro.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+10 
+ 
+procedimentos de 
+comercialização 
+3.41.3 Em caso de não recomposição integral da GFinFC no prazo estabelecido: i) será iniciado o 
+processo de desligamento do agente por descumprimento de obrigação, nos termos do 
+submódulo 1.5 – Desligamento da CCEE, ii) o contrato do agente comprador será 
+rescindido/finalizado em até 8du ( oito dias úteis) após a data da liquidação financeira 
+referente ao mês de dezembro. 
+3.41.3.1 O processo de desligamento será suspenso e iniciado o período de 
+monitoramento, nos termos da regulamentação vigente, em caso de: i) 
+pagamento da multa de que trata a premissa 3.41.5, quando devidamente e 
+imediatamente comprovado à CCEE e validado pelo age nte credor e ii) não 
+ocorrência de outros descumprimentos de obrigações no âmbito da CCEE. 
+3.41.4 No prazo indicado da premissa 3.41.3, item “ii”, o saldo da GFinFC será executado em favor 
+das contrapartes vendedoras para pagamento da multa por rescisão contratual ocasionada 
+pela não recomposição integral da GFinFC, nos termos das Regras de Comercialização e da 
+regulamentação vigente, e os valores serão depositados na mesma conta corrente 
+destinada à liquidação financeira de Cotas, observada a premissa 3.52. 
+3.41.5 Em até 9du (nove dias úteis) após a data da liquidação financeira referente ao mês de 
+dezembro de cada ano, a CCEE deve divulgar eventual valor remanescente da multa por 
+rescisão contratual ocasionada pela não recomposição integral da GFinFC, que não foi 
+coberto pela GfinFC executada, para cobrança bilateral. 
+3.41.5.1 O valor informado pela CCEE, a título de multa por rescisão contratual ocasionada 
+pela não recomposição integral da GFinFC, constitui o principal da obrigação de 
+débito do agente comprador vencedor do mecanismo, pois a cobrança da multa 
+é realizada bilater almente, cabendo às contrapartes vendedoras efetuarem o 
+cálculo das atualizações monetárias e demais encargos devidos pelo agente 
+comprador, não competindo à CCEE apresentar o valor a ser cobrado. 
+3.41.5.2 Caberá ao agente vendedor e comprador vencedor do mecanismo adotarem as 
+medidas mais ágeis para evidenciar à CCEE o adimplemento das obrigações, em 
+comum acordo, bem como assumir exclusivamente as eventuais consequências 
+dos atrasos na prova de quitação da s obrigações, de forma a manter a CCEE 
+isenta de qualquer responsabilidade do acordo bilateral das contrapartes.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+11 
+ 
+procedimentos de 
+comercialização 
+Apuração e Liquidação  
+3.42 A apuração dos valores negociados no mecanismo, de GFinFC aportada e da liquidação financeira do 
+MVE devem ocorrer mensalmente, respeitando as vigências de cada produto. 
+3.43 A participação dos agentes vencedores do mecanismo na respectiva liquidação financeira é 
+compulsória. 
+3.44 Para a apuração dos valores a liquidar, são utilizados preços arredondados com 2 (duas) casas 
+decimais após a vírgula, podendo ocorrer eventuais diferenças residuais positivas ou negativas em 
+decorrência dos arredondamentos. 
+3.45 A CCEE deve disponibilizar os relatórios com as informações da apuração e os valores a liquidar em 
+até 2du (dois dias úteis) antes da data da liquidação financeira de cada mês.  
+3.46 Os agentes vendedores e compradores vencedores do mecanismo respondem integralmente e 
+exclusivamente pelas respectivas obrigações tributárias e outras assumidas perante terceiros 
+relacionadas à liquidação financeira do mecanismo. 
+3.47 A liquidação financeira relativa ao mecanismo ocorre de forma centralizada e em única data, antes 
+da contabilização e liquidação do Mercado de Curto Prazo - MCP do mês de referência , conforme 
+estabelecido na regulamentação vigente. 
+3.48 O calendário anual de liquidação financeira do mecanismo, com as datas de liquidação para cada 
+mês, é aprovado pela Diretoria da CCEE e deve ser divulgado no site da CCEE antes do início de cada 
+ano. 
+3.49 Até as 15:00 horas  da data  da liquidação financeira do mecanismo, os agentes devedores 
+(compradores vencedores do mecanismo ) devem depositar os recursos financeiros referentes à 
+liquidação financeira do MVE na mesma conta corrente destinada à liquidação financeira do MCP. 
+3.50 É facultado ao agente comprador vencedor de produto com preço fixo (exceto mensal) utilizar a 
+GFinFC para pagamento da liquidação financeira do MVE: i ) no penúltimo mês de suprimento do 
+contrato (para produtos anuais e plurianuais) e ii) no último mês de suprimento do contrato (para 
+produtos trimestrais, semestrais, anuais e plurianuais).  
+3.50.1 Caso o agente não deposit e os recursos financeiros em conta na data da liquidação , nos 
+termos da premissa 3.4 9, será considerado pelo agente custodiante que o agente 
+autorizou a execu ção d a GFinFC aportada para pagamento da liquidação financeira do 
+MVE, configurando sua adimplência.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+12 
+ 
+procedimentos de 
+comercialização 
+3.51 Até a data da liquidação financeira do mecanismo, ressalvados os casos de execução da GFinFC por 
+inadimplência tratados em seções específicas deste submódulo, o agente de liquidação deve creditar 
+os recursos financeiros aos agentes de distribuição credores (vendedores vencedores d o 
+mecanismo) na  mesma conta corrente destinada à liquidação financeira de Cotas , observada a 
+premissa seguinte. 
+3.52 Caso o agente de distribuição credor possua valores inadimplidos em outras liquidações financeiras 
+realizadas no âmbito  da CCEE, as receitas associadas à liquidação financeira do mecanismo e às 
+garantias financeiras aportadas serão retidas para suportar tais valores inadimplidos, nos termos da 
+regulamentação vigente. 
+3.53 Caracterizada a adimplência na liquidação financeira do mecanismo, em até 1du (um dia útil) após a 
+data da liquidação, a CCEE deve proceder com a efetivação dos contratos dos agentes compradores 
+na contabilização e liquidação do MCP do mês de referência.  
+3.53.1 Para qualquer produto (exceto mensal) , no mesmo prazo da premissa anterior , a CCEE 
+deve informar ao agente custodiante eventual montante de GFinFC passível de liberação 
+em favor dos compradores, nos termos das Regras de Comercialização.    
+3.54 Caracterizada a inadimplência na liquidação financeira do mecanismo , devem ser observadas as 
+seções específicas deste submódulo, de acordo com o(s) produto(s) em que o agente comprador se 
+sagrou vencedor. 
+3.55 A CCEE deve disponibilizar os relatórios com os resultados da liquidação financeira em até 3du (três 
+dias úteis) após a data da liquidação de cada mês. 
+3.56 O auditor independente realiza a validação do processo de liquidação financeira do mecanismo. 
+3.57 Caso o  agente comprador vencedor de qualquer produto no mecanismo tenha 1 ( um) 
+descumprimento de obrigação (inadimplência na liquidação financeira do mecanismo ou não aporte 
+integral de GFinFC), para os mecanismos que forem processados nos próximos  doze meses, será 
+exigido o aporte integral de GFinFC referente a todo o período de suprimento do contrato (exceto 
+para produto mensal).  
+3.58 Caso o  agente comprador vencedor de qualquer produto no mecanismo tenha 2 ( dois) 
+descumprimentos de obrigação em um período de doze meses, para qualquer caso (inadimplência 
+na liquidação financeira do mecanismo ou não aporte integral de  GFinFC), ficará impedido de 
+participar de novos processamentos do mecanismo pelo período de dois anos, contado da data da 
+liquidação financeira do mês da última inadimplência ou da data do último não aporte.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+13 
+ 
+procedimentos de 
+comercialização 
+3.59 Em caso de reapuração dos valores a liquidar, deve ser garantida a manutenção do valor econômico 
+das negociações, mediante atualização monetária com base no último Índice Nacional de Preços ao 
+Consumidor Amplo - IPCA divulgado pelo Instituto Brasileiro de Geografia e Estatística - IBGE na data 
+do cálculo. Caso o último índice divulgado seja negativo, é desconsiderado e, nesse caso, não haverá 
+atualização monetária. Havendo a extinção desse índice, será adotado outro índice oficial que vier a 
+substituí-lo. 
+3.59.1 A GFinFC aportada não será utilizada para pagamento de eventual valor a liquidar referente 
+a reapuração de meses anteriores.  
+Inadimplência na Liquidação Financeira do MVE (Produtos com Preço Fixo, exceto 
+mensal) 
+3.60 Caracterizada a inadimplência na liquidação financeira do mecanismo, será iniciado o processo de 
+desligamento do agente por descumprimento de obrigação, nos termos do submódulo 1.5 - 
+Desligamento da CCEE. 
+3.60.1 O processo de desligamento será suspenso e iniciado o período de monitoramento, nos 
+termos da regulamentação vigente, em caso de: i) recomposição integral da GFinFC, 
+conforme premissa 3.63 ou pagamento da multa de que trata a premissa 3.66, quando 
+devidamente e imediatamente comprovado à CCEE e validado pelo agente credor e ii) não 
+ocorrência de outros descumprimentos de obrigações no âmbito da CCEE. 
+3.61 Em até 1du (um dia útil) após a data da liquidação do MVE: 
+3.61.1 A CCEE deve p roceder com a efetivação dos contratos dos agentes compradores na 
+contabilização e liquidação do MCP do mês de referência. 
+3.61.2 Em caso de pagamento parcial na liquidação financeira do MVE, a CCEE deve repassar os 
+valores em favor das contrapartes vendedoras para pagamento do valor do contrato. 
+3.61.3 A GFinFC será executada e utilizada  para pagamento: i) da liquidação financeira do MVE 
+em favor das contrapartes vendedoras e ii) da  multa por descumprimento de obrigação, 
+equivalente a 2% (dois por cento) do valor não pago do contrato, destinada para alívio das 
+exposições associadas à contratação regulada . Essa multa incide uma única vez sobre o 
+valor originalmente inadimplido , sendo vedada a incidência de juros de mora sobre a 
+parcela da multa relativa a encargos moratórios de períodos anteriores. 
+3.62 Em até 3du (três dias úteis) após a data da liquidação financeira do mecanismo, a CCEE deve divulgar 
+o montante apurado para recomposição da GFinFC, nos termos das Regras de Comercialização.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+14 
+ 
+procedimentos de 
+comercialização 
+3.63 O montante divulgado pela CCEE para recomposição da  GFinFC deve ser aportado  pelo agente 
+comprador inadimplente no MVE, junto ao agente custodiante, em até 7du (sete dias úteis) após a 
+data da liquidação financeira do mecanismo. 
+3.63.1 Na ocorrência de novo processamento do MVE no período compreendido entre a data da 
+inadimplência na liquidação financeira do mecanismo e a data limite para recomposição 
+da GFinFC, o agente comprador será considerado elegível à participação no novo 
+processamento, desde que atendidos os demais requisitos para tanto , observada a 
+premissa 3.58. 
+3.64 Em caso de não recomposição  integral da GFinFC  no prazo est abelecido, o contrato do agente 
+comprador inadimplente será rescindido /finalizado em até 8du ( oito dias úteis) após a data da 
+liquidação financeira do mecanismo. 
+3.65 No prazo indicado da premissa anterior, o saldo da GFinFC será executado em favor das contrapartes 
+vendedoras para pagamento da multa por res cisão contratual ocasionada pela não recomposição  
+integral da GFinFC, nos termos das Regras de Comercialização e da  regulamentação vigente, e os 
+valores serão depositados  na mesma conta corrente destinada à liquidação financeira de Cotas, 
+observada a premissa 3.52.  
+3.66 Em até 9du ( nove dias úteis)  após a data da liquidação financeira do mecanismo, a CCEE deve 
+divulgar eventual valor remanescente da multa por rescisão contratual ocasionada pela não 
+recomposição integral da GFinFC, que não foi coberto pela GFinFC  executada, para cobrança 
+bilateral.  
+3.66.1 O valor informado pela CCEE, a título de multa por rescisão contratual ocasionada pela não 
+recomposição integral da GFinFC, constitui o principal da obrigação de débito do agente 
+comprador vencedor do mecanismo, pois a cobrança da multa é realizada bilateralmente, 
+cabendo às contrapartes vendedoras efetuarem o cálculo das atualizações monetárias e 
+demais encargos devidos pelo  agente comprador, não competindo à CCEE apresentar o 
+valor a ser cobrado.   
+3.66.2 Caberá ao agente vendedor e comprador vencedor do mecanismo adotarem as medidas 
+mais ágeis para evidenciar à CCEE o adimplemento das obrigações, em comum acordo, 
+bem como assumir exclusivamente as eventuais consequências dos atrasos na prova de 
+quitação das obrigações, de forma a manter a CCEE isenta de qualquer responsabilidade 
+do acordo bilateral das contrapartes.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+15 
+ 
+procedimentos de 
+comercialização 
+3.67 O agente comprador estará impedido de participar de novos processamentos do MVE até que ocorra 
+o pagamento da multa de que trata a premissa anterior, quando devidamente e imediatamente 
+comprovado à CCEE e validado pelo agente credor e desde que não haja outros descumprimentos 
+de obrigações no âmbito da CCEE, observada a premissa 3.58. 
+Inadimplência na Liquidação Financeira do MVE (Produtos com Preço Fixo mensal e 
+Produtos com Preço Variável) 
+3.68 Caracterizada a inadimplência na liquidação financeira do mecanismo, será iniciado o processo de 
+desligamento do agente por descumprimento de obrigação, nos termos do submódulo 1.5 - 
+Desligamento da CCEE. 
+3.68.1 O processo de desligamento será suspenso e iniciado o período de monitoramento, nos 
+termos da regulamentação vigente, em caso de: i) pagamento da multa de que trata a 
+premissa 3.70, quando devidamente e imediatamente comprovado à CCEE e validado pelo 
+agente credor e ii) não ocorrência de outros descumprimentos de obrigações no âmbito 
+da CCEE. 
+3.69 Em até 1du (um dia útil) após a data da liquidação do MVE: 
+3.69.1 A CCEE deve rescindir/finalizar os contratos dos agentes compradores. 
+3.69.2 Em caso de pagamento parcial na liquidação financeira do MVE, a CCEE deve repassar os 
+valores em favor das contrapartes vendedoras para pagamento da multa por rescisão 
+contratual ocasionada pelo não pagamento da liquidação financeira do MVE. 
+3.69.3 Especificamente para produtos com preço variável  (exceto mensal) , a GFinFC será 
+executada em favor das contrapartes vendedoras para pagamento da multa por rescisão 
+contratual ocasionada pelo não pagamento da liquidação financeira do MVE , nos termos 
+das Regras de Comercialização e da  regulamentação vigente, e os valores serão 
+depositados na mesma conta corrente destinada à liquidação financeira de Cotas, 
+observada a premissa 3.52. 
+3.69.4 Para produtos com preço variável (exceto mensal), caso o valor depositado a que se refere 
+a subpremissa 3.69.2 não seja suficiente para cobertura da mencionada multa, a GFinFC 
+será executada. Caso a soma do valor depositado na liquidação financeira do MVE com o 
+valor da GFinFC executada resulte em valor superior à multa por rescisão contratual 
+ocasionada pelo não pagamento da liquidação financeira do MVE, o excedente será 
+liberado em favor do agente comprador.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+16 
+ 
+procedimentos de 
+comercialização 
+3.70 Em até 3du (três dias úteis) após a data da liquidação financeira do mecanismo, a CCEE deve divulgar: 
+i) o valor da multa por rescisão contratual ocasionada pelo não pagamento da liquidação financeira 
+do MVE, para cobrança bilateral, no caso de produto mensal e ii)  eventual valor remanescente da 
+multa por rescisão contratual ocasionada pelo não pagamento da liquidação financeira do MVE, que 
+não foi coberto pela GFinFC executada, para cobrança bilateral , no caso de produto com preço 
+variável (exceto mensal).  
+3.70.1 O valor informado pela CCEE, a título de multa por rescisão contratual ocasionada pelo não 
+pagamento da liquidação financeira do MVE,  constitui o principal da obrigação de débito 
+do agente comprador vencedor do mecanismo, pois a cobrança da multa é realizada 
+bilateralmente, cabendo às contrapartes vendedoras efetuarem o cálculo das atualizações 
+monetárias e demais encargos devidos pelo agente comprador, não competindo à CCEE 
+apresentar o valor a ser cobrado.  
+3.70.2 Caberá ao agente vendedor e comprador vencedor do mecanismo adotarem as medidas 
+mais ágeis para evidenciar à CCEE o adimplemento das obrigações, em comum acordo, 
+bem como assumir exclusivamente as eventuais consequências dos atrasos na prova de 
+quitação das obrigações, de forma a manter a CCEE isenta de qualquer responsabilidade 
+do acordo bilateral das contrapartes.    
+3.71 O agente comprador estará impedido de participar de novos processamentos do MVE até que ocorra 
+o pagamento da multa de que trata a premissa anterior, quando devidamente e imediatamente 
+comprovado à CCEE e validado pelo agente credor e desde que não haja outros descumprimentos 
+de obrigações no âmbito da CCEE, observada a premissa 3.58. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+17 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Mecanismo de Venda de Excedentes
+Agente Vendedor CCEE Agente Comprador
+Até 3du após o término 
+de todas as etapas de 
+processamento do 
+mecanismo
+Informar ao agente 
+custodiante os valores 
+de GFinP a serem 
+liberados, se for o caso
+Na data 
+informada pela 
+CCEE
+Processar o 
+mecanismo
+Na data do 
+processamento 
+do mecanismo
+Inserir ofertas de 
+compra
+Até 4du antes do 
+início do 
+processamento do 
+mecanismo
+Apresentar 
+manifestação, em 
+caso de 
+questionamento
+Até 1du antes do 
+início do 
+processamento do 
+mecanismo
+Analisar 
+manifestações, se 
+houver
+Na data do 
+processamento do 
+mecanismo
+Inserir ofertas de 
+venda
+Até 2du antes do 
+início do 
+processamento do 
+mecanismo
+Regularizar 
+eventuais 
+pendências e 
+informar à CCEE
+Até 5du antes do 
+início do 
+processamento do 
+mecanismo
+Divulgar limite dos 
+montantes de 
+energia disponível 
+para venda
+Até 4du antes do 
+início do 
+processamento do 
+mecanismo
+Verificar os agentes 
+compradores 
+elegíveis
+Até 5du antes do 
+início do 
+processamento do 
+mecanismo
+Aportar GFinP
+Até 3du após o término 
+de todas as etapas de 
+processamento do 
+mecanismo
+Divulgar o resultado 
+final, incluindo os 
+valores a aportar de 
+GFinFC, se for o caso Até PMO-2du
+Aportar 
+integralmente 
+GFinFC, se for o 
+caso
+Início
+A
+ 
+Legenda: 
+GFinP: Garantia Financeira de Participação 
+PMO: Programa Mensal de Operação  
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+18 
+ 
+procedimentos de 
+comercialização 
+Mecanismo de Venda de Excedentes
+Agente Vendedor CCEE Agente Comprador
+Fim
+A
+Não
+Sim
+Até PMO-1du
+Informar ao agente 
+custodiante os valores 
+de GFinP a serem 
+executados para 
+pagamento da multa 
+por rescisão contratual 
+ocasionada pelo não 
+aporte integral da 
+GFinFC
+Aporte 
+integral 
+GFinFC?
+Até M-1du
+Registrar CCEAL 
+no sistema 
+específico
+Até PMO-1du
+Informar ao 
+agente 
+custodiante os 
+valores de GFinP  a 
+serem liberados
+N.A.
+Iniciar processo de 
+desligamento
+Até PMO
+Divulgar eventual valor 
+remanescente da multa 
+por rescisão contratual 
+ocasionada pelo não 
+aporte integral da 
+GFinFC, não coberto 
+pela GFinP executada
+Fim
+N.A.
+Suspender processo 
+de desligamento e 
+iniciar período de 
+monitoramento, se 
+for o caso
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+GFinP: Garantia Financeira de Participação 
+M: Mês de processamento do Mecanismo de Venda de Excedentes 
+PMO: Programa Mensal de Operação  
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+19 
+ 
+procedimentos de 
+comercialização 
+Liquidação Financeira do MVE
+CCEE Agente Devedor
+(Comprador no MVE)
+Agente de Liquidação / 
+Agente Custodiante
+Fim
+Até V-2du
+Apurar valores a 
+liquidar e divulgar 
+resultados
+Até V-2du
+Divulgar os 
+relatórios de pré-
+liquidação 
+financeira
+Início
+V
+Depositar 
+recursos 
+financeiros para a 
+liquidação do MVE
+V
+Verificar 
+suficiência de 
+recursos 
+financeiros
+Sim
+Adimplência?
+V
+Reter as receitas 
+associadas à 
+liquidação financeira 
+e às garantias, se for 
+o caso
+V
+Processar a 
+transferência de 
+recursos aos 
+agentes credores
+V
+Utilizar a GFinFC para 
+pagamento da 
+liquidação, somente 
+em caso de produto 
+com preço fixo (exceto 
+mensal), no penúltimo 
+mês do contrato (anual 
+e plurianual) e no 
+último mês do 
+contrato (trimestral, 
+semestral, anual e 
+plurianual)
+Até V+1du
+Efetivar o 
+contrato
+Até V+1du
+Informar ao agente 
+custodiante eventuais 
+valores de GFinFC a 
+serem liberados, se 
+for o caso
+Até V+3du
+Divulgar os 
+relatórios de 
+pós-liquidação 
+financeira
+Não
+B
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+V: Liquidação Financeira do Mecanismo de Venda de Excedentes 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+20 
+ 
+procedimentos de 
+comercialização 
+Inadimplência na Liquidação Financeira do MVE
+Produtos com Preço Fixo (exceto mensal)
+CCEE Agente Devedor
+(Comprador no MVE) Agente Custodiante
+Até V+3du
+Divulgar os 
+relatórios de 
+pós-liquidação 
+financeira
+Até V+1du
+Reter as receitas 
+associadas às 
+garantias, se for o 
+caso
+B
+Até V+1du
+Processar a 
+transferência de 
+recursos aos 
+agentes credores
+Até V+1du
+Efetivar o
+contrato
+Até V+1du
+Informar ao agente custodiante 
+os valores de GFinFC a serem 
+executados para pagamento da 
+liquidação financeira do MVE e 
+da multa por descumprimento de 
+obrigação
+Até V+3du
+Divulgar 
+montantes para 
+recomposição da 
+GFinFC Até V+7du
+Recompor 
+integralmente 
+GFinFC
+Recomposiçã
+o integral 
+GFinFC?
+N.A.
+Suspender processo de 
+desligamento e iniciar 
+período de monitoramento
+Sim
+Até V+8du
+Rescindir/
+finalizar o 
+contrato
+Não
+Até V+8du
+Informar ao agente custodiante 
+os valores de GFinFC a serem 
+executados para pagamento da 
+multa por rescisão contratual 
+ocasionada pela não 
+recomposição integral da GFinFC
+Até V+9du
+Divulgar eventual valor 
+remanescente da multa por 
+rescisão contratual ocasionada 
+pela não recomposição integral 
+da GFinFC, não coberto pela 
+GFinFC executada
+N.A.
+Iniciar processo 
+de desligamento
+N.A.
+Suspender processo de 
+desligamento e iniciar 
+período de monitoramento, 
+se for o caso
+Fim
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+V: Liquidação Financeira do Mecanismo de Venda de Excedentes 
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+21 
+ 
+procedimentos de 
+comercialização 
+Inadimplência na Liquidação Financeira do MVE
+Produtos com Preço Fixo (mensal) e Produtos com Preço Variável
+CCEE Agente Devedor
+(Comprador no MVE) Agente Custodiante
+Até V+3du
+Divulgar o valor da multa por 
+rescisão contratual ocasionada 
+pelo não pagamento da 
+liquidação financeira do MVE 
+(para produto mensal) e o 
+eventual valor remanescente da 
+referida multa, não coberto pela 
+GFinFC executada (para produto 
+com preço variável, exceto 
+mensal)
+Até V+1du
+Processar a 
+transferência de 
+recursos aos 
+agentes credores
+Fim
+B
+Até V+1du
+Reter as receitas 
+associadas às 
+garantias, se for o 
+caso
+Até V+1du
+Informar ao agente custodiante 
+os valores de GFinFC a serem 
+executados para pagamento da 
+multa por rescisão contratual 
+ocasionada pelo não pagamento 
+da liquidação financeira do MVE, 
+somente em caso de produto 
+com preço variável (exceto 
+mensal)
+Até V+3du
+Divulgar os 
+relatórios de 
+pós-liquidação 
+financeira
+Até V+1du
+Rescindir/
+finalizar o 
+contrato
+N.A.
+Iniciar processo 
+de desligamento
+N.A.
+Suspender processo 
+de desligamento e 
+iniciar período de 
+monitoramento, se 
+for o caso
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+V: Liquidação Financeira do Mecanismo de Venda de Excedentes 
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+22 
+ 
+procedimentos de 
+comercialização 
+Recomposição da GFinFC - atualização do preço do contrato
+Produtos com Preço Fixo (plurianual)
+CCEE Agente Comprador
+Sim
+Não
+Até V+8du
+Informar ao agente custodiante 
+os valores de GFinFC a serem 
+executados para pagamento da 
+multa por rescisão contratual 
+ocasionada pela não 
+recomposição integral da GFinFC
+Até V+3du
+Divulgar 
+montantes para 
+recomposição da 
+GFinFC, se for o 
+caso 
+Até V+9du
+Divulgar eventual valor 
+remanescente da multa por 
+rescisão contratual ocasionada 
+pela não recomposição integral 
+da GFinFC, não coberto pela 
+GFinFC executada
+Fim
+N.A.
+Suspender processo 
+de desligamento e 
+iniciar período de 
+monitoramento, se for 
+o caso
+Até V+7du
+Recompor 
+integralmente 
+GFinFC
+Recomposiçã
+o integral 
+GFinFC?
+Até V+8du
+Rescindir/
+finalizar o 
+contrato
+Início
+N.A.
+Iniciar processo 
+de desligamento
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+V: Liquidação Financeira do Mecanismo de Venda de Excedentes referente ao mês de dezembro 
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+23 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Mecanismo de Venda de Excedentes 
+Atividade Responsável Detalhamento Prazo 
+Divulgar limite dos 
+montantes de energia 
+disponível para venda 
+CCEE 
+A CCEE deve apurar e divulgar para cada agente de 
+distribuição, por meio do sistema específico, o limite dos 
+montantes de energia elétrica disponível para venda. 
+Até 5du antes do início 
+do processamento do 
+mecanismo 
+Aportar GFinP Agente 
+comprador 
+O agente interessado em participar do MVE como 
+comprador deve aportar GFinP junto ao agente 
+custodiante, nos termos deste submódulo, das Regras de 
+Comercialização e da regulamentação vigente. 
+Até 5du antes do início 
+do processamento do 
+mecanismo 
+Verificar os agentes 
+compradores elegíveis CCEE A CCEE deve verificar os agentes compradores elegíveis 
+para participação no mecanismo. 
+Até 4du antes do início 
+do processamento do 
+mecanismo 
+Apresentar manifestação, 
+em caso de 
+questionamento 
+Agente 
+vendedor 
+Caso o agente vendedor possua questionamento com 
+relação ao montante de energia elétrica divulgado pela 
+CCEE, deve apresentar manifestação. 
+Até 4du antes do início 
+do processamento do 
+mecanismo 
+Regularizar eventuais 
+pendências e informar à 
+CCEE 
+Agente 
+comprador 
+O agente interessado em participar do MVE como 
+comprador, que possua débitos no âmbito da CCEE, deve 
+regularizar suas pendências e informar à CCEE. 
+Até 2du antes do início 
+do processamento do 
+mecanismo 
+Analisar manifestações, 
+se houver  CCEE A CCEE deve analisar a manifestação do agente vendedor e 
+comprador. 
+Até 1du antes do início 
+do processamento do 
+mecanismo 
+Inserir ofertas de venda Agente 
+vendedor 
+Cada agente vendedor pode enviar suas ofertas de venda 
+no mecanismo por produto, inserindo as informações 
+exigidas pelo sistema. 
+Na data do 
+processamento do 
+mecanismo 
+Inserir ofertas de compra Agente 
+comprador 
+Cada agente comprador pode enviar suas ofertas de 
+compra no mecanismo por produto, inserindo as 
+informações exigidas pelo sistema. 
+Na data do 
+processamento do 
+mecanismo 
+Processar o mecanismo CCEE O MVE é processado nos termos da regulamentação 
+vigente. 
+Na data informada pela 
+CCEE 
+Divulgar resultado final, 
+incluindo os valores a 
+aportar de GFinFC, se for 
+o caso 
+CCEE 
+A CCEE deve divulgar o resultado final, por meio de 
+relatório, com informações sobre as negociações, incluindo 
+os participantes vencedores e os pares contratuais de cada 
+produto, o extrato da contratação de cada agente  e os 
+valores necessários para aporte integral da GFinFC (exceto 
+para produto mensal) por agente comprador vencedor. 
+Até 3du após o término 
+de todas as etapas de 
+processamento do 
+mecanismo 
+Informar ao agente 
+custodiante os valores de 
+GFinP a serem liberados, 
+se for o caso 
+CCEE 
+A CCEE deve informar ao agente custodiante os valores de 
+GFinP a serem liberados ao agente que não participou do 
+mecanismo por estar inadimplente na CCEE, ao agente que 
+não se sagrou vencedor em nenhum produto no 
+mecanismo, ao agente comprador vencedor ape nas de 
+produto mensal e ao agente comprador vencedor de 
+qualquer produto (exceto mensal), em montante que 
+exceda o aporte integral da GFinFC.   
+Até 3du após o término 
+de todas as etapas de 
+processamento do 
+mecanismo 
+Aportar integralmente 
+GFinFC, se for o caso 
+Agente 
+comprador 
+O agente comprador vencedor de qualquer produto 
+(exceto mensal) deve aportar a GFinFC integral junto ao 
+agente custodiante, nos termos deste submódulo, das 
+Regras de Comercialização e da regulamentação vigente.  
+Até PMO-2du 
+ 
+Atividade Responsável Detalhamento Prazo
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+24 
+ 
+procedimentos de 
+comercialização 
+Atividade Responsável Detalhamento Prazo 
+Aportar integralmente 
+GFinFC, se for o caso 
+Agente 
+comprador 
+O agente comprador vencedor de qualquer produto (exceto 
+mensal) deve aportar a GFinFC integral junto ao agente 
+custodiante, nos termos deste submódulo, das Regras de 
+Comercialização e da regulamentação vigente.  
+Até PMO-2du 
+Informar ao agente 
+custodiante os valores de 
+GFinP a serem liberados 
+CCEE 
+Em caso de aporte integral da GFinFC pelo agente comprador 
+vencedor de qualquer produto (exceto mensal), a CCEE deve 
+informar ao agente custodiante os valores de GFinP a serem 
+liberados. 
+Até PMO-1du 
+Registrar CCEAL no 
+sistema específico CCEE 
+Em caso de aporte integral da GFinFC pelo agente comprador 
+vencedor de qualquer produto (exceto mensal), a CCEE deve 
+registrar o contrato no sistema específico, respeitando as 
+informações declaradas nas ofertas que se sagraram vencedoras, 
+sendo dispensada a validação das contrapartes. 
+Até M-1du 
+Iniciar processo de 
+desligamento CCEE 
+Em caso de não aporte integral da GFinFC pelo agente comprador 
+vencedor de qualquer produto (exceto mensal), a CCEE deve iniciar 
+o processo de desligamento do agente por descumprimento de 
+obrigação. 
+N.A. 
+Informar ao agente 
+custodiante os valores de 
+GFinP a serem 
+executados para 
+pagamento da multa por 
+rescisão contratual 
+ocasionada pelo não 
+aporte integral da GFinFC 
+CCEE 
+Em caso de não aporte integral da GFinFC pelo agente comprador 
+vencedor de qualquer produto (exceto mensal), a CCEE deve 
+executar a GFinP em favor dos vendedores para o pagamento da 
+multa por rescisão contratual ocasionada pelo não aporte integral 
+da GFinFC. 
+Até PMO-1du 
+Divulgar eventual valor 
+remanescente da multa 
+por rescisão contratual 
+ocasionada pelo não 
+aporte integral da GFinFC, 
+não coberto pela GFinP 
+executada 
+CCEE 
+A CCEE deve divulgar eventual valor remanescente da multa por 
+rescisão contratual ocasionada pelo não aporte integral da GFinFC, 
+que não foi coberto pela GFinP executada, para cobrança bilateral.  
+Até PMO 
+Suspender processo de 
+desligamento e iniciar 
+período de 
+monitoramento, se for o 
+caso 
+CCEE 
+Em caso de pagamento da multa por rescisão contratual 
+ocasionada pelo não aporte integral da GFinFC (comprovado à 
+CCEE e validado pelo agente credor) e desde que não haja outros 
+descumprimentos de obrigações no âmbito da CCEE, a CCEE deve 
+suspender o proce sso de desligamento do agente e iniciar o 
+período de monitoramento. 
+N.A. 
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+GFinP: Garantia Financeira de Participação 
+M: Mês de processamento do Mecanismo de Venda de Excedentes 
+PMO: Programa Mensal de Operação  
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+25 
+ 
+procedimentos de 
+comercialização 
+Liquidação Financeira do MVE 
+Atividade Responsável Detalhamento Prazo 
+Apurar valores a liquidar e 
+divulgar resultados CCEE 
+A CCEE deve apurar os valores negociados no mecanismo, de 
+GFinFC aportada e da liquidação financeira do MVE 
+mensalmente, e divulgar os valores a liquidar por meio de 
+relatórios.  
+Até V-2du 
+Divulgar os relatórios de 
+pré-liquidação financeira CCEE A CCEE deve disponibilizar os relatórios referentes à pré -
+liquidação financeira do MVE. Até V-2du 
+Depositar recursos 
+financeiros para a liquidação 
+do MVE 
+Agente devedor 
+(comprador no 
+MVE) 
+O agente devedor deve depositar os recursos financeiros 
+referentes à liquidação financeira do MVE na mesma conta 
+corrente destinada à liquidação financeira do MCP até às 15:00 
+horas (Horário de Brasília) da data estabelecida.  
+V 
+Utilizar a GFinFC para 
+pagamento da liquidação, 
+somente em caso de 
+produto com preço fixo 
+(exceto mensal), no 
+penúltimo mês do contrato 
+(anual e plurianual) e no 
+último mês do contrato 
+(trimestral, semestral, anual 
+e plurianual) 
+Agente devedor 
+(comprador no 
+MVE) 
+É facultado ao agente comprador vencedor de produto com 
+preço fixo (exceto mensal) utilizar a GFinFC para pagamento da 
+liquidação financeira do MVE no penúltimo mês de suprimento 
+do contrato (para produtos anuais e plurianuais) e no último 
+mês de supriment o do contrato (para produtos trimestrais, 
+semestrais, anuais e plurianuais). Caso o agente não deposite 
+os recursos financeiros em conta na data da liquidação, será 
+considerado pelo agente custodiante que o agente autorizou a 
+execução da GFinFC aportada pa ra pagamento da liquidação 
+financeira do MVE, configurando sua adimplência. 
+V 
+Verificar suficiência de 
+recursos financeiros 
+Agente de 
+liquidação / 
+agente 
+custodiante 
+O agente de liquidação deve verificar se os recursos 
+depositados pelo agente devedor são suficientes para cobrir os 
+valores indicados nos relatórios de apuração. 
+V 
+Reter as receitas associadas 
+à liquidação financeira e às 
+garantias, se for o caso 
+Agente de 
+liquidação / 
+agente 
+custodiante 
+O agente de liquidação deve reter as receitas recebidas pelo 
+agente vendedor no mecanismo, caso este possua valores 
+inadimplidos em outras liquidações financeiras realizadas no 
+âmbito da CCEE, para quitação de seus débitos. 
+V 
+Processar a transferência de 
+recursos aos agentes 
+credores 
+Agente de 
+liquidação / 
+agente 
+custodiante 
+O agente de liquidação deve processar a transferência dos 
+recursos financeiros recebidos dos agentes devedores aos 
+agentes credores, considerando eventual retenção efetuada. 
+V 
+Efetivar o contrato CCEE 
+Caracterizada a adimplência na liquidação financeira do MVE, a 
+CCEE deve proceder com a efetivação do contrato do agente 
+comprador na contabilização e liquidação financeira do MCP do 
+mês de referência.  
+Até V+1du 
+Informar ao agente 
+custodiante eventuais 
+valores de GFinFC a serem 
+liberados, se for o caso 
+CCEE 
+A CCEE deve informar ao agente custodiante eventual 
+montante de GFinFC passível de liberação em favor dos agentes 
+compradores de qualquer produto (exceto mensal), nos termos 
+das Regras de Comercialização.    
+Até V+1du 
+Divulgar os relatórios de 
+pós-liquidação financeira CCEE A CCEE deve divulgar os relatórios de pós -liquidação com os 
+resultados da liquidação financeira do MVE.  Até V+3du 
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+V: Liquidação Financeira do Mecanismo de Venda de Excedentes 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+26 
+ 
+procedimentos de 
+comercialização 
+Inadimplência na Liquidação Financeira do MVE  
+▪ Produtos com Preço Fixo (exceto mensal) 
+Atividade Responsável Detalhamento Prazo 
+Iniciar processo de desligamento CCEE 
+A CCEE deve iniciar o processo de desligamento do agente por 
+descumprimento de obrigação em caso de inadimplência na 
+liquidação financeira do mecanismo. 
+N.A. 
+Efetivar o contrato CCEE 
+A CCEE deve proceder com a efetivação do contrato do agente 
+comprador na contabilização e liquidação financeira do MCP 
+do mês de referência. 
+Até V+1du 
+Informar ao agente custodiante 
+os valores de GFinFC a serem 
+executados para pagamento da 
+liquidação financeira do MVE e da 
+multa por descumprimento de 
+obrigação 
+CCEE 
+A CCEE deve informar ao agente custodiante os valores de 
+GFinFC a serem executados para pagamento da liquidação 
+financeira do MVE em favor das contrapartes vendedoras e da 
+multa por descumprimento de obrigação, equivalente a 2% 
+(dois por cento) do valor não pago do contrato. 
+Até V+1du 
+Reter as receitas associadas às 
+garantias, se for o caso 
+Agente 
+custodiante 
+O agente de liquidação deve reter as receitas recebidas pelo 
+agente vendedor no mecanismo, caso este possua valores 
+inadimplidos em outras liquidações financeiras realizadas no 
+âmbito da CCEE, para quitação de seus débitos. 
+Até V+1du 
+Processar a transferência de 
+recursos aos agentes credores 
+Agente 
+custodiante 
+O agente de liquidação deve processar a transferência dos 
+recursos financeiros recebidos dos agentes devedores aos 
+agentes credores, considerando eventual retenção efetuada. 
+Até V+1du 
+Divulgar montantes para 
+recomposição da GFinFC CCEE 
+A CCEE deve divulgar os montantes para recomposição da 
+GFinFC, que foi executada em razão da inadimplência na 
+liquidação financeira do MVE.  
+Até V+3du 
+Divulgar os relatórios de pós -
+liquidação financeira CCEE A CCEE deve divulgar os relatórios de pós -liquidação com os 
+resultados da liquidação financeira do MVE. Até V+3du 
+Recompor integralmente GFinFC 
+Agente 
+devedor 
+(comprador 
+no MVE) 
+O agente devedor, inadimplente na liquidação financeira do 
+MVE, deve recompor a GFinFC conforme montante divulgado 
+pela CCEE.  
+Até V+7du 
+Suspender processo de 
+desligamento e iniciar período de 
+monitoramento 
+CCEE 
+Em caso de recomposição integral da GFinFC e desde que não 
+haja outros descumprimentos de obrigações no âmbito da 
+CCEE, a CCEE deve suspender o processo de desligamento do 
+agente e iniciar o período de monitoramento. 
+N.A. 
+Rescindir/finalizar o contrato CCEE Em caso de não recomposição integral da GFinFC, a CCEE deve 
+rescindir o contrato do agente. Até V+8du 
+Informar ao agente custodiante 
+os valores de GFinFC a serem 
+executados para pagamento da 
+multa por rescisão contratual 
+ocasionada pela não 
+recomposição integral da GFinFC 
+CCEE 
+A CCEE deve informar ao agente custodiante os valores de 
+GFinFC a serem executados em favor das contrapartes 
+vendedoras para pagamento da multa por rescisão contratual 
+ocasionada pela não recomposição integral da GFinFC. 
+Até V+8du
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+27 
+ 
+procedimentos de 
+comercialização 
+Atividade Responsável Detalhamento Prazo 
+Divulgar eventual valor 
+remanescente da multa por 
+resolução contratual ocasionada 
+pela não recomposição integral 
+da GFinFC, não coberto pela 
+GFinFC executada 
+CCEE 
+A CCEE deve divulgar eventual valor remanescente da multa 
+por rescisão contratual ocasionada pela não recomposição 
+integral da GFinFC, que não foi coberto pela GFinFC 
+executada, para cobrança bilateral. 
+Até V+9du 
+Suspender processo de 
+desligamento e iniciar período de 
+monitoramento, se for o caso 
+CCEE 
+Em caso de pagamento da multa por resolução contratual 
+ocasionada pela não recomposição integral da GFinFC 
+(comprovado à CCEE e validado pelo agente credor) e desde 
+que não haja outros descumprimentos de obrigações no 
+âmbito da CCEE, a CCEE deve suspender o processo de 
+desligamento do agente e iniciar o período de 
+monitoramento. 
+N.A. 
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+V: Liquidação Financeira do Mecanismo de Venda de Excedentes 
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+28 
+ 
+procedimentos de 
+comercialização 
+Inadimplência na Liquidação Financeira do MVE  
+▪ Produtos com Preço Fixo (mensal) e Produtos com Preço Variável 
+Atividade Responsável Detalhamento Prazo 
+Iniciar processo de desligamento CCEE 
+A CCEE deve iniciar o processo de desligamento do 
+agente por descumprimento de obrigação em caso de 
+inadimplência na liquidação financeira do mecanismo. 
+N.A. 
+Rescindir/finalizar o contrato CCEE Em caso de inadimplência na liquidação financeira do 
+mecanismo, a CCEE deve rescindir o contrato do agente. Até V+1du 
+Informar ao agente custodiante os valores 
+de GFinFC a serem executados para 
+pagamento da multa por rescisão 
+contratual ocasionada pelo não 
+pagamento da liquidação financeira do 
+MVE, somente em caso de produto com 
+preço variável (exceto mensal) 
+CCEE 
+A CCEE deve informar ao agente custodiante os valores 
+de GFinFC a serem executados em favor das 
+contrapartes vendedoras para pagamento da multa por 
+rescisão contratual ocasionada pelo não pagamento da 
+liquidação financeira do MVE, somente em caso de 
+produto com preço variável (exceto mensal). 
+Até V+1du 
+Reter as receitas associadas às garantias, se 
+for o caso 
+Agente 
+custodiante 
+O agente de liquidação deve reter as receitas recebidas 
+pelo agente vendedor no mecanismo, caso este possua 
+valores inadimplidos em outras liquidações financeiras 
+realizadas no âmbito da CCEE , para quitação de seus 
+débitos. 
+Até V+1du 
+Processar a transferência de recursos aos 
+agentes credores 
+Agente 
+custodiante 
+O agente de liquidação deve processar a transferência 
+dos recursos financeiros recebidos dos agentes 
+devedores aos agentes credores, considerando eventual 
+retenção efetuada. 
+Até V+1du 
+Divulgar o valor da multa por rescisão 
+contratual ocasionada pelo não 
+pagamento da liquidação financeira do 
+MVE (para produto mensal) e o eventual 
+valor remanescente da referida multa, não 
+coberto pela GFinFC executada (para 
+produto com preço variável, exc eto 
+mensal) 
+CCEE 
+A CCEE deve divulgar eventual valor remanescente da 
+multa por rescisão contratual ocasionada pelo não 
+pagamento da liquidação financeira do MVE (para 
+produto mensal) e o eventual valor remanescente da 
+referida multa, não coberto pela GFinFC executada (para 
+produto com preço variável, exceto mensal), para 
+cobrança bilateral. 
+Até V+3du 
+Divulgar os relatórios de pós -liquidação 
+financeira CCEE A CCEE deve divulgar os relatórios de pós-liquidação com 
+os resultados da liquidação financeira do MVE. Até V+3du 
+Suspender processo de desligamento e 
+iniciar período de monitoramento, se for o 
+caso 
+CCEE 
+Em caso de pagamento da multa por resolução 
+contratual ocasionada pelo não pagamento da 
+liquidação financeira do MVE (comprovado à CCEE e 
+validado pelo agente credor) e desde que não haja 
+outros descumprimentos de obrigações no âmbito da 
+CCEE, a CCEE deve suspender o processo de 
+desligamento do agente e iniciar o período de 
+monitoramento.  
+N.A. 
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+V: Liquidação Financeira do Mecanismo de Venda de Excedentes 
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+29 
+ 
+procedimentos de 
+comercialização 
+▪ Recomposição da GFinFC (atualização do preço do contrato) – Produtos com 
+Preço Fixo (plurianual) 
+Atividade Responsável Detalhamento Prazo 
+Divulgar montantes para 
+recomposição da GFinFC, se for o 
+caso 
+CCEE A CCEE deve divulgar os montantes para recomposição da 
+GFinFC em razão da atualização do preço do contrato do MVE. Até V+3du 
+Recompor integralmente GFinFC Agente 
+comprador 
+O agente comprador, sempre que solicitado pela CCEE e a 
+partir do segundo ano de vigência do contrato (produtos com 
+preço fixo plurianual), deve recompor a GFinFC conforme  
+montante divulgado pela CCEE. 
+Até V+7du 
+Iniciar processo de desligamento CCEE 
+Em caso de não recomposição integral da GFinFC, a CCEE deve 
+iniciar o processo de  desligamento do agente por 
+descumprimento de obrigação. 
+N.A. 
+Rescindir/finalizar o contrato CCEE Em caso de não recomposição integral da GFinFC, a CCEE deve 
+rescindir o contrato do agente. Até V+8du 
+Informar ao agente custodiante 
+os valores de GFinFC a serem 
+executados para pagamento da 
+multa por rescisão  contratual 
+ocasionada pela não  
+recomposição integral da GFinFC 
+CCEE 
+A CCEE deve informar ao agente custodiante os valores de 
+GFinFC a serem executados em  favor das contrapartes 
+vendedoras para pagamento da multa por rescisão contratual 
+ocasionada pela não recomposição integral da GFinFC. 
+Até V+8du 
+Divulgar eventual valor 
+remanescente da  multa por 
+resolução contratual  ocasionada 
+pela não recomposição  integral 
+da GFinFC, não coberto pela  
+GFinFC executada 
+CCEE 
+A CCEE deve divulgar eventual valor remanescente da multa 
+por rescisão contratual  ocasionada pela não recomposição 
+integral da GFinFC, que não foi coberto pela GFinFC  
+executada, para cobrança bilateral. 
+Até V+9du 
+Suspender processo de 
+desligamento e iniciar período de 
+monitoramento, se for o caso 
+CCEE 
+Em caso de pagamento da multa por resolução contratual 
+ocasionada pela não  recomposição integral da GFinFC 
+(comprovado à CCEE e validado pelo agente credor) e  desde 
+que não haja outros descumprimentos de obrigações no 
+âmbito da CCEE, a CCEE  deve suspender o processo de 
+desligamento do agente e iniciar o período de  
+monitoramento. 
+N.A. 
+ 
+Legenda: 
+GFinFC: Garantia Financeira de Fiel Cumprimento do Contrato 
+V: Liquidação Financeira do Mecanismo de Venda de Excedentes referente ao mês de dezembro de cada ano 
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 3.8 – Mecanismo de Venda de Excedentes 
+Revisão 8.0 
+30 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

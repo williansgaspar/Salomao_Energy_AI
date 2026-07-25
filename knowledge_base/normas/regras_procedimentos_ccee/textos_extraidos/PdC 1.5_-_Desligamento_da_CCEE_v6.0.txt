@@ -1,0 +1,909 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 1.5_-_Desligamento_da_CCEE_v6.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+1 
+ 
+ 
+ 
+ 
+  
+Módulo 1 – Agente 
+Submódulo 1.5 – Desligamento da CCEE 
+procedimentos de 
+comercialização
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+2 
+ 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada  
+(CP n° 05/2017) Despacho nº 1.911/2017 30.06.2017 
+2.0 Adequação ao Sistema de Gestão de Sanções e 
+Desligamentos e demais aprimoramentos Despacho n° 3.646/2020 22.02.2021 
+3.0 Aprimoramentos Despacho n° 485/2022 16.02.2022 
+4.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1.012/2022 01.04.2022 
+5.0 Adequação à REN nº 1.014/2022 e demais 
+aprimoramentos Despacho nº 1.029/2023 17.04.2023 
+6.0 Adequação à REN nº 1.081/2023 e demais 
+aprimoramentos Resolução Normativa nº 1.110/2024 01.01.2025
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+3 
+ 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O desligamento de agentes da CCEE ocorre de acordo com as hipóteses previstas na regulamentação vigente, 
+podendo ser compulsório, voluntário ou por descumprimento de obrigação no âmbito da CCEE. 
+2. OBJETIVO 
+Os procedimentos deste submódulo aplicam-se ao desligamento de agentes da CCEE, consoante normas de 
+regência vigentes. 
+3. PREMISSAS 
+Gerais  
+3.1 São espécies de desligamento da CCEE:  
+3.1.1 Compulsório: quando da extinção de todas as outorgas de concessão, permissão ou 
+autorização de que seja titular, ou cancelamento de todos os registros de 
+empreendimentos de geração sob estes modelados na CCEE , bem como pela perda de 
+requisito essencial para participação no quadro associativo da CCEE , previsto nas normas 
+regulatórias vigentes. 
+3.1.2 Voluntário: mediante informações prestadas no sistema específico , formalização do 
+Requerimento de Desligamento da CCEE e apresentação dos documentos necessários. 
+3.1.3 Por descumprimento de obrigaç ão no âmbito da CCEE, prevista na Convenção de 
+Comercialização, nas Regras e Procedimentos de Comercialização , no Estatuto Social da 
+CCEE e demais normas vigentes, mediante procedimento próprio conduzido pela CCEE. 
+3.2 Quanto à forma, o desligamento da CCEE pode ocorrer: 
+3.2.1 Com sucessão: caracterizada pela existência de vínculo técnico, comercial, regulatório e/ou 
+jurídico entre o agente sucedido e o agente sucessor, conforme documentação  
+comprobatória a ser analisada pela CCEE. 
+3.2.1.1 Nos casos de desligamento  compulsório ou de desligamento por 
+descumprimento de obrigação de matriz e/ou filial(is), deve ocorrer, 
+obrigatoriamente, o desligamento da matriz e/ou filial(is) remanescente(s), com 
+a incidência dos mesmos efeitos e procedimentos aplicáveis desde a instauração 
+do referido processo de desligamento até o seu encerramento.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+4 
+ 
+ 
+procedimentos de 
+comercialização 
+3.2.2 Nos casos não abrangidos pela premissa anterior, e exclusivamente para o caso de 
+desligamento voluntário, o vínculo pode ser caracterizado pela convenção sucessória 
+financeira entre o agente sucedido e o agente sucessor. 
+3.2.3 Sem sucessão: no caso de não ocorrência das premissas anteriores. 
+3.3 O início do procedimento de desligamento, assim como sua efetivação, não suspende, modifica ou 
+extingue as obrigações perante a CCEE, exigíveis ou que venham a tornar-se exigíveis, inclusive, mas 
+sem limitação, quanto ao pagamento de contribuição associativa, constituição de Garantias 
+Financeiras, liquidação financeira relativa à contratação de Energia de Reserva, liquidação financeira 
+do Mercado de Curto Prazo - MCP, liquidação financeira do Mecanismo de Venda de Excedentes - 
+MVE, pagamento de eventuais multas, penalidades , encargos e demais valores devidos no âmbito 
+da CCEE. 
+3.4 Para os casos de instauração de procedimento de desligamento compulsório ou por 
+descumprimento de obrigação, a CCEE deve  encaminhar Termo de Notificação - TN 
+preferencialmente por meio eletrônico, nos termos da regulamentação vigente e do submódulo 1.4 
+- Atendimento, para: 
+3.4.1 Os proprietários de ativos de geração e/ou unidades consumidoras representados,  que 
+devem manter seus dados atualizados perante a CCEE, informando sobre a instauração do 
+procedimento de desligamento do agente representante e esclarecendo os possíveis 
+efeitos decorrentes , dentre os quais a sujeição dos consumidores representados à 
+suspensão de fornecimento de energia elétrica  caso o agente representante seja 
+desligado, e informar aos representados que eles pode m optar, até o prazo estabelecido 
+na premissa 3.37.2, por: 
+3.4.1.1 Efetivar sua adesão à CCEE, se cabível, e concluir a modelagem de seus ativos; ou 
+3.4.1.2 Requerer a transferência da representação de seus ativos. 
+3.4.2 Os agentes vinculados, que devem manter seus dados atualizados perante a CCEE, 
+informando sobre a instauração do procedimento de desligamento do agente líder do 
+Grupo de Liquidação, constituído nos termos do submódulo 1.1 - Adesão à CCEE e 
+esclarecendo os possíveis efeitos decorrentes , inclusive informando aos agentes 
+vinculados que eles devem providenciar, até o prazo estabelecido na premissa 3.37.3, por: 
+3.4.2.1 Abrir nova conta corrente; 
+3.4.2.2 Indicar novo líder do Grupo de Liquidação; ou 
+3.4.2.3 Incluir-se em conta corrente de outro Grupo de Liquidação.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+5 
+ 
+ 
+procedimentos de 
+comercialização 
+3.5 Para que o desligamento do agente  da CCEE seja efetivado , é necessário o atendimento aos 
+seguintes requisitos: 
+a) Deliberação pelo CAd , com publicação da decisão no site da CCEE e com comunicação da 
+decisão aos envolvidos, nos termos das normas de regência vigentes; 
+b) Cancelamento ou transferência, conforme o caso, dos registros de contratos existentes no 
+momento do desligamento;  
+c) Ajuste do cadastro do(s) respectivo(s) ativo(s). 
+3.6 As decisões para monitoramento de agente , suspensão e/ou encerramento e arquivamento do 
+procedimento de desligamento podem ser definidas no âmbito da  Superintendência, com 
+publicação da decisão no site da CCEE  e com comunicação da decisão aos envolvidos, nos termos 
+das normas de regência vigentes.  
+3.7 O agente pode interpor pedido de impugnação quando não concordar com a decisão proferida no 
+âmbito da CCEE referente ao seu processo de desligamento, nos moldes das normas de regência 
+vigentes e do submódulo 1.4 - Atendimento. 
+3.8 O agente deve apresentar os documentos e informações referentes ao processo de desligamento 
+exclusivamente por meio do sistema específico, localizado na área logada do site da CCEE, de acordo 
+com os formatos de arquivos estabelecidos pelo próprio sistema, nos prazos determinados nas 
+normas de regência vigentes. 
+3.8.1 Os documentos que são gerados de forma eletrônica por meio do sistema específico da 
+CCEE devem ser preenchidos e assinados pelo(s) representante(s) legal(is) do agente. São 
+aceitas as seguintes formas de assinatura, nos termos da legislação vigente: assinatura 
+manual com firma reconhecida; assinatura digital com certificado ICP -Brasil (devendo ser 
+encaminhado à CCEE o protocolo de autenticidade da assinatura); ou assinatura eletrônica 
+avançada desde que aceita pelo agente. 
+3.8.2 No caso da assinatura eletrônica avançada de que trata a premissa anterior, a CCEE é 
+responsável por: a) assegurar, de maneira unívoca, a assinatura ao signatário; b) utilizar 
+dados para a criação de assinatura cujo signatário possa, com elevado nível de c onfiança, 
+operar sob o seu controle exclusivo; e c) relacionar a assinatura aos dados a ela associados 
+de tal modo que qualquer modificação posterior possa ser detectável.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+6 
+ 
+ 
+procedimentos de 
+comercialização 
+3.8.3 Outros documentos que, para fins do processo de desligamento, demandem assinatura 
+pelo(s) representante(s) legal(is) do agente, devem ser assinados manualmente com firma 
+reconhecida ou digitalmente com certificado ICP -Brasil, conforme legislação vigente, 
+devendo no último caso ser encaminhado à CCEE o protocolo de autenticidade da 
+assinatura. 
+3.9 O agente se compromete e se responsabiliza pela validade e regularidade dos documentos e dados 
+apresentados à CCEE, incluindo os poderes do(s) signatário(s) dos documentos, cuja assinatura o(s) 
+vinculará(ão) às obrigações existentes no âmbito da CCEE. 
+3.10 A CCEE está isenta de qualquer responsabilidade sobre informação que tenha sido cadastrada 
+erroneamente ou não atualizada no sistema específico. 
+3.11 Os prazos constantes neste submódulo são contados em dias corridos, salvo quando expressamente 
+dispostos em dias úteis. 
+3.12 Em caso de desligamento com sucessão, o(s)  agente(s) sucessor(es) assume(m) os direitos, ônus e 
+obrigações, inclusive passadas, e as decorrentes de eventuais recontabilizações  ou ajustes 
+financeiros perante a CCEE do agente sucedido. 
+3.12.1 Caso o(s) sucessor(es) não seja(m) agente(s) da CCEE , deve(m) efetuar sua adesão à 
+Câmara, conforme o disposto nos submódulos 1.1 - Adesão à CCEE e 1.2 - Cadastro de 
+agentes, de modo que esta seja aprovada pela CCEE concomitantemente ao desligamento. 
+3.12.2 Especificamente para o caso de desligamento voluntário  com sucessão , deve ser 
+observado o indicado no sistema específico e na seção própria deste submódulo. 
+3.13 Os débitos perante o M ercado de Curto Prazo no último mês de operação da empresa desligada, 
+sem sucessão de seu histórico financeiro, devem ser apurados, consolidados e rateados entre todos 
+os agentes, proporcionalmente aos seus votos, sendo os valores rateados lançados em registro 
+escritural especial, a ser mantido pela CCEE em nome dos agentes credores.  
+3.13.1 Os demais valores devidos no âmbito da CCEE, após sua apuração, devem ser suportados 
+pelo respectivo credor, ressalvados aqueles decorrentes de recontabilizações e ajustes 
+financeiros, que devem ser  tratados conforme  o disposto no  submódulo 5.1  - 
+Contabilização e recontabilização. 
+3.13.2 Todas as dívidas apuradas pela CCEE em face da empresa desligada devem ser ressarcidas 
+por meio do perfil específico, da competente medida judicial de cobrança  ou por outros 
+meios aplicáveis, conforme o caso.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+7 
+ 
+ 
+procedimentos de 
+comercialização 
+Desligamento compulsório de agente 
+3.14 Com a publicação de ato regulatório que trate da revogação, cassação ou transferência de outorga 
+de concessão, permissão, autorização ou registro de agentes da CCEE ou, ainda, na ocorrência de 
+perda de requisito essencial à sua participação no quadro assoc iativo da Câmara, previsto nas 
+normas regulatórias vigentes, a CCEE deve instaurar o procedimento de desligamento compulsório 
+do respectivo agente.  
+3.14.1 As consequências do desligamento compulsório do agente representante de proprietários 
+de ativos de geração e/ou unidades consumidoras e do agente líder do Grupo de 
+Liquidação são aplicáveis aos representados/vinculados nos termos dispostos na seção 
+“Desligamento de agente por descumprimento de obrigação no âmbito da CCEE” deste 
+submódulo.  
+3.15 O agente ou não agente pertencente à categoria de distribuição pode solicitar, por meio do sistema 
+específico, a instauração do  procedimento de desligamento compulsório do agente cuja relação 
+contratual tenha sido encerrada  e tenha sido desconectado do sistema elétrico , conforme as 
+hipóteses previstas na regulamentação vigente. Para tanto, é necessária a apresentação de 
+documentação comprobatória, que será analisada pela CCEE. 
+3.16 Com a instauração do procedimento de desligamento compulsório do agente, seu acesso ao sistema 
+específico para registro, ajuste e validação de contratos será imediatamente restrito. 
+3.17 Para a efetivação do desligamento compulsório do agente, a CCEE deve, conforme as premissas da 
+seção “Gerais” deste submódulo, no que for cabível, adequar os registros de contratos do agente , 
+bem como ajustar o cadastro dos respectivos ativos , considerando a data da operacionalização do 
+desligamento. 
+3.18 No caso de transferência da outorga, a transferência dos ativos , direitos e obrigações ao (s) 
+sucessor(es) deve ser realizada pela CCEE somente depois de atendidos todos os prazos e requisitos 
+regulatórios e legais, inclusive, se for o caso, assinaturas de termos de cessão necessários  e adesão 
+à CCEE d o(s) sucessor(es), observando-se os submódulos 1.1 - Adesão à CCEE e 1.2 - Cadastro de 
+agentes, no que for cabível.  
+Desligamento voluntário de agente 
+3.19 A solicitação para desligamento da CCEE deve ser realizada, exclusivamente, por meio do sistema 
+específico.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+8 
+ 
+ 
+procedimentos de 
+comercialização 
+3.20 Para solicitar seu desligamento, o agente deve observar as premissas da seção “Gerais” deste 
+submódulo, no que for cabível, bem como informar os dados requeridos pelo sistema específico para 
+geração: 
+3.20.1 Do boleto do emolumento de desligamento  da CCEE, se for o caso,  e realizar o devido 
+recolhimento (as hipóteses de incidência e o valor do emolumento de desligamento 
+encontram-se disponíveis no site da CCEE).  
+3.20.2 Do Requerimento de Desligamento da CCEE, cujos termos encontram -se no anexo deste 
+submódulo. 
+3.21 O Requerimento de Desligamento da CCEE deve ser assinado pelo representante legal do agente 
+que se pretenda desligar da CCEE e pelo(s) representante(s) legal(is) da(s) empresa(s) sucessora(s), 
+se for o caso, de acordo as opções de assinatura disponibilizadas pela Câmara, observada a premissa 
+3.8 e subpremissas.  
+3.21.1 O representante legal deve ter poderes para representar o agente perante a Câmara e a 
+inobservância a esse requisito pode fazê-lo incorrer em responsabilidade civil, criminal e 
+administrativa.  
+3.22 A CCEE deve iniciar a análise do procedimento de desligamento somente com a confirmação do  
+pagamento do respectivo emolumento, prestada pela instituição financeira , quando o mesmo for 
+devido. 
+3.22.1 A data do início do procedimento de desligamento deve ser disponibilizada no sistema  
+específico. A partir deste momento, o agente deve realizar as demais atividades requeridas 
+pelo sistema específico relacionadas ao seu processo de desligamento. 
+3.22.2 A desistência do processo por parte do agente ou o cancelamento do processo pela CCEE 
+devido à restrição regulatória (não enquadramento ao tipo de desligamento solicitado , 
+prazo expirado, etc), não implica direito ao ressarcimento do emolumento recolhido.  
+3.23 Todas as solicitações serão analisadas e validadas para o mês de referência “M”, em que o agente 
+desejar a operacionalização do seu desligamento, caso sejam enviadas sem pendências até M-12du, 
+sob pena de postergação da efetivação do desligamento.  
+3.24 A efetivação do desligamento voluntário do agente está condicionada ao cumprimento de todas suas 
+obrigações, especialmente as financeiras.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+9 
+ 
+ 
+procedimentos de 
+comercialização 
+3.24.1 Em caso de desligamento voluntário de agente  representante de proprietários de ativos 
+de geração  e/ou unidades consumidoras , bem como de agente  líder do Grupo de 
+Liquidação, a efetivação do desligamento também está condicionada ao exercício , por 
+parte dos agentes representados/vinculados, de uma das opções previstas nas premissas 
+3.4.1. e 3.4.2. 
+3.24.2 Em caso de desligamento voluntário com sucessão: 
+3.24.2.1 A CCEE deve realizar a transferência dos contratos somente após a autorização 
+bilateral das partes. 
+3.24.2.2 A ausência de declaração de transferências de históricos pelo agente sucedido 
+também será considerada pendência para a efetivação do desligamento do 
+respectivo agente. 
+3.24.2.3 Caso o agente que se pretenda sucedido esteja inadimplente no âmbito da CCEE, 
+é necessário que, em até 2 (dois) dias úteis antes da data da deliberação do CAd 
+sobre o desligamento com sucessão, o agente sucedido comprove o 
+caucionamento dos débitos no sistema específico ou o agente sucessor 
+encaminhe o comprovante do caucionamento dos débitos à CCEE , conforme 
+modelo de encaminhamento disponível no site da CCEE. 
+3.25 Caso seja identificado um descumprimento de obrigação, notadamente as financeiras, do agente 
+solicitante do desligamento voluntário  sem sucessão, o processo de desligamento voluntário será 
+sobrestado até que o agente regularize a pendência.  
+3.26 O agente da CCEE pode desistir do processo de desligamento a qualquer momento, por meio do 
+sistema específico, desde que seu desligamento não tenha sido pautado para deliberação pelo CAd.  
+3.27 O processo de desligamento voluntário não concluído dentro de doze meses a contar do mês de seu 
+início é cancelado no sistema específico, bem como as solicitações de modelagem relacionadas ao 
+processo. Caso o agente mantenha interesse em se desligar da Câmara, um novo processo de 
+desligamento deve ser iniciado, nos termos das premissas deste submódulo. 
+Desligamento de agente por descumprimento de obrigação no âmbito da CCEE 
+3.28 O cumprimento de obrigação no âmbito da CCEE é considerado tempestivo exclusivamente quando 
+realizado na data específica em que é devido, observados os calendários de operações da CCEE (bem 
+como eventuais alterações extraordinárias, previamente comunicadas  aos agentes), quando 
+aplicáveis.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+10 
+ 
+ 
+procedimentos de 
+comercialização 
+3.29 O procedimento para desligamento de agente por descumprimento de obrigações no âmbito da 
+CCEE é instaurado , por iniciativa da CCEE ou provocação de terceiros,  após a constatação do 
+descumprimento d e qualquer d as obrigações estabelecidas nas normas e legislação  vigentes, 
+previstas nos atos legislativos, nos atos emanados pela ANEEL, na Convenção de Comercialização, 
+nos Procedimentos de Comercialização e no Estatuto Social da CCEE.  
+3.30 Mediante a constatação de inadimplemento relativo às obrigações previstas na premissa anterior, a 
+CCEE deve instaurar o procedimento de desligamento por descumprimento de obrigação e:  
+3.30.1 Enviar o TN ao agente inadimplente, preferencialmente por meio eletrônico, nos termos 
+da regulamentação vigente e do submódulo 1.4 - Atendimento, observada a premissa 3.4, 
+com:  
+3.30.1.1 A identificação da obrigação descumprida e o respectivo fundamento normativo; 
+3.30.1.2 O aviso de que o agente está sujeito à suspensão de fornecimento de energia 
+elétrica caso não solucione o inadimplemento na CCEE , nos termos da 
+regulamentação vigente e da seção específica deste submódulo, sendo que, se o 
+agente inadimplente for consumidor , a referida suspensão envolve todas as 
+unidades consumidoras correspondentes. 
+3.30.2 Restringir o acesso ao sistema específico para registro, ajuste e validação de contratos.  
+3.31 O agente pode apresentar sua manifestação por meio do sistema específico no prazo estabelecido 
+pela regulamentação vigente , contado da data de recebimento do TN , conforme disposto no  
+submódulo 1.4 - Atendimento. 
+3.32 Caso o agen te regularize sua situação no âmbito da CCEE , no ciclo financeiro imediatamente 
+subsequente ao início de seu procedimento de desligamento, bem como não apresente qualquer 
+outro descumprimento de obrigação, deve ser posto em monitoramento  pela CCEE, pelo prazo de 
+seis ciclos de contabilização e liquidação financeira, nos termos da regulamentação vigente. 
+3.32.1 No curso do período de monitoramento do procedimento de desligamento, caso o agente 
+venha a descumprir qualquer obrigação no âmbito da CCEE, o procedimento será 
+imediatamente retomado, a partir da etapa em que se encontrava , devendo a CCEE 
+notificar o agente, conforme previsto neste submódulo. 
+3.33 Durante a tramitação do procedimento de desligamento é vedado ao agente : i)  a inclusão de 
+registros de contratos de venda de energia elétrica no sistema específico, ii) a alteração de registros 
+de contratos já existentes no sistema que resultem em aumento  de sua exposição financeira no 
+âmbito da CCEE, iii) a inclusão de novos ativos com seus respectivos pontos de medição.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+11 
+ 
+ 
+procedimentos de 
+comercialização 
+3.33.1 A vedação descrita na premissa anterior é suspensa quando da regularização da situação 
+do agente, desde que ele não incorra em novo descumprimento de obrigação, hipótese na 
+qual tal vedação será novamente imposta, de ofício, pela CCEE. 
+3.33.2 O agente que estiver com restrição de acesso ao sistema específico para registro, ajuste e 
+validação de contratos pode solicita r a entrada de dados por contingência, na forma do 
+submódulo 1.4 - Atendimento, a qual será analisada pela CCEE.  
+3.34 O agente que estiver inadimplente nas liquidações financeiras e em processo de desligamento pode 
+caucionar os valores de seu débito, conforme estabelecido nos normativos vigentes.  
+3.34.1 O caucionamento é considerado válido apenas quando confirmado pelo agente de 
+liquidação.  
+3.34.2 Para fins de caução, são válidos apenas recursos em moeda corrente nacional ou ativos 
+financeiros aceitos pelo agente de liquidação. 
+3.34.3 A caução deve ser efetivada pelo devedor inadimplente e assegurada pelo agente de 
+liquidação até a liquidação subsequente. 
+3.34.4 A caução efetivada pelo devedor após a data de divulgação pela CCEE da exposição 
+financeira dos agentes corresponderá à totalidade dos débitos divulgados nessa data. 
+3.34.5 A permissão de acesso ao sistema específico somente é realizada com a confirmação, pelo 
+agente de liquidação,  do caucionamento /regularização correspondente ao valor total 
+devido no âmbito da CCEE. 
+3.35 O processo de desligamento por descumprimento de obrigações no âmbito da CCEE pode não ser 
+instaurado caso o valor total da inadimplência não ultrapasse o valor mínimo e as condições 
+estabelecidos na regulamentação vigente.  
+3.36 A CCEE deve promover o julgamento do procedimento de desligamento no prazo estabelecido na 
+regulamentação vigente, contado a partir da data do primeiro descumprimento de obrigação ou, 
+caso o agente esteja em período de monitoramento pela CCEE, da data do descumprimento de 
+obrigação que tenha ensejado a retomada do procedimento. 
+3.36.1 O CAd pode deliberar pelo desligamento do agente ainda que na data de seu julgamento 
+exista prazo, a vencer, para defesa de um novo termo de notificação por descumprimento 
+de obrigação. 
+3.36.2 A CCEE deve realizar a publicação/comunicação da deliberação do CAd nos termos da 
+premissa 3.5, alínea “a”.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+12 
+ 
+ 
+procedimentos de 
+comercialização 
+3.37 Em até cinco dias do julgamento do procedimento de desligamento, a CCEE deve encaminhar o TN, 
+preferencialmente por meio eletrônico, nos termos da regulamentação vigente e do submódulo 1.4 
+- Atendimento, para: 
+3.37.1 O agente, informando-o acerca da decisão proferida e da possibilidade de interposição de 
+pedido de impugnação, nos termos da regulamentação vigente. Caso o agente desligado 
+seja titular de empreendimentos de geração, a notificação deve adicionalmente informá -
+lo acerca: 
+3.37.1.1 Das obrigações decorrentes das outorgas então vigentes, notadamente quanto 
+ao cumprimento da programação e do despacho de geração determinado pelo 
+Operador Nacional do Sistema Elétrico - ONS, bem como que seu 
+descumprimento pode ensejar a imposição de penalidade administrativa e a 
+efetivação de intervenção; e 
+3.37.1.2 Da criação de perfil específico ao qual permaneçam vinculados os 
+empreendimentos de geração anteriormente modelados sob o perfil do agente 
+gerador desligado, para fins de contabilização da energia eventualmente gerada, 
+nos termos deste submódulo e da regulamentação vigente. 
+3.37.2 Os proprietários de ativos de geração e/ou unidades consumidoras representados, 
+informando-lhes acerca da decisão proferida e concedendo-lhes o prazo de cinco dias para 
+exercerem uma das opções da premissa 3.4.1. 
+3.37.2.1 Caso os proprietários de ativos de geração e/ou unidades consumidoras 
+representados que tiveram seu agente representante desligado da CCEE não 
+realizem qualquer das opções previstas na premissa 3.4.1 no prazo estabelecido 
+na premissa anterior, estarão sujeitos aos mesmos efeitos e procedimentos 
+aplicáveis ao agente desligado, estabelecidos nas premissas 3.38.1 e 3.33.2. 
+3.37.3 Os agentes vinculados  ao Grupo de Liquidação , informando -lhes acerca da decisão 
+proferida e concedendo-lhes o prazo até a data da liquidação financeira subsequente à 
+deliberação do CAd que determin ou o desligamento do agente líder  do Grupo de 
+Liquidação, para exercerem uma das opções da premissa 3.4.2. 
+3.37.3.1 Caso os agentes vinculados ao Grupo de Liquidação que tiveram seu agente líder 
+desligado da CCEE não realizem qualquer das opções previstas na premissa 3.4.2 
+no prazo estabelecido  na premissa anterior,  estarão sujeitos à instauração de 
+procedimento de desligamento compulsório. 
+3.38 Concomitantemente ao disposto na premissa anterior, a CCEE deve:
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+13 
+ 
+ 
+procedimentos de 
+comercialização 
+3.38.1 Em caso de consumidor, proceder à notificação do agente conectado (distribuidora agente 
+ou não agente da CCEE ou, ainda, transmissora)  e, quando pertinente, do ONS, para a 
+operacionalização da suspensão do fornecimento a todas as unidades consumidoras 
+correspondentes, nos termos da regulamentação vigente  e da seção específica deste 
+submódulo, sendo que tal notificação deve conter as seguintes informações: 
+a) A especificação de todas as unidades consumidoras de titularidade do agente 
+inadimplente, que devem ter seu fornecimento suspenso; 
+b) Que a suspensão se funda em disposição legal que admite a interrupção do serviço 
+ao usuário inadimplente, a bem da coletividade de agentes da CCEE; e 
+c) Que a efetivação da suspensão do fornecimento por inadimplemento deve observar 
+demais normas de regência. 
+3.38.2 Em caso de gerador, nos termos da regulamentação vigente: i) proceder à notificação do 
+ONS, a fim de que sejam monitorados os empreendimentos de geração de titularidade do 
+agente desligado e de seus representados, quando programados ou despachados 
+centralizadamente; ii) providenciar o tratamento específico para a energia gerada; e iii) 
+encaminhar à ANEEL  os autos do processo de desligamento , para os expedientes 
+administrativos cabíveis, incluindo eventual cassação de outorga. 
+3.38.3 Em caso de comercializador, nos termos da regulamentação vigente, encaminhar à ANEEL 
+os autos do processo de desligamento, para os expedientes administrativos cabíveis, 
+incluindo eventual cassação de outorga. 
+3.39 No caso de desligamento d e agente representante de que trata a premissa 3.4.1, a CCEE deve 
+proceder à notificação do agente conectado e, quando pertinente, do ONS, na data de término do 
+prazo para a opção de que trata a premissa 3.37.2, para a operacionalização da suspensão do 
+fornecimento a todas as unidades consumidoras dos consumidores representados correspondentes, 
+nos termos da regulamentação vigente. 
+3.40 Para a efetivação do desligamento de agente, a CCEE deve, conforme as premissas da seção “Gerais” 
+deste submódulo, no que for cabível, adequar os registros de contratos do agente, bem como ajustar 
+o cadastro dos respectivos ativos, considerando a data da operacionalização do desligamento.  
+Suspensão de fornecimento de energia elétrica
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+14 
+ 
+ 
+procedimentos de 
+comercialização 
+3.41 Realizada a  solicitação de  suspensão de fornecimento, nos termos da premissa 3.38, o agente 
+conectado deve proceder à suspensão do fornecimento de todas as unidades consumidoras no prazo 
+mínimo de cinco dias e máximo de  dez dias do recebimento da notificação , bem como informar à 
+CCEE em até quarenta e oito horas de sua execução, indicando a data efetiva em que foi realizada a 
+suspensão de fornecimento. 
+3.41.1 Caso a suspensão de fornecimento não seja efetivada no prazo estabelecido, deve ser 
+apresentada a justificativa à CCEE. 
+3.41.2 Em caso de ultrapassagem do prazo máximo para suspensão do fornecimento, decorrente 
+de responsabilidade exclusiva do agente conectado: 
+a) Distribuidora agente da CCEE , os débitos referentes ao consumo da unidade 
+consumidora serão alocados para responsabilidade da distribuidora a partir do  
+primeiro dia subsequente ao prazo máximo estabelecido para suspensão do 
+fornecimento, nos termos das Regras de Comercialização. 
+b) Distribuidora não agente da CCEE, os débitos referentes ao consumo da unidade 
+consumidora serão alocados para responsabilidade da distribuidora supridora a 
+partir do primeiro dia subsequente ao prazo máximo estabelecido  para suspensão 
+do fornecimento, nos termos das Regras de Comercialização. Nesse caso, os valores 
+arcados pela distribuidora supridora serão divulgados pela CCEE para cobrança 
+bilateral, podendo configurar inadimplência setorial. 
+c) Transmissora, os débitos referentes ao consumo da unidade consumidora , a partir 
+do primeiro dia subsequente ao prazo máximo estabelecido  para suspensão do 
+fornecimento, serão calculados nos termos das Regras de Comercialização e 
+cobrados pela CCEE  à transmissora . Nesse caso, a transmissora deve efetuar o 
+pagamento diretamente à CCEE em até 15 dias da data da notificação de cobrança 
+realizada pela CCEE, podendo configurar inadimplência setorial. 
+3.41.3 Caso a suspensão de fornecimento seja efetivada após o prazo máximo estabelecido, é 
+necessário que o agente conectado  informe à CCEE para que seja dado o tratamento 
+adequado em relação à alocação dos débitos da unidade consumidora.    
+3.42 A CCEE pode cancelar a solicitação de suspensão de fornecimento  ao agente conectado e, quando 
+pertinente, ao ONS, preferencialmente por meio eletrônico, até o quarto dia do envio da notificação 
+em que requereu a suspensão, desde que a efetivação da suspensão de fornecimento  ainda não 
+tenha sido informada à CCEE.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+15 
+ 
+ 
+procedimentos de 
+comercialização 
+3.42.1 Em caso de execução da suspensão, a CCEE pode solicitar o restabelecimento do 
+fornecimento ao agente conectado e, quando pertinente, ao ONS, desde que ainda não se 
+tenha operado os efeitos do desligamento do agente.  
+3.43 Em caso de suspensão de fornecimento, a unidade consumidora pode retornar ao ACL desde que 
+realize: 
+3.43.1 A quitação de suas pendências junto à CCEE, inclusive, quando aplicável, de sua matriz e/ou 
+filial(is); 
+3.43.2 Nova adesão à CCEE, nos termos dos submódulos 1.1 – Adesão à CCEE e 1.2 – Cadastro de 
+agentes. 
+Desligamento de agentes de distribuição de energia elétrica 
+3.44 O desligamento de agente de distribuição de energia elétrica inadimplente opera-se de pleno direito 
+somente quando da modelagem por novo agente outorgado sob o perfil correspondente. 
+Perfil específico para agentes de geração desligados 
+3.45 O perfil específico para vinculação de empreendimentos de geração anteriormente modelados sob 
+perfil de gerador desligado da CCEE deve observar o disposto nos normativos vigentes, além de 
+atender às premissas da presente seção deste submódulo.  
+3.46 O perfil específico e a geração sob este alocada não são computados para fins  de determinação de 
+votos no âmbito da CCEE. 
+3.47 As dívidas que ensejaram o desligamento do agente devem ser atualizadas monetariamente, 
+utilizando os índices aplicáveis a cada obrigação de pagamento, conforme regulação vigente, e 
+devem ser aplicados juros de mora de 1% ao mês sobre a parcela inadimplida , calculados pro rata 
+die. 
+3.48 O resultado da contabilização do perfil específico, abatido s os custos variáveis incorridos 
+exclusivamente no cumprimento à programação ou ao despacho determinado pelo ONS, é destinado 
+à amortização dos débitos da empresa desligada.  
+3.48.1 Caso não tenha sido ajuizada a ação para a cobrança dos valores ou o juízo indefira os 
+depósitos judiciais dos montantes, os valores arrecadados pela CCEE, p or meio do perfil 
+específico, devem ser repassados diretamente aos agentes credores e compensados da 
+dívida do agente desligado. 
+3.49 O gerador deve manter o Sistema de Medição para Faturamento - SMF operando de forma que não 
+seja interrompida a coleta de dados de medição.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+16 
+ 
+ 
+procedimentos de 
+comercialização 
+3.49.1 Caso haja ausência de dados, deve ser atribuído valor zero para todos os dados faltantes, 
+tanto para consumo quanto para geração, não se aplicando o disposto no submódulo 2.1 
+- Coleta e ajuste de dados de medição com relação à estimativa de dados.  
+3.50 A CCEE deve apurar eventual débito da empresa desligada ao qual estaria sujeita a pagar, no caso de 
+perda de ação judicial ou procedimento arbitral do qual a empresa desligada seja parte, informando 
+os valores aos possíveis credores por meio de relatório específico e ao juízo competente.  
+3.51 A CCEE pode determinar ao agente de distribuição e, quando pertinente, ao ONS, a desconexão do 
+sistema elétrico de unidade geradora modelada sob o perfil específico  do agente desligado nas 
+seguintes hipóteses: 
+3.51.1 Após a quitação de todos os seus débitos no âmbito da CCEE, sendo que  eventual saldo 
+remanescente da empresa desligada deve ser devolvido à empresa; 
+3.51.2 Caso seja constatado o aumento de débitos no âmbito da CCEE. 
+3.52 Na ocorrência das hipóteses previstas na premissa anterior, a CCEE deve comunicar à ANEEL para as 
+providências cabíveis. 
+3.53 Após a resposta do agente de distribuição ou do ONS sobre a desconexão do sistema elétrico de 
+unidade geradora modelada sob o perfil específico do agente desligado, a CCEE deve  desativar o(s) 
+ativo(s) modelado(s) sob o referido perfil, desativar o(s) ponto(s) de medição e encerrar o perfil 
+específico do agente desligado.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+17 
+ 
+ 
+procedimentos de 
+comercialização 
+4. LISTA DE DOCUMENTOS 
+DOCUMENTOS    Comercialização  Dist. Geração  
+Descrição  DE CL  CE  COM  D  APE  PIE  G  
+Requerimento de Desligamento da CCEE Sem Sucessão ✔ ✔ ✔ ✔   ✔ ✔ ✔ 
+Requerimento de Desligamento da CCEE Com Sucessão Completa ✔ ✔ ✔ ✔   ✔ ✔ ✔ 
+Requerimento de Desligamento da CCEE por Convenção Sucessória Financeira ✔ ✔ ✔ ✔   ✔ ✔ ✔ 
+ 
+Legenda: 
+Dist.: Distribuição 
+DE: Documento Eletrônico 
+CL: Consumidor Livre 
+CE: Consumidor Especial 
+COM: Comercializador 
+D: Distribuidor 
+APE: Autoprodutor de Energia 
+PIE: Produtor Independente 
+G: Demais Geradores
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+18 
+ 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Desligamento por descumprimento de obrigação
+CCEE Agente
+Descumprimento 
+de obrigação
+Conforme 
+regulamentação 
+vigente
+Apresentar 
+manifestação ao 
+TN
+Agente 
+regularizou 
+situação?
+N
+Receber o 
+Termo de 
+Notificação (TN)
+Sim
+Após seis ciclos de 
+contabilização e liquidação
+Encerrar o procedimento 
+de desligamento, caso não 
+haja mais 
+descumprimento de 
+obrigação e comunicar a 
+decisão
+Fim
+Instaurar 
+procedimento de 
+desligamento; enviar 
+notificação ao agente 
+inadimplente; restringir 
+acesso ao sistema
+Normalizar 
+acesso ao 
+sistema
+Não
+Conforme 
+regulamentação 
+vigente
+Deliberar sobre o 
+procedimento de 
+desligamento, 
+publicar e comunicar 
+a decisão
+Conforme 
+regulamentação 
+vigente
+Deliberar sobre o 
+período de 
+monitoramento, 
+publicar e comunicar 
+a decisão
+Conforme 
+regulamentação 
+vigente
+Operacionalizar o 
+desligamento
+ 
+Legenda: 
+N: Data de recebimento do Termo de Notificação
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+19 
+ 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Desligamento por descumprimento de obrigação 
+Atividade Responsável Detalhamento Prazo 
+Instaurar procedimento de 
+desligamento; enviar 
+notificação ao agente 
+inadimplente; restringir 
+acesso ao sistema específico 
+CCEE 
+A partir da constatação do descumprimento de qualquer das 
+obrigações estabelecidas nas normas e regulamentação 
+vigentes, a CCEE deve instaurar o procedimento de 
+desligamento, notificar o agente inadimplente e restringir seu 
+acesso ao sistema específico para registro, ajuste e validação de 
+contratos, conforme estabelecido neste submódulo. 
+- 
+Receber o Termo de 
+Notificação (TN) Agente - N 
+Apresentar manifestação ao 
+TN Agente 
+O agente pode apresentar manifestação ao TN, narrando toda 
+sua defesa, expondo razões de fato e de direito, e oferecendo 
+documentos e provas que entender necessários. 
+Conforme 
+regulamentação 
+vigente 
+Normalizar acesso ao 
+sistema CCEE 
+A CCEE deve permitir o acesso do agente ao sistema específico 
+para registro, ajuste e validação de contratos em caso de 
+caucionamento dos valores de seu débito ou regularização de 
+sua situação no âmbito da CCEE, nos termos deste submódulo.  
+- 
+Deliberar sobre o período de 
+monitoramento, publicar e 
+comunicar a decisão 
+CCEE 
+Caso o agente regularize sua situação no âmbito da CCEE no 
+ciclo financeiro imediatamente subsequente ao início de seu 
+procedimento de desligamento, e não apresente qualquer outro 
+descumprimento de obrigação, a CCEE deve colocá -lo em 
+monitoramento, publicar e comunicar a decisão, nos termos da 
+regulamentação vigente. 
+Conforme 
+normas 
+vigentes 
+Encerrar o procedimento de 
+desligamento, caso não haja 
+mais descumprimento de 
+obrigação e comunicar a 
+decisão 
+CCEE 
+A CCEE deve encerrar o procedimento de desligamento do 
+agente, caso não haja mais descumprimento de obrigação, e 
+comunicar a decisão, nos termos da regulamentação vigente. 
+Após seis ciclos 
+de 
+contabilização e 
+liquidação 
+Deliberar sobre o 
+procedimento de 
+desligamento, publicar e 
+comunicar a decisão 
+CCEE 
+Caso o agente não regularize sua situação, a CCEE deve 
+promover o julgamento do procedimento de desligamento do 
+agente e publicar e comunicar a decisão, nos termos da 
+regulamentação vigente. 
+Conforme 
+normas 
+vigentes 
+Operacionalizar o 
+desligamento CCEE A CCEE deve promover a operacionalização do desligamento do 
+agente. 
+Conforme 
+normas 
+vigentes 
+Legenda: 
+N: Data de recebimento do Termo de Notificação
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+20 
+ 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+7.1. Requerimento de Desligamento da CCEE Sem Sucessão 
+ 
+<Nome empresarial do agente da CCEE a ser desligado> , inscrita no CNPJ/MF sob n°: <CNPJ>, com endereço 
+em: <Endereço completo> , agente da CCEE, neste ato devidamente representada na forma de seu  ato 
+constitutivo, doravante denominada REQUERENTE, vem, por meio deste, solicitar formalmente seu 
+Desligamento da CCEE, nos termos das informações prestadas no sistema específico.  
+ 
+A REQUERENTE declara, ainda, para efeitos da presente solicitação de desligamento, o que segue: 
+ 
+1. Tem plena ciência das disposições constantes da Convenção de Comercialização de Energia Elétrica e 
+dos demais documentos jurídicos aplicáveis, notadamente o submódulo 1.5 dos Procedimentos de 
+Comercialização – Desligamento da CCEE; 
+ 
+2. Tem ciência de sua responsabilidade sobre dados e informações apresentados nos sistemas da CCEE, 
+presumindo-se verdadeiros e válidos; 
+ 
+3. Tem ciência de que somente pode ser definitivamente desligado caso mantenha -se em situação 
+regular no âmbito da CCEE, ou seja, realize todos os pagamentos dos eventos financeiros dos quais 
+ainda venha a participar na CCEE. 
+ 
+ 
+ 
+<Local>, <Data> de <Mês> de <Ano> 
+ 
+ 
+ 
+_________________________________________ 
+<Nome empresarial do agente> 
+<Nome do signatário> 
+<Cargo> 
+ 
+O(s) representante(s) legal(is) das empresas deve(m) ser indicado(s) nos sistemas da CCEE sob sua inteira responsabilidade, sem limitação de quantidade. 
+ 
+Este documento é gerado automaticamente pelo sistema da CCEE, devendo ser assinado conforme as opções de assinaturas previstas neste submódulo, 
+nos termos da legislação vigente.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+21 
+ 
+ 
+procedimentos de 
+comercialização 
+7.2. Requerimento de Desligamento da CCEE Com Sucessão Completa 
+ 
+<Nome empresarial do agente da CCEE a ser desligado> , inscrita no CNPJ/MF sob n°: <CNPJ>, com endereço 
+em: <Endereço completo> , agente da CCEE, neste ato devidamente representada na forma de seu  ato 
+constitutivo, doravante denominada REQUERENTE, vem, por meio deste, solicitar formalmente seu 
+Desligamento da CCEE, nos termos das informações prestadas no sistema específico.  
+ 
+A REQUERENTE declara, ainda, para efeitos da presente solicitação de desligamento, o que segue: 
+ 
+1. Tem plena ciência das disposições constantes da Convenção de Comercialização de Energia Elétrica e 
+dos demais documentos jurídicos aplicáveis, notadamente o submódulo 1.5 dos Procedimentos de 
+Comercialização – Desligamento da CCEE; 
+ 
+2. Tem ciência de sua responsabilidade sobre dados e informações apresentados nos sistemas da CCEE, 
+presumindo-se verdadeiros e válidos; 
+ 
+3. Tem ciência de que somente pode ser definitivamente desligado caso mantenha -se em situação 
+regular no âmbito da CCEE, ou seja, realize todos os pagamentos dos eventos financeiros dos quais 
+ainda venha a participar na CCEE; 
+ 
+4. Dada a existência de vínculo técnico, comercial, regulatório e/ou jurídico entre o REQUERENTE e o(s) 
+agente(s) sucessor(es), a(s) empresa(s) <Nome(s) empresarial(is) e CNPJ(s) do(s) agente(s) 
+sucessor(es)> assume(m) integralmente perante a CCEE, a partir desta data, toda e qualquer 
+responsabilidade pelos direitos e obrigações, inclusive pretéritas, e as decorrentes de eventuais 
+recontabilizações e ajustes financeiros, da REQUERENTE. 
+ 
+ 
+ 
+<Local>, <Data> de <Mês> de <Ano> 
+ 
+ 
+____________________________________ 
+<Nome empresarial da empresa desligada/ 
+sucedida> 
+____________________________________ 
+<Nome(s) empresarial(is) da(s) empresa(s) sucessora(s)> 
+<Nome do(s) Representante(s) Legal(is) da empresa 
+desligada/sucedida> 
+ 
+<Nome do(s) Representante(s) Legal(is) da empresa sucessora> 
+ 
+O(s) representante(s) legal(is) das empresas deve(m) ser indicado(s) nos sistemas da CCEE sob sua inteira responsabilidade, sem limitação de quantidade. 
+ 
+Este documento é gerado automaticamente pelo sistema da CCEE, devendo ser assinado conforme as opções de assinaturas previstas neste submódulo, 
+nos termos da legislação vigente.
+
+Submódulo 1.5 – Desligamento da CCEE 
+Revisão 6.0 
+22 
+ 
+ 
+procedimentos de 
+comercialização 
+7.3. Requerimento de Desligamento da CCEE por Convenção Sucessória Financeira 
+ 
+<Nome empresarial do agente da CCEE a ser desligado> , inscrita no CNPJ/MF sob n°: <CNPJ>, com endereço 
+em: <Endereço completo> , agente da CCEE, neste ato devidamente representada na forma de seu  ato 
+constitutivo, doravante denominada REQUERENTE, vem, por meio deste, solicitar formalmente seu 
+Desligamento da CCEE, nos termos das informações prestadas no sistema específico.  
+ 
+A REQUERENTE declara, ainda, para efeitos da presente solicitação de desligamento, o que segue: 
+ 
+1. Tem plena ciência das disposições constantes da Convenção de Comercialização de Energia Elétrica e 
+dos demais documentos jurídicos aplicáveis, notadamente o submódulo 1.5 dos Procedimentos de 
+Comercialização – Desligamento da CCEE; 
+ 
+2. Tem ciência de sua responsabilidade sobre dados e informações apresentados nos sistemas da CCEE, 
+presumindo-se verdadeiros e válidos; 
+ 
+ 
+3. Tem ciência de que somente pode ser definitivamente desligado caso mantenha -se em situação 
+regular no âmbito da CCEE, ou seja, realize todos os pagamentos dos eventos financeiros dos quais 
+ainda venha a participar na CCEE; 
+ 
+ 
+4. Dada a  ocorrência de  Convenção Sucessória Financeira  entre o REQUERENTE e o(s) agente(s) 
+sucessor(es), a(s) empresa(s) <Nome(s) empresarial(is) e CNPJ(s) do(s) agente(s) sucessor(es) que 
+receberá(ão) o histórico financeiro>  assume(m) integralmente perante a CCEE, a partir desta data, 
+toda e qualquer responsabilidade pelos direitos e obrigações financeiras, inclusive pretéritas, e as 
+decorrentes de eventuais recontabilizações e ajustes financeiros, da REQUERENTE. 
+ 
+ 
+<Local>, <Data> de <Mês> de <Ano> 
+ 
+ 
+____________________________________ 
+<Nome empresarial da empresa desligada/ 
+sucedida> 
+____________________________________ 
+<Nome(s) empresarial(is) da(s) empresa(s) sucessora(s)> 
+<Nome do(s) Representante(s) Legal(is) da empresa 
+desligada/sucedida> 
+ 
+<Nome do(s) Representante(s) Legal(is) da empresa 
+sucessora> 
+ 
+ 
+O(s) representante(s) legal(is) das empresas deve(m) ser indicado(s) nos sistemas da CCEE sob sua inteira responsabilidade, sem limitação de quantidade. 
+ 
+Este documento é gerado automaticamente pelo sistema da CCEE, devendo ser assinado conforme as opções de assinaturas previstas neste submódulo, 
+nos termos da legislação vigente.

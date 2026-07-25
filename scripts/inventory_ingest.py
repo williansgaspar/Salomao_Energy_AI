@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import hashlib
 import json
 import re
@@ -32,7 +33,7 @@ def classify(path: Path) -> tuple[str, str]:
     if "ren aneel" in name:
         return "ren", "pending_official_check"
     if "pdc" in name or "procedimento" in str(path.parent).lower():
-        return "procedimento_ccee", "pending_version_check"
+        return "procedimento_ccee", "official_download_confirmed"
     return "outro", "pending_classification"
 
 
@@ -40,6 +41,12 @@ def build(source: Path) -> dict:
     files = []
     for path in sorted((item for item in source.rglob("*") if item.is_file()), key=lambda p: str(p).casefold()):
         kind, status = classify(path)
+        notes = "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+        if status == "official_download_confirmed":
+            notes = (
+                "PDF baixado diretamente do site da CCEE em 17/07/2026; "
+                "a versão aplicável deve ser reconciliada com o catálogo normativo."
+            )
         files.append({
             "path": path.relative_to(ROOT).as_posix(),
             "size_bytes": path.stat().st_size,
@@ -47,11 +54,11 @@ def build(source: Path) -> dict:
             "classification": kind,
             "triage_status": status,
             "canonical": False,
-            "notes": "Área de entrada; conferir fonte oficial, versão e vigência antes da promoção."
+            "notes": notes
         })
     return {
         "schema_version": 1,
-        "generated_at": "2026-07-19",
+        "generated_at": dt.date.today().isoformat(),
         "source": source.relative_to(ROOT).as_posix(),
         "policy": "Inventário não promove nem confirma vigência.",
         "count": len(files),

@@ -1,0 +1,1881 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 1.8 - CCEE.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 1.8 - CCEE.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 1 – Agentes 
+Submódulo 1.8 – Comercialização varejista – 
+modelo simplificado 
+procedimentos de 
+comercialização
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada  
+(segunda fase da CP nº 28/2023) Resolução Normativa nº 1.110/2024 01.07.2025
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+Com a publicação da Portaria MME nº 50/2022, foi possibilitada a todos os consumidores classificados como 
+Grupo A a migração para o Ambiente de Contratação Livre (ACL) a partir de janeiro de 2024 , sendo que os 
+consumidores com carga inferior a 500kW devem ser obrigatoriamente representados por agentes varejistas. 
+A comercialização varejista caracteriza -se pelas relações comerciais entre o agente varejista (agente 
+representante) e as pessoas físicas ou jurídicas elegíveis à representação (representados), dando -se pela 
+adesão ao Contrato para Comercialização Varejista (CCV) e pela celebração de outras avenças de livre 
+pactuação.  
+2. OBJETIVO 
+Estabelecer os procedimentos relativos: 
+a) À habilitação, no modelo simplificado, das unidades consumidoras que são representadas por agentes 
+varejistas para exercício de sua aquisição de energia elétrica no Ambiente de Contratação Livre (ACL); e 
+b) Aos processos de resilição e resolução contratual, e o tratamento a ser dado aos representados em caso 
+de desligamento ou inabilitação do agente varejista. 
+3. PREMISSAS 
+3.1 O modelo simplificado para comercialização varejista se aplica, obrigatoriamente, aos consumidores 
+aos quais a regulamentação vigente exija a representação por agente varejista, conectados 
+diretamente na rede de distribuição  e não participantes de DIT ou redes compartilhadas , 
+independentemente da demanda contratada. 
+3.1.1 Aos consumidores aos quais a regulamentação vigente não exija sua representação por 
+agente varejista, a migração ao ACL por meio de modelo simplificado é facultativa. 
+3.2 O modelo simplificado para comercialização varejista não se aplica aos agentes parcialmente livres 
+e aos agentes da classe de autoprodução ou produção independente que desejam realizar alocação 
+de geração própria. 
+3.3 As condições gerais para habilitação do agente varejista estão definidas no submódulo 1.6 – 
+Comercialização varejista.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.4 Todas as atividades inerentes a este submódulo, incluindo os cadastros, atualizações, validações, 
+envio de dados de medição e consultas às informações devem ser realizados por meio de integração 
+sistêmica aos sistemas da CCEE , conforme instruções específicas constantes em seus canais 
+eletrônicos. 
+3.4.1 As unidades consumidoras que atendam aos requisitos desse submódulo para serem 
+representadas por meio do modelo simplificado não acessam o sistema da CCEE. 
+3.4.2 Todas as informações de que constam deste submódulo podem ser acessadas por agentes 
+da CCEE mediante autorização do consumidor. 
+3.5 A CCEE é isenta de qualquer responsabilidade sobre os dados informados em seu sistema, inclusive 
+quanto aos dados cadastrados erroneamente ou não atualizados, considerando -os verdadeiros e 
+válidos desde seu cadastro/apresentação. 
+3.6 O agente varejista e o agente conectado  (distribuidora agente ou não agente da CCEE)  se 
+comprometem e se responsabilizam pela veracidade, vigência, comprovação e atualização dos dados 
+e documentos apresentados à CCEE, por meio do sistema. 
+3.7 As informações referentes às unidades consumidoras, constantes no anexo 7.1, devem ser mantidas 
+pelas partes responsáveis e disponibilizadas, quando solicitadas. 
+3.8 As unidades consumidoras p odem solicitar à CCEE, por meio do preenchimento das informações 
+requeridas pelo canal específico disponível no site da Câmara , a disponibilização dos seus dados 
+padronizados, tais como: i) dados de medição  referentes aos últimos doze meses disponíveis , ii) 
+histórico de representação varejista e iii) histórico de eventual suspensão de fornecimento de 
+energia elétrica. 
+3.8.1 A solicitação deve ser realizada pelo representante legal da unidade consumidora. 
+3.8.2 O solicitante pode indicar aqueles que também terão acesso aos seus dados padronizados 
+(agentes ou não).  
+3.8.3 Caso não haja pendências na solicitação , os dados padronizados  devem ser 
+disponibilizados, pela CCEE, ao solicitante e àqueles indicados na solicitação, em até cinco 
+dias úteis, contados do registro da solicitação.    
+Celebração do Contrato para Comercialização Varejista 
+3.9 O consumidor que deseja ser representado por meio da representação varejista deve celebrar o 
+Contrato para Comercialização Varejista (CCV), nos termos da  regulamentação vigente, com 
+qualquer dos agentes varejistas habilitados, conforme relação atualizada disponível no site da CCEE.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.10 A solicitação de elaboração do CCV deve ser realizada pelo agente varejista, exclusivamente, por 
+meio do sistema, informando, no mínimo: 
+a) O código do agente varejista responsável pela representação; 
+b) O CPF ou CNPJ do titular da unidade consumidora; 
+c) O nome ou nome empresarial da unidade consumidora; 
+d) O código da unidade consumidora; 
+e) O endereço da unidade consumidora; 
+f) O telefone do titular da unidade consumidora; 
+g) O nome e e -mail do representante legal da unidade consumidora, bem como seu CPF nos 
+casos de pessoa jurídica. 
+3.11 O representante legal do representado, indicado na premissa anterior, bem como o representante 
+legal do agente varejista, serão notificados para assinatura do CCV. 
+3.11.1 O CCV, gerado de forma eletrônica pelo sistema, conforme modelo estabelecido na 
+regulamentação vigente, deve ser assinado pelo(s) representante(s) legal(is) do agente 
+varejista e da unidade consumidora representada. 
+3.11.2 A assinatura do CCV ocorre, única e exclusivamente, por meio da assinatura eletrônica 
+avançada, sendo a CCEE responsável por: a) assegurar, de maneira unívoca, a assinatura 
+ao signatário; b) utilizar dados para a criação de assinatura cujo signatário possa , com 
+elevado nível de confiança, operar sob o seu controle exclusivo; e c) relacionar a assinatura 
+aos dados a ela associados de tal modo que qualquer modificação posterior possa ser 
+detectável. 
+3.11.3 O agente varejista se compromete e se responsabiliza, no âmbito da CCEE, pela validade e 
+regularidade dos dados apresentados, incluindo os poderes de todos os signatários dos 
+documentos que serão gerados de forma eletrônica. 
+3.11.4 Os representantes legais das partes devem ter poderes de representação e a inobservância 
+a esse requisito pode fazê-los incorrer em responsabilidade civil, criminal e administrativa, 
+nos termos da legislação vigente. 
+3.12 Em caso de alteração de titularidade da unidade consumidora, o agente varejista deve celebrar CCV 
+com o novo titular.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+6 
+ 
+procedimentos de 
+comercialização 
+Condições gerais para habilitação do representado 
+3.13 Após o atendimento das premissas da seção anterior, a  solicitação de habilitação do representado 
+deve ser realizada pelo agente varejista, exclusivamente, por meio do sistema , informando , no 
+mínimo: 
+a) O código da unidade consumidora; 
+b) O código do agente conectado, ao qual a unidade consumidora está conectada; 
+c) O e-mail de contato do titular da unidade consumidora , sendo vedada a indicação de e -mail 
+vinculado ao agente varejista; 
+d) A informação se o representado é pessoa física ou pessoa jurídica; 
+e) No caso de pessoa jurídica, o CNPJ do titular da unidade consumidora; 
+f) O código do perfil em que a unidade consumidora deve ser contabilizada; 
+g) O agente varejista responsável pela representação; 
+h) O mês pretendido para início da contratação; 
+i) A data da denúncia junto à distribuidora. 
+3.14 Especificamente em relação  à informação d e perfil em que a unidade consumidora deve ser 
+contabilizada, constante na premissa anterior: 
+3.14.1 Em caso de comercialização de energia oriunda de fontes incentivadas, é responsabilidade 
+do agente varejista indicar que o perfil terá esta característica.  
+3.14.2 O agente conectado deve conceder o desconto na TUSD provisório e pré-fixado, conforme 
+as Regras de Comercialização, para o mês de migração da unidade consumidora ao ACL até 
+que seja divulgado, pela CCEE, o primeiro relatório de desconto aplicável ao referido perfil, 
+devidamente apurado. 
+3.14.3 O agente conectado deve acessar os relatórios divulgados pela CCEE, em seu site, para 
+certificar-se de que se trata de um perfil incentivado ou não.  
+3.15 O agente conectado responsável pela unidade consumidora deve ser notificado, por meio eletrônico, 
+para validar o cadastro inicial realizado pelo agente varejista e acrescentar as seguintes informações, 
+no mínimo: 
+a) O submercado;
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+7 
+ 
+procedimentos de 
+comercialização 
+b) O código da  distribuidora supridora (no caso de unidade consumidora conectada em 
+distribuidora não agente da CCEE); 
+c) O montante de uso do sistema de distribuição (MUSD); 
+d) A declaração de histórico de consumo  (em MW médio, referente à média de consumo 
+histórico dos últimos doze meses); 
+e) O pagamento pelo encerramento antecipado  do Contrato de Compra de Energia Regulada 
+(CCER), se houver. 
+3.15.1 Caso as informações de que tratam os itens “a”, “b” e “c” da premissa anterior não sejam 
+declaradas pelo agente conectado, a CCEE deve considerar: o submercado de atuação do 
+agente conectado  (nos casos de agente conectado  com atuação em mais de um 
+submercado, considerar o submercado  Sudeste/Centro-Oeste); distribuidora supridora  
+igual a cadastrada nos sistemas da CCEE para o respectivo agente conectado; o MUSD igual 
+a 500kW.  
+3.15.2 O agente conectado atesta a adimplência da unidade consumidora em caso de aprovação 
+da solicitação.  
+3.15.3 A ausência de informações necessárias para o cadastro da unidade consumidora pelo 
+agente conectado não pode ser impeditiva para a conclusão do processo.  
+3.15.4 Caso a solicitação não seja aprovada, o agente conectado deve informar o motivo e indicar 
+solução para regularização, cabendo ao agente varejista ajustar e abrir nova solicitação. 
+3.15.5 Com a aprovação da solicitação pelo agente conectado, opera-se a eficácia do CCV. 
+3.16 Todas as solicitações que dependam de validação do agente conectado devem ser por este 
+analisadas e respondidas em até cinco dias úteis (5du). 
+3.16.1 Em caso de descumprimento por parte do agente conectado, a CCEE deve informar à 
+ANEEL, por meio de relatório específico. 
+3.17 Todos os processos consistidos e validados sem pendências até M-12du serão considerados para o 
+mês de referência “M”. 
+3.18 Atividades de  inclusão ou manutenção de perfil podem ser realizadas pelo  agente varejista até 
+MS+3du, desde que se refiram , obrigatoriamente, à  alteração de perfil de cadastro de unidade 
+consumidora representada por agente varejista.  
+3.18.1 O agente varejista deve informar, por meio do sistema, no mínimo:
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+8 
+ 
+procedimentos de 
+comercialização 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) O código do perfil em que unidade consumidora deve ser contabilizada; 
+d) O início da vigência. 
+3.18.2 As operações realizadas por meio desse perfil seguem os prazos estabelecidos nos 
+Procedimentos de Comercialização aplicáveis. 
+3.19 Alterações de dados cadastrados no sistema podem ser realizadas pelo agente varejista até MS+3du, 
+desde que se refiram às seguintes informações: 
+a) O e-mail de contato do titular da unidade consumidora, sendo vedada a indicação de e -mail 
+vinculado ao agente varejista; 
+b) A informação se o representado é pessoa física ou pessoa jurídica; 
+c) No caso de pessoa jurídica, o CNPJ do titular da unidade consumidora, devendo ser atendida 
+a seção “Celebração do Contrato para Comercialização Varejista”. 
+3.19.1 O agente conectado será notificado sobre as alterações realizadas pelo agente varejista. 
+3.20 Alterações de dados cadastrados no sistema podem ser realizadas pelo agente conectado até  
+MS+3du, desde que se refiram às seguintes informações: 
+a) Ao submercado; 
+b) Ao c ódigo da distribuidora supridora (no caso de unidade consumidora conectada em 
+distribuidora não agente da CCEE); 
+c) Ao MUSD; 
+d) À declaração de histórico de consumo; 
+e) Ao status da unidade consumidora; 
+f) Aos motivadores das alterações cadastrais 
+3.20.1 O agente varejista será notificado sobre as alterações realizadas pelo agente conectado. 
+3.21 O agente varejista, ao solicitar o cadastro da unidade consumidora, e o agente conectado, ao validar 
+a solicitação, se comprometem e se responsabilizam pela validade das informações apresentadas, 
+além de atestarem a adimplência dos representados que desej am migrar suas unidades 
+consumidoras.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+9 
+ 
+procedimentos de 
+comercialização 
+3.22 O agente varejista e o agente conectado devem acompanhar o andamento das solicitações por meio 
+do sistema. 
+3.23 A CCEE não presta informações sobre as operações que o agente varejista realiza em nome do 
+representado, cabendo tal esclarecimento ser realizado pelo próprio agente varejista. 
+3.24 Cada unidade consumidora deve estar contratada com um único agente varejista, para a mesma 
+vigência. 
+3.25 A vigência da representação se dá por prazo indeterminado, integrando-se por períodos completos 
+de contabilização. 
+3.26 No caso de substituição de agente varejista, a transferência do histórico de comercialização é 
+vedada. 
+3.26.1 A transferência do histórico de consumo ocorre apenas para fins de rateio do Encargo de 
+Energia de Reserva (EER), nos termos das Regras de Comercialização  a serem aprovadas 
+pela Agência Nacional de Energia Elétrica (ANEEL). 
+Coleta de dados de medição 
+3.27 O agente de medição  (agente conectado) é responsável por enviar , diariamente,  os dados de 
+consumo ativo de todas as unidades consumidoras por ele validadas e cujas migrações tenham sido 
+efetivadas na CCEE, para um determinado mês “M”,  consistidos em 5 em 5 minutos considerando, 
+no mínimo: 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) Os valores de consumo ativo; 
+d) A informação se o dado de consumo foi medido ou ajustado. 
+3.28 O prazo limite para envio dos dados de medição é até MS+7du. 
+3.29 O agente de medição (agente conectado) deve considerar os percentuais de perda técnica em 
+transformação e/ou em linha, quando aplicável (para os pontos abrangidos pelo módulo 5 do 
+PRODIST, conforme regulamentação vigente). 
+3.30 Os dados de medição enviados pelo agente conectado acessado já passaram pelos procedimentos 
+próprios de consistência, consolidação e análise crítica, aplicados para seus faturamentos de Tarifa 
+de Uso do Sistema de Distribuição (TUSD).
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+10 
+ 
+procedimentos de 
+comercialização 
+3.31 Caso seja necessário estimar os dados de medição, o agente deve adotar a metodologia para 
+estimativa de dados de medição descrita no anexo 7.2.  
+3.32 No caso de o dado de medição horário ultrapassar em mais de 25% o MUSD cadastrado, o dado será 
+rejeitado e o agente conectado será notificado. 
+3.32.1 Os dados rejeitados serão considerados com  valores igual a zero  e não serão estimados 
+pela CCEE. 
+3.33 O agente varejista deve consultar os dados de medição individuais de seus representados por meio 
+do sistema. 
+Resilição contratual por iniciativa do representado 
+3.34 Em caso de substituição do agente varejista atual por outro, o novo agente varejista que, já 
+habilitado, pretenda efetivar a representação deve , previamente, celebrar novo CCV com o 
+representado, nos termos da regulamentação vigente  e da seção específica deste submódulo , e 
+solicitar, por meio do sistema, a transferência dessa unidade consumidora, informando, no mínimo: 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) O código do novo agente varejista responsável pela representação; 
+d) O código do perfil em que a unidade consumidora deve ser contabilizada; 
+e) O mês pretendido para início da nova contratação. 
+3.35 Em caso de retorno da unidade consumidora ao mercado cativo, o agente conectado responsável 
+deve, previamente, celebrar CCER ou aceitar fornecer o atendimento sem celebração de CCER, nos 
+termos da regulamentação vigente, e solicitar, por meio do sistema, a transferência dessa unidade 
+consumidora, informando, no mínimo: 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) O mês pretendido para início da nova contratação; 
+d) A sinalização de que o atendimento será fornecido com ou sem a celebração de CCER.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+11 
+ 
+procedimentos de 
+comercialização 
+3.36 O mês pretendido para início da nova contratação, mencionado nas premissas anteriores, deve ser 
+indicado respeitando, no mínimo, noventa dias contados a partir da data da solicitação realizada no 
+sistema (exemplo: se o mês pretendido para início da nova contratação for maio, a solicitação deve 
+ser realizada no sistema pelo novo agente varejista ou pelo agente conectado até o último dia de 
+janeiro). 
+3.36.1 O prazo mínimo de noventa dias é dispensado em caso de resilição contratual por iniciativa 
+de ambas as partes (comum acordo). 
+3.37 Realizada a solicitação no sistema pelo novo agente varejista ou pelo agente conectado responsável, 
+o sistema enviará notificação ao atual agente varejista representante da unidade consumidora, que 
+deve analisar e responder a solicitação até M-12du, sendo “M” o mês pretendido para início da nova 
+contratação. 
+3.37.1 Caso a solicitação seja aprovada, a nova representação varejista ou o retorno da unidade 
+consumidora ao mercado cativo terá início a partir do primeiro dia do mês pretendido. 
+3.37.1.1 Ao aprovar a solicitação, o atual agente varejista atesta a adimplência da unidade 
+consumidora. 
+3.37.2 Caso a solicitação não seja aprovada, o atual agente varejista deve apresentar como 
+justificativa:  
+3.37.2.1 A inadimplência da unidade consumidora: nesse caso, o sistema deve notificar a 
+unidade consumidora  e o agente conectado até M -11du (sendo “M” o mês 
+pretendido para início da nova contratação)  para a operacionalização da 
+suspensão do fornecimento de energia elétrica, nos termos da seção específica 
+deste submódulo; ou 
+3.37.2.2 O cancelamento da solicitação, a pedido do representado: nesse caso, a unidade 
+consumidora permanecerá sob responsabilidade do atual agente varejista. 
+3.37.3 Caso o agente varejista atual não responda à solicitação no prazo estabelecido, a 
+transferência da unidade consumidora para o novo  agente varejista ou para o agente 
+conectado, conforme o caso, será realizada de forma compulsória pela CCEE e terá início a 
+partir do primeiro dia do mês pretendido, desde que respeitados os noventa dias mínimos 
+contados a partir da data da solicitação realizada no sistema. Caso o prazo mínimo não seja 
+respeitado, a solicitação será cancelada e a unidade consumidora permanecerá  sob 
+responsabilidade do agente varejista atual.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+12 
+ 
+procedimentos de 
+comercialização 
+3.37.3.1 Ao não responder à solicitação, o atual agente varejista enseja em 
+descumprimento de obrigação e a comprovação da  adimplência da unidade 
+consumidora resta pendente , cabendo à CCEE dar ciên cia ao novo agente 
+varejista ou ao agente conectado. 
+3.38 Especificamente em caso de adesão à CCEE (hipótese permitida apenas quando a representação 
+varejista não for obrigatória), o representado deve enviar a notificação para encerramento do CCV 
+ao agente varejista representante e à CCEE, indicando o mês pretendido para adesão à CCEE, que 
+deve respeitar, no mínimo, noventa dias contados a partir da data de recebimento da notificação 
+pelo agente varejista. 
+3.38.1 O recebimento da notificação pelo agente varejista é comprovado por meio do 
+comprovante de recebimento de e-mail registrado ou aviso de recebimento dos Correios, 
+a ser apresentado quando solicitado. 
+3.38.2 Para adesão à CCEE, o representado deve atender ao disposto nos submódulos 1.1 – 
+Adesão à CCEE e 1.2 – Cadastro de agentes, bem como informar à CCEE: 
+a) A data de recebimento da notificação para encerramento do CCV enviada ao agente 
+varejista; 
+b) O mês pretendido para adesão, que deve ser o mesmo informado na notificação 
+enviada ao agente varejista, exceto em caso de comum acordo; 
+c) O(s) código(s) da(s) unidade(s) consumidora(s) que será(ão) modelada(s) 
+individualmente, bem como o(s) respectivo(s) agente(s) conectado(s). 
+3.38.3 A CCEE  enviará notificação ao atual agente varejista representante da unidade 
+consumidora, que deve informar a adimplência da unidade consumidora  até M -12du, 
+sendo “M” o mês pretendido para adesão à CCEE. 
+3.38.4 A adesão terá início a partir do primeiro dia do mês pretendido, desde que atendido ao 
+disposto nos submódulos 1.1 – Adesão à CCEE e 1.2 – Cadastro de agentes e ao atestado 
+de adimplência fornecido pelo atual agente varejista. 
+3.38.5 Caso o atual agente varejista não ateste a adimplência da unidade consumidora, a CCEE 
+deve notificar a unidade consumidora e o agente conectado até M-11du (sendo “M” o mês 
+pretendido para adesão à CCEE) para a operacionalização da suspensão do fornecimento 
+de energia elétrica, nos termos da seção específica deste submódulo.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+13 
+ 
+procedimentos de 
+comercialização 
+3.38.6 Caso o agente varejista atual não responda à solicitação no prazo estabelecido, a adesão 
+será realizada de forma compulsória pela CCEE e terá início a partir do primeiro dia do mês 
+pretendido, desde que atendido ao disposto nos submódulos 1.1 – Adesão à CCEE e 1.2 – 
+Cadastro de agentes e desde que respeitados os noventa dias mínimos de que trata a 
+premissa 3.38. Caso o prazo mínimo não seja respeitado , a solicitação será cancelada e a 
+unidade consumidora permanecerá sob responsabilidade do agente varejista atual. 
+3.38.6.1 Ao não responder à solicitação, o atual agente varejista enseja em 
+descumprimento de obrigação e a comprovação da adimplência da unidade 
+consumidora resta pendente. 
+Resilição contratual por iniciativa do representante 
+3.39 O agente varejista deve enviar a notificação para encerramento do CCV ao representado, com as 
+informações estabelecidas pela regulamentação vigente, no prazo mínimo de noventa dias 
+antecedentes à data pretendida para o término da contratação, ou seja, o último dia do último mês 
+que o agente varejista deseja representar o consumidor (exemplo: se o mês pretendido para término 
+da contratação for abril, a notificação deve ser recebida pelo representado  até o último dia de 
+janeiro). 
+3.39.1 O recebimento da notificação pelo representado é comprovado por meio do comprovante 
+de recebimento de e -mail registrado ou aviso de recebimento dos Correios, a ser 
+apresentado quando solicitado. 
+3.40 Em caso de substituição do agente varejista atual por outro, o novo agente varejista, que, já 
+habilitado, pretenda efetivar a representação deve , previamente,  celebrar novo CCV com o 
+representado, nos termos da regulamentação vigente  e da seção específica deste submódulo , e 
+solicitar, por meio do sistema, a transferência dessa unidade consumidora, informando, no mínimo: 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) O código do novo agente varejista responsável pela representação; 
+d) O código do perfil em que a unidade consumidora deve ser contabilizada; 
+e) O mês pretendido para início da nova contratação.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+14 
+ 
+procedimentos de 
+comercialização 
+3.41 Em caso de retorno da unidade consumidora ao mercado cativo, o agente conectado responsável 
+deve, previamente, celebrar CCER ou aceitar fornecer o atendimento sem celebração de CCER, nos 
+termos da regulamentação vigente, e solicitar, por meio do sistema, a transferência dessa unidade 
+consumidora, informando, no mínimo: 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) O mês pretendido para início da nova contratação; 
+d) A sinalização de que o atendimento será fornecido com ou sem a celebração de CCER. 
+3.42 O mês pretendido para início da nova contratação, mencionado nas premissas anteriores, deve ser 
+indicado respeitando, no mínimo, noventa dias contados a partir da data de recebimento, pelo 
+consumidor, da notificação para encerramento do CCV enviada pelo agente varejista atual (exemplo: 
+se o mês pretendido para início da nova contratação for maio, o representado deve receber a 
+notificação enviada pelo atual agente varejista até o último dia de janeiro). 
+3.42.1 O prazo mínimo de noventa dias é dispensado em caso de resilição contratual por iniciativa 
+de ambas as partes (comum acordo). 
+3.43 Realizada a solicitação no sistema pelo novo agente varejista ou pelo agente conectado responsável, 
+o sistema enviará notificação ao atual agente varejista representante da unidade consumidora, que 
+deve analisar e responder a solicitação até M-12du, sendo “M” o mês pretendido para início da nova 
+contratação. 
+3.43.1 Caso a solicitação seja aprovada, a nova representação varejista ou o retorno da unidade 
+consumidora ao mercado cativo terá início a partir do primeiro dia do mês pretendido. 
+3.43.1.1 Ao aprovar a solicitação, o atual agente varejista atesta a adimplência da unidade 
+consumidora. 
+3.43.2 Caso a solicitação não seja aprovada, o atual agente varejista deve apresentar como 
+justificativa: 
+3.43.2.1 A inadimplência da unidade consumidora: nesse caso, o sistema deve notificar a 
+unidade consumidora  e o agente conectado até M -11du (sendo “M” o mês 
+pretendido para início da nova contratação) para a operacionalização da 
+suspensão do fornecimento de energia elétrica, nos termos da seção específica 
+deste submódulo; ou
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+15 
+ 
+procedimentos de 
+comercialização 
+3.43.2.2 O cancelamento da solicitação, a pedido do representado: nesse caso, a unidade 
+consumidora permanecerá sob responsabilidade do atual agente varejista. 
+3.43.3 Caso o agente varejista atual não responda à solicitação no prazo estabelecido, a 
+transferência da unidade consumidora para o novo  agente varejista ou para a 
+distribuidora/permissionária, conforme o caso, será realizada de forma compulsória pela 
+CCEE e terá início a partir do primeiro dia do mês pretendido, desde que respeitados os 
+noventa dias mínimos contados a partir da data da solicitação realizada no sistema. Caso o 
+prazo mínimo não seja respeitado , a solicitação será cancelada e a unidade consumidora 
+permanecerá sob responsabilidade do agente varejista atual. 
+3.43.3.1 Ao não responder à solicitação, o atual agente varejista enseja em 
+descumprimento de obrigação e a comprovação da adimplência da da unidade 
+consumidora resta pendente , cabendo à CCEE dar ciência ao novo agente 
+varejista ou agente conectado. 
+3.44 Especificamente em caso de adesão à CCEE (quando a representação varejista não for obrigatória), 
+o representado deve atender ao disposto nos submódulos 1.1 – Adesão à CCEE e 1.2 – Cadastro de 
+agentes, bem como informar à CCEE: 
+a) A data em que recebeu a notificação para encerramento do CCV enviada pelo agente varejista;  
+b) O mês pretendido para adesão, que deve respeitar, no mínimo, noventa dias contados a partir 
+da data de recebimento da notificação enviada pelo  agente varejista, exceto em caso de 
+comum acordo; 
+c) O(s) código(s) da(s) unidade(s) consumidora(s) que será(ão) modelada(s) individualmente, 
+bem como o(s) respectivo(s) agente(s) conectado(s). 
+3.44.1 A CCEE  enviará notificação ao atual agente varejista representante da unidade 
+consumidora, que deve informar a adimplência da unidade consumidora até M -12du, 
+sendo “M” o mês pretendido para adesão à CCEE. 
+3.44.2 A adesão terá início a partir do primeiro dia do mês pretendido, desde que atendido ao 
+disposto nos submódulos 1.1 – Adesão à CCEE e 1.2 – Cadastro de agentes e ao atestado 
+de adimplência fornecido pelo atual agente varejista. 
+3.44.3 Caso o atual  agente varejista não ateste a adimplência da unidade consumidora , a CCEE  
+deve notificar a unidade consumidora e o agente conectado até M-11du (sendo “M” o mês 
+pretendido para adesão à CCEE) para a operacionalização da suspensão do fornecimento 
+de energia elétrica, nos termos da seção específica deste submódulo.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+16 
+ 
+procedimentos de 
+comercialização 
+3.44.4 Caso o agente varejista atual não responda à solicitação no prazo estabelecido, a adesão 
+será realizada de forma compulsória pela CCEE e terá início a partir do primeiro dia do mês 
+pretendido, desde que atendido ao disposto nos submódulos 1.1 – Adesão à CCEE e 1.2 – 
+Cadastro de agentes e desde que respeitados os noventa dias mínimos de que trata a 
+premissa 3.44. Caso o prazo mínimo não seja respeitado , a solicitação será cancelada e a 
+unidade consumidora permanecerá sob responsabilidade do agente varejista atual. 
+3.44.4.1 Ao não responder à solicitação, o atual agente varejista enseja descumprimento 
+de obrigação e a comprovação d a adimplência da unidade consumidora  resta 
+pendente. 
+3.45 A partir de M -11du, sendo “M” o mês pretendido  para início da nova contratação , caso o 
+representado não tenha celebrado novo CCV com qualquer dos agentes varejistas disponíveis, não 
+tenha celebrado CCER junto ao agente conectado local, não tenha o aceite do agente conectado 
+para o atendimento sem celebração de CCER ou não tenha aderido à CCEE (quando a representação 
+varejista não for obrigatória), o agente varejista deve, por meio do sistema: 
+3.45.1 Informar ao agente conectado para a operacionalização da suspensão do fornecimento de 
+energia elétrica de todas as unidades consumidoras correspondentes ao representado, nos 
+termos da seção específica deste submódulo; 
+3.45.2 Indicar a data de recebimento da notificação para encerramento do CCV enviada ao 
+representado e o motivador do pedido de suspensão de fornecimento. 
+Resolução contratual por iniciativa do representado, decorrente de inadimplemento 
+do representante 
+3.46 Em caso de substituição do agente varejista atual por outro, o novo agente varejista que, já 
+habilitado, pretenda efetivar a representação deve , previamente, celebrar novo CCV com o 
+representado, nos termos da regulamentação vigente  e da seção específica deste submódulo , e 
+solicitar, por meio do sistema, a transferência dessa unidade consumidora, informando, no mínimo: 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) O código do novo agente varejista responsável pela representação; 
+d) O código do perfil em que a unidade consumidora deve ser contabilizada; 
+e) O mês pretendido para início da nova contratação.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+17 
+ 
+procedimentos de 
+comercialização 
+3.47 Em caso de retorno da unidade consumidora ao mercado cativo, o agente conectado responsável 
+deve, previamente, celebrar CCER ou aceitar fornecer o atendimento sem celebração de CCER, nos 
+termos da regulamentação vigente, e solicitar, por meio do sistema, a transferência dessa unidade 
+consumidora, informando, no mínimo: 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) O mês pretendido para início da nova contratação; 
+d) A sinalização de que o atendimento será fornecido com ou sem a celebração de CCER. 
+3.48 O mês pretendido para início da nova contratação, mencionado nas premissas anteriores, deve ser 
+indicado respeitando, no mínimo, quinze dias contados a partir da data da solicitação realizada no 
+sistema (exemplo: se o mês pretendido para início da nova contratação for maio, a solicitação deve 
+ser realizada no sistema pelo novo varejista ou pelo agente conectado até o dia 15 de abril). 
+3.49 Realizada a solicitação no sistema pelo novo agente varejista ou pelo agente conectado responsável, 
+o sistema enviará notificação ao atual agente varejista representante da unidade consumidora, que 
+deve analisar e responder a solicitação até M-12du, sendo “M” o mês pretendido para início da nova 
+contratação. 
+3.49.1 Caso a solicitação seja aprovada, a nova representação varejista ou o retorno da unidade 
+consumidora ao mercado cativo terá início a partir do primeiro dia do mês pretendido. 
+3.49.1.1 Ao aprovar a solicitação, o atual agente varejista atesta a adimplência da unidade 
+consumidora. 
+3.49.2 Caso a solicitação não seja aprovada, o atual agente varejista deve apresentar como 
+justificativa:  
+3.49.2.1 A inadimplência da unidade consumidora: nesse caso, o sistema deve notificar a 
+unidade consumidora  e o agente conectado até M -11du (sendo “M” o mês 
+pretendido para início da nova contratação) para  a operacionalização da 
+suspensão do fornecimento de energia elétrica, nos termos da seção específica 
+deste submódulo; ou 
+3.49.2.2 O cancelamento da solicitação, a pedido do representado: nesse caso, a unidade 
+consumidora permanecerá sob responsabilidade do atual agente varejista.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+18 
+ 
+procedimentos de 
+comercialização 
+3.49.3 Caso o agente varejista atual não responda à solicitação no prazo estabelecido, a 
+transferência da unidade consumidora para o novo agente varejista ou para o agente 
+conectado, conforme o caso, será realizada de forma compulsória pela CCEE e terá início a 
+partir do primeiro dia do mês pretendido, desde que respeitados os quinze dias mínimos 
+contados a partir da data da solicitação realizada no sistema. Caso o prazo mínimo não seja 
+respeitado, a solicitação será  cancelada e a unidade consumidora permanecerá s ob 
+responsabilidade do agente varejista atual. 
+3.49.3.1 Ao não responder à solicitação, o atual agente varejista  enseja em 
+descumprimento de obrigação e a comprovação de  adimplência da unidade 
+consumidora resta pendente , cabendo à CCEE dar ciência ao novo agente 
+varejista ou ao agente conectado. 
+3.50 Especificamente em caso de adesão à CCEE (hipótese permitida apenas quando a representação 
+varejista não for obrigatória), o representado deve enviar a notificação para encerramento do CCV 
+ao agente varejista representante  e à CCEE, indicando o mês pretendido para adesão à CCEE, que 
+deve respeitar, no mínimo, quinze dias contados a partir da data de recebimento da notificação pelo 
+agente varejista. 
+3.50.1 O recebimento da notificação pelo agente varejista é comprovado por meio do 
+comprovante de recebimento de e-mail registrado ou aviso de recebimento dos Correios, 
+a ser apresentado quando solicitado. 
+3.50.2 Para adesão à CCEE, o representado deve atender ao disposto nos submódulos 1.1 – 
+Adesão à CCEE e 1.2 – Cadastro de agentes, bem como informar à CCEE: 
+a) A data de recebimento da notificação para encerramento do CCV enviada ao agente 
+varejista; 
+b) O mês pretendido para adesão, que deve ser o mesmo informado na notificação 
+enviada ao agente varejista, exceto em caso de comum acordo; 
+c) O(s) código(s) da(s) unidade(s) consumidora(s) que será(ão) modelada(s) 
+individualmente, bem como o(s) respectivo(s) agente(s) conectado(s). 
+3.50.3 A CCEE  enviará notificação ao atual agente varejista representante da unidade 
+consumidora, que deve analisar e responder a solicitação até M -12du, sendo “M” o mês 
+pretendido para adesão à CCEE.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+19 
+ 
+procedimentos de 
+comercialização 
+3.50.4 A adesão terá início a partir do primeiro dia do mês pretendido, desde que atendido ao 
+disposto nos submódulos 1.1 – Adesão à CCEE e 1.2 – Cadastro de agentes e ao atestado 
+de adimplência fornecido pelo atual agente varejista. 
+3.50.5 Caso o atual agente varejista não ateste a adimplência da unidade consumidora, a CCEE 
+deve notificar a unidade consumidora e o agente conectado até M-11du (sendo “M” o mês 
+pretendido para adesão à CCEE) para a operacionalização da suspensão do fornecimento 
+de energia elétrica, nos termos da seção específica deste submódulo. 
+3.50.6 Caso o agente varejista atual não responda à solicitação no prazo estabelecido, a adesão 
+será realizada de forma compulsória pela CCEE e terá início a partir do primeiro dia do mês 
+pretendido, desde que atendido ao disposto nos submódulos 1.1 – Adesão à CCEE e 1.2 – 
+Cadastro de agentes e desde que respeitados os quinze dias mínimos de que trata a 
+premissa 3.50. Caso o prazo mínimo não seja respeitado , a solicitação será cancelada e a 
+unidade consumidora permanecerá sob responsabilidade do agente varejista atual. 
+3.50.6.1 Ao não responder à solicitação, o atual agente varejista enseja em 
+descumprimento de obrigação e a comprovação de adimplência da unidade 
+consumidora resta pendente. 
+Resolução contratual por iniciativa do representante, decorrente de inadimplemento 
+do representado 
+3.51 O agente varejista deve enviar a notificação para encerramento do CCV ao representado, com as 
+informações estabelecidas pela regulamentação vigente, no prazo mínimo de quinze dias 
+antecedentes à data pretendida para o término da contratação. 
+3.51.1 O recebimento da notificação pelo representado é comprovado por meio do comprovante 
+de recebimento de e -mail registrado ou aviso de recebimento dos Correios, a ser 
+apresentado quando solicitado. 
+3.52 A partir do 16º dia , contados a partir da data de recebimento da notificação enviada pelo agente 
+varejista, caso o representado não tenha celebrado novo CCV com qualquer dos agentes varejistas 
+disponíveis, não tenha celebrado CCER junto ao agente conectado local nem tenha aderido à CCEE 
+(quando a representação varejista não for obrigatória), o agente varejista deve, por meio do sistema: 
+3.52.1 Informar ao agente conectado para a operacionalização da suspensão do fornecimento de 
+energia elétrica de todas as unidades consumidoras correspondentes ao representado, nos 
+termos da seção específica deste submódulo;
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+20 
+ 
+procedimentos de 
+comercialização 
+3.52.2 Indicar a data de recebimento da notificação para encerramento do CCV enviada ao 
+representado e o motivador do pedido de suspensão de fornecimento. 
+Inabilitação e desligamento voluntários do agente varejista da CCEE 
+3.53 O agente varejista deve notificar seus representados sobre o encerramento do CCV, com 
+antecedência mínima de noventa dias da data pretendida para o término da contratação, ou seja, o 
+último dia do último mês que o agente varejista deseja operar na CCEE. 
+3.53.1 O recebimento da notificação pelo representado é comprovado por meio do comprovante 
+de recebimento de e -mail registrado ou aviso de recebimento dos Correios, a ser 
+apresentado quando solicitado. 
+3.54 O representado deve diligenciar pela continuidade de suas operações exercendo uma das seguintes 
+opções: celebrar novo CCV com qualquer dos agentes varejistas disponíveis, aderir à CCEE (quando 
+a representação varejista não for obrigatória), celebrar CCER j unto ao agente conectado ou ter o 
+aceite do agente conectado para o atendimento sem celebração de CCER, devendo ser seguidas 
+todas as diretrizes determinadas por este submódulo para a resilição contratual por iniciativa do 
+representado. 
+3.55 Enquanto não houver a conclusão do disposto na premissa anterior, o representado permanece sob 
+responsabilidade do agente varejista.  
+3.56 A inabilitação e o desligamento voluntários do  agente varejista estão condicionados à inexistência 
+de unidades consumidoras representadas sob todos os seus perfis, dentre outros requisitos 
+estabelecidos no submódulo 1.6 – Comercialização varejista. 
+Inabilitação e desligamento do agente varejista por iniciativa da CCEE  
+3.57 Para os casos de instauração do processo de inabilitação ou desligamento do agente varejista, a CCEE 
+deve notificar as unidades consumidoras representadas por meio dos e -mails informados pelo 
+agente varejista, nos termos da seção “Condições gerais para habilitação do representado”, com as 
+informações estabelecidas pela regulamentação vigente e com a indicação do mês previsto para  a 
+deliberação d a inabilitação ou  desligamento do agente varejista , para  que diligenciem pela 
+continuidade de suas operações: 
+3.57.1 Em caso de contratação com novo agente varejista, este deve, previamente, celebrar novo 
+CCV com o representado, nos termos da regulamentação vigente  e da seção específica 
+deste submódulo , e solicitar, por meio do sistema , a transferência dessa unidade 
+consumidora, informando, no mínimo:
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+21 
+ 
+procedimentos de 
+comercialização 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) O código do novo agente varejista responsável pela representação; 
+d) O código do perfil em que a unidade consumidora deve ser contabilizada; 
+e) O mês pretendido para início da nova contratação. 
+3.57.2 Em caso de retorno da unidade consumidora ao mercado cativo, o agente conectado 
+responsável deve , previamente, celebrar CCER ou aceitar fornecer  o atendimento sem 
+celebração de CCER, nos termos da regulamentação vigente, e solicitar, por meio do 
+sistema, a transferência dessa unidade consumidora, informando, no mínimo: 
+a) O código da unidade consumidora; 
+b) O código do agente conectado ao qual a unidade consumidora está conectada; 
+c) O mês pretendido para início da nova contratação; 
+d) A sinalização de que o atendimento será fornecido com ou sem a celebração de 
+CCER. 
+3.57.3 Especificamente em caso de adesão à CCEE (hipótese permitida apenas quando a 
+representação varejista não for obrigatória), o representado deve atender ao disposto nos 
+submódulos 1.1 – Adesão à CCEE e 1.2 – Cadastro de agentes, bem como informar à CCEE 
+o(s) código(s) da(s) unidade(s) consumidora(s) que será(ão) modelada(s) individualmente, 
+bem como o(s) respectivo(s) agente(s) conectado(s). 
+3.57.4 O mês pretendido para início da nova contratação ou da adesão à CCEE, mencionado nas 
+subpremissas anteriores,  deve ser o mês seguinte ao da deliberação do processo de 
+inabilitação ou desligamento do atual agente varejista. 
+3.57.5 As opções a serem exercidas pelo representado não requerem aprovações do atual agente 
+varejista, sendo todas elas efetivadas independentemente da atuação do atual agente 
+varejista até a extinção do  processo de inabilitação ou desligamento do atual agente 
+varejista.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+22 
+ 
+procedimentos de 
+comercialização 
+3.58 Em até cinco dias da deliberação que decidir pela inabilitação ou desligamento do agente varejista, 
+a CCEE deve enviar novas notificações às unidades consumidoras representadas, por meio dos e -
+mails informados pelo agente varejista, nos termos da seção “Co ndições gerais para habilitação do 
+representado”, com as informações estabelecidas pela regulamentação vigente, concedendo o 
+prazo de até MS-12du (sendo “M” o mês da deliberação do processo de inabilitação ou desligamento 
+do atual agente varejista) para diligenciarem pela continuidade de suas operações, nos termos das 
+subpremissas anteriores. 
+3.59 Na constatação de eventual problema no e-mail do representado cadastrado pelo atual agente 
+varejista, a CCEE poderá acionar o agente conectado, a qualquer tempo, para prestar a informação 
+mais atualizada em até cinco dias úteis. 
+3.60 A partir de MS-11du, sendo “M” o mês da deliberação do processo de inabilitação ou desligamento 
+do atual agente varejista, caso o representado não tenha exercido qualquer das opções visando dar 
+continuidade às suas operações, a CCEE deve, por meio do sistema: 
+3.60.1 Informar ao agente conectado para a operacionalização da suspensão do fornecimento de 
+energia elétrica de todas as unidades consumidoras correspondentes ao representado, nos 
+termos da seção específica deste submódulo. 
+3.61 A inabilitação e o desligamento do agente varejista, por iniciativa da CCEE, operam efeitos a partir 
+do primeiro dia do mês subsequente à efetivação da suspensão do fornecimento à última unidade 
+consumidora representada.  
+Suspensão de fornecimento de energia elétrica 
+3.62 Realizada a solicitação de suspensão de fornecimento, o sistema enviará notificação ao agente 
+conectado para proceder à suspensão do fornecimento da  unidade consumidora no prazo 
+estabelecido na regulamentação vigente, bem como responder no sistema em até quarenta e oito 
+horas de sua execução, indicando a data efetiva em que foi realizada a suspensão do fornecimento. 
+3.62.1 Caso a suspensão de fornecimento não seja efetivada no prazo estabelecido, deve ser 
+apresentada a justificativa no sistema. 
+3.62.2 Em caso de ultrapassagem do prazo máximo para suspensão do fornecimento, decorrente 
+de responsabilidade exclusiva do agente conectado:
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+23 
+ 
+procedimentos de 
+comercialização 
+a) Distribuidora agente da CCEE , os débitos referentes ao consumo da unidade 
+consumidora serão alocados para responsabilidade da distribuidora  a partir do 
+primeiro dia subsequente ao prazo máximo estabelecido  para suspensão do 
+fornecimento, nos termos das Regras de Comercialização. 
+b) Distribuidora não agente da CCEE, os débitos referentes ao consumo da unidade 
+consumidora serão alocados para responsabilidade da distribuidora supridora  a 
+partir do primeiro dia subsequente ao prazo máximo estabelecido  para suspensão 
+do fornecimento, nos termos das Regras de Comercialização. Nesse caso, os valores 
+arcados pela distribuidora supridora serão divulgados pela CCEE para cobrança 
+bilateral, podendo configurar inadimplência setorial. 
+3.62.3 Caso a suspensão de fornecimento seja efetivada após o prazo máximo estabelecido, é 
+necessário que o agente conectado responda no sistema para que a CCEE dê o tratamento 
+adequado em relação à alocação dos débitos da unidade consumidora.    
+3.63 Na ocorrência de qualquer das situações previstas na premissa anterior, o agente varejista deve ser 
+notificado por meio do sistema. 
+3.64 O agente varejista pode cancelar a solicitação de suspensão de fornecimento ao agente conectado 
+até o quarto dia do envio da notificação em que requereu a suspensão, desde que a efetivação da 
+suspensão de fornecimento ainda não tenha sido informada no sistema. 
+3.65 Em caso de suspensão de fornecimento, o representado pode retornar ao modelo simplificado desde 
+que realize: 
+3.65.1 A quitação de suas pendências com o último agente varejista, inclusive, quando aplicável, 
+de sua matriz e/ou filial(is); 
+3.65.2 Nova habilitação (cadastro e migração) de suas unidades consumidoras, conforme seção 
+específica deste submódulo. 
+3.66 Para saída de unidade consumidora do modelo simplificado e adesão à CCEE pelo modelo tradicional, 
+ao validar a solicitação no sistema de cadastro de ativos da CCEE, o agente conectado atesta que a 
+unidade consumidora não saiu do modelo simplificado em razão de processo de suspensão de 
+fornecimento, exceto em caso de realização da premissa 3.65.1. 
+3.67 O agente conectado deve alterar o status da unidade consumidora no sistema, inativando-o em caso 
+de: i) encerramento da relação contratual junto ao agente conectado; ou ii) alteração de titularidade 
+da unidade consumidora com a celebração de CCER.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+24 
+ 
+procedimentos de 
+comercialização 
+3.68 Para os casos de suspensão de fornecimento  compulsório da unidade consumidora cuja relação 
+contratual tenha sido encerrada junto ao agente conectado, é responsabilidade do agente 
+conectado informar tal suspensão ao agente varejista, por meio  do sistema . A  partir desta 
+informação, não será mais necessário o envio dos dados de medição. 
+ 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+25 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Migração de unidade consumidora
+Agente Varejista Agente Conectado
+N.A.
+Encaminhar 
+infromações da 
+unidade 
+consumidora
+Início
+N.A.
+Celebrar CCV com 
+o consumidor
+Até 5du
+Validar o cadastro 
+inicial e 
+acrescentar 
+informações
+Até MS+3du
+Informar ou alterar o 
+perfi da unidade 
+consumidora e alterar 
+dados cadastrados, se 
+for o caso
+Diariamente, até 
+MS+7du
+Enviar dados de 
+medição
+Até MS+3du
+Alterar dados 
+cadastrados, se for o 
+caso
+Fim
+ 
+ 
+Legenda: 
+MS: Mês seguinte ao mês de apuração  
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+26 
+ 
+procedimentos de 
+comercialização 
+Resilição contratual por iniciativa do representado
+Novo Agente Varejista ou 
+Agente Conectado Atual Agente Varejista Agente Conectado
+Início
+N.A.
+Celebrar CCV (se varejista); 
+CCER ou aceitar fornecer o 
+atendimento sem celebrar 
+CCER (se agente 
+conectado) com o 
+consumidor
+A partir do 1ºd do 
+mês pretendido
+Substituição de 
+varejista ou retorno 
+ao cativo
+Sim 
+(atesta adimplência)
+Omissão
+Não 
+(atesta inadimplência)
+Até M-11du
+Receber 
+notificação para 
+suspensão do 
+fornecimento
+Mínimo 90d, salvo se 
+comum acordo
+Solicitar a 
+transferência da 
+unidade consumidora 
+e enviar informações
+Até M-12du
+Analisar e 
+responder a 
+solicitação
+Solicitação 
+aprovada?
+Suspensão de 
+Fornecimento
+A partir do 1ºd do 
+mês pretendido
+Substituição de 
+varejista ou retorno 
+ao cativo 
+compulsoriamente
+Fim
+A partir do 1ºd do 
+mês pretendido
+Representação 
+mantida com o 
+atual agente 
+varejista 
+Não 
+(cancelamento a
+pedido do representado)
+ 
+ 
+Legenda: 
+M: Mês pretendido para início da nova contratação 
+N.A.: Não aplicável 
+du: dias úteis 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+27 
+ 
+procedimentos de 
+comercialização 
+Resilição contratual por iniciativa do representante
+Novo Agente Varejista ou 
+Agente Conectado Atual Agente Varejista Agente Conectado
+Início
+A partir do 1ºd do 
+mês pretendido
+Substituição de 
+varejista ou retorno 
+ao cativo
+Sim 
+(atesta adimplência)
+Omissão
+Não 
+(atesta inadimplência)
+Até M-11du
+Receber 
+notificação para 
+suspensão do 
+fornecimento
+Até 90d do recebimento 
+da notificação pelo 
+representado, salvo se 
+comum acordo
+Solicitar a transferência 
+da unidade consumidora 
+e enviar informações
+Até M-12du
+Analisar e 
+responder a 
+solicitação
+Solicitação 
+aprovada?
+Não 
+(cancelamento a
+pedido do representado)
+Mínimo 90d, salvo se 
+comum acordo
+Enviar notificação 
+para encerramento 
+do CCV ao 
+representado
+Sim
+Não
+Até M-11du
+Notificar o agente 
+conectado para 
+suspensão do 
+fornecimento
+Representado 
+diligenciou pela 
+continuidade de 
+suas 
+operações?
+A partir do 1ºd do 
+mês pretendido
+Substituição de 
+varejista ou retorno 
+ao cativo 
+compulsoriamente
+Suspensão de 
+Fornecimento
+A partir do 1ºd do 
+mês pretendido
+Representação 
+mantida com o 
+atual agente 
+varejista 
+Fim
+Até 90d do recebimento da 
+notificação pelo 
+representado, salvo se 
+comum acordo
+Celebrar CCV (se varejista); 
+CCER ou aceitar fornecer o 
+atendimento sem celebrar 
+CCER (se agente conectado) 
+com o representado
+ 
+ 
+Legenda: 
+M: Mês pretendido para início da nova contratação 
+N.A.: Não aplicável 
+du: dias úteis 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+28 
+ 
+procedimentos de 
+comercialização 
+Resolução contratual por iniciativa do representado, decorrente de inadimplemento do 
+representante
+Novo Agente Varejista ou 
+Agente Conectado Atual Agente Varejista Agente Conectado
+Início
+N.A.
+Celebrar CCV (se 
+varejista); CCER ou aceitar 
+fornecer o atendimento 
+sem celebrar CCER (se 
+agente conectado) com o 
+consumidor
+A partir do 1ºd do 
+mês pretendido
+Substituição de 
+varejista ou retorno 
+ao cativo
+Sim 
+(atesta adimplência)
+Omissão
+Não 
+(atesta inadimplência)
+Até M-11du
+Receber 
+notificação para 
+suspensão do 
+fornecimento
+Mínimo 15d
+Solicitar a 
+transferência da 
+unidade 
+consumidora e 
+enviar informações
+Até M-12du
+Analisar e 
+responder a 
+solicitação
+Solicitação 
+aprovada?
+Suspensão de 
+Fornecimento
+A partir do 1ºd do 
+mês pretendido
+Substituição de 
+varejista ou retorno 
+ao cativo 
+compulsoriamente
+Fim
+A partir do 1ºd do 
+mês pretendido
+Representação 
+mantida com o 
+atual agente 
+varejista 
+Não 
+(cancelamento a
+pedido do representado)
+ 
+ 
+Legenda: 
+M: Mês pretendido para início da nova contratação 
+N.A.: Não aplicável 
+du: dias úteis 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+29 
+ 
+procedimentos de 
+comercialização 
+Resolução contratual por iniciativa do representante, decorrente de 
+inadimplemento do representado
+Atual Agente Varejista Agente Conectado
+A partir do 16ºd
+Informar ao agente 
+conectado para suspensão 
+do fornecimento, caso o 
+representado não tenha 
+diligenciado pela 
+continuidade de suas 
+operações
+Início
+Suspensão de 
+Fornecimento
+Mínimo 15d
+Enviar notificação 
+para encerramento 
+do CCV ao 
+representado
+A partir do 16ºd
+Receber 
+notificação para 
+suspensão do 
+fornecimento
+ 
+ 
+Legenda: 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+30 
+ 
+procedimentos de 
+comercialização 
+Inabilitação e desligamento do agente varejista por iniciativa da CCEE
+Novo Agente Varejista ou 
+Agente Conectado CCEE Agente Conectado
+Descumprimento 
+de obrigação
+A partir do 1ºd do 
+mês pretendido
+Substituição de 
+varejista ou retorno 
+ao cativo
+Até MS-11du
+Receber 
+notificação para 
+suspensão do 
+fornecimento
+Até MS-12du
+Solicitar a 
+transferência da 
+unidade 
+consumidora e 
+enviar informações
+Suspensão de 
+FornecimentoFim
+Para os casos de 
+instauração do processo 
+de inabilitação ou 
+desligamento do agente 
+varejista e em até 5d da 
+deliberação
+Notificar as unidades 
+consumidoras 
+representadas
+Até MS-12du
+Celebrar CCV (se 
+varejista); CCER ou aceitar 
+fornecer o atendimento 
+sem celebrar CCER (se 
+agente conectado) com o 
+consumidor
+Representado 
+diligenciou pela 
+continuidade de 
+suas 
+operações?
+Sim
+Não
+ 
+ 
+Legenda: 
+MS: Mês seguinte ao mês da deliberação do processo de inabilitação ou desligamento do atual agente varejista 
+du: dias úteis 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+31 
+ 
+procedimentos de 
+comercialização 
+ 
+Suspensão do fornecimento de energia elétrica
+Atual Agente Varejista CCEE Agente Conectado
+Início
+A partir do 1ºd 
+seguinte à execução 
+da suspensão
+Status de suspensão 
+atribuído à unidade 
+consumidora
+Até 48 horas
+Informar sobre a 
+execução da 
+suspensão do 
+fornecimento
+Até o 4ºd do envio da 
+notificação
+Cancelar a solicitação 
+de suspensão de 
+fornecimento, se for 
+o caso
+Suspensão do 
+fornecimento 
+foi executada e 
+informada?
+Sim
+Conforme prazos 
+estabelecidos nos fluxos 
+anteriores
+Receber notificação 
+para suspensão do 
+fornecimentoAté o 4ºd do envio da 
+notificação
+Cancelar a solicitação 
+de suspensão de 
+fornecimento, se for 
+o caso Conforme prazo 
+estabelecido na 
+regulamentação 
+vigente
+Executar a suspensão 
+do fornecimento
+A partir do 1ºd 
+subsequente ao prazo 
+máximo estabelecido para 
+suspensão do fornecimento
+Alocação dos débitos da 
+unidade consumidora para 
+o agente conectado
+Não
+Ultrapassagem 
+do prazo
+Fim
+N.A.
+Representação 
+mantida com o atual 
+agente varejista
+Fim
+ 
+ 
+Legenda: 
+N.A.: Não aplicável 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+32 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Migração de unidade consumidora 
+Atividade Responsável Detalhamento Prazo 
+Celebrar CCV com o 
+consumidor Agente varejista 
+O consumidor que deseja ser representado por meio da 
+representação varejista deve celebrar o CCV, nos termos da 
+regulamentação vigente, com qualquer dos agentes varejistas 
+habilitados, conforme relação atualizada disponível no site da 
+CCEE. 
+N.A. 
+Encaminhar informações 
+da unidade consumidora Agente varejista O agente varejista deve encaminhar os dados cadastrais da 
+unidade consumidora conforme definido nesse submódulo. N.A. 
+Validar o cadastro inicial 
+e acrescentar 
+informações 
+Agente 
+conectado 
+O agente de distribuição deve analisar e responder a 
+solicitação referente ao cadastro de unidade consumidora, 
+avaliando os aspectos técnicos da solicitação e a adimplência 
+do solicitante junto ao agente de distribuição. 
+Até 5du 
+Informar ou alterar o 
+perfil da unidade 
+consumidora 
+Agente varejista O agente varejista pode informar ou alterar o perfil que deseja 
+contabilizar a unidade consumidora. Até MS+3du 
+Alterar dados 
+cadastrados 
+Agente 
+conectado 
+O agente conectado pode alterar alguns dos dados 
+cadastrados no sistema. Até MS+3du 
+Enviar dados de medição Agente 
+conectado 
+O agente de medição é responsável pelo envio dos dados de 
+medição consistidos e consolidados.  
+Diariamente, 
+até MS+7du 
+ 
+Legenda: 
+MS: Mês seguinte ao mês de apuração  
+N.A.: Não aplicável 
+du: dias úteis
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+33 
+ 
+procedimentos de 
+comercialização 
+Resilição contratual por iniciativa do representado 
+Atividade Responsável Detalhamento Prazo 
+Celebrar CCV (se varejista); 
+CCER ou aceitar fornecer 
+atendimento sem celebrar 
+CCER com consumidor (se 
+agente conectado) com 
+consumidor 
+Novo agente 
+varejista ou 
+agente 
+conectado 
+Em caso de substituição de representante varejista, o novo 
+agente varejista deve, previamente, celebrar novo CCV com o 
+representado. Em caso de retorno ao mercado cativo, o 
+agente conectado deve, previamente, celebrar CCER com 
+unidade consumidora ou aceita r o atendimento sem 
+celebração de CCER.  
+N.A. 
+Solicitar transferência da 
+unidade consumidora e 
+enviar informações 
+Novo agente 
+varejista ou 
+agente 
+conectado 
+Solicitar, por meio do sistema, a transferência da unidade 
+consumidora, bem como informar os dados requeridos. 
+Mínimo 90d, 
+salvo se comum 
+acordo 
+Analisar e responder a 
+solicitação 
+Atual agente 
+varejista 
+O sistema enviará notificação ao atual agente varejista que 
+deve analisar e responder a solicitação de transferência da 
+unidade consumidora recebida. 
+Até M-12du 
+Substituição de varejista ou 
+retorno ao cativo 
+Novo agente 
+varejista ou 
+agente 
+conectado 
+Caso aprovada a solicitação de transferência, a nova 
+representação varejista ou retorno da unidade consumidora 
+ao mercado cativo terá início. 
+A partir do 1°d 
+do mês 
+pretendido 
+Substituição de varejista ou 
+retorno ao cativo 
+compulsoriamente 
+Novo agente 
+varejista ou 
+agente 
+conectado 
+Caso o atual agente varejista não responda a solicitação de 
+transferência no prazo estabelecido, a nova representação 
+varejista ou retorno da unidade consumidora ao mercado 
+cativo terá início de forma compulsória. 
+A partir do 1°d 
+do mês 
+pretendido 
+Representação mantida com 
+o atual agente varejista 
+Atual agente 
+varejista 
+Caso não aprovada a solicitação de transferência de unidade 
+consumidora por solicitação do representado a representação 
+fica mantida com o atual agente varejista. 
+A partir do 1° d 
+do mês 
+pretendido 
+Receber notificação para 
+suspensão do fornecimento 
+Agente 
+conectado 
+Caso não aprovada a solicitação de transferência de unidade 
+consumidora por motivo de inadimplência, o sistema notifica 
+a unidade consumidora e agente conectado para 
+operacionalização da suspensão de fornecimento de energia 
+elétrica da unidade consumidora. 
+Até M-11du 
+ 
+Legenda: 
+M: mês pretendido para a solicitação   
+N.A.: Não aplicável 
+du: dias úteis 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+34 
+ 
+procedimentos de 
+comercialização 
+Resilição contratual por iniciativa do representante 
+Atividade Responsável Detalhamento Prazo 
+Enviar notificação para 
+encerramento do CCV ao 
+representado 
+Atual agente 
+varejista 
+O atual agente varejista deve enviar a notificação para 
+encerramento do CCV ao representado, respeitando o 
+prazo mínimo estabelecido à data pretendida para o 
+término da contratação. 
+Mínimo 90d, salvo se 
+comum acordo 
+Celebrar CCV (se varejista); 
+CCER ou aceitar fornecer 
+atendimento sem celebrar 
+CCER com consumidor (se 
+agente conectado) com 
+consumidor 
+Novo agente 
+varejista ou 
+agente conectado 
+Em caso de substituição de representante varejista, o 
+novo agente varejista deve, previamente, celebrar novo 
+CCV com o representado. Em caso de retorno ao mercado 
+cativo, o agente conectado deve, previamente, celebrar 
+CCER com unidade consumidora ou aceitar o atendimento 
+sem celebração de CCER.  
+Até 90d do 
+recebimento da 
+notificação pelo 
+representado, salvo 
+se comum acordo 
+Solicitar a transferência da 
+unidade consumidora 
+Novo agente 
+varejista ou 
+agente conectado 
+Solicitar, por meio do sistema, a transferência da unidade 
+consumidora, bem como informar os dados requeridos. 
+Até 90d do 
+recebimento da 
+notificação pelo 
+representado, salvo 
+se comum acordo 
+Analisar e responder a 
+solicitação 
+Atual agente 
+varejista 
+O sistema enviará notificação ao atual agente varejista 
+que deve analisar e responder a solicitação de 
+transferência da unidade consumidora recebida. 
+Até M-12du 
+Notificar o agente conectado 
+para suspensão do 
+fornecimento 
+Atual agente 
+varejista 
+Caso o representado não tenha diligenciado pela 
+continuidade de suas operações por meio de celebração 
+de novo CCV ou retorno ao mercado cativo, o atual agente 
+varejista deve notificar o agente conectado para início do 
+processo de suspensão de fornecimento do representado. 
+Até M-11du 
+Substituição de varejista ou 
+retorno ao cativo 
+Novo agente 
+varejista ou 
+agente conectado 
+Caso aprovada a solicitação de transferência, a nova 
+representação varejista ou retorno da unidade 
+consumidora ao mercado cativo terá início. 
+A partir do 1°d do 
+mês pretendido 
+Substituição de varejista ou 
+retorno ao cativo 
+compulsoriamente 
+Novo agente 
+varejista ou 
+agente conectado 
+Caso o atual agente varejista não responda a solicitação 
+de transferência no prazo estabelecido, a nova 
+representação varejista ou retorno da unidade 
+consumidora ao mercado cativo terá início de forma 
+compulsória. 
+A partir do 1°d do 
+mês pretendido 
+Representação mantida com 
+o atual agente varejista 
+Atual agente 
+varejista 
+Caso não aprovada a solicitação de transferência de 
+unidade consumidora por solicitação do representado a 
+representação fica mantida com o atual agente varejista. 
+A partir do 1°d do 
+mês pretendido 
+Receber notificação para 
+suspensão do fornecimento Agente conectado 
+Caso não aprovada a solicitação de transferência de 
+unidade consumidora por motivo de inadimplência, o 
+sistema notifica a unidade consumidora e agente 
+conectado para operacionalização da suspensão de 
+fornecimento de energia elétrica da unidade 
+consumidora. 
+Até M-11du 
+ 
+Legenda: 
+M: mês pretendido para a solicitação   
+du: dias úteis 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+35 
+ 
+procedimentos de 
+comercialização 
+Resolução contratual por iniciativa do representado, decorrente de inadimplemento 
+do representante 
+Atividade Responsável Detalhamento Prazo 
+Celebrar CCV (se varejista); 
+CCER ou aceitar fornecer 
+atendimento sem celebrar 
+CCER com consumidor (se 
+agente conectado) com 
+consumidor 
+Novo agente 
+varejista ou agente 
+conectado 
+Em caso de substituição de representante varejista, o novo 
+agente varejista deve, previamente, celebrar novo CCV com 
+o representado. Em caso de retorno ao mercado cativo, o 
+agente conectado deve, previamente, celebrar CCER com 
+unidade consumidora ou aceita r o atendimento sem 
+celebração de CCER.  
+N.A. 
+Solicitar transferência da 
+unidade consumidora e enviar 
+informações 
+Novo agente 
+varejista ou agente 
+conectado 
+Solicitar, por meio do sistema, a transferência da unidade 
+consumidora, bem como informar os dados requeridos. Mínimo 15d 
+Analisar e responder a 
+solicitação 
+Atual agente 
+varejista 
+O sistema enviará notificação ao atual agente varejista que 
+deve analisar e responder a solicitação de transferência da 
+unidade consumidora recebida. 
+Até M-12du 
+Substituição de varejista ou 
+retorno ao cativo 
+Novo agente 
+varejista ou agente 
+conectado 
+Caso aprovada a solicitação de transferência, a nova 
+representação varejista ou retorno da unidade 
+consumidora ao mercado cativo terá início. 
+A partir do 1°d 
+do mês 
+pretendido 
+Substituição de varejista ou 
+retorno ao cativo 
+compulsoriamente 
+Novo agente 
+varejista ou agente 
+conectado 
+Caso o atual agente varejista não responda a solicitação de 
+transferência no prazo estabelecido, a nova representação 
+varejista ou retorno da unidade consumidora ao mercado 
+cativo terá início de forma compulsória. 
+A partir do 1°d 
+do mês 
+pretendido 
+Representação mantida com o 
+atual agente varejista 
+Atual agente 
+varejista 
+Caso não aprovada a solicitação de transferência de 
+unidade consumidora por solicitação do representado a 
+representação fica mantida com o atual agente varejista. 
+A partir do 1°d 
+do mês 
+pretendido 
+Receber notificação para 
+suspensão do fornecimento Agente conectado 
+Caso não aprovada a solicitação de transferência de 
+unidade consumidora por motivo de inadimplência, o 
+sistema notifica a unidade consumidora e agente conectado 
+para operacionalização da suspensão de fornecimento de 
+energia elétrica da unidade consumidora. 
+Até M-11du 
+ 
+Legenda: 
+MS: Mês seguinte ao mês de apuração 
+M: mês pretendido para a solicitação   
+N.A.: Não aplicável 
+du: dias úteis 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+36 
+ 
+procedimentos de 
+comercialização 
+Resolução contratual por iniciativa do representante, decorrente de inadimplemento 
+do representado 
+Atividade Responsável Detalhamento Prazo 
+Enviar notificação para 
+encerramento do CCV 
+ao representado 
+Atual agente 
+varejista 
+O atual agente varejista deve enviar notificação para 
+encerramento do CCV ao representado, respeitando o prazo 
+mínimo estabelecido à data pretendida para o término da 
+contratação 
+Mínimo 15d 
+Informar ao agente 
+conectado para 
+suspensão de 
+fornecimento 
+Atual agente 
+varejista 
+Caso o representado não tenha diligenciado pela continuidade 
+de suas operações por meio de celebração de novo CCV ou 
+retorno ao mercado cativo, o atual agente varejista deve 
+notificar o agente conectado para início do processo de 
+suspensão de fornecimento do representado. 
+A partir do 
+16°d 
+Receber notificação 
+para suspensão do 
+fornecimento 
+Agente 
+conectado 
+O agente conectado é notificado para operacionalização da 
+suspensão de fornecimento de energia elétrica da unidade 
+consumidora. 
+A partir do 
+16°d 
+ 
+Legenda: 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+37 
+ 
+procedimentos de 
+comercialização 
+Inabilitação e desligamento do agente varejista por iniciativa da CCEE  
+Atividade Responsável Detalhamento Prazo 
+Notificar as unidades 
+consumidoras representadas  CCEE 
+Para os casos de instauração do processo de inabilitação ou 
+desligamento do agente varejista, a CCEE deve notificar as 
+unidades consumidoras representadas para que diligenciem 
+pela continuidade de suas operações. 
+Até 5d da 
+deliberação 
+Celebrar CCV (se varejista); 
+CCER ou aceitar fornecer 
+atendimento sem celebrar 
+CCER com consumidor (se 
+agente conectado) com 
+consumidor 
+Novo agente 
+varejista ou 
+agente 
+conectado 
+Em caso de contratação com novo representante varejista, 
+este deve, previamente, celebrar novo CCV com o 
+representado. Em caso de retorno da unidade consumidora ao 
+mercado cativo, o agente conectado deve, previamente, 
+celebrar CCER com unidade consumidora ou aceitar o 
+atendimento sem celebração de CCER.  
+Até MS-12du 
+Solicitar transferência da 
+unidade consumidora e enviar 
+informações 
+Novo agente 
+varejista ou 
+agente 
+conectado 
+Solicitar, por meio do sistema, a transferência da unidade 
+consumidora, bem como informar os dados requeridos. Até MS-12du 
+Substituição de varejista ou 
+retorno ao cativo 
+Novo agente 
+varejista ou 
+agente 
+conectado 
+A nova representação varejista ou retorno da unidade 
+consumidora ao mercado cativo não requer aprovação do 
+atual agente varejista, sendo todas elas efetivadas 
+independentemente de sua atuação. 
+A partir do 1°d 
+do mês 
+pretendido 
+Receber notificação para 
+suspensão do fornecimento 
+Agente 
+conectado 
+Caso o representado não tenha diligenciado pela continuidade 
+de suas operações por meio de celebração de novo CCV ou 
+retorno ao mercado cativo, o agente conectado será 
+notificado, pela CCEE, para a operacionalização da suspensão 
+do fornecimento de energia elétrica de todas as unidades 
+consumidoras correspondentes ao representado. 
+Até MS-11du 
+ 
+Legenda: 
+MS: Mês seguinte ao mês de apuração 
+du: dias úteis 
+d: dia(s)
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+38 
+ 
+procedimentos de 
+comercialização 
+Suspensão de fornecimento de energia elétrica 
+Atividade Responsável Detalhamento Prazo 
+Receber notificação para 
+suspensão do 
+fornecimento 
+Agente 
+conectado 
+O agente conectado é notificado para operacionalização da 
+suspensão de fornecimento de energia elétrica da unidade 
+consumidora. 
+Conforme prazos de 
+fluxos anteriores 
+Cancelar a solicitação de 
+suspensão de 
+fornecimento, se for o 
+caso 
+CCEE / Atual 
+agente varejista 
+Pode-se cancelar a solicitação de suspensão de 
+fornecimento ao agente conectado, desde que a efetivação 
+da suspensão de fornecimento ainda não tenha sido 
+informada no sistema pelo agente conectado. 
+Até 4°d do envio da 
+notificação 
+Executar a suspensão do 
+fornecimento 
+Agente 
+conectado 
+Operacionalização da suspensão de fornecimento de 
+energia elétrica da unidade consumidora. 
+Conforme prazo 
+estabelecido na 
+regulamentação vigente 
+Informar sobre a 
+execução da suspensão 
+do fornecimento 
+Agente 
+conectado 
+Após executada a suspensão do fornecimento o agente 
+conectado deve informar no sistema a data efetiva em que 
+foi realizada a suspensão do fornecimento 
+Até 48 horas 
+Status de suspensão 
+atribuído à unidade 
+consumidora 
+CCEE Atualizar o status de suspensão de fornecimento no sistema A partir do 1°d seguinte à 
+execução da suspensão 
+Alocação dos débitos da 
+unidade consumidora 
+para o agente conectado 
+Agente 
+conectado 
+Em caso de ultrapassagem do prazo máximo para 
+suspensão do fornecimento, decorrente de 
+responsabilidade exclusiva do agente conectado, os débitos 
+referentes ao consumo da unidade consumidora serão 
+alocados para responsabilidade da distribuidora. 
+A partir do 1°d 
+subsequente ao prazo 
+máximo estabelecido 
+para suspensão de 
+fornecimento 
+Representação mantida 
+com o atual agente 
+varejista 
+Atual agente 
+varejista 
+Caso a suspensão de fornecimento não seja efetivada no 
+prazo estabelecido, o agente conectado deve apresentada 
+a justificativa no sistema e o agente varejista deve ser 
+notificado por meio do sistema. 
+N.A. 
+ 
+Legenda: 
+d: dia(s) 
+N.A.: Não aplicável
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+39 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+7.1. Informações referentes às unidades de consumo 
+Informação Responsável pela guarda e disponibilização 
+Identificação da unidade consumidora junto à 
+distribuidora/transmissora; Agente de distribuição 
+Dados a respeito da unidade consumidora e seu responsável 
+(CPF/CNPJ, Nome/Razão Social, endereço, telefone fixo e móvel, e -
+mail etc.); 
+Agente de distribuição 
+Distribuidora/Transmissora acessada; Agente de distribuição 
+Identificação do(s) medidor(es) associado(s) à unidade 
+consumidora; Agente de distribuição 
+Submercado; Agente de distribuição 
+MUSD e classe de tensão da(s) UC(s); Agente de distribuição 
+Características especiais do consumidor (serviço essencial, etc.) Agente de distribuição 
+Datas de denúncias e de migrações do ACR ao ACL e, 
+eventualmente, retorno ao ACR; Agente de distribuição 
+Agente varejista representante atual; CCEE 
+Histórico de representações varejistas; CCEE 
+Datas de alterações de representação varejista; CCEE 
+Histórico de medição nos 12 meses anteriores à migração para o 
+ACL; Agente de distribuição 
+Histórico de notificações e de suspensões de fornecimento; Agente de distribuição 
+Histórico de alterações de responsável pela unidade consumidora; Agente de distribuição 
+Dados brutos do consumo ativo da(s) UC(s) nos intervalos de 5 em 
+5 minutos, recebidos diariamente; Agente de distribuição 
+Eventuais ajustes efetuados nos registros de consumo; Agente de distribuição 
+Alocações de encargos e quotas compulsórias efetuadas para o 
+consumidor; Agente de distribuição 
+Autorização ou não do consumidor para disponibilização dos dados 
+específicos. Agente varejista
+
+Submódulo 1.8 – Comercialização varejista – modelo simplificado 
+Revisão 1.0 
+40 
+ 
+procedimentos de 
+comercialização 
+ 
+7.2. Metodologia para estimativa dos dados de medição 
+▪ Período faltante de 2 horas ou mais: 
+Considerar a média de consumo do mesmo dia e hora da semana das últimas 12 semanas de meses com dados 
+de medição fechados para contabilização (após MS+9du). 
+Para os feriados nacionais, deve ser observado: 
+a) Quando o feriado for no período histórico, esse dia deverá ser desconsiderado do cálculo da 
+estimativa; 
+b) Quando o feriado for no dia do dado estimado, deve ser considerado como histórico os dias de 
+domingos das últimas 12 semanas. 
+▪ Período faltante de 1 hora: 
+Considerar o valor médio da energia dos dois períodos , imediatamente anterior e posterior , ao período 
+faltante. 
+▪ Estimativa por falta de fase: 
+Considerar: 
+a) Na medição a três elementos, na perda total do TP ou da tensão de uma fase (tensão igual a zero), 
+ou na perda total do TC ou da corrente de uma fase (corrente igual a zero), os dados devem ser 
+estimados multiplicando-se os dados coletados por 1,5; 
+b) Na medição a três elementos, na perda total dos TP ou das tensões de duas fases (tensões iguais a 
+zero), ou na perda total dos TC ou das correntes de duas fases (correntes iguais a zero), os dados 
+devem ser estimados multiplicando-se os dados coletados por três; e 
+c) Na medição a dois elementos, na perda total do TP ou da tensão de uma fase (tensão igual a zero), 
+ou na perda total do TC ou da corrente de uma fase (corrente igual a zero), os dados devem ser 
+estimados multiplicando-se os dados coletados por 2.

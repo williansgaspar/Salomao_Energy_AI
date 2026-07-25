@@ -1,0 +1,272 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 3.6_-_apuracao_e_liquidacao_angra_1_e_2_v3.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 3.6_-_apuracao_e_liquidacao_angra_1_e_2_v3.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Submódulo 3.6 – Apuração e Liquidação financeira da  
+receita de venda de Angra 1 e 2 
+Revisão 3.0 
+1 
+procedimentos de 
+comercialização 
+ 
+ 
+ 
+ 
+ 
+  
+Módulo 3 – Contratação de 
+Energia 
+Submódulo 3.6 – Apuração e Liquidação Financeira 
+da Receita de Venda de Angra 1 e 2 
+procedimentos de 
+comercialização
+
+Submódulo 3.6 – Apuração e Liquidação financeira da  
+receita de venda de Angra 1 e 2 
+Revisão 3.0 
+2 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada  
+(CP n° 05/2017) Despacho nº 1.911/2017 30.06.2017 
+2.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1.012/2022 01.04.2022 
+3.0 Aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 3.6 – Apuração e Liquidação financeira da  
+receita de venda de Angra 1 e 2 
+Revisão 3.0 
+3 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A Lei nº 12.111/2009 estabeleceu, em seu art. 11, que a partir de 1º de janeiro de 2013 o pagamento à 
+Eletrobrás Termonuclear S.A. - ELETRONUCLEAR da receita decorrente da energia produzida pelas centrais de 
+geração Angra 1 e 2 ser á rateado entre todas as concessionárias, permissionárias ou autorizadas de serviço 
+público de distribuição pertencentes ao Sistema Interligado Nacional – SIN. 
+A metodologia para o cálculo das cotas-parte de Angra 1 e 2 que serão alocadas para cada distribuidora, bem 
+como as condições para a comercialização da energia gerada por tais centrais geradoras , são determinadas 
+pela Resolução Normativa da Agência Nacional de Energia Elétrica - ANEEL nº 530, de 21.12.2012, publicada 
+no Diário Oficial da União em 28.12.2012  (a qual foi sucedida pela Resolução Normativa nº 1.009, de 22 de 
+março de 2022). 
+A receita proveniente da energia produzida por Angra 1 e 2 é definida anualmente em Resolução da ANEEL. 
+Nesse contexto, é de responsabilidade da CCEE realizar a Apuração e a Liquidação Financeira da Receita de 
+Venda de Angra 1 e 2 , de forma centralizada , com base nos valores constantes do Mapa de Liquidação 
+Financeira da Receita de Venda de Angra 1 e 2. 
+2. OBJETIVO 
+Estabelecer os procedimentos e prazos referentes à  realização da Apuração e Liquidação Financeira 
+Centralizada da Receita de Venda de  Angra 1 e 2. Este submódulo se aplica a os agentes ELETRONUCLEAR e 
+aos concessionário s, permissionários e autorizados de distribuição de energia elétrica aos quais sejam 
+alocadas cotas-parte de energia gerada por Angra 1 e 2. 
+3. PREMISSAS 
+3.1 A CCEE deve apurar a receita de venda de Angra  1 e 2 e efetuar a Liquidação Financeira da Receita 
+de Venda de Angra 1 e 2 com base nas disposições regulatórias vigentes e de acordo com módulo 
+específico das Regras de Comercialização.  
+3.2 Os agentes distribuidores federalizados  são responsáveis por informar , por meio do sistema 
+específico, até o último dia útil do mês de referência da apuração, o percentual de tributos aplicável 
+ao seu regime de tributação . Caso não haja manifestação, o  último percentual informado será 
+automaticamente considerado para a apuração do mês subsequente. 
+3.2.1 Havendo quaisquer alterações em seus respectivos percentuais de Tributos, os agentes 
+distribuidores federalizados são responsáveis por informar à CCEE, nos termos definidos 
+na premissa 3.2, não sendo a CCEE, em qualquer hipótese, responsável s olidária ou 
+subsidiária quanto as suas obrigações tributárias.
+
+Submódulo 3.6 – Apuração e Liquidação financeira da  
+receita de venda de Angra 1 e 2 
+Revisão 3.0 
+4 
+procedimentos de 
+comercialização 
+3.2.2 A sujeição de agentes a quaisquer tributos e a interpretação fiscal é competência do Fisco 
+Federal, Estadual ou Municipal, conforme o caso, de modo que eventuais informações, 
+interpretações ou opiniões jurídicas da CCEE não são determinativas e não afastam  
+interpretações diferentes pelas Administrações Tributárias, não devendo a CCEE se 
+responsabilizar pela utilização dessas informações, interpretações ou opiniões pelo Agente 
+para condução de seus negócios e/ou recolhimento de tributos. 
+3.3 A CCEE deve disponibilizar  aos agentes ELETRONUCLEAR e aos concessionários, permissionários e 
+autorizados de distribuição de energia elétrica , aos quais sejam alocadas cotas -parte de energia 
+gerada por Angra 1 e 2 , os relatórios com as informações da apuração e os valores a serem 
+liquidados, em até cinco dias úteis (5du) antes da data da correspondente liquidação financeira. 
+3.4 A Liquidação Financeira da Receita de Venda de Angra 1 e 2 ocorre de forma centralizada e em única 
+data.  
+3.5 O Calendário Anual de Liquidação Financeira da Receita de Venda de Angra 1 e 2, com as datas de 
+liquidação para cada mês e aprovado pela Diretoria da CCEE, deve ser divulgado no site CCEE até o 
+final do ano para o ano subsequente. 
+3.6 Os agentes de distribuição são responsáveis pela disponibilização dos recursos , constantes no 
+relatório, em conta corrente específica, até as 15:00 horas na data de liquidação. 
+3.7 Eventuais divergências apontadas após a divulgação do relatório com os valores constantes dos 
+documentos fiscais respectivos não afetarão os prazos definidos no Calendário Anual de Liquidação 
+Financeira da Receita de Venda de Angra 1 e 2 e, se  consideradas procedentes , devem ser 
+contempladas no ciclo de liquidação financeira subsequente, conforme legislação vigente. 
+3.8 A inadimplência  no âmbito da  Liquidação Financeira da Receita de Venda de Angra 1 e 2 é 
+caracterizada caso os recursos disponibilizados pelo agente de distribuição  participante da 
+mencionada liquidação sejam inferiores aos indicados no  respectivo relatório. Neste caso, incide 
+sobre o valor inadimplido: 
+a) multa de 2% (dois por cento); e, 
+b) juros de mora de 1% (um por cento) ao mês, calculados pro rata die. 
+3.9 Além dos valores apurados nas alíneas “a” e “b” da premissa  anterior, o valor inadimplido será 
+atualizado monetariamente de acordo com a variação positiva do Índice Nacional de Preços ao 
+Consumidor Amplo – IPCA relativo ao mês anterior ao da data do inadimplemento, desde a data de 
+vencimento até a data de divulgação do rel atório da liquidação financeira subsequente. Havendo a 
+extinção deste índice, será adotado outro índice oficial que vier a substituí-lo.
+
+Submódulo 3.6 – Apuração e Liquidação financeira da  
+receita de venda de Angra 1 e 2 
+Revisão 3.0 
+5 
+procedimentos de 
+comercialização 
+3.9.1 Caso o IPCA do mês anterior  ao da data do inadimplemento  não seja pub licado até o 
+momento da divulgação do relatório da liquidação financeira seguinte , deve-se utilizar o 
+último índice publicado.  
+3.10 O valor decorrente da inadimplência no âmbito desta liquidação é suportado por Angra 1 e 2.  
+3.11 A CCEE deve disponibilizar o relatório com os resultados da liquidação em até três dias úteis (3du)  
+da realização desta. 
+3.12 O auditor independente realiza a validação do processo de liquidação financeira da Receita de Venda 
+de Angra 1 e 2. 
+3.13 No atendimento das obrigações fiscais, os agentes são exclusivamente responsáveis pela condução 
+de seus negócios, pelo recolhimento de tributos, bem como pela verificação dos procedimentos 
+adequados a serem adotados para quaisquer dúvidas perante a Fazenda Federal, Distrital, Estadual, 
+Municipal ou terceiros, conforme o caso. 
+3.14 Eventuais informações, interpretações ou opiniões jurídicas da CCEE não são determinativas e não 
+afastam interpretações diferentes pelas Administrações Tributárias, não devendo a CCEE se 
+responsabilizar pela utilização dessas informações, interpretações ou  opiniões pelos agentes 
+impactados por este submódulo. 
+3.15 Caso sejam identificados valores inadimplidos, por parte da ELETRONUCLEAR referente às 
+obrigações na CCEE, os recursos financeiros associados à Liquidação Financeira da Receita de Venda 
+de Angra 1 e 2 podem ser utilizados para abater esses valores. 
+3.16 Em caso de re apuração da receita de venda de Angra 1 e 2, as diferenças dos valores financeiros 
+entre as apurações já liquidadas e os novos valores calculados na reapuração, bem como os demais 
+ajustes provenientes de decisões judiciais  ou arbitrais , deliberações d a Diretoria da CCEE  e/ou 
+determinação da ANEEL, devem ser atualizados monetariamente com base nas variações positivas 
+do Índice Nacional de Preços ao Consumidor Amplo - IPCA, divulgado pelo Instituto Brasileiro de 
+Geografia e Estatística - IBGE, e divulgados por meio de relatórios. 
+3.16.1 A metodologia de atualização monetária deve considerar o IPCA do mês de referência do 
+ajuste e o último IPCA divulgado pelo IBGE na data do cálculo. 
+3.16.2 Caso o último índice divulgado seja negativo, este será desconsiderado e, nesse caso, não 
+haverá atualização monetária. Havendo a extinção desse índice, será adotado outro índice 
+oficial que vier a substituí-lo.
+
+Submódulo 3.6 – Apuração e Liquidação financeira da  
+receita de venda de Angra 1 e 2 
+Revisão 3.0 
+6 
+procedimentos de 
+comercialização 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 3.6 – Apuração e Liquidação financeira da  
+receita de venda de Angra 1 e 2 
+Revisão 3.0 
+7 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Liquidação financeira da receita de venda de Angra 1 e 2
+CCEE Agentes de 
+Distribuição Agente de liquidação
+Z
+Liquidação 
+financeira
+Até Z-5du
+Divulgar os 
+valores a serem 
+pagos
+Início
+Mensalmente
+Apurar a receita de 
+venda das centrais 
+geradoras de 
+energia elétrica 
+Angra 1 e 2
+Até Z
+Depositar os 
+recursos
+Z+3du
+Disponibilizar os 
+resultados da 
+liquidação 
+financeira
+Fim
+ 
+Legenda: 
+Z: Data de liquidação financeira definida por meio da publicação do Calendário Anual de Liquidação Financeira relativo à Receita de 
+Venda de Angra 1 e 2. 
+du: dias úteis
+
+Submódulo 3.6 – Apuração e Liquidação financeira da  
+receita de venda de Angra 1 e 2 
+Revisão 3.0 
+8 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Liquidação financeira da receita de venda de Angra 1 e 2 
+Atividade Responsável Detalhamento Prazo 
+Apurar a receita de venda 
+das centrais geradoras de 
+energia elétrica Angra 1 e 2 
+CCEE 
+A CCEE deve apurar a receita de venda de Angra de 
+acordo com os atos regulatórios vigentes e regras de 
+comercialização. 
+Mensalmente 
+Divulgar os valores a serem 
+pagos CCEE 
+A CCEE deve disponibilizar , por meio do sistema 
+específico, os valores a serem pagos por cada agente de 
+distribuição aos quais sejam alocadas cotas -parte de 
+energia gerada por Angra 1 e 2. 
+Até Z-5du 
+Depositar os recursos Agente de 
+distribuição 
+Os agentes de distribuição aos quais sejam alocadas 
+cotas-parte de energia gerada por Angra 1 e 2 são 
+responsáveis por disponibilizar os recursos até a data de 
+liquidação financeira, observando o horário limite 
+previsto neste submódulo.  
+Até Z 
+Liquidação financeira Agente de 
+liquidação 
+O agente de liquidação deve transferir os recursos 
+depositados pelos agentes de distribuição ao agente 
+Angra 1 e 2 na data prevista neste submódulo.  
+Z 
+Disponibilizar os resultados 
+da liquidação financeira CCEE 
+A CCEE deve disponibilizar, por meio do sistema 
+específico, relatório com os valores liquidados por cada 
+agente de distribuição. 
+Até Z+3du 
+ 
+Legenda: 
+Z: Data de liquidação financeira definida por meio da publicação do Calendário Anual de Liquidação Financeira relativo à Receita de 
+Venda de Angra 1 e 2. 
+du: dias úteis
+
+Submódulo 3.6 – Apuração e Liquidação financeira da  
+receita de venda de Angra 1 e 2 
+Revisão 3.0 
+9 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

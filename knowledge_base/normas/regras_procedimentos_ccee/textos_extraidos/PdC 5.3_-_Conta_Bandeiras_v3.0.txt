@@ -1,0 +1,602 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 5.3_-_Conta_Bandeiras_v3.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 5.3_-_Conta_Bandeiras_v3.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 5 – Mercado de 
+Curto Prazo 
+Submódulo 5.3 – Conta Bandeiras 
+procedimentos de 
+comercialização
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP 005/2015) Despacho nº 2.808/2015 27.08.2015 
+2.0 Adequação à REN n° 700/2016  Despacho n° 2.113/2016 08.08.2016 
+3.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1012/2022 01.04.2022
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O Decreto n° 8.401/2015 estabeleceu a criação e a manutenção da Conta Centralizadora dos Recursos de 
+Bandeiras Tarifárias (Conta Bandeiras) pela CCEE, com a finalidade de administrar os recursos decorrentes da 
+aplicação das bandeiras tarifárias instituídas pela Agência Nacional de Energia Elétrica – ANEEL. 
+A Lei n° 13.203/2015 estabeleceu que a Conta Bandeiras deverá receber o pagamento do prêmio de risco a 
+ser efetuado pelos geradores participantes do Mecanismo de Realocação de Energia – MRE que repactuaram 
+o risco hidrológico relativo à energia contratada no Ambiente de Contratação Regulada – ACR. 
+Dessa forma, os recursos disponíveis na Conta Bandeiras levarão em consideração: 
+i. as variações dos custos de geração por fonte termelétrica e a exposição financeira no Mercado de Curto 
+Prazo – MCP que afetam os agentes de distribuição de energia elétrica; e 
+ii. as receitas decorrentes d o pagamento do  prêmio de risco  aportadas pelos geradores hidrelétricos 
+participantes do MRE, em virtude da repactuação do risco hidrológico no ACR. 
+Por fim, os referidos recursos serão repassados pela CCEE às concessionárias e permissionárias de distribuição 
+credoras no processo de Liquidação Financeira da Conta Bandeiras. 
+2. OBJETIVO 
+Estabelecer os processos relativos aos repasses financeiros: 
+i. dos recursos provenientes da aplicação das Bandeiras Tarifárias pelas concessionárias e permissionárias 
+de distribuição devedoras à Conta Bandeiras , e seu posterior  repasse às concessionárias e 
+permissionárias de distribuição credoras, independentemente de ser em ou não Agente s da CCEE , 
+conforme despacho da ANEEL; 
+ii. das receitas decorrentes do pagamento de prêmio de risco pelos geradores hidrelétricos ou pelo agente 
+representante que repactuaram o risco hidrológico  no ACR à Conta Bandeiras, nos termos da Lei n° 
+13.203/2015, e seu posterior repasse às concessionárias de distribuição , conforme considerado pela 
+ANEEL em seu despacho. 
+3. PREMISSAS 
+3.1 Sem prejuízo das atribuições definidas no Módulo 6.8 Bandeiras Tarifárias dos Procedimentos de 
+Regulação Tarifária da ANEEL, a  CCEE deverá efetuar a estruturação, a gestão e a liquidação 
+financeira da Conta Bandeiras, realizando as atividades necessárias para sua constituição e
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+4 
+ 
+procedimentos de 
+comercialização 
+operacionalização, bem como manter o registro separado das movimentações da Conta Bandeiras 
+em suas demonstrações contábeis. 
+3.2 Os prazos do presente submódulo seguem, como referência, o cronograma da liquidação financeira 
+do MCP, especialmente com relação às datas das atividades de pagamento de débitos e recebimento 
+de créditos da liquidação financeira do MCP. 
+3.3 As concessionárias e permissionárias de distribuição deverão manter os dados cadastrais e a relação 
+das instituições financeiras onde operam (nome, n° da Agência e n° da Conta Corrente) atualizados 
+na CCEE , para realização dos repasse s. O envio d e informações e documentos por parte das 
+distribuidoras não Agentes da CCEE (i) não caracterizará sua adesão, não implicando qualquer custo, 
+direitos ou obrigações exclusivos dos associados da CCCE; e (ii) destinam -se exclusivamente à 
+operacionalização da Conta Bandeiras. 
+3.4 A atualização dos dados cadastrais poderá ser realizada por meio da Central de Atendimento, ou, no 
+caso de envio do documento físico constante no anexo des te submódulo, pela CEDOC, nos termos 
+do submódulo 1.4 – Atendimento. 
+3.5 A CCEE deverá analisá-los em até cinco dias úteis (5du), contados a partir da data de seu recebimento 
+e, havendo pendência, deverá comunicar a  respectiva concessionária o u permissionária de 
+distribuição para proceder à correção. 
+3.6 Os geradores que repactuaram o risco hidrológico e os seus representantes perante a CCEE, no caso 
+de geradores não Agentes da CCEE,  também deverão manter os dados cadastrais e a relação das 
+instituições financeiras onde operam (nome, n ° da Agência e n ° da Conta Corrente) atualizados na 
+CCEE. 
+3.7 Os custos administrativos, financeiros e eventuais encargos tributários (CAFT) relativos à gestão da 
+Conta Bandeiras deverão ser orçados pela CCEE e encaminhados à ANEEL até o dia 31 de outubro 
+de cada ano para homologação e consideração na definição dos valores das Bandeiras Tarifárias da 
+competência de janeiro de cada ano . A previsão de custo possuirá periodicidade mensal, sempre 
+considerando um período de 2 (dois) anos. 
+3.8 O CAFT de cada ano será recebido pela CCEE em parcela única, no primeiro mês de apuração da 
+Conta Bandeiras, não estando sujeito à eventual inadimplência das concessionárias e 
+permissionárias de distribuição.  
+3.9 Caso não haja saldo suficiente para o pagamento do CAFT, as concessionárias e permissionárias de 
+distribuição deverão depositar na Conta Bandeiras os recursos necessários, conforme valores a 
+serem homologados pela ANEEL, por meio de despacho.
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.10 Os valores por concessionária  e permissionária de distribuição, de que trata a premissa anterior, 
+serão obtidos por meio do rateio do CAFT tendo como base o respectivo mercado cativo e de 
+suprimento relativo ao ano anterior. 
+3.11 A CCEE deverá encaminhar à fiscalização da ANEEL, no prazo de até 30 dias, contado do término de 
+cada trimestre, informações sobre a  efetiva movimentação financeira e o CAFT efetivamente 
+incorrido no período. 
+3.12 Após a fiscalização do CAFT relativo ao ano anterior, se identificada realização a menor dos custos, 
+o saldo remanescente apurado deverá ser depositado pela CCEE na Conta Bandeiras e informado à 
+ANEEL para utilização nas liquidações subsequentes da Conta Bandeiras. 
+3.13 Os valores da Conta Bandeiras não representam receitas da CCEE e não serão considerados em suas 
+contas de resultados, exceto aqueles relativos à cobertura do seu CAFT. 
+3.14 O saldo positivo remanescente na Conta Bandeiras deverá ser aplicado em: (i) Certificados de 
+Depósitos Bancários; (ii) Títulos de renda fixa, de liquidez diária, de emissão do Tesouro Nacional, 
+diretamente ou via Fundo de Investimento; e/ou (iii)  Qualquer outro investimento de baixo risco 
+aprovado pela ANEEL. 
+3.15 A CCEE deverá comunicar o valor do prêmio de risco, por meio de relatório específico, aos geradores 
+que repactuaram o risco hidrológico ou ao s representantes de seus ativos de geração perante a 
+CCEE, que assumem todos os direitos e obrigações na CCEE (representante) , no caso de geradores 
+não Agentes da CCEE, até 30 dias antes da data prevista para o pagamento do prêmio, e reiterar a 
+comunicação até 5 dias antes do referido pagamento. 
+3.16 O pagamento do prêmio de risco  deverá ser efetuado diretamente na Conta Bandeiras pelos 
+geradores que repactuaram o risco hidrológico ou pelo representante, no caso de geradores não 
+Agentes da CCEE, até o primeiro dia útil (1°du) do mês subsequente ao mês de competência , 
+conforme consta do respectivo Termo de Repactuação do Risco Hidrológico anuído pela ANEEL. 
+3.17 A CCEE deverá encaminhar à ANEEL, até MS+20du, as informações relativas à contabilização do MCP 
+das concessionárias de distribuição  (em especial, a exposição financeira e Encargos de Serviço de 
+Sistema - ESS apurados), a Receita de Venda de CCEAR_D , a Restituição da Conta de Energia de 
+Reserva – CONER, o Saldo da Conta Bandeiras, o fator de rateio do prêmio de risco por distribuidora 
+e o valor total do prêmio de risco aportado pelos geradores à Conta Bandeiras, de forma a subsidiar 
+a publicação de Despacho pela ANEEL em MS+22du. 
+3.18 O repasse de valores para a Conta Bandeiras deverá ser feito pelas concessionárias e permissionárias 
+de distribuição, por meio de depósito identificado, até MS+24du.
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.19 O rateio da eventual inadimplência entre as concessionárias e permissionárias de distribuição 
+credoras ("loss sharing") será realizado na proporção dos respectivos créditos, em MS+25du. 
+3.20 A CCEE enviará às concessionárias e permissionárias de distribuição credoras, até as 12h de 
+MS+26du, o demonstrativo de cálculo apresentando o valor da exposição, o crédito a que tem direito 
+da Conta Bandeiras e o valor a ser aportado na liquidação do MCP a ser realizada. 
+3.21 O Banco Gestor deverá repassar, em MS+26du, os valores da Conta Bandeiras às concessionárias e 
+permissionárias de distribuição credoras. O repasse para as concessionárias e permissionárias de 
+distribuição credoras, Agentes da CCEE, será realizado através das contas específicas utilizadas para 
+a liquidação do MCP. O repasse para as concessionárias e permissionárias de distribuição credoras, 
+não Agentes da CCEE, será realizado na conta informada no cadastro , por meio da Carta de 
+Declaração Bancária anexa a este submódulo. 
+3.22 Caso seja identificado o envio de informações incorretas relativas à receita faturada com a aplicação 
+dos adicionais de bandeiras tarifárias, caberá à concessionária ou permissionária de distribuição 
+realizar a retificação das informações, e à ANEEL caberá realizar os ajustes no repasse da Conta 
+Bandeira no mês subsequente.  
+3.23 Eventual inadimplência das concessionárias e permissionárias de distribuição no repasse de recursos 
+provenientes da aplicação das Bandeiras Tarifárias à Conta Bandeiras implicará na aplicação, pela 
+CCEE, de multa de 2% (dois por cento) e juros de mora de 1% (um por cento) ao mês, “pro rata 
+tempore”, sobre o valor total não recolhido, sem prejuízo da aplicação de penalidades previstas na 
+Resolução Normativa ANEEL nº 846, de 11 de junho de 2019 , e as limitações decorrentes da 
+inadimplência com Encargos Intrassetoriais.  
+3.24 Eventual inadimplência dos geradores que repactuaram o risco hidrológico ou dos  seus 
+representantes na CCEE , no caso  de geradores não Agentes da CCEE, no repasse d e recursos 
+provenientes do pagamento do prêmio de risco à Conta Bandeiras implicará na aplicação, pela CCEE, 
+de multa de 10% (dez por cento) e juros de mora de 1% (um por cento) ao mês, “pro rata tempore”, 
+sobre o valor total não recolhido, além da aplicação das penalidades previstas nas normas aplicáveis 
+e, ainda, caso o inadimplente seja Agente da CCEE, será instaurado o respectivo procedimento de 
+desligamento. 
+3.24.1 No caso da premissa anterior, se  o gerador ou o representante, no caso de gerador não 
+Agente da CCEE, possuir créditos na liquidação financeira do MCP, a CCEE deverá reter o 
+valor do prêmio de risco inadimplido, acrescido de multa e juros , em MS+27du, 
+disponibilizando apenas a diferença, se houver.
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.25 Até MS+28du, a CCEE encaminhará à ANEEL: (i) a relação das concessionárias e permissionárias de 
+distribuição inadimplentes e o valor da inadimplência e (ii) a relação dos geradores inadimplentes ou 
+representantes inadimplentes, no caso de geradores não Agentes da CCEE, e o valor da 
+inadimplência.  
+3.25.1 Os valores da inadimplência mencionados na premissa anterior serão acrescidos de multas 
+e juros de mora e de eventual rendimento de aplicações financeiras, quando for o caso, 
+que poderão ser utilizados na liquidação financeira da Conta Bandeiras do mês 
+subsequente, em conformidade com o cronograma estabelecido pela CCEE. 
+3.26 Até MS+30du, a CCEE efetuará comunicação aos inadimplentes sobre o pagamento dos valores, via 
+chamado ativo, sem prejuízo do prazo constante do item “ h” da premissa 58 do Módulo 6.8 do 
+PRORET.
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+8 
+ 
+procedimentos de 
+comercialização 
+4. LISTA DE DOCUMENTOS 
+DOCUMENTOS        Concessionárias e Permissionárias 
+de Distribuição não Agentes da 
+CCEE Descrição  DD DF DFR 
+Ato constitutivo, estatuto ou contrato social em vigor e alterações 
+supervenientes ou o documento societário consolidado, protocolado e com a 
+chancela da Junta Comercial ou cartório de registro de pessoa jurídica, ou ata de 
+eleição dos administradores prot ocolada e com a chancela da Junta Comercial 
+ou cartório de registro de pessoa jurídica.  
+Caso aplicável 
+✔     ✔ 
+Procuração outorgada na forma da documentação societária.  
+Caso aplicável ✔     ✔ 
+Carta de Declaração Bancária a indicar instituição financeira com agência e conta 
+para eventual crédito da Conta Bandeiras. ✔ ✔ ✔ ✔ 
+ 
+Legenda: 
+DD: Documento Digitalizado 
+DF: Documento na forma física 
+DFR: Documento com firma reconhecida
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+9 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Conta Bandeiras
+CCEE ANEEL
+Geradores que 
+repactuaram o 
+risco hidrológico
+Concessionárias e 
+Permissionárias 
+de Distribuição
+Banco Gestor
+Início
+Até MS+20du
+Publicar despacho 
+dos débitos e 
+créditos por 
+concessionárias e 
+permissionárias de 
+distribuição
+MS+24du
+Repassar os 
+valores para 
+Conta Bandeiras
+Informar os dados da 
+Contabilização, do 
+RRV, da CONER, o 
+saldo da Conta 
+Bandeiras, o fator de 
+rateio do prêmio de 
+risco por 
+distribuidora e o 
+valor total do aporte 
+do prêmio de risco à 
+ANEEL
+MS+22du
+Aplicar o rateio da 
+inadimplência, se 
+houver 
+MS+25du
+Até 30 dias antes do 
+pagamento do prêmio
+Comunicar o valor do 
+prêmio de risco 
+hidrológico a ser 
+aportado
+Reiterar a 
+comunicação sobre o 
+valor do prêmio de 
+risco hidrológico a 
+ser aportado
+Até 5 dias antes do 
+pagamento do prêmio
+Aportar o prêmio 
+de risco 
+hidrológico na 
+Conta Bandeiras
+Até o 1°du
+A
+ 
+Legenda:  
+MS: mês seguinte às operações de compra e venda de energia elétrica 
+du: dias úteis.
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+10 
+ 
+procedimentos de 
+comercialização 
+Conta Bandeiras
+CCEE ANEEL
+Geradores que 
+repactuaram o 
+risco hidrológico
+Concessionárias e 
+Permissionárias 
+de Distribuição
+Banco Gestor
+Repassar os valores 
+da Conta Bandeiras 
+às concessionárias 
+e permissionárias 
+de distribuição 
+credoras
+MS+26du
+Até 12h de MS+26du
+A
+Comunicar rateio da 
+eventual 
+inadimplência, bem 
+como o valor final a 
+repassar às 
+concessionárias e 
+permissionárias de 
+distribuição 
+credoras na data 
+dos débitos da 
+liquidação do MCP
+Enviar a relação dos 
+inadimplentes e o 
+valor da 
+inadimplência 
+atualizado à ANEEL 
+Até MS+28du Até MS+28du
+Enviar a Nota de 
+Liquidação da 
+Conta Bandeiras à 
+CCEE e aos 
+agentes 
+envolvidos 
+MS+27du
+Reter o valor do 
+prêmio de risco, 
+acrescido de multa 
+e juros, caso: (i) o 
+gerador ou seu 
+representante 
+possua créditos na 
+liquidação do MCP, 
+e (ii) o prêmio de 
+risco não tenha sido 
+pago na data 
+prevista
+Enviar chamado 
+ativo notificando a 
+inadimplência
+Até MS+30du
+Fim
+ 
+Legenda:  
+MS: mês seguinte às operações de compra e venda de energia elétrica 
+du: dias úteis.
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+11 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Atividade Responsável Detalhamento Prazo 
+Comunicar o valor do prêmio 
+de risco hidrológico a ser 
+aportado 
+CCEE 
+A CCEE deverá informar o  valor do prêmio de risco: (i) 
+aos geradores que repactuaram o risco hidrológico, e (ii) 
+aos representantes dos geradores perante a CCEE, caso 
+estes não sejam Agentes da CCEE. 
+Até 30 dias antes da 
+data prevista para o 
+pagamento do 
+prêmio 
+Reiterar a comunicação 
+sobre o valor do prêmio de 
+risco hidrológico a ser 
+aportado 
+CCEE 
+A CCEE deverá encaminhar chamado ativo aos 
+geradores e aos representantes dos geradores não 
+Agentes da CCEE, informando -os acerca do valor do 
+prêmio de risco a ser aportado. 
+Até 5 dias antes da 
+data prevista para o 
+pagamento do 
+prêmio 
+Aportar o prêmio de risco 
+Geradores e os 
+representantes 
+dos geradores que 
+repactuaram o 
+risco hidrológico 
+Os geradores que repactuaram o risco hidrológico e os 
+representantes dos geradores não Agentes da CCEE 
+deverão aportar o prêmio de risco hidrológico 
+diretamente na Conta Bandeiras , conforme consta do 
+respectivo Termo de Repactuação do Risco Hidrológico 
+anuído pela ANEEL . Caso o prêmio de risco não seja 
+aportado na data prevista, será instaurado o respectivo 
+procedimento de desligamento. 
+Até o 1°du do mês 
+subsequente ao mês 
+de competência 
+Informar dados  CCEE 
+A CCEE deverá informar  para a ANEEL os resultados da 
+Contabilização, da Receita de Venda de CCEAR_D , da 
+CONER, o Saldo da Conta Bandeiras, o fator de rateio do 
+prêmio de risco hidrológico por distribuidora e o valor 
+total do prêmio de risco aportado. 
+Até MS+20du 
+Publicar despacho dos 
+débitos e créditos por 
+concessionárias e 
+permissionárias de 
+distribuição 
+ANEEL 
+Com as informações recebidas da  CCEE e das 
+concessionárias e p ermissionárias de distribuição, a 
+ANEEL deverá emitir o despacho para comandar a 
+operacionalização da liquidação das bandeiras pela 
+CCEE. 
+MS+22du 
+Depositar os valores na 
+Conta Bandeiras 
+Concessionárias e 
+permissionárias de 
+distribuição 
+As concessionárias  e permissionárias de distribuição  
+devedoras deverão depositar os valores na Conta 
+Bandeiras, conforme despacho emitido pela ANEEL. 
+MS+24du 
+Aplicar o rateio da 
+inadimplência (“ loss 
+sharing”), se houver 
+CCEE 
+Após apuração de eventual inadimplência informada 
+pelo Banco Gestor, a CCEE deverá aplicar o rateio de 
+inadimplência (“loss sharing”) entre os credores. 
+MS+25du 
+Comunicar o rateio da 
+eventual inadimplência CCEE 
+A CCEE deverá informar o rateio da eventual 
+inadimplência, bem como o valor final a repassar às 
+concessionárias e permissionárias de distribuição 
+credoras na data dos débitos da Liquidação do MCP. 
+Até as 12h de 
+MS+26du 
+Repassar os valores da Conta 
+Bandeiras às concessionárias 
+e p ermissionárias de 
+distribuição credoras 
+Banco Gestor 
+O Banco Gestor deverá repassar os valores da Conta 
+Bandeiras às contas das concessionárias  e 
+permissionárias de distribuição credoras: (i) Agentes ou 
+não Agentes da CCEE,  informadas no cadastro , no caso 
+dos recursos provenientes da aplicação das Bandeiras 
+Tarifárias e (ii) Agentes da CCEE, no caso dos recursos 
+provenientes do pagamento do prêmio de risco 
+hidrológico. 
+MS+26du
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+12 
+ 
+procedimentos de 
+comercialização 
+Atividade Responsável Detalhamento Prazo 
+Reter o valor do prêmio de 
+risco, acrescido de multa e 
+juros 
+CCEE 
+A CCEE deverá reter os créditos que o gerador ou o 
+representante do gerador não Agente da CCEE tenha a 
+receber na liquidação financeira do MCP, no montante do 
+valor do prêmio de risco, acrescido de multa e juros, caso 
+o mesmo não tenha sido pago na data prevista. Se o valor 
+for suficiente para sanar a inadimplência, será instaurado 
+o respectivo procedimento de monitoramento. Caso 
+contrário, o procedimento de desligamento terá 
+seguimento. 
+MS+27du 
+Enviar a Nota de Liquidação da 
+Conta Bandeiras Banco Gestor 
+O Banco Gestor enviará à CCEE e aos agentes envolvidos 
+a Nota de Liquidação da Conta Bandeiras, de acordo com 
+os valores efetivamente liquidados. 
+Até MS+28du 
+Enviar a relação dos 
+inadimplentes e o valor da 
+inadimplência atualizado à 
+ANEEL 
+CCEE 
+A CCEE deverá enviar  à ANEEL: (i)  a relação das 
+concessionárias e permissionárias de distribuição 
+inadimplentes e o valor atualizado da inadimplência, e (ii) 
+a relação dos  geradores inadimplentes e dos 
+representantes inadimplentes, no caso de geradores não 
+Agentes da CCEE, e o valor atualizado da inadimplência. 
+Até MS+28du 
+Enviar chamado ativo 
+notificando a inadimplência CCEE A CCEE deverá comunicar ao devedor sua inadimplência. Até MS+30du 
+ 
+Legenda:  
+MS: mês seguinte às operações de compra e venda de energia elétrica 
+du: dias úteis.
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+13 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+CARTA DE DECLARAÇÃO BANCÁRIA 
+[Logo do Agente] 
+<Local>, <data>. 
+Ao(s) 
+ 
+[Observação: A Distribuidora deverá indicar o nome de 1 (uma) instituição bancária com o fim de que os eventuais 
+créditos da Conta Bandeiras possam ser corretamente depositados. A lista abaixo é meramente indicativa.]  
+ 
+<BANCO DO BRASIL S.A.> 
+<ENDEREÇO> 
+ 
+<BANCO BRADESCO S.A.> 
+<ENDEREÇO> 
+ 
+<BANCO SANTANDER (BRASIL) S.A.> 
+<ENDEREÇO> 
+ 
+<ITAÚ UNIBANCO S.A.> 
+<ENDEREÇO> 
+ 
+<CAIXA ECONÔMICA FEDERAL> 
+<ENDEREÇO> 
+ 
+ 
+Referência: <Razão Social da Distribuidora - Sigla>– Autorização de crédito de valores provenientes da Conta 
+Centralizadora dos Recursos de Bandeiras Tarifárias (Conta Bandeiras).  
+ 
+Com base na Resolução Normativa ANEEL nº 957, de 7 de dezembro de 2021 , por esta carta declaro que o banco 
+supracitado está autorizado a  receber do Banco Gestor os eventuais recursos que devam ser creditados pela Conta 
+Bandeiras, na hipótese de direito de repasse dos recursos previstos em Despacho da ANEEL, na conta corrente abaixo 
+indicada: 
+ 
+[Observação: A lista abaixo é meramente indicativa, devendo a distribuidora indicar 1 (uma) conta corrente para crédito 
+de valores provenientes da Conta Bandeiras. Nota: Inserir todas as contas abertas junto ao Banco citado acima.]
+
+Submódulo 5.3 – Conta Bandeira 
+Revisão 3.0 
+14 
+ 
+procedimentos de 
+comercialização 
+Banco Nº da Agência Nº da Conta 
+<Banco do Brasil S.A.> <xxx> <xxx> 
+   
+<Banco Bradesco S.A.> <xxx> <xxx> 
+   
+<Banco Santander (Brasil) S.A.> <xxx> <xxx> 
+   
+<Itaú Unibanco S.A.> <xxx> <xxx> 
+   
+<Caixa Econômica Federal> <xxx> <xxx> 
+   
+ 
+O conteúdo e efeitos da presente autorização são exclusivos para o cumprimento das disposições previstas no Decreto 
+nº 8.401/2015 e na Resolução Normativa ANEEL nº 957/2021. 
+ 
+A presente declaração/autorização, devidamente autenticada e assinada por seus representantes legais abaixo indicados, 
+substitui declaração(ões)/autorização(ões) anterior(es) de conteúdo semelhante, para todos os fins e efeitos.  
+ 
+Atenciosamente, 
+ 
+<Razão Social da Distribuidora> 
+ 
+ 
+______________________________ ______________________________ 
+<Nome> <Nome> 
+<Cargo> <Cargo>

@@ -29,6 +29,12 @@ REQUIRED_INSTRUMENT_FIELDS = {
 }
 VALID_VERIFICATION = {"pending", "verified", "superseded", "revoked", "unknown"}
 VERIFICATION_MAX_AGE_DAYS = 180
+CANONICAL_PARENT_BY_TYPE = {
+    "lei": "Legislacao/Leis_Federais/",
+    "decreto": "Legislacao/Decretos_Federais/",
+    "portaria": "Legislacao/Portarias_MME/",
+    "ren": "Legislacao/Resolucoes_ANEEL/",
+}
 
 
 class Report:
@@ -89,6 +95,16 @@ def validate_catalog(report: Report) -> None:
         if instrument_date and instrument_date > today:
             report.error(f"{label}.date está no futuro: {instrument_date}")
         local_path = item["local_path"]
+        expected_parent = CANONICAL_PARENT_BY_TYPE.get(item["type"])
+        if (
+            local_path
+            and item.get("source_kind") == "primary_text"
+            and expected_parent
+            and not local_path.replace("\\", "/").startswith(expected_parent)
+        ):
+            report.error(
+                f"{label}.local_path must be under {expected_parent}: {local_path}"
+            )
         if local_path and not (ROOT / local_path).is_file():
             report.error(f"{label}.local_path não existe: {local_path}")
         expected_hash = item.get("sha256")

@@ -1,0 +1,635 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 2.1_-_coleta_de_dados_de_medicao_v8.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+1 
+ 
+ 
+ 
+ 
+ 
+  
+Módulo 2 – Medição 
+Submódulo 2.1 – Coleta e ajuste de dados de 
+medição 
+procedimentos de 
+comercialização
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+2 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP 05/2012) Despacho nº 3.215/2012 16.10.2012 
+2.0 Adequação à REN n° 688/2015 e demais ajustes Despacho n° 1.600/2016 17.06.2016 
+3.0 Adequação à REN nº 863/2019 e demais 
+aprimoramentos Despacho nº 3.646/2020 01.01.2021 
+4.0 Audiência Pública nº 03/2022 Resolução Normativa nº 
+1.012/2022 01.04.2022 
+5.0 Aprimoramentos Despacho nº 1029/2023 17.04.2023 
+6.0 Adequação à REN nº 1.062/2023 Resolução Normativa nº 
+1.112/2025 01.03.2025 
+7.0 Estimativa de dados de medição Despacho nº 1.432/2026 28.04.2026 
+8.0 Adequação à REN nº 1.085/2024 Resolução Normativa nº 
+1.154/2026 29.04.2026
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+3 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+Os dados de medição coletados diariamente pelo Sistema de Coleta de Dados de Energia – SCDE, provenientes 
+dos medidores cadastrados nesse sistema, são utilizados pela CCEE no processo de contabilização e pelo 
+Operador Nacional do Sistema Elétrico  - ONS na apuração dos encargos de uso do sistema de transmissão , 
+entre outros. A coleta diária dos dados de medição é realizada por meio de: 
+▪ Coleta direta, acesso direto aos medidores pel a CCEE por meio d e infraestrutura exclusiva, provida 
+pelo agente de medição; 
+▪ Coleta passiva tipo 1, em que  a CCEE faz a leitura remota,  por meio da integração d e seus sistemas 
+aos das distribuidoras, mediante utilização da infraestrutura própria das distribuidoras; 
+▪ Coleta passiva tipo 2, em que a distribuidora faz a leitura remota e a partir de sua UCM gera os arquivos 
+no formato XML, disponibilizando-os no aplicativo ClientSCDE para envio a CCEE. 
+2. OBJETIVO 
+Estabelecer responsabilidades, etapas e prazos referentes ao processo de coleta, consistência, consolidação, 
+análise crítica, ajuste e estimativa de dados de medição. 
+3. PREMISSAS 
+3.1 A CCEE utiliza, no processamento da contabilização, os dados de medição, coletados pelo SCDE, dos 
+medidores presentes nas instalações físicas dos agentes  após serem submetidos aos processos de 
+estimativa, consistência, consolidação e ajuste.  
+3.2 O relógio/calendário interno dos medidores deve possuir recurso de sincronismo externo ao 
+Greenwich Mean Time (GMT) – 3 horas, independentemente do fuso horário de sua localização 
+geográfica. 
+3.3 A CCEE deve aplicar os percentuais de perda em transformação e/ou linha , quando aplicável e 
+conforme definido no módulo 5 dos Procedimentos de Distribuição – PRODIST. 
+3.4 Para os novos pontos de medição dos usuários que têm a distribuidora como agente de medição, 
+somente será permitida a coleta direta ou a coleta passiva tipo 1, observado o disposto no módulo 
+5 dos PRODIST. 
+3.5 Os dados de medição coletados são submetidos aos processos de consistência , consolidação e 
+análise crítica , independentemente da forma de coleta, podendo ser rejeitados caso ocorra 
+divergência com os dados cadastrados no SCDE.
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+4 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+3.6 No processo de consolidação, os dados de medição registrados na memória de massa dos medidores 
+em intervalos de 5 minutos são agregados de modo a compor o dado de medição horário. O SCDE 
+adota o seguinte procedimento para a consolidação do dado de medição horário: 
+a) No caso de haver entre 9 e 11 registros em uma determinada hora, os registros ausentes são 
+completados com registros do medidor retaguarda, quando houver, ou estimados com base 
+nos registros dos intervalos  coletados, sendo o dado de medição horário considerado 
+completo e composto pela agregação dos 12 registros da respectiva hora; e 
+b) No caso de haver menos de 9 registros em uma determinada hora, os registros serão 
+descartados e o dado de medição horário considerado será o estimado, conforme regras 
+definidas no presente submódulo.  
+3.6.1 No caso de o dado de medição horário ultrapassar em mais de 25% a Capacidade Nominal 
+cadastrada (Consumo e/ou Geração), o dado será rejeitado e considerado 
+inconsistente/fora de tolerância, e o dado considerado será o estimado.  
+3.6.2 No caso de haver registro em duplicidade, os registros serão desconsiderados. 
+3.7 A CCEE analisa os dados de medição, com vistas a prospectar faltas e inconsistências, casos em que 
+deve notificar os agentes de medição para as providências cabíveis. 
+3.8 Os pontos de medição que possuem obrigatoriedade de acesso da CCEE aos medidores (coleta 
+direta) devem ter o seu canal de comunicação monitorado continuamente pelo agente de medição, 
+devendo o agente de medição consultar diariamente, no SCDE, a situação das coletas dos pontos de 
+medição sob sua responsabilidade.  
+3.9 O agente de medição com coleta de dados por UCM deve disponibilizar, no prazo determinado pela 
+CCEE, um arquivo no formato XML, conforme padrões e intervalos de coleta informados no site da 
+CCEE, para cada medidor listado na tela principal do ClientSCDE (coleta passiva tipo 2). 
+3.10 A CCEE pode obter os dados de medição das distribuidoras mediante integração de seu sistema à 
+infraestrutura própria das distribuidoras (coleta passiva tipo 1).  
+3.11 O intervalo de coleta é definido pela CCEE, e eventual alteração deve ser tempestivamente  
+informada aos agentes. 
+3.12 O monitoramento da coleta pelo agente de medição deve ser feito por meio de consultas realizadas 
+diretamente nos sistemas da CCEE. 
+3.13 Os dados de medição serão estimados diariamente pela CCEE, conforme metodologia descrita no 
+anexo 7.2, e serão apresentados aos agentes por meio de relatório no sistema.
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+5 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+3.13.1 Os dados de medição coletados após o processo de estimativa se sobrepõem aos valores 
+estimados. 
+3.13.2 Os pontos de medição que tiveram os dados sobrepostos pelas coletas consistentes serão 
+identificados. 
+3.13.3 Os agentes podem alterar os dados estimados mediante solicitação de ajuste de dados de 
+medição, conforme previsto neste submódulo. 
+3.14 A estimativa de dados realizada pela CCEE e não ajustada é definitiva, não cabendo recurso por parte 
+do agente. 
+3.15 O agente de medição deve registrar tempestivamente, no SCDE, a notificação de manutenção caso 
+ocorra alguma intervenção ocasionada por manutenção preventiva  ou corretiva no Sistema de 
+Medição para Faturamento - SMF, ou no link de comunicação, ou em equipamento que, embora não 
+faça parte do SMF, impacte a medição do agente. 
+3.15.1 A notificação de manutenção deve ser realizada em até três dias úteis da data de realização 
+da manutenção, no caso de preventiva,  ou da identificação da necessidade de ajuste, no 
+caso de corretiva, em conformidade com o prazo estabelecido nos Procedimentos de Rede 
+ou nos Procedimentos de Distribuição  - PRODIST, conforme o caso , fundamentada com 
+justificativa técnica clara e objetiva, a ser analisada pela CCEE. 
+3.16 O agente está sujeito à aplicação das penalidades previstas no submódulo 6.1 - Penalidades de 
+Medição e Multas, caso a notificação seja intempestiva ou rejeitada pela CCEE por critérios técnicos. 
+3.17 Para ocorrências de manutenção registradas que resultem em alteração dos dados cadastrais do 
+SMF, o agente de medição deve realizar a alteração diretamente no módulo de cadastro do SCDE, 
+conforme estabelecido no submódulo 1.2 - Cadastro de agentes. 
+3.18 Nos casos de ocorrência de manutenção que resulte em ajuste nos dados de medição, o agente deve 
+realizar até MS+7du, no módulo de notificações do SCDE, o registro da ocorrência e o ajuste de dados 
+com a devida justificativa técnica e metodologia utilizada para ajuste. 
+3.19 As solicitações de ajuste de dados de medição e seu conteúdo são de total responsabilidade do 
+agente de medição. 
+3.20 Caso seja necessário estimar os dados de medição para realização do ajuste, o agente deve adotar a 
+metodologia para estimativa de dados de medição descrita no anexo 7.1, sem considerar os 
+percentuais de perda técnica em transformação e/ou em linha, quando aplicável  (para os pontos 
+abrangidos pelo módulo 5 do PRODIST, conforme Resolução Normativa ANEEL nº 863/2019 , 
+sucedida pela Resolução Normativa ANEEL nº 1.000/2021).
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+6 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+3.21 Caso a CCEE identifique problemas de sua responsabilidade que afetem a coleta de dados de 
+medição, os agentes de medição serão isentos da apuração de penalidades de medição pelo período 
+identificado. 
+3.22 A CCEE avalia até MS+8du todas as solicitações de ocorrência de manutenção e o ajuste de dados 
+realizados pelos agentes. As notificações com ajustes de dados aprovadas pela CCEE estão 
+disponíveis para consulta, até MS+9du, através de relatório Ajuste de Dados de Medição no SCDE. 
+3.23 Na eventualidade de não aprovação de solicitação de ajuste, os dados de medição encaminhados 
+pelo agente não são considerados, sendo a justificativa da não aprovação disponibilizada na própria 
+notificação. 
+3.24 A CCEE pode realizar, a qualquer momento  e quando aplicável, a inspeção lógica de dados com o 
+objetivo de validar as informações obtidas nas coletas. Os dados obtidos e consistidos por este 
+processo se sobrepõem aos valores correspondentes obtidos pela coleta diária  e estão disponíveis 
+em relatórios. 
+3.25 Para as solicitações de recontabilização que envolvam correção de dados de medição , o agente 
+solicitante deve enviar os novos dados sem considerar os percentuais de perda  técnica em 
+transformação e/ou em linha , quando aplicável  (para os pontos abrangidos pelo módulo 5 do 
+PRODIST, conforme Resolução Normativa ANEEL nº 863/2019 , sucedida pela Resolução Normativa 
+ANEEL nº 1.000/2021).  
+3.26 A inspeção do SMF deve observar o disposto nos Procedimentos de Rede e no PRODIST. 
+3.27 Os agentes prestadores de serviço ancilar de suporte de reativos que fazem jus ao Encargo de 
+Suporte de Reativos, somente têm direito à remuneração caso: 
+a) Seus sistemas de medição estejam de acordo com os Procedimentos de Rede; e 
+b) Os medidores de geração bruta  das unidades geradoras ou, quando aplicável, a medição 
+líquida individualizada por usina conforme indicação do ONS, prestadoras do referido serviço, 
+estejam devidamente cadastrados no SCDE. 
+3.27.1 A metodologia de estimativa de dados de medição descrita neste submódulo não é 
+aplicável aos agentes prestadores de serviço ancilar de suporte de reativos  para fins de 
+remuneração do Encargo de Suporte de Reativos.
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+7 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+Usina hidrelétrica não despachada centralizadamente com Sistema de Medição de 
+Indisponibilidade – SMI 
+3.28 As usinas hidrelétricas não despachadas centralizadamente participantes do Mecanismo de 
+Realocação de Energia - MRE podem optar, a qualquer momento, pela instalação do Sistema de 
+Medição de Indisponibilidade – SMI, o qual mede a indisponibilidade da central geradora a partir da 
+apuração da vazão vertida. 
+3.29 A opção pela utilização do sistema para apuração da indisponibilidade por meio da apuração de 
+vazão vertida é definitiva, isto é, não há possibilidade de mudança para outra forma de apuração da 
+indisponibilidade da usina após opção pelo SMI. 
+3.30 A usina tem responsabilidade integral na escolha, implementação, operação e manutenção do SMI. 
+3.31 As usinas que optarem pela instalação do SMI devem apresentar à CCEE certificação que comprove 
+a confiabilidade do sistema e transparência do processo, contendo os requisitos previstos na 
+regulação vigente e, no mínimo: 
+a) Descritivo dos componentes do sistema informando, ao menos, características técnicas e local 
+de instalação, sendo estes equipamentos homologados pelas entidades certificadoras 
+competentes (Associação Brasileira de Normas Técnicas - ABNT, Instituto Nacional  de 
+Metrologia, Qualidade e Tecnologia – Inmetro ou Agência Nacional de Telecomunicações - 
+Anatel); 
+b) Documentação de referência do sistema com, no mínimo, projetos, diagramas, relatório de 
+comissionamento, imagens das instalações e relatório de certificação das curvas de vazão do 
+vertedouro; 
+c) Descritivo das equações hidráulicas, metodologia, parâmetros de cálculo e validação dos 
+resultados;  
+d) Parâmetros de Garantia Física (GF) da usina e taxas utilizadas para cálculo da Garantia Física 
+Apurada (GFa); 
+e) Descritivo do lacre físico contendo, no mínimo, responsável técnico por sua instalação e por 
+sua eventual remoção, data de instalação e de eventual remoção, número do lacre e histórico 
+das marcas de selagem (lacres); 
+f) Descritivo do lacre lógico, contendo histórico de versões e registro de quaisquer modificações 
+realizadas;
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+8 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+g) Resultados de calibração dos equipamentos, com descritivo dos procedimentos realizados e 
+itens verificados; 
+h) Histórico de manutenções, preventivas e corretivas, realizadas no SMI contendo, no mínimo, 
+a data da intervenção, a descrição da atividade executada, os equipamentos envolvidos e 
+responsável técnico; 
+i) Declaração de conformidade quanto ao armazenamento dos dados de massa do SMI, 
+atestando que o sistema assegura a integridade, rastreabilidade e disponibilidade das 
+informações, bem como o atendimento ao período mínimo de armazenamento estabelecido 
+nessa seção; 
+j) Data de emissão da certificação; 
+k) Identificação do responsável técnico pela elaboração da certificação, com emissão de 
+Anotação de Responsabilidade Técnica – ART perante o Conselho Regional de Engenharia e 
+Agronomia - CREA; 
+l) Indicação quanto à conformidade do SMI. 
+3.31.1 As atividades mencionadas nos itens “e”, “h” e “i”, devem constar, individualmente, com a 
+correspondente Anotação de Responsabilidade Técnica – ART perante o Conselho Regional 
+de Engenharia e Agronomia – CREA. 
+3.32 A certificação deve ser emitida por empresa independente, observada a necessidade de 
+apresentação de ART perante o CREA. 
+3.33 A certificação deve ser revalidada e enviada à CCEE a cada 5 (cinco) anos, no mesmo mês “M” de sua 
+emissão, nos termos desta seção. 
+3.33.1 Em caso de descumprimento do referido prazo, o SMI será considerado em 
+desconformidade e a usina totalmente indisponível do mês “M” em diante. 
+3.33.2 O SMI deve voltar a ser considerado em conformidade e a usina disponível a partir do mês 
+em que ocorrer a regularização da revalidação da certificação. 
+3.34 As usinas que optarem pela instalação do SMI devem cadastrar, no sistema específico, as taxas de 
+referência de indisponibilidade, o valor do consumo interno e do fator de perdas internas utilizados 
+no cálculo da garantia física da usina.  
+3.35 A usina deve manifestar à CCEE a opção pelo SMI, e em conjunto, encaminhar a certificação, descrita 
+nessa seção, anexa à solicitação de mapeamento do ponto de medição do SMI.
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+9 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+3.36 A solicitação de inclusão do ponto de medição do SMI, no sistema específico, deve ser enviada sem 
+pendências até o prazo limite para solicitação de inclusão, alteração ou exclusão de cadastro de 
+pontos de medição e de ativos, estabelecido no submódulo 1.2 – Cadastro de agentes. 
+3.36.1 A CCEE deve concluir a análise das informações encaminhadas em até 5 (cinco) dias úteis. 
+3.36.2 Estando as informações referentes ao SMI em conformidade, bem como tendo sido 
+cadastradas as taxas de referência de indisponibilidade da usina até o prazo de que trata a 
+premissa 3.36, os dados medidos passam a ser considerados para o mês de referência “M”. 
+3.37 A usina se compromete e se responsabiliza pela validade e regularidade de documentos 
+apresentados e dados cadastrados junto à CCEE, bem como sua manutenção, nos termos deste 
+submódulo. 
+3.38 Os dados medidos pelo SMI devem ser enviados diariamente à CCEE, em base horária, para fins de 
+cálculo mensal e contabilização do respectivo mês de referência “M”.  
+3.38.1 Os dados que devem ser enviados à CCEE são: 
+a) Índices horários acumulados de vazão vertida - IVV; 
+b) Energia vertida em base horária (kWh);  
+c) Energia de perda em base horária (kWh); 
+d) Energia gerada em base horária (kWh); e 
+e) Vazão vertida em base horária (m3/h). 
+3.38.2 Os referidos dados estão passíveis de validação pela CCEE e, caso sejam identificadas 
+inconsistências, a usina será consultada para prestar esclarecimentos e apresentar 
+eventuais justificativas. 
+3.39 Em caso de indisponibilidade no SMI que impeça a completude dos dados do mês de referência “M”, 
+os dados faltantes podem ser enviados à CCEE até o prazo limite estabelecido para ajuste dos dados 
+de medição do SMF, previsto neste submódulo. 
+3.39.1 Em caso de dados faltantes, os registros ausentes podem ser completados durante o 
+período de coleta de dados de medição, com registros do medidor de retaguarda, da 
+respectiva hora, quando houver. 
+3.40 Na ausência de dados, será realizada estimativa, nos termos das Regras de Comercialização, para 
+fins de cálculo mensal e contabilização.  
+3.41 Os dados enviados pela usina, que são tratados nesta seção, não ensejam recontabilização.
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+10 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+3.42 A usina tem a responsabilidade de assegurar que o SMI seja submetido à manutenção preventiva em 
+intervalos não superiores a 2 (dois) anos. 
+3.43 A instalação e a remoção de lacres no SMI devem ser realizadas: (i) pelo responsável técnico pela 
+instalação dos equipamentos, (ii) pela empresa certificadora ou (iii) por terceiro formalmente 
+indicado pela empresa certificadora. 
+3.44 Todas as atividades técnicas mencionadas nessa seção, inclusive as que constam na certificação, 
+devem ter: 
+a) Identificação do responsável técnico; 
+b) Emissão de Anotação de Responsabilidade Técnica – ART perante o Conselho Regional de 
+Engenharia e Agronomia – CREA. 
+3.45 A usina é responsável por armazenar, pelo período mínimo de 5 (cinco) anos, os dados de massa do 
+SMI detalhados no Anexo 7.3, os quais podem ser solicitados pela CCEE a qualquer momento para 
+eventuais análises 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+11 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Dados de medição
+Agente de Medição CCEE
+Diariamente
+Coletar dados de 
+medição
+Problemas na 
+coleta?
+Em até X+3du 
+Registrar 
+notificação de 
+manutenção
+Até MS+3du
+Disponibilizar 
+dados para a 
+coleta
+Início
+Sim
+SimNecessidade 
+de ajuste?
+Não
+Até MS+7du
+Enviar 
+notificação de 
+ajuste de dados 
+de medição
+A partir de 
+MS+9du
+Consultar 
+relatorio de 
+origem de dados 
+de coleta
+Não
+Até MS+9du
+Disponibilizar 
+dados de 
+medição que 
+serão utilizados 
+na contabilização
+Diariamente
+Monitorar coleta 
+de dados de 
+medição
+Fim
+Diariamente
+Estimar dados de 
+medição
+N.A.
+Avaliar a 
+notificação ou 
+ajuste de dados 
+de medição
+ 
+Legenda: 
+MS: Mês seguinte às operações de compra e venda de energia  
+X: Dia de identificação da ocorrência 
+du: dias úteis
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+12 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Dados de medição 
+Atividade Responsável Detalhamento Prazo 
+Disponibilizar dados para 
+coleta 
+Agente de 
+Medição 
+O agente de medição é responsável pela 
+disponibilização dos dados de medição para coleta, 
+além de prover link de comunicação estável com os 
+medidores, quando aplicável. 
+Diariamente, até 
+MS+3du 
+Monitorar coleta de dados de 
+medição 
+Agente de 
+Medição 
+O agente de medição deve monitorar a coleta por 
+meio dos relatórios e consultas disponibilizadas pela 
+CCEE. 
+Diariamente 
+Estimar dados de medição CCEE A CCEE estima todos os dados de medição conforme 
+anexo deste submódulo. Diariamente 
+Coletar dados de medição CCEE 
+A CCEE realiza/monitora a coleta dos dados de 
+medição de todos os agentes durante a janela de 
+comercialização. 
+Diariamente 
+Problemas na coleta? Agente de 
+Medição 
+Sim: Registrar notificação de manutenção preventiva 
+ou corretiva 
+Não: Disponibilizar dados de medição que serão 
+utilizados na contabilização 
+N.A. 
+Registrar notificação de 
+manutenção 
+Agente de 
+Medição 
+Durante a realização de manutenção preventiva ou 
+corretiva, o agente deve comunicar a CCEE, 
+registrando notificação de manutenção no 
+componente de notificações do SCDE. 
+X+3du 
+03 (três) dias úteis 
+após a identificação 
+da ocorrência 
+Necessidade de ajuste de 
+dados? 
+Agente de 
+Medição 
+Não: Disponibilizar dados de medição que serão 
+utilizados na Contabilização 
+Sim: Enviar dados de medição. 
+N.A. 
+Enviar notificação de ajuste de 
+dados de medição 
+Agente de 
+Medição 
+Caso a intervenção impossibilite a coleta/medição dos 
+dados, o agente deve enviar os dados para ajuste no 
+mesmo prazo da notificação de manutenção. 
+Até MS+7du 
+Avaliar a notificação ou ajuste 
+de dados de medição CCEE 
+A CCEE analisa o teor das notificações de manutenção 
+e/ou dados a serem ajustados  e se aprovado, 
+disponibiliza os dados que serão utilizados na 
+contabilização. 
+Caso a solicitação não for aprovada, serão 
+considerados os dados estimados conforme anexo 
+deste submódulo. 
+N.A. 
+Disponibilizar dados de 
+medição que serão utilizados 
+na Contabilização 
+CCEE A CCEE disponibiliza os dados de medição que são 
+utilizados na contabilização. Até MS+9du 
+Consultar dados de medição 
+que serão utilizados nos 
+processos de contabilização  
+Agente de 
+Medição 
+A partir deste momento, o agente pode consultar os 
+dados de medição fechados que serão utilizados nos 
+processos de contabilização. 
+A partir de 
+MS+9du 
+Legenda: 
+MS: Mês seguinte às operações de compra e venda de energia  
+X: Dia de identificação da ocorrência 
+du: dias úteis
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+13 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+7.1. Metodologia para estimativa de dados de medição pelo agente de medição para solicitação 
+de ajuste 
+O presente Anexo estabelece a metodologia a ser utilizada pelo agente de medição para realizar os ajustes de 
+dados de medição no SCDE, objetivando a complementação de dados de medição faltantes ou a alteração de 
+dados de medição incorretos.  
+Cabe observar que há necessidade de cadastrar no SCDE uma Notificação de Manutenção com Ajuste, 
+contendo uma descrição objetiva e clara da ocorrência e o período em que os dados serão ajustados, de forma 
+a justificar e fundamentar o motivo do pedido de ajuste, permitindo a adequada análise pela CCEE.  
+Constatada a inconsistência ou dados faltantes de qualquer ponto de medição, decorrente de: 
+comissionamento, desativação, manutenção preventiva, manutenção corretiva, modificações, falhas e 
+defeitos em componentes do sistema de medição, substituição de medidor, impossibilidade de comunicação, 
+ou incorreção destes valores por problemas técnicos no SMF, poderá ser utilizado pelo Agente de Medição os 
+critérios a seguir indicados: 
+a) Considerar, caso disponível, os dados do medidor de retaguarda, quando constatado dado incorreto 
+do medidor principal; 
+b) Caso a estimativa seja para apenas uma hora, utilizar a média entre a medida anterior e a posterior 
+à hora com medição faltante ou incorreta; 
+c) Para a medição de geração líquida, considerar a medição de geração bruta, deduzindo o consumo 
+interno e/ou perdas; 
+d) Considerar, caso disponível, medição destinada ao controle operacional; 
+e) Na medição a três elementos, na perda total do TP ou da tensão de uma fase (tensão igual a zero), 
+ou na perda total do TC ou da corrente de uma fase (corrente igual a zero), os dados podem ser 
+estimados multiplicando-se os dados coletados por 1,5; 
+f) Na medição a três elementos, na perda total dos TP ou das tensões de duas fases (tensões iguais a 
+zero), ou na perda total dos TC ou das correntes de duas fases (correntes iguais a zero), os dados 
+podem ser estimados multiplicando-se os dados coletados por três. 
+Obs.: A aceitação de eventual utilização de critérios diferentes dos citados ficará a cargo da CCEE quando da 
+análise da solicitação de ajustes.
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+14 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+7.2. Metodologia de estimativa de dados de medição pela CCEE 
+1. Período faltante de 2 horas ou mais 
+1.1. Estimativa por histórico para pontos de consumo: 
+Utiliza-se como critério de estimativa a média de consumo do mesmo dia e hora da semana das últimas 12 
+semanas de meses com dados de medição fechados para contabilização (após MS+9du). 
+Para os feriados nacionais deve ser observado: 
+a) Quando o feriado for no período histórico, esse dia  deverá ser desconsidera do do cálculo da 
+estimativa; 
+b) Quando o feriado for no dia do dado estimad o, deve ser c onsiderado como histórico os dias de 
+domingos das últimas 12 semanas. 
+1.2.  Estimativa por histórico para pontos de geração: 
+Utiliza-se como critério de estimativa a geração do mesmo dia e hora da última semana do mês com dados de 
+medição fechados para a contabilização (após MS+9du). 
+Para os feriados nacionais deve ser observado: 
+a) Quando o feriado for no período histórico, esse dia da semana deverá ser desconsiderado do cálculo 
+da estimativa e deve ser considerado o mesmo dia da semana anterior a essa; 
+b) Quando o feriado for no dia do dado estimado , deve ser  considerado como histórico o último 
+domingo da semana anterior ao mês fechado. 
+2. Período faltante de 1 hora 
+2.1.  Estimativa por interpolação para pontos de consumo e geração: 
+Será considerado o valor médio da energia dos dois períodos imediatamente anterior e posterior ao período 
+faltante. 
+Quando a hora for estimada por interpolação e chegarem novos dados que alterem a hora anterior e posterior 
+que foi utilizado no cálculo da hora estimada, a hora estimada por interpolação deverá ser estimada 
+novamente.  
+3. Gerar dados estimados para pontos novos (quando não há histórico) 
+3.1. Estimativa para pontos de consumo:
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+15 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+No caso de ponto novo de natureza consumo, que não possui histórico para ser estimado , será considerada 
+70% da capacidade de consumo para o canal de consumo e valor zero para o canal de geração. 
+3.2. Estimativa para pontos de geração: 
+No caso de ponto novo de natureza geração, que não possui histórico para ser estimado será considerada 20% 
+da capacidade de geração para o canal de geração e valor zero para o canal de consumo. 
+4. Estimativa por falta de fase 
+4.1. Problemas nos transformadores para instrumentos:  
+O sistema identifica ausências de tensão ou corrente e calcula o valor estimado conforme regra disposta a 
+seguir: 
+a) Na medição a três elementos, na perda total do TP ou da tensão de uma fase (tensão  igual a zero), 
+ou na perda total do TC ou da corrente de uma fase (corrente igual a zero), os dados serão estimados 
+multiplicando-se os dados coletados por 1,5; e 
+b) Na medição a três elementos, na perda total dos TP ou das tensões de duas fases  (tensões iguais a 
+zero), ou na perda total dos TC ou das correntes de duas fases  (correntes iguais a zero), os dados 
+serão estimados multiplicando-se os dados coletados por três.
+
+Submódulo 2.1 – Coleta e ajuste de dados de medição 
+Revisão 8.0 
+16 
+ 
+procedimentos de 
+comercialização 
+procedimentos de 
+comercialização 
+7.3. Dados de massa do Sistema de Medição de Indisponibilidade - SMI 
+As usinas hidrelétricas não despachadas centralizadamente, participantes do MRE e que possuem SMI, devem 
+manter os dados referentes às leituras dos medidores por um período mínimo de 5 (cinco) anos, sendo os 
+dados a serem armazenados: 
+a) Energia vertida em base horária (kWh); 
+b) Energia de perda em base horária (kWh); 
+c) Energia gerada em base horária (kWh); 
+d) Vazão vertida em base horária (m3/h); 
+e) Níveis operativos; 
+f) Abertura angular de comportas, se aplicável; 
+g) Posição de stoplogs, se aplicável. 
+Observação: os referidos dados devem estar devidamente associados às respectivas informações de data e 
+hora (data record).

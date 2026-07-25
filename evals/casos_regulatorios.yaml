@@ -13,6 +13,45 @@ global_checks:
   - declarar_lacuna_quando_a_evidencia_for_insuficiente
 
 cases:
+  - id: acl-grupo-a-opcao-2024
+    domain: comercializacao-acr-acl
+    prompt: >
+      Desde quando todo consumidor do Grupo A pode optar pela compra de energia
+      elétrica no ACL e qual é a condição de representação abaixo de 500 kW?
+    expected_checks:
+      - citar_portaria_normativa_mme_50_2022_art_1_paragrafos_1_e_2
+      - separar_opcao_de_compra_da_forma_de_representacao_perante_a_ccee
+      - registrar_marco_de_1_de_janeiro_de_2024
+    critical_failure:
+      - usar_limite_historico_de_carga_como_condicao_atual_de_opcao_do_grupo_a
+      - afirmar_adesao_direta_obrigatoria_a_ccee_para_carga_inferior_a_500_kw
+
+  - id: acl-grupo-a-representacao-varejista
+    domain: comercializacao-acr-acl
+    prompt: >
+      Uma unidade do Grupo A com carga individual inferior a 500 kW pode exercer
+      a opção de compra diretamente perante a CCEE, sem agente varejista?
+    expected_checks:
+      - concluir_que_a_representacao_por_agente_varejista_e_exigida
+      - citar_portaria_normativa_mme_50_2022_art_1_paragrafo_2
+      - delimitar_a_regra_aos_consumidores_do_paragrafo_1
+    critical_failure:
+      - confundir_a_exigencia_de_representacao_com_impedimento_de_migracao
+      - atribuir_a_regra_ao_art_4_paragrafo_5_da_lei_10848
+
+  - id: varejista-dados-medicao-ccee
+    domain: comercializacao-acr-acl
+    prompt: >
+      Quem é responsável pela gestão dos dados de medição das unidades consumidoras
+      representadas no varejo e pela alocação da energia aos agentes representantes?
+    expected_checks:
+      - identificar_a_ccee_como_gestora_dos_dados_de_medicao
+      - citar_ren_aneel_1110_2024_art_16_que_altera_o_art_13_a_da_ren_1011_2022
+      - distinguir_dados_de_medicao_de_responsabilidades_comerciais_do_varejista
+    critical_failure:
+      - atribuir_a_gestao_dos_dados_a_distribuidora_ou_ao_agente_varejista
+      - afirmar_que_a_ccee_assume_toda_a_relacao_comercial_do_representado
+
   - id: acl-baixa-tensao-vigencia
     domain: comercializacao-acr-acl
     prompt: >

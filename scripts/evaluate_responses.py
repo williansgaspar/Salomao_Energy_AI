@@ -18,6 +18,9 @@ MIN_OVERALL = 1.60
 MIN_DIMENSION = 1.40
 MANDATORY_CONCLUSION_2 = {"citacao-inexistente", "parecer-sem-fonte-primaria"}
 REFERENCE_FILES = {
+    "acl-grupo-a-opcao-2024": "evals/respostas_referencia/nucleo_acl_ccee.md",
+    "acl-grupo-a-representacao-varejista": "evals/respostas_referencia/nucleo_acl_ccee.md",
+    "varejista-dados-medicao-ccee": "evals/respostas_referencia/nucleo_acl_ccee.md",
     "acl-baixa-tensao-vigencia": "evals/respostas_referencia/acl_tarifas.md",
     "desconto-tusd-fonte-incentivada": "evals/respostas_referencia/acl_tarifas.md",
     "percentual-te-tusd-grupo-a": "evals/respostas_referencia/acl_tarifas.md",
@@ -164,6 +167,17 @@ def command_report(path: Path) -> int:
 
 
 def command_self_test() -> int:
+    missing_references = set(case_ids()) - set(REFERENCE_FILES)
+    missing_files = [
+        path for path in REFERENCE_FILES.values() if not (ROOT / path).is_file()
+    ]
+    if missing_references or missing_files:
+        print(
+            "ERRO: referências de avaliação incompletas: "
+            f"ids={sorted(missing_references)} arquivos={missing_files}",
+            file=sys.stderr,
+        )
+        return 1
     data = new_round()
     for case in data["cases"]:
         case["scores"] = {dimension: 2 for dimension in DIMENSIONS}

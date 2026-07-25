@@ -1,0 +1,445 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 8.1_-_mcsd_existente_v10.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 8.1_-_mcsd_existente_v10.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+//  
+Módulo 8 – Mecanismo de 
+Compensação de Sobras e 
+Déficits - MCSD 
+Submódulo 8.1 – MCSD de Energia Existente 
+procedimentos de 
+comercialização
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada Despacho nº 1.019/2013 10.04.2013 
+2.0 Adequar calendário MCSD Despacho n° 2.769/2016 17.10.2016 
+3.0 Adequação à REN n° 726/2016 e REN nº 
+755/2016 Despacho n° 1.911/2017 30.10.2017 
+4.0 Adequação à REN n° 802/2017 e demais 
+aprimoramentos Despacho n° 1.975/2018 31.08.2018 
+4.1 Adequação ao Despacho nº 04/2019 Despacho nº 004/2019 04.01.2019 
+5.0 Adequação à REN nº 832/2018 e demais 
+aprimoramentos Despacho nº 2.626/2019 23.09.2019 
+6.0 Adequação à REN nº 909/2020 e demais 
+aprimoramentos Despacho nº 3.646/2020 01.01.2021 
+7.0 Adequação à REN nº 904/2020, à REN nº 
+951/2021 e demais aprimoramentos Despacho n° 485/2022 16.02.2022 
+8.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1012/2022 01.04.2022 
+9.0 Adequação à REN nº 1.081/2023 Resolução Normativa nº 1.110/2024 01.01.2025 
+10.0 Adequação à REN nº 1.080/2023 e 
+aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O Mecanismo de Compensação de Sobras e Déficits - MCSD tem por objetivo permitir que os agentes de 
+distribuição compensem entre si montantes de energia elétrica adquiridos em leilões de empreendimentos 
+existentes, promovendo o repasse de energia entre agentes de distribuição com sobras declaradas (agentes 
+cedentes) e agentes de distribuição com déficits declarados ( agentes cessionários), conforme previsto no 
+Decreto n° 5.163/2004.  
+As declarações de sobras e déficits são voluntárias e o MCSD  de Energia Existente se aplica aos Contratos de 
+Comercialização de Energia no Ambiente Regulado – CCEARs oriundos de leilões de empreendimentos 
+existentes nas modalidades por disponibilidade, para leilões realizados de 2019 em diante, e por quantidade, 
+independentemente do ano de sua realização.  
+2. OBJETIVO 
+Estabelecer as condições, procedimentos e prazos para os agentes da CCEE participarem do MCSD de Energia 
+Existente nas modalidades Mensal e 4%.   
+3. PREMISSAS 
+3.1 O agente que tenha interesse em participar do mecanismo deve acessar o sistema específico para 
+registrar a declaração de sobras ou déficits, de acordo com o mês de referência de cada modalidade 
+do MCSD de Energia Existente, respeitando os prazos informados neste submódulo. 
+3.2 O calendário de processamento do MCSD de Energia Existente p ode ser alterado de forma 
+excepcional por determinação da Diretoria da CCEE, em função da data de realização dos Leilões de 
+Energia, com a prévia emissão de comunicado aos Agentes e carta à ANEEL, desde que não 
+prejudiquem as operações do mercado. 
+3.3 O processamento de qualquer das modalidades do MCSD de Energia Existente deve ocorrer somente 
+quando houver declaração de sobras validadas pela CCEE , sendo que no caso dos CCEARs por 
+disponibilidade somente serão considerados os produtos dos leilões realizados a partir de 2019. 
+3.4 Caso o agente possua algum questionamento relativo às declarações de sobras e déficits, deve se 
+manifestar à CCEE por meio de chamado via central de atendimento, no período previsto para 
+declaração. 
+3.5 Caso o agente possua algum questionamento relativo ao resultado do processamento, deve se 
+manifestar à CCEE por meio de chamado via central de atendimento, dentro do período de 
+contestação previsto no item 5 – Fluxo de Atividades.
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.5.1 Não serão aceitos pela CCEE questionamentos apresentados fora do período estabelecido. 
+3.5.2 Na manifestação de que trata esta premissa, é vedado ao agente questionar sua 
+participação no mecanismo. 
+3.6 Montantes de energia adquiridos por agente de distribuição cessionário por meio de contratos 
+firmados a partir do 25° Leilão de Energia Existente são passíveis de cessão e/ou redução. 
+3.7 No resultado do cálculo dos montantes de energia elétrica objeto de cessão e/ou redução deve ser 
+considerado o arredondamento dos números com 3 (três) casas decimais após a vírgula , podendo 
+ocorrer eventuais diferenças residuais positivas ou negativas em decorrência dos arredondamentos. 
+3.8 O auditor independente realiza a confirmação , junto aos agentes, das sobras e déficits que foram 
+inseridos no sistema específico, e valida os dados de entrada que foram utilizados no processamento 
+do MCSD de Energia Existente. 
+3.9 As ce ssões do MCSD de Energia Existente correspondem ao registro do contrato automático no 
+sistema de contabilização e liquidação da CCEE, com base no resultado do processamento do 
+mecanismo. 
+3.10 Os agentes envolvidos no MCSD de Energia Existente que identificarem a necessidade de assinatura 
+de Termos de Cessão poder ão solicitar à CCEE a disponibilização dos documentos necessários (os 
+quais serão elaborados com base em versões anteriormente utilizadas). 
+3.10.1 O agente interessado em solicitar a elaboração do Termo de Cessão deve fazê-lo no prazo 
+de até 1 (um) dia útil anterior à data da primeira liquidação do processamento originários 
+das cessões. 
+3.10.2 O requerimento à CCEE deve ser encaminhado, após verificação do agente interessado da 
+concordância na assinatura do Termo  de Cessão  pelas distribuidoras cessionárias e/ou 
+cedentes e do agente vendedor signatários no Termo de Cessão. 
+3.10.3 A CCEE deve disponibilizar os Termos de Cessão para assinatura dos agentes envolvidos 
+em até 30 (trinta) dias corridos, contados da data da solicitação. 
+3.11 A cessão e a redução são irrevogáveis e irretratáveis, tendo reflexo e validade por todo o período de 
+vigência remanescente dos respectivos CCEARs e CCGs.  
+3.12 Nenhuma modalidade do MCSD de Energia Existente deve ser objeto de reprocessamento, mesmo 
+nos casos em que houver recontabilizações de meses impactados pelo MCSD de Energia Existente. 
+3.13 Eventual alteração oficial dos critérios de início e término do horário de verão não enseja 
+reprocessamento dos MCSDs  de Energia Existente  anteriores. Os novos critérios devem ser 
+considerados nos processamentos subsequentes a essa nova definição.
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+5 
+ 
+procedimentos de 
+comercialização 
+Premissas específicas para o processamento do MCSD Mensal 
+3.14 O MCSD Mensal é processado em razão das seguintes hipóteses: 
+a) Exercício, pelos consumidores potencialmente livres, da opção de compra de energia elétrica 
+proveniente de outro fornecedor (inciso I do artigo 29 do Decreto n° 5.163/2004).  
+b) Suspensão, rescisão, resilição ou r edução do Contrato de Comercialização de En ergia com 
+Agente Supridor – CCE500SUP celebrado com agente suprido na modalidade tarifa regulada, 
+conforme normas de regência (PRORET - Procedimentos de Regulação Tarifária – Submódulo 
+11.1). 
+c) Migração de consumidores especiais para o Ambiente de Contratação Livre – ACL. A redução 
+de que trata este item somente se aplica aos CCEARs decorrentes de leilões de 
+empreendimentos existentes realizados a partir de 27.06.2016. 
+d) Demais desvios do mercado dos agentes de distribuição. 
+3.15 Para o MCSD Mensal, somente os montantes não compensados das sobras provenientes dos itens 
+“a”, “b” e “c” da premissa anterior são objeto de redução. 
+3.16 O direito de pleitear a redução atinente aos itens “a” e “c” da premissa 3.14 tem início na data de 
+saída do consumidor do mercado cativo do agente de distribuição e se extingue no último 
+processamento do MCSD Mensal do ano da saída do consumidor. 
+3.16.1 Caso a saída do consumidor ocorra após o último processamento do MCSD Mensal do ano 
+da saída do consumidor , o direito de que trata a premissa 3.16 se extingue no último 
+processamento do MCSD Mensal do ano subsequente. 
+3.17 O direito de pleitear a redução atinente ao item “b” da premissa 3.14 tem início na data de vigência 
+da redução do CCE500SUP entre a distribuidora supridora e a suprida  ou na data de homologação 
+do CCE500SUP pela ANEEL, o que ocorrer por último,  e se extingue no último processamento do 
+MCSD mensal do ano da redução do CCE500SUP. 
+3.17.1 Caso o início do direito de que trata a premissa 3.17 ocorra após o último processamento 
+do MCSD mensal do ano da redução do CCE500SUP , o direito de pleitear a redução  se 
+extingue no último processamento do MCSD Mensal do ano subsequente. 
+3.18 O MCSD Mensal pode ser realizado nos meses de janeiro a novembro, desde que exista declaração 
+de sobras validadas pela CCEE. 
+3.18.1 O MCSD Mensal pode ser processado com prazos e características diferenciadas, conforme 
+determinação específica da ANEEL.
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.19 No caso de declaração de sobras decorrentes da migração de consumidores potencialmente livres e 
+especiais para o ACL, deve ser disponibilizado no sistema específico pela CCEE, no  prazo de 
+declaração de sobras e déficits previsto nes te submódulo, a informação do(s) consumidor(es) 
+elegível(eis) de declaração para cada agente de distribuição. 
+3.19.1 Os montantes de energia informados  são calculados com base nas informações de 
+histórico de consumo dos últimos 12 (doze) meses anteriores à migração disponíveis no 
+sistema específico, e já contemplam as perdas na Rede Básica, que são consideradas pela 
+CCEE como iguais à média das perdas de consumo dos últimos 12 (doze) meses 
+contabilizados e certificados. 
+3.20 Para que o consumidor seja considerado na informação disponibilizada pela CCEE, é necessário que 
+o processo de modelagem esteja aprovado até a data de início do prazo de declaração de sobras e 
+déficits.  
+3.21 As sobras provenientes da migração dos consumidores potencialmente livres ou especiais podem 
+ser declaradas, somente, uma única vez. 
+3.22 Especificamente para as distribuidoras que possuam unidades consumidoras que migraram para o 
+ACL conforme submódulo 1.8 - Comercialização varejista – modelo simplificado, deve ser observado: 
+3.22.1 O montante disponível para declaração será disponibilizado em um único conjunto em 
+MWmédio e não contempla as perdas da Rede Básica, devendo a CCEE acrescer as perdas 
+para o processamento do MCSD. 
+3.22.2 O saldo de sobras provenientes da migração desses consumidores que não for utilizado, 
+ficará disponível para declaração conforme premissa 3.16 desse submódulo. 
+3.23 Para a declaração de sobras decorrentes de outros desvios de mercado não há limite, no entanto, a 
+quantidade informada na declaração de sobras de montantes de energia elétrica será limitada de 
+acordo com o valor máximo declarável para o agente, conforme informado pelo sistema específico. 
+3.24 Para a declaração de sobras decorrentes da redução do CCE500SUP, o agente cedente deve 
+encaminhar à CCEE, até o prazo M+1du, de forma digital, além do formulário de declaração de sobras 
+anexo a este submódulo, a seguinte documentação comprobatória: 
+a) Contrato de compra e venda de energia elétrica ( CCE500SUP) entre o agente suprido e o 
+agente supridor e eventuais termos aditivos; 
+b) Comprovação do registro do contrato pela ANEEL. 
+3.25 A cessão e/ou redução de CCEAR ocorre a partir do mês de execução do processamento, passando 
+a vigorar por todo o prazo remanescente dos CCEARs.
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.26 As cessões provenientes do processamento do MCSD Mensal devem manter a curva (perfil) de 
+sazonalização original de cada CCEAR do agente cedente no ano em que ocorre o processamento. 
+Para os anos seguintes, as cessões devem seguir a curva (perfil) de sazonalização de cada CCEAR do 
+agente cessionário, conforme submódulo 3.2 – Contratos do Ambiente Regulado. 
+Premissas específicas para o processamento do MCSD 4% 
+3.27 O MCSD 4% é processado em razão de sobras decorrentes de: 
+a) Demais desvios do mercado dos agentes de distribuição.  
+b) Outras variações de mercado, hipótese na qual pode haver, em cada ano, redução de até 4% 
+(quatro por cento) do montante inicial contratado em leilão de energia existente, 
+independentemente do prazo de vigência contratual, do início do suprimento e dos 
+montantes efetivamente reduzidos nos anos anteriores  (inciso II do artigo 29 do Decreto nº 
+5.163/2004). 
+3.28 Para o MCSD 4%, caso o montante de sobras validadas seja superior ao montante de déficits, os 
+montantes não compensados de energia serão objeto de redução de CCEARs até o limite de 4% do 
+montante originalmente contratado. 
+3.29 O calendário de processamento do MCSD 4% deve ser disponibilizado antecipadamente aos agentes 
+por meio de comunicado, sendo que seu processamento deve ocorrer preferencialmente no mês de 
+outubro de cada ano. 
+3.30 As sobras devem ser inseridas no sistema específico em montante de energia (MWm). 
+3.31 As sobras declaradas devem ser limitadas aos montantes dos contratos originais remanescentes dos 
+respectivos produtos. A CCEE deve considerar os processamentos de MCSD Mensal ocorridos no ano 
+em curso quando da verificação do limite regulamentar. 
+3.32 Eventual compensação e/ou redução somente tem eficácia a partir do início do ano subsequente ao 
+da declaração de sobras do agente de distribuição, passando a vigorar por todo o prazo 
+remanescente dos CCEARs.  
+3.33 As cessões provenientes do processamento do MCSD 4% devem  seguir a curva (perfil) de 
+sazonalização de cada CCEAR do agente cessionário, conforme submódulo 3.2 – Contratos do 
+Ambiente Regulado. 
+3.34 No mês em que ocorrer o MCSD 4% não deve ocorrer o MCSD Mensal.
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+8 
+ 
+procedimentos de 
+comercialização 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+9 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+MCSD de Energia Existente
+CCEE
+Agente de distribuição 
+declarante de sobras 
+(Cedente)
+Agente de distribuição 
+declarante de déficits 
+(Cessionário)
+Início
+De M+2du a M+4du
+Inserir declarações de 
+sobras 
+De M+2du a M+4du
+Inserir declarações de 
+déficits
+Até M+1du
+Enviar declaração de 
+sobras e documentação 
+comprobatória 
+referente à suspensão, 
+rescisão, resilição ou 
+redução do CCE500SUP
+Até M+8du
+Processar MCSD, 
+disponibilizar 
+montantes de sobras 
+e déficits validados e 
+divulgar o resultado 
+preliminar da 
+apuração
+N/A
+Registrar as 
+cessões em 
+sistema 
+específico
+Até M+12du
+Disponibilizar 
+relatórios do 
+MCSD com o 
+resultado final
+Fim
+Até M+9du
+Apresentar 
+contestação, se for 
+o caso 
+Até M+9du
+Apresentar 
+contestação, se for 
+o caso 
+ 
+ 
+Legenda: 
+M: Mês de processamento do MCSD 
+du: dias úteis 
+N.A.: Não aplicável
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+10 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+MCSD de Energia Existente 
+Atividade Responsável Detalhamento Prazo 
+Enviar declaração de sobras e 
+documentação 
+comprobatória referente à 
+suspensão, rescisão, resilição 
+ou redução de CCE500SUP 
+Agente distribuidor 
+declarante de sobras 
+Enviar o formulário para declaração de sobras 
+referente à suspensão, rescisão, resilição ou redução 
+de CCE e enviar a documentação comprobatória por 
+meio digital. 
+Até M+1du 
+Inserir declarações de sobras Agente distribuidor 
+declarante de sobras 
+Acessar o sistema específico e inserir as declarações de 
+sobras. O agente pode inserir/alterar/excluir a 
+declaração até a data limite estabelecida. 
+De M+2du a 
+M+4du 
+Inserir declarações de 
+déficits 
+Agente distribuidor 
+declarante de 
+déficits 
+Acessar o sistema específico e inserir as declarações de 
+déficits. O agente pode inserir/alterar/excluir a 
+declaração até a data limite estabelecida. 
+De M+2du a 
+M+4du 
+Processar MCSD, 
+disponibilizar montantes de 
+sobras e déficits validados e 
+divulgar o resultado 
+preliminar da apuração 
+CCEE 
+O MCSD é processado com as sobras e déficits 
+validados pela CCEE. No processamento, são realizadas 
+as cessões e/ou reduções nos montantes de energia 
+dos CCEARs, cabendo à CCEE divulgar o resultado 
+preliminar da apuração. 
+Até M+8du 
+Apresentar contestação, se 
+for o caso 
+Agente distribuidor 
+declarante de sobras 
+ou déficits 
+Caso o agente possua algum questionamento relativo 
+ao resultado do processamento, deve se manifestar à 
+CCEE. 
+Até M+9du 
+Disponibilizar relatórios do 
+MCSD com o resultado final CCEE Disponibilizar os relatórios com os resultados do 
+processamento do MCSD. Até M+12du 
+Registrar as cessões em 
+sistema específico CCEE 
+Registrar as cessões do MCSD de Energia Existente no 
+sistema específico, com base no resultado do 
+processamento do mecanismo. 
+N.A. 
+ 
+Legenda: 
+M: Mês de processamento do MCSD 
+du: dias úteis 
+N.A.: Não aplicável
+
+Submódulo 8.1 – MCSD de Energia Existente 
+Revisão 10.0 
+11 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+7.1. Declaração de sobras de montantes de energia elétrica – Redução de Contrato de Compra 
+e Venda de Energia – CCESUP500 MM/AAAA – XXº Leilão (XXXX-XXXX), YYº Leilão (XXXX-
+XXXX), etc 
+DECLARAÇÃO DE SOBRAS DE MONTANTES DE ENERGIA ELÉTRICA  
+REDUÇÃO DE CONTRATO DE COMPRA E VENDA DE ENERGIA  – CCESUP500 MM/AAAA 
+XXº LEILÃO (XXXX-XXXX), YYº LEILÃO (XXXX-XXXX), ETC 
+A      , concessionária de serviços públicos de distribuição de energia elétrica, com sede na cidade de      , Estado de      , na 
+     , CNPJ/MF nº      , neste ato qualificada como DECLARANTE, por seus representantes abaixo assinados, DECLARA à CÂMARA 
+DE COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA – CCEE que:  
+(a) possui sobras de montantes de energia elétrica correspondentes a       MW médios dos CCEARs com suprimentos em vigor no 
+ano de AAAA, referentes ao XXº leilão de compra (XXXX-XXXX), ao YYº leilão de compra (XXXX-XXXX), etc por motivo de suspensão, 
+rescisão ou resilição do CCESUP500 celebrado com agente suprido na modalidade tarifa regulada (Procedimento de Regulação 
+Tarifária – PRORET – Submódulo 11.1); 
+(b) tais sobras estão disponíveis para cessão a agentes compradores com déficits a partir de 1º de MM de AAAA, de forma 
+proporcional e até o final dos períodos de suprimento relativos aos citados CCEARs; 
+(c) caso não haja cessão ou ocorra cessão parcial das sobras, os montantes remanescentes deverão ser objeto de redução 
+proporcional dos CCEARs; e  
+(d) possui intenção irrevogável e irretratável de disponibilizar suas sobras para cessão ou de efetuar a redução de montantes objeto 
+dos citados CCEARs.   
+O montante de sobras declarado é proveniente de suspensão, rescisão ou resilição do CCESUP500 celebrado com agente suprido na 
+modalidade tarifa regulada do(s) seguinte(s) contratos(s):  
+Nº DADO REQUERIDO - CONTRATO INFORMAÇÃO 
+01 Partes contratantes:       
+02 Nº do contrato:       
+03 Registro pela ANEEL:       
+A presente declaração é apresentada por meio deste ato para fins do processamento, pela CCEE, do Mecanismo de Compensação de 
+Sobras e Déficits (MCSD), cessão e redução para os CCEARs do produto XXXX-XXXX - EDITAL DE LEILÃO Nº XXX/20XX – CCEE, para os 
+CCEARs do produto XXXX-XXXX - EDITAL DE LEILÃO Nº YYY/20XX – CCEE, etc. 
+A DECLARANTE desde já afirma ter plena ciência e concorda expressamente com todos os termos e condições do processamento do 
+MCSD, responsabilizando-se integralmente pelas informações ora prestadas em relação à origem das sobras. 
+A DECLARANTE assegura que os representantes abaixo delimitados possuem poderes suficientes para informar e declarar, para todos 
+os fins e direitos, as sobras para o processamento do MCSD 
+     ,       de       de 20XX. 
+ 
+ 
+Empresa declarante - Representantes legais ou CCEE: 
+ 
+ 
+(1) _______________________________  
+Nome:       
+CPF/MF:       
+RG.:       
+ 
+ 
+(2) _______________________________ 
+Nome:       
+CPF/MF:       
+RG.:

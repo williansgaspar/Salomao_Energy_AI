@@ -1,0 +1,629 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 8.5_-_mcsd_energia_nova_v5.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+1 
+  
+Módulo 8 – Mecanismo de 
+Compensação de Sobras e 
+Déficits - MCSD 
+Submódulo 8.5 – MCSD de Energia Nova 
+procedimentos de 
+comercialização
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada  
+(CP n° 11/2018) Despacho nº 1.975/2018 31.08.2018 
+2.0 Adequação à REN nº 909/2020 Despacho nº 3.646/2020 01.01.2021 
+3.0 Adequação à REN nº 904/2020 e demais 
+aprimoramentos Despacho n° 485/2022 16.02.2022 
+4.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1012/2022 01.04.2022 
+5.0 Aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O Mecanismo de Compensação de Sobras e Déficits de Energia Nova - MCSD de Energia Nova tem por objetivo 
+permitir que os agentes de distribuição compensem entre si montantes de energia elétrica  e potência  
+adquiridos em leilões de novos empreendimentos de geração, bem como trata da possibilidade de redução 
+de montantes contratados com os agentes geradores detentores de contratos vinculados aos  novos 
+empreendimentos de geração.  
+As declarações de sobras e déficits, pelos agentes de distribuição cedentes e cessionários, respectivamente, e 
+a declaração de oferta de redução de montantes  contratados, pelo agente de geração, são voluntárias e o 
+MCSD aplica-se exclusivamente aos Contratos de Compra de Energia no Ambiente Regulado - CCEARs de novos 
+empreendimentos.  
+A CCEE centraliza a apuração e liquidação financeira dos va lores envolvidos nas cessões decorrentes de 
+processamentos do MCSD  de Energia Nova. Neste processo, a CCEE calcula mensalmente os montantes 
+transferidos entre as distribuidoras em decorrência dos diversos processamentos do MCSD ao longo do tempo 
+e determina os valores a serem pagos e recebidos decorrentes das cessões. Após esse cálculo, a CCEE realiza 
+a liquidação financeira das cessões do MCSD, na qual as distribuidoras  devedoras efetuam os depósitos dos 
+valores devidos ao conjunto de distribuidoras credoras. 
+2. OBJETIVO 
+Estabelecer as condições, procedimentos e prazos para os agentes da CCEE participarem do processamento 
+do MCSD de Energia Nova bem como da apuração e liquidação dos valores das cessões decorrentes d este 
+processamento. Este submódulo se aplica aos agentes de distribuição cedentes e cessionários e aos agentes 
+de geração que ofertarem redução de montantes contratados. 
+3. PREMISSAS 
+3.1 Todas a s informações  e resultados  referentes ao processamento do MCSD de Energia Nova são 
+divulgadas no site (conteúdo de acesso público) da CCEE. 
+3.2 O agente que tenha interesse em participar do mecanismo deve acessar o sistema específico para 
+registrar a declaração de sobras , déficits, oferta de redução  e eventual retificação de oferta de 
+redução parcialmente atendida, de acordo com o processamento de referência. 
+3.3 O calendário anual com as datas  de processamento do MCSD de Energia Nova , respeitando as 
+diretrizes da regulamentação vigente, deve ser divulgado no site da CCEE antes do início de cada 
+ano.
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.3.1 A critério da CCEE, as datas podem ser alteradas mediante comunicação aos agentes.   
+3.4 Os agentes devem declarar sobras, déficits e oferta de redução respeitando os prazos previstos neste 
+submódulo e em calendário específico. 
+3.5 O auditor independente pode, a seu critério, selecionar uma amostra aleatória de agentes para 
+efetuar a confirmação de dados utilizados no processamento do MCSD de Energia Nova. 
+3.6 A distribuidora que  declarar déficit deve apresentar , no momento da declaração,  certidão de 
+adimplemento (documento emitido no endereço eletrônico da Agência Nacional de Energia Elétrica 
+– ANEEL) válida.  
+3.7 São considerados no processamento do MCSD de Energia Nova somente os CCEARs assinados pelas 
+partes, conforme previsto no submódulo 3.2 – Contratos do Ambiente Regulado. 
+3.8 Caso o montante de sobras ofertado pelas distribuidoras seja superior ao montante de déficits e 
+exista oferta de redução,  de acordo com o processamento de referência,  a CCEE processará as 
+reduções contratuais e cessões compulsórias necessárias para o ajuste dos montantes. Em eventual 
+cenário de oferta de redução parcialmente atendida em que o agente opte por não retificar ou 
+desistir da oferta, será considerado o montante já calculado para o processamento. 
+3.8.1 As distribuidoras inadimplentes ou que não participaram da etapa de declaração de sobras 
+e déficits  (não declarantes)  podem ser  impactadas pelas etapas descritas na premissa 
+anterior. 
+3.8.2 O preço utilizado na etapa do mecanismo de redução centralizado é atualizado com base 
+nos dados disponíveis no mês anterior, conforme Regras de Comercialização. 
+3.9 Caso o agente possua algum questionamento relativo ao resultado do processamento, deve se 
+manifestar à CCEE por meio de chamado via central de atendimento, dentro do período de 
+contestação previsto no item 5 – Fluxo de Atividades. 
+3.9.1 Não serão aceitos pela CCEE questionamentos apresentados fora do período estabelecido. 
+3.9.2 Na manifestação de que trata esta premissa, é vedado ao agente questionar sua 
+participação no mecanismo. 
+3.10 No resultado do cálculo dos montantes de energia elétrica objeto de cessão e/ou redução deve ser 
+considerado o arredondamento dos números com 3 (três ) casas decimais após a vírgula, podendo 
+ocorrer eventuais diferenças residuais positivas ou negativas em decorrência dos arredondamentos. 
+3.11 O MCSD de Energia Nova não será objeto de reprocessamento, mesmo nos casos em que houver 
+recontabilizações de meses impactados pelo MCSD.
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.12 Eventual alteração oficial dos critérios de início e término do horário de verão não enseja 
+reprocessamento dos MCSDs anteriores. Os novos critérios devem ser considerados nos 
+processamentos dos MCSDs subsequentes a essa nova definição. 
+Apuração e liquidação das cessões 
+3.13 A apuração e a liquidação dos valores das cessões do MCSD  de Energia Nova  devem ocorrer 
+mensalmente enquanto vigorarem as cessões.  
+3.14 A participação dos agentes na liquidação financeira do MCSD de Energia Nova é compulsória. 
+3.15 Para a apuração dos valores a liquidar, são utilizados preços arredondados com duas casas decimais 
+após a vírgula, podendo ocorrer eventuais diferenças residuais positivas ou negativas em 
+decorrência dos arredondamentos.  
+3.16 A liquidação financeira do MCSD de Energia Nova ocorre um dia útil (1du) após a liquidação 
+financeira do MCSD de Energia Existente  relativa ao primeiro faturamento bilateral , conforme 
+calendário de liquidação aprovado pelo Conselho de Administração da CCEE - CAd, ou no primeiro 
+dia útil subsequente caso não haja expediente bancário na cidade de São Paulo. 
+3.17 O calendário anual de liquidação  financeira do MCSD de Energia Nova, com as datas de liquidação 
+para cada mês, é aprovado pelo CAd, e deve ser divulgado no site da CCEE antes do início d e cada 
+ano. 
+3.18 Até as 15:00 horas do dia da liquidação financeira do MCSD de Energia Nova, os agentes devedores 
+devem depositar os recursos financeiros referentes à liquidação financeira do MCSD na mesma 
+conta corrente destinada à liquidação financeira do MCP.  
+3.19 Caso o recurso financeiro aportado pelo agente devedor não seja suficiente para cobrir seu débito, 
+a diferença entre a obrigação e o recurso financeiro aportado será objeto de rateio de inadimplência 
+entre todos os agentes credores diretamente impactados no MCSD de Energia Nova. 
+3.20 Até o dia da liquidação financeira do MCSD  de Energia Nova, o agente de liquidação do MCSD de 
+Energia Nova deverá creditar os recursos financeiros na conta corrente de cada agente credor, 
+considerando a dedução proveniente do cálculo de rateio de inadimplência, se for o caso. 
+3.21 A CCEE deve disponibilizar o relatório com o resultado da liquidação financeira do MCSD de Energia 
+Nova em até dois dias úteis (2du) da realização dessa liquidação, informando a eventual ocorrência 
+de rateio de inadimplência. 
+3.22 O auditor independente realiza a validação do processo de liquidação financeira do MCSD de Energia 
+Nova.
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.23 Caracterizada a inadimplência na liquidação financeira do MCSD de Energia Nova, incidem multa de 
+2% (dois por cento) e juros de mora de 1% (um por cento) ao mês, calculados “pro rata die”, sobre 
+o valor inadimplido. 
+a) A multa incide apenas uma única vez sobre o valor originalmente inadimplido; 
+b) Os juros de mora são cobrados considerando o período desde o dia da liquidação financeira 
+do MCSD de Energia Nova na qual se caracterizou a inadimplência, até o dia que antecede a 
+próxima liquidação financeira do MCSD de Energia Nova; 
+c) É vedada a incidência de juros de mora sobra a parcela de multa calculada no item “a”; 
+d) Os valores devidos são atualizados monetariamente com base no último Índice Nacional de 
+Preços ao Consumidor Amplo – IPCA divulgado pelo Instituto Brasileiro de Geografia e 
+Estatística - IBGE na data do cálculo.  Caso o último índice divulgado seja negativo, é 
+desconsiderado e, nesse caso, não haverá atualização monetária.  Havendo a extinção desse 
+índice, será adotado outro índice oficial que vier a substituí-lo. 
+3.24 O valor inadimplido, somado aos encargos moratórios, será lançado na liquidação financeira do 
+MCSD de Energia Nova subsequente. 
+3.25 A distribuidora cessionária inadimplente está sujeita ao disposto na regulamentação vigente. 
+3.26 Os valores das cessões a liquidar provenientes do processamento do MCSD, mesmo que auditados, 
+podem ser alterados em decorrência de determinação legal, arbitral ou de decisão do CAd ou da 
+Agência Nacional de Energia Elétrica - ANEEL. 
+3.27 Em caso de reapuração dos valores a liquidar das cessões do MCSD, deve ser garantida a manutenção 
+do valor econômico das cessões, mediante atualização monetária prevista nos CCEARs. 
+3.28 É de competência exclusiva dos agentes o cumprimento das obrigações fiscais, a condução de seus 
+negócios e  o recolhimento de tributos, sendo o s únicos responsáveis pela verificação do s 
+procedimentos adequados  a ser em adotados, bem como dirimir quaisquer dúvidas perante a 
+Fazenda Federal, Distrital, Estadual, Municipal ou terceiros, conforme o caso. 
+3.29 Eventuais informações, interpretações ou opiniões jurídicas da CCEE não são determinativas e não 
+afastam interpretações diferentes pelas Administrações Tributárias, não devendo a CCEE se 
+responsabilizar pela utilização dessas informações, interpretações  ou opiniões pelos agentes 
+impactados por este submódulo.
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+7 
+ 
+procedimentos de 
+comercialização 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+8 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+MCSD EN – Processamentos Sem Oferta de 
+Redução 
+CCEE
+Agente distribuidor 
+declarante de sobras 
+(cedente) ou de 
+déficits (cessionário)
+Início
+Até 5du
+Divulgar o 
+resultado final
+Conforme calendário 
+divulgado pela CCEE 
+(período de até 3du)
+Inserir declarações de 
+sobras ou déficits e 
+certidão de 
+adimplemento
+Até 4du
+Processar o 
+MCSD 
+Até 1du
+Divulgar o 
+resultado 
+preliminar da 
+apuração
+Fim
+Até 2du antes do 
+início do prazo 
+para declarações
+Divulgar 
+montantes 
+preliminares 
+passíveis de cessão
+Até 1du
+Apresentar 
+contestação, se 
+for o caso
+ 
+ 
+Legenda: 
+du: Dias úteis
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+9 
+ 
+procedimentos de 
+comercialização 
+MCSD EN – Processamentos Com Oferta de Redução
+CCEE
+Agente distribuidor 
+declarante de sobras 
+(cedente) ou de 
+déficits (cessionário)
+Agente gerador
+Até 3du
+Divulgar 
+resultado após 
+desistência ou 
+retificação da 
+oferta de 
+redução
+Início
+Conforme calendário 
+divulgado pela CCEE 
+(período de até 3du)
+Inserir oferta de 
+redução
+Até 1du
+Desistir ou 
+retificar a oferta 
+de redução 
+realizada
+Fim
+Até 1du
+Divulgar o 
+resultado 
+preliminar da 
+apuração
+Até 4du
+Processar o 
+MCSD 
+Até 5du
+Divulgar o 
+resultado final
+Conforme calendário 
+divulgado pela CCEE 
+(período de até 3du)
+Inserir declarações de 
+sobras ou déficits e 
+certidão de 
+adimplemento
+Até 2du antes do 
+início do prazo para 
+declarações
+Divulgar montantes 
+preliminares 
+passíveis de cessão
+Há oferta de 
+redução 
+parcialmente 
+atendida?
+Não
+Sim
+Até 1du
+Apresentar 
+contestação, se 
+for o caso
+Até 1du
+Apresentar 
+contestação, se 
+for o caso
+ 
+ 
+Legenda: 
+du: Dias úteis
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+10 
+ 
+procedimentos de 
+comercialização 
+Liquidação Financeira das Cessões do MCSD de Energia Nova
+CCEE Agente devedor Agente de 
+liquidação
+Fim
+K
+Apurar eventuais 
+montantes de 
+inadimplência
+K
+Verificar 
+suficiência de 
+recursos 
+financeiros
+K
+Depositar 
+recursos 
+financeiros para 
+liquidação
+Início
+K
+Processar a 
+transferência de 
+recursos aos 
+agentes credores
+Até MS+12du
+Divulgar os 
+relatórios de pré-
+liquidação 
+financeira
+Até K+2du
+Divulgar os 
+relatórios de 
+pós-liquidação
+De MS+5du a 
+MS+10du
+Apurar valores a 
+liquidar das 
+cessões do 
+MCSD e divulgar 
+resultados
+K+1du
+Enviar o 
+resultado da 
+liquidação 
+financeira do 
+MCSD
+ 
+ 
+Legenda: 
+MS: Mês seguinte ao mês de vigência da cessão  
+du: Dias úteis 
+K: Liquidação Financeira do MCSD de Energia Nova
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+11 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+MCSD de Energia Nova – Processamentos Sem Oferta de Redução 
+Atividade Responsável Detalhamento Prazo 
+Divulgar montantes 
+preliminares passíveis de 
+cessão 
+CCEE 
+A CCEE deve divulgar os montantes preliminares 
+passíveis de cessão em caráter meramente 
+informativo. 
+Até 2du antes do 
+início do prazo para 
+declarações 
+Inserir declarações de 
+sobras ou déficits e 
+certidão de 
+adimplemento 
+Agente distribuidor 
+declarante de sobras 
+(cedente) ou de 
+déficits (cessionário) 
+Acessar o sistema específico para inserir as 
+declarações de sobras ou déficits respeitando os 
+requisitos definidos nas Regras de Comercialização e 
+apresentar certidão de adimplemento válida. O 
+agente pode inserir/alterar/excluir a declaração até 
+a data limite estabelecida. 
+Conforme calendário 
+divulgado pela CCEE 
+(período de até 3du) 
+Processar o MCSD CCEE 
+O MCSD é processado com as sobras e déficits 
+validados. No processamento são realizadas as 
+cessões nos montantes de energia dos CCEARs.  
+Até 4du 
+Divulgar o resultado 
+preliminar da apuração CCEE Divulgar os relatórios com os resultados 
+preliminares de apuração do MCSD aos agentes. Até 1du 
+Apresentar contestação, 
+se for o caso 
+Agente distribuidor 
+declarante de sobras 
+(cedente) ou de 
+déficits (cessionário) 
+Caso o agente possua algum questionamento 
+relativo ao resultado do processamento, deve se 
+manifestar à CCEE. 
+Até 1du 
+Divulgar o resultado final CCEE Divulgar os relatórios com os resultados do 
+processamento do MCSD aos agentes. Até 5du 
+ 
+Legenda: 
+du: Dias úteis
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+12 
+ 
+procedimentos de 
+comercialização 
+MCSD de Energia Nova – Processamentos Com Oferta de Redução 
+Atividade Responsável Detalhamento Prazo 
+Divulgar montantes 
+preliminares 
+passíveis de cessão 
+CCEE 
+A CCEE deve divulgar os montantes preliminares 
+passíveis de cessão em caráter meramente 
+informativo. 
+Até 2du antes do 
+início do prazo para 
+declarações 
+Inserir declarações de 
+sobras ou déficits e 
+certidão de 
+adimplemento 
+Agente distribuidor 
+declarante de sobras 
+(cedente) ou de 
+déficits (cessionário) 
+Acessar o sistema específico para inserir as 
+declarações de sobras ou déficits respeitando os 
+requisitos definidos nas Regras de Comercialização 
+e apresentar certidão de adimplemento válida. O 
+agente pode inserir/alterar/excluir a declaração até 
+a data limite estabelecida. 
+Conforme calendário 
+divulgado pela CCEE 
+(período de até 3du) 
+Inserir oferta de 
+redução Agente gerador 
+Acessar o sistema específico para inserir a oferta de 
+redução respeitando os requisitos definidos nas 
+Regras de Comercialização. 
+Conforme calendário 
+divulgado pela CCEE 
+(período de até 3du) 
+Processar o MCSD CCEE 
+O MCSD é processado com as sobras / déficits 
+validados e oferta de redução, caso aplicável. No 
+processamento são realizadas as reduções 
+contratuais e/ou cessões nos montantes de energia 
+dos CCEARs.  
+Até 4du 
+Divulgar o resultado 
+preliminar da 
+apuração 
+CCEE Divulgar os relatórios com os resultados 
+preliminares de apuração do MCSD aos agentes. Até 1du 
+Desistir ou retificar a 
+oferta de redução 
+realizada 
+Agente gerador 
+Nos termos da regulamentação vigente, a oferta de 
+redução é irretratável e irrevogável, observada a 
+hipótese em que o gerador que tiver sua oferta de 
+redução parcialmente atendida, caso não haja 
+montante excedente de sobras suficiente para 
+comportar toda a  sua oferta de redução, poderá 
+desistir ou retificar a oferta de redução realizada, 
+desde que mantido o produto. 
+Até 1du 
+Divulgar resultado 
+após desistência ou 
+retificação da oferta 
+de redução 
+CCEE 
+Divulgar os relatórios com os resultados de 
+apuração do MCSD aos agentes  em caso de 
+desistência ou retificação da oferta de redução. 
+Até 3du 
+Apresentar 
+contestação, se for o 
+caso 
+Agente distribuidor 
+declarante de sobras 
+(cedente) ou de 
+déficits (cessionário) 
+ou Agente gerador 
+Caso o agente possua algum questionamento 
+relativo ao resultado do processamento, deve se 
+manifestar à CCEE. 
+Até 1du 
+Divulgar o resultado 
+final CCEE Divulgar os relatórios com os resultados do 
+processamento do MCSD aos agentes. Até 5du 
+ 
+Legenda: 
+du: Dias úteis
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+13 
+ 
+procedimentos de 
+comercialização 
+Liquidação financeira das cessões do MCSD de Energia Nova 
+Atividade Responsável Detalhamento Prazo 
+Apurar valores a liquidar 
+das cessões do MCSD e 
+divulgar resultados 
+CCEE 
+Verificar as cessões que serão consideradas na apuração e 
+divulgar os valores a liquidar das cessões do MCSD por meio 
+de relatórios. 
+De MS+5du a 
+MS+10du 
+Divulgar os relatórios de 
+pré-liquidação financeira CCEE 
+Disponibilizar os relatórios referentes à pré -liquidação 
+financeira relativa à apuração das cessões do MCSD de 
+Energia Nova. 
+Até MS+12du 
+Depositar recursos 
+financeiros para 
+liquidação  
+Agente Devedor 
+Os Agentes Devedores devem depositar os valores 
+indicados nos relatórios de apuração dos valores a liquidar 
+das cessões do MCSD. 
+O recurso deve estar disponível na conta corrente do 
+Agente Devedor até às 15:00h (Horário de Brasília) da data 
+estabelecida para a Liquidação Financeira do MCSD, para 
+que o Agente de Liquidação do MCSD processe a 
+transferência de recursos aos agentes credores. 
+K 
+Verificar suficiência de 
+recursos financeiros 
+Agente de 
+Liquidação 
+O Agente de Liquidação deve verificar se os recursos 
+depositados pelos devedores são suficientes para cobrir os 
+valores indicados nos relatórios de apuração. 
+K 
+Apurar eventuais 
+montantes de 
+inadimplência 
+Agente de 
+Liquidação 
+O Agente de Liquidação deve apurar os eventuais 
+montantes de inadimplência. K 
+Processar a transferência 
+de recursos aos agentes 
+credores 
+Agente de 
+Liquidação 
+O agente de liquidação deve processar a transferência dos 
+recursos financeiros recebidos dos agentes devedores aos 
+agentes credores, considerando os percentuais de rateio da 
+inadimplência informados pela CCEE. 
+K 
+Enviar o resultado da 
+liquidação financeira do 
+MCSD 
+Agente de 
+Liquidação 
+Enviar o arquivo com o resultado da liquidação financeira, 
+detalhando pagamentos e recebimentos realizados e 
+eventuais inadimplências ocorridas. 
+K+1du 
+Divulgar os relatórios de 
+pós-liquidação CCEE 
+Divulgar os relatórios de pós -liquidação com os resultados 
+da liquidação financeira do MCSD de Energia Nova aos 
+agentes da CCEE. 
+Até K+2du 
+ 
+Legenda: 
+MS: Mês seguinte ao mês de vigência da cessão 
+du: Dias úteis 
+K: Liquidação Financeira do MCSD de Energia Nova
+
+Submódulo 8.5 – MCSD de Energia Nova 
+Revisão 5.0 
+14 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

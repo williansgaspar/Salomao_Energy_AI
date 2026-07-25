@@ -11,7 +11,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 COMMANDS = [
     [sys.executable, "scripts/validate_project.py"],
+    [sys.executable, "scripts/monitor_verification.py"],
     [sys.executable, "scripts/evaluate_responses.py", "self-test"],
+    [sys.executable, "tools/salomao_core/consulta.py", "self-test"],
+    [sys.executable, "-m", "unittest", "discover", "-s", "tools/salomao_core/tests"],
     [sys.executable, "-m", "json.tool", "evals/golden/manifest.json"],
     [sys.executable, "-m", "json.tool", "knowledge_base/catalogo_normativo/inventario_entrada.json"],
 ]

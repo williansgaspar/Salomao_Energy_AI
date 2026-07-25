@@ -1,0 +1,449 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 6.2_-_Notificacao_gestao_pgto_penal_multas_v5.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 6.2_-_Notificacao_gestao_pgto_penal_multas_v5.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+Módulo 6 – Penalidades 
+Submódulo 6.2 – Notificação e gestão do 
+pagamento de penalidades e multas 
+procedimentos de 
+comercialização
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada (CP05/2012) Despacho nº 3.215/2012 16.10.2012 
+1.1 Adequação de Prazos Despacho n° 283/2013 04.02.2013 
+2.0 Adequação às Regras 2013, dos encargos 
+moratórios e demais ajustes Despacho nº 4.881/2014 22.12.2014 
+2.1 Exclusão do termo “potência”  Nota Técnica SRM/ANEEL n° 
+107/2017 e Despacho n° 1.911/2017 30.06.2017 
+3.0 Aprimoramentos Despacho n° 485/2022 16.02.2022 
+4.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1.012/2022 01.04.2022 
+4.1 Consulta Pública nº 46/2021 Resolução Normativa n° 1.015/2022 
+Conforme art. 
+7º da REN nº 
+1.015/2022 
+5.0 Adequação à REN nº 1.014/2022 e demais 
+aprimoramentos Despacho nº 1.029/2023 17.04.2023
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+O descumprimento  das Regras de Comercialização, no que se refere especialmente aos M ódulos de 
+Penalidades de Energia e de Energia de Reserva, e dos Procedimentos de Comerciali zação, em especial o 
+submódulo 6.1 - Penalidades de medição e multas, sujeita os agentes às penalidades respectivas. 
+A CCEE apura as penalidades e notifica o agente infrator para pagamento ou eventual apresentação de 
+contestação que será analisada pelo Conselho de Administração - CAd.  
+As multas por inadimplência nas liquidações do Mercado de Curto Prazo - MCP e do Mecanismo de Venda de 
+Excedentes - MVE (referentes aos contratos registrados antes da implementação das garantias financeiras do 
+MVE) e por n ão aporte de garantias financeiras suficientes para permitir a efetivação dos registros de 
+montantes de energia elétrica validados pelas contrapartes, tratadas nos submódulos 5.2 - Liquidação no 
+Mercado de Curto Prazo, 3.8 - Mecanismo de Venda de Excedentes e 5.1 - Contabilização e Recontabilização, 
+respectivamente, nos termos da regulamentação vigente, são cobradas na liquidação financeira de 
+penalidades tratada neste submódulo. 
+2. OBJETIVO 
+Estabelecer os procedimentos e os prazos do processo que abrange  (i) a notificação de penalidades aos 
+agentes, (ii) a contestação das penalidades e (iii) a gestão do pagamento das penalidades e multas aplicadas. 
+3. PREMISSAS 
+Notificação e Contestação 
+3.1 A CCEE deve divulgar a apuração das penalidades de energia em até MS+35du.  
+3.2 A CCEE deve enviar os  Termos de Notificação - TNs ao agente que apresentar as penalidades 
+apuradas, preferencialmente por meio eletrônico, nos termos da regulamentação vigente e do 
+submódulo 1.4 - Atendimento, com as informações que seguem: 
+a) Identificação da CCEE e respectivo endereço; 
+b) Local e data da expedição do TN; 
+c) Identificação e assinatura do Superintendente da CCEE; 
+d) Nome, endereço e qualificação do agente notificado; 
+e) Indicação do ato regulatório pertinente descumprido; 
+f) Indicação do ponto de medição, caso aplicável;
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+4 
+ 
+procedimentos de 
+comercialização 
+g) Indicação do empreendimento, produto e leilão, caso aplicável; 
+h) Mês de referência e número do TN; 
+i) Indicação do perfil de agente, caso aplicável; 
+j) Descrição do tipo de penalidade apurada; 
+k) Referência aos Procedimentos e Regras de Comercialização que tratam de penalidades; 
+l) Indicação e valor em moeda nacional corrente da penalidade notificada; 
+m) Prazo para apresentação da eventual contestação e indicação de destinatário. 
+3.3 O agente pode apresentar  sua contestação em até 15  (quinze) dias úteis , contados da data de  
+recebimento do TN, conforme disposto no submódulo 1.4 - Atendimento. 
+3.4 A contestação é um documento elaborado pelo próprio agente, que deve necessariamente ser 
+encaminhado à CCEE por meio do sistema específico e conter as informações que seguem: 
+a) Mês de referência e número do TN; 
+b) Qualificação do agente notificado; 
+c) Os fatos e os fundamentos técnicos da contestação; 
+d) Todas as provas necessárias para a comprovação de suas alegações; 
+e) Local e data; 
+f) Identificação e assinatura do representante legal do agente notificado. 
+3.5 Caso o agente não apresente contestação no prazo definido neste submódulo, a penalidade apurada 
+é automaticamente  incluída no processo de cobrança de penalidades , no primeiro ciclo de 
+pagamento que ocorrer imediatamente após o término do prazo para apresentação de eventual 
+contestação. 
+3.6 Caso o agente apresente a contestação, o CAd deve avaliar a justificativa e deliberar em até 30 
+(trinta) dias úteis, contados da data de recebimento do TN. 
+3.7 O Conselheiro Relator do processo pode sobrestá -lo por até 60 (sessenta) dias para solicitar a 
+realização de diligências, esclarecimentos e/ou a apresentação de documentos adicionais que 
+entender necessários à adequada instrução do processo. 
+3.7.1 Durante o período de sobrestamento do processo, a contagem dos prazos definidos neste 
+submódulo fica suspensa.
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.8 Caso o CAd delibere pelo integral provimento da contestação, o respectivo TN é arquivado. Contudo, 
+quando deliberar pelo não provimento ou provimento parcial da contestação, as penalidades devem 
+ser incluídas no processo de cobrança. 
+3.9 A decisão do CAd acerca da contestação é comunicada ao agente em até 35 (trinta e cinco) dias 
+úteis, contados da data de recebimento do TN. 
+3.10 O agente pode interpor pedido de impugnação quando não concordar com a decisão proferida no 
+âmbito da CCEE, nos moldes das normas de regência vigentes e do submódulo 1.4 – Atendimento. 
+3.11 As penalidades apuradas com montante igual ou inferior a R$ 100,00 (cem reais) não devem ser 
+objeto de notificação ao agente. O valor de R$ 100,00 (cem reais) pode ser alterado por deliberação 
+do CAd. 
+Gestão do Pagamento de Penalidades e Multas 
+3.12 Todas as penalidades, cujas aplicações sejam deliberadas pelo CAd até o 14° (décimo quarto) dia útil 
+do mês, são incluídas no processo de cobrança de penalidades no primeiro ciclo de pagamento que 
+ocorrer imediatamente após es sa data . As penalidades aprovadas pelo CAd após es sa data  são 
+incluídas no próximo ciclo de pagamento  e t êm a mesma data de vencimento, definida neste 
+submódulo. 
+3.13 As penalidades apuradas que possam ter seu cálculo impactado por processo de recontabilização 
+em andamento, conforme verificação realizada pela CCEE até o dia útil anterior à disponibilização 
+do relatório contendo as penalidades e multas a serem pagas, não serão aplicadas até a divulgação 
+do resultado do respectivo processo de recontabilização. 
+3.13.1 Entende-se por “em andamento” o processo de recontabilização que já teve a contagem 
+do prazo para deliberação iniciada, nos termos do submódulo 5.1 - Contabilização e 
+recontabilização. 
+3.14 A CCEE deve disponibilizar o relatório com os valores a liquidar, que contém as penalidades e multas 
+a serem cobradas, em até M+22du.  
+3.15 Os agentes devem depositar os recursos financeiros correspondentes na mesma conta corrente 
+destinada à liquidação financeira do Mercado de Curto Prazo - MCP. 
+3.16 O pagamento das penalidades e multas deve ocorrer no mesmo dia dos créditos da liquidação 
+financeira do MCP. Essa data é definida por meio d a publicação do calendário anual de liquidação, 
+de acordo com o submódulo 5.2 - Liquidação no Mercado de Curto Prazo.
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.17 Caso o agente seja credor na liquidação financeira do MCP, o valor do crédito financeiro recebido 
+deve ser utilizado para pagamento das penalidades e multas. 
+3.18 Caso a conta corrente do agente não apresente saldo para o pagamento integral das penalidades e 
+multas, cada penalidade e/ou multa é considerada parcialmente adimplida na proporção dos 
+recursos debitados na mencionada conta.   
+3.19 A CCEE deve disponibilizar relatório com os resultados dos pagamentos de penalidades e multas em 
+até 3 (três) dias úteis , contados da data dos créditos da liquidação financeira do MCP, contendo 
+todas as informações sobre as penalidades e multas pagas e/ou pendentes de pagamento,  nos 
+prazos previstos neste submódulo. 
+3.20 Os valores pagos de cada tipo de penalidade e multa são inseridos na contabilização subsequente, 
+de acordo com a destinação prevista nas Regras de Comercialização. 
+3.21 A eventual devolução de valores pagos relativos a  penalidades e multas e possíveis encargos 
+moratórios respectivos ocorre somente por meio de processamento de recontabilização, nos termos 
+do submódulo 5.1 - Contabilização e Recontabilização. 
+Obrigações e encargos moratórios 
+3.22 Caracterizada a inadimplência  na liquidação financeira de penalidades , sobre o valor do débito 
+remanescente do respectivo agente deve incidir o disposto na regulamentação vigente.  
+3.22.1 Caso o último índice divulgado seja negativo, o mesmo é desconsiderado e, nes se caso, 
+não há atualização monetária.  
+3.23 A CCEE deve informar eventual ocorrência de inadimplência à Agência Nacional de Energia Elétrica 
+– ANEEL assim que caracterizada.  
+3.24 Em caso de desligamento de um agente com sucessão, as eventuais penalidades e multas existentes 
+devem ser transferidas ao agente sucessor, ficando esse com a obrigação de quitá-las, sob pena das 
+previsões estabelecidas no submódulo 1.5 - Desligamento da CCEE e/ou normas de regência 
+vigentes.  
+3.25 É de competência exclusiva dos agentes o cumprimento das obrigações fiscais, a condução de seus 
+negócios e o recolhimento de tributos, sendo os únicos responsáveis pela verificação dos 
+procedimentos adequados a serem adotados, bem como dirimir quaisquer dú vidas perante a 
+Fazenda Federal, Distrital, Estadual, Municipal ou terceiros, conforme o caso.
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+7 
+ 
+procedimentos de 
+comercialização 
+3.26 Eventuais informações, interpretações ou opiniões jurídicas da CCEE não são determinativas e não 
+afastam interpretações diferentes pelas Administrações Tributárias, não devendo a CCEE se 
+responsabilizar pela utilização dessas informações, interpretações ou  opiniões pelos agentes 
+impactados por este submódulo.  
+Penalidade de Energia de Reserva 
+3.27 A CCEE deve apurar a penalidade de energia de reserva anualmente, após a contabilização do mês 
+de dezembro do ano civil anterior, e disponibilizar o resultado da apuração por meio de relatório. 
+3.28 A notificação e a contestação da penalidade de energia de reserva devem ser realizadas conforme 
+premissas da seção “Notificação e contestação” deste submódulo. 
+3.29 A CCEE deve disponibilizar o relatório com os valores a liquidar, que contém eventuais penalidades 
+de energia de reserva a serem cobradas, em até MS+8du. 
+3.30 Os valores decorrentes da aplicação de penalidades de energia de reserva são deduzidos da receita 
+mensal do agente por meio da inclusão na liquidação de energia de reserva subsequente à 
+disponibilização do relatório indicado na premissa anterior, conforme Regras de Comercialização.  
+3.31 Caso a receita mensal não seja suficiente para quitar integralmente o valor da penalidade, o agente 
+deve realizar o pagamento na data de pagamento do Encargo de Energia de Reserva, conforme 
+indicado no submódulo 7.2 - Liquidação Financeira Relativa à Contratação de Energia de Reserva.  
+3.32 A CCEE deve disponibilizar o relatório com os resultados dos pagamentos de penalidades em até 3 
+(três) dias úteis, contados da data de pagamento do Encargo de Energia de Reserva. 
+3.33 Caracterizada a inadimplência dos pagamentos de penalidades de energia de reserva, sobre o valor 
+do débito remanescente do respectivo agente deve incidir o disposto no submódulo 7.2 - Liquidação 
+Financeira Relativa à Contratação de Energia de Reserva. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+8 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Notificação e contestação
+CCEE Agente
+N
+Receber o TN
+Encaminhar  Termo 
+de Notificação - TN
+Até N+30du
+Avaliar justificativa 
+e deliberar sobre a 
+contestação
+Não
+Sim
+Até N+35du
+Informar ao agente 
+a decisão acerca da 
+contestação
+Até N+15du
+Encaminhar a 
+contestação ao TN
+Penalidades 
+Apuradas
+A
+Apresentou 
+contestação 
+ao TN?
+ 
+Legenda: 
+ 
+N: data de recebimento do Termo de Notificação de penalidade 
+du: dias úteis
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+9 
+ 
+procedimentos de 
+comercialização 
+ 
+Penalidades e Multas
+Agente CCEE
+Até 3du
+Disponibilizar 
+relatório com os 
+resultados da 
+liquidação financeira 
+de penalidades
+LCmcp
+Efetuar 
+pagamento
+Até M+22du
+Disponibilizar 
+relatório com os 
+valores a liquidar 
+de penalidades e 
+multas
+Fim
+A  
+ 
+Legenda: 
+LCmcp: Data dos créditos da liquidação financeira do MCP, definida conforme submódulo 5.2 – Liquidação no Mercado de Curto Prazo 
+M: Mês de referência da liquidação financeira de penalidades 
+du: dias úteis
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+10 
+ 
+procedimentos de 
+comercialização 
+Penalidade de Energia de Reserva
+Agente CCEE
+Após a contabilização de 
+dezembro do ano civil 
+anterior
+Disponibilizar relatório 
+com os valores a liquidar 
+de penalidades de 
+energia de reserva
+Até 3du
+Disponibilizar relatório 
+com os resultados da 
+liquidação financeira de 
+penalidades de energia 
+de reserva
+Fim
+Y
+Efetuar 
+pagamento
+A
+ 
+ 
+Legenda: 
+Y: Data de pagamento do Encargo de Energia de Reserva, definida conforme submódulo 7.2 – Liquidação Financeira Relativa à 
+Contratação de Energia de Reserva 
+du: dias úteis
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+11 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Notificação e Contestação 
+Atividade Responsável Detalhamento Prazo 
+Encaminhar Termo de Notificação - 
+TN CCEE A CCEE deve encaminhar aos agentes os Termos de 
+Notificação das penalidades apuradas. - 
+Receber o TN Agente Considera-se o recebimento do TN nos termos das 
+premissas específicas deste submódulo.  N 
+Apresentou contestação ao TN? Agente 
+Não: A penalidade é incluída no processo de cobrança 
+de penalidades. 
+Sim: Encaminhar a contestação ao TN. 
+- 
+Encaminhar a contestação ao TN Agente Caso entender cabível, o agente pode elaborar e 
+encaminhar à CCEE a contestação ao TN. Até N+15du 
+Avaliar justificativa e deliberar 
+sobre a contestação  CCEE 
+O CAd deve analisar a contestação enviada pelo agente 
+e deliberar pelo seu provimento parcial, total ou não 
+provimento.  
+Até N+30du 
+Informar ao agente a decisão 
+acerca da contestação CCEE A CCEE deve informar ao agente a decisão do CAd. Até N+35du 
+ 
+Legenda: 
+N: Data de recebimento do Termo de Notificação de penalidade 
+du: Dias úteis
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+12 
+ 
+procedimentos de 
+comercialização 
+Penalidades e Multas  
+Atividade Responsável Detalhamento Prazo 
+Disponibilizar relatório com os 
+valores a liquidar de penalidades e 
+multas 
+CCEE 
+O relatório com os valores a liquidar de penalidades e 
+multas deve ser disponibilizado aos agentes contendo 
+os valores a serem pagos e respectivas datas de 
+vencimento. 
+Até M+22du 
+Efetuar pagamento Agente 
+Os agentes devem depositar os recursos necessários 
+ao pagamento das penalidades e multas na conta 
+corrente da liquidação financeira do MCP, cuja data é 
+definida conforme Calendário Anual de Liquidação 
+Financeira do MCP, publicado no site da CCEE.  
+LCmcp 
+Disponibilizar relatório com os 
+resultados da liquidação financeira de 
+penalidades 
+CCEE 
+O relatório com os resultados da liquidação financeira 
+de penalidades, que contém os valores efetivamente 
+quitados, deve ser disponibilizado aos agentes. 
+Até 3du 
+ 
+Legenda: 
+LCmcp: Data dos créditos da liquidação financeira do MCP, definida conforme submódulo 5.2 – Liquidação no Mercado de Curto Prazo 
+M: Mês de referência da liquidação financeira de penalidades 
+du: dias úteis
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+13 
+ 
+procedimentos de 
+comercialização 
+Penalidade de Energia de Reserva 
+Atividade Responsável Detalhamento Prazo 
+Disponibilizar relatório com os 
+valores a liquidar de 
+penalidades de energia de 
+reserva 
+CCEE 
+A CCEE deve disponibilizar relatório com os valores 
+das penalidades que serão inseridas na liquidação 
+financeira de energia de reserva subsequente. 
+Após a contabilização 
+de dezembro do ano 
+civil anterior 
+Efetuar pagamento Agente 
+Os valores decorrentes da aplicação de penalidades 
+são incluídos na liquidação financeira relativa à 
+energia de reserva de acordo com as premissas 
+deste submódulo, cuja data é definida conforme 
+Calendário Anual de Liquidação Financeira relativa à 
+Energia de Reserva, publicado no site da CCEE. 
+Y 
+Disponibilizar relatório com os 
+resultados da liquidação 
+financeira de penalidades  de 
+energia de reserva 
+CCEE 
+O relatório com os resultados da liquidação 
+financeira de penalidades de energia de reserva, que 
+contém os valores efetivamente quitados, deve ser 
+disponibilizado aos agentes. 
+Até 3du 
+ 
+Legenda: 
+Y: Data de pagamento do Encargo de Energia de Reserva, definida conforme submódulo 7.2 – Liquidação Financeira Relativa à 
+Contratação de Energia de Reserva 
+du: Dias úteis
+
+Submódulo 6.2 - Notificação e gestão do pagamento de penalidades e multas 
+Revisão 5.0 
+14 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.

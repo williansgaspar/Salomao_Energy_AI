@@ -1,0 +1,261 @@
+PROCEDIMENTOS DE COMERCIALIZACAO - CCEE
+Arquivo de origem: PdC 3.7_-_liquidacao_cotas_de_garantia_fisica_v3.0.pdf
+Fonte: PDF oficial da CCEE, colecao local baixada em 17/07/2026; versao e vigencia devem ser verificadas na pagina vigente da CCEE antes de uso em parecer.
+
+PROCEDIMENTOS DE COMERCIALIZA??O ? CCEE
+Arquivo de origem: PdC 3.7_-_liquidacao_cotas_de_garantia_fisica_v3.0.pdf
+Fonte: PDF oficial da CCEE, cole??o local baixada em 17/07/2026; vers?o e vig?ncia devem ser verificadas na p?gina vigente da CCEE antes de uso em parecer.
+
+//  
+Módulo 3 – Contratação de 
+Energia 
+Submódulo 3.7 – Apuração e Liquidação Financeira 
+Relativa às Cotas de Garantia Física 
+procedimentos de 
+comercialização
+
+Submódulo 3.7 – Apuração e liquidação financeira relativa às  
+cotas de garantia física 
+Revisão 3.0 
+2 
+ 
+procedimentos de 
+comercialização 
+ÍNDICE 
+ 
+1. INTRODUÇÃO 
+2. OBJETIVO 
+3. PREMISSAS 
+4. LISTA DE DOCUMENTOS 
+5. FLUXO DE ATIVIDADES 
+6. DESCRIÇÃO DE ATIVIDADES 
+7. ANEXOS 
+ 
+Revisão Motivo da Revisão Instrumento de aprovação pela 
+ANEEL 
+Data de 
+Vigência 
+1.0 Primeira versão aprovada  
+(CP n° 05/2017) Despacho nº 1.911/2017 30.06.2017 
+2.0 Audiência Pública nº 03/2022 Resolução Normativa nº 1.012/2022 01.04.2022 
+3.0 Aprimoramentos Despacho nº 1.432/2026 28/04/2026
+
+Submódulo 3.7 – Apuração e liquidação financeira relativa às  
+cotas de garantia física 
+Revisão 3.0 
+3 
+ 
+procedimentos de 
+comercialização 
+1. INTRODUÇÃO 
+A Medida Provisória nº 579/2012, de 11 de setembro de 2012, regulamentada pelo do Decreto nº 7.085/2012, 
+alterada pela Medida Provisória nº 591, de 29 de novembro de 2012, regulamentada por meio do Decreto nº 
+7.850, de 30 de novembro de 2011, determinou as condições e os requisitos necessários à prorrogação das 
+concessões de geração de energia elé trica alcançadas pelo artigo 19  da Lei nº 9.074/1995 , entre outras 
+providências. Estes dispositivos preveem a alocação de cotas de garantia física de energia e potência das usinas 
+hidrelétricas cujos titulares tenham suas respectivas concess ões prorrogadas às concessionárias de serviço 
+público de distribuição de energia elétrica do Sistema Interligado Nacional – SIN.  
+A Medida Provisória nº 579/2012, conforme alterada, foi convertida na Lei nº 12.783, de 11 de janeiro de 
+2012, regulamentada pelo Decreto nº 7.891, de 23 de janeiro de 2013. 
+A Agência Nacional de Energia Elétrica - ANEEL, à qual os citados atos atribuíram a função de normatizar o 
+tema, publicou a Resolução Normativa nº 514/2012, que estabeleceu as condições para contratação das cotas 
+de garantia física de energia e potência , além de dispor sobre os direitos e obrigações das  distribuidoras e 
+agentes de geração vinculados à alocação das cotas de garantia física de energia e potência (a qual foi sucedida 
+pela Resolução Normativa nº 1.009/2022). 
+2. OBJETIVO 
+Estabelecer os procedimentos e prazos referentes à realização da apuração e liquidação financeira relativa às 
+cotas de garantia física . Este submódulo se aplica , exclusivamente, aos agentes  geradores titulares de 
+concessão para geração de energia elétrica, prorrogada ou licitada, nos termos da Medida Provisória nº 579, 
+regulamentada por meio do Decreto nº 7.805/2012, e posteriormente convertida na Lei nº 12.783, de 11 de 
+janeiro de 2013, e aos concessionários, permissionários e autorizados de distribuição de energia elétrica aos 
+quais sejam alocadas as cotas de garantia física. 
+3. PREMISSAS 
+3.1 A CCEE deve efetuar a apuração e liquidação financeira relativa às cotas de garantia física com base 
+nas disposições regulatórias vigentes e de acordo com módulo específico das Regras de 
+Comercialização. 
+3.2 A CCEE deve disponibilizar aos agentes geradores e aos agentes de distribuição que, 
+respectivamente, alocarem e receberem cotas de garantia física, os relatórios com as informações 
+da apuração e os valores a serem liquidados, em até cinco dias úteis (5du) antes da data da 
+correspondente Liquidação Financeira de Cotas de Garantia Física.
+
+Submódulo 3.7 – Apuração e liquidação financeira relativa às  
+cotas de garantia física 
+Revisão 3.0 
+4 
+ 
+procedimentos de 
+comercialização 
+3.3 Os agentes geradores  e agentes distribuidores federalizados  são responsáveis por informar , por 
+meio do sistema específico, até o último dia útil do mês de referência da apuração, o percentual de 
+tributos aplicável ao seu regime de tributação . Caso não haja manifestação, o  último percentual 
+informado será automaticamente considerado para a apuração do mês subsequente. 
+3.3.1 Os agentes geradores e agentes distribuidores federalizados são responsáveis por informar 
+à CCEE, nos termos definidos na premissa 3.3, quaisquer alterações em seus respectivos 
+percentuais de Tributos, não sendo a CCEE, em qualquer hipótese, responsável solidária 
+ou subsidiária quanto às obrigações tributárias dos agentes geradores e distribuidores.  
+3.3.2 A sujeição de agentes a quaisquer tributos e a interpretação fiscal é competência do Fisco 
+Federal, Estadual ou Municipal, conforme o caso, de modo que eventuais informações, 
+interpretações ou opiniões jurídicas da CCEE não são determinativas e não afastam  
+interpretações diferentes pelas Administrações Tributárias, não devendo a CCEE se 
+responsabilizar pela utilização dessas informações, interpretações ou opiniões pelo Agente 
+para condução de seus negócios e/ou recolhimento de tributos. 
+3.4 A Liquidação Financeira Relativa às Cotas de Garantia Física ocorre de forma centralizada e em única 
+data.  
+3.5 O Calendário da Liquidação Financeira de Cotas de Garantia Física, com as datas de liquidação para 
+cada mês é aprovado pela Diretoria da CCEE, deve ser divulgado no site CCEE até o final do ano para 
+o ano subsequente. 
+3.6 Os agentes de distribuição são responsáveis pela disponibilização dos recursos , constantes no s 
+relatórios, em conta corrente específica, até as 15:00 horas na data da Liquidação Financeira Relativa 
+às Cotas de Garantia Física. 
+3.7 Eventuais divergências encontradas após a divulgação do relatório com os valores constantes dos 
+documentos fiscais respectivos  não afetarão os prazos definidos no Calendário de Liquidação 
+Financeira de Cotas de Garantia Física e, se consideradas procedentes, devem ser contempladas no 
+ciclo de liquidação financeira subsequente, conforme legislação vigente.  
+3.8 A inadimplência  no âmbito da  Liquidação Financeira Relativa às Cotas de Garantia Física é 
+caracterizada caso os recursos disponibilizados pelo agente de distribuição  sejam inferiores aos 
+indicados no respectivo relatório. Neste caso, incide sobre o valor não pago: 
+a) multa de 2% (dois por cento); e 
+b) juros de mora de 1% (um por cento) ao mês, calculados pro rata die.
+
+Submódulo 3.7 – Apuração e liquidação financeira relativa às  
+cotas de garantia física 
+Revisão 3.0 
+5 
+ 
+procedimentos de 
+comercialização 
+3.9 Além dos valores apurados conforme as alíneas “a” e “b” da premissa anterior, compõem o saldo 
+devedor do agente, a parcela inadimplida atualizada monetariamente pela variação do Índice 
+Nacional de Preços ao Consumidor Amplo – IPCA relativo ao mês anterior, caso essa variação seja 
+positiva. Na extinção deste índice é adotado outro índice oficial que venha a substituí -lo. Para esta 
+atualização monetária deve ser considerando o período desde a data na qual deveriam ter sido 
+disponibilizados os recursos relativos à liquidação financeira  até o dia que antecede a data de 
+disponibilização de recursos da próxima liquidação financeira. 
+3.9.1 Caso o IPCA do mês anterior  ao da data do inadimplemento  não seja pub licado até  o 
+momento da divulgação do relatório da liquidação financeira seguinte, deve -se utilizar o 
+último índice publicado.  
+3.10 O valor decorrente da eventual inadimplência no âmbito da Liquidação Financeira Relativa às Cotas 
+de Garantia Física é rateado pelos agentes geradores  na proporção das respectivas  parcelas da 
+Receita Anual de Geração - RAG (valor em reais (R$/ano) a que o gerador tem direito pela 
+disponibilização da garantia física da usina, definido por Resolução da ANEEL, nos termos do contrato 
+de concessão da usina) relativas ao mês em que tenha ocorrido inadimplência. 
+3.11 A CCEE deve disponibilizar o relatório com os resultados da Liquidação Financeira Relativa às Cotas 
+de Garantia Física em até três dias úteis (3du) da realização desta. 
+3.12 O auditor independente realiza a validação do processo de liquidação financeira relativa às Cotas de 
+Garantia Física. 
+3.13 No atendimento das obrigações fiscais, os agentes são exclusivamente responsáveis pela condução 
+de seus negócios, pelo recolhimento de tributos, bem como pela verificação dos procedimentos 
+adequados a serem adotados para quaisquer dúvidas perante a Fazenda Federal, Distrital, Estadual, 
+Municipal ou terceiros, conforme o caso.  
+3.14 Eventuais informações, interpretações ou opiniões jurídicas da CCEE não são determinativas e não 
+afastam interpretações diferentes pelas Administrações Tributárias, não devendo a CCEE se 
+responsabilizar pela utilização dessas informações, interpretações ou  opiniões pelos agentes 
+impactados por este submódulo. 
+3.15 Caso sejam identificados valores inadimplidos por parte dos geradores referentes às obrigações na 
+CCEE, os recursos financeiros associados à Liquidação Financeira Relativa às Cotas de Garantia Física 
+podem ser utilizados para abater esses valores, conforme regulamentação específica.
+
+Submódulo 3.7 – Apuração e liquidação financeira relativa às  
+cotas de garantia física 
+Revisão 3.0 
+6 
+ 
+procedimentos de 
+comercialização 
+3.16 Em caso de reapuração da s cotas de garantia física,  as diferenças dos valores financeiros entre as 
+apurações já liquidadas e os novos valores calculados na reapuração, bem como os demais ajustes 
+provenientes de decisões judiciais ou arbitrais, deliberações da Diretoria da CCEE e/ou determinação 
+da ANEEL, d evem ser atualizados monetariamente com base nas variações positivas do Índice 
+Nacional de Preços ao Consumidor Amplo - IPCA, divulgado pelo Instituto Brasileiro de Geografia e 
+Estatística - IBGE, e divulgados por meio de relatórios. 
+3.16.1 A metodologia de atualização monetária deve considerar o IPCA do mês de referência do 
+ajuste e o último IPCA divulgado pelo IBGE na data do cálculo. 
+3.16.2 Caso o último índice divulgado seja negativo, este será desconsiderado e, nesse caso, não 
+haverá atualização monetária. Havendo a extinção desse índice, será adotado outro índice 
+oficial que vier a substituí-lo. 
+4. LISTA DE DOCUMENTOS 
+Não aplicável.
+
+Submódulo 3.7 – Apuração e liquidação financeira relativa às  
+cotas de garantia física 
+Revisão 3.0 
+7 
+ 
+procedimentos de 
+comercialização 
+5. FLUXO DE ATIVIDADES 
+Liquidação financeira relativa às cotas
+CCEE Agentes de 
+Distribuição Agente de liquidação
+W
+Liquidação 
+financeira
+Até W – 5du
+Divulgar 
+relatórios
+Início
+Até W
+Depositar os 
+recursos
+W+3du
+Disponibilizar os 
+resultados da 
+liquidação 
+financeira
+Fim
+ 
+Legenda: 
+W: Data de liquidação financeira definida por meio da publicação do Calendário Anual de Liquidação Financeira relativo às Cotas de 
+Garantia Física. 
+du: dias úteis
+
+Submódulo 3.7 – Apuração e liquidação financeira relativa às  
+cotas de garantia física 
+Revisão 3.0 
+8 
+ 
+procedimentos de 
+comercialização 
+6. DESCRIÇÃO DE ATIVIDADES 
+Liquidação financeira relativa às cotas 
+Atividade Responsável Detalhamento Prazo 
+Divulgar relatórios CCEE 
+A CCEE deve disponibilizar, por meio do sistema específico, as 
+informações referentes à apuração bem como os valores a 
+serem pagos por cada agente de distribuição. 
+Até W – 5du 
+Depositar os recursos Agente de 
+distribuição 
+Os agentes de distribuição  são responsáveis  por disponibilizar 
+os recursos até a data de liquidação financeira, observando o 
+horário limite previsto neste submódulo.  
+Até W 
+Liquidação financeira Agente de 
+liquidação 
+O agente de liquidação deve transferir os recursos depositados 
+pelos agentes de distribuição aos agentes geradores na data 
+prevista neste submódulo.  
+W 
+Disponibilizar os 
+resultados da liquidação 
+financeira 
+CCEE 
+A CCEE deve disponibilizar, por meio do sistema específico, 
+relatório com os valores liquidados por cada agente de 
+distribuição. 
+Até W+3du 
+ 
+Legenda: 
+W: Data de liquidação financeira definida por meio da publicação do Calendário Anual de Liquidação Financeira relativa às Cotas de 
+Garantia Física 
+du: dias úteis
+
+Submódulo 3.7 – Apuração e liquidação financeira relativa às  
+cotas de garantia física 
+Revisão 3.0 
+9 
+ 
+procedimentos de 
+comercialização 
+7. ANEXOS 
+Não aplicável.
