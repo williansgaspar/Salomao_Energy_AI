@@ -1,0 +1,4 @@
+# Textos normativos extraídos têm hash auditável no catálogo. Preserve seus bytes
+# e impeça a conversão automática de finais de linha pelo Git no checkout.
+Legislacao/**/*.txt -text
+knowledge_base/normas/**/*.txt -text
