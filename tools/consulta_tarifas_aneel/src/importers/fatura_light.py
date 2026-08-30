@@ -1,4 +1,4 @@
-"""Extração local de faturas Light Grupo A, com fallback de OCR."""
+"""Extração local de faturas Light dos Grupos A e B, com fallback de OCR."""
 
 import io
 import re
@@ -18,6 +18,7 @@ class Token:
     y: float
     texto: str
     confianca: float = 1.0
+    pagina: int = 0
 
 
 def _normalizar(texto):
@@ -46,14 +47,14 @@ def _ocr_engine():
     return RapidOCR()
 
 
-def _tokens_ocr(imagem):
+def _tokens_ocr(imagem, pagina=0):
     resultado, _ = _ocr_engine()(np.asarray(imagem.convert("RGB")))
     tokens = []
     largura, altura = imagem.size
     for caixa, texto, confianca in resultado or []:
         x = sum(p[0] for p in caixa) / 4 / largura
         y = sum(p[1] for p in caixa) / 4 / altura
-        tokens.append(Token(x, y, texto, float(confianca)))
+        tokens.append(Token(x, y, texto, float(confianca), pagina))
     return tokens
 
 
@@ -63,20 +64,73 @@ def _tokens_pdf(conteudo):
     A camada textual de alguns PDFs Light tem caixas de texto que não coincidem
     com as colunas visuais da fatura. Usá-la diretamente deslocava quantidade,
     tributos e alíquota, embora o texto em si estivesse correto.
+
+    Cada token é marcado com o número da página de origem: uma fatura Light
+    real quase sempre chega em várias páginas (nota fiscal + boleto, ou duas
+    UCs no mesmo PDF sob "Ambas"), e cada página tem sua própria coordenada Y
+    relativa (0 a 1). Sem a marcação, linhas de páginas diferentes na mesma
+    altura relativa eram agrupadas como se fossem uma única linha da tabela
+    fiscal, misturando quantidade, tarifa e tributos de itens não relacionados.
     """
     documento = pymupdf.open(stream=conteudo, filetype="pdf")
     tokens = []
-    for pagina in documento:
+    for indice, pagina in enumerate(documento):
         pix = pagina.get_pixmap(dpi=180, colorspace=pymupdf.csRGB, alpha=False)
         imagem = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
-        tokens.extend(_tokens_ocr(imagem))
+        tokens.extend(_tokens_ocr(imagem, pagina=indice))
     return tokens, "OCR local do PDF"
+
+
+def _texto_nativo_pdf(conteudo):
+    """Recupera a camada textual somente para os metadados do documento.
+
+    A geometria da camada textual não é confiável para a tabela fiscal da
+    Light, razão pela qual os itens continuam sendo lidos por OCR. Já campos
+    compactos como Grupo/Subgrupo costumam estar íntegros nessa camada e são
+    uma fonte complementar mais precisa que a imagem renderizada.
+    """
+    documento = pymupdf.open(stream=conteudo, filetype="pdf")
+    try:
+        return " ".join(pagina.get_text("text") for pagina in documento)
+    finally:
+        documento.close()
+
+
+def _texto_cabecalho_pdf(conteudo):
+    """Lê em alta resolução a caixa de classificação da primeira página Light.
+
+    Em faturas digitalizadas, o campo compacto ``Grupo / Subgrupo`` perde
+    definição na renderização integral usada para a tabela fiscal. O recorte
+    preserva a resolução necessária sem alterar a extração geométrica dos
+    itens da fatura.
+    """
+    documento = pymupdf.open(stream=conteudo, filetype="pdf")
+    try:
+        if not documento:
+            return ""
+        pagina = documento[0]
+        retangulo = pagina.rect
+        # Faixa superior esquerda: classificação, tipo de fornecimento e UC.
+        recorte = pymupdf.Rect(
+            retangulo.x0 + retangulo.width * 0.12,
+            retangulo.y0 + retangulo.height * 0.15,
+            retangulo.x0 + retangulo.width * 0.58,
+            retangulo.y0 + retangulo.height * 0.25,
+        )
+        pix = pagina.get_pixmap(dpi=400, clip=recorte, colorspace=pymupdf.csRGB, alpha=False)
+        imagem = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+        return " ".join(token.texto for token in _tokens_ocr(imagem))
+    finally:
+        documento.close()
 
 
 def _agrupar_linhas(tokens, tolerancia=0.006):
     linhas = []
-    for token in sorted(tokens, key=lambda t: (t.y, t.x)):
-        linha = next((l for l in linhas if abs(l[0].y - token.y) <= tolerancia), None)
+    for token in sorted(tokens, key=lambda t: (t.pagina, t.y, t.x)):
+        linha = next(
+            (l for l in linhas if l[0].pagina == token.pagina and abs(l[0].y - token.y) <= tolerancia),
+            None,
+        )
         if linha is None:
             linhas.append([token])
         else:
@@ -120,7 +174,7 @@ def _quantidade_apos_unidade(linha):
     return ("kWh" if _normalizar(unidade.texto) == "kwh" else "kW"), quantidade
 
 
-def _extrair_itens(tokens, modalidade=None):
+def _extrair_itens(tokens, modalidade=None, grupo=None):
     itens = []
     linhas = _agrupar_linhas(tokens)
     cabecalho_quant = next(
@@ -168,10 +222,10 @@ def _extrair_itens(tokens, modalidade=None):
         preco_com_tributos = _valor_zona(linha, 0.43, 0.49, 0.452)
         valor_com_tributos = _valor_zona(linha, 0.49, 0.54, 0.509)
         pis_cofins = _valor_zona(linha, 0.54, 0.58, 0.560)
-        base_icms = _valor_zona(linha, 0.58, 0.61, 0.591)
-        aliquota_icms = _valor_zona(linha, 0.61, 0.645, 0.626)
-        icms = _valor_zona(linha, 0.645, 0.68, 0.661)
-        tarifa_liquida = _valor_zona(linha, 0.68, 0.72, 0.694)
+        base_icms = _valor_zona(linha, 0.5905, 0.6345, 0.611)
+        aliquota_icms = _valor_zona(linha, 0.6345, 0.6785, 0.658)
+        icms = _valor_zona(linha, 0.6785, 0.719, 0.699)
+        tarifa_liquida = _valor_zona(linha, 0.719, 0.764, 0.740)
         # Guardas semânticas: um deslocamento de coluna nunca pode transformar
         # valor monetário em percentual nem produzir tributo superior ao item.
         if aliquota_icms is not None and not 0 <= aliquota_icms <= 100:
@@ -198,7 +252,11 @@ def _extrair_itens(tokens, modalidade=None):
         itens_tipo = [i for i in itens if i["tipo"] == tipo]
         desconhecidos = [i for i in itens_tipo if i["posto"] is None]
         conhecidos = {i["posto"] for i in itens_tipo if i["posto"]}
-        if tipo == "Demanda" and modalidade == "Verde":
+        if grupo == "B" and tipo == "Energia":
+            faltantes = ["Não se aplica"] * len(desconhecidos)
+        elif grupo == "B":
+            faltantes = []
+        elif tipo == "Demanda" and modalidade == "Verde":
             faltantes = ["Fora ponta"]
         else:
             faltantes = [p for p in ("Fora ponta", "Ponta") if p not in conhecidos]
@@ -214,16 +272,35 @@ def _extrair_itens(tokens, modalidade=None):
     return list(unicos.values())
 
 
-def _metadados(tokens):
+def _metadados(tokens, texto_adicional=""):
     texto = " ".join(t.texto for t in tokens)
+    if texto_adicional:
+        texto = f"{texto} {texto_adicional}"
     normal = _normalizar(texto)
     competencia = None
     meses = {"jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6, "jul": 7, "ago": 8, "set": 9, "out": 10, "nov": 11, "dez": 12}
     achou = re.search(r"\b(" + "|".join(meses) + r")[/\s-]*(20\d{2})\b", normal)
     if achou:
         competencia = f"{int(achou.group(2)):04d}-{meses[achou.group(1)]:02d}"
-    subgrupo = next((g.upper() for g in re.findall(r"\ba[1-4]\b", normal)), None)
-    modalidade = "Azul" if "azul" in normal else "Verde" if "verde" in normal else None
+    else:
+        competencia_numerica = re.search(r"\b(0?[1-9]|1[0-2])\s*/\s*(20\d{2})\b", normal)
+        if competencia_numerica:
+            competencia = f"{int(competencia_numerica.group(2)):04d}-{int(competencia_numerica.group(1)):02d}"
+    grupo_explicito = re.search(r"\bgrupo\s*[:\-]?\s*([ab8])\b", normal)
+    grupo = grupo_explicito.group(1).upper().replace("8", "B") if grupo_explicito else None
+    # B3 frequentemente chega como B 3, B-3, B:3 ou 83 no OCR. A conversão
+    # do 8 é restrita à estrutura de subgrupo para não alterar outros números.
+    subgrupos = [
+        re.sub(r"[\s\-:./]", "", g).upper().replace("8", "B")
+        for g in re.findall(r"\b[ab8][\s\-:./]*[1-4]\b", normal)
+    ]
+    subgrupo = next((g for g in subgrupos if not grupo or g.startswith(grupo)), None)
+    if grupo is None and subgrupo:
+        grupo = subgrupo[0]
+    modalidade = (
+        "Azul" if "azul" in normal else "Verde" if "verde" in normal
+        else "Convencional" if "convencional" in normal or grupo == "B" else None
+    )
     classe = "Poder Público" if "poder publico" in normal else None
     subclasse = "Poder Público Federal" if "poder publico federal" in normal else None
     # O OCR pode concatenar base de cálculo e alíquota (ex.:
@@ -234,8 +311,9 @@ def _metadados(tokens):
     taxas = taxas_um_digito + taxas_dois_digitos
     return {
         "distribuidora": "LIGHT SESA" if "light" in normal else None,
-        "competencia": competencia, "subgrupo": subgrupo, "modalidade": modalidade,
+        "competencia": competencia, "subgrupo": subgrupo, "grupo": grupo, "modalidade": modalidade,
         "classe": classe, "subclasse": subclasse,
+        "detalhe": "SCEE" if "scee" in normal else "APE" if re.search(r"\bape\b", normal) else None,
         "pis_percentual": next((v for v in taxas if v < 2), None),
         "cofins_percentual": next((v for v in taxas if 2 <= v < 10), None),
         "icms_percentual": None,
@@ -244,27 +322,27 @@ def _metadados(tokens):
 
 def extrair_fatura(conteudo, nome_arquivo):
     extensao = nome_arquivo.lower().rsplit(".", 1)[-1]
+    texto_metadados = ""
     if extensao == "pdf":
         tokens, metodo = _tokens_pdf(conteudo)
+        texto_metadados = f"{_texto_nativo_pdf(conteudo)} {_texto_cabecalho_pdf(conteudo)}"
     elif extensao in {"png", "jpg", "jpeg", "webp"}:
         tokens, metodo = _tokens_ocr(Image.open(io.BytesIO(conteudo))), "OCR local"
     else:
         raise ValueError("Formato de fatura não suportado.")
-    metadados = _metadados(tokens)
-    itens = _extrair_itens(tokens, metadados.get("modalidade"))
+    metadados = _metadados(tokens, texto_metadados)
+    itens = _extrair_itens(tokens, metadados.get("modalidade"), metadados.get("grupo"))
     metadados["icms_percentual"] = next((i["aliquota_icms"] for i in itens if i.get("aliquota_icms") is not None), None)
     if metadados["icms_percentual"] is None:
         texto_normalizado = " ".join(t.texto for t in tokens)
         percentuais = [float(v.replace(",", ".")) for v in re.findall(r"(\d{1,2},\d{2,3})\s*%", texto_normalizado)]
         metadados["icms_percentual"] = next((v for v in percentuais if 10 <= v <= 40), None)
     avisos = []
-    esperados = {("Energia", "Ponta"), ("Energia", "Fora ponta"), ("Demanda", "Fora ponta")}
-    if metadados.get("modalidade") != "Verde":
-        esperados.add(("Demanda", "Ponta"))
-    encontrados = {(i["tipo"], i["posto"]) for i in itens if i.get("quantidade") is not None}
-    faltantes = esperados - encontrados
-    if faltantes:
-        avisos.append("Revise os campos não reconhecidos: " + ", ".join(f"{t} {p}" for t, p in sorted(faltantes)))
+    faltantes = grandezas_ausentes({**metadados, "itens": itens})
+    if metadados.get("grupo") is None:
+        avisos.append("Grupo tarifário não identificado pelo OCR; confira subgrupo, modalidade e grandezas antes de calcular.")
+    elif faltantes:
+        avisos.append("Revise os campos não reconhecidos: " + ", ".join(faltantes))
     return {**metadados, "metodo": metodo, "itens": itens, "avisos": avisos}
 
 
@@ -286,6 +364,8 @@ def grandezas_da_fatura(fatura):
         if quantidade is None or not posto:
             continue
         if item.get("tipo") == "Energia":
+            if fatura.get("grupo") == "B":
+                posto = "Não se aplica"
             grandezas["consumos_mwh"][posto] = float(quantidade) / 1000
         elif item.get("tipo") == "Demanda":
             grandezas["demandas_kw"][posto] = float(quantidade)
@@ -293,8 +373,15 @@ def grandezas_da_fatura(fatura):
 
 
 def grandezas_ausentes(fatura):
-    """Valida as grandezas obrigatórias conforme a modalidade tarifária."""
+    """Valida grandezas segundo o Grupo A, Grupo B ou perfil ainda indeterminado."""
     grandezas = grandezas_da_fatura(fatura)
+    grupo = fatura.get("grupo") or str(fatura.get("subgrupo") or "").strip().upper()[:1]
+    if grupo not in {"A", "B"} and fatura.get("modalidade") in {"Verde", "Azul"}:
+        grupo = "A"
+    if grupo == "B":
+        return [] if grandezas["consumos_mwh"] else ["Consumo de energia"]
+    if grupo != "A":
+        return []
     verificacoes = [
         ("Consumo HFP", "Fora ponta" in grandezas["consumos_mwh"]),
         ("Consumo HPT", "Ponta" in grandezas["consumos_mwh"]),

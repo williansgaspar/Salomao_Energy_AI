@@ -1,0 +1,10 @@
+.git
+.pytest_cache
+__pycache__
+*.py[cod]
+.streamlit/secrets.toml
+cache
+output
+tmp
+streamlit*.log
+streamlit.pid

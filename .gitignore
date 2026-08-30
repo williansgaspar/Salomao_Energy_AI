@@ -4,6 +4,10 @@
 !.env.example
 *API Key*.txt
 *api_key*.txt
+*Secret*.txt
+*secret*.txt
+*Credential*.txt
+*credential*.txt
 
 # Python/runtime artifacts
 __pycache__/

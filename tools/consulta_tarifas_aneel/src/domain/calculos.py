@@ -5,6 +5,8 @@ HORAS_MES_TIPICO = 720.0
 HORAS_PONTA_TIPICA = 66.0
 HORAS_INTERMEDIARIA_TIPICA = 44.0
 
+from .scee import parametros_regulatorios_scee
+
 
 def _numero(valor, nome):
     try:
@@ -80,14 +82,16 @@ def calcular_fatura(tarifas_mwh, consumos_mwh, tarifas_kw=None, demandas_kw=None
     }
 
 
-def comparar_acr_acl(te_acr, tusd_energia, tusd_demanda, consumo_total_mwh, te_acl):
-    """Compara ambientes alterando somente a TE; TUSD e demanda são invariantes."""
+def comparar_acr_acl(te_acr, tusd_energia, tusd_demanda, consumo_total_mwh, te_acl, bandeira_r_mwh=0):
+    """Compara ambientes alterando TE e adicionando bandeira somente no ACR."""
     te_acl = _numero(te_acl, "TE ACL")
     consumo = _numero(consumo_total_mwh, "Consumo total")
     te_acr = _numero(te_acr, "TE ACR")
     tusd_energia = _numero(tusd_energia, "TUSD Energia")
     tusd_demanda = _numero(tusd_demanda, "TUSD Demanda")
-    total_acr = te_acr + tusd_energia + tusd_demanda
+    bandeira_r_mwh = _numero(bandeira_r_mwh, "Adicional de bandeira")
+    custo_bandeira_acr = round(bandeira_r_mwh * consumo, 4)
+    total_acr = te_acr + tusd_energia + tusd_demanda + custo_bandeira_acr
     custo_te_acl = te_acl * consumo
     total_acl = custo_te_acl + tusd_energia + tusd_demanda
     economia = total_acr - total_acl
@@ -97,12 +101,140 @@ def comparar_acr_acl(te_acr, tusd_energia, tusd_demanda, consumo_total_mwh, te_a
         "te_acl": te_acl,
         "custo_te_acr": te_acr,
         "custo_te_acl": custo_te_acl,
+        "bandeira_r_mwh": bandeira_r_mwh,
+        "custo_bandeira_acr": custo_bandeira_acr,
         "tusd_energia": tusd_energia,
         "tusd_demanda": tusd_demanda,
         "total_acr": total_acr,
         "total_acl": total_acl,
         "economia": economia,
         "economia_percentual": economia / total_acr * 100 if total_acr else None,
+    }
+
+
+def comparar_acr_scee_bt(total_acr_sem_bandeira, consumo_total_mwh, desconto_scee_percentual, bandeira_r_mwh=0):
+    """Compara a conta ACR de referência com o cenário SCEE/GD para uma UC BT.
+
+    O desconto é uma premissa comercial aplicada sobre a conta ACR já acrescida
+    da bandeira. O detalhamento regulatório da fatura permanece fora deste
+    comparativo resumido.
+    """
+    total_acr_sem_bandeira = _numero(total_acr_sem_bandeira, "Conta ACR sem bandeira")
+    consumo = _numero(consumo_total_mwh, "Consumo total")
+    desconto = _numero(desconto_scee_percentual, "Desconto SCEE/GD")
+    bandeira_r_mwh = _numero(bandeira_r_mwh, "Adicional de bandeira")
+    if desconto > 100:
+        raise ValueError("Desconto SCEE/GD não pode ser superior a 100%.")
+
+    custo_bandeira_acr = round(bandeira_r_mwh * consumo, 4)
+    conta_acr = total_acr_sem_bandeira + custo_bandeira_acr
+    conta_scee_com_desconto = round(conta_acr * (1 - desconto / 100), 4)
+    economia = conta_acr - conta_scee_com_desconto
+    return {
+        "consumo_total_mwh": consumo,
+        "conta_acr_sem_bandeira": total_acr_sem_bandeira,
+        "bandeira_r_mwh": bandeira_r_mwh,
+        "custo_bandeira_acr": custo_bandeira_acr,
+        "conta_acr": conta_acr,
+        "desconto_scee_percentual": desconto,
+        "conta_scee_com_desconto": conta_scee_com_desconto,
+        "economia": economia,
+        "economia_percentual": economia / conta_acr * 100 if conta_acr else None,
+    }
+
+
+def simular_scee_bt(
+    total_acr_sem_bandeira,
+    consumo_total_mwh,
+    percentual_alocacao,
+    desconto_comercial_percentual,
+    enquadramento,
+    custo_disponibilidade_kwh=100,
+    fio_b_r_mwh=0,
+    componentes_adicionais_gdiii_r_mwh=0,
+    bandeira_r_mwh=0,
+    ano_referencia=2026,
+    fio_a_conexao_r_mwh=0,
+    pde_ee_tfsee_r_mwh=0,
+    ajustes_financeiros_acr=0,
+    ajustes_financeiros_scee=0,
+):
+    """Simula SCEE para UC do grupo B pelos cenários GD I, GD II e GD III.
+
+    A tarifa-base é formada por TE + TUSD Energia da consulta. A bandeira é
+    cobrada pela distribuidora apenas sobre a energia não compensada (Lei
+    14.300/2022, art. 19), mas integra o preço comercial do crédito quando o
+    contrato estabelece desconto linear sobre a tarifa vigente da distribuidora.
+    Para GD II e GD III, as parcelas residuais incidentes sobre a energia
+    compensada são entradas explícitas, pois a API não abre o Fio B por UC.
+    """
+    total_acr = _numero(total_acr_sem_bandeira, "Conta ACR sem bandeira")
+    consumo = _numero(consumo_total_mwh, "Consumo total")
+    alocacao = _numero(percentual_alocacao, "Alocação de créditos")
+    desconto = _numero(desconto_comercial_percentual, "Desconto comercial")
+    disponibilidade = _numero(custo_disponibilidade_kwh, "Custo de disponibilidade")
+    fio_b = _numero(fio_b_r_mwh, "Fio B")
+    adicionais_gdiii = _numero(componentes_adicionais_gdiii_r_mwh, "Componentes adicionais GD III")
+    fio_a_conexao = _numero(fio_a_conexao_r_mwh, "Fio A, conexão e demais sistemas")
+    pde_ee_tfsee = _numero(pde_ee_tfsee_r_mwh, "P&D, eficiência energética e TFSEE")
+    bandeira = _numero(bandeira_r_mwh, "Adicional de bandeira")
+    ajustes_acr = _numero(ajustes_financeiros_acr, "Ajustes financeiros ACR")
+    ajustes_scee = _numero(ajustes_financeiros_scee, "Ajustes financeiros SCEE")
+    if alocacao > 100:
+        raise ValueError("Alocação de créditos não pode ser superior a 100%.")
+    if desconto > 100:
+        raise ValueError("Desconto comercial não pode ser superior a 100%.")
+    fatores_regulatorios = parametros_regulatorios_scee(enquadramento, int(ano_referencia))
+
+    tarifa_base_r_mwh = total_acr / consumo if consumo else 0.0
+    tarifa_comercial_r_mwh = tarifa_base_r_mwh + bandeira
+    energia_compensada_mwh = consumo * alocacao / 100
+    energia_faturada_mwh = consumo - energia_compensada_mwh
+    residual_scee_r_mwh = (
+        fatores_regulatorios["fio_b"] * fio_b
+        + fatores_regulatorios["fio_a_conexao"] * fio_a_conexao
+        + fatores_regulatorios["pde_ee_tfsee"] * pde_ee_tfsee
+        + adicionais_gdiii
+    )
+
+    fatura_light_sem_piso = (
+        energia_faturada_mwh * (tarifa_base_r_mwh + bandeira)
+        + energia_compensada_mwh * residual_scee_r_mwh
+    )
+    piso_disponibilidade = disponibilidade / 1000 * tarifa_base_r_mwh
+    fatura_light = max(fatura_light_sem_piso, piso_disponibilidade)
+    pagamento_fornecedor = energia_compensada_mwh * tarifa_comercial_r_mwh * (1 - desconto / 100)
+    conta_scee = fatura_light + pagamento_fornecedor
+    conta_acr = total_acr + consumo * bandeira
+    conta_acr_financeira = conta_acr + ajustes_acr
+    conta_scee_financeira = conta_scee + ajustes_scee
+    economia = conta_acr_financeira - conta_scee_financeira
+    return {
+        "enquadramento": enquadramento,
+        "ano_referencia": int(ano_referencia),
+        "fatores_regulatorios": fatores_regulatorios,
+        "consumo_total_mwh": consumo,
+        "energia_compensada_mwh": energia_compensada_mwh,
+        "energia_faturada_mwh": energia_faturada_mwh,
+        "tarifa_base_r_mwh": tarifa_base_r_mwh,
+        "tarifa_comercial_r_mwh": tarifa_comercial_r_mwh,
+        "residual_scee_r_mwh": residual_scee_r_mwh,
+        "fio_b_r_mwh": fio_b,
+        "fio_a_conexao_r_mwh": fio_a_conexao,
+        "pde_ee_tfsee_r_mwh": pde_ee_tfsee,
+        "bandeira_r_mwh": bandeira,
+        "piso_disponibilidade": piso_disponibilidade,
+        "fatura_light_sem_piso": fatura_light_sem_piso,
+        "fatura_light": fatura_light,
+        "pagamento_fornecedor": pagamento_fornecedor,
+        "conta_acr": conta_acr,
+        "conta_scee": conta_scee,
+        "ajustes_financeiros_acr": ajustes_acr,
+        "ajustes_financeiros_scee": ajustes_scee,
+        "conta_acr_financeira": conta_acr_financeira,
+        "conta_scee_financeira": conta_scee_financeira,
+        "economia": economia,
+        "economia_percentual": economia / conta_acr_financeira * 100 if conta_acr_financeira else None,
     }
 
 

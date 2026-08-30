@@ -6,8 +6,8 @@ from src.importers.fatura_light import Token, _extrair_itens, _metadados, grande
 def linha(y, rotulo, quantidade, bruto, valor, pis, icms, liquida):
     return [
         Token(.10, y, rotulo), Token(.34, y, quantidade), Token(.452, y, bruto),
-        Token(.509, y, valor), Token(.560, y, pis), Token(.626, y, "24,000"),
-        Token(.661, y, icms), Token(.694, y, liquida),
+        Token(.509, y, valor), Token(.560, y, pis), Token(.66, y, "24,000"),
+        Token(.70, y, icms), Token(.74, y, liquida),
     ]
 
 
@@ -56,7 +56,7 @@ def test_consolida_tributos_e_grandezas_para_preenchimento():
 
 def test_rejeita_valor_monetario_lido_como_aliquota_ou_tributo():
     tokens = linha(.10, "Energia Ativa kWh HFP/Único", "672.242", "0,63962757", "429.984,51", "634.200,00", "500.000,00", "0,46220")
-    tokens[5] = Token(.626, .10, "21108,17")
+    tokens[5] = Token(.66, .10, "21108,17")
     item = _extrair_itens(tokens)[0]
     assert item["aliquota_icms"] is None
     assert item["pis_cofins"] is None
@@ -116,3 +116,70 @@ def test_modalidade_azul_exige_as_duas_demandas_e_descarta_posto_nulo():
     ]}
     assert grandezas_da_fatura(fatura)["demandas_kw"] == {"Fora ponta": 100}
     assert grandezas_ausentes(fatura) == ["Demanda HPT"]
+
+
+def test_metadados_identificam_grupo_b_e_subgrupo_b3():
+    metadados = _metadados([Token(.1, .1, "LIGHT Grupo B - B3")])
+    assert metadados["grupo"] == "B"
+    assert metadados["subgrupo"] == "B3"
+
+
+def test_metadados_identificam_grupo_b_mesmo_sem_subgrupo_explicito():
+    metadados = _metadados([Token(.1, .1, "LIGHT - GRUPO B")])
+    assert metadados["grupo"] == "B"
+    assert metadados["subgrupo"] is None
+
+
+def test_metadados_reconhecem_competencia_numerica_subgrupo_com_espaco_e_detalhe():
+    metadados = _metadados([Token(.1, .1, "LIGHT GRUPO B - B 3 - 07/2026 - Convencional - SCEE")])
+    assert metadados["competencia"] == "2026-07"
+    assert metadados["subgrupo"] == "B3"
+    assert metadados["modalidade"] == "Convencional"
+    assert metadados["detalhe"] == "SCEE"
+
+
+def test_metadados_reconhecem_subgrupo_com_hifen():
+    metadados = _metadados([Token(.1, .1, "LIGHT - GRUPO B - SUBGRUPO B-3")])
+    assert metadados["grupo"] == "B"
+    assert metadados["subgrupo"] == "B3"
+
+
+def test_metadados_corrigem_b3_lido_como_83_e_aplicam_modalidade_convencional_no_grupo_b():
+    metadados = _metadados([Token(.1, .1, "GRUPO: B  SUBGRUPO: 8:3")])
+    assert metadados["grupo"] == "B"
+    assert metadados["subgrupo"] == "B3"
+    assert metadados["modalidade"] == "Convencional"
+
+
+def test_metadados_usam_camada_textual_complementar_para_subgrupo():
+    metadados = _metadados([Token(.1, .1, "LIGHT - GRUPO B")], "SUBGRUPO TARIFÁRIO: B3")
+    assert metadados["grupo"] == "B"
+    assert metadados["subgrupo"] == "B3"
+    assert metadados["modalidade"] == "Convencional"
+
+
+def test_metadados_usam_texto_do_cabecalho_light_para_classificacao():
+    metadados = _metadados([], "Classificação: Grupo B / Subgrupo B3 Poder Público")
+    assert metadados["grupo"] == "B"
+    assert metadados["subgrupo"] == "B3"
+    assert metadados["classe"] == "Poder Público"
+
+
+def test_grupo_b_exige_apenas_consumo_e_consolida_em_posto_unico():
+    fatura = {"grupo": "B", "subgrupo": "B3", "itens": [
+        {"tipo": "Energia", "posto": "Fora ponta", "quantidade": 12_345},
+    ]}
+    assert grandezas_da_fatura(fatura) == {
+        "consumos_mwh": {"Não se aplica": 12.345},
+        "demandas_kw": {},
+    }
+    assert grandezas_ausentes(fatura) == []
+
+
+def test_grupo_b_sem_consumo_informa_apenas_a_grandeza_necessaria():
+    assert grandezas_ausentes({"grupo": "B", "itens": []}) == ["Consumo de energia"]
+
+
+def test_grupo_indeterminado_nao_aplica_exigencias_do_grupo_a():
+    fatura = {"itens": [{"tipo": "Energia", "posto": "Não se aplica", "quantidade": 1_000}]}
+    assert grandezas_ausentes(fatura) == []

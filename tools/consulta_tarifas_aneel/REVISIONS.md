@@ -4,7 +4,15 @@ Este projeto não é um repositório git; o controle de revisão da interface we
 é feito por cópia de arquivo (`revisions/app_vN.py`) + este changelog. `app.py`
 na raiz da pasta é sempre a versão em uso.
 
-## Revisão 17 (20/07/2026) — atual
+## Revisão 18 (29/07/2026) — autenticação e publicação privada
+
+- Preparada autenticação por Microsoft Entra ID (OIDC) para o ambiente publicado, com tela de entrada, saída e lista explícita de e-mails autorizados.
+- O modo local continua aberto por padrão; `SALOMAO_REQUIRE_LOGIN=true` torna a autenticação obrigatória no host.
+- Segredos de cliente, cookie e URI de redirecionamento não são versionados; incluído apenas o modelo `secrets.example.toml`.
+- Incluídos Dockerfile, entrada segura em container e roteiro de publicação em Azure Container Apps.
+- Acrescentadas proteções CORS/XSRF e limite de upload de 20 MB.
+
+## Revisão 17 (20/07/2026)
 
 - Aba Histórico passa a preservar a família tarifária selecionada na Aba 1: distribuidora, subgrupo, modalidade, base, classe, subclasse, detalhe, acessante e posto.
 - REH e vigência são liberadas para formar a série, sem médias ou consolidação entre observações distintas.

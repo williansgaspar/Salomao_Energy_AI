@@ -4,6 +4,7 @@ import base64
 from pathlib import Path
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 
 def fmt_brl(valor):
@@ -40,8 +41,8 @@ def aplicar_tema(escuro=False):
     [data-baseweb="select"]>div,[data-baseweb="input"]>div,input,textarea {{background:{p['input']}!important;color:{p['text']}!important;border-color:{p['border']}!important;}}
     [data-testid="stExpander"] {{background:{p['surface']};border:1px solid {p['border']};border-radius:10px;}}
     [data-testid="stDataFrame"] {{border:1px solid {p['border']};border-radius:10px;overflow:hidden;}}
-    [data-testid="stMetric"] {{background:{p['surface2']};border:1px solid {p['border']};border-radius:12px;padding:14px 16px;}}
-    [data-testid="stMetricValue"] {{color:{p['primary']}!important;font-weight:800;letter-spacing:-.03em;}}
+    [data-testid="stMetric"] {{background:{p['surface2']};border:1px solid {p['border']};border-radius:12px;padding:14px 16px;min-width:0;}}
+    [data-testid="stMetricValue"],[data-testid="stMetricValue"]>div {{color:{p['primary']}!important;font-size:1.75rem!important;font-weight:800;line-height:1.15;letter-spacing:-.025em;font-variant-numeric:tabular-nums;white-space:nowrap;overflow:visible!important;text-overflow:clip!important;}}
     [data-testid="stMetricLabel"] {{color:{p['muted']}!important;}}
     .stButton>button[kind="primary"],.stDownloadButton>button {{background:linear-gradient(135deg,{p['primary']},{p['primary2']});color:white;border:0;border-radius:9px;font-weight:700;box-shadow:0 5px 14px {p['shadow']};}}
     .stButton>button {{border-radius:9px;}}
@@ -60,9 +61,52 @@ def aplicar_tema(escuro=False):
     .total-card {{background:linear-gradient(135deg,{p['surface2']},rgba(11,185,117,.10));border:1px solid {p['border']};border-left:5px solid {p['green']};padding:16px 20px;border-radius:12px;margin:.7rem 0 1rem;color:{p['muted']};}}
     .total-card strong {{display:block;font-size:1.9rem;color:{p['green']};letter-spacing:-.035em;margin-top:2px;}}
     .stale-box {{background:rgba(232,157,46,.10);border:1px solid rgba(232,157,46,.45);border-radius:10px;padding:11px 14px;color:{p['text']};margin:.7rem 0;}}
-    @media(max-width:900px){{.block-container{{padding:.7rem .8rem 2rem}}.brand-main{{grid-template-columns:1fr;gap:10px}}.brand-copy{{border:0;border-top:1px solid {p['border']};border-bottom:1px solid {p['border']};padding:13px}}.brand-main .logo-pref,.brand-main .logo-project{{height:52px}}}}
+    .bandeira-status {{color:{p['text']};font-size:.9rem;margin:.25rem 0 .8rem;}}
+    .entry-choice {{height:100%;background:{p['surface']};border:1px solid {p['border']};border-radius:12px;padding:15px 16px 12px;}}
+    .entry-choice .entry-kicker {{color:{p['primary']};font-size:.71rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin:0 0 5px;}}
+    .entry-choice h3 {{font-size:1rem;margin:0 0 6px;letter-spacing:-.01em;}}
+    .entry-choice p {{color:{p['muted']}!important;font-size:.84rem;line-height:1.45;margin:0;}}
+    .consulta-flow {{display:flex;gap:9px;margin:1rem 0 .85rem;}}
+    .flow-step {{flex:1;min-width:0;background:{p['surface']};border:1px solid {p['border']};border-radius:10px;padding:.65rem .75rem;}}
+    .flow-step strong {{display:block;color:{p['muted']};font-size:.79rem;margin-bottom:2px;}}
+    .flow-step span {{display:block;color:{p['muted']};font-size:.73rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}}
+    .flow-step.active {{background:{p['surface2']};}}
+    .flow-step.active strong {{color:{p['primary']};}}
+    .flow-step.active span {{color:{p['text']};}}
+    .flow-step.complete strong {{color:{p['green']};}}
+    @media(max-width:900px){{.block-container{{padding:.7rem .8rem 2rem}}.brand-main{{grid-template-columns:1fr;gap:10px}}.brand-copy{{border:0;border-top:1px solid {p['border']};border-bottom:1px solid {p['border']};padding:13px}}.brand-main .logo-pref,.brand-main .logo-project{{height:52px}}[data-testid="stMetricValue"],[data-testid="stMetricValue"]>div{{font-size:1.5rem!important;}}.consulta-flow{{flex-direction:column;gap:6px}}.flow-step span{{white-space:normal;}}}}
     </style>
     """, unsafe_allow_html=True)
+
+
+def habilitar_selecao_numerica():
+    """Seleciona o conteúdo dos campos numéricos ao receber foco.
+
+    Assim o usuário substitui diretamente ``0,00`` ou qualquer valor existente,
+    sem precisar posicionar o cursor no fim do campo.
+    """
+    components.html(
+        """
+        <script>
+        const documento = window.parent.document;
+        if (!documento.__salomaoSelecaoNumerica) {
+          documento.__salomaoSelecaoNumerica = true;
+          const ehNumero = (elemento) => elemento instanceof HTMLInputElement
+            && elemento.closest('[data-testid="stNumberInput"]');
+          const selecionar = (elemento) => window.setTimeout(() => {
+            if (documento.activeElement === elemento) elemento.select();
+          }, 0);
+          documento.addEventListener('focusin', (evento) => {
+            if (ehNumero(evento.target)) selecionar(evento.target);
+          }, true);
+          documento.addEventListener('click', (evento) => {
+            if (ehNumero(evento.target)) selecionar(evento.target);
+          }, true);
+        }
+        </script>
+        """,
+        height=0,
+    )
 
 
 def cabecalho(base_dir: Path):

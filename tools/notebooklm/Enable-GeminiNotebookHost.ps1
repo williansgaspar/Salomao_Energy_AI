@@ -10,7 +10,10 @@ function Get-UvNotebookLmPackageDirectory {
 
     if ([string]::IsNullOrWhiteSpace($ToolDirectory)) {
         $uv = Get-Command uv -ErrorAction Stop
-        $ToolDirectory = (& $uv.Source tool dir).Trim()
+        # uv emite códigos ANSI mesmo com stdout redirecionado; removê-los evita que
+        # sobrem em $ToolDirectory e quebrem o Join-Path subsequente.
+        $ansiPattern = [char]27 + '\[[0-9;]*m'
+        $ToolDirectory = ((& $uv.Source tool dir) -replace $ansiPattern, '').Trim()
     }
 
     $packageDirectory = Join-Path $ToolDirectory 'notebooklm-py\Lib\site-packages\notebooklm'
@@ -55,6 +58,16 @@ function Update-TextFile {
 $packageDirectory = Get-UvNotebookLmPackageDirectory -ToolDirectory $UvToolDirectory
 $envFile = Join-Path $packageDirectory '_env.py'
 $cookiePolicyFile = Join-Path $packageDirectory '_auth\cookie_policy.py'
+
+# A partir do notebooklm-py 0.8.x o upstream passou a suportar
+# notebook.google.com nativamente (PERSONAL_BASE_HOST), então o patch
+# abaixo (necessário só em versões antigas) fica obsoleto. Detectamos o
+# suporte nativo e pulamos o patch em vez de falhar por âncora ausente.
+$envContent = Get-Content -Raw -LiteralPath $envFile
+if ($envContent.Contains('PERSONAL_BASE_HOST = "notebook.google.com"')) {
+    Write-Host 'notebook.google.com já é suportado nativamente pelo notebooklm-py instalado; nenhum patch necessário.'
+    return
+}
 
 Update-TextFile -Path $envFile `
     -OldText 'ENTERPRISE_BASE_HOST = "notebooklm.cloud.google.com"' `
