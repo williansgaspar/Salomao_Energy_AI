@@ -51,16 +51,16 @@
   (Azure Container Apps). `README.md` do app e a estrutura de pastas foram atualizados
   para refletir essa revisão. `python -m pytest -q` (73/73) e
   `python scripts/run_quality_gate.py` seguem OK.
-- **Boletim diário parado.** `Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html` não é
-  modificado desde 22/07/2026 (43 dias corridos até 03/09/2026), apesar de `AGENTS.md`
-  descrever a tarefa agendada `briefing-seb-diario` (dias úteis, 07h10). `CronList` nesta
-  sessão — rodando na máquina `XPS_Willians`, não no mini PC "salomão" que hospeda a
-  operação de produção deste projeto (ver nota de infraestrutura) — não retornou nenhuma
-  tarefa agendada, o que é compatível tanto com a tarefa ter sido perdida na migração de
-  máquina quanto com ela simplesmente não ser visível a partir desta sessão. **Pendência:
-  confirmar em sessão aberta no mini PC "salomão" se `briefing-seb-diario` ainda existe
-  (`list_scheduled_tasks`) e, se não existir, recriá-la; enquanto isso, o protocolo de
-  vigência do `AGENTS.md` não pode se apoiar no boletim como atualizado.**
+- **Boletim diário descontinuado (resolvido 05/09/2026).** `Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html`
+  parou de ser modificado em 22/07/2026. Investigação por SSH direto no mini PC "salomão"
+  (que hospeda a produção deste projeto desde ~27/08/2026) confirmou: nenhuma tarefa
+  `briefing-seb-diario` em crontab/systemd, nenhum processo relacionado, e o próprio
+  repositório Salomao_Energy_AI nunca foi clonado nessa máquina — a tarefa rodava numa
+  máquina/sessão anterior, substituída antes de alguém recriá-la lá. Willians decidiu
+  **não recriar por ora** ("depois se necessário desenvolveremos algo") — ver
+  `AGENTS.md`, nota de arquitetura da seção "Mapa da base de conhecimento". O boletim
+  fica como registro histórico (até 22/07/2026); o protocolo de vigência do `AGENTS.md`
+  já foi ajustado para não tratá-lo como fonte atualizada.
 - A fila de triagem (`knowledge_base/triagem/fila_boletim.json`) não avançou desde 22/07
   pelo mesmo motivo — segue com os 26 links oficiais pendentes já registrados, sem
   contagem nova.

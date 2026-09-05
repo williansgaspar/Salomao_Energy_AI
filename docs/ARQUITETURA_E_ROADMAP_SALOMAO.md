@@ -115,15 +115,18 @@ forem disponibilizados.
   Entra ID + Azure Container Apps). Documentação própria do app (`README.md`,
   `REVISIONS.md`, `docs/publicacao_azure_entra.md`) já registrava a evolução; só este
   arquivo e o status operacional estavam defasados. Corrigido nesta data.
-- **Regressão de governança identificada:** a tarefa agendada `briefing-seb-diario`
-  (Ciclo 4, item "boletim integrado a fila de triagem") não gravou novidade em
-  `Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html` desde 22/07/2026. O Ciclo 4 foi
-  dado como implementado, mas depende de uma tarefa agendada externa ao repositório
-  Git — sem verificação periódica registrada em `docs/`, a regressão passou 6 semanas
-  sem detecção documental (só constava, de forma implícita, no estado `source_stale`
-  já observado em 22/07). Ver pendência detalhada em `STATUS_OPERACIONAL_SALOMAO_AI.md`.
-  Recomenda-se que o Ciclo 4 passe a incluir uma verificação explícita e datada da
-  última modificação do boletim como parte do quality gate ou de checagem periódica,
-  em vez de depender apenas da confiança na tarefa agendada.
+- **Regressão de governança identificada e encerrada (05/09/2026):** a tarefa agendada
+  `briefing-seb-diario` (Ciclo 4, item "boletim integrado a fila de triagem") não
+  gravava novidade em `Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html` desde
+  22/07/2026 — o Ciclo 4 foi dado como implementado, mas dependia de uma tarefa
+  agendada externa ao repositório Git, sem verificação periódica registrada em
+  `docs/`, e a regressão passou 6 semanas sem detecção documental. Investigação por
+  SSH no mini PC "salomão" confirmou que a tarefa não existe em máquina nenhuma
+  acessível hoje (rodava numa máquina anterior, substituída antes de ser recriada).
+  Willians decidiu não recriar por ora — ver detalhes em
+  `STATUS_OPERACIONAL_SALOMAO_AI.md`. Lição para o Ciclo 4, se/quando uma rotina
+  agendada for recriada: incluir uma verificação explícita e datada da última
+  modificação do boletim como parte do quality gate, em vez de depender apenas da
+  confiança na tarefa agendada.
 - Golden set e `knowledge_base/pareceres_anteriores/` seguem sem pareceres reais
   incorporados (nenhum fornecido para anonimização até esta data).

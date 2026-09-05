@@ -45,7 +45,7 @@ O SEB está em um momento de transformação normativa acelerada: a Lei 15.269, 
 
 Antes de afirmar que uma norma está vigente ou de citar um valor/regra específica:
 1. Verifique primeiro em `Legislacao/` (leis, decretos, resoluções ANEEL, portarias MME já baixados/catalogados — ver índice em `Legislacao/INDICE_Legislacao_SEB_Licitacoes.html`) e em `knowledge_base/normas/` (CCEE, REH, procedimentos de rede) se há um documento local sobre o tema.
-2. Consulte também `Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html` — boletim diário (dias úteis) de monitoramento de mercado/regulação, atualizado automaticamente às 07h10 (tarefa agendada `briefing-seb-diario`), cobrindo MME, ANEEL, ONS, CCEE, BBCE e mídia especializada — para o desenvolvimento mais recente sobre o tema.
+2. Consulte também `Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html` — boletim cumulativo de monitoramento de mercado/regulação (MME, ANEEL, ONS, CCEE, BBCE e mídia especializada), com entradas até 22/07/2026. **A tarefa agendada que o atualizava (`briefing-seb-diario`) foi DESCONTINUADA em 05/09/2026** (parou de rodar quando a máquina de produção foi trocada, ninguém recriou — decisão do Willians de não recriar por ora; ver nota de arquitetura abaixo) — trate o conteúdo como histórico, não como atualizado automaticamente, e não afirme que há monitoramento diário ativo.
 3. Se o tema for sensível a mudanças recentes (tarifas, MMGD, armazenamento, abertura de mercado, CDE) ou se não houver documento local, faça uma busca na web nas fontes oficiais antes de responder — não confie apenas em conhecimento de treinamento para esses temas.
 4. Sinalize ao usuário o nível de confiança (ex: "confirmado na base local", "verificado via busca em [fonte]", "não verificado — recomendo confirmar no texto oficial antes de usar em parecer").
 
@@ -64,10 +64,11 @@ Legislacao/                        — leis, decretos, RENs e portarias já baix
   INDICE_Legislacao_SEB_Licitacoes.html   — índice navegável de tudo o que está catalogado aqui
 
 Atualizacoes_Mercado/
-  Boletim_Atualizacoes_SEB.html    — boletim diário cumulativo (regulação/normas, mercado ACL/ACR, operação SIN, MMGD/novas
-                                      tecnologias, institucional/conjuntura), gerado pela tarefa agendada
-                                      `briefing-seb-diario` (dias úteis, 07h10, fontes: MME/ANEEL/ONS/CCEE/BBCE/mídia
-                                      especializada)
+  Boletim_Atualizacoes_SEB.html    — boletim cumulativo (regulação/normas, mercado ACL/ACR, operação SIN, MMGD/novas
+                                      tecnologias, institucional/conjuntura), com entradas até 22/07/2026. A tarefa
+                                      agendada que o gerava (`briefing-seb-diario`, dias úteis, 07h10, fontes:
+                                      MME/ANEEL/ONS/CCEE/BBCE/mídia especializada) foi DESCONTINUADA em 05/09/2026 —
+                                      arquivo parado, tratar como histórico
 
 knowledge_base/
   normas/
@@ -100,4 +101,6 @@ tools/
                                       Codex em 15/07/2026. Ver README.md na pasta para instruções de uso.
 ```
 
-**Nota de arquitetura (13/07/2026, atualizada 15/07/2026):** `Legislacao/` e `Atualizacoes_Mercado/` já existiam neste projeto (construídos em sessões anteriores) antes das skills e do `knowledge_base/` documentados aqui. Optou-se por preservá-los como estão — em vez de migrar seu conteúdo para dentro de `knowledge_base/normas/{leis,decretos,resolucoes_normativas_aneel,portarias_mme}/` — porque o índice de `Legislacao/` e o boletim já têm links internos apontando para essa estrutura, e a tarefa agendada de monitoramento já escreve nela em produção. Em 15/07/2026 a tarefa foi reconfigurada de semanal (`atualizao-semanal`, segundas 04h08) para diária em dias úteis (`briefing-seb-diario`, 07h10), com escopo de fontes explicitado (MME, ANEEL, ONS, CCEE, BBCE, mídia especializada) — ver prompt da tarefa via `list_scheduled_tasks`.
+**Nota de arquitetura (13/07/2026, atualizada 15/07/2026):** `Legislacao/` e `Atualizacoes_Mercado/` já existiam neste projeto (construídos em sessões anteriores) antes das skills e do `knowledge_base/` documentados aqui. Optou-se por preservá-los como estão — em vez de migrar seu conteúdo para dentro de `knowledge_base/normas/{leis,decretos,resolucoes_normativas_aneel,portarias_mme}/` — porque o índice de `Legislacao/` e o boletim já têm links internos apontando para essa estrutura, e a tarefa agendada de monitoramento já escreve nela em produção. Em 15/07/2026 a tarefa foi reconfigurada de semanal (`atualizao-semanal`, segundas 04h08) para diária em dias úteis (`briefing-seb-diario`, 07h10), com escopo de fontes explicitado (MME, ANEEL, ONS, CCEE, BBCE, mídia especializada).
+
+**Descontinuada em 05/09/2026:** uma reconciliação de documentação achou o boletim parado desde 22/07/2026 (43 dias). Investigação (sessão com acesso SSH ao Mini PC "salomão", que hospeda a produção deste projeto desde ~27/08/2026) confirmou que a tarefa não existe em lugar nenhum acessível hoje — nem crontab/systemd do Mini PC, nem `list_scheduled_tasks` de uma sessão ativa: o Mini PC foi montado do zero depois que o boletim já tinha parado, e o Salomao_Energy_AI nunca foi (re)clonado nele, então a tarefa rodava em outra máquina/sessão anterior que não existe mais. Willians decidiu **não recriar por ora** ("depois se necessário desenvolveremos algo") — a rotina de monitoramento fica desativada até nova decisão; `Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html` permanece como registro histórico (entradas até 22/07/2026), não como fonte atualizada.
