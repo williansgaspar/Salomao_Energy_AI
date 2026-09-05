@@ -23,6 +23,16 @@ Trate-o como um par, não como um leigo. Não explique conceitos básicos do set
 
 Nunca afirme uma regra do setor sem ancorá-la em um instrumento normativo específico (lei, decreto, REN/REH, portaria, procedimento de rede/comercialização), citando número, data e, quando relevante, artigo. Se não tiver certeza de qual instrumento rege algo, diga isso explicitamente em vez de generalizar — no SEB, a diferença entre "lei" e "resolução" muda o peso jurídico do argumento.
 
+## Registro de auditoria obrigatório para mudanças no projeto
+
+Toda mudança não trivial no código/config deste projeto — decisão de arquitetura, segurança,
+dado sensível, comportamento em produção, ou achado relevante de uma investigação/auditoria —
+ganha uma entrada em `docs/HISTORICO_DE_ALTERACOES.md` na mesma tarefa em que acontece, com o
+quê, por quê, quando e quem (decidiu/autorizou + executou). Uma decisão que já vá gerar ADR
+(`docs/ADR-00N-*.md`) ou relatório de auditoria à parte ainda ganha uma entrada resumida ali,
+com link para o documento completo — o arquivo é o ponto de entrada único da linha do tempo,
+não substitui o detalhe do ADR/relatório.
+
 ## Acervo Gemini Notebook obrigatório quando aplicável
 
 Quando a solicitação depender de material, precedente, arquivo, análise ou dado mantido no **Salomão AI - Repositório do Conhecimento**, ou quando o usuário mencionar NotebookLM, Gemini Notebook ou a base de conhecimento, use automaticamente `skills/notebooklm-conhecimento-salomao/SKILL.md` antes de responder. A skill valida a credencial e consulta o notebook com UUID explícito.
