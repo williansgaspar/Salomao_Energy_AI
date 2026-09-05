@@ -1,7 +1,7 @@
 # Arquitetura e roadmap do Salomão
 
 **Status:** ciclos 1–4 implementados; evolução contínua
-**Data:** 19/07/2026  
+**Data:** 19/07/2026 (última reconciliação: 03/09/2026 — ver §8)  
 **Objetivo:** transformar o acervo atual em um agente técnico-regulatório rastreável, atualizável e testável.
 
 ## 1. Diagnóstico executivo
@@ -105,3 +105,25 @@ Executar primeiro o Ciclo 1 e, em seguida, modelar o catálogo normativo com um 
 Próxima evolução: revisar os 26 links oficiais da fila, monitorar alterações de versão
 dos PdC da CCEE já confirmados e incorporar pareceres reais anonimizados à medida que
 forem disponibilizados.
+
+## 8. Reconciliação em 03/09/2026
+
+- `tools/consulta_tarifas_aneel/` (fora do escopo direto do núcleo normativo, mas parte
+  do projeto) evoluiu sem correspondência neste documento entre 25/07 e 30/08/2026: a
+  Revisão 18 acrescentou módulos de bandeiras tarifárias, componentes homologadas,
+  enquadramento e simulação SCEE/MMGD, e um caminho de publicação privada (Microsoft
+  Entra ID + Azure Container Apps). Documentação própria do app (`README.md`,
+  `REVISIONS.md`, `docs/publicacao_azure_entra.md`) já registrava a evolução; só este
+  arquivo e o status operacional estavam defasados. Corrigido nesta data.
+- **Regressão de governança identificada:** a tarefa agendada `briefing-seb-diario`
+  (Ciclo 4, item "boletim integrado a fila de triagem") não gravou novidade em
+  `Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html` desde 22/07/2026. O Ciclo 4 foi
+  dado como implementado, mas depende de uma tarefa agendada externa ao repositório
+  Git — sem verificação periódica registrada em `docs/`, a regressão passou 6 semanas
+  sem detecção documental (só constava, de forma implícita, no estado `source_stale`
+  já observado em 22/07). Ver pendência detalhada em `STATUS_OPERACIONAL_SALOMAO_AI.md`.
+  Recomenda-se que o Ciclo 4 passe a incluir uma verificação explícita e datada da
+  última modificação do boletim como parte do quality gate ou de checagem periódica,
+  em vez de depender apenas da confiança na tarefa agendada.
+- Golden set e `knowledge_base/pareceres_anteriores/` seguem sem pareceres reais
+  incorporados (nenhum fornecido para anonimização até esta data).

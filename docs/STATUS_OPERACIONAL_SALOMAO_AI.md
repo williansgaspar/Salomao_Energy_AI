@@ -41,3 +41,29 @@
   oficial; não deve ser citada pelo núcleo.
 - Foi criada a entrada controlada para casos reais anonimizados de avaliação. Nenhum caso
   real foi incorporado sem fornecimento e revisão do responsável técnico.
+
+## Atualização operacional — 03/09/2026
+
+- Reconciliação de defasagem: este documento e `ARQUITETURA_E_ROADMAP_SALOMAO.md` estavam
+  parados desde 21-22/07/2026 enquanto `tools/consulta_tarifas_aneel/` evoluiu até a
+  Revisão 18 (commit de 30/08/2026) — módulos de bandeiras tarifárias, componentes
+  homologadas, enquadramento SCEE/MMGD e publicação privada via Microsoft Entra ID
+  (Azure Container Apps). `README.md` do app e a estrutura de pastas foram atualizados
+  para refletir essa revisão. `python -m pytest -q` (73/73) e
+  `python scripts/run_quality_gate.py` seguem OK.
+- **Boletim diário parado.** `Atualizacoes_Mercado/Boletim_Atualizacoes_SEB.html` não é
+  modificado desde 22/07/2026 (43 dias corridos até 03/09/2026), apesar de `AGENTS.md`
+  descrever a tarefa agendada `briefing-seb-diario` (dias úteis, 07h10). `CronList` nesta
+  sessão — rodando na máquina `XPS_Willians`, não no mini PC "salomão" que hospeda a
+  operação de produção deste projeto (ver nota de infraestrutura) — não retornou nenhuma
+  tarefa agendada, o que é compatível tanto com a tarefa ter sido perdida na migração de
+  máquina quanto com ela simplesmente não ser visível a partir desta sessão. **Pendência:
+  confirmar em sessão aberta no mini PC "salomão" se `briefing-seb-diario` ainda existe
+  (`list_scheduled_tasks`) e, se não existir, recriá-la; enquanto isso, o protocolo de
+  vigência do `AGENTS.md` não pode se apoiar no boletim como atualizado.**
+- A fila de triagem (`knowledge_base/triagem/fila_boletim.json`) não avançou desde 22/07
+  pelo mesmo motivo — segue com os 26 links oficiais pendentes já registrados, sem
+  contagem nova.
+- As RENs ANEEL nº 1.012/2022, nº 1.110/2024, nº 1.154/2026 e nº 1.000/2021 continuam
+  como `pending_official_check` em `knowledge_base/catalogo_normativo/inventario_entrada.json`,
+  sem promoção ao catálogo canônico.

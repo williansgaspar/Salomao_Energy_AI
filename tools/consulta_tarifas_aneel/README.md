@@ -2,7 +2,7 @@
 
 Aplicativo para consulta, simulação, comparação e análise histórica das tarifas de aplicação das distribuidoras publicadas na API de Dados Abertos da ANEEL.
 
-Versão atual: **Revisão 17 (20/07/2026)**. O histórico está em [REVISIONS.md](REVISIONS.md) e a metodologia em [docs/metodologia.md](docs/metodologia.md).
+Versão atual: **Revisão 18 (29/07/2026)**. O histórico está em [REVISIONS.md](REVISIONS.md), a metodologia em [docs/metodologia.md](docs/metodologia.md) e o roteiro de publicação privada em [docs/publicacao_azure_entra.md](docs/publicacao_azure_entra.md).
 
 ## Funcionalidades
 
@@ -20,6 +20,10 @@ Versão atual: **Revisão 17 (20/07/2026)**. O histórico está em [REVISIONS.md
 - Leitura local de fatura Light Grupo A em PDF ou imagem, com OCR, conversão kWh→MWh, retirada de PIS/COFINS e ICMS, conferência manual e reconciliação TE/TUSD com a composição ANEEL.
 - Histórico visual de TE/TUSD.
 - Exportações CSV, XLSX e PDF com metadados da fonte.
+- Bandeira tarifária mensal: sugestão automática pelo histórico oficial de acionamento da ANEEL (por competência), seleção manual entre bandeiras já apuradas ou informação de um adicional avulso; o valor integra a conta ACR de referência.
+- Cenário SCEE/MMGD para Grupo B: parâmetros legais de transição do Fio B (arts. 26 e 27 da Lei nº 14.300/2022, GD I/II/III) aplicados sobre a tarifa B3 vigente, com desconto e ajustes financeiros informáveis; a classificação do subgrupo só seleciona o simulador — não atesta adesão ao SCEE.
+- Leitura das componentes tarifárias homologadas publicadas pela ANEEL (datasets 2023-2026), complementar à consulta de tarifas de aplicação.
+- Publicação privada opcional: autenticação Microsoft Entra ID (OIDC) com lista de e-mails autorizados, para o ambiente hospedado — o uso local segue aberto por padrão. Ver [docs/publicacao_azure_entra.md](docs/publicacao_azure_entra.md).
 
 ## Instalação e execução
 
@@ -47,15 +51,19 @@ consulta_tarifas_aneel/
 ├── consulta_tarifas_aneel.py   # CLI
 ├── aneel_api.py                # cliente CKAN legado compatível com o CLI
 ├── src/
-│   ├── aneel/                  # repositório/fachada da fonte
-│   ├── domain/                 # vigência, composição e cálculos
+│   ├── aneel/                  # repositório/fachada da fonte (tarifas, bandeiras, componentes)
+│   ├── domain/                 # vigência, composição, cálculos, enquadramento A/B, preenchimento e SCEE
 │   ├── exports/                # XLSX e PDF
 │   └── ui/                     # tema e componentes comuns
 ├── tests/                      # testes unitários
 ├── docs/metodologia.md
+├── docs/publicacao_azure_entra.md  # roteiro de publicação privada (Azure Container Apps + Entra ID)
 ├── revisions/                  # versões históricas da interface
 ├── assets/
-└── .streamlit/config.toml
+├── Dockerfile                  # imagem para publicação
+├── docker-entrypoint.sh        # entrada segura em container
+├── .streamlit/config.toml
+└── .streamlit/secrets.example.toml  # modelo de segredos; não versionar o secrets.toml real
 ```
 
 ## API
