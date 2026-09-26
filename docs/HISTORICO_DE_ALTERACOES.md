@@ -32,6 +32,24 @@ pelo menos o resumo com quem/por quê/quando e o link para o documento completo.
 
 ---
 
+## 2026-09-26
+
+### Alteração (segurança) — Credenciais no cofre Bitwarden; assinatura de commits fica desligada neste repositório
+- **O que:** o Willians passou a usar o cofre **Bitwarden** (2FA duplo) para chaves SSH e
+  senhas, e os commits feitos no XPS passaram a ser **assinados** (`commit.gpgsign=true`
+  global, chave SSH do cofre, e-mail privado do GitHub). **Neste repositório** a assinatura
+  ficou **desligada** (`commit.gpgsign=false` e `tag.gpgsign=false` na config local), para
+  preservar a identidade própria "Salomao Energy AI" (`salomao-energy-ai@local.invalid`), que
+  não é conta do GitHub e apareceria como "não verificada". O fluxo de commits daqui não muda.
+- **Por quê:** auditoria de autoria no ecossistema (sistema de órgão público); aqui a identidade
+  do agente é deliberada.
+- **Quando:** 2026-09-26.
+- **Quem:** Willians Gaspar (decisão), via Claude Code.
+- **Referência:** `16_Plataforma_App/SEGURANCA_CREDENCIAIS.md` (inventário completo de
+  credenciais, cofre e procedimento de emergência) e `16_Plataforma_App/HISTORICO_DE_ALTERACOES.md`
+  (26/09/2026). Contexto do mesmo dia: a produção do 16_Plataforma_App migrou da AWS para a
+  Oracle Cloud (`DEPLOY_VPS_ORACLE.md` daquele repositório).
+
 ## 2026-09-05
 
 ### Adição — Este arquivo (prática de auditoria)
