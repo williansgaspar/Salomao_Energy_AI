@@ -32,6 +32,26 @@ pelo menos o resumo com quem/por quê/quando e o link para o documento completo.
 
 ---
 
+## 2026-09-27
+
+### Alteração (infraestrutura) — Repositório sai do OneDrive e passa a morar em `C:\dev\Salomao_Energy_AI`
+- **O que:** cópia integral da pasta (incluindo `.git`, `secrets.toml` do app de tarifas,
+  `.claude/`, `.codex/`, `evals/resultados/` e `tmp/`; sem `__pycache__`, logs e `.pid`) de
+  `OneDrive - OnEnergy\0 PCRJ_PEE\Meta_2026_...\Projects\Salomao_Energy_AI` para
+  `C:\dev\Salomao_Energy_AI`, fora de qualquer pasta sincronizada. Validação: `git fsck` sem
+  erro, mesmo HEAD (`5a859c0`) e mesma `main` local (`557ee05`, que não existe no GitHub),
+  `git fetch` funcionando e 81 testes aprovados no novo local. O `CLAUDE.md` da pasta
+  `Meta_2026_...` foi copiado para `C:\dev\CLAUDE.md` para continuar sendo carregado.
+- **Por quê:** problema de armazenamento no OneDrive (tenant x2p34) levou à migração dos
+  arquivos para o Google Drive desktop (streaming); repositório git dentro de pasta
+  sincronizada arrisca conflito e corrupção do `.git`. Executa a ação P2 de
+  `docs/PLANO_ORGANIZACAO_IA_2026-07-25.md`.
+- **Quando:** 2026-09-27.
+- **Quem:** Willians Gaspar (decisão), via Claude Code (execução).
+- **Referência:** este commit. A cópia antiga no OneDrive e a cópia em
+  `G:\Meu Drive\OnEnergy\...` ficam congeladas como rollback; ambas ainda contêm o
+  `secrets.toml` (pendência P0 do plano: retirar segredos de área sincronizada).
+
 ## 2026-09-26
 
 ### Alteração (segurança) — Credenciais no cofre Bitwarden; assinatura de commits fica desligada neste repositório

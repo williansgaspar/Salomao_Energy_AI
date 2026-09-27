@@ -65,7 +65,7 @@ O repositório Git deve permanecer em disco local fora do OneDrive. O Git remoto
 | P0 | Retirar segredos de área sincronizada e validar rotação, se aplicável | sem expor o valor da credencial |
 | P1 | Definir a relação fonte/publicação da aplicação tarifária | antes de remover qualquer cópia |
 | P1 | Criar a pasta de portfólio e cadastrar os candidatos já identificados | após confirmar o destino institucional do portfólio |
-| P2 | Transferir uma cópia validada do repositório para fora do OneDrive | com Git limpo, testes aprovados e rollback disponível |
+| P2 | ~~Transferir uma cópia validada do repositório para fora do OneDrive~~ **Executado em 2026-09-27** → `C:\dev\Salomao_Energy_AI` (ver `HISTORICO_DE_ALTERACOES.md`) | com Git limpo, testes aprovados e rollback disponível |
 | P2 | Reorganizar `docs/` em corrente, decisões e histórico | após atualizar os links internos |
 | P3 | Arquivar ou encerrar projetos sem objetivo, responsável e próxima revisão | somente após aprovação explícita |
 
