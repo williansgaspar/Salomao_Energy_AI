@@ -1,0 +1,21 @@
+# EditorConfig: mesmas regras para o VS Code, o Claude Code e qualquer outro editor (2026-10-03).
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{ts,tsx,js,jsx,mjs,json,yml,yaml,css,html}]
+indent_size = 2
+
+# Markdown: espaços no fim da linha podem ser quebra de linha; não apagar.
+[*.md]
+trim_trailing_whitespace = false
+
+# Scripts de Windows aceitam LF, mas .bat/.cmd/.ps1 ficam como estão no repositório.
+[*.{bat,cmd}]
+end_of_line = crlf
