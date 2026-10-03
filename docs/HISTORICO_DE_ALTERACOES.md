@@ -32,6 +32,21 @@ pelo menos o resumo com quem/por quê/quando e o link para o documento completo.
 
 ---
 
+## 2026-10-03
+
+### Adição — Padrão geral do VS Code (`docs/PADRAO_VSCODE.md`) e `.vscode/extensions.json`
+
+| Campo | Conteúdo |
+|---|---|
+| Tipo | Adição / Exclusão (ambiente de desenvolvimento; sem efeito nos dados do Salomão) |
+| O que | Criado `docs/PADRAO_VSCODE.md` (extensões essenciais e removidas, ferramentas de sistema, configurações globais, manutenção) e `.vscode/extensions.json`. Removidas 27 extensões sem uso (Oracle, Fabric/Power BI, SQL Server, C/C++, temas redundantes); instaladas 16 (Ruff, PostgreSQL, GitLens, Jupyter, markdownlint, cSpell pt-BR, ESLint, Prettier, Tailwind, Playwright etc.). `settings.json` do usuário ajustado (UTF-8/LF, formatação só das linhas modificadas, cSpell com glossário do setor). Instalados no sistema: ruff, pre-commit, ipykernel, pandoc, uv, DBeaver. |
+| Por quê | Pedido do Willians: padronizar o ambiente entre máquinas e projetos. `psql` 17 (winget) foi bloqueado pelo Smart App Control (binário sem assinatura); a política não foi contornada. Depois o Willians baixou o instalador oficial 18.6: `psql` e `pg_dump` rodam, `pg_restore` segue bloqueado (usar via container). Correção: o laptop é de propriedade particular do Willians, não equipamento público. |
+| Quando | 2026-10-03 |
+| Quem | Willians Gaspar (autorizou), via Claude Code (execução) |
+| Referência | `docs/PADRAO_VSCODE.md`; `16_Plataforma_App/HISTORICO_DE_ALTERACOES.md` (entrada de mesma data) |
+
+---
+
 ## 2026-09-27
 
 ### Alteração (infraestrutura) — Repositório sai do OneDrive e passa a morar em `C:\dev\Salomao_Energy_AI`
