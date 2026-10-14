@@ -1,0 +1,1519 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fluxo DEVEC — ICMS energia ACL (RJ)</title>
+<style>
+:root{
+  --bg0:#060a13; --bg1:#0c1322; --node:#101a2e; --ink:#e8eefc; --mute:#8b9bb8; --line:rgba(140,170,220,.2);
+  --glass:rgba(13,20,36,.78); --accent:#38bdf8; --accent2:#818cf8; --amber:#f5a524; --edge:#5d708f; --edge-on:#38bdf8;
+  --band-a:rgba(255,255,255,.012); --band-b:rgba(255,255,255,.04); --grid:rgba(120,160,220,.16);
+  --warn-bg:rgba(245,165,36,.12); --warn-ink:#f3cf8a; --shadow:0 20px 60px rgba(0,0,0,.55);
+  --ok:#22b07d; --bad:#e0556b;
+}
+@media (prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){
+    --bg0:#eef2f9; --bg1:#e2e9f5; --node:#ffffff; --ink:#0f1b33; --mute:#51607d; --line:rgba(30,60,110,.2);
+    --glass:rgba(255,255,255,.86); --accent:#0369a1; --accent2:#4f46e5; --amber:#b45309; --edge:#7a8aa6; --edge-on:#0369a1;
+    --band-a:rgba(20,40,90,.02); --band-b:rgba(20,40,90,.06); --grid:rgba(30,60,110,.14);
+    --warn-bg:#fff6e0; --warn-ink:#7a5200; --shadow:0 20px 50px rgba(20,40,90,.25);
+    --ok:#16875e; --bad:#c23a52;
+  }
+}
+:root[data-theme="light"]{
+  --bg0:#eef2f9; --bg1:#e2e9f5; --node:#ffffff; --ink:#0f1b33; --mute:#51607d; --line:rgba(30,60,110,.2);
+  --glass:rgba(255,255,255,.86); --accent:#0369a1; --accent2:#4f46e5; --amber:#b45309; --edge:#7a8aa6; --edge-on:#0369a1;
+  --band-a:rgba(20,40,90,.02); --band-b:rgba(20,40,90,.06); --grid:rgba(30,60,110,.14);
+  --warn-bg:#fff6e0; --warn-ink:#7a5200; --shadow:0 20px 50px rgba(20,40,90,.25);
+  --ok:#16875e; --bad:#c23a52;
+}
+*{box-sizing:border-box}
+html{font-size:13px}
+@media (max-height:640px){html{font-size:12px}}
+html,body{margin:0;height:100%;overflow:hidden}
+body{background:var(--bg0);color:var(--ink);font:1rem/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+button,input,summary{font:inherit;color:inherit}
+#stage{position:fixed;inset:0;cursor:grab;touch-action:none;
+  background:
+    radial-gradient(1200px 700px at 20% -10%, color-mix(in srgb,var(--accent2) 16%,transparent), transparent 60%),
+    radial-gradient(900px 600px at 100% 110%, color-mix(in srgb,var(--accent) 12%,transparent), transparent 60%),
+    radial-gradient(circle, var(--grid) 1.1px, transparent 1.3px) var(--gx,0px) var(--gy,0px) / var(--gs,40px) var(--gs,40px),
+    linear-gradient(180deg,var(--bg1),var(--bg0));}
+#stage.drag{cursor:grabbing}
+svg#svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+/* ---- topo ---- */
+#top{position:fixed;left:0;right:0;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;justify-content:space-between;padding:7px 12px 14px;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--bg0) 92%,transparent) 55%,transparent);pointer-events:none}
+#top>*{pointer-events:auto}
+.brand b{display:block;font-size:.98rem;letter-spacing:-.01em;line-height:1.2}
+.brand span{display:block;color:var(--mute);font-size:.68rem;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:min(56vw,560px)}
+.ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--glass);backdrop-filter:blur(8px)}
+.seg button{background:transparent;border:0;padding:5px 10px;cursor:pointer;font-size:.78rem;color:var(--mute)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#04121c;font-weight:600}
+.btn,.menu summary{background:var(--glass);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:9px;padding:5px 10px;cursor:pointer;font-size:.78rem;list-style:none}
+.btn:hover,.menu summary:hover{border-color:var(--accent)}
+.btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#03101a;border-color:transparent;font-weight:600}
+.btn[aria-pressed="true"]{background:var(--accent);color:#04121c;border-color:transparent;font-weight:600}
+.menu{position:relative}.menu summary::-webkit-details-marker{display:none}
+.menu .pop{position:absolute;right:0;top:calc(100% + 6px);background:var(--glass);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:grid;gap:8px;min-width:280px;box-shadow:var(--shadow)}
+.chk{display:flex;gap:8px;align-items:center;font-size:.85rem;cursor:pointer}.chk input{accent-color:var(--accent);width:16px;height:16px}
+input[type=search]{background:var(--glass);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:9px;padding:5px 9px;font-size:.78rem;width:150px;outline:none}
+input[type=search]:focus{border-color:var(--accent)}
+/* ---- rodapé ---- */
+#bottom{position:fixed;left:0;right:0;bottom:0;z-index:15;padding:12px 12px 7px;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;justify-content:center;
+  background:linear-gradient(0deg,color-mix(in srgb,var(--bg0) 92%,transparent) 55%,transparent);pointer-events:none}
+#bottom>*{pointer-events:auto}
+.chip{border:1px solid var(--c);background:color-mix(in srgb,var(--c) 14%,var(--glass));backdrop-filter:blur(8px);border-radius:999px;padding:2px 9px;font-size:.7rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--c);color:#04121c;font-weight:600}
+.hint{color:var(--mute);font-size:.66rem;flex-basis:100%;text-align:center;line-height:1.2}
+@media (max-height:660px){.hint{display:none}}
+.f1{--c:#4f8cff}.f2{--c:#9b6bff}.f3{--c:#19b3c8}.f4{--c:#22b07d}.f5{--c:#d6a51a}.f6{--c:#ee7a4b}.f7{--c:#d6558f}.f8{--c:#39a0a0}.f9{--c:#7d8896}
+/* ---- mundo SVG ---- */
+.band-a{fill:var(--band-a)}.band-b{fill:var(--band-b)}
+.lane-t{fill:var(--ink);font-size:15px;font-weight:600}.lane-s{fill:var(--mute);font-size:11.5px}
+.fase-barra{cursor:grab}
+.fase-barra.arrastando{cursor:grabbing}
+.fase-barra.arrastando rect{filter:drop-shadow(0 6px 14px rgba(0,0,0,.5))}
+.ico-decisao{cursor:grab;pointer-events:auto}
+.ico-decisao.arrastando{cursor:grabbing}
+.ico-decisao.arrastando circle{filter:drop-shadow(0 4px 10px rgba(0,0,0,.5))}
+.fase-barra rect{fill:color-mix(in srgb,var(--c) 26%,transparent);stroke:color-mix(in srgb,var(--c) 60%,transparent);stroke-width:1}
+.fase-barra text{fill:var(--ink);font-size:15px;font-weight:600}
+.lane-resize{fill:transparent;cursor:row-resize}
+.lane-resize:hover{fill:color-mix(in srgb,var(--accent) 26%,transparent)}
+.aresta{fill:none;stroke:var(--edge);stroke-width:1.6;transition:opacity .35s,stroke .3s}
+.aresta.volta{stroke-dasharray:6 5}
+.aresta.on{stroke:var(--edge-on);stroke-width:2.2;stroke-dasharray:9 8;animation:flow .9s linear infinite}
+.aresta.on.volta{stroke-dasharray:9 8}
+.aresta.sel-del{stroke:var(--bad);stroke-width:3}
+/* ---- modo edição (Visio-like): excluir/criar etapas e conectores ---- */
+.aresta-hit{fill:none;stroke:transparent;stroke-width:22;pointer-events:none}
+svg.modo-edicao .aresta-hit{pointer-events:stroke;cursor:pointer}
+.connect-handle{fill:var(--accent);stroke:var(--bg1);stroke-width:2;opacity:0;pointer-events:none;transition:opacity .15s}
+/* Sempre visível/clicável no modo edição (não só no hover) — num losango a
+   alça fica bem na ponta, quase sem área pra "passar o mouse por cima do
+   nó" acender ela (achado do Willians, 22/09/26: não conseguia arrastar). */
+svg.modo-edicao .connect-handle{opacity:.85;pointer-events:all;cursor:crosshair}
+svg.modo-edicao .connect-handle:hover{opacity:1;r:8}
+.conectando-preview{stroke:var(--accent);stroke-width:2;stroke-dasharray:5 4;pointer-events:none}
+svg.modo-edicao .no.sel .corpo{stroke:var(--bad)}
+@keyframes flow{to{stroke-dashoffset:-17}}
+.aresta-lbl{fill:var(--mute);font-size:11.5px;paint-order:stroke;stroke:var(--bg1);stroke-width:4px;stroke-linejoin:round;opacity:0;transition:opacity .3s;pointer-events:none}
+svg.z .aresta-lbl{opacity:.9}.aresta-lbl.on{opacity:1!important;fill:var(--ink)}
+svg.focus .aresta-lbl:not(.on){opacity:.12}
+.no{cursor:grab;transition:opacity .35s,filter .35s}
+.no.arrastando{cursor:grabbing;transition:none}
+.no.arrastando .corpo{filter:drop-shadow(0 6px 14px rgba(0,0,0,.5))}
+.no .corpo{fill:color-mix(in srgb,var(--c) 15%,var(--node));stroke:var(--c);stroke-width:1.5;transition:stroke-width .2s,filter .25s}
+.no.decisao .corpo{stroke-dasharray:5 4;fill:color-mix(in srgb,var(--c) 24%,var(--node));animation:pulse 3.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{stroke-opacity:.6}50%{stroke-opacity:1}}
+.no.fim .corpo{fill:color-mix(in srgb,var(--c) 70%,var(--node))}
+.no.fim text.t{fill:#fff}
+.no text.t{fill:var(--ink);font-size:13px;pointer-events:none}
+.no:hover .corpo,.no:focus-visible .corpo{stroke-width:2.6;filter:drop-shadow(0 0 8px color-mix(in srgb,var(--c) 70%,transparent))}
+.no:focus{outline:none}
+.no.sel .corpo{stroke-width:3.4;filter:drop-shadow(0 0 16px var(--c))}
+.no.dim{opacity:.16;filter:blur(1.1px)}
+.no.nb{opacity:.6}
+.aresta.dim{opacity:.1}
+.badge-i circle{fill:var(--c)}.badge-i text{fill:#04121c;font-size:11px;font-weight:700}
+.badge-p circle{fill:none;stroke:var(--mute);stroke-width:1.5}.badge-p path{stroke:var(--mute);stroke-width:1.5;fill:none}
+.io-cluster rect{fill:color-mix(in srgb,var(--node) 60%,transparent);stroke:var(--mute);stroke-width:1;stroke-dasharray:2.5 2}
+.ic-db{color:var(--accent)}.ic-doc{color:var(--accent2)}
+svg.ov .badge-i{transform:scale(1.9);transform-box:fill-box;transform-origin:center}
+svg.ov .no text.t{font-size:15px}
+/* ---- entrada ---- */
+svg.enter .no{animation:pop .55s cubic-bezier(.2,.8,.2,1) both;animation-delay:var(--d)}
+/* Compõe com o translate(x,y) do próprio nó (posição arrastável) — sem
+   isso o "transform:none" da animação sobrescreveria a posição. */
+@keyframes pop{from{opacity:0;transform:translate(var(--tx),var(--ty)) scale(.85)}to{opacity:1;transform:translate(var(--tx),var(--ty)) scale(1)}}
+svg.enter .no{transform-box:fill-box;transform-origin:center}
+svg.enter .aresta:not(.volta){stroke-dasharray:var(--len);animation:draw .9s ease both;animation-delay:var(--d)}
+@keyframes draw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:0}}
+svg.enter .aresta.volta{animation:fade .7s ease both;animation-delay:var(--d)}
+svg.enter .aresta{marker-end:none}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+/* ---- cartão ---- */
+#card{position:fixed;z-index:25;top:calc(var(--topH,52px) + 4px);right:12px;bottom:calc(var(--botH,40px) + 4px);width:400px;max-width:calc(100vw - 24px);display:flex;flex-direction:column;
+  background:var(--glass);backdrop-filter:blur(16px) saturate(1.2);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);
+  transform:translateX(calc(100% + 24px));opacity:0;transition:transform .5s cubic-bezier(.2,.8,.2,1),opacity .35s;overflow:hidden}
+#card.open{transform:none;opacity:1}
+#card.min{bottom:auto}
+#card.min .card-body>*:not(h2):not(.ator-banner){display:none}
+#card.min .prog{display:none}
+@media (max-width:1100px){#card{width:min(340px,46vw)}}
+.card-head{display:flex;align-items:center;justify-content:space-between;padding:6px 8px 6px 14px;border-bottom:1px solid var(--line)}
+.step{font-size:.66rem;color:var(--mute);letter-spacing:.06em;text-transform:uppercase}
+.nav{display:flex;gap:6px}
+.nav button{background:transparent;border:1px solid var(--line);border-radius:7px;width:26px;height:24px;cursor:pointer;font-size:.8rem;line-height:1;padding:0}
+.nav button:disabled{opacity:.35;cursor:default}
+.nav button:hover{border-color:var(--accent);color:var(--accent)}
+.prog{height:3px;background:transparent}.prog i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.prog.on i{animation:prog var(--dur,11s) linear forwards}
+@keyframes prog{to{width:100%}}
+.card-body{padding:10px 14px 14px;overflow:auto;font-size:.86rem;line-height:1.42}
+.card-body h2{font-size:1.02rem;margin:0 0 6px;line-height:1.28;letter-spacing:-.01em}
+.btn-editar-texto{background:transparent;border:0;cursor:pointer;font-size:.85em;opacity:.7;vertical-align:1px}
+.btn-editar-texto:hover{opacity:1}
+.edita-texto{margin:0 0 10px}
+.edita-texto input{width:100%;background:var(--bg1);color:var(--ink);border:1px solid var(--accent);border-radius:8px;padding:7px 9px;font-size:.92rem;outline:none;box-sizing:border-box}
+.edita-botoes{display:flex;gap:6px;margin-top:6px}
+.card-body h3{font-size:.64rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mute);margin:12px 0 4px}
+.card-body p{margin:0 0 6px}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+.tag{font-size:.64rem;padding:1px 8px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
+.tag.fase{border-color:var(--c);background:color-mix(in srgb,var(--c) 18%,transparent);color:var(--ink)}
+.prazo{background:color-mix(in srgb,var(--accent) 12%,transparent);border-left:3px solid var(--accent);padding:8px 10px;border-radius:6px;font-size:.84rem}
+.aviso{background:var(--warn-bg);border-left:3px solid var(--amber);color:var(--warn-ink);padding:6px 9px;border-radius:6px;font-size:.82rem}
+ul.base{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+ul.base li{border:1px solid var(--line);border-radius:8px;padding:5px 8px;font-size:.78rem;line-height:1.38}
+ul.base .ref{font-weight:600}
+.k{display:inline-block;font-size:.6rem;font-weight:700;padding:1px 7px;border-radius:5px;margin-right:6px;color:#fff;vertical-align:1px}
+.k-sis{background:#2563eb}.k-doc{background:#0f8a6a}.k-prz{background:#b5651d}.k-ext{background:#a3479a}.k-norm{background:#7a6a8a}
+/* ---- minimapa ---- */
+#mini{position:fixed;left:12px;bottom:calc(var(--botH,40px) + 8px);z-index:15;transition:opacity .4s;width:150px;border:1px solid var(--line);border-radius:10px;background:var(--glass);backdrop-filter:blur(8px);overflow:hidden;cursor:pointer}
+#mini svg{display:block;width:100%;height:auto}
+#mini.off{opacity:0;pointer-events:none}
+#mv{fill:color-mix(in srgb,var(--accent) 14%,transparent);stroke:var(--accent);stroke-width:14}
+/* ---- ator, trilha, linha do tempo ---- */
+.menu .pop .btn{width:100%;text-align:left}
+.pop-sep{height:1px;background:var(--line);margin:2px 0}
+.chk.lbl{justify-content:space-between}
+.chk.lbl select{background:var(--bg1);color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:3px 6px;font-size:.78rem}
+#ator-pop{min-width:260px;max-height:70vh;overflow:auto}
+.ator-b{display:flex;gap:8px;align-items:center;width:100%;text-align:left;background:transparent;border:1px solid var(--line);border-radius:8px;padding:5px 8px;cursor:pointer;font-size:.78rem}
+.ator-b small{display:block;color:var(--mute);font-size:.66rem}
+.ator-b[aria-pressed="true"]{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent)}
+.ator-linha{display:flex;align-items:center;gap:4px}
+.ator-linha .ator-b{flex:1}
+.ator-edit{display:flex;flex-direction:column;gap:6px;border:1px solid var(--accent);border-radius:8px;padding:8px}
+.ator-edit input{background:var(--bg1);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 8px;font-size:.78rem;outline:none;box-sizing:border-box}
+.ator-edit input:focus{border-color:var(--accent)}
+.band-a,.band-b{transition:fill .3s}
+.band-a.lane-on,.band-b.lane-on{fill:color-mix(in srgb,var(--accent) 13%,transparent)}
+.lane-t,.lane-s{cursor:pointer}
+.lane-t.lane-on{fill:var(--accent)}
+.ator-banner{margin:0 0 8px;padding:6px 9px;border-radius:8px;background:color-mix(in srgb,var(--accent) 11%,transparent);border-left:3px solid var(--accent)}
+.ator-banner small{display:block;font-size:.58rem;letter-spacing:.09em;text-transform:uppercase;color:var(--mute)}
+.ator-banner b{display:block;font-size:.92rem;line-height:1.2}
+.ator-banner em{display:block;font-style:normal;font-size:.7rem;color:var(--mute)}
+.ator-banner select{display:block;width:100%;background:var(--bg1);color:var(--ink);border:1px solid var(--accent);border-radius:6px;padding:4px 6px;font-size:.86rem;font-weight:600;margin:2px 0;outline:none}
+#atag{pointer-events:none}
+#atag rect{fill:var(--accent);filter:drop-shadow(0 2px 6px rgba(0,0,0,.4))}
+#atag text{fill:#04121c;font-size:12px;font-weight:700}
+#trilha{display:flex;align-items:center;justify-content:center;gap:10px;flex-basis:100%;min-height:15px}
+.tr-txt{font-size:.68rem;color:var(--mute);white-space:nowrap}
+.tr-dots{display:flex;align-items:center;gap:3px}
+.tr-d{width:9px;height:9px;padding:0;border-radius:50%;background:color-mix(in srgb,var(--c) 45%,transparent);border:1px solid var(--c);cursor:pointer;transition:transform .25s,box-shadow .25s,opacity .25s}
+.tr-d:hover{transform:scale(1.5)}
+.tr-d.cur{transform:scale(1.8);background:var(--c);box-shadow:0 0 9px var(--c)}
+.tr-d.dim{opacity:.25}
+.tr-sep{width:7px}
+#toast{position:fixed;left:50%;bottom:calc(var(--botH,40px) + 14px);transform:translate(-50%,20px);opacity:0;z-index:60;background:var(--glass);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:10px;padding:7px 14px;font-size:.8rem;transition:.35s;pointer-events:none}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+.tl h4{margin:16px 0 4px;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;color:var(--c)}
+.tl-i{display:block;position:relative;width:100%;text-align:left;background:transparent;border:0;border-left:2px solid color-mix(in srgb,var(--c) 60%,transparent);margin-left:8px;padding:6px 10px 6px 16px;cursor:pointer;color:var(--ink)}
+.tl-i::before{content:"";position:absolute;left:-7px;top:11px;width:12px;height:12px;border-radius:50%;background:var(--c);box-shadow:0 0 0 3px var(--bg1)}
+.tl-i:hover{background:color-mix(in srgb,var(--c) 10%,transparent)}
+.tl-i b{font-size:.86rem}.tl-i .a{color:var(--mute);font-size:.72rem;margin-left:6px}
+.tl-i .p{display:block;margin-top:2px;font-size:.8rem}
+/* ---- apêndices ---- */
+#modal{position:fixed;inset:0;z-index:40;background:rgba(3,7,14,.6);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;padding:20px}
+#modal[hidden]{display:none}
+.sheet{width:min(1100px,100%);max-height:88vh;display:flex;flex-direction:column;background:var(--glass);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
+.sheet-h{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line)}
+[role=tablist]{display:flex;gap:4px;flex-wrap:wrap}
+[role=tab]{background:transparent;border:0;border-bottom:3px solid transparent;color:var(--mute);padding:8px 12px;cursor:pointer}
+[role=tab][aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+#modal-body{padding:14px 16px;overflow:auto}
+#modal-body table{border-collapse:collapse;width:100%;font-size:.85rem}
+#modal-body th,#modal-body td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+#modal-body th{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)}
+#modal-body td.tema{font-weight:600}
+#modal-body ul{margin:0;padding-left:18px}#modal-body li{margin:6px 0}
+#modal-body a{color:var(--accent)}
+.aviso-mod{margin:0 0 12px}
+@media (max-height:600px){#mini{display:none}}
+@media (max-width:760px){
+  .brand span{display:none}
+  #card{top:auto;left:8px;right:8px;bottom:8px;width:auto;height:52vh;transform:translateY(calc(100% + 16px))}
+  #card.open{transform:none}
+  #mini{display:none}
+  input[type=search]{width:130px}
+}
+body.embed .brand span,body.embed #b-theme{display:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div id="stage"><svg id="svg" role="img" aria-label="Fluxograma interativo (modelo)"></svg></div>
+
+<header id="top">
+  <div class="brand"><b>Fluxo DEVEC — ICMS da energia no ACL (RJ)</b>
+    <span title="Revisado contra o Anexo XV da Res. 720/2014 (Res. 177/2017, 19/2019, 62/2019) e o manual v1.1; itens NÃO CONFIRMADO ficam em Pontos a confirmar">REVISADO — resoluções + manual (03/10/2026)</span></div>
+  <div class="ctl">
+    <input type="search" id="busca" placeholder="Buscar…" aria-label="Buscar">
+    <details class="menu" id="m-ator"><summary id="ator-sum">Ator</summary><div class="pop" id="ator-pop"></div></details>
+    <details class="menu"><summary>Opções</summary>
+      <div class="pop">
+        <label class="chk lbl">Velocidade da apresentação
+          <select id="sel-vel"><option value="6000">Rápida (6 s)</option><option value="11000" selected>Normal (11 s)</option><option value="16000">Lenta (16 s)</option><option value="25000">Muito lenta (25 s)</option></select></label>
+        <div class="pop-sep"></div>
+        <button class="btn" id="x-fluxo">Exportar o fluxo inteiro (PNG)</button>
+        <button class="btn" id="x-vista">Exportar a vista atual (PNG)</button>
+        <button class="btn" id="x-texto">Copiar o texto da etapa</button>
+        <div class="pop-sep"></div>
+        <button class="btn" id="b-reset-pos" title="Volta caixas, barras de fase e altura das raias arrastadas para o automático">Resetar arranjo manual</button>
+        <button class="btn" id="b-reset-estrutura" title="Traz de volta etapas/setas excluídas, apaga as setas e etapas duplicadas que você criou, e volta os ícones ✓/✗ arrastados para a posição automática">Redefinir setas e conectores</button>
+        <button class="btn" id="b-theme" aria-label="Alternar tema claro/escuro">Alternar tema claro/escuro</button>
+      </div></details>
+    <button class="btn" id="b-apend">Pontos a confirmar</button>
+    <button class="btn" id="b-fit">Visão geral</button>
+    <button class="btn" id="b-editar" aria-pressed="false" title="Modo edição — Delete: exclui etapa/seta selecionada · Ctrl+D: duplica a etapa selecionada · arraste de uma bolinha (topo/direita/baixo/esquerda) até outra caixa: cria seta · com a seta selecionada, S/N: rótulo Sim/Não (vira ✓/✗), L: tira o rótulo · ✏️ no cartão da etapa: edita o texto dela · ✏️ no menu Ator: edita o rótulo do ator (raia)">✏️ Editar</button>
+    <button class="btn primary" id="b-tour">Apresentar</button>
+  </div>
+</header>
+
+<div id="mini" title="Mapa: clique para ir"><svg id="minisvg"></svg></div>
+<div id="bottom"><div id="trilha" aria-label="Trilha de etapas"></div><div id="fases" style="display:contents"></div>
+  <div class="hint">Modelo de fluxograma interativo · clique numa etapa · ← → percorrem o fluxo · Esc volta · arraste e roda do mouse movem e dão zoom</div></div>
+<div id="toast" role="status"></div>
+<aside id="card" aria-live="polite"></aside>
+
+<div id="modal" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-label="Prazos, regras e pontos a confirmar">
+    <div class="sheet-h">
+      <div role="tablist" id="tabs">
+        <button role="tab" aria-selected="true" data-t="tempo">Linha do tempo de prazos</button>
+        <button role="tab" aria-selected="false" data-t="prazos">Prazos e regras (tabela)</button>
+        <button role="tab" aria-selected="false" data-t="lac">Pontos a confirmar</button>
+        <button role="tab" aria-selected="false" data-t="fontes">Fontes</button>
+        <button role="tab" aria-selected="false" data-t="exportar">Exportar estado</button>
+      </div>
+      <button class="btn" id="b-close-modal">Fechar</button>
+    </div>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script>
+/* ===== DADOS ===== */
+const SIS  = (ref,t)=>({k:'SIS', ref,t});
+const DOC  = (ref,t)=>({k:'DOC', ref,t});
+const PRZ  = (ref,t)=>({k:'PRZ', ref,t});
+const EXT  = (ref,t)=>({k:'EXT', ref,t});
+const NORM = (ref,t)=>({k:'NORM',ref,t});
+const KIND = {SIS:['Ação no sistema (Plataforma)','k-sis'],DOC:['Documento','k-doc'],PRZ:['Prazo / regra automática','k-prz'],EXT:['Processo institucional (fora do app)','k-ext'],NORM:['Base normativa','k-norm']};
+
+const DADOS = {
+  fases: {1:'1 Credenciamento e cadastros',2:'2 DEVEC do consumidor (até o dia 14)',3:'3 Ciclo mensal da distribuidora',4:'4 Retificação e entrega extemporânea'},
+  lanes: [
+    {id:'CONTRIB',nome:'Consumidor livre / Procurador',sub:'Na PCRJ: CGM (direta) ou cada órgão/UC (indireta)'},
+    {id:'SEFAZ',nome:'SEFAZ-RJ',sub:'Sistema DEVEC, análise (AFE 03) e arquivo de preço médio'},
+    {id:'DIST',nome:'Distribuidora',sub:'Envia consumo real, baixa o preço médio e fatura (NF modelo 6)'}
+  ],
+  nos: [
+  {id:'A',lane:'CONTRIB',sub:0,col:0,fase:1,modo:'ambos',tipo:'fim',curto:'Novo consumidor livre / UC no ACL',titulo:'Novo consumidor livre / UC no ACL',desc:'Gatilho: consumidor ou unidade que passa a comprar energia no ambiente de contratação livre.'},
+  {id:'B',lane:'CONTRIB',sub:0,col:1,fase:1,modo:'ambos',tipo:'etapa',curto:'Credenciar no DEVEC',titulo:'Credenciamento no DEVEC (aba Credenciamento)',desc:'Informar CPF do responsável e captcha; preencher tipo de pessoa, documento, razão social e contato; Salvar. O credenciamento é prévio ao preenchimento e ao envio da DEVEC. A SEFAZ pode credenciar de ofício quem não se credenciar até a data de envio.',nota:'O CPF do responsável deve ser o do certificado digital usado no acesso (manual v1.1, §5). Credenciado voluntariamente ou de ofício que não declarar fica sujeito ao arbitramento pela tarifa do mercado cativo (art. 15, §§ 1º a 3º).',base:[NORM('Res. SEFAZ 720/2014, Anexo XV, art. 15, §§ 1º-3º (redação da Res. 177/2017)','Credenciamento prévio, de ofício e efeito do arbitramento.'),NORM('Manual DEVEC v1.1, §5','Passo a passo do credenciamento.')]},
+  {id:'C',lane:'CONTRIB',sub:0,col:2,fase:1,modo:'ambos',tipo:'decisao',curto:'Acesso por procurador?',titulo:'Decisão: o acesso será por procurador?',desc:'O declarante pode outorgar e-Procuração para que um terceiro acesse o DEVEC em seu nome. Na PCRJ, por portaria: administração direta = a CGM realiza a DEVEC; administração indireta = cada órgão/UC declara a sua.',base:[NORM('Anexo XV, art. 16, § 6º (Res. 177/2017)','Uso das procurações eletrônicas da SEFAZ.')]},
+  {id:'D',lane:'CONTRIB',sub:1,col:3,fase:1,modo:'ambos',tipo:'etapa',curto:'Outorgar e-Procuração',titulo:'Outorgar e-Procuração ao procurador',desc:'Feita no sistema DeC e e-Procuração da SEFAZ-RJ. O procurador (ou substabelecido) passa a operar o DEVEC, inclusive para declarar.',base:[NORM('Manual DEVEC v1.1, §5.1 e §7','Outorga, aceite e seleção do consumidor representado.')]},
+  {id:'E',lane:'CONTRIB',sub:0,col:4,fase:1,modo:'ambos',tipo:'etapa',curto:'Acessar DEVEC com certificado',titulo:'Acessar o DEVEC com certificado digital ICP-Brasil',desc:'e-CNPJ (consumidores PJ, procuradores PJ e distribuidoras) ou e-CPF (consumidores PF e procuradores substabelecidos). O procurador escolhe o consumidor na lista; cadastros e declaração valem sempre para o consumidor selecionado.',base:[NORM('Anexo XV, art. 16, § 7º (Res. 177/2017)','Acesso somente com certificado ICP-Brasil.'),NORM('Manual DEVEC v1.1, §6 e §7','Tipos de certificado e seleção do consumidor.')]},
+  {id:'F',lane:'CONTRIB',sub:0,col:5,fase:1,modo:'ambos',tipo:'etapa',curto:'Conferir cadastro do consumidor livre',titulo:'Conferir o cadastro do consumidor livre',desc:'Menu Cadastros > Consumidor livre.',nota:'Se o consumidor é contribuinte com cadastro na Fazenda, os dados não podem ser alterados (manual v1.1, §8.1.1).'},
+  {id:'G',lane:'CONTRIB',sub:0,col:6,fase:1,modo:'ambos',tipo:'etapa',curto:'Pesquisar / cadastrar comercializador',titulo:'Pesquisar ou cadastrar o comercializador',desc:'Menu Cadastros > Comercializador. Se não existir no DEVEC, cadastrar (Novo).',nota:'Comercializador inativo ou não cadastrado não pode ser vinculado ao contrato (manual v1.1, §8.3.2).'},
+  {id:'H',lane:'CONTRIB',sub:0,col:7,fase:1,modo:'ambos',tipo:'etapa',curto:'Cadastrar contrato',titulo:'Cadastrar o contrato',desc:'Menu Cadastros > Contrato: consumidor livre, comercializador, nº do contrato, início e fim de vigência e marcação de litígio. Situação: Ativo, Inativo ou Cancelado (cancelar exige motivo).',nota:'O contrato precisa estar vigente para ser cadastrado. Marcado "Em litígio", não recebe informações da DEVEC (manual v1.1, §8.3.2). O litígio que torne ilíquido o valor deve ser informado na DEVEC (art. 15, § 4º).',base:[NORM('Manual DEVEC v1.1, §8.3','Cadastro de contrato.')]},
+  {id:'I',lane:'CONTRIB',sub:0,col:8,fase:1,modo:'ambos',tipo:'decisao',curto:'Contrato ativo, vigente e sem litígio?',titulo:'Decisão: contrato apto a receber a DEVEC?',desc:'Só contrato Ativo e sem litígio recebe informações da DEVEC e pode ser vinculado a UC.'},
+  {id:'J',lane:'CONTRIB',sub:1,col:8,fase:1,modo:'ambos',tipo:'fim',curto:'Contrato não apto: regularizar',titulo:'Contrato não apto: regularizar antes de seguir',desc:'Contrato inativo, cancelado ou em litígio não recebe informações da DEVEC.'},
+  {id:'K',lane:'CONTRIB',sub:0,col:9,fase:1,modo:'ambos',tipo:'etapa',curto:'Cadastrar UCs',titulo:'Cadastrar as unidades consumidoras (UCs)',desc:'Menu Cadastros > Unidade consumidora: contrato(s), distribuidor, documento, denominação e código do ativo na CCEE, nº do medidor e endereço. Para UC fora do RJ, usar o distribuidor "Outros".',nota:'Só contrato ativo pode ser vinculado a UC. Dados da UC não são editáveis se ela for contribuinte com cadastro na Fazenda (manual v1.1, §8.4).',base:[NORM('Manual DEVEC v1.1, §8.4','Cadastro de unidade consumidora.')]},
+  {id:'L',lane:'CONTRIB',sub:2,col:9,fase:2,modo:'ambos',tipo:'decisao',curto:'Solicitar dispensa da DEVEC?',titulo:'Decisão: solicitar a dispensa anual da entrega da DEVEC?',desc:'A dispensa é pedida uma vez por ano, na janela do início de janeiro, e depende de homologação.',base:[NORM('Anexo XV, art. 17 (Res. 177/2017)','Dispensa anual.')]},
+  {id:'M',lane:'CONTRIB',sub:2,col:10,fase:2,modo:'ambos',tipo:'etapa',curto:'Solicitar dispensa (Devec > Dispensa)',titulo:'Solicitar a dispensa em Devec > Dispensa',desc:'Aceitar o termo e clicar em Solicitar Dispensa. Dá para cancelar enquanto a janela estiver vigente. A dispensa abrange todos os fatos geradores de 1º/jan a 31/dez do exercício.',prazo:'De 0h de 1º/jan a 24h de 12/jan',nota:'Homologada a dispensa, a base do ICMS é arbitrada pela tarifa do mercado cativo (art. 17, § 4º, c/c art. 18, § 1º, I, "b").',base:[NORM('Anexo XV, art. 17 e §§ 1º-4º (Res. 177/2017)','Janela, homologação automática após 31/jan e efeito.'),NORM('Manual DEVEC v1.1, §9.1','Procedimento no sistema.')]},
+  {id:'N',lane:'CONTRIB',sub:2,col:8,fase:2,modo:'ambos',tipo:'etapa',curto:'Informar DEVEC (menu Informar DEVEC)',titulo:'Informar a DEVEC mensal',desc:'Pessoa jurídica declara, para o conjunto dos estabelecimentos no submercado Sudeste/Centro-Oeste: identificação, contratos de aquisição, consumo por ponto de consumo, preço médio efetivo de aquisição, competência e responsável. O declarante responde pela veracidade. Pode alterar os dados até o fim do prazo.',prazo:'Até 24h do dia 14 do mês seguinte ao consumo',nota:'Prazo: o art. 16 da Res. 177/2017 dizia dia 10; Res. CGM 2082/2025 (PCRJ), CCEE e agenda tributária indicam dia 14. O ato que mudou não foi localizado. Cessão/recompra e aba Resumo: citados na Consulta SEFAZ 54/2021 (resumo), tela não detalhada no manual v1.1.',base:[NORM('Anexo XV, arts. 15 e 16 (Res. 177/2017)','Conteúdo da DEVEC, prazo e responsabilidade do declarante.'),NORM('Res. CGM-Rio 2082/2025, Anexos I-III','Cronograma da PCRJ: DEVEC até o dia 14 do mês subsequente.')]},
+  {id:'O',lane:'CONTRIB',sub:2,col:7,fase:2,modo:'ambos',tipo:'etapa',curto:'Confirmar entrega e guardar protocolo',titulo:'Confirmar a entrega e guardar o protocolo',desc:'Após o envio, o sistema emite protocolo automaticamente, que serve de recibo. O protocolo não implica reconhecimento da veracidade das informações. Menu "Consultar protocolo".',nota:'"Código verificador" é detalhe do Gemini, não confirmado.',base:[NORM('Anexo XV, art. 16, §§ 2º-3º (Res. 177/2017)','Protocolo como recibo.')]},
+  {id:'P',lane:'SEFAZ',sub:0,col:10,fase:2,modo:'ambos',tipo:'etapa',curto:'Analisar a dispensa',titulo:'SEFAZ analisa a dispensa',desc:'Deferimento ou indeferimento. Sem manifestação da SEFAZ até 31/jan, a dispensa é homologada automaticamente.',prazo:'Até 31/jan; silêncio = homologada'},
+  {id:'Q',lane:'SEFAZ',sub:0,col:9,fase:2,modo:'ambos',tipo:'decisao',curto:'Dispensa homologada?',titulo:'Decisão: dispensa homologada?',desc:'Homologada por deferimento ou, na ausência de manifestação, automaticamente.'},
+  {id:'R',lane:'DIST',sub:0,col:9,fase:2,modo:'ambos',tipo:'fim',curto:'ICMS-ST pela tarifa do mercado cativo',titulo:'Dispensa vigente: base de cálculo pela tarifa do mercado cativo',desc:'A distribuidora aplica o preço praticado em operação similar no mercado cativo (tarifa-energia homologada pela ANEEL).',base:[NORM('Anexo XV, art. 18, § 1º, I, "b", e § 3º','Preço do mercado cativo como base.')]},
+  {id:'S',lane:'DIST',sub:0,col:7,fase:3,modo:'ambos',tipo:'etapa',curto:'Enviar arquivo de consumo real',titulo:'Distribuidora envia o arquivo de Consumo Real',desc:'Leiaute 10.2 do manual: CNPJ/CPF do ponto de consumo e energia real em MWh. O art. 18, II, lista também nº do medidor, código e nome do cliente. Arquivo UTF-8.',prazo:'Dias 01 a 14 (manual v1.1)',nota:'O art. 18, II, na redação de 2017, dizia "até o dia 10". Alinhar com a decisão do prazo da DEVEC.',base:[NORM('Anexo XV, art. 18, II e § 6º (Res. 177/2017)','Envio do arquivo à SEFAZ.'),NORM('Manual DEVEC v1.1, §10.2','Leiaute do consumo real.')]},
+  {id:'T',lane:'SEFAZ',sub:0,col:7,fase:3,modo:'ambos',tipo:'etapa',curto:'Disponibilizar arquivo de preço médio',titulo:'SEFAZ disponibiliza o arquivo consolidado de Preço Médio',desc:'Arquivo com as informações consolidadas das declarações prestadas, por ponto de consumo: CNPJ/CPF, status (I Isento, C Cativo, N Normal), quantidade consumida, parcela isenta e preço médio por MWh. Indica os casos em que vale a tarifa cativa: DEVEC não prestada, dispensada, que não mereça fé, ou com litígio.',prazo:'A partir do dia 15 (manual v1.1)',base:[NORM('Anexo XV, art. 19 e § 2º (Res. 177/2017)','Arquivo consolidado e hipóteses da alínea "b".'),NORM('Manual DEVEC v1.1, §10.1','Leiaute do arquivo de preço médio.')]},
+  {id:'U',lane:'DIST',sub:0,col:6,fase:3,modo:'ambos',tipo:'etapa',curto:'Baixar arquivo de preço médio',titulo:'Distribuidora baixa o arquivo de Preço Médio',desc:'Perfil Distribuidor: download do arquivo de preço médio e upload do consumo real. O art. 19 (2017) falava em "a partir do dia 11".'},
+  {id:'V',lane:'DIST',sub:0,col:5,fase:3,modo:'ambos',tipo:'decisao',curto:'Status da UC no arquivo?',titulo:'Decisão: qual o status da UC no arquivo?',desc:'I = Isento, C = Cativo, N = Normal.'},
+  {id:'W',lane:'DIST',sub:0,col:4,fase:3,modo:'ambos',tipo:'etapa',curto:'Base pelo preço médio',titulo:'Normal ou Isento: base de cálculo pelo preço médio do arquivo',desc:'Normal: base pelo preço médio informado. Isento: a parcela isenta é subtraída do consumo real para formar a base. Se a quantidade consumida do arquivo estiver preenchida, a distribuidora a usa; se estiver em branco, usa a energia real medida por ela.',base:[NORM('Anexo XV, art. 18, § 1º, I, "a"','Preço médio efetivo informado pela SEFAZ.'),NORM('Manual DEVEC v1.1, §10.1','Campos 2 a 4 do leiaute.')]},
+  {id:'X',lane:'DIST',sub:1,col:4,fase:3,modo:'ambos',tipo:'etapa',curto:'Base pela tarifa do mercado cativo',titulo:'Cativo: base de cálculo pela tarifa do mercado cativo',desc:'Preço praticado pela distribuidora em operação similar no mercado cativo (tarifa-energia homologada pela ANEEL). Em caso fortuito ou força maior que impeça o envio ou recebimento do arquivo, vale o preço do mês anterior.',base:[NORM('Anexo XV, art. 18, § 1º, I, "b" e "c", e § 3º','Alternativas de preço.')]},
+  {id:'Y',lane:'DIST',sub:0,col:3,fase:3,modo:'ambos',tipo:'fim',curto:'Emitir NF modelo 6 e apurar o ICMS',titulo:'Distribuidora emite a Nota Fiscal/Conta de Energia (modelo 6) e apura o ICMS',desc:'A distribuidora é substituta tributária. O destaque do ICMS na nota é mera indicação para controle.',nota:'NÃO CONFIRMADO: forma de recolhimento (DARJ/GNRE vêm do Gemini; as resoluções lidas não tratam disso).',base:[NORM('Anexo XV, art. 18, I (Res. 177/2017)','Conteúdo da nota fiscal modelo 6.')]},
+  {id:'Z',lane:'CONTRIB',sub:2,col:0,fase:4,modo:'ambos',tipo:'fim',curto:'Erro ou falta de entrega após o dia 14',titulo:'Erro na DEVEC após o prazo, ou DEVEC não entregue no prazo',desc:'Gatilho da retificação (art. 17-A) ou da entrega extemporânea (art. 17-B). Alterações dentro do prazo se fazem direto no sistema, sem esse fluxo.'},
+  {id:'Z2',lane:'CONTRIB',sub:2,col:1,fase:4,modo:'ambos',tipo:'decisao',curto:'A DEVEC já foi entregue?',titulo:'Decisão: a DEVEC do mês já foi entregue?',desc:'Define se o caso é retificação (já entregue, com erro) ou entrega extemporânea (não entregue).'},
+  {id:'AA',lane:'CONTRIB',sub:2,col:2,fase:4,modo:'ambos',tipo:'etapa',curto:'Retificar pelo Sistema DEVEC (art. 17-A)',titulo:'Retificar a DEVEC pelo Sistema DEVEC e anexar documentos',desc:'Cabe quando o erro gerou destaque de ICMS em valor indevido na nota. Só depois de expirado o prazo. Penalidade do art. 62-B, II, da Lei 2.657/96, sem prejuízo de juros e multa. Anexar os documentos da Tabela "Documentos Petição DEVEC" (entre eles: petição relatando os erros, declaração de não aproveitamento do crédito ou de estorno, cópias das NFs modelo 6 de energia e de TUSD do mês). Acompanhar o andamento no sistema.',base:[NORM('Anexo XV, art. 17-A (Res. SEFAZ 19/2019 e 62/2019)','Retificação, penalidade, documentos e acompanhamento.')]},
+  {id:'AE',lane:'CONTRIB',sub:1,col:1,fase:4,modo:'ambos',tipo:'etapa',curto:'Entregar extemporânea (art. 17-B)',titulo:'Entregar a DEVEC extemporânea pelo Sistema DEVEC',desc:'Admitida quando a DEVEC não foi apresentada no prazo. Penalidade do art. 62-B, I, da Lei 2.657/96, sem prejuízo de juros e multa. Aplica-se, no que couber, o art. 17-A. Pela Consulta SEFAZ 54/2021, é preciso solicitar autorização no sistema (manual v1.8B, item 9.2).',base:[NORM('Anexo XV, art. 17-B (Res. SEFAZ 19/2019)','Entrega extemporânea.')]},
+  {id:'AB',lane:'SEFAZ',sub:0,col:2,fase:4,modo:'ambos',tipo:'decisao',curto:'Análise da AFE 03: deferir?',titulo:'Decisão: a AFE 03 defere o pedido?',desc:'Compete à Auditoria-Fiscal Especializada de Energia Elétrica e Telecomunicações (AFE 03) analisar e deferir os pedidos relativos à DEVEC.',base:[NORM('Anexo XV, art. 24-A (Res. SEFAZ 62/2019)','Competência da AFE 03.')]},
+  {id:'AC',lane:'CONTRIB',sub:2,col:3,fase:4,modo:'ambos',tipo:'fim',curto:'Indeferido: manter cobrança ou ajustar',titulo:'Indeferido: manter a cobrança original ou ajustar pendências',desc:'As resoluções lidas não dizem o que ocorre no indeferimento.',nota:'NÃO CONFIRMADO: desfecho do indeferimento.'},
+  {id:'AD',lane:'SEFAZ',sub:0,col:3,fase:4,modo:'ambos',tipo:'etapa',curto:'Enviar arquivo retificador à distribuidora',titulo:'SEFAZ encaminha arquivo retificador à distribuidora',desc:'Após o deferimento, a SEFAZ envia arquivo à distribuidora para ajuste do ICMS. A AFE pode encaminhar arquivo retificador, com anuência do Auditor Fiscal Chefe.',base:[NORM('Anexo XV, art. 17-A, § 2º, e art. 19, § 5º','Arquivo à distribuidora.')]},
+  {id:'AF',lane:'DIST',sub:0,col:2,fase:4,modo:'ambos',tipo:'fim',curto:'Corrigir a nota fiscal do mês',titulo:'Distribuidora corrige a nota fiscal do mês de referência',desc:'Imposto destacado maior que o devido: emite nota com os valores corretos e estorna o ICMS da nota com erro (Convênio ICMS 30/2004). Imposto menor: emite nota complementar, com juros de mora.',base:[NORM('Anexo XV, art. 17-A, § 2º, I e II','Procedimento da distribuidora.')]}
+  ],
+  arestas: [
+    ['A','B'],['B','C'],['C','D','Sim'],['C','E','Não'],['D','E'],['E','F'],['F','G'],['G','H'],['H','I'],
+    ['I','K','Sim'],['I','J','Não','ambos',false,'baixo','topo'],['K','L','','ambos',false,'baixo','topo'],
+    ['L','M','Sim'],['L','N','Não','ambos',false,'esquerda','direita'],['M','P','','ambos',false,'baixo','topo'],
+    ['P','Q','','ambos',false,'esquerda','direita'],['Q','R','Sim','ambos',false,'baixo','topo'],['Q','N','Não','ambos',true,'esquerda','baixo'],
+    ['N','O','','ambos',false,'esquerda','direita'],['O','T','','ambos',false,'baixo','topo'],
+    ['S','T','','ambos',false,'topo','baixo'],['T','U','','ambos',false,'esquerda','topo'],['U','V','','ambos',false,'esquerda','direita'],
+    ['V','W','Normal / Isento','ambos',false,'esquerda','direita'],['V','X','Cativo','ambos',false,'baixo','direita'],
+    ['W','Y','','ambos',false,'esquerda','direita'],['X','Y','','ambos',false,'esquerda','baixo'],
+    ['Z','Z2'],['Z2','AA','Sim'],['Z2','AE','Não','ambos',false,'topo','baixo'],['AA','AB','','ambos',false,'baixo','topo'],['AE','AB'],
+    ['AB','AC','Indeferido'],['AB','AD','Deferido'],['AD','AF','','ambos',false,'baixo','topo']
+  ],
+  lacunas: [
+    'Data-base: 03/10/2026. Os textos das resoluções foram lidos em republicações (LegisWeb, Lefisc, Portal Contábeis), não no DOE-RJ nem no portal da SEFAZ. O texto consolidado atual do Anexo XV da Res. 720/2014 não foi localizado.',
+    'Prazo da DEVEC: o art. 16 na redação da Res. 177/2017 diz dia 10 (e arts. 18, II, e 19, dias 10 e 11). O manual v1.1 (jan/2018), a Res. CGM 2082/2025 (PCRJ, arts. 15 e 16), a cartilha da CCEE e a agenda tributária indicam dia 14 (e dia 15 para a distribuidora baixar o arquivo). O ato que alterou de 10 para 14 não foi localizado. As Res. 693/2024 e 856/2026 prorrogaram o prazo para o dia 15 em meses pontuais.',
+    'O manual vigente não foi localizado. A Consulta SEFAZ 54/2021 cita o manual v1.8B (item 9.2, entrega extemporânea). Este fluxo usa o v1.1 só como base e pode ter perdido telas novas.',
+    'Sem confirmação: upload do contrato assinado/proposta e "benefícios" na UC, "código verificador" do protocolo, forma de recolhimento (DARJ/GNRE) e o desfecho do indeferimento.',
+    'Fora do diagrama: o alienante (comercializador/gerador) emite NF-e modelo 55 sem destaque do ICMS até o dia 12 (art. 20), e o consumidor ligado à rede básica tem obrigações próprias (art. 21).',
+    'PCRJ: a DEVEC consta como obrigação mensal no cronograma da CGM-Rio (Res. CGM 2082/2025, Anexos I a III). Por portaria (informada por Willians em 03/10/2026), na administração direta a CGM realiza a DEVEC; na indireta, cada órgão/UC declara a sua. Falta citar o número da portaria e confirmar o mecanismo no sistema (e-Procuração de cada órgão para a CGM, ou credenciamento da CGM por consumidor).'
+  ],
+  fontes: [
+    ['Resolução SEFAZ 177/2017 (acrescenta o Capítulo IV ao Anexo XV da Res. 720/2014), texto na LegisWeb.','https://www.legisweb.com.br/legislacao/?id=354274'],
+    ['Resolução SEFAZ 19/2019 (arts. 17-A e 17-B), Lefisc.','https://www.lefisc.com.br/banco/estadual/RJ/2019/resolucaoSEFAZ19_19.htm'],
+    ['Resolução SEFAZ 62/2019 (retificação, tabela de documentos, art. 24-A), Portal Contábeis.','https://www.contabeis.com.br/legislacao/5011501/resolucao-sefaz-62-2019/'],
+    ['Resolução SEFAZ 693/2024 (prorroga o prazo de jul/2024), LegisWeb.','https://www.legisweb.com.br/legislacao/?id=463269'],
+    ['Resolução SEFAZ 856/2026 (prorroga o prazo de dez/2025), LegisWeb, lida em resumo.','https://www.legisweb.com.br/legislacao/?id=489739'],
+    ['Resolução CGM-Rio 2082/2025 (cronograma de obrigações da PCRJ, inclui a DEVEC), LegisWeb.','https://www.legisweb.com.br/legislacao/?id=482365'],
+    ['Consulta SEFAZ-RJ 54/2021 (DEVEC extemporânea, manual v1.8B), LegisWeb, lida em resumo.','https://www.legisweb.com.br/legislacao/?id=471980'],
+    ['Manual do Usuário DEVEC v1.1, jan/2018 (SEFAZ-RJ), enviado por Willians Gaspar em 03/10/2026.',''],
+    ['Rascunho em Mermaid gerado pelo Gemini (fonte não normativa), usado só onde as fontes acima são omissas e sempre marcado como não confirmado.','']
+  ]
+};
+
+
+
+/* ===================== APLICAÇÃO ===================== */
+const $ = s=>document.querySelector(s);
+const esc = s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const NO = Object.fromEntries(DADOS.nos.map(n=>[n.id,n]));
+// Etapas/decisões duplicadas pelo Willians entram aqui também, pra
+// aparecerem em toda consulta a NO[id] (card, numeração, filtro por ator…).
+// Semeado em iniciar() — as constantes de armazenamento (LS_NOS_NOVOS) só
+// existem mais abaixo no arquivo.
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const ST = {cenario:'unico',sel:null,fases:new Set(),q:'',tour:false,mini:false,lane:null,tourMs:11000,editando:false,selAresta:null,editandoTexto:false,editandoLane:null};
+const NW=160, NH=64, COLW=212, ROWH=108, X0=236, PADT=112, GAPSEG=44;
+let LAY=null, ORDEM=[], IDX={}, svg, stage, vw=0, vh=0, tween=null, tourTimer=null, fitS=.2;
+const cam = {x:0,y:0,w:1000,h:600};
+
+/* ---------- posição das caixas arrastadas (só neste navegador) ---------- */
+// v2: voltou a 1 camada só (22/09/26) — chave nova pra não reaplicar
+// posições calculadas pro layout antigo de 2 segmentos.
+const LS_POS='devec-icms-acl-pos-v3';
+function carregarPosicoes(){ try{ const r=localStorage.getItem(LS_POS); return r?JSON.parse(r):{} }catch(e){ return {} } }
+function salvarPosicao(id,x,y){
+  try{
+    const o=carregarPosicoes(); o[id]={x,y};
+    localStorage.setItem(LS_POS,JSON.stringify(o));
+  }catch(e){}
+}
+function limparPosicoes(){ try{ localStorage.removeItem(LS_POS) }catch(e){} }
+
+/* ---------- posição das barras de fase arrastadas ---------- */
+const LS_BARRAS='devec-icms-acl-barras-v3';
+function carregarPosBarras(){ try{ const r=localStorage.getItem(LS_BARRAS); return r?JSON.parse(r):{} }catch(e){ return {} } }
+function salvarPosBarra(key,x,y){
+  try{ const o=carregarPosBarras(); o[key]={x,y}; localStorage.setItem(LS_BARRAS,JSON.stringify(o)) }catch(e){}
+}
+function limparPosBarras(){ try{ localStorage.removeItem(LS_BARRAS) }catch(e){} }
+
+/* ---------- posição dos ícones de decisão (✓/✗) arrastados ---------- */
+const LS_ICONES='devec-icms-acl-icones-v2';
+function carregarPosIcones(){ try{ const r=localStorage.getItem(LS_ICONES); return r?JSON.parse(r):{} }catch(e){ return {} } }
+function salvarPosIcone(key,x,y){
+  try{ const o=carregarPosIcones(); o[key]={x,y}; localStorage.setItem(LS_ICONES,JSON.stringify(o)) }catch(e){}
+}
+function limparPosIcones(){ try{ localStorage.removeItem(LS_ICONES) }catch(e){} }
+
+/* ---------- altura das raias (atores) redimensionada ---------- */
+const LS_LANES='devec-icms-acl-alturas-v2';
+function carregarAlturaLanes(){ try{ const r=localStorage.getItem(LS_LANES); return r?JSON.parse(r):{} }catch(e){ return {} } }
+function salvarAlturaLanes(o){ try{ localStorage.setItem(LS_LANES,JSON.stringify(o)) }catch(e){} }
+function limparAlturaLanes(){ try{ localStorage.removeItem(LS_LANES) }catch(e){} }
+let ALTLANE=carregarAlturaLanes();
+
+/* ---------- modo edição: excluir etapa/seta, criar seta nova (pedido do
+   Willians, 22/09/26 — "ferramentas parecidas com o Visio") ---------- */
+const LS_NOS_REM='devec-icms-acl-nos-removidos-v1';
+const LS_NOS_NOVOS='devec-icms-acl-nos-novos-v1';
+const LS_ARE_REM='devec-icms-acl-arestas-removidas-v1';
+const LS_ARE_NOVAS='devec-icms-acl-arestas-novas-v1';
+function carregarNosRemovidos(){ try{ return JSON.parse(localStorage.getItem(LS_NOS_REM)||'[]') }catch(e){ return [] } }
+function salvarNosRemovidos(a){ try{ localStorage.setItem(LS_NOS_REM,JSON.stringify(a)) }catch(e){} }
+function carregarNosNovos(){ try{ return JSON.parse(localStorage.getItem(LS_NOS_NOVOS)||'[]') }catch(e){ return [] } }
+function salvarNosNovos(a){ try{ localStorage.setItem(LS_NOS_NOVOS,JSON.stringify(a)) }catch(e){} }
+// Semeia NO com cópias de sessões anteriores — só agora dá, LS_NOS_NOVOS
+// já existe nesse ponto do arquivo (colocar isso lá em cima trava o script
+// com "Cannot access before initialization").
+carregarNosNovos().forEach(n=>{ NO[n.id]=n });
+function carregarArestasRemovidas(){ try{ return JSON.parse(localStorage.getItem(LS_ARE_REM)||'[]') }catch(e){ return [] } }
+function salvarArestasRemovidas(a){ try{ localStorage.setItem(LS_ARE_REM,JSON.stringify(a)) }catch(e){} }
+function carregarArestasNovas(){ try{ return JSON.parse(localStorage.getItem(LS_ARE_NOVAS)||'[]') }catch(e){ return [] } }
+function salvarArestasNovas(a){ try{ localStorage.setItem(LS_ARE_NOVAS,JSON.stringify(a)) }catch(e){} }
+function limparEdicoesEstrutura(){
+  try{ localStorage.removeItem(LS_NOS_REM); localStorage.removeItem(LS_NOS_NOVOS); localStorage.removeItem(LS_ARE_REM); localStorage.removeItem(LS_ARE_NOVAS); localStorage.removeItem(LS_NOS_TEXTO); localStorage.removeItem(LS_LANES_TEXTO); localStorage.removeItem(LS_NOS_LANE) }catch(e){}
+}
+/* ---------- texto de uma etapa/decisão editado à mão ---------- */
+const LS_NOS_TEXTO='devec-icms-acl-nos-texto-v1';
+function carregarTextosNos(){ try{ return JSON.parse(localStorage.getItem(LS_NOS_TEXTO)||'{}') }catch(e){ return {} } }
+function salvarTextosNos(o){ try{ localStorage.setItem(LS_NOS_TEXTO,JSON.stringify(o)) }catch(e){} }
+// Reaplica por cima de NO[id] (nós originais e cópias já semeados) — muda
+// o objeto no lugar, então propaga pra qualquer lugar que leia NO[id].
+Object.entries(carregarTextosNos()).forEach(([id,t])=>{ if(NO[id]){ NO[id].curto=t.curto; NO[id].titulo=t.titulo } });
+
+/* ---------- rótulo do ator (raia) editado à mão ---------- */
+const LS_LANES_TEXTO='devec-icms-acl-lanes-texto-v1';
+function carregarTextosLanes(){ try{ return JSON.parse(localStorage.getItem(LS_LANES_TEXTO)||'{}') }catch(e){ return {} } }
+function salvarTextosLanes(o){ try{ localStorage.setItem(LS_LANES_TEXTO,JSON.stringify(o)) }catch(e){} }
+// DADOS.lanes nunca é recriado a partir do localStorage (ao contrário das
+// etapas duplicadas) — mutar direto já basta, sem o problema de "duas
+// fontes da verdade" que corrigi nas etapas.
+Object.entries(carregarTextosLanes()).forEach(([id,t])=>{ const l=DADOS.lanes.find(x=>x.id===id); if(l){ l.nome=t.nome; l.sub=t.sub } });
+
+/* ---------- ator (raia) de uma etapa trocado à mão ---------- */
+const LS_NOS_LANE='devec-icms-acl-nos-lane-v1';
+function carregarLanesNos(){ try{ return JSON.parse(localStorage.getItem(LS_NOS_LANE)||'{}') }catch(e){ return {} } }
+function salvarLanesNos(o){ try{ localStorage.setItem(LS_NOS_LANE,JSON.stringify(o)) }catch(e){} }
+Object.entries(carregarLanesNos()).forEach(([id,laneId])=>{ if(NO[id]) NO[id].lane=laneId });
+// Arestas do DADOS original + o que o Willians criou, menos o que excluiu —
+// recalculado a cada build() (mesmo padrão das outras edições manuais).
+function arestasEfetivas(){
+  const removidas=new Set(carregarArestasRemovidas());
+  const base=DADOS.arestas.filter(a=>!removidas.has(a[0]+'|'+a[1]))
+    .map(a=>({de:a[0],para:a[1],rot:a[2]||'',modo:a[3]||'ambos',volta:!!a[4],deLado:a[5],paraLado:a[6]}));
+  // Setas criadas no modo edição guardam de que lado saem/entram — o
+  // roteamento padrão (direita→esquerda) é só pras arestas originais.
+  const novas=carregarArestasNovas().map(n=>({de:n.de,para:n.para,rot:n.rot||'',modo:'ambos',volta:false,manual:true,deLado:n.deLado,paraLado:n.paraLado}));
+  return [...base,...novas];
+}
+
+const visivel = x => x.modo==='ambos' || x.modo===ST.cenario;
+function wrap(t,max,maxL){
+  const w=String(t).split(' '), out=[]; let cur='';
+  for(const x of w){ if(cur && (cur+' '+x).length>max){out.push(cur);cur=x} else cur=cur?cur+' '+x:x }
+  if(cur) out.push(cur);
+  if(out.length>maxL){ out.length=maxL; out[maxL-1]=out[maxL-1].replace(/.{0,2}$/,'…') }
+  return out;
+}
+
+/* ---------- ícones de entrada/saída e de decisão (pedido do Willians,
+   22/09/26): base de dados + documento, agrupados num retângulo
+   tracejado; check/✗ no lugar do texto "Sim"/"Não" nas decisões. ---------- */
+function iconeDB(cx,cy){
+  return `<g class="ic-db" transform="translate(${cx},${cy})">
+    <ellipse cx="0" cy="-2.6" rx="4.6" ry="1.4" fill="currentColor"/>
+    <path d="M-4.6,-2.6 L-4.6,2.6 A4.6,1.4 0 0 0 4.6,2.6 L4.6,-2.6" fill="none" stroke="currentColor" stroke-width="1"/>
+    <path d="M-4.6,0 A4.6,1.4 0 0 0 4.6,0" fill="none" stroke="currentColor" stroke-width="1"/>
+  </g>`;
+}
+function iconeDoc(cx,cy){
+  return `<g class="ic-doc" transform="translate(${cx},${cy})">
+    <path d="M-3.2,-4.6 H1 L3.6,-2 V4.6 H-3.2 Z" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>
+    <path d="M1,-4.6 V-2 H3.6" fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>
+  </g>`;
+}
+function temIO(n){
+  return {temDB:!!(n.base&&n.base.some(b=>b.k==='SIS')), temDoc:!!(n.docs||(n.base&&n.base.some(b=>b.k==='DOC')))};
+}
+function clusterIO(n){
+  // Só em etapas retangulares — num losango o canto fica fora da forma.
+  if(n.tipo==='decisao') return '';
+  const {temDB,temDoc}=temIO(n);
+  if(!temDB&&!temDoc) return '';
+  const itens=[temDB?'db':null,temDoc?'doc':null].filter(Boolean);
+  const w=itens.length*16+8, h=16, bx=NW-w-6, by=NH-h-6;
+  const ic=itens.map((t,i)=>{ const cx=bx+8+i*16, cy=by+h/2; return t==='db'?iconeDB(cx,cy):iconeDoc(cx,cy) }).join('');
+  return `<g class="io-cluster"><rect x="${bx}" y="${by}" width="${w}" height="${h}" rx="4"/>${ic}</g>`;
+}
+function iconeSimNao(sim,x,y,de,para,key){
+  // Coordenadas locais + transform="translate(x,y)" — arrastável, mesmo
+  // esquema das caixas/barras (pedido do Willians, 22/09/26).
+  const cor=sim?'var(--ok)':'var(--bad)';
+  const marca = sim
+    ? `<path d="M-4,.5 L-1.2,3.3 L4.3,-3.3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`
+    : `<path d="M-3.3,-3.3 L3.3,3.3 M3.3,-3.3 L-3.3,3.3" stroke="#fff" stroke-width="2" stroke-linecap="round"/>`;
+  return `<g class="aresta-lbl ico-decisao" data-de="${de}" data-para="${para}" data-key="${key}" transform="translate(${x},${y})"><circle cx="0" cy="0" r="9" fill="${cor}" stroke="none"/>${marca}</g>`;
+}
+
+/* ---------- layout ---------- */
+// n.sub (0,1,…) põe caixas de uma mesma raia em camadas paralelas — pedido
+// do Willians, 22/09/26: "alargar a raia pra comportar as caixas em
+// camadas em cima e em baixo". nSubs conta quantas camadas cada raia usa.
+function contarSubs(nos){
+  const nSubs={}; nos.forEach(n=>{ const s=(n.sub||0)+1; nSubs[n.lane]=Math.max(nSubs[n.lane]||1,s) });
+  return nSubs;
+}
+function alturasRaias(lanes,nSubs){
+  const laneH={}, laneY={}; let acc=0;
+  lanes.forEach(l=>{ laneH[l.id]=ROWH*(ALTLANE[l.id]??l.h??(nSubs[l.id]||1)); laneY[l.id]=acc; acc+=laneH[l.id] });
+  return {laneH,laneY,lanesTotalH:acc};
+}
+function layout(){
+  const removidos=new Set(carregarNosRemovidos());
+  const nos = [...DADOS.nos,...carregarNosNovos()].filter(n=>visivel(n)&&!removidos.has(n.id)), ids = new Set(nos.map(n=>n.id));
+  const es = arestasEfetivas().filter(e=>visivel(e)&&ids.has(e.de)&&ids.has(e.para));
+  // Setas criadas à mão nunca entram no cálculo de coluna — só no desenho
+  // — pra não arriscar formar ciclo e quebrar o layout automático.
+  const fw = es.filter(e=>!e.volta&&!e.manual);
+  const indeg={}, adj={}, pred={};
+  nos.forEach(n=>{indeg[n.id]=0;adj[n.id]=[];pred[n.id]=[]});
+  fw.forEach(e=>{indeg[e.para]++;adj[e.de].push(e.para);pred[e.para].push(e.de)});
+  const fila = nos.filter(n=>indeg[n.id]===0).map(n=>n.id), topo=[];
+  while(fila.length){ const id=fila.shift(); topo.push(id); adj[id].forEach(t=>{ if(--indeg[t]===0) fila.push(t) }) }
+  const col={}, occ=new Set();
+  topo.forEach(id=>{
+    // Sub-camadas independentes da mesma raia podem repetir coluna —
+    // só colide com quem está na mesma raia E mesma sub-camada.
+    let c=0; pred[id].forEach(p=>{ c=Math.max(c,col[p]+1) });
+    if(NO[id].col!=null) c=NO[id].col; else
+    while(occ.has(NO[id].lane+':'+(NO[id].sub||0)+':'+c)) c++;
+    col[id]=c; occ.add(NO[id].lane+':'+(NO[id].sub||0)+':'+c);
+  });
+  const lanes = DADOS.lanes.filter(l=>nos.some(n=>n.lane===l.id));
+  const li = Object.fromEntries(lanes.map((l,i)=>[l.id,i]));
+  // Altura de raia variável — l.h (fração de ROWH, default 1, ou nSubs se
+  // a raia tiver camadas paralelas) é o ponto de partida; ALTLANE guarda o
+  // que o Willians redimensionou na hora (pedido 22/09/26: "alargar ou
+  // estreitar as linhas dos atores"). Empilha por altura acumulada em vez
+  // de índice fixo.
+  const nSubs = contarSubs(nos);
+  const {laneH,laneY,lanesTotalH} = alturasRaias(lanes,nSubs);
+  let maxC=0; nos.forEach(n=>{ maxC=Math.max(maxC,col[n.id]) });
+  // Raias numa única camada, sem dobrar em duas linhas (pedido do
+  // Willians, 22/09/26) — com caixa, barra e altura de raia arrastáveis,
+  // ele mesmo compacta onde quiser em vez do wrap automático em 2 segmentos.
+  let br=null;
+  const nseg = br==null?1:2, SEGH = PADT+lanesTotalH+GAPSEG;
+  const pos={};
+  nos.forEach(n=>{ const c=col[n.id], sg=(br!=null&&c>=br)?1:0;
+    // n.entre:[laneA,laneB] posiciona o nó na fronteira entre duas raias
+    // adjacentes (ex.: "Início", entre Energia-TE e Infraestrutura-TUSD),
+    // em vez de centralizado dentro da própria raia (n.lane).
+    const subN=nSubs[n.lane]||1, subH=laneH[n.lane]/subN, subOff=(n.sub||0)*subH;
+    const y = n.entre ? sg*SEGH+PADT+laneY[n.entre[1]]-NH/2 : sg*SEGH+PADT+laneY[n.lane]+subOff+(subH-NH)/2;
+    pos[n.id]={x:X0+(c-(sg?br:0))*COLW, y, c, l:li[n.lane], sg} });
+  const ordem = nos.some(n=>n.col!=null) ? nos.map(n=>n.id) : nos.map(n=>n.id).sort((a,b)=>pos[a].c-pos[b].c||pos[a].l-pos[b].l);
+  const ncols = br==null?maxC+1:Math.max(br,maxC-br+1);
+  return {nos,es,pos,lanes,laneH,laneY,ordem,nseg,SEGH,W:X0+(ncols-1)*COLW+NW+36, H:nseg*SEGH-GAPSEG+16};
+}
+// Ponto (mundo) de um lado nomeado da caixa/losango — e sua direção de
+// saída/entrada, pro roteamento genérico de setas criadas à mão.
+const LADO_DIR={topo:[0,-1],direita:[1,0],baixo:[0,1],esquerda:[-1,0]};
+function pontoLado(p,lado){
+  if(lado==='topo') return {x:p.x+NW/2,y:p.y};
+  if(lado==='direita') return {x:p.x+NW,y:p.y+NH/2};
+  if(lado==='baixo') return {x:p.x+NW/2,y:p.y+NH};
+  if(lado==='esquerda') return {x:p.x,y:p.y+NH/2};
+  return null;
+}
+// Conecta dois pontos com saída/entrada em qualquer lado (topo/direita/
+// baixo/esquerda), sempre em ângulo reto — pra setas criadas no modo
+// edição a partir de qualquer vértice (pedido do Willians, 22/09/26).
+function rotaGenerica(pA,pB,ladoA,ladoB){
+  const stub=20;
+  const [dxA,dyA]=LADO_DIR[ladoA]||[1,0], [dxB,dyB]=LADO_DIR[ladoB]||[-1,0];
+  const p1={x:pA.x+dxA*stub,y:pA.y+dyA*stub}, p2={x:pB.x+dxB*stub,y:pB.y+dyB*stub};
+  const vA=dxA!==0?'h':'v', vB=dxB!==0?'h':'v';
+  let meio;
+  if(vA==='v'&&vB==='v'){ const midY=(p1.y+p2.y)/2; meio=`V${midY} H${p2.x} V${p2.y}` }
+  else if(vA==='h'&&vB==='h'){ const midX=(p1.x+p2.x)/2; meio=`H${midX} V${p2.y} H${p2.x}` }
+  else if(vA==='h'){ meio=`H${p2.x} V${p2.y}` }
+  else { meio=`V${p2.y} H${p2.x}` }
+  // ilx/ily: perto do vértice de saída — é onde o ícone de decisão nasce
+  // por padrão (pedido do Willians, 22/09/26).
+  return {d:`M${pA.x},${pA.y} L${p1.x},${p1.y} ${meio} L${pB.x},${pB.y}`, lx:(pA.x+pB.x)/2, ly:(pA.y+pB.y)/2-6,
+    ilx:pA.x+dxA*32, ily:pA.y+dyA*32};
+}
+function caminho(a,b,volta,deLado,paraLado){
+  // Conectores sempre em ângulo reto — só segmentos H/V (pedido do
+  // Willians, 22/09/26), nada de curva/bezier.
+  const A=LAY.pos[a], B=LAY.pos[b];
+  if(deLado&&paraLado) return rotaGenerica(pontoLado(A,deLado),pontoLado(B,paraLado),deLado,paraLado);
+  if(A.sg!==B.sg){
+    const sx=A.x+NW, sy=A.y+NH/2, ex=B.x, ey=B.y+NH/2, gy=(Math.min(A.sg,B.sg)+1)*LAY.SEGH-GAPSEG/2-4;
+    return {d:`M${sx},${sy} H${sx+22} V${gy} H${ex-24} V${ey} H${ex}`, lx:(sx+ex)/2, ly:gy-7, ilx:sx+30, ily:sy};
+  }
+  if(!volta){
+    const sx=A.x+NW, sy=A.y+NH/2, ex=B.x, ey=B.y+NH/2;
+    if(sy===ey){
+      // Mesma raia mas pula coluna(s) — outro nó fica exatamente no meio
+      // do caminho reto (achado do Willians, 22/09/26: linha atravessando
+      // a caixa "Fiscal encaminha o DEVEC à CGM"). Desvia por baixo do
+      // próprio nó em vez de cruzar por cima da caixa intermediária.
+      if(B.c-A.c>1){ const dip=A.y+NH+8; return {d:`M${sx},${sy} V${dip} H${ex} V${ey}`, lx:(sx+ex)/2, ly:dip-7, ilx:sx+30, ily:sy} }
+      return {d:`M${sx},${sy} H${ex}`, lx:(sx+ex)/2, ly:sy-8, ilx:sx+30, ily:sy};
+    }
+    const midx=(sx+ex)/2;
+    // ilx/ily: perto do vértice de saída da origem (topo/direita/baixo do
+    // losango ou caixa), não no meio da linha (pedido do Willians,
+    // 22/09/26) — o ícone de decisão nasce ali, colado na etapa de onde
+    // a seta parte.
+    return {d:`M${sx},${sy} H${midx} V${ey} H${ex}`, lx:midx, ly:(sy+ey)/2-6, ilx:sx+30, ily:sy};
+  }
+  const sx=A.x+NW/2, sy=A.y+NH, ex=B.x+NW/2, ey=B.y+NH, yb=Math.max(sy,ey)+34;
+  return {d:`M${sx},${sy} V${yb} H${ex} V${ey}`, lx:(sx+ex)/2, ly:yb-7, ilx:sx, ily:sy+30};
+}
+
+/* ---------- construção do mundo ---------- */
+function build(animar){
+  LAY=layout(); ORDEM=LAY.ordem; IDX={}; ORDEM.forEach((id,i)=>IDX[id]=i+1);
+  // Reaplica posições que o Willians arrastou nesta sessão/navegador, por
+  // cima do layout automático.
+  const salvas=carregarPosicoes();
+  Object.keys(salvas).forEach(id=>{ if(LAY.pos[id]) Object.assign(LAY.pos[id],salvas[id]) });
+  const posBarrasSalvas=carregarPosBarras();
+  const posIconesSalvos=carregarPosIcones();
+  const {nos,es,pos,lanes,W,H}=LAY;
+  let s=`<defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--edge)"/></marker>
+    <marker id="seta-on" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--edge-on)"/></marker></defs>`;
+  let hnd='';
+  for(let sg=0;sg<LAY.nseg;sg++){
+    // Faixa (banda + nome do ator) só no segmento 0 — no 2º segmento ela
+    // duplicava a mesma raia (achado do Willians, 22/09/26); as etapas
+    // continuam exatamente onde estavam, só perdem o fundo/rótulo repetido.
+    if(sg===0) lanes.forEach((l,i)=>{
+      const y=PADT+LAY.laneY[l.id], h=LAY.laneH[l.id], nm=wrap(l.nome,24,2);
+      s+=`<rect class="${i%2?'band-b':'band-a'}" data-lane="${l.id}" x="0" y="${y}" width="${W}" height="${h}"/>`;
+      s+=`<text class="lane-t" data-lane="${l.id}" x="24" y="${y+h/2-(nm.length-1)*9}">${nm.map((t,k)=>`<tspan x="24" dy="${k?18:0}">${esc(t)}</tspan>`).join('')}</text>`;
+      s+=`<text class="lane-s" data-lane="${l.id}" x="24" y="${y+h/2+(nm.length-1)*9+18}">${esc(l.sub)}</text>`;
+      // Alça pra alargar/estreitar a raia. Desenhada por cima de tudo (ver
+      // mais abaixo) pra não ficar coberta pelas caixas nas raias finas
+      // (TE/TUSD), que sobram pouca margem.
+      hnd+=`<rect class="lane-resize" data-lane="${l.id}" x="0" y="${y+h-5}" width="${W}" height="10"/>`;
+    });
+    const fr={}; nos.forEach(n=>{ const q=pos[n.id]; if(q.sg!==sg) return; const c=q.x; const f=fr[n.fase]||(fr[n.fase]=[c,c]); f[0]=Math.min(f[0],c); f[1]=Math.max(f[1],c) });
+    // Fileira por agendamento de intervalos (não por paridade do número da
+    // fase) — com trilhas paralelas (CCEE, ajuste/glosa) duas fases podem
+    // ter o mesmo índice de ordenação e ainda assim se cruzar em x; a
+    // paridade simples sobrepunha o texto (achado do Willians, 22/09/26).
+    const barras = Object.keys(fr).map(f=>({f,x1:fr[f][0]-8,x2:fr[f][1]+NW+8})).sort((a,b)=>a.x1-b.x1);
+    const filaFim=[];
+    barras.forEach(b=>{ let r=0; while(r<filaFim.length && filaFim[r]>b.x1-14) r++; filaFim[r]=b.x2; b.row=r });
+    barras.forEach(b=>{
+      // Também arrastável (pedido do Willians, 22/09/26); coordenadas
+      // locais + transform, mesmo esquema das caixas de etapa.
+      const key=sg+':'+b.f, xAuto=b.x1, yAuto=sg*LAY.SEGH+8+b.row*28, wBar=b.x2-b.x1;
+      const ov=posBarrasSalvas[key], bx=ov?ov.x:xAuto, by=ov?ov.y:yAuto;
+      s+=`<g class="fase-barra f${b.f}" data-fase="${b.f}" data-key="${key}" data-x="${xAuto}" data-row="${b.row}" data-sg="${sg}" transform="translate(${bx},${by})"><rect x="0" y="0" width="${wBar}" height="24" rx="8"/><text x="12" y="17">${esc(DADOS.fases[b.f])}</text></g>`;
+    });
+  }
+  let ed='', lb='', hit='';
+  es.forEach(e=>{
+    const c=caminho(e.de,e.para,e.volta,e.deLado,e.paraLado), d=(pos[e.de].c*70+160);
+    // Faixa invisível mais grossa — guardada à parte pra desenhar por cima
+    // de tudo (nós inclusive), senão uma seta que passa por baixo de outra
+    // caixa (desvio "dip") fica impossível de clicar (achado do Willians,
+    // 22/09/26: "tem seta que não consigo excluir").
+    hit+=`<path class="aresta-hit" data-de="${e.de}" data-para="${e.para}" d="${c.d}"/>`;
+    ed+=`<path class="aresta${e.volta?' volta':''}" data-de="${e.de}" data-para="${e.para}" d="${c.d}" marker-end="url(#seta)" style="--d:${d}ms"/>`;
+    if(e.rot){
+      // Decisão: check/✗ no lugar do texto "Sim"/"Não" (pedido do
+      // Willians, 22/09/26); as demais etiquetas continuam texto.
+      if(NO[e.de].tipo==='decisao'&&(e.rot==='Sim'||e.rot==='Não')){
+        const key=e.de+'|'+e.para, ov=posIconesSalvos[key];
+        lb+=iconeSimNao(e.rot==='Sim',ov?ov.x:c.ilx,ov?ov.y:c.ily,e.de,e.para,key);
+      } else lb+=`<text class="aresta-lbl" data-de="${e.de}" data-para="${e.para}" x="${c.lx}" y="${c.ly}" text-anchor="middle">${esc(e.rot)}</text>`;
+    }
+  });
+  s+=ed;
+  nos.forEach(n=>{
+    // Marcação em coordenadas locais (0,0) + transform="translate(x,y)" no
+    // <g> — permite arrastar a caixa só trocando o transform, sem redesenhar
+    // corpo/texto/selo (pedido do Willians, 22/09/26: arrastar as etapas).
+    const p=pos[n.id]; let corpo;
+    if(n.tipo==='decisao'){
+      // Losango — notação padrão de decisão em fluxograma.
+      corpo=`<polygon class="corpo" points="${NW/2},0 ${NW},${NH/2} ${NW/2},${NH} 0,${NH/2}"/>`;
+    } else if(n.tipo==='fim') corpo=`<rect class="corpo" x="0" y="0" width="${NW}" height="${NH}" rx="${NH/2}"/>`;
+    else corpo=`<rect class="corpo" x="0" y="0" width="${NW}" height="${NH}" rx="11"/>`;
+    const ln=wrap(n.curto,n.tipo==='etapa'?25:(n.tipo==='decisao'?16:22),3), lh=15, y0=NH/2-(ln.length-1)*lh/2+4.5;
+    const txt=ln.map((l,i)=>`<tspan x="${NW/2}" y="${y0+i*lh}">${esc(l)}</tspan>`).join('');
+    let bd=`<g class="badge-i"><circle cx="0" cy="0" r="11"/><text x="0" y="4" text-anchor="middle">${IDX[n.id]}</text></g>`;
+    if(n.prazo) bd+=`<g class="badge-p"><circle cx="11" cy="${NH-11}" r="7"/><path d="M11,${NH-15} V${NH-11} L14,${NH-9}"/></g>`;
+    bd+=clusterIO(n);
+    // Alças de conectar — nos 4 vértices/meios da caixa OU do losango, não
+    // só à direita — só ativas no modo edição (pedido do Willians,
+    // 22/09/26: desenhar uma seta nova a partir de qualquer vértice/meio).
+    bd+=[['topo',NW/2,0],['direita',NW,NH/2],['baixo',NW/2,NH],['esquerda',0,NH/2]].map(([lado,hx,hy])=>
+      `<circle class="connect-handle" data-id="${n.id}" data-lado="${lado}" cx="${hx}" cy="${hy}" r="6"/>`).join('');
+    s+=`<g class="no f${n.fase} ${n.tipo}" data-id="${n.id}" tabindex="0" role="button" aria-label="Etapa ${IDX[n.id]}: ${esc(n.titulo)}" transform="translate(${p.x},${p.y})" style="--d:${p.c*70}ms;--tx:${p.x}px;--ty:${p.y}px"><title>${IDX[n.id]}. ${esc(n.titulo)}</title>${corpo}<text class="t" text-anchor="middle">${txt}</text>${bd}</g>`;
+  });
+  s+=hnd;
+  s+=hit;
+  // Rótulos/ícones por último — sentam bem em cima da linha, então
+  // precisam ficar acima até da faixa de clique da seta, senão o ✓/✗
+  // fica "preso" atrás dela e não dá pra arrastar (achado do Willians,
+  // 22/09/26).
+  s+=lb;
+  s+='<g id="atag" style="display:none"><rect height="21" rx="10.5"/><text/></g>';
+  svg.innerHTML=s;
+  svg.classList.remove('enter');
+  svg.querySelectorAll('.aresta:not(.volta)').forEach(p=>p.style.setProperty('--len',Math.ceil(p.getTotalLength())+2));
+  if(animar && !RM){ void svg.getBoundingClientRect(); svg.classList.add('enter'); setTimeout(()=>svg.classList.remove('enter'),2600) }
+  svg.querySelectorAll('.no').forEach(g=>{
+    ligaArrastoNo(g, g.dataset.id);
+    g.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){e.preventDefault();selecionar(g.dataset.id)} });
+  });
+  svg.querySelectorAll('.fase-barra').forEach(g=>ligaArrastoBarra(g, g.dataset.key));
+  svg.querySelectorAll('.ico-decisao').forEach(g=>ligaArrastoIcone(g, g.dataset.key));
+  svg.querySelectorAll('.lane-resize').forEach(g=>ligaResizeLane(g, g.dataset.lane));
+  svg.querySelectorAll('.aresta-hit').forEach(h=>ligaSelecionarAresta(h));
+  svg.querySelectorAll('.connect-handle').forEach(h=>ligaConectar(h, h.dataset.id));
+  buildMini(); buildTrilha(); buildAtorMenu(); ligaLanes();
+  update();
+}
+/* ---------- arrastar uma caixa (pedido do Willians, 22/09/26) ---------- */
+function atualizarNo(id){
+  const g=svg.querySelector(`.no[data-id="${CSS.escape(id)}"]`), p=LAY.pos[id];
+  if(g) g.setAttribute('transform',`translate(${p.x},${p.y})`);
+  const posIcones=carregarPosIcones();
+  LAY.es.forEach(e=>{
+    if(e.de!==id && e.para!==id) return;
+    const c=caminho(e.de,e.para,e.volta,e.deLado,e.paraLado);
+    const de=CSS.escape(e.de), para=CSS.escape(e.para);
+    const path=svg.querySelector(`.aresta[data-de="${de}"][data-para="${para}"]`);
+    if(path) path.setAttribute('d',c.d);
+    const hit=svg.querySelector(`.aresta-hit[data-de="${de}"][data-para="${para}"]`);
+    if(hit) hit.setAttribute('d',c.d);
+    if(e.rot){ const t=svg.querySelector(`.aresta-lbl[data-de="${de}"][data-para="${para}"]`);
+      if(t){
+        if(t.classList.contains('ico-decisao')){
+          // Ícone ✓/✗: só acompanha o nó se não foi arrastado manualmente.
+          if(!posIcones[t.dataset.key]) t.setAttribute('transform',`translate(${c.ilx},${c.ily})`);
+        } else { t.setAttribute('x',c.lx); t.setAttribute('y',c.ly) }
+      } }
+  });
+  if(ST.sel===id){ const tg=svg.querySelector('#atag');
+    if(tg && tg.style.display!=='none'){ const t=tg.querySelector('text'), r=tg.querySelector('rect');
+      t.setAttribute('x',p.x+10); t.setAttribute('y',p.y-11);
+      r.setAttribute('x',p.x); r.setAttribute('y',p.y-27); r.setAttribute('width',Math.ceil(t.getComputedTextLength())+20); } }
+}
+function ligaArrastoNo(g,id){
+  g.addEventListener('pointerdown',e=>{
+    if(e.button!==0) return;
+    e.stopPropagation();
+    const s0=vw/cam.w, startX=e.clientX, startY=e.clientY, origX=LAY.pos[id].x, origY=LAY.pos[id].y;
+    let arrastou=false;
+    try{ g.setPointerCapture(e.pointerId) }catch(err){}
+    const mover=ev=>{
+      const dx=(ev.clientX-startX)/s0, dy=(ev.clientY-startY)/s0;
+      if(!arrastou && Math.hypot(ev.clientX-startX,ev.clientY-startY)<5) return;
+      if(!arrastou){ arrastou=true; g.classList.add('arrastando') }
+      LAY.pos[id].x=origX+dx; LAY.pos[id].y=origY+dy;
+      atualizarNo(id);
+    };
+    const soltar=ev=>{
+      window.removeEventListener('pointermove',mover);
+      window.removeEventListener('pointerup',soltar);
+      try{ g.releasePointerCapture(e.pointerId) }catch(err){}
+      g.classList.remove('arrastando');
+      if(arrastou){ salvarPosicao(id,LAY.pos[id].x,LAY.pos[id].y); buildMini(); }
+      else selecionar(id);
+    };
+    window.addEventListener('pointermove',mover);
+    window.addEventListener('pointerup',soltar);
+  });
+}
+function ligaArrastoBarra(g,key){
+  g.addEventListener('pointerdown',e=>{
+    if(e.button!==0) return;
+    e.stopPropagation();
+    const s0=vw/cam.w, startX=e.clientX, startY=e.clientY;
+    const m=/translate\(([-\d.]+),([-\d.]+)\)/.exec(g.getAttribute('transform'))||[0,0,0];
+    const origX=+m[1], origY=+m[2];
+    let arrastou=false;
+    try{ g.setPointerCapture(e.pointerId) }catch(err){}
+    const mover=ev=>{
+      const dx=(ev.clientX-startX)/s0, dy=(ev.clientY-startY)/s0;
+      if(!arrastou && Math.hypot(ev.clientX-startX,ev.clientY-startY)<5) return;
+      if(!arrastou){ arrastou=true; g.classList.add('arrastando') }
+      g.setAttribute('transform',`translate(${origX+dx},${origY+dy})`);
+    };
+    const soltar=ev=>{
+      window.removeEventListener('pointermove',mover);
+      window.removeEventListener('pointerup',soltar);
+      try{ g.releasePointerCapture(e.pointerId) }catch(err){}
+      g.classList.remove('arrastando');
+      if(arrastou){ const mm=/translate\(([-\d.]+),([-\d.]+)\)/.exec(g.getAttribute('transform')); salvarPosBarra(key,+mm[1],+mm[2]) }
+    };
+    window.addEventListener('pointermove',mover);
+    window.addEventListener('pointerup',soltar);
+  });
+}
+function ligaArrastoIcone(g,key){
+  // Ícone ✓/✗ de decisão — mesmo esquema de arraste da barra de fase
+  // (pedido do Willians, 22/09/26: "arrastar e posicionar os ícones de
+  // decisão").
+  g.addEventListener('pointerdown',e=>{
+    if(e.button!==0) return;
+    e.stopPropagation();
+    const s0=vw/cam.w, startX=e.clientX, startY=e.clientY;
+    const m=/translate\(([-\d.]+),([-\d.]+)\)/.exec(g.getAttribute('transform'))||[0,0,0];
+    const origX=+m[1], origY=+m[2];
+    let arrastou=false;
+    try{ g.setPointerCapture(e.pointerId) }catch(err){}
+    const mover=ev=>{
+      const dx=(ev.clientX-startX)/s0, dy=(ev.clientY-startY)/s0;
+      if(!arrastou && Math.hypot(ev.clientX-startX,ev.clientY-startY)<5) return;
+      if(!arrastou){ arrastou=true; g.classList.add('arrastando') }
+      g.setAttribute('transform',`translate(${origX+dx},${origY+dy})`);
+    };
+    const soltar=ev=>{
+      window.removeEventListener('pointermove',mover);
+      window.removeEventListener('pointerup',soltar);
+      try{ g.releasePointerCapture(e.pointerId) }catch(err){}
+      g.classList.remove('arrastando');
+      if(arrastou){ const mm=/translate\(([-\d.]+),([-\d.]+)\)/.exec(g.getAttribute('transform')); salvarPosIcone(key,+mm[1],+mm[2]) }
+    };
+    window.addEventListener('pointermove',mover);
+    window.addEventListener('pointerup',soltar);
+  });
+}
+/* ---------- alargar/estreitar a raia de um ator (pedido do Willians,
+   22/09/26) — arrasta a alça na base da raia; empurra as raias abaixo,
+   recentraliza as caixas que não foram arrastadas manualmente. ---------- */
+function ligaResizeLane(g,laneId){
+  g.addEventListener('pointerdown',e=>{
+    if(e.button!==0) return;
+    e.stopPropagation();
+    const s0=vw/cam.w, startY=e.clientY, origH=LAY.laneH[laneId];
+    let moveu=false;
+    try{ g.setPointerCapture(e.pointerId) }catch(err){}
+    const mover=ev=>{
+      const dy=(ev.clientY-startY)/s0;
+      if(!moveu && Math.abs(ev.clientY-startY)<3) return;
+      moveu=true;
+      ALTLANE[laneId]=Math.max(NH+10,origH+dy)/ROWH;
+      recalcularLayout();
+    };
+    const soltar=ev=>{
+      window.removeEventListener('pointermove',mover);
+      window.removeEventListener('pointerup',soltar);
+      try{ g.releasePointerCapture(e.pointerId) }catch(err){}
+      if(moveu){ salvarAlturaLanes(ALTLANE); buildMini() }
+    };
+    window.addEventListener('pointermove',mover);
+    window.addEventListener('pointerup',soltar);
+  });
+}
+function recalcularLayout(){
+  const nSubs=contarSubs(LAY.nos);
+  const {laneH,laneY,lanesTotalH}=alturasRaias(LAY.lanes,nSubs);
+  LAY.laneH=laneH; LAY.laneY=laneY;
+  const novoSEGH=PADT+lanesTotalH+GAPSEG;
+  LAY.SEGH=novoSEGH; LAY.H=LAY.nseg*novoSEGH-GAPSEG+16;
+  const salvas=carregarPosicoes();
+  LAY.nos.forEach(n=>{
+    if(salvas[n.id]) return; // posição arrastada manualmente não é tocada
+    const p=LAY.pos[n.id], sg=p.sg;
+    const subN=nSubs[n.lane]||1, subH=laneH[n.lane]/subN, subOff=(n.sub||0)*subH;
+    p.y = n.entre ? sg*novoSEGH+PADT+laneY[n.entre[1]]-NH/2 : sg*novoSEGH+PADT+laneY[n.lane]+subOff+(subH-NH)/2;
+    atualizarNo(n.id);
+  });
+  // Faixa (banda + nome do ator) só existe uma vez, no topo (segmento 0).
+  LAY.lanes.forEach(l=>{
+    const y=PADT+laneY[l.id], h=laneH[l.id], nm=wrap(l.nome,24,2);
+    const rect=svg.querySelector(`rect.band-a[data-lane="${CSS.escape(l.id)}"], rect.band-b[data-lane="${CSS.escape(l.id)}"]`);
+    if(rect){ rect.setAttribute('y',y); rect.setAttribute('height',h) }
+    const lt=svg.querySelector(`text.lane-t[data-lane="${CSS.escape(l.id)}"]`);
+    if(lt) lt.setAttribute('y', y+h/2-(nm.length-1)*9);
+    const ls=svg.querySelector(`text.lane-s[data-lane="${CSS.escape(l.id)}"]`);
+    if(ls) ls.setAttribute('y', y+h/2+(nm.length-1)*9+18);
+    const hnd=svg.querySelector(`rect.lane-resize[data-lane="${CSS.escape(l.id)}"]`);
+    if(hnd) hnd.setAttribute('y', y+h-5);
+  });
+  const posBarrasSalvas=carregarPosBarras();
+  svg.querySelectorAll('.fase-barra').forEach(g=>{
+    const key=g.dataset.key;
+    if(posBarrasSalvas[key]) return; // barra arrastada manualmente não é tocada
+    const sg=+g.dataset.sg, row=+g.dataset.row, x=+g.dataset.x;
+    g.setAttribute('transform',`translate(${x},${sg*novoSEGH+8+row*28})`);
+  });
+}
+
+/* ---------- modo edição: excluir etapa/seta, criar seta nova ---------- */
+function pointerParaMundo(clientX,clientY){
+  const r=stage.getBoundingClientRect(), s=vw/cam.w;
+  return {x:cam.x+(clientX-r.left)/s, y:cam.y+(clientY-r.top)/s};
+}
+function atualizarSelecaoAresta(){
+  svg.querySelectorAll('.aresta').forEach(p=>{
+    const on=ST.selAresta&&p.dataset.de===ST.selAresta.de&&p.dataset.para===ST.selAresta.para;
+    p.classList.toggle('sel-del',!!on);
+  });
+}
+function ligaSelecionarAresta(h){
+  h.addEventListener('pointerdown',e=>{
+    if(!ST.editando||e.button!==0) return;
+    e.stopPropagation();
+    const de=h.dataset.de, para=h.dataset.para;
+    const ja=ST.selAresta&&ST.selAresta.de===de&&ST.selAresta.para===para;
+    ST.selAresta = ja?null:{de,para};
+    if(ST.selAresta && ST.sel) fechar();
+    atualizarSelecaoAresta();
+  });
+}
+// Sem confirm()/prompt() — bloqueados em alguns visualizadores com sandbox
+// (ex.: artifact embutido). Confirma apertando Delete de novo, até 3s.
+let pendenteExclusao=null;
+function pedirConfirmacao(tipo,chave,msg,efetivar){
+  if(pendenteExclusao&&pendenteExclusao.tipo===tipo&&pendenteExclusao.chave===chave){
+    clearTimeout(pendenteExclusao.timer); pendenteExclusao=null; efetivar(); return;
+  }
+  if(pendenteExclusao) clearTimeout(pendenteExclusao.timer);
+  pendenteExclusao={tipo,chave,timer:setTimeout(()=>{pendenteExclusao=null},3000)};
+  toast(msg);
+}
+function excluirNoSelecionado(){
+  const id=ST.sel; if(!id||!NO[id]) return;
+  pedirConfirmacao('no',id,`Aperte Delete de novo pra confirmar: excluir "${NO[id].titulo}"`,()=>{
+    const rem=carregarNosRemovidos(); if(!rem.includes(id)) rem.push(id); salvarNosRemovidos(rem);
+    fechar(); build(false); visaoGeral(0); toast('Etapa excluída');
+  });
+}
+// Duplicar uma etapa/decisão (pedido do Willians, 22/09/26: "copiar
+// entidade") — cria uma cópia idêntica, um pouco deslocada, com "(cópia)"
+// no rótulo pra ficar óbvio que precisa editar o texto depois.
+function duplicarNoSelecionado(){
+  const id=ST.sel; if(!id||!NO[id]) return;
+  const orig=NO[id], novoId='copia'+Date.now().toString(36)+Math.floor(Math.random()*1000);
+  const novo={...orig, id:novoId, curto:orig.curto+' (cópia)', titulo:orig.titulo+' (cópia)'};
+  const novos=carregarNosNovos(); novos.push(novo); salvarNosNovos(novos);
+  NO[novoId]=novo;
+  const p=LAY.pos[id];
+  if(p) salvarPosicao(novoId,p.x+40,p.y+40);
+  build(false); selecionar(novoId);
+  toast('Etapa duplicada — edite o texto depois, se precisar');
+}
+// Rotular uma seta criada por você como "Sim"/"Não" (ganha o ícone ✓/✗ se
+// sair de um losango) ou tirar o rótulo — pedido do Willians, 22/09/26.
+function rotularArestaSelecionada(rot){
+  const a=ST.selAresta; if(!a) return;
+  const novas=carregarArestasNovas();
+  const idx=novas.findIndex(n=>n.de===a.de&&n.para===a.para);
+  if(idx<0){ toast('Só dá pra rotular setas criadas por você'); return }
+  novas[idx].rot=rot; salvarArestasNovas(novas);
+  build(false); toast(rot?`Rótulo: ${rot}`:'Rótulo removido');
+}
+function excluirArestaSelecionada(){
+  const a=ST.selAresta; if(!a) return;
+  const key=a.de+'|'+a.para;
+  pedirConfirmacao('aresta',key,'Aperte Delete de novo pra confirmar: excluir esta seta',()=>{
+    // Seta criada à mão: remove direto da lista de criadas (senão nunca
+    // some de verdade — bug achado pelo Willians, 22/09/26). Seta original
+    // do DADOS: marca como removida, mesmo esquema de antes.
+    const novas=carregarArestasNovas();
+    const idx=novas.findIndex(n=>n.de===a.de&&n.para===a.para);
+    if(idx>=0){ novas.splice(idx,1); salvarArestasNovas(novas) }
+    else { const rem=carregarArestasRemovidas(); if(!rem.includes(key)) rem.push(key); salvarArestasRemovidas(rem) }
+    ST.selAresta=null; build(false); toast('Seta excluída');
+  });
+}
+function adicionarAresta(de,deLado,para,paraLado,rot){
+  const novas=carregarArestasNovas();
+  novas.push({de,deLado,para,paraLado,rot:rot||''});
+  salvarArestasNovas(novas);
+  build(false); toast('Seta criada');
+}
+// Lado da caixa mais próximo de um ponto do mundo — usado quando você
+// solta em cima da caixa mas não exatamente numa alça dela.
+function ladoMaisProximo(id,wx,wy){
+  const p=LAY.pos[id];
+  const cands=[['topo',p.x+NW/2,p.y],['direita',p.x+NW,p.y+NH/2],['baixo',p.x+NW/2,p.y+NH],['esquerda',p.x,p.y+NH/2]];
+  let melhor=cands[0], d0=Infinity;
+  cands.forEach(c=>{ const d=(c[1]-wx)**2+(c[2]-wy)**2; if(d<d0){ d0=d; melhor=c } });
+  return melhor[0];
+}
+function ligaConectar(h,id){
+  h.addEventListener('pointerdown',e=>{
+    if(!ST.editando||e.button!==0) return;
+    e.stopPropagation();
+    const NS='http://www.w3.org/2000/svg', linha=document.createElementNS(NS,'line');
+    linha.setAttribute('class','conectando-preview');
+    // Parte da alça usada (topo/direita/baixo/esquerda), não só da direita.
+    const deLado=h.dataset.lado;
+    const p0=LAY.pos[id], sx=p0.x+ +h.getAttribute('cx'), sy=p0.y+ +h.getAttribute('cy');
+    linha.setAttribute('x1',sx); linha.setAttribute('y1',sy); linha.setAttribute('x2',sx); linha.setAttribute('y2',sy);
+    svg.appendChild(linha);
+    try{ h.setPointerCapture(e.pointerId) }catch(err){}
+    const mover=ev=>{ const w=pointerParaMundo(ev.clientX,ev.clientY); linha.setAttribute('x2',w.x); linha.setAttribute('y2',w.y) };
+    const soltar=ev=>{
+      window.removeEventListener('pointermove',mover);
+      window.removeEventListener('pointerup',soltar);
+      try{ h.releasePointerCapture(e.pointerId) }catch(err){}
+      linha.remove();
+      const alvo=document.elementFromPoint(ev.clientX,ev.clientY);
+      const destino=alvo&&alvo.closest('.no');
+      if(destino && destino.dataset.id!==id){
+        // Se soltou bem numa alça do destino, usa o lado dela; senão, o
+        // lado da caixa mais perto de onde o mouse soltou.
+        const wsolto=pointerParaMundo(ev.clientX,ev.clientY);
+        const paraLado = (alvo.classList&&alvo.classList.contains('connect-handle')&&alvo.dataset.id===destino.dataset.id)
+          ? alvo.dataset.lado
+          : ladoMaisProximo(destino.dataset.id, wsolto.x, wsolto.y);
+        adicionarAresta(id,deLado,destino.dataset.id,paraLado,'');
+      }
+    };
+    window.addEventListener('pointermove',mover);
+    window.addEventListener('pointerup',soltar);
+  });
+}
+function buildMini(){
+  const {nos,pos,W,H}=LAY, m=$('#minisvg');
+  m.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  m.innerHTML=nos.map(n=>`<rect class="f${n.fase}" x="${pos[n.id].x}" y="${pos[n.id].y}" width="${NW}" height="${NH}" rx="10" style="fill:var(--c);opacity:.85"/>`).join('')+`<rect id="mv" x="0" y="0" width="10" height="10" rx="20"/>`;
+}
+
+/* ---------- estados visuais ---------- */
+function casa(n){
+  if(ST.fases.size && !ST.fases.has(n.fase)) return false;
+  if(ST.lane && n.lane!==ST.lane) return false;
+  if(ST.q){
+    const t=[n.titulo,n.desc,n.prazo,n.docs,n.nota,...(n.base||[]).flatMap(b=>[b.ref,b.t])].join(' ').toLowerCase();
+    if(!t.includes(ST.q)) return false;
+  }
+  return true;
+}
+function update(){
+  const sel=ST.sel, viz=new Set(LAY.nos.map(n=>n.id));
+  const viz_ed=LAY.es, nb=new Set();
+  if(sel) viz_ed.forEach(e=>{ if(e.de===sel) nb.add(e.para); if(e.para===sel) nb.add(e.de) });
+  svg.classList.toggle('focus',!!sel);
+  svg.querySelectorAll('.no').forEach(g=>{
+    const id=g.dataset.id, n=NO[id];
+    g.classList.toggle('sel',id===sel);
+    g.classList.toggle('nb',!!sel&&nb.has(id));
+    g.classList.toggle('dim', sel ? !(id===sel||nb.has(id)) : !casa(n));
+  });
+  svg.querySelectorAll('.aresta').forEach(p=>{
+    const on=sel&&(p.dataset.de===sel||p.dataset.para===sel);
+    p.classList.toggle('on',!!on);
+    p.classList.toggle('dim',sel? !on : (!casa(NO[p.dataset.de])||!casa(NO[p.dataset.para])));
+    p.setAttribute('marker-end',`url(#${on?'seta-on':'seta'})`);
+  });
+  svg.querySelectorAll('.aresta-lbl').forEach(t=>{
+    t.classList.toggle('on',!!sel&&(t.dataset.de===sel||t.dataset.para===sel));
+  });
+  svg.querySelectorAll('.fase-barra').forEach(g=>{ g.style.opacity=(ST.fases.size&&!ST.fases.has(+g.dataset.fase))?.25:1 });
+  const selN=sel?NO[sel]:null, selP=sel?LAY.pos[sel]:null;
+  svg.querySelectorAll('.band-a,.band-b,.lane-t').forEach(el=>{
+    // A faixa só existe uma vez (topo) — não filtra mais por segmento do
+    // nó selecionado, senão a seleção de uma etapa do 2º segmento nunca
+    // acendia a raia lá em cima.
+    const on=(ST.lane&&el.dataset.lane===ST.lane)||(selN&&el.dataset.lane===selN.lane);
+    el.classList.toggle('lane-on',!!on);
+  });
+  const tg=svg.querySelector('#atag');
+  if(tg){
+    if(selN){
+      const ln=DADOS.lanes.find(l=>l.id===selN.lane), t=tg.querySelector('text'), r=tg.querySelector('rect');
+      tg.style.display=''; t.textContent='▸ '+ln.nome;
+      t.setAttribute('x',selP.x+10); t.setAttribute('y',selP.y-11);
+      r.setAttribute('x',selP.x); r.setAttribute('y',selP.y-27); r.setAttribute('width',Math.ceil(t.getComputedTextLength())+20);
+    } else tg.style.display='none';
+  }
+  const N=ORDEM.length;
+  document.querySelectorAll('.tr-d').forEach(b=>{ b.classList.toggle('cur',b.dataset.id===sel); b.classList.toggle('dim',!sel&&!casa(NO[b.dataset.id])) });
+  const tx=$('#tr-txt'); if(tx) tx.textContent = sel ? `Etapa ${IDX[sel]} de ${N} · ${DADOS.fases[NO[sel].fase]}` : `${N} etapas · ${new Set(ORDEM.map(i=>NO[i].fase)).size} fases`;
+  const as=$('#ator-sum'); if(as){ const l=DADOS.lanes.find(x=>x.id===ST.lane); as.textContent = l ? 'Ator: '+l.nome.split(/ \/ | e /)[0] : 'Ator' }
+  document.querySelectorAll('.ator-b').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.lane||'')===(ST.lane||''))));
+}
+
+/* ---------- câmera ---------- */
+function medir(){
+  const r=stage.getBoundingClientRect(); vw=r.width; vh=r.height;
+  const t=Math.ceil($('#top').getBoundingClientRect().bottom-8), b=Math.ceil(vh-$('#bottom').getBoundingClientRect().top-6);
+  document.documentElement.style.setProperty('--topH',Math.max(40,t)+'px');
+  document.documentElement.style.setProperty('--botH',Math.max(28,b)+'px');
+}
+function insets(){ return {top:Math.max(40,$('#top').getBoundingClientRect().bottom-4)+6, bot:Math.max(28,vh-$('#bottom').getBoundingClientRect().top)+6} }
+function aplicar(){
+  svg.setAttribute('viewBox',`${cam.x} ${cam.y} ${cam.w} ${cam.h}`);
+  const s=vw/cam.w;
+  svg.classList.toggle('z',s>.55); svg.classList.toggle('ov',s<.42);
+  const gs=Math.max(18,Math.min(90,44*s));
+  stage.style.setProperty('--gs',gs+'px');
+  stage.style.setProperty('--gx',(-cam.x*s)%gs+'px'); stage.style.setProperty('--gy',(-cam.y*s)%gs+'px');
+  $('#mini').classList.toggle('off', s<fitS*1.3);
+  const mv=$('#mv'); if(mv){ mv.setAttribute('x',cam.x); mv.setAttribute('y',cam.y); mv.setAttribute('width',cam.w); mv.setAttribute('height',cam.h) }
+}
+function alvo(cx,cy,s,px,py){ const w=vw/s; return {x:cx-px/s, y:cy-py/s, w} }
+function ir(t,ms){
+  if(tween) cancelAnimationFrame(tween);
+  const th=t.w*vh/vw;
+  if(RM||!ms){ cam.x=t.x;cam.y=t.y;cam.w=t.w;cam.h=th;aplicar();return }
+  const a={cx:cam.x+cam.w/2, cy:cam.y+cam.h/2, w:cam.w}, b={cx:t.x+t.w/2, cy:t.y+th/2, w:t.w};
+  const t0=performance.now(), ease=k=>k<.5?4*k*k*k:1-Math.pow(-2*k+2,3)/2;
+  const passo=now=>{
+    const k=Math.min(1,(now-t0)/ms), e=ease(k);
+    const w=Math.exp(Math.log(a.w)+(Math.log(b.w)-Math.log(a.w))*e), h=w*vh/vw;
+    const cx=a.cx+(b.cx-a.cx)*e, cy=a.cy+(b.cy-a.cy)*e;
+    cam.w=w; cam.h=h; cam.x=cx-w/2; cam.y=cy-h/2; aplicar();
+    tween = k<1 ? requestAnimationFrame(passo) : null;
+  };
+  tween=requestAnimationFrame(passo);
+}
+function visaoGeral(ms){
+  medir(); const {top,bot}=insets(), mx=24;
+  const s=Math.min((vw-2*mx)/LAY.W,(vh-top-bot)/LAY.H); fitS=s;
+  ir(alvo(LAY.W/2,LAY.H/2,s,vw/2,top+(vh-top-bot)/2),ms);
+}
+function cardLargura(){
+  if(vw<760) return 0;
+  return (ST.mini?300:(vw<1100?Math.min(340,vw*.46):400))+24;
+}
+function focarNo(id,ms){
+  medir(); const {top,bot}=insets(), p=LAY.pos[id], mobile=vw<760, cw=cardLargura();
+  const livreW=vw-cw, livreH=mobile?vh*.46-top:vh-top-bot;
+  const s=Math.max(.75,Math.min(1.6,Math.min(livreW/(COLW*3.8),livreH/(ROWH*3.0))));
+  const px=mobile?vw/2:livreW/2, py=top+livreH/2;
+  ir(alvo(p.x+NW/2,p.y+NH/2,s,px,py),ms);
+}
+
+/* ---------- seleção, cartão e percurso ---------- */
+function baseHtml(b){ return `<li><span class="k ${KIND[b.k][1]}">${esc(KIND[b.k][0])}</span><span class="ref">${esc(b.ref)}</span>${b.t?' — '+esc(b.t):''}</li>` }
+function cartao(){
+  const C=$('#card'), n=NO[ST.sel];
+  if(!n){ C.classList.remove('open'); return }
+  const lane=DADOS.lanes.find(l=>l.id===n.lane), i=IDX[n.id], N=ORDEM.length;
+  let h=`<div class="card-head"><span class="step">Etapa ${i} de ${N}</span><div class="nav">
+    <button id="k-prev" aria-label="Etapa anterior" ${i<=1?'disabled':''}>←</button><button id="k-next" aria-label="Próxima etapa" ${i>=N?'disabled':''}>→</button>
+    <button id="k-tour" aria-label="${ST.tour?'Pausar':'Iniciar'} apresentação">${ST.tour?'❚❚':'▶'}</button><button id="k-min" aria-label="${ST.mini?'Expandir cartão':'Recolher cartão'}" title="${ST.mini?'Expandir':'Recolher'} cartão">${ST.mini?'▢':'–'}</button><button id="k-close" aria-label="Fechar">✕</button></div></div>
+    <div class="prog ${ST.tour?'on':''}" style="--dur:${ST.tourMs}ms"><i></i></div><div class="card-body">`;
+  // Editar texto no lugar — sem prompt() (pode ser bloqueado num
+  // visualizador com sandbox). Só no modo edição (pedido do Willians,
+  // 22/09/26: "alterar o texto de uma entidade").
+  if(ST.editando && ST.editandoTexto){
+    h+=`<div class="edita-texto"><input id="in-texto" value="${esc(n.titulo)}" maxlength="140">
+      <div class="edita-botoes"><button class="btn primary" id="k-salvar-texto">Salvar</button><button class="btn" id="k-cancelar-texto">Cancelar</button></div></div>`;
+  } else {
+    h+=`<h2>${esc(n.titulo)}${ST.editando?' <button class="btn-editar-texto" id="k-editar-texto" title="Editar texto">✏️</button>':''}</h2>`;
+  }
+  if(ST.editando){
+    h+=`<div class="ator-banner"><small>Responsável</small><select id="sel-lane-no">${DADOS.lanes.map(l=>`<option value="${l.id}" ${l.id===n.lane?'selected':''}>${esc(l.nome)}</option>`).join('')}</select><em>${esc(lane.sub)}</em></div>`;
+  } else {
+    h+=`<div class="ator-banner"><small>Responsável</small><b>${esc(lane.nome)}</b><em>${esc(lane.sub)}</em></div>`;
+  }
+  h+=`<div class="tags"><span class="tag fase f${n.fase}">${esc(DADOS.fases[n.fase])}</span></div>`;
+  h+=`<p>${esc(n.desc)}</p>`;
+  if(n.prazo) h+=`<h3>Prazo</h3><div class="prazo">${esc(n.prazo)}</div>`;
+  if(n.docs) h+=`<h3>Documentos</h3><p>${esc(n.docs)}</p>`;
+  if(n.base&&n.base.length) h+=`<h3>Detalhes</h3><ul class="base">${n.base.map(baseHtml).join('')}</ul>`;
+  if(n.nota) h+=`<h3>Atenção</h3><div class="aviso">${esc(n.nota)}</div>`;
+  h+=`</div>`;
+  C.innerHTML=h; C.classList.add('open'); C.classList.toggle('min',ST.mini);
+  $('#k-prev').onclick=()=>passo(-1); $('#k-next').onclick=()=>passo(1);
+  $('#k-close').onclick=fechar; $('#k-tour').onclick=()=>ST.tour?pararTour():iniciarTour();
+  $('#k-min').onclick=()=>{ ST.mini=!ST.mini; cartao(); focarNo(ST.sel,600) };
+  if(ST.editando && ST.editandoTexto){
+    const inp=$('#in-texto'); inp.focus(); inp.select();
+    const cancelar=()=>{ ST.editandoTexto=false; cartao() };
+    $('#k-salvar-texto').onclick=()=>salvarTextoEditado(inp.value);
+    $('#k-cancelar-texto').onclick=cancelar;
+    inp.onkeydown=e=>{ e.stopPropagation(); if(e.key==='Enter'){ e.preventDefault(); salvarTextoEditado(inp.value) } else if(e.key==='Escape'){ e.preventDefault(); cancelar() } };
+  } else if(ST.editando){
+    $('#k-editar-texto').onclick=()=>{ ST.editandoTexto=true; cartao() };
+  }
+  if(ST.editando){ const sel=$('#sel-lane-no'); if(sel) sel.onchange=()=>alterarLaneDoNo(sel.value) }
+}
+function alterarLaneDoNo(novoLaneId){
+  const id=ST.sel; if(!id||!NO[id]||NO[id].lane===novoLaneId) return;
+  NO[id].lane=novoLaneId;
+  // Mesmo cuidado das outras edições: etapa duplicada precisa do registro
+  // salvo dela atualizado; etapa original usa a sobreposição separada.
+  const novos=carregarNosNovos(), idx=novos.findIndex(n=>n.id===id);
+  if(idx>=0){ novos[idx].lane=novoLaneId; salvarNosNovos(novos) }
+  else { const t=carregarLanesNos(); t[id]=novoLaneId; salvarLanesNos(t) }
+  build(false); selecionar(id);
+  toast('Ator alterado');
+}
+function salvarTextoEditado(valor){
+  const id=ST.sel, texto=(valor||'').trim();
+  ST.editandoTexto=false;
+  if(!texto||!NO[id]){ cartao(); return }
+  NO[id].titulo=texto; NO[id].curto=texto;
+  // Etapa duplicada: o registro dela é recriado do zero a partir do
+  // localStorage a cada layout() — mudar só NO[id] em memória não bastava,
+  // a caixa no diagrama voltava pro texto antigo (achado do Willians,
+  // 22/09/26). Atualiza o registro salvo da cópia direto.
+  const novos=carregarNosNovos(), idx=novos.findIndex(n=>n.id===id);
+  if(idx>=0){ novos[idx].titulo=texto; novos[idx].curto=texto; salvarNosNovos(novos) }
+  else { const t=carregarTextosNos(); t[id]={curto:texto,titulo:texto}; salvarTextosNos(t) }
+  build(false); selecionar(id);
+  toast('Texto atualizado');
+}
+function selecionar(id){
+  const n=NO[id]; if(!n) return;
+  ST.sel=id; ST.selAresta=null; atualizarSelecaoAresta();
+  history.replaceState(null,'','#'+id);
+  update(); cartao(); focarNo(id,900);
+  if(ST.tour) agendar();
+}
+function fechar(){ pararTour(); ST.sel=null; history.replaceState(null,'',location.pathname+location.search); update(); cartao(); visaoGeral(900) }
+function passo(d){
+  if(!ST.sel){ selecionar(ORDEM[d>0?0:ORDEM.length-1]); return }
+  const i=IDX[ST.sel]-1+d;
+  if(i<0||i>=ORDEM.length){ if(ST.tour) fechar(); return }
+  selecionar(ORDEM[i]);
+}
+function agendar(){ clearTimeout(tourTimer); tourTimer=setTimeout(()=>passo(1),ST.tourMs) }
+function iniciarTour(){ ST.tour=true; if(!ST.sel) selecionar(ORDEM[0]); else { cartao(); agendar() } $('#b-tour').textContent='Pausar' }
+function pararTour(){ ST.tour=false; clearTimeout(tourTimer); $('#b-tour').textContent='Apresentar'; if(ST.sel) cartao() }
+
+/* ---------- ator, trilha, exportação ---------- */
+function buildTrilha(){
+  let s='<span class="tr-txt" id="tr-txt"></span><div class="tr-dots">', ult=null;
+  ORDEM.forEach((id,i)=>{ const n=NO[id];
+    if(ult!==null&&ult!==n.fase) s+='<i class="tr-sep"></i>'; ult=n.fase;
+    s+=`<button class="tr-d f${n.fase}" data-id="${id}" title="${i+1}. ${esc(n.titulo)}" aria-label="Etapa ${i+1}: ${esc(n.titulo)}"></button>`;
+  });
+  $('#trilha').innerHTML=s+'</div>';
+  $('#trilha').querySelectorAll('.tr-d').forEach(b=>b.onclick=()=>selecionar(b.dataset.id));
+}
+function buildAtorMenu(){
+  if(ST.lane && !LAY.lanes.some(l=>l.id===ST.lane)) ST.lane=null;
+  let h='<button class="ator-b" data-lane="" aria-pressed="true"><span><b>Todos os atores</b></span></button>';
+  LAY.lanes.forEach(l=>{
+    if(ST.editando && ST.editandoLane===l.id){
+      h+=`<div class="ator-edit">
+        <input id="in-lane-nome" value="${esc(l.nome)}" placeholder="Nome do ator" maxlength="80">
+        <input id="in-lane-sub" value="${esc(l.sub)}" placeholder="Subtítulo" maxlength="160">
+        <div class="edita-botoes"><button class="btn primary" data-salvar-lane="${l.id}">Salvar</button><button class="btn" data-cancelar-lane="1">Cancelar</button></div>
+      </div>`;
+    } else {
+      h+=`<div class="ator-linha"><button class="ator-b" data-lane="${l.id}" aria-pressed="false"><span><b>${esc(l.nome)}</b><small>${esc(l.sub)} · ${LAY.nos.filter(n=>n.lane===l.id).length} etapas</small></span></button>${ST.editando?`<button class="btn-editar-texto" data-editar-lane="${l.id}" title="Editar rótulo do ator">✏️</button>`:''}</div>`;
+    }
+  });
+  $('#ator-pop').innerHTML=h;
+  $('#ator-pop').querySelectorAll('.ator-b').forEach(b=>b.onclick=()=>{ setLane(b.dataset.lane||null); $('#m-ator').open=false });
+  $('#ator-pop').querySelectorAll('[data-editar-lane]').forEach(b=>b.addEventListener('click',e=>{ e.stopPropagation(); ST.editandoLane=b.dataset.editarLane; buildAtorMenu(); const i=$('#in-lane-nome'); if(i){ i.focus(); i.select() } }));
+  $('#ator-pop').querySelectorAll('.ator-edit input').forEach(inp=>inp.addEventListener('keydown',e=>{
+    e.stopPropagation();
+    if(e.key==='Enter'){ e.preventDefault(); salvarLaneEditada(ST.editandoLane) }
+    else if(e.key==='Escape'){ e.preventDefault(); ST.editandoLane=null; buildAtorMenu() }
+  }));
+  $('#ator-pop').querySelectorAll('[data-salvar-lane]').forEach(b=>b.addEventListener('click',e=>{ e.stopPropagation(); salvarLaneEditada(b.dataset.salvarLane) }));
+  $('#ator-pop').querySelectorAll('[data-cancelar-lane]').forEach(b=>b.addEventListener('click',e=>{ e.stopPropagation(); ST.editandoLane=null; buildAtorMenu() }));
+}
+function salvarLaneEditada(laneId){
+  const nomeInp=$('#in-lane-nome'), subInp=$('#in-lane-sub');
+  const nome=(nomeInp&&nomeInp.value||'').trim(), sub=(subInp&&subInp.value||'').trim();
+  ST.editandoLane=null;
+  if(!nome){ buildAtorMenu(); return }
+  const lane=DADOS.lanes.find(l=>l.id===laneId);
+  if(lane){ lane.nome=nome; lane.sub=sub }
+  const t=carregarTextosLanes(); t[laneId]={nome,sub}; salvarTextosLanes(t);
+  build(false);
+  toast('Rótulo do ator atualizado');
+}
+function ligaLanes(){
+  svg.querySelectorAll('.lane-t,.lane-s').forEach(el=>el.addEventListener('click',e=>{ e.stopPropagation(); if(moved) return; setLane(el.dataset.lane) }));
+}
+function setLane(id){ ST.lane=(ST.lane===id)?null:id; if(ST.sel) fechar(); else update() }
+function menusFecha(){ document.querySelectorAll('details.menu').forEach(d=>d.open=false) }
+let toastT;
+function toast(msg){ const t=$('#toast'); t.textContent=msg; t.classList.add('on'); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove('on'),2600) }
+
+function exportar(modo){
+  const cs=getComputedStyle(document.documentElement), full=modo==='fluxo', NS='http://www.w3.org/2000/svg';
+  const vars=['--bg0','--bg1','--node','--ink','--mute','--line','--accent','--accent2','--amber','--edge','--edge-on','--band-a','--band-b','--warn-bg','--warn-ink','--glass'];
+  const c=svg.cloneNode(true); c.removeAttribute('id'); c.classList.remove('enter','ov'); c.classList.add('z');
+  if(full){
+    c.classList.remove('focus');
+    c.querySelectorAll('.dim,.nb,.sel,.on,.lane-on').forEach(e=>e.classList.remove('dim','nb','sel','on','lane-on'));
+    const t=c.querySelector('#atag'); if(t) t.style.display='none';
+  }
+  const vb=full?{x:0,y:0,w:LAY.W,h:LAY.H}:{x:cam.x,y:cam.y,w:cam.w,h:cam.h};
+  const k=Math.min(2,7000/Math.max(vb.w,vb.h)), W=Math.round(vb.w*k), H=Math.round(vb.h*k);
+  c.setAttribute('xmlns',NS); c.setAttribute('viewBox',`${vb.x} ${vb.y} ${vb.w} ${vb.h}`); c.setAttribute('width',W); c.setAttribute('height',H);
+  c.setAttribute('style',vars.map(v=>`${v}:${cs.getPropertyValue(v).trim()}`).join(';'));
+  const st=document.createElementNS(NS,'style'); st.textContent=document.querySelector('style').textContent+'\nsvg{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}';
+  const bg=document.createElementNS(NS,'rect');
+  [['x',vb.x-5],['y',vb.y-5],['width',vb.w+10],['height',vb.h+10],['fill',cs.getPropertyValue('--bg1').trim()]].forEach(a=>bg.setAttribute(a[0],a[1]));
+  c.insertBefore(bg,c.firstChild); c.insertBefore(st,c.firstChild);
+  const url=URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(c)],{type:'image/svg+xml;charset=utf-8'}));
+  const img=new Image();
+  img.onload=()=>{
+    const cv=document.createElement('canvas'); cv.width=W; cv.height=H; cv.getContext('2d').drawImage(img,0,0,W,H); URL.revokeObjectURL(url);
+    cv.toBlob(b=>{ const a=document.createElement('a'); a.href=URL.createObjectURL(b);
+      a.download=`fluxograma-${full?'completo':'vista'}.png`;
+      document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),4000); toast('Imagem gerada'); },'image/png');
+  };
+  img.onerror=()=>toast('Não foi possível gerar a imagem neste navegador');
+  img.src=url;
+}
+function copiarTexto(){
+  const n=NO[ST.sel]; if(!n){ toast('Selecione uma etapa primeiro'); return }
+  const lane=DADOS.lanes.find(l=>l.id===n.lane);
+  const bs=b=>`- [${KIND[b.k][0]}] ${b.ref}${b.t?': '+b.t:''}\n`;
+  let t=`Etapa ${IDX[n.id]} de ${ORDEM.length} — ${n.titulo}\nFase: ${DADOS.fases[n.fase]}\nAtor: ${lane.nome} (${lane.sub})\n\n${n.desc}\n`;
+  if(n.prazo) t+=`\nPrazo: ${n.prazo}\n`;
+  if(n.docs) t+=`\nDocumentos: ${n.docs}\n`;
+  if(n.base&&n.base.length) t+=`\nDetalhes:\n`+n.base.map(bs).join('');
+  if(n.nota) t+=`\nAtenção: ${n.nota}\n`;
+  t+=`\nFonte: RASCUNHO de trabalho do fluxo do processo do Fiscal de Contrato — fora do sistema, data-base 22/09/2026 (revisão em andamento com a A/NMI).`;
+  const ok=()=>toast('Texto da etapa copiado');
+  const fallback=()=>{ const ta=document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');ok()}catch(e){toast('Não foi possível copiar')} ta.remove() };
+  if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(ok,fallback); else fallback();
+}
+
+/* ---------- apêndices ---------- */
+function aba(t){
+  document.querySelectorAll('[role=tab]').forEach(b=>b.setAttribute('aria-selected',b.dataset.t===t));
+  const A=$('#modal-body');
+  if(t==='tempo'){
+    let cur=null, s='<div class="tl"><p class="aviso-mod">Etapas com prazo ou regra automática, na ordem do processo. Clique numa etapa para ir até ela no fluxo.</p>';
+    ORDEM.filter(id=>NO[id].prazo).forEach(id=>{ const n=NO[id], ln=DADOS.lanes.find(l=>l.id===n.lane);
+      if(n.fase!==cur){ cur=n.fase; s+=`<h4 class="f${n.fase}">${esc(DADOS.fases[n.fase])}</h4>` }
+      s+=`<button class="tl-i f${n.fase}" data-id="${id}"><b>${IDX[id]}. ${esc(n.titulo)}</b><span class="a">${esc(ln.nome)}</span><span class="p">${esc(n.prazo)}</span></button>`;
+    });
+    A.innerHTML=s+'</div>';
+    A.querySelectorAll('.tl-i').forEach(b=>b.onclick=()=>{ modal(false); selecionar(b.dataset.id) });
+  } else if(t==='prazos'){
+    const rows=DADOS.nos.filter(n=>n.prazo).map(n=>`<tr><td class="tema">${esc(n.titulo)}</td><td>${esc(DADOS.fases[n.fase])}</td><td>${esc(n.prazo)}</td></tr>`).join('');
+    A.innerHTML=`<table><thead><tr><th>Etapa</th><th>Fase</th><th>Prazo / regra</th></tr></thead><tbody>${rows}</tbody></table>`;
+  } else if(t==='lac'){
+    A.innerHTML=`<ul>${DADOS.lacunas.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`;
+  } else if(t==='fontes'){
+    A.innerHTML=`<ul>${DADOS.fontes.map(f=>`<li>${esc(f[0])}${f[1]?` — <a href="${esc(f[1])}" target="_blank" rel="noopener">${esc(f[1])}</a>`:''}</li>`).join('')}</ul>`;
+  } else {
+    const j=estadoAtualJSON();
+    A.innerHTML=`<p class="aviso-mod">Tudo que foi arrastado/criado/excluído/editado no navegador, num só bloco — cole isso numa mensagem pro Claude pra ele incorporar de vez no arquivo (o que fica só no navegador não é salvo sozinho no arquivo).</p>
+      <textarea id="ta-exportar" readonly style="width:100%;height:50vh;background:var(--bg1);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px;font-family:ui-monospace,Consolas,monospace;font-size:.78rem;box-sizing:border-box"></textarea>
+      <div style="margin-top:8px"><button class="btn primary" id="b-copiar-exportar">Copiar</button></div>`;
+    $('#ta-exportar').value=j;
+    $('#b-copiar-exportar').onclick=()=>{
+      const ta=$('#ta-exportar'); ta.select();
+      const ok=()=>toast('Estado copiado — cole numa mensagem pro Claude');
+      const falha=()=>{ try{document.execCommand('copy');ok()}catch(e){toast('Não foi possível copiar — selecione e copie manualmente')} };
+      if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(j).then(ok,falha); else falha();
+    };
+  }
+}
+// Junta DADOS com tudo que está salvo no localStorage (posições, setas
+// criadas/excluídas, etapas duplicadas/excluídas, texto e ator editados,
+// altura de raia, posição de barra/ícone) num só bloco — pra trazer o
+// estado do navegador de volta pro arquivo antes de tornar permanente.
+function estadoAtualJSON(){
+  const removidosNo=new Set(carregarNosRemovidos());
+  const novos=carregarNosNovos();
+  const posOverrides=carregarPosicoes();
+  const nos=[...DADOS.nos,...novos].filter(n=>!removidosNo.has(n.id)).map(n=>{
+    const o={...n}; const p=posOverrides[n.id];
+    if(p) o._posArrastada={x:Math.round(p.x),y:Math.round(p.y)};
+    return o;
+  });
+  const removidasAr=new Set(carregarArestasRemovidas());
+  const arestasBase=DADOS.arestas.filter(a=>!removidasAr.has(a[0]+'|'+a[1]))
+    .map(a=>({de:a[0],para:a[1],rot:a[2]||'',volta:!!a[4]}));
+  const arestasNovas=carregarArestasNovas().map(a=>({de:a.de,para:a.para,rot:a.rot||'',deLado:a.deLado,paraLado:a.paraLado}));
+  return JSON.stringify({
+    geradoEm:new Date().toISOString(),
+    fases:DADOS.fases,
+    lanes:DADOS.lanes,
+    alturaLaneArrastada:ALTLANE,
+    nos,
+    arestas:[...arestasBase,...arestasNovas],
+    posBarrasArrastadas:carregarPosBarras(),
+    posIconesArrastados:carregarPosIcones()
+  }, null, 2);
+}
+function modal(abrir){ $('#modal').hidden=!abrir; if(abrir) aba(document.querySelector('[role=tab][aria-selected=true]').dataset.t) }
+
+/* ---------- interação: arrastar, zoom, minimapa, teclado ---------- */
+let moved=false, drag=null;
+function iniciarInteracao(){
+  stage.addEventListener('pointerdown',e=>{
+    if(e.button!==0) return;
+    drag={x:e.clientX,y:e.clientY,cx:cam.x,cy:cam.y,id:e.pointerId}; moved=false;
+  });
+  window.addEventListener('pointermove',e=>{
+    if(!drag) return;
+    const dx=e.clientX-drag.x, dy=e.clientY-drag.y;
+    if(!moved && Math.hypot(dx,dy)<5) return;
+    if(!moved){ moved=true; stage.classList.add('drag'); if(tween){cancelAnimationFrame(tween);tween=null} }
+    const s=vw/cam.w; cam.x=drag.cx-dx/s; cam.y=drag.cy-dy/s; aplicar();
+  });
+  window.addEventListener('pointerup',()=>{ if(drag){ drag=null; stage.classList.remove('drag'); setTimeout(()=>moved=false,0) } });
+  stage.addEventListener('wheel',e=>{
+    e.preventDefault(); if(tween){cancelAnimationFrame(tween);tween=null}
+    const f=Math.exp(-e.deltaY*(e.ctrlKey?.01:.0018)), s0=vw/cam.w, s1=Math.max(fitS*.8,Math.min(4.5,s0*f));
+    const wx=cam.x+e.clientX/s0, wy=cam.y+e.clientY/s0;
+    cam.w=vw/s1; cam.h=cam.w*vh/vw; cam.x=wx-e.clientX/s1; cam.y=wy-e.clientY/s1; aplicar();
+  },{passive:false});
+  $('#mini').addEventListener('click',e=>{
+    const r=$('#minisvg').getBoundingClientRect(), wx=(e.clientX-r.left)/r.width*LAY.W, wy=(e.clientY-r.top)/r.height*LAY.H;
+    const s=vw/cam.w; ir({x:wx-vw/s/2,y:wy-vh/s/2,w:cam.w},600);
+  });
+  stage.addEventListener('click',e=>{ if(moved) return; if(e.target.closest('.no,.lane-t,.lane-s')) return; if(ST.sel) fechar() });
+  window.addEventListener('keydown',e=>{
+    if(e.target.matches('input')){ if(e.key==='Enter'){ const m=ORDEM.find(id=>casa(NO[id])); if(m) selecionar(m) } if(e.key!=='Escape') return }
+    if(e.key==='Escape'){ if(!$('#modal').hidden) modal(false); else if(ST.selAresta){ ST.selAresta=null; atualizarSelecaoAresta() } else if(ST.sel) fechar(); else document.activeElement&&document.activeElement.blur() }
+    else if(e.key==='ArrowRight'||e.key==='ArrowDown'){ if(!$('#modal').hidden) return; e.preventDefault(); passo(1) }
+    else if(e.key==='ArrowLeft'||e.key==='ArrowUp'){ if(!$('#modal').hidden) return; e.preventDefault(); passo(-1) }
+    else if((e.key==='Delete'||e.key==='Backspace') && ST.editando){ e.preventDefault(); if(ST.selAresta) excluirArestaSelecionada(); else if(ST.sel) excluirNoSelecionado() }
+    else if((e.ctrlKey||e.metaKey)&&(e.key==='d'||e.key==='D')&&ST.editando&&ST.sel){ e.preventDefault(); duplicarNoSelecionado() }
+    else if(ST.editando&&ST.selAresta&&(e.key==='s'||e.key==='S')){ e.preventDefault(); rotularArestaSelecionada('Sim') }
+    else if(ST.editando&&ST.selAresta&&(e.key==='n'||e.key==='N')){ e.preventDefault(); rotularArestaSelecionada('Não') }
+    else if(ST.editando&&ST.selAresta&&(e.key==='l'||e.key==='L')){ e.preventDefault(); rotularArestaSelecionada('') }
+  });
+  let rt; window.addEventListener('resize',()=>{ clearTimeout(rt); rt=setTimeout(()=>{ medir(); ST.sel?focarNo(ST.sel,0):visaoGeral(0) },120) });
+}
+
+/* ---------- inicialização ---------- */
+function iniciar(){
+  const qp=new URLSearchParams(location.search);
+  if(qp.get('embed')==='1') document.body.classList.add('embed');
+  const tm=qp.get('tema'); if(tm==='dark'||tm==='light') document.documentElement.dataset.theme=tm;
+  window.addEventListener('message',e=>{
+    if(e.origin!==location.origin) return;
+    const d=e.data; if(d&&d.tipo==='tema'&&(d.valor==='dark'||d.valor==='light')) document.documentElement.dataset.theme=d.valor;
+  });
+  svg=$('#svg'); stage=$('#stage'); medir();
+  $('#fases').innerHTML=Object.keys(DADOS.fases).map(f=>`<button class="chip f${f}" data-f="${f}" aria-pressed="false">${esc(DADOS.fases[f])}</button>`).join('');
+  $('#fases').addEventListener('click',e=>{ const b=e.target.closest('.chip'); if(!b) return; const f=+b.dataset.f;
+    ST.fases.has(f)?ST.fases.delete(f):ST.fases.add(f); b.setAttribute('aria-pressed',ST.fases.has(f)); if(ST.sel) fechar(); update() });
+  $('#sel-vel').onchange=e=>{ ST.tourMs=+e.target.value; if(ST.sel){ cartao(); if(ST.tour) agendar() } };
+  $('#x-fluxo').onclick=()=>{ menusFecha(); exportar('fluxo') };
+  $('#x-vista').onclick=()=>{ menusFecha(); exportar('vista') };
+  $('#x-texto').onclick=()=>{ menusFecha(); copiarTexto() };
+  $('#b-reset-pos').onclick=()=>{
+    menusFecha(); limparPosicoes(); limparPosBarras(); limparPosIcones(); limparAlturaLanes(); ALTLANE={};
+    const sel=ST.sel; pararTour(); ST.sel=null; history.replaceState(null,'',location.pathname+location.search);
+    build(false);
+    if(sel&&NO[sel]) selecionar(sel); else visaoGeral(0);
+    toast('Arranjo manual redefinido');
+  };
+  $('#b-reset-estrutura').onclick=()=>{
+    menusFecha(); limparEdicoesEstrutura(); limparPosIcones(); ST.selAresta=null;
+    pararTour(); ST.sel=null; history.replaceState(null,'',location.pathname+location.search);
+    build(false); visaoGeral(0);
+    toast('Setas e conectores redefinidos');
+  };
+  $('#b-editar').onclick=()=>{
+    ST.editando=!ST.editando; ST.selAresta=null; ST.editandoTexto=false; ST.editandoLane=null; atualizarSelecaoAresta();
+    $('#b-editar').setAttribute('aria-pressed',String(ST.editando));
+    svg.classList.toggle('modo-edicao',ST.editando);
+    if(ST.sel) cartao();
+    buildAtorMenu();
+    toast(ST.editando?'Modo edição ligado — selecione e aperte Delete, ou arraste da bolinha pra criar seta':'Modo edição desligado');
+  };
+  $('#busca').oninput=e=>{ ST.q=e.target.value.trim().toLowerCase(); if(ST.sel) fechar(); update() };
+  $('#b-fit').onclick=()=>{ ST.sel?fechar():visaoGeral(900) };
+  $('#b-tour').onclick=()=>ST.tour?pararTour():iniciarTour();
+  $('#b-theme').onclick=()=>{ const r=document.documentElement, escuro=(r.dataset.theme==='dark')||(!r.dataset.theme&&!matchMedia('(prefers-color-scheme: light)').matches); r.dataset.theme=escuro?'light':'dark' };
+  $('#b-apend').onclick=()=>modal(true); $('#b-close-modal').onclick=()=>modal(false);
+  $('#modal').addEventListener('click',e=>{ if(e.target.id==='modal') modal(false) });
+  $('#tabs').addEventListener('click',e=>{ const b=e.target.closest('[role=tab]'); if(b) aba(b.dataset.t) });
+  iniciarInteracao();
+  build(true); visaoGeral(0);
+  const h=location.hash.slice(1);
+  if(h&&NO[h]) setTimeout(()=>selecionar(h),RM?0:1400);
+}
+iniciar();
+</script>
+</body>
+</html>

@@ -4,7 +4,7 @@ Referência única para montar (ou reconstruir) o ambiente de desenvolvimento em
 (laptop XPS, desktop Windows, mini PC "salomão" via Remote-SSH). Vale para todos os projetos:
 `Salomao_Energy_AI`, `16_Plataforma_App`, `18_Consulta_Fotos_ARP2026`.
 
-Última revisão: **2026-10-03**. Responsável: Willians Gaspar (decisão), via Claude Code (execução).
+Última revisão: **2026-10-14** (alinhado ao `.vscode/extensions.json`). Responsável: Willians Gaspar (decisão), via Claude Code (execução).
 
 ## 1. Extensões
 
@@ -13,10 +13,8 @@ Referência única para montar (ou reconstruir) o ambiente de desenvolvimento em
 | Extensão | ID | Para quê |
 |---|---|---|
 | Claude Code | `anthropic.claude-code` | Assistente principal |
-| Codex / ChatGPT | `openai.chatgpt` | Segunda opinião; integração manual Claude↔Codex |
 | Python + Pylance + Debugpy | `ms-python.python`, `.vscode-pylance`, `.debugpy` | Backend e scripts |
 | Ruff | `charliermarsh.ruff` | Lint/format Python (traz o binário embutido) |
-| Jupyter | `ms-toolsai.jupyter` | Análises exploratórias (ONS, Pareto/VRA) |
 | Docker | `ms-azuretools.vscode-docker` | Compose do DEV/PROD |
 | Remote-SSH / Remote-WSL | `ms-vscode-remote.remote-ssh`, `.remote-wsl` | Mini PC, Oracle A1, WSL2 |
 | GitHub PR + Actions | `github.vscode-pull-request-github`, `github.vscode-github-actions` | PRs e CI (`tests.yml`, `deploy.yml`) |
@@ -27,9 +25,12 @@ Referência única para montar (ou reconstruir) o ambiente de desenvolvimento em
 | Error Lens | `usernamehw.errorlens` | Diagnóstico inline |
 | Code Spell Checker + pt-BR | `streetsidesoftware.code-spell-checker`, `…-portuguese-brazilian` | Ortografia dos documentos |
 | Rainbow CSV, PDF, PowerShell | `mechatroner.rainbow-csv`, `tomoki1207.pdf`, `ms-vscode.powershell` | Dados, PDFs normativos, scripts |
+| Pretty TS Errors, Excel Viewer, Git Graph | `yoavbls.pretty-ts-errors`, `grapecity.gc-excelviewer`, `mhutchie.git-graph` | Erros de TS legíveis, planilhas, histórico visual do git |
 
 **Só para projetos web (16_Plataforma_App)**: `dbaeumer.vscode-eslint`, `esbenp.prettier-vscode`,
 `bradlc.vscode-tailwindcss`, `ms-playwright.playwright`.
+
+**Não recomendadas (`unwantedRecommendations`):** Jupyter e extensões associadas, Live Server, `openai.chatgpt`, `openai.codex-audio` e `anytechiestudio.graphify-vscode`. Desinstaladas em 2026-10-03. O comando de instalação abaixo lê só `recommendations`, então elas ficam de fora.
 
 **Removidas de propósito (não reinstalar sem motivo):** Oracle Cloud toolkits (a VM é gerida por
 SSH), Microsoft Fabric/Power BI, SQL Server (`mssql`; o banco é PostgreSQL), C/C++/CMake, vscode-icons

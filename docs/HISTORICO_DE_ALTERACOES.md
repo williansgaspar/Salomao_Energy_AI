@@ -39,11 +39,34 @@ pelo menos o resumo com quem/por quê/quando e o link para o documento completo.
 | Campo | Conteúdo |
 |---|---|
 | Tipo | Adição / Exclusão (ambiente de desenvolvimento; sem efeito nos dados do Salomão) |
-| O que | Criado `docs/PADRAO_VSCODE.md` (extensões essenciais e removidas, ferramentas de sistema, configurações globais, manutenção) e `.vscode/extensions.json`. Removidas 27 extensões sem uso (Oracle, Fabric/Power BI, SQL Server, C/C++, temas redundantes); instaladas 16 (Ruff, PostgreSQL, GitLens, Jupyter, markdownlint, cSpell pt-BR, ESLint, Prettier, Tailwind, Playwright etc.). `settings.json` do usuário ajustado (UTF-8/LF, formatação só das linhas modificadas, cSpell com glossário do setor). Instalados no sistema: ruff, pre-commit, ipykernel, pandoc, uv, DBeaver. |
-| Por quê | Pedido do Willians: padronizar o ambiente entre máquinas e projetos. `psql` 17 (winget) foi bloqueado pelo Smart App Control (binário sem assinatura); a política não foi contornada. Depois o Willians baixou o instalador oficial 18.6: `psql` e `pg_dump` rodam, `pg_restore` segue bloqueado (usar via container). Correção: o laptop é de propriedade particular do Willians, não equipamento público. |
+| O que | Criado `docs/PADRAO_VSCODE.md` (extensões essenciais e removidas, ferramentas de sistema, configurações globais, manutenção) e `.vscode/extensions.json`. Removidas 27 extensões sem uso (Oracle, Fabric/Power BI, SQL Server, C/C++, temas redundantes); instaladas 16 (Ruff, PostgreSQL, GitLens, Jupyter [depois desinstalado no mesmo dia; ver entrada de 2026-10-03 abaixo], markdownlint, cSpell pt-BR, ESLint, Prettier, Tailwind, Playwright etc.). `settings.json` do usuário ajustado (UTF-8/LF, formatação só das linhas modificadas, cSpell com glossário do setor). Instalados no sistema: ruff, pre-commit, ipykernel, pandoc, uv, DBeaver. |
+| Por quê | Pedido do Willians: padronizar o ambiente entre máquinas e projetos. `psql` 17 (winget) foi bloqueado pelo Smart App Control (binário sem assinatura); a política não foi contornada. Depois o Willians baixou o instalador oficial 18.6: `psql` e `pg_dump` rodam, `pg_restore` segue bloqueado (usar via container). Correção posterior (registrada em 2026-10-14): o laptop é de propriedade particular do Willians, não equipamento público; o texto original dizia o contrário. |
 | Quando | 2026-10-03 |
 | Quem | Willians Gaspar (autorizou), via Claude Code (execução) |
 | Referência | `docs/PADRAO_VSCODE.md`; `16_Plataforma_App/HISTORICO_DE_ALTERACOES.md` (entrada de mesma data) |
+
+### Alteração — Ajustes posteriores do padrão do VS Code (commits `593bc08`, `077d3af`, `31da97d`, `c66c1f4`)
+
+| Campo | Conteúdo |
+|---|---|
+| Tipo | Alteração / Exclusão (ambiente de desenvolvimento) |
+| O que | `.editorconfig` (UTF-8, LF, indentação) sem alterar as regras de fim de linha dos textos normativos; 3 extensões novas recomendadas (`pretty-ts-errors`, `gc-excelviewer`, `git-graph`); Jupyter (e associadas), Live Server, `openai.chatgpt`, `openai.codex-audio` e `graphify-vscode` movidos para `unwantedRecommendations` e desinstalados. `docs/PADRAO_VSCODE.md` alinhado ao `extensions.json` em 2026-10-14. |
+| Por quê | Enxugar o ambiente depois da primeira rodada; o Jupyter e o Codex no VS Code não eram usados. Entrada criada com atraso (revisão de 2026-10-14 apontou a lacuna). |
+| Quando | 2026-10-03 (commits); 2026-10-14 (registro e ajuste do PADRAO) |
+| Quem | Willians Gaspar (decidiu), via Claude Code (execução) |
+| Referência | Commits `593bc08`, `077d3af`, `31da97d`, `c66c1f4`; `.vscode/extensions.json`; `docs/PADRAO_VSCODE.md` |
+
+### Adição — Fluxograma do processo DEVEC/ICMS da energia no ACL (`docs/diagramas/fluxo-devec-icms-acl.html`)
+
+| Campo | Conteúdo |
+|---|---|
+| Tipo | Adição (material de apoio; não é fonte normativa final) |
+| O que | Fluxograma interativo (skill `fluxograma`) do processo DEVEC da SEFAZ-RJ. Partiu de um rascunho em Mermaid gerado pelo Gemini e foi revisado contra o Manual DEVEC v1.1 (jan/2018) e as Res. SEFAZ 177/2017, 19/2019 e 62/2019, que alteram o Anexo XV da Res. SEFAZ 720/2014, e a Res. CGM 2082/2025 (prazos da PCRJ) (texto lido em republicações, não no DOE). Correções principais: janela do consumidor (o rascunho dizia dias 01–14; o diagrama usa o prazo de dia 14, que consta no manual v1.1, na Res. CGM 2082/2025 e na cartilha da CCEE, mas **não está confirmado em norma**: o art. 16 na redação da Res. SEFAZ 177/2017 diz dia 10 e o ato que mudou o prazo não foi localizado); status I/C/N do arquivo de preço médio; dispensa anual; retificação (art. 17-A) e extemporânea (art. 17-B) separadas; análise pela AFE 03. |
+| Por quê | Pedido do Willians (A/NMI) para entender o processo e, depois, confrontar o rascunho com fonte oficial. |
+| Quando | 2026-10-03 |
+| Quem | Willians Gaspar (pedido), via Claude Code (execução) |
+| Ajuste de layout (campo extra, não previsto na tabela de campos) | Fluxo dobrado em duas camadas (linha de cima da esquerda para a direita, a de baixo de volta) e retificação no canto esquerdo: largura de 4.884 px para 2.552 px (22 para 11 colunas). No arquivo do diagrama, o motor ganhou coluna fixa por caixa (`col`), lado de saída/entrada nas setas do `DADOS` e numeração das etapas na ordem narrativa; as chaves de armazenamento do navegador foram renovadas, então posições arrastadas antes não valem mais. |
+| Referência | `docs/diagramas/fluxo-devec-icms-acl.html` (commit desta entrada). Pontos em aberto no próprio diagrama ("Pontos a confirmar"): ato que mudou o prazo de dia 10 para 14, manual vigente (v1.8B citado pela Consulta 54/2021), recolhimento (DARJ/GNRE) e desfecho do indeferimento. |
 
 ---
 
