@@ -33,3 +33,6 @@ evals/resultados/
 
 # Generated publication variant; canonical bulletin remains versioned
 Atualizacoes_Mercado/Boletim_Atualizacoes_SEB_web.html
+
+# Saidas temporarias de analise (podem conter dados operacionais; nunca versionar)
+tmp/
